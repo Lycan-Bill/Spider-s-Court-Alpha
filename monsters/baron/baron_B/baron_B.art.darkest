@@ -1,0 +1,12 @@
+commonfx: .deathfx death_large_boss
+skill: .id "necessary_discipline" .anim "attack_tentacles" .fx "necessary_discipline" .targchestfx "blood_splatter" .area_pos_offset 0 35
+skill: .id "forced_enthusiasm" .anim "attack_tentacles" .fx "forced_enthusiasm" .targchestfx "forced_enthusiasm_target" .area_pos_offset 0 25
+skill: .id "baron_hunger" .anim "attack_maw" .fx "baron_hunger" .targchestfx "blood_splatter"
+skill: .id "crowd_pleaser" .anim "attack_arm" .fx "crowd_pleaser" .targchestfx "blood_splatter" .area_pos_offset 100 0 .target_area_pos_offset 200 0
+skill: .id "baron_hunger_human" .anim "attack_maw" .fx "baron_hunger" .targchestfx "blood_splatter"
+skill: .id "baron_laugh" .anim "attack_laugh" .fx "attack_laugh"
+skill: .id "baron_wip" .anim "attack_whip" .fx "attack_whip"
+skill: .id "Showboating" .anim "attack_praise" .fx "attack_praise"
+skill: .id "baron_silence" .anim "attack_tentacles" .fx "necessary_discipline" .custom_target_anim "defend"
+rendering: .sort_position_z_rank_override -5
+audio_modifier: .ambience_parameter_ids crowd .ambience_parameter_values 1.0 .intensity 3

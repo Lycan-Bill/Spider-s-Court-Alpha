@@ -1,0 +1,41 @@
+
+sommeilier.sprite.attack_drink.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cupdrops_1
+  rotate: false
+  xy: 2280, 978
+  size: 103, 37
+  orig: 103, 37
+  offset: 0, 0
+  index: -1
+cupdrops_2
+  rotate: false
+  xy: 1237, 226
+  size: 84, 32
+  orig: 84, 32
+  offset: 0, 0
+  index: -1
+glassglow
+  rotate: false
+  xy: 1237, 260
+  size: 187, 109
+  orig: 187, 109
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 1237, 371
+  size: 1041, 644
+  orig: 1041, 644
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: true
+  xy: 2, 2
+  size: 1013, 1233
+  orig: 1013, 1233
+  offset: 0, 0
+  index: -1

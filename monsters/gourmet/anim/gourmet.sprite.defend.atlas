@@ -1,0 +1,27 @@
+
+gourmet.sprite.defend.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gourmet_defend
+  rotate: false
+  xy: 2, 67
+  size: 528, 679
+  orig: 528, 679
+  offset: 0, 0
+  index: -1
+Gourmet_defendbeast
+  rotate: false
+  xy: 532, 172
+  size: 445, 574
+  orig: 445, 574
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

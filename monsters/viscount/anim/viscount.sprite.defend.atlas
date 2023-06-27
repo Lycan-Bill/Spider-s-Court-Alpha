@@ -1,0 +1,27 @@
+
+viscount.sprite.defend.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Defend_human
+  rotate: true
+  xy: 2, 638
+  size: 1285, 2050
+  orig: 1285, 2050
+  offset: 0, 0
+  index: -1
+defend
+  rotate: true
+  xy: 2, 2
+  size: 634, 920
+  orig: 634, 920
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2054, 1860
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

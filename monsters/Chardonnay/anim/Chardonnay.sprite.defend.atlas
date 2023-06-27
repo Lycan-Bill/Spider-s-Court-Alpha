@@ -1,0 +1,13 @@
+
+Chardonnay.sprite.defend.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background (pasted)
+  rotate: true
+  xy: 2, 2
+  size: 837, 1229
+  orig: 837, 1229
+  offset: 0, 0
+  index: -1

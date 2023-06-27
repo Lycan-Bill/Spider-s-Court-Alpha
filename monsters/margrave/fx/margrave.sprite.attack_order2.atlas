@@ -1,0 +1,62 @@
+
+margrave.sprite.attack_order2.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flies_1
+  rotate: false
+  xy: 1938, 527
+  size: 721, 470
+  orig: 721, 470
+  offset: 0, 0
+  index: -1
+flies_2
+  rotate: false
+  xy: 2661, 556
+  size: 613, 441
+  orig: 613, 441
+  offset: 0, 0
+  index: -1
+flies_3
+  rotate: false
+  xy: 1309, 417
+  size: 627, 580
+  orig: 627, 580
+  offset: 0, 0
+  index: -1
+glow1
+  rotate: false
+  xy: 2, 7
+  size: 830, 990
+  orig: 830, 990
+  offset: 0, 0
+  index: -1
+swirl_1
+  rotate: false
+  xy: 1309, 271
+  size: 294, 144
+  orig: 294, 144
+  offset: 0, 0
+  index: -1
+swirl_2
+  rotate: false
+  xy: 834, 2
+  size: 441, 249
+  orig: 441, 249
+  offset: 0, 0
+  index: -1
+swirl_3
+  rotate: false
+  xy: 3276, 758
+  size: 512, 239
+  orig: 512, 239
+  offset: 0, 0
+  index: -1
+swirl_4
+  rotate: false
+  xy: 834, 253
+  size: 473, 744
+  orig: 473, 744
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+sommeilier.sprite.attack_lunge.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spriteshadow
+  rotate: false
+  xy: 2, 80
+  size: 1157, 1344
+  orig: 1157, 1344
+  offset: 0, 0
+  index: -1
+swordflare
+  rotate: false
+  xy: 1161, 1269
+  size: 152, 155
+  orig: 152, 155
+  offset: 0, 0
+  index: -1
+swordshine
+  rotate: false
+  xy: 2, 2
+  size: 545, 76
+  orig: 545, 76
+  offset: 0, 0
+  index: -1

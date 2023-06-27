@@ -1,0 +1,48 @@
+
+sommeilier.sprite.attack_anger.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+breath1
+  rotate: false
+  xy: 2, 211
+  size: 286, 240
+  orig: 286, 240
+  offset: 0, 0
+  index: -1
+breath2
+  rotate: false
+  xy: 290, 304
+  size: 128, 147
+  orig: 128, 147
+  offset: 0, 0
+  index: -1
+eyeglow
+  rotate: false
+  xy: 1191, 1596
+  size: 207, 161
+  orig: 207, 161
+  offset: 0, 0
+  index: -1
+eyeglow2
+  rotate: false
+  xy: 1191, 1493
+  size: 147, 101
+  orig: 147, 101
+  offset: 0, 0
+  index: -1
+glassglow
+  rotate: false
+  xy: 2, 2
+  size: 143, 207
+  orig: 143, 207
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: false
+  xy: 2, 453
+  size: 1187, 1304
+  orig: 1187, 1304
+  offset: 0, 0
+  index: -1

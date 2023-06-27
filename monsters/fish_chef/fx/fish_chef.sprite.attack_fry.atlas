@@ -1,0 +1,41 @@
+
+fish_chef.sprite.attack_fry.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 3
+  rotate: false
+  xy: 2, 437
+  size: 675, 562
+  orig: 675, 562
+  offset: 0, 0
+  index: -1
+embers_1
+  rotate: false
+  xy: 1216, 881
+  size: 145, 118
+  orig: 145, 118
+  offset: 0, 0
+  index: -1
+embers_2
+  rotate: false
+  xy: 2, 2
+  size: 98, 156
+  orig: 98, 156
+  offset: 0, 0
+  index: -1
+fire_1
+  rotate: false
+  xy: 2, 160
+  size: 115, 275
+  orig: 115, 275
+  offset: 0, 0
+  index: -1
+fire_light
+  rotate: false
+  xy: 679, 476
+  size: 535, 523
+  orig: 535, 523
+  offset: 0, 0
+  index: -1

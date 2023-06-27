@@ -1,0 +1,41 @@
+
+gourmet.sprite.the_slap_of_god_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_1
+  rotate: true
+  xy: 736, 652
+  size: 328, 266
+  orig: 328, 266
+  offset: 0, 0
+  index: -1
+arm_2
+  rotate: false
+  xy: 2, 166
+  size: 350, 278
+  orig: 350, 278
+  offset: 0, 0
+  index: -1
+smackpoint
+  rotate: true
+  xy: 354, 166
+  size: 278, 279
+  orig: 278, 279
+  offset: 0, 0
+  index: -1
+smackpoint_2
+  rotate: false
+  xy: 2, 2
+  size: 163, 162
+  orig: 163, 162
+  offset: 0, 0
+  index: -1
+smacktrail
+  rotate: false
+  xy: 2, 446
+  size: 732, 534
+  orig: 732, 534
+  offset: 0, 0
+  index: -1

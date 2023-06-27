@@ -1,0 +1,27 @@
+
+sommeilier.sprite.attack_smash_target.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+impact_1
+  rotate: true
+  xy: 2, 45
+  size: 397, 714
+  orig: 397, 714
+  offset: 0, 0
+  index: -1
+impact_2
+  rotate: true
+  xy: 718, 2
+  size: 440, 521
+  orig: 440, 521
+  offset: 0, 0
+  index: -1
+impact_3
+  rotate: false
+  xy: 1241, 309
+  size: 185, 133
+  orig: 185, 133
+  offset: 0, 0
+  index: -1

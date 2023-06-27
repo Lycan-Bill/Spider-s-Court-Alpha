@@ -1,0 +1,10 @@
+commonfx: .deathfx death_large_boss
+skill: .id "Joyous_Cheer" .anim "attack_cheer" .fx "attack_cheer" .custom_target_anim "attack_ten".area_pos_offset 100 0 .target_area_pos_offset 0 0
+skill: .id "Audience_Boo" .anim "attack_boo" .fx "attack_boo"
+skill: .id "Audience_Jeer" .anim "attack_boo" .area_pos_offset 100 0 .target_area_pos_offset 200 0
+skill: .id "Fickle_Crowd" .anim "attack_cheer" .fx "attack_cheer"
+skill: .id "Audience_Fun_Baron" .anim "attack_fun" .fx "attack_fun" .area_pos_offset 100 0 .target_area_pos_offset 200 0
+skill: .id "Audience_Fun_Hero" .anim "attack_fun" .fx "attack_fun" .targchestfx "blood_splatter"
+
+rendering: .sort_position_z_rank_override -5
+audio_modifier: .ambience_parameter_ids crowd .ambience_parameter_values 1.0

@@ -1,0 +1,27 @@
+
+sommeilier.sprite.defend.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+14
+  rotate: false
+  xy: 2, 293
+  size: 1935, 1142
+  orig: 1935, 1142
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 1939, 2
+  size: 1433, 1581
+  orig: 1433, 1581
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 228
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,55 @@
+
+margrave.sprite.attack_order3.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dust_1
+  rotate: false
+  xy: 2, 118
+  size: 984, 471
+  orig: 984, 471
+  offset: 0, 0
+  index: -1
+dust_2
+  rotate: false
+  xy: 2515, 1275
+  size: 850, 351
+  orig: 850, 351
+  offset: 0, 0
+  index: -1
+dust_3
+  rotate: false
+  xy: 2, 2
+  size: 305, 114
+  orig: 305, 114
+  offset: 0, 0
+  index: -1
+dust_4
+  rotate: false
+  xy: 988, 475
+  size: 295, 114
+  orig: 295, 114
+  offset: 0, 0
+  index: -1
+spriteshadow1
+  rotate: false
+  xy: 2, 591
+  size: 1333, 1035
+  orig: 1333, 1035
+  offset: 0, 0
+  index: -1
+sword+swish_2(TRAVELS ALONG SWISH_1)
+  rotate: false
+  xy: 2515, 1203
+  size: 181, 70
+  orig: 181, 70
+  offset: 0, 0
+  index: -1
+sword_swish_1
+  rotate: true
+  xy: 1337, 492
+  size: 1134, 1176
+  orig: 1134, 1176
+  offset: 0, 0
+  index: -1

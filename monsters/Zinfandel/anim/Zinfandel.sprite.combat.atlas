@@ -1,0 +1,13 @@
+
+Zinfandel.sprite.combat.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background (pasted)
+  rotate: false
+  xy: 2, 2
+  size: 1126, 813
+  orig: 1126, 813
+  offset: 0, 0
+  index: -1

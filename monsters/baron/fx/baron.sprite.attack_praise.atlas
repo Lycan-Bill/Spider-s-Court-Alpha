@@ -1,0 +1,62 @@
+
+baron.sprite.attack_praise.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baron_glow_1
+  rotate: false
+  xy: 2, 280
+  size: 669, 666
+  orig: 669, 666
+  offset: 0, 0
+  index: -1
+beams_1
+  rotate: false
+  xy: 673, 294
+  size: 709, 416
+  orig: 709, 416
+  offset: 0, 0
+  index: -1
+beams_2
+  rotate: false
+  xy: 2, 2
+  size: 484, 276
+  orig: 484, 276
+  offset: 0, 0
+  index: -1
+beams_3
+  rotate: false
+  xy: 3375, 711
+  size: 345, 235
+  orig: 345, 235
+  offset: 0, 0
+  index: -1
+glowzone
+  rotate: false
+  xy: 673, 712
+  size: 907, 234
+  orig: 907, 234
+  offset: 0, 0
+  index: -1
+rosepetals_1
+  rotate: false
+  xy: 1582, 567
+  size: 698, 379
+  orig: 698, 379
+  offset: 0, 0
+  index: -1
+rosepetals_2
+  rotate: true
+  xy: 2829, 465
+  size: 481, 544
+  orig: 481, 544
+  offset: 0, 0
+  index: -1
+rosepetals_3
+  rotate: false
+  xy: 2282, 464
+  size: 545, 482
+  orig: 545, 482
+  offset: 0, 0
+  index: -1

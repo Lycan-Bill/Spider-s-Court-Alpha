@@ -1,0 +1,27 @@
+
+valet.sprite.refined_palate.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_tray
+  rotate: false
+  xy: 2, 16
+  size: 407, 410
+  orig: 407, 410
+  offset: 0, 0
+  index: -1
+swarm01
+  rotate: false
+  xy: 411, 212
+  size: 324, 214
+  orig: 324, 214
+  offset: 0, 0
+  index: -1
+swarm02
+  rotate: false
+  xy: 411, 2
+  size: 315, 208
+  orig: 315, 208
+  offset: 0, 0
+  index: -1

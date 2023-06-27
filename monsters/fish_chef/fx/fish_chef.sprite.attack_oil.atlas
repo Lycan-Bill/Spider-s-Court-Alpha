@@ -1,0 +1,34 @@
+
+fish_chef.sprite.attack_oil.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fryoil_1
+  rotate: true
+  xy: 2, 2
+  size: 248, 290
+  orig: 248, 290
+  offset: 0, 0
+  index: -1
+fryoil_2
+  rotate: false
+  xy: 294, 83
+  size: 44, 85
+  orig: 44, 85
+  offset: 0, 0
+  index: -1
+fryoil_3
+  rotate: false
+  xy: 294, 170
+  size: 57, 80
+  orig: 57, 80
+  offset: 0, 0
+  index: -1
+fryoil_4
+  rotate: false
+  xy: 353, 194
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1

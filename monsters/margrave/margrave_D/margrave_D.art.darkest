@@ -1,0 +1,8 @@
+commonfx: .deathfx death_large_boss
+skill: .id "margrave_anger" .anim "attack_transform"
+skill: .id "margrave_orders" .anim "attack_order" .fx "attack_order"
+skill: .id "margrave_hold" .anim "attack_order2" .fx "attack_order2"
+skill: .id "the_hunger_human" .anim "attack_hunger" .fx "attack_hunger"
+skill: .id "margrave_sword" .anim "attack_sword" .targchestfx "blood_splatter"
+riposte_skill: .id "riposte_attack" .anim "attack_sword" .fx "riposte" .targchestfx "blood_splatter" .area_pos_offset 0 -65
+audio_modifier: .intensity 3

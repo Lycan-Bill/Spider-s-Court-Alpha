@@ -1,0 +1,34 @@
+
+gourmet.sprite.hunger_human_fx.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+abdomenglow
+  rotate: false
+  xy: 440, 107
+  size: 376, 399
+  orig: 376, 399
+  offset: 0, 0
+  index: -1
+blood_spittle_2
+  rotate: false
+  xy: 818, 454
+  size: 73, 52
+  orig: 73, 52
+  offset: 0, 0
+  index: -1
+bloodspittle_1
+  rotate: false
+  xy: 440, 46
+  size: 89, 59
+  orig: 89, 59
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 2
+  size: 436, 504
+  orig: 436, 504
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+cc_maid.sprite.attack_slash.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ebene 3
+  rotate: true
+  xy: 2, 326
+  size: 628, 1028
+  orig: 628, 1028
+  offset: 0, 0
+  index: -1
+rimlighting Kopie 2
+  rotate: true
+  xy: 2, 2
+  size: 322, 726
+  orig: 322, 726
+  offset: 0, 0
+  index: -1

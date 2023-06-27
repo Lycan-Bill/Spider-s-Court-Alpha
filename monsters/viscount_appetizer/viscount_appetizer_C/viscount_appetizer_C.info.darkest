@@ -1,0 +1,10 @@
+display: .size 1
+enemy_type: .id "food"
+stats: .hp 45 .def 0% .prot 0.25 .spd 4 .stun_resist 100% .poison_resist 90% .bleed_resist 120% .debuff_resist 80% .move_resist 75%
+skill: .id "tempting_ordor" .type "ranged" .type "melee" .atk 120% .dmg 0 0 .crit 5%  .launch 4321 .target ~12 .effect "Food Pull" "Coquette Stun Debuff 5"
+
+
+personality: .prefskill -1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id default_A
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False

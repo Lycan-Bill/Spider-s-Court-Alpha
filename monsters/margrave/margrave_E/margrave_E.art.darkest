@@ -1,0 +1,8 @@
+commonfx: .deathfx death_large_boss
+skill: .id "the_hunger_human" .anim "attack_hunger_beast"
+skill: .id "margrave_sword_multi" .anim "attack_multi_hit" .fx "attack_multi_hit_fx" .targchestfx "blood_splatter"
+skill: .id "margrave_sword_single" .anim "attack_slash" .fx "attack_slash" .targchestfx "blood_splatter"
+skill: .id "the_hunger_beast" .anim "attack_thirst" .fx "attack_thirst" .targchestfx "blood_splatter"
+riposte_skill: .id "riposte_attack" .anim "attack_single" .fx "riposte" .targchestfx "blood_splatter" .area_pos_offset 0 -65
+
+audio_modifier: .intensity 3

@@ -1,0 +1,20 @@
+
+scarab_chef.sprite.first_course.png
+size: 1105,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: true
+  xy: 2, 2
+  size: 783, 1036
+  orig: 783, 1036
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1040, 428
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

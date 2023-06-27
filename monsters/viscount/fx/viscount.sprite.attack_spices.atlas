@@ -1,0 +1,90 @@
+
+viscount.sprite.attack_spices.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood_drool
+  rotate: false
+  xy: 2353, 1253
+  size: 38, 183
+  orig: 38, 183
+  offset: 0, 0
+  index: -1
+blood_drool_2
+  rotate: false
+  xy: 2321, 746
+  size: 16, 57
+  orig: 16, 57
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 111
+  size: 1918, 2137
+  orig: 1918, 2137
+  offset: 0, 0
+  index: -1
+spice_dust
+  rotate: false
+  xy: 2141, 805
+  size: 210, 631
+  orig: 210, 631
+  offset: 0, 0
+  index: -1
+spice_flakes_2
+  rotate: false
+  xy: 3169, 1438
+  size: 71, 144
+  orig: 71, 144
+  offset: 0, 0
+  index: -1
+spice_flakes_3
+  rotate: false
+  xy: 3493, 1881
+  size: 66, 148
+  orig: 66, 148
+  offset: 0, 0
+  index: -1
+spice_flakes_4
+  rotate: false
+  xy: 2, 2
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+spice_flakes_5
+  rotate: false
+  xy: 2141, 589
+  size: 109, 77
+  orig: 109, 77
+  offset: 0, 0
+  index: -1
+spice_flakes_6
+  rotate: false
+  xy: 2141, 668
+  size: 178, 135
+  orig: 178, 135
+  offset: 0, 0
+  index: -1
+spices_flakes_1
+  rotate: true
+  xy: 2, 27
+  size: 82, 146
+  orig: 82, 146
+  offset: 0, 0
+  index: -1
+spicy_face_1 (TRANSITIONS TO spicy_face_2)
+  rotate: false
+  xy: 3169, 1584
+  size: 322, 445
+  orig: 322, 445
+  offset: 0, 0
+  index: -1
+spicy_glow
+  rotate: false
+  xy: 2141, 1438
+  size: 1026, 591
+  orig: 1026, 591
+  offset: 0, 0
+  index: -1

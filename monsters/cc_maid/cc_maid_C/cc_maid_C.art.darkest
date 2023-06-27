@@ -1,0 +1,12 @@
+commonfx: .deathfx death_medium
+skill: .id "blood_drink" .anim "attack_serve" .custom_target_anim "attack_drink"
+skill: .id "CC_maid_knives" .anim "attack_knife" .targchestfx "attack_knife_target"
+skill: .id "Delete_Boons_Wife" .anim "attack_knife" .targchestfx "attack_knife_target"
+skill: .id "CC_maid_vintage" .anim "attack_bottle" .targchestfx "attack_bottle_target"
+skill: .id "the_hunger_human" .anim "attack_hunger_human" .fx "attack_hunger_human" .targchestfx "blood_splatter"
+skill: .id "the_hunger_beast" .anim "attack_hunger_beast" .fx "attack_hunger_beast" .targchestfx "blood_splatter"
+skill: .id "CC_maid_chatter" .anim "attack_ree" .fx "attack_ree" .targchestfx "blood_splatter"
+skill: .id "CC_maid_cleave" .anim "attack_slash" .fx "attack_slash" .targchestfx "blood_splatter"
+
+defending_area_pos_offset: .offset 0 -25
+audio_modifier: .intensity 0.2

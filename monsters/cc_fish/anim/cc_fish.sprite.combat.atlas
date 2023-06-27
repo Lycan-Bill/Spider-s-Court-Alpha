@@ -1,0 +1,321 @@
+
+cc_fish.sprite.combat.png
+size: 4096,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armmon
+  rotate: false
+  xy: 1985, 359
+  size: 225, 151
+  orig: 225, 151
+  offset: 0, 0
+  index: -1
+belimon
+  rotate: false
+  xy: 2428, 331
+  size: 172, 179
+  orig: 172, 179
+  offset: 0, 0
+  index: -1
+belt
+  rotate: true
+  xy: 3052, 427
+  size: 83, 193
+  orig: 83, 193
+  offset: 0, 0
+  index: -1
+bloddrop
+  rotate: true
+  xy: 3608, 397
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 465, 250
+  size: 258, 260
+  orig: 258, 260
+  offset: 0, 0
+  index: -1
+cape
+  rotate: true
+  xy: 1438, 386
+  size: 124, 312
+  orig: 124, 312
+  offset: 0, 0
+  index: -1
+cape2
+  rotate: true
+  xy: 3220, 356
+  size: 67, 139
+  orig: 67, 139
+  offset: 0, 0
+  index: -1
+capetin
+  rotate: false
+  xy: 1731, 314
+  size: 18, 70
+  orig: 18, 70
+  offset: 0, 0
+  index: -1
+chain
+  rotate: false
+  xy: 3220, 297
+  size: 127, 57
+  orig: 127, 57
+  offset: 0, 0
+  index: -1
+chestmon
+  rotate: false
+  xy: 2212, 299
+  size: 214, 211
+  orig: 214, 211
+  offset: 0, 0
+  index: -1
+fingermon
+  rotate: false
+  xy: 3562, 354
+  size: 44, 50
+  orig: 44, 50
+  offset: 0, 0
+  index: -1
+footmon
+  rotate: false
+  xy: 264, 43
+  size: 197, 155
+  orig: 197, 155
+  offset: 0, 0
+  index: -1
+fur
+  rotate: false
+  xy: 1752, 387
+  size: 231, 123
+  orig: 231, 123
+  offset: 0, 0
+  index: -1
+furmon
+  rotate: false
+  xy: 725, 253
+  size: 259, 257
+  orig: 259, 257
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: false
+  xy: 3956, 371
+  size: 120, 139
+  orig: 120, 139
+  offset: 0, 0
+  index: -1
+handmon
+  rotate: true
+  xy: 2806, 343
+  size: 75, 152
+  orig: 75, 152
+  offset: 0, 0
+  index: -1
+handmon2
+  rotate: false
+  xy: 2602, 375
+  size: 202, 135
+  orig: 202, 135
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2960, 330
+  size: 122, 88
+  orig: 122, 88
+  offset: 0, 0
+  index: -1
+headmon
+  rotate: true
+  xy: 2960, 254
+  size: 74, 94
+  orig: 74, 94
+  offset: 0, 0
+  index: -1
+jaw1
+  rotate: true
+  xy: 2428, 248
+  size: 81, 146
+  orig: 81, 146
+  offset: 0, 0
+  index: -1
+jaw2
+  rotate: true
+  xy: 3056, 270
+  size: 48, 95
+  orig: 48, 95
+  offset: 0, 0
+  index: -1
+legmon
+  rotate: true
+  xy: 2806, 420
+  size: 90, 244
+  orig: 90, 244
+  offset: 0, 0
+  index: -1
+legs
+  rotate: false
+  xy: 986, 259
+  size: 224, 251
+  orig: 224, 251
+  offset: 0, 0
+  index: -1
+legusup
+  rotate: false
+  xy: 1212, 259
+  size: 224, 251
+  orig: 224, 251
+  offset: 0, 0
+  index: -1
+mask
+  rotate: false
+  xy: 1613, 201
+  size: 134, 105
+  orig: 134, 105
+  offset: 0, 0
+  index: -1
+mask2
+  rotate: false
+  xy: 3084, 320
+  size: 134, 105
+  orig: 134, 105
+  offset: 0, 0
+  index: -1
+mous1
+  rotate: false
+  xy: 4078, 453
+  size: 11, 57
+  orig: 11, 57
+  offset: 0, 0
+  index: -1
+mous2
+  rotate: false
+  xy: 2576, 269
+  size: 18, 60
+  orig: 18, 60
+  offset: 0, 0
+  index: -1
+neck1
+  rotate: true
+  xy: 3361, 354
+  size: 69, 74
+  orig: 69, 74
+  offset: 0, 0
+  index: -1
+neck2
+  rotate: false
+  xy: 3247, 425
+  size: 188, 85
+  orig: 188, 85
+  offset: 0, 0
+  index: -1
+pata1
+  rotate: false
+  xy: 3787, 387
+  size: 167, 123
+  orig: 167, 123
+  offset: 0, 0
+  index: -1
+pata2
+  rotate: false
+  xy: 2602, 257
+  size: 148, 116
+  orig: 148, 116
+  offset: 0, 0
+  index: -1
+pata3
+  rotate: false
+  xy: 264, 12
+  size: 60, 29
+  orig: 60, 29
+  offset: 0, 0
+  index: -1
+patamon
+  rotate: false
+  xy: 2752, 251
+  size: 144, 90
+  orig: 144, 90
+  offset: 0, 0
+  index: -1
+patamon2
+  rotate: true
+  xy: 3437, 351
+  size: 53, 123
+  orig: 53, 123
+  offset: 0, 0
+  index: -1
+patamonmon
+  rotate: false
+  xy: 1438, 207
+  size: 173, 99
+  orig: 173, 99
+  offset: 0, 0
+  index: -1
+ribsmon
+  rotate: true
+  xy: 2, 2
+  size: 196, 260
+  orig: 196, 260
+  offset: 0, 0
+  index: -1
+scales
+  rotate: true
+  xy: 3153, 251
+  size: 67, 64
+  orig: 67, 64
+  offset: 0, 0
+  index: -1
+scalesmon
+  rotate: true
+  xy: 1438, 308
+  size: 76, 291
+  orig: 76, 291
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 465, 204
+  size: 250, 44
+  orig: 250, 44
+  offset: 0, 0
+  index: -1
+teeth
+  rotate: true
+  xy: 2898, 253
+  size: 88, 60
+  orig: 88, 60
+  offset: 0, 0
+  index: -1
+tongue
+  rotate: true
+  xy: 326, 14
+  size: 27, 57
+  orig: 27, 57
+  offset: 0, 0
+  index: -1
+worm1
+  rotate: false
+  xy: 2, 200
+  size: 461, 310
+  orig: 461, 310
+  offset: 0, 0
+  index: -1
+worm2
+  rotate: false
+  xy: 3437, 406
+  size: 177, 104
+  orig: 177, 104
+  offset: 0, 0
+  index: -1
+worm3
+  rotate: true
+  xy: 3616, 397
+  size: 113, 169
+  orig: 113, 169
+  offset: 0, 0
+  index: -1

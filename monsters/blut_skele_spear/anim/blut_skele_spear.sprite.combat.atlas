@@ -1,0 +1,62 @@
+
+blut_skele_spear.sprite.combat.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: true
+  xy: 589, 81
+  size: 389, 530
+  orig: 389, 530
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 2, 90
+  size: 585, 380
+  orig: 585, 380
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 1121, 164
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 1121, 234
+  size: 139, 236
+  orig: 139, 236
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 1262, 270
+  size: 137, 200
+  orig: 137, 200
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1401, 419
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 235, 40
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 2, 2
+  size: 86, 231
+  orig: 86, 231
+  offset: 0, 0
+  index: -1

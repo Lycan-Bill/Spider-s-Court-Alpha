@@ -1,0 +1,20 @@
+
+margrave.sprite.attack_hunger.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 1767, 979
+  orig: 1767, 979
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1771, 624
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

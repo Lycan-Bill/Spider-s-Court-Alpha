@@ -1,0 +1,3 @@
+commonfx: .deathfx death_small
+health_bar: .type "corpse"
+skill: .id "blood_skeleton_revive" .anim "attack_revive"

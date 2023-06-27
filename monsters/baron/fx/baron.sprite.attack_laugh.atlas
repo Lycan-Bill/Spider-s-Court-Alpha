@@ -1,0 +1,20 @@
+
+baron.sprite.attack_laugh.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baron_glow
+  rotate: false
+  xy: 2, 2
+  size: 424, 406
+  orig: 424, 406
+  offset: 0, 0
+  index: -1
+finger_glow
+  rotate: false
+  xy: 428, 99
+  size: 186, 309
+  orig: 186, 309
+  offset: 0, 0
+  index: -1

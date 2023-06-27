@@ -1,0 +1,69 @@
+
+margrave.sprite.attack_slash.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blooddroplets_1
+  rotate: false
+  xy: 336, 301
+  size: 83, 85
+  orig: 83, 85
+  offset: 0, 0
+  index: -1
+blooddroplets_2
+  rotate: false
+  xy: 2, 2
+  size: 116, 59
+  orig: 116, 59
+  offset: 0, 0
+  index: -1
+blooddroplets_3
+  rotate: false
+  xy: 482, 426
+  size: 31, 50
+  orig: 31, 50
+  offset: 0, 0
+  index: -1
+blooddroplets_4
+  rotate: false
+  xy: 779, 751
+  size: 42, 11
+  orig: 42, 11
+  offset: 0, 0
+  index: -1
+glow_1
+  rotate: false
+  xy: 2, 63
+  size: 332, 323
+  orig: 332, 323
+  offset: 0, 0
+  index: -1
+glow_2
+  rotate: true
+  xy: 1844, 1571
+  size: 398, 134
+  orig: 398, 134
+  offset: 0, 0
+  index: -1
+glow_3
+  rotate: false
+  xy: 482, 478
+  size: 295, 284
+  orig: 295, 284
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: false
+  xy: 2, 764
+  size: 1840, 1205
+  orig: 1840, 1205
+  offset: 0, 0
+  index: -1
+sword_glow
+  rotate: false
+  xy: 2, 388
+  size: 478, 374
+  orig: 478, 374
+  offset: 0, 0
+  index: -1

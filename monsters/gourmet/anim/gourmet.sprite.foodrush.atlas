@@ -1,0 +1,34 @@
+
+gourmet.sprite.foodrush.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gourmet_foodrush
+  rotate: false
+  xy: 2, 67
+  size: 991, 522
+  orig: 991, 522
+  offset: 0, 0
+  index: -1
+Gourmet_foodrush_afterimage
+  rotate: false
+  xy: 2, 591
+  size: 1041, 548
+  orig: 1041, 548
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1045, 617
+  size: 990, 522
+  orig: 990, 522
+  offset: 0, 0
+  index: -1
+shadow_1
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

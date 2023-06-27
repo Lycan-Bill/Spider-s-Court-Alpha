@@ -1,0 +1,13 @@
+
+blutskele.sprite.attack_slash.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 2, 2
+  size: 656, 452
+  orig: 656, 452
+  offset: 0, 0
+  index: -1

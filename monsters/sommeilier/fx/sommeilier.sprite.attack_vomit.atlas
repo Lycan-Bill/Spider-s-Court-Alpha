@@ -1,0 +1,69 @@
+
+sommeilier.sprite.attack_vomit.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Vomit_2
+  rotate: false
+  xy: 743, 232
+  size: 507, 492
+  orig: 507, 492
+  offset: 0, 0
+  index: -1
+bones_1
+  rotate: false
+  xy: 743, 160
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+bones_2
+  rotate: false
+  xy: 1557, 1334
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+bones_3
+  rotate: false
+  xy: 2, 2
+  size: 74, 69
+  orig: 74, 69
+  offset: 0, 0
+  index: -1
+bones_4
+  rotate: false
+  xy: 1865, 1815
+  size: 76, 32
+  orig: 76, 32
+  offset: 0, 0
+  index: -1
+bones_5
+  rotate: false
+  xy: 1252, 671
+  size: 72, 53
+  orig: 72, 53
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 73
+  size: 739, 651
+  orig: 739, 651
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: false
+  xy: 2, 726
+  size: 1553, 1121
+  orig: 1553, 1121
+  offset: 0, 0
+  index: -1
+vomit_1
+  rotate: false
+  xy: 1557, 1394
+  size: 306, 453
+  orig: 306, 453
+  offset: 0, 0
+  index: -1

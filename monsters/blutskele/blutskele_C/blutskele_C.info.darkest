@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "blood"
+stats: .hp 26 .def 21.25% .prot 0.15 .spd 4 .stun_resist 50% .poison_resist 50% .bleed_resist 240% .debuff_resist 55% .move_resist 50%
+skill: .id "blut_lunge" .type "melee" .atk 112.5% .dmg 3 8 .crit 9%  .effect "Rabble Bump Debuff 5" .launch 4321 .target 12 .move 0 1
+skill: .id "blut_slash" .type "melee" .atk 112.5% .dmg 3 8 .crit 4%  .effect "Blood Skeleton Attack Bleed" .launch 123 .target 12 .move 0 1 .is_crit_valid False
+personality: .prefskill -1
+loot: .code "C" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id blood_skeleton_sword
+death_class: .monster_class_id blutskele_corpse_C .is_valid_on_crit True .is_valid_on_bleed_dot True .is_valid_on_blight_dot True .reset_scale_anim true .on_change_sfx true
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True
+spawn: .effects "Blood Skeleton Bleed"

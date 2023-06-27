@@ -1,0 +1,83 @@
+
+viscount.sprite.attack_throw.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cup_1
+  rotate: false
+  xy: 1511, 471
+  size: 284, 270
+  orig: 284, 270
+  offset: 0, 0
+  index: -1
+Cup_streaks
+  rotate: false
+  xy: 1824, 799
+  size: 213, 208
+  orig: 213, 208
+  offset: 0, 0
+  index: -1
+Fork_1
+  rotate: false
+  xy: 1122, 364
+  size: 190, 413
+  orig: 190, 413
+  offset: 0, 0
+  index: -1
+Fork_streaks
+  rotate: false
+  xy: 1314, 480
+  size: 195, 297
+  orig: 195, 297
+  offset: 0, 0
+  index: -1
+Plate_1
+  rotate: false
+  xy: 1122, 779
+  size: 395, 228
+  orig: 395, 228
+  offset: 0, 0
+  index: -1
+Plate_streaks
+  rotate: false
+  xy: 2, 2
+  size: 292, 87
+  orig: 292, 87
+  offset: 0, 0
+  index: -1
+angry_lines_1
+  rotate: false
+  xy: 2, 290
+  size: 623, 717
+  orig: 623, 717
+  offset: 0, 0
+  index: -1
+angry_lines_2
+  rotate: false
+  xy: 627, 340
+  size: 493, 667
+  orig: 493, 667
+  offset: 0, 0
+  index: -1
+glow_cup
+  rotate: true
+  xy: 1519, 743
+  size: 264, 303
+  orig: 264, 303
+  offset: 0, 0
+  index: -1
+glow_fork
+  rotate: true
+  xy: 2, 91
+  size: 197, 450
+  orig: 197, 450
+  offset: 0, 0
+  index: -1
+glow_plate
+  rotate: false
+  xy: 454, 59
+  size: 262, 229
+  orig: 262, 229
+  offset: 0, 0
+  index: -1

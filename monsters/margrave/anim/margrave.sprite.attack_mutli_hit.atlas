@@ -1,0 +1,13 @@
+
+margrave.sprite.attack_mutli_hit.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 7
+  rotate: false
+  xy: 2, 2
+  size: 1987, 1336
+  orig: 1987, 1336
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+blutskele.sprite.attack_lunge.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 820, 343
+  orig: 820, 343
+  offset: 0, 0
+  index: -1

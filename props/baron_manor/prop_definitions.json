@@ -1,0 +1,225 @@
+{
+	"interaction_types": [{
+			"name": "baron_red_door_interaction",
+			"default_result_type_table": [{
+				"result_type": "door_default",
+				"chance": 1.0,
+				"result_data_table": [{
+					"chance": 1.0,
+					"data": ""
+				}]
+			}],
+			"item_interaction_table": [{
+				"item_type": "quest_item",
+				"item_name": "key1",
+				"result_type_table": [{
+					"result_type": "unlock_door",
+					"chance": 1.0,
+					"result_data_table": [{
+						"chance": 1.0,
+						"data": ""
+					}]
+				}]
+			}]
+		},
+		{
+			"name": "baron_purple_door_interaction",
+			"default_result_type_table": [{
+				"result_type": "door_default",
+				"chance": 1.0,
+				"result_data_table": [{
+					"chance": 1.0,
+					"data": ""
+				}]
+			}],
+			"item_interaction_table": [{
+				"item_type": "quest_item",
+				"item_name": "key2",
+				"result_type_table": [{
+					"result_type": "unlock_door",
+					"chance": 1.0,
+					"result_data_table": [{
+						"chance": 1.0,
+						"data": ""
+					}]
+				}]
+			}]
+		},
+		{
+			"name": "baron_black_door_interaction",
+			"default_result_type_table": [{
+				"result_type": "door_default",
+				"chance": 1.0,
+				"result_data_table": [{
+					"chance": 1.0,
+					"data": ""
+				}]
+			}],
+			"item_interaction_table": [{
+				"item_type": "quest_item",
+				"item_name": "key3",
+				"result_type_table": [{
+					"result_type": "unlock_door",
+					"chance": 1.0,
+					"result_data_table": [{
+						"chance": 1.0,
+						"data": ""
+					}]
+				}]
+			}]
+		},
+		{
+			"name": "baron_pink_door_interaction",
+			"default_result_type_table": [{
+				"result_type": "door_default",
+				"chance": 1.0,
+				"result_data_table": [{
+					"chance": 1.0,
+					"data": ""
+				}]
+			}],
+			"item_interaction_table": [{
+				"item_type": "quest_item",
+				"item_name": "key3",
+				"result_type_table": [{
+					"result_type": "unlock_door",
+					"chance": 1.0,
+					"result_data_table": [{
+						"chance": 1.0,
+						"data": ""
+					}]
+				}]
+			}]
+		},
+		{
+			"name": "blue_door_interaction",
+			"default_result_type_table": [{
+				"result_type": "door_default",
+				"chance": 1.0,
+				"result_data_table": [{
+					"chance": 1.0,
+					"data": ""
+				}]
+			}],
+			"item_interaction_table": [{
+				"item_type": "quest_item",
+				"item_name": "key4",
+				"result_type_table": [{
+					"result_type": "unlock_door",
+					"chance": 1.0,
+					"result_data_table": [{
+						"chance": 1.0,
+						"data": ""
+					}]
+				}]
+			}]
+		}
+	],
+	"props": [{
+			"name": "cc_shrew_hooded",
+			"default_data": {
+				"animation_remap_table": []
+			}
+		},
+		{
+			"name": "cc_shrew_elder",
+			"default_data": {
+				"animation_remap_table": []
+			}
+		},
+		{
+			"name": "courtyard_door",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door"
+				},
+				"graphics_file": "props/baron_manor/doors/door0/door0.skel",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "baron_courtyard_door",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door"
+				},
+				"graphics_file": "props/baron_manor/doors/door5/door5.skel",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "baron_manor_door",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door"
+				},
+				"graphics_file": "props/baron_manor/doors/door0/door0.skel",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "courtyard_door_shovel",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door_shovel"
+				},
+				"graphics_file": "props/courtyard/doors/door0/door0.skel",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "courtyard_door_key",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door_key"
+				},
+				"graphics_file": "props/courtyard/doors/door0/door0.skel",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "baron_red_door",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door_key"
+				},
+				"graphics_file": "props/baron_manor/doors/door1/door1.skel",
+				"interaction_type": "baron_red_door_interaction",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "baron_black_door",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door_key"
+				},
+				"graphics_file": "props/baron_manor/doors/door2/door2.skel",
+				"interaction_type": "baron_black_door_interaction",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "baron_purple_door",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door_key"
+				},
+				"graphics_file": "props/baron_manor/doors/door3/door3.skel",
+				"interaction_type": "baron_purple_door_interaction",
+				"success_effects": []
+			}
+		},
+		{
+			"name": "baron_pink_door",
+			"default_data": {
+				"inherits_from": {
+					"prop_type_name": "door_key"
+				},
+				"graphics_file": "props/baron_manor/doors/door4/door4.skel",
+				"interaction_type": "baron_pink_door_interaction",
+				"success_effects": []
+			}
+		}
+	]
+}

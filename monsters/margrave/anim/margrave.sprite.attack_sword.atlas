@@ -1,0 +1,69 @@
+
+margrave.sprite.attack_sword.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 1738, 979
+  orig: 1738, 979
+  offset: 0, 0
+  index: -1
+afterimage_2
+  rotate: false
+  xy: 2, 2
+  size: 1738, 979
+  orig: 1738, 979
+  offset: 0, 0
+  index: -1
+afterimage_3
+  rotate: false
+  xy: 2, 2
+  size: 1738, 979
+  orig: 1738, 979
+  offset: 0, 0
+  index: -1
+afterimage_1
+  rotate: false
+  xy: 2, 2
+  size: 1738, 979
+  orig: 1738, 979
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 3462, 918
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+sword_strike_1
+  rotate: false
+  xy: 1742, 157
+  size: 932, 174
+  orig: 932, 174
+  offset: 0, 0
+  index: -1
+sword_strike_2
+  rotate: false
+  xy: 2577, 619
+  size: 883, 362
+  orig: 883, 362
+  offset: 0, 0
+  index: -1
+sword_strike_3
+  rotate: false
+  xy: 1742, 524
+  size: 833, 457
+  orig: 833, 457
+  offset: 0, 0
+  index: -1
+sword_strike_4
+  rotate: false
+  xy: 1742, 333
+  size: 932, 189
+  orig: 932, 189
+  offset: 0, 0
+  index: -1

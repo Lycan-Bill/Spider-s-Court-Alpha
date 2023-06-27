@@ -1,0 +1,20 @@
+
+gourmet.sprite.smokebreak_fx.png
+size: 256,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 283
+  size: 252, 306
+  orig: 252, 306
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 2, 2
+  size: 77, 279
+  orig: 77, 279
+  offset: 0, 0
+  index: -1

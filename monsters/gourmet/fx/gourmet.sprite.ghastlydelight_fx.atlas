@@ -1,0 +1,27 @@
+
+gourmet.sprite.ghastlydelight_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gourmet_ghastlydelight
+  rotate: false
+  xy: 2, 263
+  size: 581, 674
+  orig: 581, 674
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 2, 2
+  size: 315, 259
+  orig: 315, 259
+  offset: 0, 0
+  index: -1
+fingerflare(spins)
+  rotate: true
+  xy: 585, 489
+  size: 448, 417
+  orig: 448, 417
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id"festering_maw" .anim "attack_vomit" .fx "attack_vomit"
+skill: .id "neurotic_toxin" .anim "attack_bile" .fx "attack_bile"
+skill: .id "sommelier_blast" .anim "attack_smash" .fx "attack_smash" .targfx "attack_smash_target"
+skill: .id "the_hunger_beast" .anim "attack_hunger" .fx "attack_hunger"
+
+riposte_skill: .id "riposte_attack" .anim "attack_lunge" .fx "riposte" .targchestfx "blood_splatter" .area_pos_offset 0 -65
+
+audio_modifier: .intensity 3

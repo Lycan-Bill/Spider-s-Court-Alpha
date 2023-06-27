@@ -1,0 +1,20 @@
+
+margrave.sprite.attack_order.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+output-onlinepngtools - 2022-06-21T081957.951
+  rotate: true
+  xy: 2, 48
+  size: 944, 1448
+  orig: 944, 1448
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 250, 44
+  orig: 250, 44
+  offset: 0, 0
+  index: -1

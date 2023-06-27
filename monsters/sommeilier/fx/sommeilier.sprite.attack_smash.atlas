@@ -1,0 +1,13 @@
+
+sommeilier.sprite.attack_smash.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 3
+  rotate: false
+  xy: 2, 2
+  size: 1840, 1131
+  orig: 1840, 1131
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+margrave.sprite.attack_order.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 2, 2
+  size: 302, 385
+  orig: 302, 385
+  offset: 0, 0
+  index: -1
+glow_2
+  rotate: false
+  xy: 1287, 774
+  size: 223, 205
+  orig: 223, 205
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: true
+  xy: 2, 306
+  size: 673, 1283
+  orig: 673, 1283
+  offset: 0, 0
+  index: -1

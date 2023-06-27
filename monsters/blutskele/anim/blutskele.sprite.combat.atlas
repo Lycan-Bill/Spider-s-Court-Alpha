@@ -1,0 +1,76 @@
+
+blutskele.sprite.combat.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 834, 347
+  size: 128, 152
+  orig: 128, 152
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 306, 347
+  size: 152, 526
+  orig: 152, 526
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 964, 446
+  size: 51, 53
+  orig: 51, 53
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 306, 218
+  size: 202, 127
+  orig: 202, 127
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 2, 2
+  size: 114, 162
+  orig: 114, 162
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 510, 292
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 166, 64
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 2, 118
+  size: 302, 381
+  orig: 302, 381
+  offset: 0, 0
+  index: -1
+blood_drop
+  rotate: false
+  xy: 306, 122
+  size: 25, 94
+  orig: 25, 94
+  offset: 0, 0
+  index: -1
+bubble01_burst
+  rotate: false
+  xy: 333, 185
+  size: 47, 31
+  orig: 47, 31
+  offset: 0, 0
+  index: -1

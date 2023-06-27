@@ -1,0 +1,83 @@
+
+blutskele.sprite.attack_revive.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 9
+  size: 361, 487
+  orig: 361, 487
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: false
+  xy: 365, 2
+  size: 234, 239
+  orig: 234, 239
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 554, 653
+  size: 59, 33
+  orig: 59, 33
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 952, 961
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 567, 342
+  size: 38, 46
+  orig: 38, 46
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: true
+  xy: 709, 617
+  size: 159, 276
+  orig: 159, 276
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 554, 688
+  size: 153, 326
+  orig: 153, 326
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 709, 778
+  size: 241, 236
+  orig: 241, 236
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 567, 390
+  size: 213, 225
+  orig: 213, 225
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 365, 243
+  size: 200, 253
+  orig: 200, 253
+  offset: 0, 0
+  index: -1
+skelcorpse
+  rotate: false
+  xy: 2, 498
+  size: 550, 516
+  orig: 550, 516
+  offset: 0, 0
+  index: -1

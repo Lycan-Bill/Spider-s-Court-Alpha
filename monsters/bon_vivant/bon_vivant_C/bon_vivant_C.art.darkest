@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "the_hunger_human" .anim "combat" .targchestfx "blood_splatter" 
+skill: .id "the_hunger_beast" .anim "combat" .targchestfx "blood_splatter"
+skill: .id "vivant_touch" .anim "cruel_touch" .targheadfx "skull_toss_target"

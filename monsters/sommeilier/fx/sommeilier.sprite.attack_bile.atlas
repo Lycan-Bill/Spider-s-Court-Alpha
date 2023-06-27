@@ -1,0 +1,41 @@
+
+sommeilier.sprite.attack_bile.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flies_1
+  rotate: false
+  xy: 2, 366
+  size: 492, 467
+  orig: 492, 467
+  offset: 0, 0
+  index: -1
+flies_2
+  rotate: false
+  xy: 1557, 1494
+  size: 489, 462
+  orig: 489, 462
+  offset: 0, 0
+  index: -1
+flies_3
+  rotate: false
+  xy: 1557, 1076
+  size: 440, 416
+  orig: 440, 416
+  offset: 0, 0
+  index: -1
+flies_4
+  rotate: false
+  xy: 2, 2
+  size: 436, 362
+  orig: 436, 362
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: false
+  xy: 2, 835
+  size: 1553, 1121
+  orig: 1553, 1121
+  offset: 0, 0
+  index: -1

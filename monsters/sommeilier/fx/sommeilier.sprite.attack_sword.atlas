@@ -1,0 +1,41 @@
+
+sommeilier.sprite.attack_sword.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyeglow_0
+  rotate: false
+  xy: 2, 2
+  size: 100, 97
+  orig: 100, 97
+  offset: 0, 0
+  index: -1
+eyeglow_1
+  rotate: false
+  xy: 870, 432
+  size: 663, 270
+  orig: 663, 270
+  offset: 0, 0
+  index: -1
+eyeglow_2
+  rotate: true
+  xy: 1853, 1681
+  size: 286, 187
+  orig: 286, 187
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 101
+  size: 866, 601
+  orig: 866, 601
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: false
+  xy: 2, 704
+  size: 1849, 1263
+  orig: 1849, 1263
+  offset: 0, 0
+  index: -1

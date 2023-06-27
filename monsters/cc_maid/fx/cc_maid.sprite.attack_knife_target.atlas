@@ -1,0 +1,20 @@
+
+cc_maid.sprite.attack_knife_target.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dagger
+  rotate: false
+  xy: 702, 41
+  size: 308, 162
+  orig: 308, 162
+  offset: 0, 0
+  index: -1
+dagger_trail
+  rotate: false
+  xy: 2, 2
+  size: 698, 201
+  orig: 698, 201
+  offset: 0, 0
+  index: -1

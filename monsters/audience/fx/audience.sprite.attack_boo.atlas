@@ -1,0 +1,27 @@
+
+audience.sprite.attack_boo.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bug_glow
+  rotate: false
+  xy: 2, 78
+  size: 634, 929
+  orig: 634, 929
+  offset: 0, 0
+  index: -1
+glass_1
+  rotate: false
+  xy: 638, 836
+  size: 179, 171
+  orig: 179, 171
+  offset: 0, 0
+  index: -1
+glass_liquid
+  rotate: false
+  xy: 2, 2
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1

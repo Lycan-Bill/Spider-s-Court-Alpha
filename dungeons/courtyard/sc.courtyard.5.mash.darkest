@@ -1,0 +1,14 @@
+boss: .chance 1 .types Zinfandel_C Chardonnay_C sommeilier_C Sauvignon_C
+boss: .chance 1 .types blutskele_C blutskele_C blutskele_C margrave_D
+
+named: .name drink_greetings .chance 1 .types  esquire_C cc_fish_C cc_maid_C cc_fox_C
+named: .name sc_guard_01 .chance 1 .types vidame_C spider_nun_C lord_C sacristan_C
+named: .name sc_guard_02 .chance 1 .types cc_fish_C fish_chef_C gourmand_D 
+named: .name sc_guard_03 .chance 1 .types cc_moth_C coquette_C courtesan_C spider_nun_C
+named: .name sc_guard_04 .chance 1 .types esquire_C coquette_C courtesan_C bloody_butler_C
+named: .name sc_guard_05 .chance 1 .types lord_C  valet_C court_butcher_D
+named: .name sc_guard_06 .chance 1 .types gourmand_D scarab_chef_C
+named: .name sc_guard_07 .chance 1 .types vidame_C spider_nun_C sacristan_C spider_bishop_D
+named: .name sc_guard_08 .chance 1 .types body_emaciated_C body_average_C body_bloated_C sommeilier_C
+named: .name sc_guard_09 .chance 1 .types cardinal_C
+named: .name sc_guard_10 .chance 1 .types margrave_D

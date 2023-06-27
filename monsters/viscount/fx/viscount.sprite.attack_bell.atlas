@@ -1,0 +1,48 @@
+
+viscount.sprite.attack_bell.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bell_Ring_1
+  rotate: false
+  xy: 3230, 2904
+  size: 731, 583
+  orig: 731, 583
+  offset: 0, 0
+  index: -1
+Bell_Ring_2
+  rotate: false
+  xy: 2, 2
+  size: 305, 376
+  orig: 305, 376
+  offset: 0, 0
+  index: -1
+Body_Shadow
+  rotate: false
+  xy: 2, 1919
+  size: 1612, 2081
+  orig: 1612, 2081
+  offset: 0, 0
+  index: -1
+Body_glow
+  rotate: false
+  xy: 1616, 1920
+  size: 1612, 2080
+  orig: 1612, 2080
+  offset: 0, 0
+  index: -1
+Head_Glow
+  rotate: false
+  xy: 3230, 3489
+  size: 836, 511
+  orig: 836, 511
+  offset: 0, 0
+  index: -1
+Streaks_Downtoup
+  rotate: false
+  xy: 2, 380
+  size: 1282, 1537
+  orig: 1282, 1537
+  offset: 0, 0
+  index: -1

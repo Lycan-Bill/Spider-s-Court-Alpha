@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "blut_poke"  .anim "attack_poke" .fx "attack_poke_fx"
+skill: .id "blut_taunt" .anim "attack_taunt" .fx "attack_taunt_fx"

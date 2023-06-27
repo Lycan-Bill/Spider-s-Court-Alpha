@@ -1,0 +1,62 @@
+
+sommeilier.sprite.attack_hunger.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_1
+  rotate: false
+  xy: 2, 98
+  size: 759, 822
+  orig: 759, 822
+  offset: 0, 0
+  index: -1
+glow_2
+  rotate: false
+  xy: 763, 286
+  size: 714, 634
+  orig: 714, 634
+  offset: 0, 0
+  index: -1
+spittle_1
+  rotate: false
+  xy: 1558, 1883
+  size: 77, 160
+  orig: 77, 160
+  offset: 0, 0
+  index: -1
+spittle_2
+  rotate: false
+  xy: 2, 2
+  size: 125, 94
+  orig: 125, 94
+  offset: 0, 0
+  index: -1
+spittle_3
+  rotate: false
+  xy: 763, 192
+  size: 61, 92
+  orig: 61, 92
+  offset: 0, 0
+  index: -1
+spittle_4
+  rotate: false
+  xy: 1558, 1865
+  size: 52, 16
+  orig: 52, 16
+  offset: 0, 0
+  index: -1
+spittle_5
+  rotate: false
+  xy: 1479, 883
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+spriteshadow
+  rotate: false
+  xy: 2, 922
+  size: 1554, 1121
+  orig: 1554, 1121
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+blut_skele_spear.sprite.defend.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 644, 559
+  orig: 644, 559
+  offset: 0, 0
+  index: -1

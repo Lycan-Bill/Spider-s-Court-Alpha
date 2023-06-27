@@ -1,0 +1,13 @@
+
+blut_skele_spear.sprite.attack_taunt_fx.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 2, 2
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+margrave.sprite.attack_thirst.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+abdomenglow
+  rotate: false
+  xy: 2, 51
+  size: 1114, 971
+  orig: 1114, 971
+  offset: 0, 0
+  index: -1
+bloodspittle_1
+  rotate: false
+  xy: 1875, 915
+  size: 63, 107
+  orig: 63, 107
+  offset: 0, 0
+  index: -1
+bloodspittle_2
+  rotate: true
+  xy: 75, 28
+  size: 21, 114
+  orig: 21, 114
+  offset: 0, 0
+  index: -1
+bloodspittle_3
+  rotate: false
+  xy: 2, 2
+  size: 71, 47
+  orig: 71, 47
+  offset: 0, 0
+  index: -1
+bloodspittle_4
+  rotate: false
+  xy: 1875, 851
+  size: 26, 62
+  orig: 26, 62
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 1118, 23
+  size: 755, 999
+  orig: 755, 999
+  offset: 0, 0
+  index: -1

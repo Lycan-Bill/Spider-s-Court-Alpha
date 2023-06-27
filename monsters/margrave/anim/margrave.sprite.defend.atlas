@@ -1,0 +1,27 @@
+
+margrave.sprite.defend.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+output-onlinepngtools_-_2022-07-12T000550.412
+  rotate: false
+  xy: 1499, 284
+  size: 1204, 1042
+  orig: 1204, 1042
+  offset: 0, 0
+  index: -1
+output-onlinepngtools_-_2022-07-15T153113.527
+  rotate: false
+  xy: 2, 67
+  size: 1495, 1259
+  orig: 1495, 1259
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

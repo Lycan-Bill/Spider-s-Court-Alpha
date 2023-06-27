@@ -1,0 +1,20 @@
+
+gourmet.sprite.light_up.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gourmet_lightemup
+  rotate: false
+  xy: 2, 67
+  size: 886, 701
+  orig: 886, 701
+  offset: 0, 0
+  index: -1
+shadow_1
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

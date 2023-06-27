@@ -1,0 +1,20 @@
+
+cc_maid.sprite.attack_bottle.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 763, 157
+  size: 743, 132
+  orig: 743, 132
+  offset: 0, 0
+  index: -1
+throwbottle
+  rotate: false
+  xy: 2, 2
+  size: 759, 898
+  orig: 759, 898
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,10 @@
+commonfx: .deathfx death_large_boss
+skill: .id "blood_wave" .anim "attack_blood" .fx "attack_blood" .targchestfx "blood_splatter"
+skill: .id "prayer_to_blood" .anim "attack_prayer" .fx "attack_prayer"
+skill: .id "the_hunger_human" .anim "attack_feed_human" .fx "attack_feed_human" .targchestfx "blood_splatter"
+skill: .id "the_hunger_beast" .anim "attack_feed_beast" .fx "attack_feed_beast" .targchestfx "blood_splatter"
+skill: .id "cardinal_heresy" .anim "heresey" .targchestfx "blood_splatter"
+skill: .id "blood_salvation" .anim "attack_salvation" .fx "attack_salvation" .targchestfx "blood_splatter"
+skill: .id "heed_faithful" .anim "attack_heed" .fx "attack_heed"
+defending_area_pos_offset: .offset 0 -35
+audio_modifier: .intensity 3

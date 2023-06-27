@@ -1,0 +1,20 @@
+
+baron.sprite.attack_whip.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baron_glow
+  rotate: true
+  xy: 1120, 2
+  size: 578, 712
+  orig: 578, 712
+  offset: 0, 0
+  index: -1
+lash_glow
+  rotate: false
+  xy: 2, 47
+  size: 1116, 533
+  orig: 1116, 533
+  offset: 0, 0
+  index: -1

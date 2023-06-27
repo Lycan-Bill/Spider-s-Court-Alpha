@@ -1,0 +1,34 @@
+
+cc_maid.sprite.attack_ree.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ebene 4
+  rotate: true
+  xy: 755, 605
+  size: 368, 213
+  orig: 368, 213
+  offset: 0, 0
+  index: -1
+Ebene 5
+  rotate: false
+  xy: 2, 2
+  size: 283, 68
+  orig: 283, 68
+  offset: 0, 0
+  index: -1
+Ebene 6
+  rotate: false
+  xy: 2, 72
+  size: 751, 901
+  orig: 751, 901
+  offset: 0, 0
+  index: -1
+rimlighting Kopie
+  rotate: true
+  xy: 755, 280
+  size: 323, 167
+  orig: 323, 167
+  offset: 0, 0
+  index: -1

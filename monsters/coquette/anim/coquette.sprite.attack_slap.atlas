@@ -1,0 +1,20 @@
+
+coquette.sprite.attack_slap.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 6
+  rotate: false
+  xy: 2, 67
+  size: 1086, 837
+  orig: 1086, 837
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

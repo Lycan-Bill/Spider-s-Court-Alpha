@@ -1,0 +1,41 @@
+
+audience.sprite.attack_fun.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gun_glow
+  rotate: false
+  xy: 2, 263
+  size: 775, 675
+  orig: 775, 675
+  offset: 0, 0
+  index: -1
+gun_muzzle_1
+  rotate: false
+  xy: 501, 67
+  size: 125, 194
+  orig: 125, 194
+  offset: 0, 0
+  index: -1
+gun_muzzle_2
+  rotate: false
+  xy: 355, 57
+  size: 144, 204
+  orig: 144, 204
+  offset: 0, 0
+  index: -1
+gun_smoke
+  rotate: true
+  xy: 2, 2
+  size: 259, 351
+  orig: 259, 351
+  offset: 0, 0
+  index: -1
+knife_2
+  rotate: false
+  xy: 779, 707
+  size: 123, 231
+  orig: 123, 231
+  offset: 0, 0
+  index: -1

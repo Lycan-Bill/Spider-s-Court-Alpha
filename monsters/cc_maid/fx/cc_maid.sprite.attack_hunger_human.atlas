@@ -1,0 +1,20 @@
+
+cc_maid.sprite.attack_hunger_human.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ebene 2
+  rotate: false
+  xy: 2, 2
+  size: 714, 894
+  orig: 714, 894
+  offset: 0, 0
+  index: -1
+Ebene 4
+  rotate: false
+  xy: 718, 182
+  size: 348, 714
+  orig: 348, 714
+  offset: 0, 0
+  index: -1

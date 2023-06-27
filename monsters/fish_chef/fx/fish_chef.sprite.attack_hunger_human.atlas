@@ -1,0 +1,27 @@
+
+fish_chef.sprite.attack_hunger_human.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bug_Glow
+  rotate: false
+  xy: 2, 78
+  size: 475, 427
+  orig: 475, 427
+  offset: 0, 0
+  index: -1
+blood_spittle_1
+  rotate: false
+  xy: 2, 2
+  size: 71, 74
+  orig: 71, 74
+  offset: 0, 0
+  index: -1
+blood_spittle_2
+  rotate: false
+  xy: 75, 28
+  size: 71, 48
+  orig: 71, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+cc_maid.sprite.attack_serve.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+drinks
+  rotate: false
+  xy: 2, 2
+  size: 699, 893
+  orig: 699, 893
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 703, 152
+  size: 743, 132
+  orig: 743, 132
+  offset: 0, 0
+  index: -1

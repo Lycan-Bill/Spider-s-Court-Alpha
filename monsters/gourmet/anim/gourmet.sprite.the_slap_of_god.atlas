@@ -1,0 +1,20 @@
+
+gourmet.sprite.the_slap_of_god.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gourmet_howrude
+  rotate: false
+  xy: 2, 67
+  size: 700, 737
+  orig: 700, 737
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

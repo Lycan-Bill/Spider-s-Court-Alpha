@@ -1,0 +1,27 @@
+
+margrave.sprite.attack_transform.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+output-onlinepngtools - 2022-06-21T081906.502
+  rotate: false
+  xy: 2, 48
+  size: 1586, 1421
+  orig: 1586, 1421
+  offset: 0, 0
+  index: -1
+output-onlinepngtools - 2022-06-21T081923.369
+  rotate: false
+  xy: 1590, 418
+  size: 899, 1051
+  orig: 899, 1051
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 250, 44
+  orig: 250, 44
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+gourmet.sprite.hunger_beast_fx.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+abdomenglow
+  rotate: false
+  xy: 647, 232
+  size: 257, 273
+  orig: 257, 273
+  offset: 0, 0
+  index: -1
+bloodspittle_1
+  rotate: false
+  xy: 906, 451
+  size: 74, 54
+  orig: 74, 54
+  offset: 0, 0
+  index: -1
+bloodspittle_2
+  rotate: false
+  xy: 647, 111
+  size: 120, 119
+  orig: 120, 119
+  offset: 0, 0
+  index: -1
+insect_glow
+  rotate: false
+  xy: 2, 2
+  size: 643, 503
+  orig: 643, 503
+  offset: 0, 0
+  index: -1

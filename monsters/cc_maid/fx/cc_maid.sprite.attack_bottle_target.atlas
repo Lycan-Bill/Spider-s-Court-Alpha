@@ -1,0 +1,90 @@
+
+cc_maid.sprite.attack_bottle_target.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ebene 1
+  rotate: true
+  xy: 2, 177
+  size: 326, 560
+  orig: 326, 560
+  offset: 0, 0
+  index: -1
+Ebene 10
+  rotate: false
+  xy: 590, 308
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+Ebene 11
+  rotate: false
+  xy: 564, 187
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+Ebene 12
+  rotate: true
+  xy: 885, 484
+  size: 19, 28
+  orig: 19, 28
+  offset: 0, 0
+  index: -1
+Ebene 2
+  rotate: true
+  xy: 197, 21
+  size: 23, 62
+  orig: 23, 62
+  offset: 0, 0
+  index: -1
+Ebene 3
+  rotate: false
+  xy: 714, 425
+  size: 28, 51
+  orig: 28, 51
+  offset: 0, 0
+  index: -1
+Ebene 4
+  rotate: false
+  xy: 564, 211
+  size: 24, 125
+  orig: 24, 125
+  offset: 0, 0
+  index: -1
+Ebene 5
+  rotate: true
+  xy: 714, 478
+  size: 25, 169
+  orig: 25, 169
+  offset: 0, 0
+  index: -1
+Ebene 6
+  rotate: false
+  xy: 311, 57
+  size: 23, 118
+  orig: 23, 118
+  offset: 0, 0
+  index: -1
+Ebene 7
+  rotate: false
+  xy: 2, 2
+  size: 193, 173
+  orig: 193, 173
+  offset: 0, 0
+  index: -1
+Ebene 8
+  rotate: false
+  xy: 197, 46
+  size: 112, 129
+  orig: 112, 129
+  offset: 0, 0
+  index: -1
+Ebene 9
+  rotate: false
+  xy: 564, 338
+  size: 148, 165
+  orig: 148, 165
+  offset: 0, 0
+  index: -1

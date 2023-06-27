@@ -1,0 +1,335 @@
+
+masked_esquire.sprite.combat.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beast_abdomen
+  rotate: false
+  xy: 318, 113
+  size: 228, 397
+  orig: 228, 397
+  offset: 0, 0
+  index: -1
+beast_coat
+  rotate: false
+  xy: 824, 241
+  size: 228, 269
+  orig: 228, 269
+  offset: 0, 0
+  index: -1
+beast_collar_bottom
+  rotate: false
+  xy: 1198, 13
+  size: 81, 43
+  orig: 81, 43
+  offset: 0, 0
+  index: -1
+beast_collar_middle
+  rotate: false
+  xy: 1114, 11
+  size: 82, 45
+  orig: 82, 45
+  offset: 0, 0
+  index: -1
+beast_collar_top
+  rotate: true
+  xy: 1064, 8
+  size: 98, 48
+  orig: 98, 48
+  offset: 0, 0
+  index: -1
+beast_head
+  rotate: false
+  xy: 548, 241
+  size: 274, 269
+  orig: 274, 269
+  offset: 0, 0
+  index: -1
+beast_jaw
+  rotate: false
+  xy: 1980, 196
+  size: 65, 79
+  orig: 65, 79
+  offset: 0, 0
+  index: -1
+beast_left_arm
+  rotate: true
+  xy: 1553, 335
+  size: 110, 267
+  orig: 110, 267
+  offset: 0, 0
+  index: -1
+beast_left_eye
+  rotate: true
+  xy: 1671, 2
+  size: 22, 35
+  orig: 22, 35
+  offset: 0, 0
+  index: -1
+beast_left_front_leg
+  rotate: true
+  xy: 548, 70
+  size: 47, 216
+  orig: 47, 216
+  offset: 0, 0
+  index: -1
+beast_left_mandible
+  rotate: false
+  xy: 745, 2
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+beast_left_middle_leg
+  rotate: true
+  xy: 2, 34
+  size: 57, 208
+  orig: 57, 208
+  offset: 0, 0
+  index: -1
+beast_left_rear_leg
+  rotate: true
+  xy: 854, 9
+  size: 97, 208
+  orig: 97, 208
+  offset: 0, 0
+  index: -1
+beast_right_arm
+  rotate: true
+  xy: 548, 119
+  size: 120, 339
+  orig: 120, 339
+  offset: 0, 0
+  index: -1
+beast_right_eye
+  rotate: true
+  xy: 1855, 152
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+beast_right_front_leg
+  rotate: true
+  xy: 541, 12
+  size: 56, 202
+  orig: 56, 202
+  offset: 0, 0
+  index: -1
+beast_right_mandible01
+  rotate: true
+  xy: 1880, 421
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+beast_right_mandible02
+  rotate: false
+  xy: 745, 33
+  size: 18, 35
+  orig: 18, 35
+  offset: 0, 0
+  index: -1
+beast_right_middle_leg
+  rotate: true
+  xy: 318, 11
+  size: 100, 221
+  orig: 100, 221
+  offset: 0, 0
+  index: -1
+beast_right_rear_leg
+  rotate: true
+  xy: 889, 108
+  size: 131, 235
+  orig: 131, 235
+  offset: 0, 0
+  index: -1
+beast_robes
+  rotate: false
+  xy: 1054, 277
+  size: 228, 233
+  orig: 228, 233
+  offset: 0, 0
+  index: -1
+beast_sash
+  rotate: true
+  xy: 1284, 36
+  size: 97, 228
+  orig: 97, 228
+  offset: 0, 0
+  index: -1
+human_coat
+  rotate: false
+  xy: 2, 93
+  size: 314, 417
+  orig: 314, 417
+  offset: 0, 0
+  index: -1
+human_collar_bottom
+  rotate: false
+  xy: 1671, 26
+  size: 91, 66
+  orig: 91, 66
+  offset: 0, 0
+  index: -1
+human_collar_middle
+  rotate: false
+  xy: 212, 36
+  size: 92, 55
+  orig: 92, 55
+  offset: 0, 0
+  index: -1
+human_collar_top
+  rotate: true
+  xy: 766, 2
+  size: 115, 86
+  orig: 115, 86
+  offset: 0, 0
+  index: -1
+human_head
+  rotate: true
+  xy: 1284, 327
+  size: 183, 267
+  orig: 183, 267
+  offset: 0, 0
+  index: -1
+human_jaw
+  rotate: false
+  xy: 1606, 2
+  size: 63, 90
+  orig: 63, 90
+  offset: 0, 0
+  index: -1
+human_left_coat
+  rotate: false
+  xy: 1514, 2
+  size: 90, 137
+  orig: 90, 137
+  offset: 0, 0
+  index: -1
+human_left_eye
+  rotate: false
+  xy: 1880, 393
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+human_left_foot
+  rotate: false
+  xy: 1808, 200
+  size: 92, 114
+  orig: 92, 114
+  offset: 0, 0
+  index: -1
+human_left_leg
+  rotate: false
+  xy: 1912, 277
+  size: 134, 233
+  orig: 134, 233
+  offset: 0, 0
+  index: -1
+human_left_shoe_buckle
+  rotate: false
+  xy: 34, 4
+  size: 29, 28
+  orig: 29, 28
+  offset: 0, 0
+  index: -1
+human_right_arm
+  rotate: true
+  xy: 1902, 201
+  size: 74, 76
+  orig: 74, 76
+  offset: 0, 0
+  index: -1
+human_right_cuff
+  rotate: false
+  xy: 1509, 141
+  size: 122, 184
+  orig: 122, 184
+  offset: 0, 0
+  index: -1
+human_right_eye
+  rotate: false
+  xy: 1054, 244
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+human_right_foot
+  rotate: true
+  xy: 1633, 94
+  size: 90, 148
+  orig: 90, 148
+  offset: 0, 0
+  index: -1
+human_right_hand
+  rotate: false
+  xy: 1822, 316
+  size: 56, 129
+  orig: 56, 129
+  offset: 0, 0
+  index: -1
+human_right_index
+  rotate: false
+  xy: 1764, 56
+  size: 16, 36
+  orig: 16, 36
+  offset: 0, 0
+  index: -1
+human_right_leg
+  rotate: false
+  xy: 1126, 58
+  size: 156, 217
+  orig: 156, 217
+  offset: 0, 0
+  index: -1
+human_right_middle
+  rotate: true
+  xy: 1606, 101
+  size: 38, 20
+  orig: 38, 20
+  offset: 0, 0
+  index: -1
+human_right_pinky
+  rotate: false
+  xy: 1708, 2
+  size: 28, 22
+  orig: 28, 22
+  offset: 0, 0
+  index: -1
+human_right_shoe_buckle
+  rotate: false
+  xy: 2, 2
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+human_sash_bottom
+  rotate: false
+  xy: 1284, 135
+  size: 223, 190
+  orig: 223, 190
+  offset: 0, 0
+  index: -1
+human_sash_top
+  rotate: true
+  xy: 1783, 110
+  size: 74, 70
+  orig: 74, 70
+  offset: 0, 0
+  index: -1
+party2 Copy 11
+  rotate: false
+  xy: 1633, 186
+  size: 173, 147
+  orig: 173, 147
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1553, 447
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "chef_fry" .anim "attack_fry" .fx "attack_fry" .targchestfx "blood_splatter"
+skill: .id "the_hunger_human" .anim "attack_hunger_human" .fx "attack_hunger_human"
+skill: .id "the_hunger_beast" .anim "attack_hunger_beast" .fx "attack_hunger_beast"

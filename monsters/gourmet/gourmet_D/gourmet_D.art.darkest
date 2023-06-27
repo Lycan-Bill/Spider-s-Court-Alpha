@@ -1,0 +1,8 @@
+commonfx: .deathfx death_large
+skill: .id "the_hunger_human" .anim "hunger_human" .fx "hunger_human_fx"
+skill: .id "the_hunger_beast" .anim "hunger_beast" .fx "hunger_beast_fx"
+skill: .id "gourmet_light" .anim "light_up" .fx "light_up_fx"
+skill: .id "gourmet_slap" .anim "THE_SLAP_OF_GOD" .fx "THE_SLAP_OF_GOD_FX"
+skill: .id "gourmand_smoke" .anim "smokebreak" .fx "smokebreak_fx"
+skill: .id "gourmet_delight" .anim "ghastlydelight" .fx "ghastlydelight_fx"
+skill: .id "gourmet_rush" .anim "foodrush"

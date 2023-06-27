@@ -1,0 +1,48 @@
+
+baron.sprite.attack_ten.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 67
+  size: 665, 882
+  orig: 665, 882
+  offset: 0, 0
+  index: -1
+baron_glow_1
+  rotate: false
+  xy: 669, 283
+  size: 669, 666
+  orig: 669, 666
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+sign
+  rotate: false
+  xy: 669, 97
+  size: 189, 184
+  orig: 189, 184
+  offset: 0, 0
+  index: -1
+sign_glow_1
+  rotate: false
+  xy: 1340, 311
+  size: 639, 638
+  orig: 639, 638
+  offset: 0, 0
+  index: -1
+sign_glow_2
+  rotate: false
+  xy: 1981, 433
+  size: 516, 516
+  orig: 516, 516
+  offset: 0, 0
+  index: -1

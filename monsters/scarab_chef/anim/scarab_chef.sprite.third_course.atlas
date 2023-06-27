@@ -1,0 +1,20 @@
+
+scarab_chef.sprite.third_course.png
+size: 1099,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 0
+  rotate: true
+  xy: 2, 2
+  size: 783, 1030
+  orig: 783, 1030
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1034, 428
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

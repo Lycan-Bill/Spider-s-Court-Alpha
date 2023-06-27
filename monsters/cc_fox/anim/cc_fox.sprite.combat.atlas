@@ -1,0 +1,286 @@
+
+cc_fox.sprite.combat.png
+size: 4096,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+antarm1mon
+  rotate: true
+  xy: 3405, 353
+  size: 157, 196
+  orig: 157, 196
+  offset: 0, 0
+  index: -1
+arm1
+  rotate: true
+  xy: 2952, 342
+  size: 168, 219
+  orig: 168, 219
+  offset: 0, 0
+  index: -1
+arm1mon
+  rotate: true
+  xy: 3603, 366
+  size: 144, 177
+  orig: 144, 177
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: false
+  xy: 2907, 51
+  size: 159, 243
+  orig: 159, 243
+  offset: 0, 0
+  index: -1
+armon
+  rotate: true
+  xy: 737, 224
+  size: 286, 719
+  orig: 286, 719
+  offset: 0, 0
+  index: -1
+armon2
+  rotate: true
+  xy: 1458, 295
+  size: 215, 666
+  orig: 215, 666
+  offset: 0, 0
+  index: -1
+cane
+  rotate: true
+  xy: 1198, 170
+  size: 52, 434
+  orig: 52, 434
+  offset: 0, 0
+  index: -1
+capeshoulders
+  rotate: false
+  xy: 1672, 221
+  size: 269, 72
+  orig: 269, 72
+  offset: 0, 0
+  index: -1
+chal
+  rotate: true
+  xy: 1458, 230
+  size: 63, 212
+  orig: 63, 212
+  offset: 0, 0
+  index: -1
+chaquetamon
+  rotate: true
+  xy: 737, 119
+  size: 103, 459
+  orig: 103, 459
+  offset: 0, 0
+  index: -1
+chaquetmon
+  rotate: true
+  xy: 706, 2
+  size: 104, 536
+  orig: 104, 536
+  offset: 0, 0
+  index: -1
+chestmon
+  rotate: true
+  xy: 3068, 46
+  size: 294, 362
+  orig: 294, 362
+  offset: 0, 0
+  index: -1
+choarm
+  rotate: false
+  xy: 2030, 228
+  size: 73, 65
+  orig: 73, 65
+  offset: 0, 0
+  index: -1
+choarm2
+  rotate: true
+  xy: 1337, 17
+  size: 31, 68
+  orig: 31, 68
+  offset: 0, 0
+  index: -1
+chorr
+  rotate: true
+  xy: 3580, 5
+  size: 84, 90
+  orig: 84, 90
+  offset: 0, 0
+  index: -1
+cloack
+  rotate: true
+  xy: 2, 108
+  size: 402, 733
+  orig: 402, 733
+  offset: 0, 0
+  index: -1
+cloack2
+  rotate: true
+  xy: 2, 22
+  size: 84, 702
+  orig: 84, 702
+  offset: 0, 0
+  index: -1
+fangmon1
+  rotate: true
+  xy: 1434, 12
+  size: 36, 24
+  orig: 36, 24
+  offset: 0, 0
+  index: -1
+fangmon2
+  rotate: true
+  xy: 1407, 11
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+fingmon
+  rotate: false
+  xy: 1366, 116
+  size: 60, 52
+  orig: 60, 52
+  offset: 0, 0
+  index: -1
+fingmon1
+  rotate: false
+  xy: 1198, 115
+  size: 101, 53
+  orig: 101, 53
+  offset: 0, 0
+  index: -1
+fingmon2
+  rotate: true
+  xy: 1943, 229
+  size: 64, 85
+  orig: 64, 85
+  offset: 0, 0
+  index: -1
+fingmon3
+  rotate: true
+  xy: 1244, 6
+  size: 42, 91
+  orig: 42, 91
+  offset: 0, 0
+  index: -1
+footmon
+  rotate: true
+  xy: 1603, 2
+  size: 166, 277
+  orig: 166, 277
+  offset: 0, 0
+  index: -1
+footmon2
+  rotate: false
+  xy: 2694, 45
+  size: 211, 249
+  orig: 211, 249
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 3432, 18
+  size: 146, 147
+  orig: 146, 147
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 3672, 14
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 1301, 118
+  size: 63, 50
+  orig: 63, 50
+  offset: 0, 0
+  index: -1
+handmon
+  rotate: false
+  xy: 3782, 389
+  size: 153, 121
+  orig: 153, 121
+  offset: 0, 0
+  index: -1
+headmon
+  rotate: true
+  xy: 3842, 122
+  size: 122, 106
+  orig: 122, 106
+  offset: 0, 0
+  index: -1
+hood
+  rotate: false
+  xy: 2657, 296
+  size: 293, 214
+  orig: 293, 214
+  offset: 0, 0
+  index: -1
+jacket
+  rotate: true
+  xy: 2126, 263
+  size: 247, 529
+  orig: 247, 529
+  offset: 0, 0
+  index: -1
+legs
+  rotate: true
+  xy: 3580, 91
+  size: 74, 260
+  orig: 74, 260
+  offset: 0, 0
+  index: -1
+legsmon
+  rotate: false
+  xy: 2306, 5
+  size: 386, 256
+  orig: 386, 256
+  offset: 0, 0
+  index: -1
+mask
+  rotate: true
+  xy: 3782, 246
+  size: 141, 109
+  orig: 141, 109
+  offset: 0, 0
+  index: -1
+maskmon
+  rotate: false
+  xy: 3432, 167
+  size: 182, 184
+  orig: 182, 184
+  offset: 0, 0
+  index: -1
+pantmon
+  rotate: true
+  xy: 3616, 181
+  size: 183, 164
+  orig: 183, 164
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1244, 50
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+solapa
+  rotate: true
+  xy: 1882, 21
+  size: 198, 422
+  orig: 198, 422
+  offset: 0, 0
+  index: -1
+undlegs
+  rotate: true
+  xy: 3173, 354
+  size: 156, 230
+  orig: 156, 230
+  offset: 0, 0
+  index: -1

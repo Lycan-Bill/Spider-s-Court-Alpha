@@ -1,0 +1,34 @@
+
+gourmet.sprite.light_up_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 482
+  size: 658, 535
+  orig: 658, 535
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 50
+  size: 430, 701
+  orig: 430, 701
+  offset: 0, 0
+  index: -1
+smoke_1
+  rotate: false
+  xy: 662, 866
+  size: 180, 151
+  orig: 180, 151
+  offset: 0, 0
+  index: -1
+smoke_2
+  rotate: true
+  xy: 2, 2
+  size: 46, 251
+  orig: 46, 251
+  offset: 0, 0
+  index: -1

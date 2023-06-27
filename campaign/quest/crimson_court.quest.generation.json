@@ -1,0 +1,155 @@
+{
+	"generation": {
+		"dungeon": {
+			"generated_dungeons": [
+				{"id": "courtyard", "required_number_of_quests_finished": 0, "required_plot_quest": "plot_crimson_court_0", "can_have_guaranteed_quest": false }
+			]
+		},
+		"type": {
+			"available_quests_table": [
+				{
+					"dungeon": "courtyard",
+					"generated_quest_table": [
+                        [
+                             { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                        ],
+                        [
+                            { "type": "explore", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                        ],
+                        [
+                            { "type": "explore", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "cleanse", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                        ],
+                        [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
+                        ],
+                        [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                        ],
+                        [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
+                        ],
+                        [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
+                        ],
+                        [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
+                        ]
+                    ]
+				}
+			]
+		},
+		"rewards": {
+			"heirloom_type_map": [
+				{
+                    "dungeon": "courtyard",
+                    "types": ["bust", "portrait", "deed", "crest", "blueprint"]
+                }
+			],
+			"heirloom_amount_table": [
+                {
+					"dungeon": "courtyard",
+                    "type": "bust",
+                    "amounts": [
+                        [0, 0, 0,  0],
+						[0, 2, 2,  4],
+                        [0, 0, 0,  0],
+						[0, 2, 3,  6],
+                        [0, 0, 0,  0],
+						[0, 3, 5,  9]]
+                },
+                {
+					"dungeon": "courtyard",
+                    "type": "portrait",
+                    "amounts": [
+                        [0, 0, 0,  0],
+						[0, 2, 2,  4],
+                        [0, 0, 0,  0],
+						[0, 2, 3,  6],
+                        [0, 0, 0,  0],
+						[0, 3, 5,  9]]
+                },
+                {
+					"dungeon": "courtyard",
+                    "type": "deed",
+                    "amounts": [
+                        [0, 0, 0,  0],
+						[0, 3, 5,  9],
+                        [0, 0, 0,  0],
+						[0, 4, 6, 12],
+                        [0, 0, 0,  0],
+						[0, 6, 9, 18]]
+                },
+                {
+					"dungeon": "courtyard",
+                    "type": "crest",
+                    "amounts": [ 	
+						[0, 0, 0,  0],
+						[0, 3, 5,  9],
+						[0, 0, 0,  0],
+						[0, 4, 6, 12],
+						[0, 0, 0,  0],
+						[0, 6, 9, 18]]
+                },
+                {
+					"dungeon": "courtyard",
+                    "type": "blueprint",
+                    "amounts": [ 	
+						[0, 0, 0,  0],
+						[0, 0, 0,  0],
+						[0, 0, 0,  0],
+						[0, 0, 0,  0],
+						[0, 0, 0,  0],
+						[0, 0, 1, 1]]
+                }
+            ],
+			"trinket_chance_table": [{
+				"comment": "ROWS are DIFFICULTY, COLs are QUEST LENGTH",
+				"rarity": "crimson_court",
+				"dungeon": "courtyard",
+				"chances": [				
+                        [ 0, 0, 0, 0],
+                        [ 0, 0, 0, 0],			
+                        [ 0, 0, 0, 0],				
+                        [ 0, 0, 0, 0],				
+                        [ 0, 0, 0, 0],				
+                        [ 0, 0, 100000, 100000],				
+                        [ 0, 0, 100000, 100000]
+				]
+			}]
+		},
+		"number":
+        {
+            "number_of_quests_per_town_visit_table_modifier" :[
+                1,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3
+            ]
+        }
+	}
+}

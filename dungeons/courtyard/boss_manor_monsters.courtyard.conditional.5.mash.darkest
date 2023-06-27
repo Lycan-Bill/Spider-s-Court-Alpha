@@ -1,0 +1,30 @@
+hall: .chance 1  .types steward_C bloody_butler_C cc_maid_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types steward_C sycophant_C cc_maid_C chevalier_C  cc_maid_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types steward_C sycophant_C cc_maid_C chevalier_C  cc_maid_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types esquire_C steward_C courtesan_C bloody_butler_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types courtesan_C cc_fish_C steward_C chevalier_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types courtesan_C cc_fish_C steward_C bloody_butler_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types cc_maid_C  cc_fox_C sycophant_C steward_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types valet_C esquire_C courtesan_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types valet_C esquire_C cc_moth_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types courtesan_C cc_fish_C cc_moth_C cc_fox_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types cc_fox_C bloody_butler_C cc_fish_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types steward_C courtesan_C cc_moth_C sycophant_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+hall: .chance 1  .types cc_maid_C esquire_C cc_fox_C cc_fish_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1 
+hall: .chance 1  .types cc_maid_C esquire_C  valet_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+
+room: .chance 1  .types steward_C bloody_butler_C cc_maid_C .plot_quest_requirement plot_darkest_dungeon_baron
+room: .chance 1  .types steward_C sycophant_C cc_maid_C chevalier_C  cc_maid_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types steward_C sycophant_C cc_maid_C chevalier_C  cc_maid_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types esquire_C steward_C courtesan_C bloody_butler_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types courtesan_C cc_fish_C steward_C chevalier_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types courtesan_C cc_fish_C steward_C bloody_butler_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types cc_maid_C  cc_fox_C sycophant_C steward_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types valet_C esquire_C courtesan_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types valet_C esquire_C cc_moth_C .plot_quest_requirement plot_darkest_dungeon_baron
+room: .chance 1  .types courtesan_C cc_fish_C cc_moth_C cc_fox_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types cc_fox_C bloody_butler_C cc_fish_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types steward_C courtesan_C cc_moth_C sycophant_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types cc_maid_C esquire_C cc_fox_C cc_fish_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types cc_maid_C esquire_C  valet_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1
+room: .chance 1  .types cc_maid_C esquire_C tick_zombie_C steward_C .plot_quest_requirement plot_darkest_dungeon_baron .limit 1

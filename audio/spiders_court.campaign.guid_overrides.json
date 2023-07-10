@@ -1,7 +1,8 @@
 {
     "event_guid_overrides":
     [
-	{"event_id": "event:/",                   "guid_override":"{91998c6a-c8ea-441a-81e3-11910dec905f}"}
-		
+	{"event_id": "event:/music/mus_battle_darkestdungeon_hallway",					"guid_override":"{91998c6a-c8ea-441a-81e3-11910dec905f}"},
+	{"event_id": "event:/music/mus_battle_darkestdungeon_room",					"guid_override":"{2a305d22-072b-4d53-b265-d70adf8fc4fa}"}
     ]
+		
 }

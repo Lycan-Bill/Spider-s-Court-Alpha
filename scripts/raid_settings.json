@@ -1,0 +1,13 @@
+{
+    "torch_settings_data_table": [
+        {
+            "key": "fanatic",
+            "data": {
+				"id": "fanatic",
+                "burn_down_enabled": false,
+                "overlays": [ "battle_round", "light_torch" ],
+				"torch_music_override": "music_fanatic_battle"
+            }
+        }
+    ]
+}

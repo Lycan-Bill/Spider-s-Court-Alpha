@@ -11,49 +11,71 @@
 					"dungeon": "courtyard",
 					"generated_quest_table": [
                         [
-                             { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                            { "type": "cleanse", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 }
                         ],
                         [
                             { "type": "explore", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
                             { "type": "cleanse", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
-                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
-                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                            { "type": "explore", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
                         ],
                         [
+                            { "type": "explore", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
                             { "type": "explore", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
                             { "type": "cleanse", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
                             { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
                             { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
                         ],
                         [
-                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
-                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
-                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
-                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
-                        ],
-                        [
                             { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
                             { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
-                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
                             { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
                         ],
                         [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
                             { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
                             { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
                             { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
-                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
                         ],
                         [
                             { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
                             { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
-                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
-                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
-                        ],
-                        [
                             { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
                             { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
                             { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
-                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 }
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                        ],
+                        [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
+                        ],
+                        [
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 1 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "explore",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "cleanse",		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 3 },
+                            { "type": "burn_hive", 		"torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 },
+                            { "type": "farm_bloodcrate","torch_setting": "bloodlight", "raid_rules_override": "cc", "chance": 1, "length": 2 }
                         ]
                     ]
 				}

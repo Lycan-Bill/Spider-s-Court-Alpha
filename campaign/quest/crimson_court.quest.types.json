@@ -30,6 +30,19 @@
                 "additional_loot": "BLOOD_CRATE",
                 "amount": 3
             }
+        },
+        {
+            "id": "kill_fanatic_D",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "fanatic_D"
+                ],
+                "amount": 1
+            }
         }, 
         {
             "id": "kill_baron_B",
@@ -68,6 +81,71 @@
                      "countess_D",
                     "countess_E",
                     "countess_F"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "kill_croc_D",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "crocodile_D"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "kill_croc_E",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "crocodile_E"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "kill_statue_A",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "statue_head_A"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "kill_statue_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "statue_head_B"
+                ],
+                "amount": 1
+            }
+        },
+        {
+            "id": "kill_statue_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "statue_head_C"
                 ],
                 "amount": 1
             }
@@ -110,6 +188,19 @@
                     "goals": [
                         [
                             "inventory_activate_hive"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "kill_statue",
+            "goal_lists": [
+                {
+                    "dungeon": "courtyard",
+                    "goals": [
+                        [
+                            "kill_statue_C"
                         ]
                     ]
                 }

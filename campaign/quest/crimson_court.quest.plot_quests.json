@@ -80,7 +80,7 @@
 			}
 		},
 		{
-			"id": "plot_crimson_court_1",
+			"id": "plot_darkest_dungeon_baron",
 			"plot_quest_dependency": "plot_crimson_court_0",
 			"estate_inventory_dependency": {
 				"consume_on_attempt": true,
@@ -99,14 +99,14 @@
 			"quest": {
 				"is_plot_quest": true,
 				"type": "kill_boss",
-				"dungeon": "courtyard",
+                "dungeon": "darkestdungeon",
+                "torch_setting" : "bloodlight",
+                "raid_rules_override": "cc",
 				"difficulty": 5,
 				"length": 5,
-                		"torch_setting" : "bloodlight",
-                		"raid_rules_override": "cc",
 				"map_name": "cc_map_baron_new",
 				"goal_ids": [
-					"kill_baron_C"
+					"kill_baron_B"
 				],
 				"completion_reward": {
 					"resolve_xp": 8,
@@ -170,7 +170,7 @@
 		},
 		{
 			"id": "plot_crimson_court_2",
-			"plot_quest_dependency": "plot_crimson_court_1",
+			"plot_quest_dependency": "plot_darkest_dungeon_baron",
 			"estate_inventory_dependency": {
 				"consume_on_attempt": true,
 				"items_definition": {

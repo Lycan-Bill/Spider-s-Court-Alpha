@@ -1,29 +1,62 @@
-hall: .chance 1 .types sycophant_C sycophant_C sycophant_C 
-hall: .chance 1 .types tick_zombie_C tick_zombie_C sycophant_C sycophant_C
-hall: .chance 1 .types tick_zombie_C tick_zombie_C sycophant_C esquire_C
-hall: .chance 1 .types carrion_eater_big_C steward_C esquire_C 
-hall: .chance 1 .types steward_C tick_zombie_C courtesan_C steward_C
-hall: .chance 1 .types steward_C tick_zombie_C sycophant_C chevalier_C
-hall: .chance 1 .types steward_C tick_zombie_C courtesan_C esquire_C
-hall: .chance 1 .types steward_C tick_zombie_C esquire_C chevalier_C
-hall: .chance 1 .types carrion_eater_C carrion_eater_C esquire_C sycophant_C
-hall: .chance 2 .types esquire_C esquire_C courtesan_C sycophant_C
-hall: .chance 1 .types esquire_C esquire_C courtesan_C chevalier_C
-hall: .chance 1 .types esquire_C esquire_C sycophant_C chevalier_C 
-room: .chance 3 .types steward_C sycophant_C tick_zombie_C courtesan_C
-room: .chance 2 .types steward_C tick_zombie_C sycophant_C sycophant_C
-room: .chance 1 .types steward_C tick_zombie_C sycophant_C esquire_C
-room: .chance 1 .types steward_C steward_C courtesan_C sycophant_C
-room: .chance 1 .types steward_C steward_C steward_C courtesan_C
-room: .chance 1 .types steward_C steward_C steward_C sycophant_C
-room: .chance 1 .types tick_zombie_C steward_C chevalier_C courtesan_C
-room: .chance 2 .types steward_C esquire_C sycophant_C courtesan_C
-room: .chance 1 .types sycophant_C steward_C esquire_C courtesan_C
-room: .chance 1 .types sycophant_C esquire_C chevalier_C courtesan_C
-room: .chance 2 .types tick_zombie_C courtesan_C steward_C steward_C
-room: .chance 1 .types steward_C steward_C esquire_C courtesan_C
-room: .chance 1 .types steward_C tick_zombie_C esquire_C chevalier_C
-room: .chance 1 .types steward_C steward_C sycophant_C chevalier_C 
+hall: .chance 1 .types courtesan_C esquire_C bloody_butler_C 
+hall: .chance 1 .types gourmand_D gourmet_D 
+hall: .chance 1 .types lord_C esquire_C courtesan_C admiral_sucker_C
+hall: .chance 1 .types esquire_C courtesan_C gourmet_D
+hall: .chance 1 .types steward_C bloody_butler_C courtesan_C steward_C
+hall: .chance 1 .types steward_C blut_skele_spear_C coquette_C chevalier_C
+hall: .chance 1 .types cc_maid_C steward_C courtesan_C esquire_C
+hall: .chance 1 .types steward_C cc_maid_C esquire_C chevalier_C
+hall: .chance 1 .types blutskele_C blut_skele_spear_C lord_C esquire_C
+hall: .chance 1 .types esquire_C courtesan_C bon_vivant_C
+hall: .chance 1 .types esquire_C courtesan_C gourmand_D
+hall: .chance 1 .types steward_C cc_maid_C bloody_butler_C
+hall: .chance 1 .types vidame_C lord_C sacristan_C
+hall: .chance 1 .types vidame_C lord_C sacristan_C spider_bishop_D
+hall: .chance 0.5 .types steward_C lord_C cc_maid_C spider_bishop_D
+hall: .chance 1 .types coquette_C courtesan_C bon_vivant_C
+hall: .chance 1 .types blutskele_C blut_skele_spear_C gourmet_D
+hall: .chance 1 .types blutskele_C vidame_C blut_skele_spear_C sacristan_C
+hall: .chance 1 .types lord_C spider_nun_C sacristan_C vidame_C
+hall: .chance 1 .types cc_maid_C courtesan_C spider_nun_C coquette_C
+hall: .chance 1 .types cc_maid_C steward_C gourmand_D
+hall: .chance 1 .types cc_maid_C steward_C bon_vivant_C
+hall: .chance 1 .types cc_maid_C steward_C gourmet_D
+hall: .chance 1 .types bon_vivant_C gourmet_D
+hall: .chance 1 .types lord_C bon_vivant_C sacristan_C
+hall: .chance 1 .types blutskele_C gourmet_D blut_skele_spear_C
+hall: .chance 1 .types blutskele_C esquire_C blut_skele_spear_C courtesan_C
+hall: .chance 1 .types blutskele_C vidame_C blut_skele_spear_C spider_nun_C
+
+
+room: .chance 1 .types courtesan_C esquire_C bloody_butler_C 
+room: .chance 1 .types gourmand_D gourmet_D 
+room: .chance 1 .types lord_C esquire_C courtesan_C admiral_sucker_C
+room: .chance 1 .types esquire_C courtesan_C gourmet_D
+room: .chance 1 .types steward_C bloody_butler_C courtesan_C steward_C
+room: .chance 1 .types steward_C blut_skele_spear_C coquette_C chevalier_C
+room: .chance 1 .types cc_maid_C steward_C courtesan_C esquire_C
+room: .chance 1 .types steward_C cc_maid_C esquire_C chevalier_C
+room: .chance 1 .types blutskele_C blut_skele_spear_C lord_C esquire_C
+room: .chance 1 .types esquire_C courtesan_C bon_vivant_C
+room: .chance 1 .types esquire_C courtesan_C gourmand_D
+room: .chance 1 .types steward_C cc_maid_C bloody_butler_C
+room: .chance 1 .types vidame_C lord_C sacristan_C
+room: .chance 1 .types vidame_C lord_C sacristan_C spider_bishop_D
+room: .chance 0.5 .types steward_C lord_C cc_maid_C spider_bishop_D
+room: .chance 1 .types coquette_C courtesan_C bon_vivant_C
+room: .chance 1 .types blutskele_C blut_skele_spear_C gourmet_D
+room: .chance 1 .types blutskele_C vidame_C blut_skele_spear_C sacristan_C
+room: .chance 1 .types lord_C spider_nun_C sacristan_C vidame_C
+room: .chance 1 .types cc_maid_C courtesan_C spider_nun_C coquette_C
+room: .chance 1 .types cc_maid_C steward_C gourmand_D
+room: .chance 1 .types cc_maid_C steward_C bon_vivant_C
+room: .chance 1 .types cc_maid_C steward_C gourmet_D
+room: .chance 1 .types bon_vivant_C gourmet_D
+room: .chance 1 .types lord_C bon_vivant_C sacristan_C
+room: .chance 1 .types blutskele_C gourmet_D blut_skele_spear_C
+room: .chance 1 .types blutskele_C esquire_C blut_skele_spear_C courtesan_C
+room: .chance 1 .types blutskele_C vidame_C blut_skele_spear_C spider_nun_C
+
 boss: .chance 1 .types statue_shield_C statue_head_C statue_hand_C 
 boss: .chance 1 .types  viscount_appetizer_C viscount_entree_C viscount_dessert_C viscount_C
 boss: .chance 1 .types baron_B audience_B

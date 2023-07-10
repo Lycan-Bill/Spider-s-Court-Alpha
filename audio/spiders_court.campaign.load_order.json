@@ -2,6 +2,6 @@
     "load_order":
     [
 	"secondary_banks/spider_court_music.bank",
-	"secondary_banks/crimson_court_sound_fix.bank"
+	"secondary_banks/Spiders_Court_Replacer.bank"
     ]
 }

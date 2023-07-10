@@ -2,6 +2,7 @@
     "load_order":
     [
         "secondary_banks/music_courtyard.bank",
-		"secondary_banks/ambience_courtyard.bank"
+		"secondary_banks/ambience_courtyard.bank",
+		"secondary_banks/crimson_court_sound_fix.bank"
     ]
 }

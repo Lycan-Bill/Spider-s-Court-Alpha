@@ -1,2 +1,0 @@
-commonfx: .deathfx death_small
-skill: .id "enraging_slight" .anim "attack_hand" .fx "enraging_slight" .targchestfx "stress_cloud"

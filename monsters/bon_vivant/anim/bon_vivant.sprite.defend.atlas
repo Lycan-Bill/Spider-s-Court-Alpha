@@ -1,0 +1,27 @@
+
+bon_vivant.sprite.defend.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BonVivant_beastDefend
+  rotate: false
+  xy: 583, 134
+  size: 578, 671
+  orig: 578, 671
+  offset: 0, 0
+  index: -1
+BonVivant_humanDefend
+  rotate: false
+  xy: 2, 67
+  size: 579, 738
+  orig: 579, 738
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

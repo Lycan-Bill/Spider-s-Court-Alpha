@@ -11,7 +11,7 @@ BonVivant_CruelTouch
   orig: 1070, 660
   offset: 0, 0
   index: -1
-shadow
+ground_shadow
   rotate: false
   xy: 2, 2
   size: 357, 63

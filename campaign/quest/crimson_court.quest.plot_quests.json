@@ -80,7 +80,7 @@
 			}
 		},
 		{
-			"id": "plot_darkest_dungeon_baron",
+			"id": "plot_darkest_dungeon_baron_test",
 			"plot_quest_dependency": "plot_crimson_court_0",
 			"estate_inventory_dependency": {
 				"consume_on_attempt": true,

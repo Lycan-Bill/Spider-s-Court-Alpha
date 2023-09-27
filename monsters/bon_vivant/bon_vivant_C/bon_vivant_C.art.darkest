@@ -1,4 +1,8 @@
 commonfx: .deathfx death_large
-skill: .id "the_hunger_human" .anim "combat" .targchestfx "blood_splatter" 
-skill: .id "the_hunger_beast" .anim "combat" .targchestfx "blood_splatter"
-skill: .id "vivant_touch" .anim "cruel_touch" .targheadfx "skull_toss_target"
+skill: .id "the_hunger_human" .anim "hunger_human" .fx "hunger_human"  .targchestfx "blood_splatter" 
+skill: .id "the_hunger_beast" .anim "hunger_beast" .fx "hunger_beast".targchestfx "blood_splatter"
+skill: .id "vivant_touch" .anim "cruel_touch" .fx "cruel_touch" .targheadfx "skull_toss_target" .area_pos_offset -150 0 .target_area_pos_offset 150 0
+skill: .id "vivant_riposte".anim "wratful_riposte" .fx "wratful_riposte"
+skill: .id "vivant_cane" .anim "spine_breaker" .fx "spine_breaker"
+skill: .id "vivant_buff" .anim "hungering_anger" .fx "hungering_anger"
+riposte_skill: .id "riposte_attack" .anim "attack_sword" .fx "riposte" .targchestfx "blood_splatter" .area_pos_offset 0 -65

@@ -1,0 +1,48 @@
+
+bon_vivant.sprite.hungering_anger_fx.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+veinclot_1
+  rotate: false
+  xy: 469, 169
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+veinclot_2
+  rotate: false
+  xy: 469, 204
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+veins_1
+  rotate: false
+  xy: 378, 86
+  size: 82, 75
+  orig: 82, 75
+  offset: 0, 0
+  index: -1
+veins_2
+  rotate: false
+  xy: 378, 49
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+veins_3
+  rotate: false
+  xy: 378, 163
+  size: 89, 73
+  orig: 89, 73
+  offset: 0, 0
+  index: -1
+veinsglow
+  rotate: false
+  xy: 2, 2
+  size: 374, 234
+  orig: 374, 234
+  offset: 0, 0
+  index: -1

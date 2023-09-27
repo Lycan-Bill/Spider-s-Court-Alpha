@@ -4,6 +4,10 @@ stats: .hp 68 .def 21.25% .prot 0.5 .spd 3 .stun_resist 90% .poison_resist 60% .
 skill: .id "the_hunger_human" .type "melee" .valid_modes "human" .atk 102.5% .dmg 8 16 .crit 2% .damage_heal_base_class_ids bon_vivant .effect "Gourmand Transform" .launch 4321 .target 1234
 skill: .id "the_hunger_beast" .type "melee" .valid_modes "beast" .atk 102.5% .dmg 8 16 .crit 2% .damage_heal_base_class_ids bon_vivant .effect  .launch 4321 .target 1234 .move 0 4
 skill: .id "vivant_touch" .type "melee" .valid_modes "beast" .atk 102.5% .dmg 12 19 .crit 7% .effect "Vivant Punch Stun 3" .launch 4321 .target 1234
+skill: .id "vivant_riposte" .type "" .valid_modes "human" .atk 102.5% .dmg 0 0 .crit 7% .effect "Margrave Riposte" .launch 4321 .target
+skill: .id "vivant_cane" .type "melee" .valid_modes "human" .atk 102.5% .dmg 6 8 .crit 7% .effect "Nun Stun Debuff 5"  .launch 4321 .target 1234
+skill: .id "vivant_buff" .type "" .valid_modes "human" .atk 102.5% .dmg 0 0 .crit 7% .effect "Vivant Laugh Debuff 3"  .launch 4321 .target
+riposte_skill: .id "riposte_attack" .type "melee" .atk 102.5% .dmg 6 13 .crit 9%  .effect "Viscount Bleed" .launch 4321 .target 1234
 personality: .prefskill -1
 loot: .code "A" .count 3
 initiative: .number_of_turns_per_round 1

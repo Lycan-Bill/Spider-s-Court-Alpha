@@ -1,0 +1,97 @@
+
+ganger_grenadier.sprite.combat.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1509, 153
+  size: 88, 97
+  orig: 88, 97
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 1289, 39
+  size: 111, 77
+  orig: 111, 77
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 1289, 118
+  size: 218, 132
+  orig: 218, 132
+  offset: 0, 0
+  index: -1
+12
+  rotate: true
+  xy: 915, 2
+  size: 183, 217
+  orig: 183, 217
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 2, 44
+  size: 206, 357
+  orig: 206, 357
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1599, 175
+  size: 107, 75
+  orig: 107, 75
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 645, 9
+  size: 268, 241
+  orig: 268, 241
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 361, 15
+  size: 235, 282
+  orig: 235, 282
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 1402, 50
+  size: 66, 89
+  orig: 66, 89
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 1134, 23
+  size: 162, 153
+  orig: 162, 153
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 2, 10
+  size: 49, 32
+  orig: 49, 32
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1708, 202
+  size: 95, 48
+  orig: 95, 48
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 915, 187
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

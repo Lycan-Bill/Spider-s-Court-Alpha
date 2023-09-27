@@ -1,0 +1,17 @@
+display: .size 1
+enemy_type: .id "human"
+stats: .hp 16 .def 5% .prot 0.25 .spd 7 .stun_resist 35% .poison_resist 20% .bleed_resist 20% .debuff_resist 25% .move_resist 20%
+skill: .id "enforcer_knockout" .type "melee" .atk 65.75% .dmg 5 8 .crit 8%  .effect "Ganger Stun 1" .launch 21 .target 12
+skill: .id "enforcer_rush" .type "melee" .atk 75.75% .dmg 5 7 .crit 4%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "Ganger Push 1"
+skill: .id "enforcer_headbutt" .type "melee" .atk 75.75% .dmg 4 6 .crit 7%  .launch 321 .target 12 .is_crit_valid False .effect "Enforcer Stun Debuff 1" "Ganger Push 1" "Enforcer Stun Self Debuff 1"
+personality: .prefskill -1
+loot: .code "C" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id ganger_enforcer
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True
+
+skill: .id "enforcer_knockout"     .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_vuln_tokenM" 
+skill: .id "enforcer_rush"  .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self"
+skill: .id "enforcer_headbutt" .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_vuln_tokenM" 

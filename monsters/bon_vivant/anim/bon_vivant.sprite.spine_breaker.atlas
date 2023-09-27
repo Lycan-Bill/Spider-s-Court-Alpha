@@ -1,0 +1,27 @@
+
+bon_vivant.sprite.spine_breaker.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BonVivant_SpineBreaker
+  rotate: false
+  xy: 2, 67
+  size: 1018, 708
+  orig: 1018, 708
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+slammer
+  rotate: false
+  xy: 1022, 271
+  size: 429, 504
+  orig: 429, 504
+  offset: 0, 0
+  index: -1

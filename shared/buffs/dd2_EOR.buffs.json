@@ -1,0 +1,714 @@
+{
+   "buffs":
+   [
+      {
+			"id":"dd2_s0hpr_HP",
+			"stat_type":"combat_stat_multiply",
+			"stat_sub_type":"max_hp",
+			"amount": 1,
+			"remove_if_not_active":false,
+			"rule_type":"is_actor_status",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":"bleeding"
+			}
+		},
+		{
+			"id":"dd2_s0hpr_HP2",
+			"stat_type":"combat_stat_multiply",
+			"stat_sub_type":"max_hp",
+			"amount": 2,
+			"remove_if_not_active":false,
+			"rule_type":"is_actor_status",
+			"is_false_rule":false,
+			"rule_data":{
+				"float":0,
+				"string":"poisoned"
+			}
+		},
+
+		{
+			"id":"dd2_firedot_nodmg",
+			"stat_type":"damage_received_percent",
+			"stat_sub_type":"",
+			"amount": -1,
+			"remove_if_not_active":false,
+			"rule_type":"always",
+			"is_false_rule":false,
+			"has_description":false,
+			"rule_data":{
+				"float": 0,
+				"string":""
+			}
+		},
+		{
+			"id":"dd2_firedot_dmg_1",
+			"stat_type":"damage_received_percent",
+			"stat_sub_type":"",
+			"amount": 0.1,
+			"remove_if_not_active":false,
+			"rule_type":"is_guarded",
+			"is_false_rule":false,
+			"has_description":false,
+			"is_clear_debuff_valid": false,
+			"rule_data":{
+				"float": 0,
+				"string":""
+			}
+		},
+		{
+			"id":"dd2_firedot_dmg_2",
+			"stat_type":"damage_received_percent",
+			"stat_sub_type":"",
+			"amount": 0.2,
+			"remove_if_not_active":false,
+			"rule_type":"is_guarded",
+			"is_false_rule":false,
+			"has_description":false,
+			"is_clear_debuff_valid": false,
+			"rule_data":{
+				"float": 0,
+				"string":""
+			}
+		},
+		{
+			"id":"dd2_firedot_dmg_3",
+			"stat_type":"damage_received_percent",
+			"stat_sub_type":"",
+			"amount": 0.3,
+			"remove_if_not_active":false,
+			"rule_type":"is_guarded",
+			"is_false_rule":false,
+			"has_description":false,
+			"is_clear_debuff_valid": false,
+			"rule_data":{
+				"float": 0,
+				"string":""
+			}
+		},
+		{
+			"id":"dd2_firedot_dmg_4",
+			"stat_type":"damage_received_percent",
+			"stat_sub_type":"",
+			"amount": 0.4,
+			"remove_if_not_active":false,
+			"rule_type":"is_guarded",
+			"is_false_rule":false,
+			"has_description":false,
+			"is_clear_debuff_valid": false,
+			"rule_data":{
+				"float": 0,
+				"string":""
+			}
+		},
+		{
+			"id":"dd2_firedot_dmg_5",
+			"stat_type":"damage_received_percent",
+			"stat_sub_type":"",
+			"amount": 0.5,
+			"remove_if_not_active":false,
+			"rule_type":"is_guarded",
+			"is_false_rule":false,
+			"has_description":false,
+			"is_clear_debuff_valid": false,
+			"rule_data":{
+				"float": 0,
+				"string":""
+			}
+		},
+		{
+			"id":"dd2_firedot_key_buff_1",
+			"stat_type":"bleed_chance",
+			"stat_sub_type":"",
+			"amount": 40,
+			"remove_if_not_active":false,
+			"rule_type":"actor_base_class",
+			"is_false_rule":false,
+			"has_description":false,
+			"rule_data":{
+				"float":0,
+				"string":"dd2_eot_s0hpr"
+			}
+		},
+      {
+			"id":"dd2_firedot_key_buff_2",
+			"stat_type":"bleed_chance",
+			"stat_sub_type":"",
+			"amount": 1,
+			"remove_if_not_active":false,
+			"rule_type":"actor_base_class",
+			"is_false_rule":false,
+			"has_description":false,
+			"is_clear_debuff_valid": false,
+			"rule_data":{
+				"float":0,
+				"string":"dd2_eot_s0hpr"
+			}
+		},
+		{
+			"id":"dd2_firedot_guard",
+			"stat_type":"guarded",
+			"stat_sub_type":"",
+			"amount": 1,
+			"remove_if_not_active":false,
+			"rule_type":"always",
+			"is_false_rule":false,
+			"has_description":false,
+			"rule_data":{
+				"float": 0,
+				"string":""
+			}
+		},
+		{
+			"id" : "dd2_guardblock_test",
+			"stat_type" : "guard_blocked",
+			"stat_sub_type" : "",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id":"dd2_eot_key_H",
+			"stat_type":"bleed_chance",
+			"stat_sub_type":"",
+			"amount": -45,
+			"rule_type":"monsterType",
+			"is_false_rule":false,
+			"remove_if_not_active":false,
+			"rule_data":{
+				"float":0,
+				"string":"dd2_eot_active_last"
+			}
+		},
+		{
+			"id":"dd2_eot_key_M",
+			"stat_type":"poison_chance",
+			"stat_sub_type":"",
+			"amount": 11,
+			"rule_type":"actor_base_class",
+			"is_false_rule":false,
+			"remove_if_not_active":false,
+			"rule_data":{
+				"float":0,
+				"string":"dd2_eot_s0hpr"
+			}
+		},
+		{
+			"id":"dd2_eor_key_ruin_1",
+			"stat_type":"bleed_chance",
+			"stat_sub_type":"",
+			"amount": 40,
+			"rule_type":"monsterType",
+			"is_false_rule":false,
+			"remove_if_not_active":false,
+			"rule_data":{
+				"float":0,
+				"string":"dd2_eor_ruin_1"
+			}
+		},
+		{
+			"id":"dd2_eor_key_ruin_2",
+			"stat_type":"bleed_chance",
+			"stat_sub_type":"",
+			"amount": 11,
+			"rule_type":"monsterType",
+			"is_false_rule":false,
+			"remove_if_not_active":false,
+			"rule_data":{
+				"float":0,
+				"string":"dd2_eor_ruin_2"
+			}
+		},
+		{
+			"id":"dd2_eot_key_mmore",
+			"stat_type":"bleed_chance",
+			"stat_sub_type":"",
+			"amount": -50,
+			"rule_type":"monsterType",
+			"is_false_rule":false,
+			"remove_if_not_active":false,
+			"rule_data":{
+				"float":0,
+				"string":"dd2_eot_mmore"
+			}
+		},
+		{
+			"id": "dd2_ves_blight_dmgrec",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount": -0.29,
+			"has_description" : true,
+			"remove_if_not_active": false,
+			"rule_type" : "is_actor_status",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string": "poisoned"
+			}
+		 },
+		 {
+			"id": "dd2_ves_bleed_dmgrec",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount": -0.49,
+			"has_description" : true,
+			"remove_if_not_active": false,
+			"rule_type" : "is_actor_status",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string": "bleeding"
+			}
+		 },
+		 {
+			 "id": "dd2_ves_rank2_bool",
+			"stat_type" : "poison_chance",
+			"stat_sub_type" : "",
+			"amount": 50,
+			"has_description" : true,
+			"remove_if_not_active": true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 1,
+			   "string": ""
+			}
+		 },
+		 {
+			 "id": "dd2_ves_rank3_bool",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount": 50,
+			"has_description" : true,
+			"remove_if_not_active": true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 2,
+			   "string": ""
+			}
+		 },
+		 {
+			 "id": "dd2_ves_rank4_bool1",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount": 50,
+			"has_description" : true,
+			"remove_if_not_active": true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 3,
+			   "string": ""
+			}
+		 },
+		 {
+			 "id": "dd2_ves_rank4_bool2",
+			"stat_type" : "poison_chance",
+			"stat_sub_type" : "",
+			"amount": 50,
+			"has_description" : true,
+			"remove_if_not_active": true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 3,
+			   "string": ""
+			}
+		 },
+		 {
+		   "id" : "dd2_ves_prot_token_rank1",
+		   "stat_type" : "combat_stat_add",
+		   "stat_sub_type" : "protection_rating",
+		   "amount" : 0.25,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "remove_on_battle_complete":true,
+		   "is_false_rule" : false,
+		   "has_description":false,
+		   "rule_data" : {
+			  "float" : 0,
+			  "string" : ""
+		   }
+		},
+		{
+		   "id" : "dd2_prot_token_tt_r1",
+		   "stat_type" : "quirk_tag_evolution_duration",
+		   "stat_sub_type" : "dd2_prot_token_tt",
+		   "amount" : 1,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "remove_on_battle_complete":true,
+		   "is_false_rule" : false,
+		   "rule_data" : {
+			  "float" : 0,
+			  "string" : ""
+		   }
+		 },
+		{
+		   "id" : "dd2_ves_prot_token_rank2",
+		   "stat_type" : "combat_stat_add",
+		   "stat_sub_type" : "protection_rating",
+		   "amount" : 0.25,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "is_false_rule" : false,
+		   "remove_on_battle_complete":true,
+		   "has_description":false,
+		   "rule_data" : {
+			  "float" : 1,
+			  "string" : ""
+		   }
+		},
+		{
+		   "id" : "dd2_prot_token_tt_r2",
+		   "stat_type" : "quirk_tag_evolution_duration",
+		   "stat_sub_type" : "dd2_prot_token_tt",
+		   "amount" : 1,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "remove_on_battle_complete":true,
+		   "is_false_rule" : false,
+		   "rule_data" : {
+			  "float" : 1,
+			  "string" : ""
+		   }
+		 },
+		{
+		   "id" : "dd2_ves_prot_token_rank3",
+		   "stat_type" : "combat_stat_add",
+		   "stat_sub_type" : "protection_rating",
+		   "amount" : 0.25,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "remove_on_battle_complete":true,
+		   "is_false_rule" : false,
+		   "has_description":false,
+		   "rule_data" : {
+			  "float" : 2,
+			  "string" : ""
+		   }
+		},
+		{
+		   "id" : "dd2_prot_token_tt_r3",
+		   "stat_type" : "quirk_tag_evolution_duration",
+		   "stat_sub_type" : "dd2_prot_token_tt",
+		   "amount" : 1,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "remove_on_battle_complete":true,
+		   "is_false_rule" : false,
+		   "rule_data" : {
+			  "float" : 2,
+			  "string" : ""
+		   }
+		 },
+		{
+		   "id" : "dd2_ves_prot_token_rank4",
+		   "stat_type" : "combat_stat_add",
+		   "stat_sub_type" : "protection_rating",
+		   "amount" : 0.25,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "remove_on_battle_complete":true,
+		   "is_false_rule" : false,
+		   "has_description":false,
+		   "rule_data" : {
+			  "float" : 3,
+			  "string" : ""
+		   }
+		},
+		{
+		   "id" : "dd2_prot_token_tt_r4",
+		   "stat_type" : "quirk_tag_evolution_duration",
+		   "stat_sub_type" : "dd2_prot_token_tt",
+		   "amount" : 1,
+		   "remove_if_not_active" : true,
+		   "rule_type" : "in_rank",
+		   "remove_on_battle_complete":true,
+		   "is_false_rule" : false,
+		   "rule_data" : {
+			  "float" : 3,
+			  "string" : ""
+		   }
+		 },
+		 {
+			"id" : "dd2_ves_str_tokenH_rank1",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string" : ""
+			}
+		 },
+		 {
+			"id" : "dd2_str_tokenH_tt_r1",
+			"stat_type" : "quirk_tag_evolution_duration",
+			"stat_sub_type" : "dd2_strength_token_tt",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string" : ""
+			}
+		  },
+		 {
+			"id" : "dd2_ves_str_tokenH_rank2",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 1,
+			   "string" : ""
+			}
+		 },
+		 {
+			"id" : "dd2_str_tokenH_tt_r2",
+			"stat_type" : "quirk_tag_evolution_duration",
+			"stat_sub_type" : "dd2_strength_token_tt",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 1,
+			   "string" : ""
+			}
+		  },
+		 {
+			"id" : "dd2_ves_str_tokenH_rank3",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 2,
+			   "string" : ""
+			}
+		 },
+		 {
+			"id" : "dd2_str_tokenH_tt_r3",
+			"stat_type" : "quirk_tag_evolution_duration",
+			"stat_sub_type" : "dd2_strength_token_tt",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 2,
+			   "string" : ""
+			}
+		  },
+		 {
+			"id" : "dd2_ves_str_tokenH_rank4",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 3,
+			   "string" : ""
+			}
+		 },
+		 {
+			"id" : "dd2_str_tokenH_tt_r4",
+			"stat_type" : "quirk_tag_evolution_duration",
+			"stat_sub_type" : "dd2_strength_token_tt",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"rule_data" : {
+			   "float" : 3,
+			   "string" : ""
+			}
+		  },
+		  {
+			"id" : "dd2_ves_str_tokenL_rank1",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 0,
+			   "string" : ""
+			}
+		 },
+		 {
+			"id" : "dd2_ves_str_tokenL_rank2",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 1,
+			   "string" : ""
+			}
+		 },
+		 {
+			"id" : "dd2_ves_str_tokenL_rank3",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 2,
+			   "string" : ""
+			}
+		 },
+		 {
+			"id" : "dd2_ves_str_tokenL_rank4",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"remove_on_battle_complete":true,
+			"is_false_rule" : false,
+			"has_description":false,
+			"rule_data" : {
+			   "float" : 3,
+			   "string" : ""
+			}
+		 },
+		
+		
+ 
+		 {
+		   "id": "dd2_ves_quirk_rank2_bool",
+		  "stat_type" : "poison_chance",
+		  "stat_sub_type" : "",
+		  "amount": 50,
+		  "has_description" : true,
+		  "remove_if_not_active": false,
+		  "rule_type" : "monsterType",
+		  "remove_on_battle_complete":true,
+		  "is_false_rule" : false,
+		  "rule_data" : {
+			 "float" : 1,
+			 "string": "dd2_eor_s0hpr_F"
+		  }
+	   },
+	   {
+		   "id": "dd2_ves_quirk_rank3_bool",
+		  "stat_type" : "bleed_chance",
+		  "stat_sub_type" : "",
+		  "amount": 50,
+		  "has_description" : true,
+		  "remove_if_not_active": false,
+		  "rule_type" : "monsterType",
+		  "remove_on_battle_complete":true,
+		  "is_false_rule" : false,
+		  "rule_data" : {
+			 "float" : 2,
+			 "string": "dd2_eor_s0hpr_F"
+		  }
+	   },
+	   {
+		   "id": "dd2_ves_quirk_rank4_bool1",
+		  "stat_type" : "bleed_chance",
+		  "stat_sub_type" : "",
+		  "amount": 50,
+		  "has_description" : true,
+		  "remove_if_not_active": false,
+		  "rule_type" : "monsterType",
+		  "remove_on_battle_complete":true,
+		  "is_false_rule" : false,
+		  "rule_data" : {
+			 "float" : 3,
+			 "string": "dd2_eor_s0hpr_F"
+		  }
+	   },
+	   {
+		   "id": "dd2_ves_quirk_rank4_bool2",
+		  "stat_type" : "poison_chance",
+		  "stat_sub_type" : "",
+		  "amount": 50,
+		  "has_description" : true,
+		  "remove_if_not_active": false,
+		  "rule_type" : "monsterType",
+		  "remove_on_battle_complete":true,
+		  "is_false_rule" : false,
+		  "rule_data" : {
+			 "float" : 3,
+			 "string": "dd2_eor_s0hpr_F"
+		  }
+	   },
+	   {
+		"id":"dd2_ves_fort_active_bool",
+		"stat_type":"bleed_chance",
+		"stat_sub_type":"",
+		"amount": 50,
+		"rule_type":"monsterType",
+		"remove_on_battle_complete":true,
+		"is_false_rule":false,
+		"remove_if_not_active":false,
+		"has_description": false,
+		"rule_data":{
+			"float":0,
+			"string":"dd2_eor_s0hpr_B"
+		}
+	},
+	   {
+		"id": "dd2_ves_light_active_bool",
+	   "stat_type" : "bleed_chance",
+	   "stat_sub_type" : "",
+	   "amount": 50,
+	   "has_description" : false,
+	   "remove_if_not_active": false,
+	   "rule_type" : "monsterType",
+	   "remove_on_battle_complete":true,
+	   "is_false_rule" : false,
+	   
+	   "rule_data" : {
+		  "float" : 0,
+		  "string": "dd2_eor_s0hpr_C"
+	   }
+	}
+
+   ]
+}

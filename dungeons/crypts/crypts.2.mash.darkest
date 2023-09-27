@@ -1,0 +1,13 @@
+hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B 
+hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_grenadier_B
+
+room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B 
+room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_grenadier_B
+boss: .chance 1 .types necromancer_B   
+
+named: .name summon_mash .chance 1 .types skeleton_common_B skeleton_common_B skeleton_common_B
+named: .name summon_mash .chance 1 .types skeleton_captain_B skeleton_defender_B skeleton_courtier_B
+named: .name summon_mash .chance 1 .types spider_webber_B spider_webber_B spider_spitter_B
+named: .name summon_mash .chance 1 .types skeleton_defender_B cultist_brawler_B cultist_witch_B
+named: .name summon_mash .chance 1 .types maggot_B maggot_B maggot_B
+named: .name summon_mash_shambler .chance 1 .types shambler_B

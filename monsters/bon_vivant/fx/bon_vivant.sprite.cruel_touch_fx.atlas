@@ -1,0 +1,20 @@
+
+bon_vivant.sprite.cruel_touch_fx.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fistblur
+  rotate: false
+  xy: 2, 2
+  size: 285, 232
+  orig: 285, 232
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 236
+  size: 1070, 660
+  orig: 1070, 660
+  offset: 0, 0
+  index: -1

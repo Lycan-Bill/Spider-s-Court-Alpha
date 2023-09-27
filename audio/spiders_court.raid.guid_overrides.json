@@ -1,0 +1,9 @@
+{
+    "event_guid_overrides":
+    [
+        {"event_id": "event:/general/char/summon_enemy",    "guid_override":"{5fedf984-f1ce-4d32-b819-7f747a0e416b}"},
+	{"event_id": "event:/general/char/death_enemy",    "guid_override":"{5fedf984-f1ce-4d32-b819-7f747a0e416b}"}
+		
+		
+    ]
+}

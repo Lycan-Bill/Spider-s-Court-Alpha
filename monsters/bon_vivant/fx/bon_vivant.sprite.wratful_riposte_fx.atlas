@@ -1,0 +1,48 @@
+
+bon_vivant.sprite.wratful_riposte_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 228
+  size: 489, 230
+  orig: 489, 230
+  offset: 0, 0
+  index: -1
+laughlines_1
+  rotate: true
+  xy: 2, 2
+  size: 224, 403
+  orig: 224, 403
+  offset: 0, 0
+  index: -1
+laughlines_2
+  rotate: false
+  xy: 681, 628
+  size: 315, 373
+  orig: 315, 373
+  offset: 0, 0
+  index: -1
+laughlines_3
+  rotate: false
+  xy: 681, 253
+  size: 315, 373
+  orig: 315, 373
+  offset: 0, 0
+  index: -1
+laughlines_4
+  rotate: true
+  xy: 407, 2
+  size: 224, 403
+  orig: 224, 403
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 460
+  size: 677, 541
+  orig: 677, 541
+  offset: 0, 0
+  index: -1

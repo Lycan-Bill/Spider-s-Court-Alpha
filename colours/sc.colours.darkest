@@ -1,0 +1,7 @@
+colour:	.id "combo" .rgba #00b386
+colour:	.id "burn"  .rgba #B35512
+colour: .id "pop_text_guard_break"			.rgba #B35512
+colour: .id "pop_text_outline_guard_break"	.rgba #000000
+
+
+

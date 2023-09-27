@@ -1,0 +1,17 @@
+display: .size 1
+enemy_type: .id "human"
+stats: .hp 27 .def 19% .prot 0 .spd 8 .stun_resist 65% .poison_resist 40% .bleed_resist 40% .debuff_resist 55% .move_resist 75%
+skill: .id "ganger_blast" .type "ranged" .atk 105.5% .dmg 9 12 .crit 17%  .launch 4321 .target 1234 .extra_targets_count 1 .extra_targets_chance 0.75
+skill: .id "ganger_warning" .type "ranged" .atk 80.5% .dmg 6 8 .crit 12%  .launch 432 .target 1234 .is_crit_valid False .effect "Ganger Stun 3" "Ganger Stress 3"
+skill: .id "ganger_reload" .type "ranged" .launch 1234 .target .effect "Ganger Reload Buff 3" "Ganger Extra Turn"
+personality: .prefskill -1
+loot: .code "C" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id skeleton_rabble_A
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True
+
+skill: .id "ganger_blast"     .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_vuln_tokenM" 
+skill: .id "ganger_warning" .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self"
+skill: .id "ganger_reload" .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self"

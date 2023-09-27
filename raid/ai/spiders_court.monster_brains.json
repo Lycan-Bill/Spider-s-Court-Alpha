@@ -2511,7 +2511,7 @@
 			"id": "bon_vivant",
 			"skill_cooldowns": [{
 					"combat_skill_id": "vivant_touch",
-					"amount": 1
+					"amount": 0
 				},
 				{
 					"combat_skill_id": "the_hunger_human",
@@ -2522,6 +2522,21 @@
 					"combat_skill_id": "the_hunger_beast",
 					"amount": 3
 
+				},
+				{
+					"combat_skill_id": "vivant_riposte",
+					"amount": 3
+
+				},
+				{
+					"combat_skill_id": "vivant_cane",
+					"amount": 0
+
+				},
+				{
+					"combat_skill_id": "vivant_buff",
+					"amount": 3
+
 				}
 			],
 			"skill_selection_desires": [
@@ -2529,8 +2544,29 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 3,
+						"base_chance": 1,
 						"combat_skill_id": "vivant_touch"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 40,
+						"combat_skill_id": "vivant_riposte"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3,
+						"combat_skill_id": "vivant_cane"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 30,
+						"combat_skill_id": "vivant_buff"
 					}
 				},
 				{
@@ -2545,7 +2581,7 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 0.5,
+						"base_chance": 0.05,
 						"combat_skill_id": "the_hunger_human"
 					}
 				},
@@ -2561,7 +2597,7 @@
 				{
 					"type": "specific_skill",
 					"data": {
-						"base_chance": 0.5,
+						"base_chance": 0.05,
 						"combat_skill_id": "the_hunger_beast"
 					}
 				}
@@ -3201,6 +3237,286 @@
                         "is_friendly_target_desire": true,
                         "is_greater_comparison": false
                     }
+				}
+			],
+			"bonus_initiative_desires": []
+		},
+		{
+			"id": "ganger_lookout",
+			"skill_cooldowns": [{
+					"combat_skill_id": "lookout_switchblade",
+					"amount": 1
+				},
+				{
+					"combat_skill_id": "lookout_ready",
+					"amount": 4
+				},
+				{
+					"combat_skill_id": "lookout_lookut",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "lookout_help",
+					"amount": 2
+
+				}
+			],
+			"skill_selection_desires": [
+
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3,
+						"combat_skill_id": "lookout_lookut"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 30,
+						"combat_skill_id": "lookout_ready"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1,
+						"combat_skill_id": "lookout_help",
+						"hp_ratio_threshold": 0.4
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1,
+						"combat_skill_id": "lookout_switchblade"
+					}
+				}
+			],
+			"target_selection_desires": [{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": true
+}
+                },                
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 5.0,
+                        "specific_combat_skill_id": "lookout_help",
+                        "is_exclusive_desire": true,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": false
+				}
+				}
+			],
+			"bonus_initiative_desires": []
+		},
+		{
+			"id": "ganger_gunner",
+			"skill_cooldowns": [{
+					"combat_skill_id": "ganger_blast",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "ganger_warning",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "ganger_reload",
+					"amount": 3
+
+				}
+			],
+			"skill_selection_desires": [
+
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3,
+						"combat_skill_id": "ganger_reload"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 4,
+						"combat_skill_id": "ganger_blast"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1,
+						"combat_skill_id": "ganger_warning"
+					}
+				}
+			],
+			"target_selection_desires": [{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }                
+            ],
+			"bonus_initiative_desires": []
+		},
+		{
+			"id": "ganger_enforcer",
+			"skill_cooldowns": [{
+					"combat_skill_id": "enforcer_knockout",
+					"amount": 1
+				},
+				{
+					"combat_skill_id": "enforcer_rush",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "enforcer_headbutt",
+					"amount": 1
+
+				}
+			],
+			"skill_selection_desires": [
+
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3,
+						"combat_skill_id": "enforcer_knockout"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 5,
+						"combat_skill_id": "enforcer_rush"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1,
+						"combat_skill_id": "enforcer_headbutt"
+					}
+				}
+			],
+			"target_selection_desires": [{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": false
+				}
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }                
+            ],
+			"bonus_initiative_desires": []
+		},
+		{
+			"id": "ganger_grenadier",
+			"skill_cooldowns": [{
+					"combat_skill_id": "ganger_smoke",
+					"amount": 4
+				},
+				{
+					"combat_skill_id": "ganger_molotov",
+					"amount": 2
+				},
+				{
+					"combat_skill_id": "ganger_dirty",
+					"amount": 1
+
+				},
+				{
+					"combat_skill_id": "ganger_suicide",
+					"amount": 1
+
+				}
+			],
+			"skill_selection_desires": [
+
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 3,
+						"combat_skill_id": "ganger_smoke"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 5,
+						"combat_skill_id": "ganger_molotov"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1,
+						"combat_skill_id": "ganger_dirty"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1,
+						"combat_skill_id": "ganger_suicide",
+						"monsters_size_min": 1,
+                        			"monsters_size_max": 3
+
+                    }
+                }                
+            ],
+			"target_selection_desires": [{
+				"type": "random_target",
+				"data": {
+					"base_chance": 1.0,
+					"specific_combat_skill_id": "",
+					"is_exclusive_desire": false,
+					"is_enemy_target_desire": true,
+					"is_friendly_target_desire": true
+}
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+				}
                 }
             ],
             "bonus_initiative_desires": []

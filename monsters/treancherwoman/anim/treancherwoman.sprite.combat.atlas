@@ -1,0 +1,244 @@
+
+treancherwoman.sprite.combat.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 298, 270
+  size: 240, 467
+  orig: 240, 467
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 1921, 77
+  size: 98, 91
+  orig: 98, 91
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 1079, 178
+  size: 27, 10
+  orig: 27, 10
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 1108, 178
+  size: 27, 10
+  orig: 27, 10
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 634, 2
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 1191, 23
+  size: 36, 47
+  orig: 36, 47
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 1978, 456
+  size: 38, 54
+  orig: 38, 54
+  offset: 0, 0
+  index: -1
+16
+  rotate: true
+  xy: 578, 2
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+17
+  rotate: true
+  xy: 298, 94
+  size: 174, 422
+  orig: 174, 422
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 2, 94
+  size: 294, 416
+  orig: 294, 416
+  offset: 0, 0
+  index: -1
+19
+  rotate: true
+  xy: 1722, 294
+  size: 216, 254
+  orig: 216, 254
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 966, 4
+  size: 171, 172
+  orig: 171, 172
+  offset: 0, 0
+  index: -1
+20
+  rotate: true
+  xy: 722, 42
+  size: 134, 242
+  orig: 134, 242
+  offset: 0, 0
+  index: -1
+21
+  rotate: false
+  xy: 1427, 285
+  size: 293, 225
+  orig: 293, 225
+  offset: 0, 0
+  index: -1
+22
+  rotate: true
+  xy: 1366, 64
+  size: 219, 234
+  orig: 219, 234
+  offset: 0, 0
+  index: -1
+23
+  rotate: true
+  xy: 767, 305
+  size: 205, 340
+  orig: 205, 340
+  offset: 0, 0
+  index: -1
+24
+  rotate: true
+  xy: 1109, 305
+  size: 205, 316
+  orig: 205, 316
+  offset: 0, 0
+  index: -1
+25
+  rotate: true
+  xy: 1079, 190
+  size: 113, 285
+  orig: 113, 285
+  offset: 0, 0
+  index: -1
+26
+  rotate: false
+  xy: 1139, 72
+  size: 164, 116
+  orig: 164, 116
+  offset: 0, 0
+  index: -1
+27
+  rotate: false
+  xy: 1305, 96
+  size: 27, 53
+  orig: 27, 53
+  offset: 0, 0
+  index: -1
+28
+  rotate: false
+  xy: 669, 42
+  size: 38, 50
+  orig: 38, 50
+  offset: 0, 0
+  index: -1
+29
+  rotate: false
+  xy: 1707, 70
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 578, 38
+  size: 54, 89
+  orig: 54, 89
+  offset: 0, 0
+  index: -1
+30
+  rotate: false
+  xy: 1305, 151
+  size: 58, 37
+  orig: 58, 37
+  offset: 0, 0
+  index: -1
+31
+  rotate: false
+  xy: 767, 178
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+32
+  rotate: false
+  xy: 1921, 170
+  size: 106, 122
+  orig: 106, 122
+  offset: 0, 0
+  index: -1
+33
+  rotate: false
+  xy: 1797, 155
+  size: 122, 137
+  orig: 122, 137
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 361, 6
+  size: 86, 215
+  orig: 86, 215
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 1797, 54
+  size: 99, 114
+  orig: 99, 114
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 722, 210
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 1707, 116
+  size: 167, 88
+  orig: 167, 88
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 1602, 68
+  size: 215, 103
+  orig: 215, 103
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1139, 13
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 29
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+bon_vivant.sprite.hunger_human_fx.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 1003, 155
+  size: 405, 610
+  orig: 405, 610
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 999, 763
+  orig: 999, 763
+  offset: 0, 0
+  index: -1
+swipything
+  rotate: false
+  xy: 1410, 362
+  size: 442, 403
+  orig: 442, 403
+  offset: 0, 0
+  index: -1

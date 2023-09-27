@@ -1,0 +1,37 @@
+hall: .chance 1 .types cc_maid_C steward_C cc_moth_C masked_esquire_C
+hall: .chance 1 .types masked_courtesan_C masked_esquire_C cc_maid_C cc_fox_C
+hall: .chance 1 .types steward_C steward_C cc_fish_C steward_C
+hall: .chance 1 .types cc_fox_C cc_fish_C chevalier_C
+hall: .chance 1 .types steward_C sycophant_C cc_maid_C masked_courtesan_C
+hall: .chance 1 .types steward_C masked_esquire_C cc_maid_C masked_courtesan_C
+hall: .chance 1 .types cc_fox_C bloody_butler_C masked_esquire_C
+hall: .chance 1 .types sycophant_C sycophant_C masked_esquire_C masked_esquire_C
+
+
+room: .chance 1 .types cc_maid_C steward_C cc_moth_C masked_esquire_C
+room: .chance 1 .types masked_courtesan_C masked_esquire_C cc_maid_C cc_fox_C
+room: .chance 1 .types steward_C steward_C cc_fish_C steward_C
+room: .chance 1 .types cc_fox_C cc_fish_C chevalier_C
+room: .chance 1 .types steward_C sycophant_C cc_maid_C masked_courtesan_C
+room: .chance 1 .types steward_C masked_esquire_C cc_maid_C masked_courtesan_C
+room: .chance 1 .types cc_fox_C bloody_butler_C masked_esquire_C
+room: .chance 1 .types sycophant_C sycophant_C masked_esquire_C masked_esquire_C
+
+boss: .chance 1 .types statue_shield_C statue_head_C statue_hand_C 
+boss: .chance 1 .types  viscount_appetizer_C viscount_entree_C viscount_dessert_C viscount_C
+boss: .chance 1 .types baron_B audience_B
+stall: .chance 2 .types esquire_C courtesan_C  
+stall: .chance 1 .types steward_C courtesan_C  
+stall: .chance 1 .types steward_C sycophant_C   
+stall: .chance 1 .types steward_C steward_C  
+stall: .chance 1 .types esquire_C   
+trap: .chance 1 .types sycophant_C tick_zombie_C chevalier_C 
+named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C tick_zombie_C castellan_C 
+named: .name infested_egg_cluster_1 .chance 1 .types steward_C sycophant_C castellan_C 
+named: .name infested_egg_cluster_1 .chance 1 .types tick_zombie_C sycophant_C sycophant_C castellan_C
+
+named: .name baron_greetings .chance 1 .types courtesan_C treancherwoman_C gorger_C
+named: .name grand_hall .chance 1 .types masked_courtesan_C masked_esquire_C cc_fox_C
+named: .name ballroom .chance 1 .types cc_fish_C cc_moth_C cc_fox_C masked_courtesan_C 
+named: .name gallery .chance 1 .types valet_C masked_esquire_C bloody_butler_C
+named: .name lounge .chance 1 .types masked_courtesan_C cc_moth_C cc_fox_C

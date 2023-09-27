@@ -1,0 +1,20 @@
+
+treancherwoman.sprite.attack_famished_vision.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow_ground
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+thirst
+  rotate: false
+  xy: 2, 67
+  size: 532, 648
+  orig: 532, 648
+  offset: 0, 0
+  index: -1

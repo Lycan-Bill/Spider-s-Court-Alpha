@@ -1,0 +1,27 @@
+
+treancherwoman.sprite.attack_leap_fx.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+afterimage1
+  rotate: false
+  xy: 2, 2
+  size: 1154, 731
+  orig: 1154, 731
+  offset: 0, 0
+  index: -1
+afterimage2
+  rotate: false
+  xy: 1158, 2
+  size: 1154, 731
+  orig: 1154, 731
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2314, 7
+  size: 881, 726
+  orig: 881, 726
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+bon_vivant.sprite.hunger_beast_fx.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 1091, 275
+  size: 499, 421
+  orig: 499, 421
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 67
+  size: 1087, 629
+  orig: 1087, 629
+  offset: 0, 0
+  index: -1
+spittle_1
+  rotate: false
+  xy: 2, 2
+  size: 90, 63
+  orig: 90, 63
+  offset: 0, 0
+  index: -1
+spittle_2
+  rotate: false
+  xy: 1592, 670
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+spittle_3
+  rotate: false
+  xy: 1091, 227
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+treancherwoman.sprite.attack_claw_beast.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+claw snip
+  rotate: false
+  xy: 2, 252
+  size: 1174, 762
+  orig: 1174, 762
+  offset: 0, 0
+  index: -1
+petal_1
+  rotate: false
+  xy: 1178, 898
+  size: 53, 51
+  orig: 53, 51
+  offset: 0, 0
+  index: -1
+petal_2
+  rotate: false
+  xy: 437, 174
+  size: 32, 76
+  orig: 32, 76
+  offset: 0, 0
+  index: -1
+petal_3
+  rotate: false
+  xy: 1537, 953
+  size: 31, 61
+  orig: 31, 61
+  offset: 0, 0
+  index: -1
+petal_4
+  rotate: false
+  xy: 471, 195
+  size: 23, 55
+  orig: 23, 55
+  offset: 0, 0
+  index: -1
+petal_5
+  rotate: false
+  xy: 437, 115
+  size: 31, 57
+  orig: 31, 57
+  offset: 0, 0
+  index: -1
+shadow_ground
+  rotate: false
+  xy: 1178, 951
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+split(startsquished,thenStretches downwards in anim)
+  rotate: true
+  xy: 2, 2
+  size: 248, 433
+  orig: 248, 433
+  offset: 0, 0
+  index: -1

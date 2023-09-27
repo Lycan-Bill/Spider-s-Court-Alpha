@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="english">
+<entry id="str_fire"><![CDATA[{colour_start|attacktype}Fire{colour_end}]]></entry>
+<entry id="buff_bsrc_deathsdoor_recovery"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
+<entry id="str_ui_guard_break"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_dd2_burn_token_tt"><![CDATA[%d DMG after turn]]></entry>
+
+
   <!-- New Monster -->
   <entry id="str_monstername_scarab_chef_A"><![CDATA[Third Tier Chef]]></entry>
   <entry id="str_monstername_scarab_chef_B"><![CDATA[Second Rate Chef]]></entry>

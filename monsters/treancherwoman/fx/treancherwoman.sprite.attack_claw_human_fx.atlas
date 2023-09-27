@@ -1,0 +1,20 @@
+
+treancherwoman.sprite.attack_claw_human_fx.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 3
+  rotate: false
+  xy: 723, 222
+  size: 276, 170
+  orig: 276, 170
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 2
+  size: 390, 719
+  orig: 390, 719
+  offset: 0, 0
+  index: -1

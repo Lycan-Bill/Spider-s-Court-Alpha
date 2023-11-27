@@ -1,0 +1,13 @@
+
+blood_jester.sprite.attack_dirk.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background
+  rotate: false
+  xy: 2, 2
+  size: 1063, 940
+  orig: 1063, 940
+  offset: 0, 0
+  index: -1

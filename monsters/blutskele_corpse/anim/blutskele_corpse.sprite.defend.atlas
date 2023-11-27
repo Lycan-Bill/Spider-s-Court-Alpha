@@ -1,0 +1,13 @@
+
+blutskele_corpse.sprite.defend.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skelcorpse
+  rotate: false
+  xy: 2, 2
+  size: 550, 516
+  orig: 550, 516
+  offset: 0, 0
+  index: -1

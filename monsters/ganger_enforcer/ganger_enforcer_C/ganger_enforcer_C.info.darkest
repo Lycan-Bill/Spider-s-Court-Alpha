@@ -1,13 +1,14 @@
 display: .size 1
-enemy_type: .id "human"
+enemy_type: .id "man"
 stats: .hp 27 .def 9% .prot 0.25 .spd 21 .stun_resist 75% .poison_resist 40% .bleed_resist 40% .debuff_resist 65% .move_resist 85%
-skill: .id "enforcer_knockout" .type "melee" .atk 75.75% .dmg 8 11 .crit 13%  .effect "Ganger Stun 3" .launch 21 .target 12
-skill: .id "enforcer_rush" .type "melee" .atk 85.75% .dmg 7 9 .crit 6%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "Ganger Push 3"
-skill: .id "enforcer_headbutt" .type "melee" .atk 85.75% .dmg 6 8 .crit 8%  .launch 321 .target 12 .is_crit_valid False .effect "Enforcer Stun Debuff 3" "Ganger Push 3" "Enforcer Stun Self Debuff 3"
+skill: .id "enforcer_punch" .type "melee" .atk 102.75% .dmg 4 7 .crit 8%  .effect .launch 4321 .target 12 .move 0 1
+skill: .id "enforcer_knockout" .type "melee" .atk 102.75% .dmg 8 11 .crit 13%  .effect "Ganger Stun 3" .launch 21 .target 12
+skill: .id "enforcer_rush" .type "melee" .atk 102.75% .dmg 7 9 .crit 6%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "Ganger Push 3"
+skill: .id "enforcer_headbutt" .type "melee" .atk 102.75% .dmg 6 8 .crit 8%  .launch 321 .target 12 .is_crit_valid False .effect "Enforcer Stun Debuff 3" "Ganger Push 3" "Enforcer Stun Self Debuff 3"
 personality: .prefskill -1
 loot: .code "C" .count 1
 initiative: .number_of_turns_per_round 1
-monster_brain: .id skeleton_rabble_B
+monster_brain: .id ganger_enforcer
 death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
 battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front True

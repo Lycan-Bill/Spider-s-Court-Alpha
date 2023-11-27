@@ -1,0 +1,20 @@
+
+ganger_enforcer.sprite.attack_rush.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enforcerBULLRUSH
+  rotate: true
+  xy: 2, 2
+  size: 466, 595
+  orig: 466, 595
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 599, 405
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

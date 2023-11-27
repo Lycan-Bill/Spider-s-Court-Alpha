@@ -1,0 +1,13 @@
+
+blood_crusader.sprite.defend.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background
+  rotate: true
+  xy: 2, 2
+  size: 625, 1057
+  orig: 625, 1057
+  offset: 0, 0
+  index: -1

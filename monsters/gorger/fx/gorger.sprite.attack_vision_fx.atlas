@@ -1,0 +1,55 @@
+
+gorger.sprite.attack_vision_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dribble_2
+  rotate: false
+  xy: 627, 971
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+dribble_3
+  rotate: false
+  xy: 197, 165
+  size: 13, 73
+  orig: 13, 73
+  offset: 0, 0
+  index: -1
+dribble_4
+  rotate: false
+  xy: 2, 2
+  size: 29, 86
+  orig: 29, 86
+  offset: 0, 0
+  index: -1
+drippble_1
+  rotate: false
+  xy: 536, 908
+  size: 25, 55
+  orig: 25, 55
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 536, 965
+  size: 89, 36
+  orig: 89, 36
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 90
+  size: 193, 148
+  orig: 193, 148
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 240
+  size: 532, 761
+  orig: 532, 761
+  offset: 0, 0
+  index: -1

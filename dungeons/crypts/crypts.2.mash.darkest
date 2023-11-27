@@ -1,9 +1,23 @@
 hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B 
+hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_assassin_B
+hall: .chance 1 .types ganger_enforcer_B ganger_Bssassin_B ganger_grenadier_B
 hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_grenadier_B
+hall: .chance 1 .types ganger_enforcer_B ganger_breaker_B ganger_lookout_B 
+hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_assassin_B
+hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_grenadier_B ganger_assassin_B
+hall: .chance 1 .types ganger_enforcer_B ganger_breaker_B ganger_lookout_B 
+hall: .chance 1 .types ganger_gunner_B ganger_breaker_B ganger_assassin_B
+hall: .chance 1 .types ganger_gunner_B ganger_breaker_B ganger_grenadier_B
 
 room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B 
+room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_assassin_B
+room: .chance 1 .types ganger_enforcer_B ganger_assassin_B ganger_grenadier_B
 room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_grenadier_B
-boss: .chance 1 .types necromancer_B   
+room: .chance 1 .types ganger_enforcer_B ganger_breaker_B ganger_lookout_B 
+room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_assassin_B
+room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_grenadier_B ganger_assassin_B
+room: .chance 1 .types ganger_enforcer_B ganger_breaker_B ganger_lookout_B 
+room: .chance 1 .types ganger_gunner_B ganger_breaker_B ganger_assassin_B
 
 named: .name summon_mash .chance 1 .types skeleton_common_B skeleton_common_B skeleton_common_B
 named: .name summon_mash .chance 1 .types skeleton_captain_B skeleton_defender_B skeleton_courtier_B

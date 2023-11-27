@@ -1,9 +1,7 @@
 commonfx: .deathfx death_large
-skill: .id "careless_whispers" .anim "combat" .area_pos_offset -100 -10 .target_area_pos_offset 150 0
-skill: .id "midnight_minuet" .anim "combat" .can_display_performer_selection_after_turn false
-skill: .id "damsel_in_distress" .anim "combat" .target_area_pos_offset 200 -25 .can_display_performer_selection_after_turn false
-skill: .id "renewed_appetite" .anim "combat" .area_pos_offset 0 -75
-skill: .id "expose_the_vein" .anim "combat" .targchestfx "blood_splatter" .area_pos_offset 0 -50
-skill: .id "the_hunger_human" .anim "combat" .targchestfx "blood_splatter" .area_pos_offset 0 -25
-skill: .id "the_hunger_beast" .anim "combat" .targchestfx "blood_splatter" .area_pos_offset 0 -50
-skill: .id "rebuff_slap" .anim "combat"  .targchestfx "blood_splatter" .area_pos_offset 0 -25
+skill: .id "treancher_vision" .anim "attack_famished_vision" .fx "attack_famished_vision_fx"
+skill: .id "treancher_taste" .anim "attack_taste" .fx "attack_taste_fx"
+skill: .id "treancher_claw" .anim "attack_claw_beast" .targchestfx "blood_splatter"
+skill: .id "treancher_leap" .anim "attack_leap" .fx "attack_leap_fx"
+skill: .id "the_hunger_human" .anim "attack_hunger_fx" .fx "attack_hunger" .targchestfx "blood_splatter" .area_pos_offset 0 -25
+skill: .id "the_hunger_beast" .anim "attack_hunger_fx" .fx "attack_hunger" .targchestfx "blood_splatter" .area_pos_offset 0 -50

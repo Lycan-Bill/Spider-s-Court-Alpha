@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="japanese">
+
+     <!-- monster names-->
+	<entry id="str_monstername_blood_collector_B"><![CDATA[Blood Collector]]></entry>
+	<entry id="str_monstername_blood_collector_C"><![CDATA[Blood Collector]]></entry>
+	<entry id="str_monstername_blood_collector_A"><![CDATA[Blood Collector]]></entry>
+	
+	
+	<entry id="str_monstername_blood_crusader_B"><![CDATA[Bloody Crusader]]></entry>
+	<entry id="str_monstername_blood_crusader_C"><![CDATA[Bloody Crusader]]></entry>
+	<entry id="str_monstername_blood_crusader_A"><![CDATA[Bloody Crusader]]></entry>
+
+	<entry id="str_monstername_blood_jester_B"><![CDATA[Bloody Jester]]></entry>
+	<entry id="str_monstername_blood_jester_C"><![CDATA[Bloody Jester]]></entry>
+	<entry id="str_monstername_blood_jester_A"><![CDATA[Bloody Jester]]></entry>
+	
+	<entry id="str_monstername_blut_skele_spear_B"><![CDATA[Bloody Spearman]]></entry>
+	<entry id="str_monstername_blut_skele_spear_C"><![CDATA[Bloody Spearman]]></entry>
+	<entry id="str_monstername_blut_skele_spear_A"><![CDATA[Bloody Spearman]]></entry>
+	
+	<entry id="str_monstername_blutskele_B"><![CDATA[Bloody Swordsman]]></entry>
+	<entry id="str_monstername_blutskele_C"><![CDATA[Bloody Swordsman]]></entry>
+	<entry id="str_monstername_blutskele_A"><![CDATA[Bloody Swordsman]]></entry>
+	
+	<entry id="str_monstername_blood_flagellant_C"><![CDATA[Bloody Flagellant]]></entry>
+	<entry id="str_monstername_blood_flagellant_B"><![CDATA[Bloody Flagellant]]></entry>
+	<entry id="str_monstername_blood_flagellant_A"><![CDATA[Bloody Flagellant]]></entry>
+	
+	<entry id="str_monstername_blutskele_corpse_C"><![CDATA[Corpse]]></entry>
+	<entry id="str_monstername_blut_skele_spear_corpse_C"><![CDATA[Corpse]]></entry>
+	
+	
+
+  <!-- monster skills-->
+  <entry id="str_monster_skill_collect_blood"><![CDATA[Blood Drive]]></entry>
+  <entry id="str_monster_skill_blood_summon"><![CDATA[Of Blood and Flesh]]></entry>
+  <entry id="str_monster_skill_return_to_sender"><![CDATA[Transfusion]]></entry>
+  <entry id="str_monster_skill_BC_Claw"><![CDATA[Expose Artery]]></entry>
+
+ <entry id="str_monster_skill_blood_smite"><![CDATA[Smite Of Blood]]></entry>
+  <entry id="str_monster_skill_blood_heal"><![CDATA[Soothing Blood]]></entry>
+  <entry id="str_monster_skill_blood_bleed_buff"><![CDATA[Sanguine Essence]]></entry>
+  
+  <entry id="str_monster_skill_rain_blood"><![CDATA[Rain of Blood]]></entry>
+  <entry id="str_monster_skill_blood_despair"><![CDATA[Bloody Despair]]></entry>
+  
+  <entry id="str_monster_skill_blood_dirk"><![CDATA[Bloody Shank]]></entry>
+  <entry id="str_monster_skill_blood_harvest"><![CDATA[Dark Harvest]]></entry>
+  
+  <entry id="str_monster_skill_blut_lunge"><![CDATA[Seeping Blood]]></entry>
+  <entry id="str_monster_skill_blut_slash"><![CDATA[Bloody Strike]]></entry>
+  
+  <entry id="str_monster_skill_blut_poke"><![CDATA[Goring Strike]]></entry>
+  <entry id="str_monster_skill_blut_taunt"><![CDATA[Bloody Laugh]]></entry>
+  
+  <entry id="str_monster_skill_blood_skeleton_revive"><![CDATA[Gore]]></entry>
+
+  <!-- quest and event-->
+  <entry id="town_event_title_Blood_Collector_Reveal_1"><![CDATA[The Blood Collector Arrives!]]></entry>
+  <entry id="town_event_description_Blood_Collector_Reveal_1"><![CDATA[Drained bodies of townfolks everywhere, something lurks in the courtyard
+  Something is amiss.]]></entry>
+  <entry id="town_quest_progress_plot_blood_collector_intro_1"><![CDATA[Slay the boss!]]></entry>
+  <entry id="town_quest_name_plot_blood_collector_intro_1"><![CDATA[Blood Drive]]></entry>
+  <entry id="town_quest_description_plot_blood_collector_intro_1"><![CDATA[Something from another place and time has been draining any living creature of blood, we must stop it before everything is rendered a husk.]]></entry>
+  <entry id="str_plot_blood_collector_intro_1_tip"><![CDATA[The gentry seem to avoid this part of the courtyard, some even tried to warn us...]]></entry>
+  <entry id="str_embarked_on_blood_collector_intro_1"><![CDATA[{?hero_names}%s embarked on to investigate the mysterious drainings. ({?difficulty}%s {?length}%s)]]></entry>
+  <entry id="str_returned_from_blood_collector_intro_1_success"><![CDATA[{?hero_names}%s have successfully slain the Blood Collector. ({?difficulty}%s {?length}%s)]]></entry>
+  <entry id="str_returned_from_blood_collector_intro_1_failure"><![CDATA[{?hero_names}%s were overwhelmed by the Blood Collector. ({?difficulty}%s {?length}%s)]]></entry>
+
+  <!-- type-->
+  <entry id="enemy_type_name_blood"><![CDATA[Blood]]></entry>
+
+  </language>
+</root>
+

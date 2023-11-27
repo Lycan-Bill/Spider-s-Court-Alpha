@@ -1,0 +1,20 @@
+
+ganger_enforcer.sprite.attack_uppercut_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 560, 711
+  orig: 560, 711
+  offset: 0, 0
+  index: -1
+streak
+  rotate: true
+  xy: 564, 510
+  size: 203, 458
+  orig: 203, 458
+  offset: 0, 0
+  index: -1

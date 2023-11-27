@@ -1,0 +1,69 @@
+
+gorger.sprite.attack_vomit_fx.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bile_10
+  rotate: false
+  xy: 403, 215
+  size: 92, 37
+  orig: 92, 37
+  offset: 0, 0
+  index: -1
+bile_11
+  rotate: false
+  xy: 490, 169
+  size: 20, 44
+  orig: 20, 44
+  offset: 0, 0
+  index: -1
+bile_12
+  rotate: false
+  xy: 257, 108
+  size: 144, 144
+  orig: 144, 144
+  offset: 0, 0
+  index: -1
+bile_5
+  rotate: false
+  xy: 257, 12
+  size: 87, 94
+  orig: 87, 94
+  offset: 0, 0
+  index: -1
+bile_6
+  rotate: false
+  xy: 403, 186
+  size: 80, 27
+  orig: 80, 27
+  offset: 0, 0
+  index: -1
+bile_7
+  rotate: false
+  xy: 403, 139
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+bile_8
+  rotate: true
+  xy: 451, 145
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+bile_9
+  rotate: false
+  xy: 346, 32
+  size: 44, 74
+  orig: 44, 74
+  offset: 0, 0
+  index: -1
+mouthhole
+  rotate: false
+  xy: 2, 2
+  size: 253, 250
+  orig: 253, 250
+  offset: 0, 0
+  index: -1

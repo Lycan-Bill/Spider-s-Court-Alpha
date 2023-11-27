@@ -1,0 +1,3 @@
+commonfx: .deathfx death_small
+skill: .id "rain_blood" .anim "attack_rain" .fx "attack_rain_fx" .targchestfx "punish_target"
+skill: .id "blood_despair" .anim "attack_despair" .fx "attack_despair_fx" .targchestfx "rain_of_sorrows_target"

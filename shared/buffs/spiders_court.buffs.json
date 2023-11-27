@@ -237,6 +237,87 @@
 			"rule_data": {
 				"float": 0,
 				"string": "tagged"
+				 }
+      },
+      {
+         "id" : "gorger_delayed_craving_debuff_1",
+         "stat_type" : "vampire_evolution_duration",
+         "stat_sub_type" : "",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+			}
+      },
+      {
+         "id" : "gorger_delayed_craving_debuff_3",
+         "stat_type" : "vampire_evolution_duration",
+         "stat_sub_type" : "",
+         "amount" : -10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+			}
+      },
+      {
+         "id" : "gorger_delayed_craving_debuff_5",
+         "stat_type" : "vampire_evolution_duration",
+         "stat_sub_type" : "",
+         "amount" : -20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+			 }
+      },
+      {
+         "id" : "gorger_bleedresist_debuff_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+
+			 }
+      },
+      {
+         "id" : "gorger_bleedresist_debuff_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+
+			 }
+      },
+      {
+         "id" : "gorger_bleedresist_debuff_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+
 			}
       }
    ]

@@ -1,0 +1,34 @@
+
+gorger.sprite.attack_hunger_beast_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodspittle_1
+  rotate: false
+  xy: 872, 848
+  size: 130, 142
+  orig: 130, 142
+  offset: 0, 0
+  index: -1
+bloodspittle_2
+  rotate: false
+  xy: 2, 2
+  size: 36, 90
+  orig: 36, 90
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 94
+  size: 489, 327
+  orig: 489, 327
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 423
+  size: 868, 567
+  orig: 868, 567
+  offset: 0, 0
+  index: -1

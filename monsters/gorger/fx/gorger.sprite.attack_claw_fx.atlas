@@ -1,0 +1,20 @@
+
+gorger.sprite.attack_claw_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clawswipes
+  rotate: true
+  xy: 2, 2
+  size: 202, 418
+  orig: 202, 418
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 206
+  size: 759, 714
+  orig: 759, 714
+  offset: 0, 0
+  index: -1

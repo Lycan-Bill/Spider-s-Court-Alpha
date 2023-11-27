@@ -1,3 +1,4 @@
 commonfx: .deathfx death_medium
-skill: .id "blut_lunge" .anim "attack_lunge" .fx "attack_lunge_fx"
-skill: .id "blut_slash" .anim "attack_slash" .fx "attack_slash_fx"
+skill: .id "blut_lunge" .anim "attack_lunge" .fx "attack_lunge_fx" .targchestfx "blood_splatter"
+skill: .id "blut_slash" .anim "attack_slash" .fx "attack_slash_fx" .targchestfx "blood_splatter"
+riposte_skill: .id "riposte_attack" .anim "attack_slash" .fx "attack_slash_fx" .targchestfx "blood_splatter" .area_pos_offset 0 -65

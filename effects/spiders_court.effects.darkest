@@ -1,7 +1,7 @@
 //changes
 effect: .name "The Thirst Lifedrain Scaling 1" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "The_thirst_lifesteal_Scaling_1" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
 
-// Baron Changes
+// Baron Changes 
 effect: .name "Baron Smug Buff" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.15 .damage_high_multiply 0.15 .crit_chance_add 4% .queue true .on_hit true .on_miss true
 effect: .name "Baron Silence Stun" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Baron Audience Change" .target "performer_group_other" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
@@ -118,9 +118,9 @@ effect: .name "Chef Fish Stun 1" .target "target" .curio_result_type "negative" 
 effect: .name "Chef Fish Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Chef Fish Stun 5" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
 
-effect: .name "Chef Fish Dodge Debuff 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add -5% .on_hit true .on_miss false .apply_once false 
-effect: .name "Chef Fish Dodge Debuff 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add -7.5% .on_hit true .on_miss false .apply_once false 
-effect: .name "Chef Fish Dodge Debuff 5" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss false .apply_once false 
+effect: .name "Chef Fish Dodge Debuff 1" .target "target" .curio_result_type "positive" .chance 90% .duration 3 .combat_stat_buff 1 .defense_rating_add -5% .on_hit true .on_miss false .apply_once false 
+effect: .name "Chef Fish Dodge Debuff 3" .target "target" .curio_result_type "positive" .chance 105% .duration 3 .combat_stat_buff 1 .defense_rating_add -7.5% .on_hit true .on_miss false .apply_once false 
+effect: .name "Chef Fish Dodge Debuff 5" .target "target" .curio_result_type "positive" .chance 125% .duration 3 .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss false .apply_once false 
 
 effect: .name "Chef Knife Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Chef Knife Bleed 3" .target "target" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
@@ -306,20 +306,6 @@ effect: .name "Marchioness Prayer Dmg" .target "performer" .chance 100% .curio_r
 effect: .name "Marchioness Riposte"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply 0.5%  .damage_high_multiply 0.5%  .crit_chance_add 2%
 effect: .name "Marchioness Block" .target "performer" .chance 100% .curio_result_type "positive" .health_damage_blocks 1 .on_hit true .on_miss false .queue true
 
-//Blood Skeleton
-effect: .name "Blood Reanimate 1" .target "performer" .chance 100% .heal 4 .set_monster_class_id skeleton_reanimated_A .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "Blood Reanimate 2" .target "performer" .chance 100% .heal 6 .set_monster_class_id skeleton_reanimated_B .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "Blood Reanimate 3" .target "performer" .chance 100% .heal 8 .set_monster_class_id blutskele_C .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
-
-effect: .name "Reanimate Spear 1" .target "performer" .chance 100% .set_monster_class_id skeleton_defender_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "Reanimate Spear 2" .target "performer" .chance 100% .set_monster_class_id skeleton_defender_B .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
-effect: .name "Blood Reanimate Spear 3" .target "performer" .chance 100% .set_monster_class_id blut_skele_spear_C .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
-
-effect: .name "Blood Bonus" .target "performer" .chance 100% .initiative_change 1 .duration 1 .apply_once true .on_hit true .on_miss true .queue true
-
-effect: .name "Blood Skeleton Bleed" .target "performer" .chance 140%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Blood Skeleton Attack Bleed" .target "performer" .chance 140%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-
 //Gourmet
 effect: .name "Gourmet Cig Debuff 1" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .damage_low_multiply -10% .damage_high_multiply -10% .attack_rating_add -5% .on_hit true .on_miss false .queue true 
 effect: .name "Gourmet Cig Debuff 2" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .combat_stat_buff 1 .damage_low_multiply -15% .damage_high_multiply -15% .attack_rating_add -10% .on_hit true .on_miss false .queue true 
@@ -333,9 +319,9 @@ effect: .name "Gourmet Slap Stun 1" .target "target" .curio_result_type "negativ
 effect: .name "Gourmet Slap Stun 2" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Gourmet Slap Stun 3" .target "target" .curio_result_type "negative" .chance 150% .stun 1	.on_hit true .on_miss false .queue true
 
-effect: .name "Gourmet Slap Push 1" .target "target"  .push 1 	.chance 130%   .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Gourmet Slap Push 2" .target "target"  .push 1 	.chance 140%   .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Gourmet Slap Push 3" .target "target"  .push 1 	.chance 150%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gourmet Slap Push 1" .target "target"  .push 1 	.chance 100%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gourmet Slap Push 2" .target "target"  .push 1 	.chance 125%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gourmet Slap Push 3" .target "target"  .push 1 	.chance 140%   .on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "Gourmet Slap Stress 1" .target "target" .curio_result_type "negative" .chance 100% .stress 4 .on_hit true .on_miss true .queue true .apply_once false 
 effect: .name "Gourmet Slap Stress 2" .target "target" .curio_result_type "negative" .chance 100% .stress 6 .on_hit true .on_miss true .queue true .apply_once false 
@@ -366,21 +352,81 @@ effect: .name "Vivant Laugh Buff 1" .target "target"  .chance 140% .duration 3 .
 effect: .name "Vivant Laugh Debuff 2" .target "target" .chance 140% .duration 3 .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .attack_rating_add 10% .on_hit true .on_miss false .queue true 
 effect: .name "Vivant Laugh Debuff 3" .target "target" .chance 140% .duration 3 .combat_stat_buff 1 .damage_low_multiply 20% .damage_high_multiply 20% .attack_rating_add 15% .on_hit true .on_miss false .queue true 
 
+// Gorger
+effect: .name "Gorger Perfume Debuff 1" .target "target" .chance 90% .combat_stat_buff 1 .attack_rating_add -8% .on_hit true .on_miss true .queue true .apply_once true .duration 3
+effect: .name "Gorger Perfume Debuff 3" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -12% .on_hit true .on_miss true .queue true .apply_once true .duration 3
+effect: .name "Gorger Perfume Debuff 5" .target "target" .chance 140% .combat_stat_buff 1 .attack_rating_add -16% .on_hit true .on_miss true .queue true .apply_once true .duration 3
+
+effect: .name "Gorger Dodge Debuff 1" .target "target" .curio_result_type "positive" .chance 90% .duration 3 .combat_stat_buff 1 .defense_rating_add -5% .on_hit true .on_miss false .apply_once false 
+effect: .name "Gorger Dodge Debuff 3" .target "target" .curio_result_type "positive" .chance 105% .duration 3 .combat_stat_buff 1 .defense_rating_add -7.5% .on_hit true .on_miss false .apply_once false 
+effect: .name "Gorger Dodge Debuff 5" .target "target" .curio_result_type "positive" .chance 140% .duration 3 .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss false .apply_once false 
+
+effect: .name "Gorger Horror 1" .target "target" .chance 100% .dotStress 2 .stress 3 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "Gorger Horror 3" .target "target" .chance 125% .dotStress 3 .stress 4 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "Gorger Horror 5" .target "target" .chance 140% .dotStress 4 .stress 5 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+
+effect: .name "Gorger Blight 1" .target "target" .chance 100%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gorger Blight 3" .target "target" .chance 125%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gorger Blight 5" .target "target" .chance 140%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Gorger ACC Buff 1" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 8% .on_hit true .on_miss false .apply_once true
+effect: .name "Gorger ACC Buff 3" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 12% .on_hit true .on_miss false .apply_once true
+effect: .name "Gorger ACC Buff 5" .target "performer" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add 16% .on_hit true .on_miss false .apply_once true
+
+effect: .name "Gorger Mark"	.target "target" .chance 100% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
+
+effect: .name "Gorger Curse Debuff 1" .target "target" .chance 100% .buff_ids "gorger_delayed_craving_debuff_1" .duration 5 .on_hit true .on_miss false  .queue true .apply_once false 
+effect: .name "Gorger Curse Debuff 3" .target "target" .chance 125% .buff_ids "gorger_delayed_craving_debuff_3" .duration 10 .on_hit true .on_miss false  .queue true .apply_once false 
+effect: .name "Gorger Curse Debuff 5" .target "target" .chance 140% .buff_ids "gorger_delayed_craving_debuff_5" .duration 20 .on_hit true .on_miss false  .queue true .apply_once false
+
+effect: .name "Gorger Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gorger Bleed 3" .target "target" .chance 125%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gorger Bleed 5" .target "target" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "Gorger Bleed Debuff 1" .target "target" .chance 100% .buff_ids "gorger_bleedresist_debuff_1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .queue true .apply_once false 
+effect: .name "Gorger Bleed Debuff 3" .target "target" .chance 120% .buff_ids "gorger_bleedresist_debuff_3" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .queue true .apply_once false 
+effect: .name "Gorger Bleed Debuff 5" .target "target" .chance 140% .buff_ids "gorger_bleedresist_debuff_5" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss false  .queue true .apply_once false
+
+//treancherwoman
+effect: .name "Treancherwoman ACC Buff 1" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .attack_rating_add 12% .on_hit true .on_miss false .apply_once true
+effect: .name "Treancherwoman ACC Buff 3" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .attack_rating_add 18% .on_hit true .on_miss false .apply_once true
+effect: .name "Treancherwoman ACC Buff 5" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .attack_rating_add 24% .on_hit true .on_miss false .apply_once true
+
+effect: .name "Treancherwoman Repartee 1"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply 10%  .damage_high_multiply 10%  .crit_chance_add 5%
+effect: .name "Treancherwoman Repartee 3"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply 15%  .damage_high_multiply 15%  .crit_chance_add 6%
+effect: .name "Treancherwoman Repartee 5"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply 20%  .damage_high_multiply 20%  .crit_chance_add 7%
+
+effect: .name "Treancherwoman Pull 1" .target "target"  .pull 1 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Treancherwoman Pull 3" .target "target"  .pull 1 	.chance 125%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Treancherwoman Pull 5" .target "target"  .pull 1 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Treancherwoman Stress 1" .target "target" .curio_result_type "negative" .chance 100% .stress 1 .on_hit true .on_miss true .queue true .apply_once false
+effect: .name "Treancherwoman Stress 3" .target "target" .curio_result_type "negative" .chance 100% .stress 3 .on_hit true .on_miss true .queue true .apply_once false
+effect: .name "Treancherwoman Stress 5" .target "target" .curio_result_type "negative" .chance 100% .stress 6 .on_hit true .on_miss true .queue true .apply_once false
+
+effect: .name "Treancherwoman Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Treancherwoman Bleed 3" .target "target" .chance 125%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Treancherwoman Bleed 5" .target "target" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "Treancherwoman Speed Buff 1" .target "target" .chance 130% .curio_result_type "positive" .combat_stat_buff 1 .duration 3 .speed_rating_add 3 .on_hit true .on_miss false
+effect: .name "Treancherwoman Speed Buff 3" .target "target" .chance 130% .curio_result_type "positive" .combat_stat_buff 1 .duration 3 .speed_rating_add 5 .on_hit true .on_miss false
+effect: .name "Treancherwoman Speed Buff 5" .target "target" .chance 130% .curio_result_type "positive" .combat_stat_buff 1 .duration 3 .speed_rating_add 7 .on_hit true .on_miss false
+
 // SPIDER CURSE DISEASE
 effect: .name "Spider Curse Weak" .target "target" .curio_result_type "negative" .chance 131% .disease disease_Spider_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
 effect: .name "Spider Curse Strong" .target "target" .curio_result_type "negative" .chance 145% .disease disease_Spider_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
 effect: .name "Spider Curse Boss" .target "target" .curio_result_type "negative" .chance 105% .disease disease_Spider_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
 
 //Gangers
-effect: .name "Ganger Bleed 1" .target "target" .chance 75%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Ganger Bleed 2" .target "target" .chance 90%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Ganger Bleed 3" .target "target" .chance 105%  .dotBleed 4 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Bleed 1" .target "target" .chance 85%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Bleed 2" .target "target" .chance 100%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Bleed 3" .target "target" .chance 145%  .dotBleed 4 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "Ganger Mark 1"	.target "target" .chance 100% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
 
-effect: .name "Lookut Dodge Debuff 1" .target "target" .curio_result_type "negative" .chance 70% .duration 3 .combat_stat_buff 1 .defense_rating_add -7% .on_hit true .on_miss false .apply_once false 
+effect: .name "Lookut Dodge Debuff 1" .target "target" .curio_result_type "negative" .chance 90% .duration 3 .combat_stat_buff 1 .defense_rating_add -7% .on_hit true .on_miss false .apply_once false 
 effect: .name "Lookut Dodge Debuff 3" .target "target" .curio_result_type "negative" .chance 105% .duration 3 .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss false .apply_once false 
-effect: .name "Lookut Dodge Debuff 5" .target "target" .curio_result_type "negative" .chance 110% .duration 3 .combat_stat_buff 1 .defense_rating_add -15% .on_hit true .on_miss false .apply_once false 
+effect: .name "Lookut Dodge Debuff 5" .target "target" .curio_result_type "negative" .chance 145% .duration 3 .combat_stat_buff 1 .defense_rating_add -15% .on_hit true .on_miss false .apply_once false 
 
 effect: .name "Ganger Destealth" .target "target" .chance 100% .unstealth 1 .on_hit true .on_miss false
 
@@ -392,9 +438,9 @@ effect: .name "Lookut Dodge Buff 1" .target "target" .chance 100% .duration 3 .c
 effect: .name "Lookut Dodge Buff 3" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 20% .on_hit true .on_miss false .apply_once false 
 effect: .name "Lookut Dodge Buff 5" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 25% .on_hit true .on_miss false .apply_once false 
 
-effect: .name "Ganger Stun 1" .target "target" .curio_result_type "negative" .chance 70% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Ganger Stun 2" .target "target" .curio_result_type "negative" .chance 90% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Ganger Stun 3" .target "target" .curio_result_type "negative" .chance 105% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Ganger Stun 1" .target "target" .curio_result_type "negative" .chance 85% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Ganger Stun 2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Ganger Stun 3" .target "target" .curio_result_type "negative" .chance 145% .stun 1	.on_hit true .on_miss false .queue true
 
 effect: .name "Ganger Stress 1" .target "target" .curio_result_type "negative" .chance 100% .stress 6 .on_hit true .on_miss true .queue true .apply_once false 
 effect: .name "Ganger Stress 2" .target "target" .curio_result_type "negative" .chance 100% .stress 8 .on_hit true .on_miss true .queue true .apply_once false 
@@ -406,30 +452,155 @@ effect: .name "Ganger Reload Buff 3" .target "target" .curio_result_type "positi
 
 effect: .name "Ganger Extra Turn" .target "target" .chance 50% .initiative_change 1 .on_hit true .on_miss true .queue true
 
-effect: .name "Ganger Push 1" .target "target"  .push 1 	.chance 75%   .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Ganger Push 2" .target "target"  .push 1 	.chance 90%   .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Ganger Push 3" .target "target"  .push 1 	.chance 105%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Push 1" .target "target"  .push 1 	.chance 85%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Push 2" .target "target"  .push 1 	.chance 100%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Push 3" .target "target"  .push 1 	.chance 145%   .on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "Enforcer Stun Debuff 1" .target "target" .curio_result_type "negative" .chance 75% .buff_ids coquette_stun_debuff_1 .duration 3 .on_hit true .on_miss false .apply_once false 
 effect: .name "Enforcer Stun Debuff 3" .target "target" .curio_result_type "negative" .chance 85% .buff_ids coquette_stun_debuff_2 .duration 3 .on_hit true .on_miss false .apply_once false 
 effect: .name "Enforcer Stun Debuff 5" .target "target" .curio_result_type "negative" .chance 105% .buff_ids coquette_stun_debuff_3 .duration 3 .on_hit true .on_miss false .apply_once false 
 
-effect: .name "Enforcer Stun Self Debuff 1" .target "performer" .curio_result_type "negative" .chance 80% .buff_ids coquette_stun_debuff_1 .duration 3 .on_hit true .on_miss false .apply_once false 
-effect: .name "Enforcer Stun Self Debuff 3" .target "performer" .curio_result_type "negative" .chance 95% .buff_ids coquette_stun_debuff_2 .duration 3 .on_hit true .on_miss false .apply_once false 
-effect: .name "Enforcer Stun Self Debuff 5" .target "performer" .curio_result_type "negative" .chance 110% .buff_ids coquette_stun_debuff_3 .duration 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Enforcer Stun Self Debuff 1" .target "performer" .curio_result_type "negative" .chance 90% .buff_ids coquette_stun_debuff_1 .duration 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Enforcer Stun Self Debuff 3" .target "performer" .curio_result_type "negative" .chance 105% .buff_ids coquette_stun_debuff_2 .duration 3 .on_hit true .on_miss false .apply_once false 
+effect: .name "Enforcer Stun Self Debuff 5" .target "performer" .curio_result_type "negative" .chance 145% .buff_ids coquette_stun_debuff_3 .duration 3 .on_hit true .on_miss false .apply_once false 
 
-effect: .name "Ganger Acc Debuff 1" .target "target" .curio_result_type "negative" .chance 75%  .combat_stat_buff 1 .attack_rating_add -8% .on_hit true .on_miss true .queue true .duration 3
-effect: .name "Ganger Acc Debuff 2" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .attack_rating_add -16% .on_hit true .on_miss true .queue true .duration 3
-effect: .name "Ganger Acc Debuff 3" .target "target" .curio_result_type "negative" .chance 115%  .combat_stat_buff 1 .attack_rating_add -24% .on_hit true .on_miss true .queue true .duration 3
+effect: .name "Ganger Acc Debuff 1" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .attack_rating_add -8% .on_hit true .on_miss true .queue true .duration 3
+effect: .name "Ganger Acc Debuff 2" .target "target" .curio_result_type "negative" .chance 105%  .combat_stat_buff 1 .attack_rating_add -16% .on_hit true .on_miss true .queue true .duration 3
+effect: .name "Ganger Acc Debuff 3" .target "target" .curio_result_type "negative" .chance 145%  .combat_stat_buff 1 .attack_rating_add -24% .on_hit true .on_miss true .queue true .duration 3
 
-effect: .name "Ganger Shuffle Target 1" 	.target "target" 	.shuffletarget .chance 75%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "Ganger Shuffle Target 2" 	.target "target" 	.shuffletarget .chance 90%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "Ganger SHuffle Target 3" 	.target "target" 	.shuffletarget .chance 115%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "Ganger Shuffle Target 1" 	.target "target" 	.shuffletarget .chance 90%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "Ganger Shuffle Target 2" 	.target "target" 	.shuffletarget .chance 105%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "Ganger SHuffle Target 3" 	.target "target" 	.shuffletarget .chance 145%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
 
-effect: .name "Ganger Blight 1" .target "target" .chance 75%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Ganger Blight 2" .target "target" .chance 90%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Ganger Blight 3" .target "target" .chance 110%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Blight 1" .target "target" .chance 95%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Blight 2" .target "target" .chance 100%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Ganger Blight 3" .target "target" .chance 145%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "Ganger Suicide" .target "performer" .chance 100% .kill 1 .on_hit true .on_miss true .apply_once true .queue true
 
 effect: .name "kill_self_queued" .target "performer" .chance 100% .kill 1 .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Ganger Stealth" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 3
+
+effect: .name "Ganger Damage Marked Target"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 50%	.damage_high_multiply 50%	.on_hit true .on_miss false
+
+effect: .name "Ganger Mark"	.target "target" .chance 100% .tag 1  .duration 3 .on_hit true .on_miss false .apply_once false
+
+effect: .name "Ganger Breaker Debuff 1" .target "target" .curio_result_type "negative" .chance 90% .duration 3 .combat_stat_buff 1 .defense_rating_add -5% .protection_rating_add -5%  .on_hit true .on_miss false .apply_once false 
+effect: .name "Ganger Breaker Debuff 3" .target "target" .curio_result_type "negative" .chance 105% .duration 3 .combat_stat_buff 1 .defense_rating_add -8% .protection_rating_add -8%  .on_hit true .on_miss false .apply_once false 
+effect: .name "Ganger Breaker Debuff 5" .target "target" .curio_result_type "negative" .chance 145% .duration 3 .combat_stat_buff 1 .defense_rating_add -13% .protection_rating_add -13%  .on_hit true .on_miss false .apply_once false 
+
+///Blood Collector
+effect: .name "Blood Collector Return" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss false .swap_source_and_target true
+
+effect: .name "Blood Collector Steal" .target "target" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss false .queue true
+
+effect: .name "Blood Collector Bleeding Target"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .damage_low_multiply 0%	.damage_high_multiply 0%	.on_hit true .on_miss false
+
+effect: .name "Blood Collector Steal Ally" .target "performer_group_other" .curio_result_type "positive" .chance 100% .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss false .queue true
+
+effect: .name "Summon Collected Blood A1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_crusader_A blood_jester_A blood_flagellant_A .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Collected Blood A2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_crusader_A blood_jester_A blood_flagellant_A .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Collected Blood A3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_crusader_A blood_jester_A blood_flagellant_A .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Collected Blood B1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_crusader_B blood_jester_B blood_flagellant_B .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Collected Blood B2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_crusader_B blood_jester_B blood_flagellant_B .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Collected Blood B3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_crusader_B blood_jester_B blood_flagellant_B .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Collected Blood C1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_flagellant_C blood_jester_C blood_crusader_C .summon_chances 1.0 1.0 1.0 .summon_limits 1 1 1 .summon_ranks 123 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Collected Blood C2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_flagellant_C blood_jester_C blood_crusader_C  .summon_chances 1.0 1.0 1.0 .summon_limits 1 1 1 .summon_ranks 123 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Collected Blood C3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blood_flagellant_C blood_jester_C blood_crusader_C  .summon_chances 1.0 1.0 1.0 .summon_limits 1 1 1 .summon_ranks 123 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Skeleton Blood A1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blutskele_A blut_skele_spear_A .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Skeleton Blood B1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blutskele_B blut_skele_spear_B .summon_chances 3.0 2.0 2.0 .summon_limits 1 1 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Skeleton Blood C1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blutskele_C blut_skele_spear_C .summon_chances 0.2 0.2  .summon_limits 1 1 1 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Skeleton Blood C2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blutskele_C blut_skele_spear_C .summon_chances 0.2 0.2  .summon_limits 1 1 1 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Skeleton Blood C3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters blutskele_C blut_skele_spear_C .summon_chances 0.2 0.2  .summon_limits 1 1 1 1 1 .on_hit true .on_miss true .apply_once true
+
+effect: .name "BC Change Back" .target "performer" .set_mode steal .chance 100% .on_hit true .on_miss true .queue false
+effect: .name "BC Change" .target "performer" .set_mode return .chance 100% .on_hit true .on_miss false .queue false
+
+effect: .name "Bleed Collector Bleed 1" .target "target" .chance 105%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Bleed Collector Bleed 3" .target "target" .chance 125%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Bleed Collector Bleed 5" .target "target" .chance 145%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "blood_collector_heal_penalty_1"  .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue false .buff_ids blood_collector_heal_penalty_1_buff
+
+effect: .name "blood_collector_heal_A" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified  .on_hit true .on_miss true .queue true .buff_ids blood_collector_healing_A_buff
+effect: .name "blood_collector_heal_B" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified  .on_hit true .on_miss true .queue true .buff_ids blood_collector_healing_B_buff
+effect: .name "blood_collector_heal_C" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified  .on_hit true .on_miss true .queue true .buff_ids blood_collector_healing_C_buff
+
+effect: .name "blood_collector_heal_bleed_1"  .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue false .buff_ids blood_collector_heal_bleed_1_buff
+effect: .name "blood_collector_heal_bleed_3"  .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue false .buff_ids blood_collector_heal_bleed_1_buff
+effect: .name "blood_collector_heal_bleed_5"  .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue false .buff_ids blood_collector_heal_bleed_1_buff
+
+effect: .name "Blood Colelctor SPD Debuff 1" .target "target_group" .chance 100% .buff_ids Blood_Collector_Speed_Debuff_1 .on_hit true .on_miss false .apply_once true 
+effect: .name "Blood Colelctor SPD Debuff 3" .target "target_group" .chance 120% .buff_ids Blood_Collector_Speed_Debuff_2 .on_hit true .on_miss false .apply_once true 
+effect: .name "Blood Colelctor SPD Debuff 5" .target "target_group" .chance 145% .buff_ids Blood_Collector_Speed_Debuff_3 .on_hit true .on_miss false .apply_once true
+
+effect: .name "Bleed Collector Dodge Debuff 1" .target "target_group" .curio_result_type "negative" .chance 90% .duration 3 .combat_stat_buff 1 .defense_rating_add -5% .on_hit true .on_miss false .apply_once true
+effect: .name "Bleed Collector Dodge Debuff 3" .target "target_group" .curio_result_type "negative" .chance 105% .duration 3 .combat_stat_buff 1 .defense_rating_add -8% .on_hit true .on_miss false .apply_once true
+effect: .name "Bleed Collector Dodge Debuff 5" .target "target_group" .curio_result_type "negative" .chance 145% .duration 3 .combat_stat_buff 1 .defense_rating_add -13% .on_hit true .on_miss false .apply_once true
+
+effect: .name "Bleed Collector Bleed Duration Debuff 1" .target "target_group" .curio_result_type "negative" .chance 90% .duration 3 .combat_stat_buff 1 .buff_ids "Blood_Collector_Bleed_Duration_Buff_1" .on_hit true .on_miss false .apply_once true
+effect: .name "Bleed Collector Bleed Duration Debuff 3" .target "target_group" .curio_result_type "negative" .chance 105% .duration 3 .combat_stat_buff 1 .buff_ids "Blood_Collector_Bleed_Duration_Buff_2" .on_hit true .on_miss false .apply_once true
+effect: .name "Bleed Collector Bleed Duration Debuff 5" .target "target_group" .curio_result_type "negative" .chance 145% .duration 3 .combat_stat_buff 1 .buff_ids "Blood_Collector_Bleed_Duration_Buff_3" .on_hit true .on_miss false .apply_once true
+
+///Collected Bleed
+effect: .name "Blood Collected Bleed 1" .target "target" .chance 105%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Blood Collected Bleed 3" .target "target" .chance 125%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Blood Collected Bleed 5" .target "target" .chance 145%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+///Collected Crusader
+effect: .name "Blood Crusader Heal 1" .target "target" .curio_result_type "positive" .chance 100% .heal 5		.on_hit true .on_miss false .queue true
+effect: .name "Blood Crusader Heal 3" .target "target" .curio_result_type "positive" .chance 100% .heal 6		.on_hit true .on_miss false .queue true
+effect: .name "Blood Crusader Heal 5" .target "target" .curio_result_type "positive" .chance 100% .heal 7		.on_hit true .on_miss false .queue true
+
+effect: .name "Blood Crusader Bleed 1" .target "target" .chance 105%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Blood Crusader Bleed 3" .target "target" .chance 125%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Blood Crusader Bleed 5" .target "target" .chance 145%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Blood Crusader Prot Buff 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff  .protection_rating_add 15% .on_hit true .on_miss true .queue true
+effect: .name "Blood Crusader Prot Buff 3" .target "target" .curio_result_type "positive" .chance 120% .duration 3 .combat_stat_buff  .protection_rating_add 20% .on_hit true .on_miss true .queue true
+effect: .name "Blood Crusader Prot Buff 5" .target "target" .curio_result_type "positive" .chance 140% .duration 3 .combat_stat_buff  .protection_rating_add 25% .on_hit true .on_miss true .queue true
+
+effect: .name "Blood Crusader Chance Buff 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids blood_crusader_bleedchance_1 blood_crusader_debuffchance_1 .on_hit true .on_miss true .queue true
+effect: .name "Blood Crusader Chance Buff 3" .target "target" .curio_result_type "positive" .chance 120% .duration 3 .buff_ids blood_crusader_bleedchance_2 blood_crusader_debuffchance_2 .on_hit true .on_miss true .queue true
+effect: .name "Blood Crusader Chance Buff 5" .target "target" .curio_result_type "positive" .chance 140% .duration 3 .buff_ids blood_crusader_bleedchance_3 blood_crusader_debuffchance_3 .on_hit true .on_miss true .queue true
+
+///Collected Jester
+effect: .name "Blood Jester SPD Buff 1" .target "performer" .chance 100% .duration 3 .buff_ids Blood_Jester_Speed_Buff_1 .on_hit true .on_miss false .apply_once true
+effect: .name "Blood Jester SPD Buff 3" .target "performer" .chance 120% .duration 3 .buff_ids Blood_Jester_Speed_Buff_2 .on_hit true .on_miss false .apply_once true
+effect: .name "Blood Jester SPD Buff 5" .target "performer" .chance 140% .duration 3 .buff_ids Blood_Jester_Speed_Buff_3 .on_hit true .on_miss false .apply_once true
+
+effect: .name "Blood Jester Dirk Crit Buff 1" .target "target" .chance 140% .duration 3 .buff_ids "blood_jester_crit_vs_bleed_1" .on_hit true .on_miss false
+effect: .name "Blood Jester Dirk Crit Buff 3" .target "target" .chance 140% .duration 3 .buff_ids "blood_jester_crit_vs_bleed_2" .on_hit true .on_miss false
+effect: .name "Blood Jester Dirk Crit Buff 5" .target "target" .chance 140% .duration 3 .buff_ids "blood_jester_crit_vs_bleed_3" .on_hit true .on_miss false
+
+///Collected Flag
+effect: .name "Blood Flag Bleed Resit Debuff 1" .target "target" .chance 100% .duration 3 .buff_ids "Blood_Flag_Bleed_Resist_Debuff_1" .on_hit true .on_miss false
+effect: .name "Blood Flag Bleed Resit Debuff 3" .target "target" .chance 120% .duration 3 .buff_ids "Blood_Flag_Bleed_Resist_Debuff_2" .on_hit true .on_miss false
+effect: .name "Blood Flag Bleed Resit Debuff 5" .target "target" .chance 140% .duration 3 .buff_ids "Blood_Flag_Bleed_Resist_Debuff_3" .on_hit true .on_miss false
+
+//Blood Skeleton
+effect: .name "Blood Reanimate 1" .target "performer" .chance 100% .heal 4 .set_monster_class_id blutskele_A .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Blood Reanimate 2" .target "performer" .chance 100% .heal 6 .set_monster_class_id blutskele_B .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Blood Reanimate 3" .target "performer" .chance 100% .heal 8 .set_monster_class_id blutskele_C .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Reanimate Spear 1" .target "performer" .chance 100% .set_monster_class_id skeleton_defender_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Reanimate Spear 2" .target "performer" .chance 100% .set_monster_class_id skeleton_defender_B .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Blood Reanimate Spear 3" .target "performer" .chance 100% .set_monster_class_id blut_skele_spear_C .set_monster_class_reset_hp true .set_monster_class_reset_buffs true .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Blood Bonus" .target "performer" .chance 100% .initiative_change 1 .duration 1 .apply_once true .on_hit true .on_miss true .queue true
+
+effect: .name "Blood Skeleton Bleed" .target "target" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Blood Skeleton Attack Bleed" .target "performer" .chance 440%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Blood Skeleton Riposte 5"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0.25%  .damage_high_multiply 0.25%  .crit_chance_add 5% .riposte_effect "Blood Skeleton Bleed"
+effect: .name "Blood Skeleton Laugh Buffs" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.3 .damage_high_multiply 0.3 .crit_chance_add 8% .queue true .on_hit true .on_miss true 
+effect: .name "Blood Skeleton laugh Aegis" .target "performer" .chance 500% .health_damage_blocks 2 .on_hit true .on_miss false .queue true
+
+//CRIMSON MOON
+effect: .name "crimson_moon_torch_snuff" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 100	.on_hit true .on_miss false .apply_once true .queue true

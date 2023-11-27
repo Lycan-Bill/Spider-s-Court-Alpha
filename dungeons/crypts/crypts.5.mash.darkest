@@ -1,8 +1,30 @@
-hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C 
-hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C ganger_grenadier_C
+hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C 
+hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C  
+hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C ganger_lookout_C
+hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C ganger_assassin_C
+hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_assassin_C ganger_assassin_C
+hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_assassin_C
+hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
+hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_gunner_C ganger_lookout_C
+hall: .chance 1 .types ganger_gunner_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
+hall: .chance 1 .types ganger_gunner_C ganger_gunner_C ganger_gunner_C ganger_assassin_C
 
-room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C 
-room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C ganger_grenadier_C
+room: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C 
+room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C  
+room: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C ganger_lookout_C
+room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C ganger_assassin_C
+room: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_assassin_C ganger_assassin_C
+room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_assassin_C
+room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
+room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_gunner_C ganger_lookout_C
+room: .chance 1 .types ganger_gunner_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
+room: .chance 1 .types ganger_gunner_C ganger_gunner_C ganger_gunner_C ganger_assassin_C
+room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_assassin_C
+room: .chance 1 .types ganger_enforcer_C ganger_breaker_C ganger_assassin_C
+room: .chance 1 .types ganger_enforcer_C ganger_breaker_C ganger_lookout_C
+room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_lookout_C
+room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_grenadier_C
+room: .chance 1 .types ganger_enforcer_C ganger_breaker_C ganger_grenadier_C
 
 boss: .chance 1 .types necromancer_C   
 boss: .chance 1 .types pew_small_C pew_medium_C pew_large_C prophet_C

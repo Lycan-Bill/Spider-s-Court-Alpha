@@ -1,0 +1,62 @@
+
+ganger_assassin.sprite.thrown_dagger_target.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dagger
+  rotate: false
+  xy: 2, 2
+  size: 161, 91
+  orig: 161, 91
+  offset: 0, 0
+  index: -1
+dagger_glow
+  rotate: false
+  xy: 211, 141
+  size: 230, 164
+  orig: 230, 164
+  offset: 0, 0
+  index: -1
+dagger_trail01
+  rotate: false
+  xy: 2, 295
+  size: 207, 206
+  orig: 207, 206
+  offset: 0, 0
+  index: -1
+dagger_trail02
+  rotate: true
+  xy: 211, 307
+  size: 194, 207
+  orig: 194, 207
+  offset: 0, 0
+  index: -1
+dagger_trail03
+  rotate: false
+  xy: 2, 95
+  size: 206, 198
+  orig: 206, 198
+  offset: 0, 0
+  index: -1
+knife_1_stab
+  rotate: true
+  xy: 420, 337
+  size: 164, 79
+  orig: 164, 79
+  offset: 0, 0
+  index: -1
+knife_2_stab
+  rotate: false
+  xy: 210, 66
+  size: 156, 73
+  orig: 156, 73
+  offset: 0, 0
+  index: -1
+knife_3_stab
+  rotate: false
+  xy: 368, 21
+  size: 142, 118
+  orig: 142, 118
+  offset: 0, 0
+  index: -1

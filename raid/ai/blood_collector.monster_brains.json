@@ -1,0 +1,445 @@
+{
+    "monster_brains": [
+        {
+             "id": "blood_skeleton_sword",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "blut_lunge",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "blut_slash",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 8,
+                        "combat_skill_id": "blut_lunge"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 8,
+                        "combat_skill_id": "blut_slash"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "blood_skeleton_spear",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "blut_poke",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "blut_taunt",
+                    "amount": 1
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "random_skill",
+                    "data": {
+                        "base_chance": 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 8,
+                        "combat_skill_id": "blut_poke"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 8,
+                        "combat_skill_id": "blut_taunt"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "corpse_blood_skeleton",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "blood_skeleton_revive",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "blood_skeleton_revive",
+                        "performing_turn_min": 1,
+                        "performing_turn": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100000,
+                        "combat_skill_id": "corpse_do_nothing",
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 2
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "corpse_blood_spear_skeleton",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "blood_skeleton_revive",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "blood_skeleton_revive",
+                        "performing_turn_min": 1,
+                        "performing_turn": 2
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100000,
+                        "combat_skill_id": "corpse_do_nothing",
+                        "performing_turn_min": 1,
+                        "performing_turn_max": 2
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+			"id": "blood_collector",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "collect_blood",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10000,
+                        "monsters_min": 1,
+                        "monsters_max": 1,
+                        "combat_skill_id": "blood_summon"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 9,
+                        "monsters_min": 2,
+                        "monsters_max": 2,
+                        "combat_skill_id": "blood_summon"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3,
+                        "monsters_min": 3,
+                        "monsters_max": 3,
+                        "combat_skill_id": "blood_summon"
+                    }
+                },
+                {
+                    "type": "effect_key_status_skill",
+                    "data": {
+                        "base_chance": 100,
+                        "effect_key_status": "bleeding",
+                        "combat_skill_id": "collect_blood"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3,
+                        "combat_skill_id": "BC_Claw"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "blood_crusader",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "blood_bleed_buff",
+                    "amount": 2
+                },
+                {
+                    "combat_skill_id": "blood_heal",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "blood_heal"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2,
+                        "combat_skill_id": "blood_smite"
+                     }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 900,
+                        "combat_skill_id": "blood_bleed_buff"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 5,
+                        "specific_combat_skill_id": "blood_heal",
+                        "is_exclusive_desire": false,
+                        "ally_base_class_id": "blood_collector",
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 2,
+                        "specific_combat_skill_id": "blood_heal",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": false
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "blood_jester",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "blood_dirk"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2,
+                        "combat_skill_id": "blood_harvest"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+        {
+            "id": "blood_flagellant",
+				"skill_cooldowns": [
+                {
+                    "combat_skill_id": "rain_blood",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "rain_blood"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 2,
+                        "combat_skill_id": "blood_despair"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+
+        }
+    ]
+}

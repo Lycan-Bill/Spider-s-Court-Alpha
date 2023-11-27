@@ -1,0 +1,48 @@
+
+gorger.sprite.attack_perfume_fx.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gas_1
+  rotate: false
+  xy: 1315, 106
+  size: 370, 381
+  orig: 370, 381
+  offset: 0, 0
+  index: -1
+gas_2
+  rotate: true
+  xy: 1836, 171
+  size: 316, 193
+  orig: 316, 193
+  offset: 0, 0
+  index: -1
+gas_3
+  rotate: false
+  xy: 1687, 50
+  size: 147, 437
+  orig: 147, 437
+  offset: 0, 0
+  index: -1
+glitter_1
+  rotate: true
+  xy: 2, 2
+  size: 485, 455
+  orig: 485, 455
+  offset: 0, 0
+  index: -1
+glitter_2
+  rotate: false
+  xy: 459, 38
+  size: 444, 449
+  orig: 444, 449
+  offset: 0, 0
+  index: -1
+glitter_3
+  rotate: true
+  xy: 905, 17
+  size: 470, 408
+  orig: 470, 408
+  offset: 0, 0
+  index: -1

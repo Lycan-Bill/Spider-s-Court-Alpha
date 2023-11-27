@@ -1,0 +1,1 @@
+hall: .chance 0.03 .types blood_collector_B    .inventory_valid_item_percent_range 0.79 1.0 .limit 1 .can_be_ambush false .plot_quest_requirement plot_harvester_intro

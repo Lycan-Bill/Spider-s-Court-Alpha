@@ -1,0 +1,20 @@
+
+gorger.sprite.attack_hunger_human.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ground_shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+thirsthuman
+  rotate: false
+  xy: 2, 67
+  size: 1117, 745
+  orig: 1117, 745
+  offset: 0, 0
+  index: -1

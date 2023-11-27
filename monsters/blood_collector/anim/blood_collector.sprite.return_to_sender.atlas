@@ -1,0 +1,13 @@
+
+blood_collector.sprite.return_to_sender.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+returntosender
+  rotate: false
+  xy: 2, 2
+  size: 1350, 1481
+  orig: 1350, 1481
+  offset: 0, 0
+  index: -1

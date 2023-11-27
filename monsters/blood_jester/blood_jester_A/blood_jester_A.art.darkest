@@ -1,0 +1,3 @@
+commonfx: .deathfx death_small
+skill: .id "blood_dirk" .anim "attack_dirk" .fx "dirk_stab"
+skill: .id "blood_harvest" .anim "attack_harvest" .fx "harvest"commonfx: .deathfx death_small

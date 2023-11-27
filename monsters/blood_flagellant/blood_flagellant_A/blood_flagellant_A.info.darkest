@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "blood"
+enemy_type: .id "eldritch"
+stats: .hp 16 .def 7.5% .prot 0 .spd 3 .stun_resist 25% .poison_resist 40% .bleed_resist 40% .debuff_resist 15% .move_resist 10%
+skill: .id "rain_blood" .type "melee" .atk 95.5% .dmg 4 7 .crit 12%  .effect "Blood Collected Bleed 1" "Blood Flag Bleed Resit Debuff 1" "Blood Skeleton Attack Bleed" .launch 4321 .target 12
+skill: .id "blood_despair" .type "melee" .atk 95.5% .dmg 3 5 .crit 12%  .effect "Blood Collected Bleed 1" "Blood Flag Bleed Resit Debuff 1" "Blood Skeleton Attack Bleed" .launch 432 .target  ~34
+personality: .prefskill -1
+loot: .code "NONE" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id blood_flagellant
+life_link: .base_class "blood_collector"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

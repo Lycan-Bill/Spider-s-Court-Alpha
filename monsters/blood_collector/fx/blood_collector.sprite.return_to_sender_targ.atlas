@@ -1,0 +1,48 @@
+
+blood_collector.sprite.return_to_sender_targ.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloodspike_-1
+  rotate: false
+  xy: 1228, 255
+  size: 465, 210
+  orig: 465, 210
+  offset: 0, 0
+  index: -1
+bloodspike_0
+  rotate: false
+  xy: 2, 89
+  size: 316, 376
+  orig: 316, 376
+  offset: 0, 0
+  index: -1
+bloodspike_1
+  rotate: true
+  xy: 1228, 203
+  size: 50, 561
+  orig: 50, 561
+  offset: 0, 0
+  index: -1
+bloodspike_2
+  rotate: true
+  xy: 320, 227
+  size: 238, 453
+  orig: 238, 453
+  offset: 0, 0
+  index: -1
+bloodspike_3
+  rotate: false
+  xy: 320, 2
+  size: 436, 223
+  orig: 436, 223
+  offset: 0, 0
+  index: -1
+halo
+  rotate: false
+  xy: 775, 238
+  size: 451, 227
+  orig: 451, 227
+  offset: 0, 0
+  index: -1

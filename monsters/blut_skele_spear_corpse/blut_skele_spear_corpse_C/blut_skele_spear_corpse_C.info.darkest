@@ -10,4 +10,4 @@ personality: .prefskill -1
 loot: .code "" .count 
 initiative: .number_of_turns_per_round 1
 monster_brain: .id corpse_blood_spear_skeleton
-battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .can_be_missed False .can_be_guarded False .living_hero_buff_instance_ids disable_heal
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .can_be_missed False .can_be_guarded False

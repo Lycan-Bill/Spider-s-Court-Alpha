@@ -1,5 +1,88 @@
 hall: .chance 1 .types courtesan_C treancherwoman_C gorger_C
+hall: .chance 1 .types courtesan_C courtesan_C esquire_C esquire_C
+hall: .chance 1 .types courtesan_C treancherwoman_C esquire_C bloody_butler_C
+hall: .chance 1 .types steward_C treancherwoman_C esquire_C bloody_butler_C
+hall: .chance 1 .types steward_C gorger_C bloody_butler_C
+hall: .chance 1 .types steward_C steward_C lord_C bloody_butler_C
+hall: .chance 1 .types steward_C vidame_C lord_C spider_bishop_D
+hall: .chance 1 .types gourmet_D lord_C cc_fox
+hall: .chance 1 .types bon_vivant_C gourmand_D 
+hall: .chance 1 .types vidame_C treancherwoman_C lord_C sacristan_C
+hall: .chance 1 .types treancherwoman_C courtesan_C gorger_C
+hall: .chance 1 .types gourmet_D gorger_C
+hall: .chance 1 .types steward_C cc_maid_C steward_C
+hall: .chance 1 .types steward_C cc_maid_C treancherwoman_C esquire_C
+hall: .chance 1 .types bon_vivant_C gourmet_D 
+hall: .chance 1 .types gorger_C bon_vivant_C
+hall: .chance 1 .types gorger_C gourmand_D
+hall: .chance 1 .types treancherwoman_C lord_C scarab_chef_C
+hall: .chance 1 .types steward_C lord_C scarab_chef_C
+hall: .chance 1 .types gourmet_D scarab_chef_C
+hall: .chance 1 .types bon_vivant_C scarab_chef_C
+hall: .chance 1 .types gorger_C scarab_chef_C
+hall: .chance 1 .types gourmet_D scarab_chef_C
+hall: .chance 1 .types courtesan_C esquire_C scarab_chef_C
+hall: .chance 1 .types courtesan_C treancherwoman_C lord_C bloody_butler_C
+hall: .chance 1 .types cc_maid_C courtesan_C lord_C bloody_butler_C
+hall: .chance 1 .types steward_C cc_maid_C lord_C bloody_butler_C
+hall: .chance 1 .types esquire_C fish_chef_C scarab_chef_C
+hall: .chance 1 .types esquire_C lord_C scarab_chef_C
+hall: .chance 1 .types esquire_C lord_C fish_chef_C spider_bishop_D
+hall: .chance 1 .types vidame_C lord_C sacristan_C spider_bishop_D
+hall: .chance 1 .types lord_C treancherwoman_C sacristan_C spider_bishop_D
+hall: .chance 1 .types steward_C steward_C treancherwoman_C lord_C
+hall: .chance 1 .types steward_C cc_maid_C treancherwoman_C lord_C
+hall: .chance 1 .types steward_C steward_C courtesan_C esquire_C
+hall: .chance 1 .types steward_C steward_C gorger_C
+hall: .chance 1 .types esquire_C treancherwoman_C gourmand_D
+hall: .chance 1 .types esquire_C treancherwoman_C gourmet_D
+hall: .chance 1 .types esquire_C treancherwoman_C  bon_vivant_C
+hall: .chance 1 .types steward_C cc_maid_C fish_chef_C bloody_butler_C
+hall: .chance 1 .types vidame_C courtesan_C lord_C esquire_C
+hall: .chance 1 .types vidame_C steward_C lord_C esquire_C
 
+room: .chance 1 .types courtesan_C treancherwoman_C gorger_C
+room: .chance 1 .types courtesan_C courtesan_C esquire_C esquire_C
+room: .chance 1 .types courtesan_C treancherwoman_C esquire_C bloody_butler_C
+room: .chance 1 .types steward_C treancherwoman_C esquire_C bloody_butler_C
+room: .chance 1 .types steward_C gorger_C bloody_butler_C
+room: .chance 1 .types steward_C steward_C lord_C bloody_butler_C
+room: .chance 1 .types steward_C vidame_C lord_C spider_bishop_D
+room: .chance 1 .types gourmet_D lord_C cc_fox
+room: .chance 1 .types bon_vivant_C gourmand_D 
+room: .chance 1 .types vidame_C treancherwoman_C lord_C sacristan_C
+room: .chance 1 .types treancherwoman_C courtesan_C gorger_C
+room: .chance 1 .types gourmet_D gorger_C
+room: .chance 1 .types steward_C cc_maid_C steward_C
+room: .chance 1 .types steward_C cc_maid_C treancherwoman_C esquire_C
+room: .chance 1 .types bon_vivant_C gourmet_D 
+room: .chance 1 .types gorger_C bon_vivant_C
+room: .chance 1 .types gorger_C gourmand_D
+room: .chance 1 .types treancherwoman_C lord_C scarab_chef_C
+room: .chance 1 .types steward_C lord_C scarab_chef_C
+room: .chance 1 .types gourmet_D scarab_chef_C
+room: .chance 1 .types bon_vivant_C scarab_chef_C
+room: .chance 1 .types gorger_C scarab_chef_C
+room: .chance 1 .types gourmet_D scarab_chef_C
+room: .chance 1 .types courtesan_C esquire_C scarab_chef_C
+room: .chance 1 .types courtesan_C treancherwoman_C lord_C bloody_butler_C
+room: .chance 1 .types cc_maid_C courtesan_C lord_C bloody_butler_C
+room: .chance 1 .types steward_C cc_maid_C lord_C bloody_butler_C
+room: .chance 1 .types esquire_C fish_chef_C scarab_chef_C
+room: .chance 1 .types esquire_C lord_C scarab_chef_C
+room: .chance 1 .types esquire_C lord_C fish_chef_C spider_bishop_D
+room: .chance 1 .types vidame_C lord_C sacristan_C spider_bishop_D
+room: .chance 1 .types lord_C treancherwoman_C sacristan_C spider_bishop_D
+room: .chance 1 .types steward_C steward_C treancherwoman_C lord_C
+room: .chance 1 .types steward_C cc_maid_C treancherwoman_C lord_C
+room: .chance 1 .types steward_C steward_C courtesan_C esquire_C
+room: .chance 1 .types steward_C steward_C gorger_C
+room: .chance 1 .types esquire_C treancherwoman_C gourmand_D
+room: .chance 1 .types esquire_C treancherwoman_C gourmet_D
+room: .chance 1 .types esquire_C treancherwoman_C  bon_vivant_C
+room: .chance 1 .types steward_C cc_maid_C fish_chef_C bloody_butler_C
+room: .chance 1 .types vidame_C courtesan_C lord_C esquire_C
+room: .chance 1 .types vidame_C steward_C lord_C esquire_C
 
 
 room: .chance 1 .types courtesan_C treancherwoman_C gorger_C

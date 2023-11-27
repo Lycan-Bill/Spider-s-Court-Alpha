@@ -1,0 +1,13 @@
+
+blood_collector.sprite.attack_claw.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 1009, 1679
+  orig: 1009, 1679
+  offset: 0, 0
+  index: -1

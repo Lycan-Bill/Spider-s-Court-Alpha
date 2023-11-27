@@ -1,0 +1,27 @@
+
+ganger_enforcer.sprite.attack_rush_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 534, 541
+  size: 275, 447
+  orig: 275, 447
+  offset: 0, 0
+  index: -1
+shoulder_0
+  rotate: false
+  xy: 2, 414
+  size: 530, 574
+  orig: 530, 574
+  offset: 0, 0
+  index: -1
+shoulder_1
+  rotate: true
+  xy: 2, 2
+  size: 410, 457
+  orig: 410, 457
+  offset: 0, 0
+  index: -1

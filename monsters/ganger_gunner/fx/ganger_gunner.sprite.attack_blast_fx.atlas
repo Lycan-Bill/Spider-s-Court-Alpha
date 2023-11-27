@@ -1,0 +1,27 @@
+
+ganger_gunner.sprite.attack_blast_fx.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gunnerBLASTLIGHT
+  rotate: false
+  xy: 616, 193
+  size: 468, 643
+  orig: 468, 643
+  offset: 0, 0
+  index: -1
+gunnerBLASTSHADE
+  rotate: false
+  xy: 2, 181
+  size: 612, 655
+  orig: 612, 655
+  offset: 0, 0
+  index: -1
+muzzleflash
+  rotate: false
+  xy: 2, 2
+  size: 266, 177
+  orig: 266, 177
+  offset: 0, 0
+  index: -1

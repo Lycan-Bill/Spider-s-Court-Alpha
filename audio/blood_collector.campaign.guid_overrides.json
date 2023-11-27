@@ -1,0 +1,66 @@
+{
+    "event_guid_overrides":
+    [
+
+        {"event_id": "event:/char/enemy/blood_collector_collect_blood_steal",                   "guid_override":"{ac6957fb-77b2-4e7a-86e5-946895b5b2a5}"},
+		{"event_id": "event:/char/enemy/blood_collector_collect_blood_miss_steal",                   "guid_override":"{23cf33e5-61e4-4d58-8769-15191969e226}"},
+        {"event_id": "event:/char/enemy/blood_collector_blood_summon_steal",                   "guid_override":"{3658e5c6-89e6-419c-a48c-545526770c07}"},
+        {"event_id": "event:/char/enemy/blood_collector_return_to_sender_return",                   "guid_override":"{ef652d0d-e595-48ce-8a99-16a32dddfe46}"},
+		{"event_id": "event:/char/enemy/blood_collector_return_to_sender_miss_return",                   "guid_override":"{81a2b39b-eda2-4030-bbc2-3ad58d3f02b6}"},
+        {"event_id": "event:/char/enemy/blood_collector_BC_Claw_steal",                   "guid_override":"{6f30a283-1519-4fc0-a6b8-0155a2c202b7}"},
+		{"event_id": "event:/char/enemy/blood_collector_BC_Claw_miss_steal",                   "guid_override":"{6bc8beb4-3268-4de4-aef4-db40af96fd14}"},
+		{"event_id": "event:/char/enemy/blood_collector_vo_aggro",                   "guid_override":"{0034448f-11f3-461e-887d-f855a8672b12}"},
+        {"event_id": "event:/char/enemy/blood_collector_vo_crit",                   "guid_override":"{0c039ebb-9948-409c-861c-55a78a313eba}"},
+        {"event_id": "event:/char/enemy/blood_collector_vo_death",                   "guid_override":"{99a76c5c-d8ae-4ce0-86aa-efd27a8b658f}"},
+        {"event_id": "event:/char/enemy/blood_collector_vo_hurt",                   "guid_override":"{f2d65210-81d9-4cf3-a7ee-7919255bd0ea}"},
+		
+		{"event_id": "event:/char/enemy/blood_crusader_vo_aggro",                   "guid_override":"{ea521c22-608c-4ead-92e3-de20627a5c65}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_vo_aggro",                   "guid_override":"{ea521c22-608c-4ead-92e3-de20627a5c65}"},
+		{"event_id": "event:/char/enemy/blood_jester_vo_aggro",                   "guid_override":"{ea521c22-608c-4ead-92e3-de20627a5c65}"},
+        {"event_id": "event:/char/enemy/blood_crusader_vo_crit",                   "guid_override":"{0c039ebb-9948-409c-861c-55a78a313eba}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_vo_crit",                   "guid_override":"{0c039ebb-9948-409c-861c-55a78a313eba}"},
+		{"event_id": "event:/char/enemy/blood_jester_vo_crit",                   "guid_override":"{0c039ebb-9948-409c-861c-55a78a313eba}"},
+        {"event_id": "event:/char/enemy/blood_crusader_vo_death",                   "guid_override":"{d6e8f76c-6577-4f77-bdfb-04ed2be230fd}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_vo_death",                   "guid_override":"{d6e8f76c-6577-4f77-bdfb-04ed2be230fd}"},
+		{"event_id": "event:/char/enemy/blood_jester_vo_death",                   "guid_override":"{d6e8f76c-6577-4f77-bdfb-04ed2be230fd}"},
+        {"event_id": "event:/char/enemy/blood_crusader_vo_hurt",                   "guid_override":"{f2d65210-81d9-4cf3-a7ee-7919255bd0ea}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_vo_hurt",                   "guid_override":"{f2d65210-81d9-4cf3-a7ee-7919255bd0ea}"},
+		{"event_id": "event:/char/enemy/blood_jester_vo_hurt",                   "guid_override":"{f2d65210-81d9-4cf3-a7ee-7919255bd0ea}"},
+		
+		{"event_id": "event:/char/enemy/blood_crusader_blood_smite",                   "guid_override":"{4db31fa5-c968-40a4-9c00-2d3a61da9285}"},
+		{"event_id": "event:/char/enemy/blood_crusader_blood_smite_miss",                   "guid_override":"{9fcbf3e1-d29c-425c-a5fb-7ff15a7fd09c}"},
+		{"event_id": "event:/char/enemy/blood_crusader_blood_heal",                   "guid_override":"{531fd9f9-a932-4fdc-a85c-c663c437d207}"},
+		{"event_id": "event:/char/enemy/blood_crusader_blood_bleed_buff",                   "guid_override":"{531fd9f9-a932-4fdc-a85c-c663c437d207}"},
+		{"event_id": "event:/char/enemy/blood_jester_blood_dirk",                   "guid_override":"{da0522e7-a649-4b59-ab5e-4375918a911c}"},
+		{"event_id": "event:/char/enemy/blood_jester_blood_dirk_miss",                   "guid_override":"{35fa8ce1-db9e-4fb7-899d-815cd415ea53}"},
+		{"event_id": "event:/char/enemy/blood_jester_blood_harvest",                   "guid_override":"{8bad097c-4f1d-4875-abae-9b8e32714a63}"},
+		{"event_id": "event:/char/enemy/blood_jester_blood_harvest_miss",                   "guid_override":"{d7241e4a-4b51-4f57-a35d-a8634ad4fe22}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_rain_blood",                   "guid_override":"{f19f4333-1e10-4dd8-ab3c-24b9e2240568}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_rain_blood_miss",                   "guid_override":"{e8e65684-6264-481c-aa15-95852309ddf6}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_blood_despair",                   "guid_override":"{22db42ce-8471-4a34-80fe-5d46b410d470}"},
+		{"event_id": "event:/char/enemy/blood_flagellant_blood_despair_miss",                   "guid_override":"{d22ba8eb-f999-4f44-b606-56ac70e267cc}"},
+		
+		{"event_id": "event:/char/enemy/blutskele_vo_aggro",                   "guid_override":"{ea521c22-608c-4ead-92e3-de20627a5c65}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_vo_aggro",                   "guid_override":"{ea521c22-608c-4ead-92e3-de20627a5c65}"},
+		{"event_id": "event:/char/enemy/blutskele_vo_crit",                   "guid_override":"{0c039ebb-9948-409c-861c-55a78a313eba}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_vo_crit",                   "guid_override":"{0c039ebb-9948-409c-861c-55a78a313eba}"},
+		{"event_id": "event:/char/enemy/blutskele_vo_death",                   "guid_override":"{d6e8f76c-6577-4f77-bdfb-04ed2be230fd}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_vo_death",                   "guid_override":"{d6e8f76c-6577-4f77-bdfb-04ed2be230fd}"},
+		{"event_id": "event:/char/enemy/blutskele_vo_hurt",                   "guid_override":"{f2d65210-81d9-4cf3-a7ee-7919255bd0ea}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_vo_hurt",                   "guid_override":"{f2d65210-81d9-4cf3-a7ee-7919255bd0ea}"},
+		{"event_id": "event:/char/enemy/blutskele_blut_lunge",                   "guid_override":"{6c1cb3a6-1e5a-405b-8ca7-c2a857cce1b1}"},
+		{"event_id": "event:/char/enemy/blutskele_blut_lunge_miss",                   "guid_override":"{862b5f30-be05-47e7-999b-81ad3705f908}"},
+		{"event_id": "event:/char/enemy/blutskele_blut_slash",                   "guid_override":"{d65d6cea-87e4-40ec-9733-ee15455e9422}"},
+		{"event_id": "event:/char/enemy/blutskele_blut_slash_miss",                   "guid_override":"{ce61e8a7-c8d5-419c-8d69-218b501c032c}"},
+		{"event_id": "event:/char/enemy/blutskele_riposte_attack",                   "guid_override":"{d65d6cea-87e4-40ec-9733-ee15455e9422}"},
+		{"event_id": "event:/char/enemy/blutskele_riposte_attack_miss",                   "guid_override":"{ce61e8a7-c8d5-419c-8d69-218b501c032c}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_vo_hurt",                   "guid_override":"{f2d65210-81d9-4cf3-a7ee-7919255bd0ea}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_blut_poke",                   "guid_override":"{164fa33f-058a-4b40-916f-bc7e42b6f5a4}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_blut_poke_miss",                   "guid_override":"{e1cf7022-fb0a-43e1-9f40-24c39ddf9bcc}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_blut_taunt",                   "guid_override":"{6c85898e-82e4-40fd-b9c8-2d2562c8a7f5}"},
+		{"event_id": "event:/char/enemy/blut_skele_spear_corpse_blood_skeleton_revive",                   "guid_override":"{76e0ce08-76b3-4c39-9fee-0cc1d787e5ac}"},
+		{"event_id": "event:/char/enemy/blutskele_corpse_blood_skeleton_revive",                   "guid_override":"{76e0ce08-76b3-4c39-9fee-0cc1d787e5ac}"}
+		
+
+    ]
+}

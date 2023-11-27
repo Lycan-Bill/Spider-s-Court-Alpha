@@ -1,0 +1,4 @@
+commonfx: .deathfx death_small
+skill: .id "blood_smite" .anim "attack_smite" .fx "attack_smite_fx"
+skill: .id "blood_heal" .anim "attack_banner" .fx "attack_banner_fx" .targchestfx "battle_heal_target"
+skill: .id "blood_bleed_buff" .anim "attack_banner" .fx "attack_banner_fx" .targfx "battle_heal_target"

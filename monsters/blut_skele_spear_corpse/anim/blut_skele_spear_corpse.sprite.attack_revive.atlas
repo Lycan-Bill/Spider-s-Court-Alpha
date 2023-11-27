@@ -1,0 +1,69 @@
+
+blut_skele_spear_corpse.sprite.attack_revive.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 2, 2
+  size: 486, 668
+  orig: 486, 668
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: true
+  xy: 1539, 254
+  size: 234, 239
+  orig: 234, 239
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 672, 67
+  size: 51, 45
+  orig: 51, 45
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: true
+  xy: 1296, 91
+  size: 159, 276
+  orig: 159, 276
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 1141, 162
+  size: 153, 326
+  orig: 153, 326
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1296, 252
+  size: 241, 236
+  orig: 241, 236
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 1574, 27
+  size: 213, 225
+  orig: 213, 225
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 1780, 288
+  size: 200, 253
+  orig: 200, 253
+  offset: 0, 0
+  index: -1
+skelcorpse
+  rotate: false
+  xy: 672, 114
+  size: 467, 374
+  orig: 467, 374
+  offset: 0, 0
+  index: -1

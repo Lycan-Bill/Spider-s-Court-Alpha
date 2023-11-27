@@ -1,0 +1,69 @@
+
+blood_collector.sprite.attack_steal_fx.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gloew
+  rotate: false
+  xy: 1431, 1058
+  size: 941, 905
+  orig: 941, 905
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 585
+  size: 1427, 1378
+  orig: 1427, 1378
+  offset: 0, 0
+  index: -1
+swirl_0
+  rotate: false
+  xy: 1431, 782
+  size: 439, 274
+  orig: 439, 274
+  offset: 0, 0
+  index: -1
+swirl_1
+  rotate: false
+  xy: 613, 247
+  size: 349, 336
+  orig: 349, 336
+  offset: 0, 0
+  index: -1
+swirl_2
+  rotate: false
+  xy: 3268, 1167
+  size: 174, 240
+  orig: 174, 240
+  offset: 0, 0
+  index: -1
+swirl_3
+  rotate: false
+  xy: 3863, 1822
+  size: 142, 141
+  orig: 142, 141
+  offset: 0, 0
+  index: -1
+void_0
+  rotate: false
+  xy: 2374, 1146
+  size: 892, 817
+  orig: 892, 817
+  offset: 0, 0
+  index: -1
+void_1
+  rotate: false
+  xy: 2, 2
+  size: 609, 581
+  orig: 609, 581
+  offset: 0, 0
+  index: -1
+void_2
+  rotate: false
+  xy: 3268, 1409
+  size: 593, 554
+  orig: 593, 554
+  offset: 0, 0
+  index: -1

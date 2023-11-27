@@ -1,3 +1,4 @@
 commonfx: .deathfx death_medium
-skill: .id "cudgel" .anim "attack_melee" .fx "cudgel" .targchestfx "blood_splatter"
-skill: .id "cudgel_weak" .anim "attack_melee" .fx "cudgel" .targchestfx "blood_splatter"
+skill: .id "ganger_blast" .anim "attack_blast" .fx "attack_blast_fx" .targchestfx "blood_splatter"
+skill: .id "ganger_warning" .anim "attack_warning" 
+skill: .id "ganger_reload" .anim "attack_reload" 

@@ -1,0 +1,9 @@
+{
+	"event_guid_overrides":
+	[
+		{"event_id": "event:/ambience/dungeon/crypts",							"guid_override":"{57d1d9be-68ea-456b-89b6-3bcf8b46b71b}"},
+		{"event_id": "event:/music/mus_battle_crypts_hallway",					"guid_override":"{734c646a-ab61-4f8c-87e2-9cb707e7ba49}"},
+		{"event_id": "event:/music/mus_battle_crypts_room",					"guid_override":"{734c646a-ab61-4f8c-87e2-9cb707e7ba49}"}
+		
+	]
+}

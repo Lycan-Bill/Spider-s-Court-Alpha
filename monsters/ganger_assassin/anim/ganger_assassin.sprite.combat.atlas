@@ -1,0 +1,125 @@
+
+ganger_assassin.sprite.combat.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 1002, 141
+  size: 40, 76
+  orig: 40, 76
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 516, 37
+  size: 150, 191
+  orig: 150, 191
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 855, 133
+  size: 145, 119
+  orig: 145, 119
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 1280, 178
+  size: 120, 74
+  orig: 120, 74
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 1515, 195
+  size: 118, 57
+  orig: 118, 57
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 667, 214
+  size: 34, 38
+  orig: 34, 38
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 1157, 183
+  size: 121, 69
+  orig: 121, 69
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 1402, 167
+  size: 111, 85
+  orig: 111, 85
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 709, 103
+  size: 144, 149
+  orig: 144, 149
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 709, 45
+  size: 56, 138
+  orig: 56, 138
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 1635, 197
+  size: 55, 114
+  orig: 55, 114
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 154, 20
+  size: 78, 133
+  orig: 78, 133
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 1002, 183
+  size: 69, 153
+  orig: 69, 153
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 2, 2
+  size: 96, 150
+  orig: 96, 150
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 2, 100
+  size: 152, 304
+  orig: 152, 304
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 308, 19
+  size: 168, 206
+  orig: 168, 206
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 308, 189
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

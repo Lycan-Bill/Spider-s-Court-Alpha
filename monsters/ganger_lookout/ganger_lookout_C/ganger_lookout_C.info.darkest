@@ -1,15 +1,15 @@
 display: .size 1
 enemy_type: .id "human"
 stats: .hp 22 .def 21% .prot 0 .spd 9 .stun_resist 65% .poison_resist 40% .bleed_resist 40% .debuff_resist 55% .move_resist 40%
-skill: .id "lookout_switchblade" .type "melee" .atk 80.5% .dmg 5 8 .crit 17%  .launch 21 .target 123 .effect "Ganger Bleed 3" .move 3 0
-skill: .id "lookout_lookut" .type "ranged" .atk 80.5% .dmg 0 0 .crit 0%  .launch 432 .target 1234 .ignore_stealth true .effect "Ganger Mark 3" "Lookout Dodge Debuff 3" "Ganger Destealth" .is_crit_valid False
-skill: .id "lookout_ready" .type "ranged"  .launch 432 .target ~@1234 .effect "Lookout Ready Buff 3" .is_crit_valid False
-skill: .id "lookout_help" .type "ranged"  .launch 432 .target @1234 .effect "Lookout Dodge Buff 3" .is_crit_valid False
+skill: .id "lookout_switchblade" .type "melee" .atk 102.5% .dmg 5 8 .crit 17%  .launch 21 .target 123 .effect "Ganger Bleed 3" .move 3 0
+skill: .id "lookout_lookut" .type "ranged" .atk 102.5% .dmg 0 0 .crit 0%  .launch 432 .target 1234 .ignore_stealth true .effect "Ganger Mark" "Lookout Dodge Debuff 3" "Ganger Destealth" .is_crit_valid False
+skill: .id "lookout_ready" .type "ranged"  .launch 432 .target ~@1234 .effect "Lookut Ready Buff 3" .is_crit_valid False
+skill: .id "lookout_help" .type "ranged"  .launch 432 .target @1234 .effect "Lookut Dodge Buff 5" .is_crit_valid False .self_target_valid false
 personality: .prefskill -1
 personality: .prefskill -1
 loot: .code "C" .count 1
 initiative: .number_of_turns_per_round 1
-monster_brain: .id skeleton_rabble_A
+monster_brain: .id ganger_lookout
 death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
 battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front True

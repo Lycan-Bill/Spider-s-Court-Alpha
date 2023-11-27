@@ -1,0 +1,20 @@
+
+gorger.sprite.attack_perfume.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blindinggas
+  rotate: false
+  xy: 2, 67
+  size: 794, 741
+  orig: 794, 741
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

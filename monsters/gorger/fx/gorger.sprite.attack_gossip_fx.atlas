@@ -1,0 +1,41 @@
+
+gorger.sprite.attack_gossip_fx.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spittle1
+  rotate: true
+  xy: 469, 23
+  size: 77, 118
+  orig: 77, 118
+  offset: 0, 0
+  index: -1
+spittle_2
+  rotate: true
+  xy: 2, 2
+  size: 98, 154
+  orig: 98, 154
+  offset: 0, 0
+  index: -1
+spittle_3
+  rotate: true
+  xy: 332, 43
+  size: 57, 135
+  orig: 57, 135
+  offset: 0, 0
+  index: -1
+spittle_4
+  rotate: true
+  xy: 158, 13
+  size: 31, 156
+  orig: 31, 156
+  offset: 0, 0
+  index: -1
+spittle_5
+  rotate: true
+  xy: 158, 46
+  size: 54, 172
+  orig: 54, 172
+  offset: 0, 0
+  index: -1

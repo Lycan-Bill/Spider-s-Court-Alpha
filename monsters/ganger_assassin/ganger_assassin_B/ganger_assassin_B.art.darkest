@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "ganger_lurk" .anim "attack_lurk"
+skill: .id "ganger_toxin" .anim "attack_toxin"
+skill: .id "ganger_execute" .anim "attack_dagger" .fx "attack_dagger_fx" .targchestfx "thrown_dagger_target"
+skill: .id "ganger_execute_weak" .anim "attack_dagger" .fx "attack_dagger_fx" .targchestfx "thrown_dagger_target"

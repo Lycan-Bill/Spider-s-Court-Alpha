@@ -1,0 +1,90 @@
+
+ganger_breaker.sprite.combat.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 809, 2
+  size: 484, 536
+  orig: 484, 536
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 1535, 56
+  size: 174, 124
+  orig: 174, 124
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 1761, 189
+  size: 104, 114
+  orig: 104, 114
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1877, 218
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1711, 46
+  size: 130, 134
+  orig: 130, 134
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 1552, 295
+  size: 126, 262
+  orig: 126, 262
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1347, 4
+  size: 186, 216
+  orig: 186, 216
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1347, 222
+  size: 203, 264
+  orig: 203, 264
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1552, 182
+  size: 207, 111
+  orig: 207, 111
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 2, 33
+  size: 805, 453
+  orig: 805, 453
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 1911, 339
+  size: 147, 135
+  orig: 147, 135
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1552, 423
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

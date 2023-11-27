@@ -1,3 +1,5 @@
 commonfx: .deathfx death_medium
-skill: .id "cudgel" .anim "attack_melee" .fx "cudgel" .targchestfx "blood_splatter"
-skill: .id "cudgel_weak" .anim "attack_melee" .fx "cudgel" .targchestfx "blood_splatter"
+skill: .id "lookout_switchblade" .anim "attack_knife" .fx "attack_knife_fx" .targchestfx "blood_splatter"
+skill: .id "lookout_lookut" .anim "combat"  .targheadfx "attack_look_target"
+skill: .id "lookout_ready" .anim "attack_ready" .fx "attack_ready_fx"
+skill: .id "lookout_help" .anim "attack_watchout" .fx "attack_watchout_fx" .targheadfx "attack_watchout_target"

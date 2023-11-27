@@ -1,0 +1,13 @@
+
+blood_jester.sprite.dirk_stab.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dirk_trail
+  rotate: false
+  xy: 2, 2
+  size: 641, 116
+  orig: 641, 116
+  offset: 0, 0
+  index: -1

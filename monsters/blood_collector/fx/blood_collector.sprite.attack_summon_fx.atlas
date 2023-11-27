@@ -1,0 +1,41 @@
+
+blood_collector.sprite.attack_summon_fx.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 2, 2
+  size: 1249, 972
+  orig: 1249, 972
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1253, 675
+  size: 192, 78
+  orig: 192, 78
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 1253, 595
+  size: 140, 78
+  orig: 140, 78
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 1253, 755
+  size: 296, 219
+  orig: 296, 219
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1551, 898
+  size: 166, 76
+  orig: 166, 76
+  offset: 0, 0
+  index: -1

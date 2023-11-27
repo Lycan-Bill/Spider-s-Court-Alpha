@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large
+skill: .id "BC_Claw" .anim "attack_claw" .fx "attack_claw_fx" .targchestfx "blood_splatter" .area_pos_offset 0 -50
+skill: .id "blood_summon" .anim "attack_summon" .fx "attack_summon_fx" 
+skill: .id "collect_blood" .anim "attack_steal" .fx "attack_steal_fx"  .targchestfx "attack_steal_targ" .area_pos_offset 0 -200
+skill: .id "return_to_sender" .anim "return_to_sender" .fx "return_to_sender_fx" .targheadfx "return_to_sender_targ"
+defending_area_pos_offset: .offset 0 -35

@@ -1,0 +1,13 @@
+
+blood_flagellant.sprite.defend.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background
+  rotate: false
+  xy: 2, 2
+  size: 735, 926
+  orig: 735, 926
+  offset: 0, 0
+  index: -1

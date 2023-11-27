@@ -1,0 +1,237 @@
+
+comet_glow.sprite.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+candle2
+  rotate: false
+  xy: 2, 201
+  size: 330, 352
+  orig: 330, 352
+  offset: 0, 0
+  index: -1
+cristal
+  rotate: false
+  xy: 3378, 1886
+  size: 97, 111
+  orig: 97, 111
+  offset: 0, 0
+  index: -1
+cristglow
+  rotate: false
+  xy: 209, 20
+  size: 83, 60
+  orig: 83, 60
+  offset: 0, 0
+  index: -1
+crown_glow_blue
+  rotate: false
+  xy: 334, 407
+  size: 176, 146
+  orig: 176, 146
+  offset: 0, 0
+  index: -1
+crown_glow_farm
+  rotate: true
+  xy: 2890, 1549
+  size: 176, 146
+  orig: 176, 146
+  offset: 0, 0
+  index: -1
+crown_glow_green
+  rotate: false
+  xy: 3038, 1851
+  size: 176, 146
+  orig: 176, 146
+  offset: 0, 0
+  index: -1
+crown_glow_red
+  rotate: false
+  xy: 334, 259
+  size: 176, 146
+  orig: 176, 146
+  offset: 0, 0
+  index: -1
+crown_glow_yellow
+  rotate: false
+  xy: 512, 407
+  size: 176, 146
+  orig: 176, 146
+  offset: 0, 0
+  index: -1
+drops (1)
+  rotate: false
+  xy: 2, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+drops (4)
+  rotate: false
+  xy: 2, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+drops (6)
+  rotate: false
+  xy: 2, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+drops (5)
+  rotate: false
+  xy: 2, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+drops (3)
+  rotate: false
+  xy: 2, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+drops (2)
+  rotate: false
+  xy: 2, 555
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+inner_glow
+  rotate: false
+  xy: 2, 2
+  size: 205, 197
+  orig: 205, 197
+  offset: 0, 0
+  index: -1
+inner_glow_blue
+  rotate: false
+  xy: 209, 82
+  size: 116, 117
+  orig: 116, 117
+  offset: 0, 0
+  index: -1
+inner_glow_farm
+  rotate: false
+  xy: 512, 288
+  size: 116, 117
+  orig: 116, 117
+  offset: 0, 0
+  index: -1
+inner_glow_green
+  rotate: false
+  xy: 690, 436
+  size: 116, 117
+  orig: 116, 117
+  offset: 0, 0
+  index: -1
+inner_glow_red
+  rotate: false
+  xy: 3038, 1570
+  size: 116, 117
+  orig: 116, 117
+  offset: 0, 0
+  index: -1
+inner_glow_yellow
+  rotate: false
+  xy: 2890, 774
+  size: 116, 117
+  orig: 116, 117
+  offset: 0, 0
+  index: -1
+lantern
+  rotate: false
+  xy: 2890, 1727
+  size: 146, 270
+  orig: 146, 270
+  offset: 0, 0
+  index: -1
+outer_glow_blue
+  rotate: false
+  xy: 3038, 1689
+  size: 162, 160
+  orig: 162, 160
+  offset: 0, 0
+  index: -1
+outer_glow_farm
+  rotate: true
+  xy: 2890, 1385
+  size: 162, 160
+  orig: 162, 160
+  offset: 0, 0
+  index: -1
+outer_glow_green
+  rotate: true
+  xy: 2890, 1221
+  size: 162, 160
+  orig: 162, 160
+  offset: 0, 0
+  index: -1
+outer_glow_red
+  rotate: true
+  xy: 2890, 1057
+  size: 162, 160
+  orig: 162, 160
+  offset: 0, 0
+  index: -1
+outer_glow_yellow
+  rotate: true
+  xy: 2890, 893
+  size: 162, 160
+  orig: 162, 160
+  offset: 0, 0
+  index: -1
+rain (1)
+  rotate: false
+  xy: 724, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+rain (2)
+  rotate: false
+  xy: 724, 555
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+rain (3)
+  rotate: false
+  xy: 1446, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+rain (4)
+  rotate: false
+  xy: 1446, 555
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+rain (5)
+  rotate: false
+  xy: 2168, 1277
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+rain (6)
+  rotate: false
+  xy: 2168, 555
+  size: 720, 720
+  orig: 720, 720
+  offset: 0, 0
+  index: -1
+stress_crown
+  rotate: false
+  xy: 3216, 1865
+  size: 160, 132
+  orig: 160, 132
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large
+skill: .id "ganger_break_charge" .anim "attack_charge" .fx "attack_charge_fx"
+skill: .id "ganger_hammer" .anim "attack_hammer" .fx "attack_hammer_fx" .targfx "attack_hammer_target"
+skill: .id "ganger_swing" .anim "attack_swing" .fx "attack_swing_fx"

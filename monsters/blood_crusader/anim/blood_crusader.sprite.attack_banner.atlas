@@ -1,0 +1,13 @@
+
+blood_crusader.sprite.attack_banner.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Background
+  rotate: true
+  xy: 2, 2
+  size: 825, 1564
+  orig: 825, 1564
+  offset: 0, 0
+  index: -1

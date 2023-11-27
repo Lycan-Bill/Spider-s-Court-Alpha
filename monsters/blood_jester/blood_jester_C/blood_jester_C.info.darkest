@@ -1,0 +1,14 @@
+display: .size 1
+enemy_type: .id "blood"
+enemy_type: .id "eldritch"
+stats: .hp 31 .def 28.75% .prot 0.25 .spd 9 .stun_resist 65% .poison_resist 80% .bleed_resist 200% .debuff_resist 55% .move_resist 50%
+skill: .id "blood_dirk" .type "melee" .atk 102.75% .dmg 7 11 .crit 5%  .effect "Blood Jester SPD Buff 5" "Blood Jester Dirk Crit Buff 5" .launch 4321 .target 123
+skill: .id "blood_harvest" .type "melee" .atk 102.75% .dmg 6 9 .crit 7%  .effect "Blood Collected Bleed 5" "Blood Skeleton Attack Bleed" "Blood Jester SPD Buff 5" .launch 4321 .target ~23 
+personality: .prefskill -1
+loot: .code "NONE" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id blood_jester
+life_link: .base_class "blood_collector"
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+spawn: .effects "Blood Skeleton Attack Bleed"
+

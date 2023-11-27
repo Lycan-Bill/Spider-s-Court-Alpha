@@ -1,0 +1,62 @@
+
+blood_crusader.sprite.attack_banner_fx.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 2, 17
+  size: 1477, 966
+  orig: 1477, 966
+  offset: 0, 0
+  index: -1
+icon_glow_1
+  rotate: false
+  xy: 3755, 589
+  size: 338, 394
+  orig: 338, 394
+  offset: 0, 0
+  index: -1
+icon_glow_2
+  rotate: false
+  xy: 3231, 294
+  size: 319, 291
+  orig: 319, 291
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1481, 37
+  size: 739, 946
+  orig: 739, 946
+  offset: 0, 0
+  index: -1
+starburst_1
+  rotate: false
+  xy: 2222, 331
+  size: 486, 652
+  orig: 486, 652
+  offset: 0, 0
+  index: -1
+starburst_2
+  rotate: false
+  xy: 3231, 587
+  size: 522, 396
+  orig: 522, 396
+  offset: 0, 0
+  index: -1
+starburst_ring_1
+  rotate: false
+  xy: 2710, 372
+  size: 519, 611
+  orig: 519, 611
+  offset: 0, 0
+  index: -1
+starburst_ring_2
+  rotate: true
+  xy: 2222, 2
+  size: 327, 330
+  orig: 327, 330
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,181 @@
+
+ancestor_ghost.png
+size: 1615,1043
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beard
+  rotate: false
+  xy: 1503, 925
+  size: 110, 116
+  orig: 110, 116
+  offset: 0, 0
+  index: -1
+circular_glow
+  rotate: false
+  xy: 1071, 612
+  size: 430, 429
+  orig: 430, 429
+  offset: 0, 0
+  index: -1
+coat_bottom
+  rotate: false
+  xy: 462, 476
+  size: 607, 565
+  orig: 607, 565
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1270, 251
+  size: 153, 208
+  orig: 153, 208
+  offset: 0, 0
+  index: -1
+jagged_glow
+  rotate: true
+  xy: 462, 69
+  size: 405, 614
+  orig: 405, 614
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: true
+  xy: 1290, 56
+  size: 193, 157
+  orig: 193, 157
+  offset: 0, 0
+  index: -1
+left_collar_bottom
+  rotate: true
+  xy: 1480, 278
+  size: 126, 122
+  orig: 126, 122
+  offset: 0, 0
+  index: -1
+left_collar_top
+  rotate: false
+  xy: 1503, 807
+  size: 95, 116
+  orig: 95, 116
+  offset: 0, 0
+  index: -1
+left_cuff
+  rotate: true
+  xy: 1071, 481
+  size: 129, 175
+  orig: 129, 175
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: false
+  xy: 1503, 698
+  size: 88, 107
+  orig: 88, 107
+  offset: 0, 0
+  index: -1
+left_index
+  rotate: false
+  xy: 1507, 3
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+left_middle
+  rotate: false
+  xy: 660, 35
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+left_ring
+  rotate: true
+  xy: 1584, 18
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+left_sleeve
+  rotate: true
+  xy: 462, 12
+  size: 55, 120
+  orig: 55, 120
+  offset: 0, 0
+  index: -1
+outline
+  rotate: false
+  xy: 2, 18
+  size: 458, 1023
+  orig: 458, 1023
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: true
+  xy: 1078, 41
+  size: 189, 210
+  orig: 189, 210
+  offset: 0, 0
+  index: -1
+right_coat_top
+  rotate: false
+  xy: 1270, 406
+  size: 222, 204
+  orig: 222, 204
+  offset: 0, 0
+  index: -1
+right_collar
+  rotate: false
+  xy: 1078, 232
+  size: 190, 247
+  orig: 190, 247
+  offset: 0, 0
+  index: -1
+right_cuff
+  rotate: false
+  xy: 1480, 251
+  size: 77, 25
+  orig: 77, 25
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: false
+  xy: 1503, 611
+  size: 92, 85
+  orig: 92, 85
+  offset: 0, 0
+  index: -1
+right_sleeve
+  rotate: true
+  xy: 1449, 2
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1
+ring
+  rotate: true
+  xy: 1559, 251
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+scarf_back
+  rotate: false
+  xy: 1449, 63
+  size: 159, 186
+  orig: 159, 186
+  offset: 0, 0
+  index: -1
+scarf_front
+  rotate: true
+  xy: 584, 34
+  size: 33, 74
+  orig: 33, 74
+  offset: 0, 0
+  index: -1
+scarf_middle
+  rotate: true
+  xy: 1507, 30
+  size: 31, 75
+  orig: 31, 75
+  offset: 0, 0
+  index: -1

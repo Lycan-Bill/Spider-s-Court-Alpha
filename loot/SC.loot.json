@@ -1,0 +1,92 @@
+{
+   "loot_tables" :
+   [
+   {
+      	 "id" : "SPIV_CC_LOOT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "pet_bone" }},
+			{ "type" : "trinket", "chances" : 13, "data" : { "rarity" : "uncommon", "amount" : 2  }},
+			{ "type" : "trinket", "chances" : 10, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 9999999999999, "data" : { "rarity" : "crimson_court" }}
+]
+      },
+      {
+         "id" : "T_SPIV_GEMS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "DISTILLERY_ALCHOHOL",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type": "item", "chances": 12, "data": { "type": "estate", "id": "Disillery_Whiskey", "amount": 1 }},
+			{ "type": "item", "chances": 6, "data": { "type": "estate", "id": "Disillery_Wine", "amount": 1 }},
+			{ "type": "item", "chances": 5, "data": { "type": "estate", "id": "Disillery_Best", "amount": 1 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Disillery_Whiskey", "amount": 2 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Disillery_Wine", "amount": 2 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Disillery_Best", "amount": 2 }}
+			]
+      },
+      {
+         "id" : "Old_Qaurter_T1",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "merchant_credit", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "Old_Qaurter_T2",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
+			{ "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "merchant_credit", "amount" : 1 }}         
+			]
+      },
+      {
+         "id" : "Old_Qaurter_T3",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
+			{ "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+			{ "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
+            { "type" : "item", "chances" : 7, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "merchant_credit", "amount" : 1 }}   
+         ]
+	  }
+	  
+   ]
+}

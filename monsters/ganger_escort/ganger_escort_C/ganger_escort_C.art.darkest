@@ -1,0 +1,4 @@
+commonfx: .deathfx death_medium
+skill: .id "ganger_favor" .anim "attack_favor" .fx "attack_favor_fx" .targheadfx "attack_favor_target"
+skill: .id "ganger_allure" .anim "attack_alure" .fx "attack_alure_fx"
+skill: .id "ganger_point" .anim "attack_kill" .fx "attack_kill_fx" .targchestfx "attack_kill_target"

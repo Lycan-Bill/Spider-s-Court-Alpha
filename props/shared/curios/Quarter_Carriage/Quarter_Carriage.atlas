@@ -1,0 +1,20 @@
+
+Quarter_Carriage.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cart1
+  rotate: false
+  xy: 2009, 87
+  size: 1852, 1020
+  orig: 1852, 1020
+  offset: 0, 0
+  index: -1
+cart2
+  rotate: false
+  xy: 2, 2
+  size: 2005, 1105
+  orig: 2005, 1105
+  offset: 0, 0
+  index: -1

@@ -782,6 +782,32 @@
             ]
         },
         {
+            "id": "explore_crimson_moon",
+            "goal_lists": [
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+                            "explore_crimson_moon"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cleanse_crimson_moon",
+            "goal_lists": [
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+                            "battle_all_rooms_crimson_moon"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "id": "gather",
             "goal_lists": [
                 {

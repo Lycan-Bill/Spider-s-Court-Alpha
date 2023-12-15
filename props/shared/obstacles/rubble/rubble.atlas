@@ -1,0 +1,55 @@
+
+rubble.png
+size: 891,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rubble01
+  rotate: false
+  xy: 2, 2
+  size: 483, 292
+  orig: 483, 292
+  offset: 0, 0
+  index: -1
+rubble02
+  rotate: false
+  xy: 487, 133
+  size: 294, 161
+  orig: 294, 161
+  offset: 0, 0
+  index: -1
+rubble03
+  rotate: true
+  xy: 783, 121
+  size: 173, 106
+  orig: 173, 106
+  offset: 0, 0
+  index: -1
+rubble04
+  rotate: false
+  xy: 627, 15
+  size: 84, 116
+  orig: 84, 116
+  offset: 0, 0
+  index: -1
+rubble05
+  rotate: false
+  xy: 487, 33
+  size: 138, 98
+  orig: 138, 98
+  offset: 0, 0
+  index: -1
+rubble06
+  rotate: true
+  xy: 713, 10
+  size: 121, 59
+  orig: 121, 59
+  offset: 0, 0
+  index: -1
+rubble07
+  rotate: false
+  xy: 774, 19
+  size: 62, 100
+  orig: 62, 100
+  offset: 0, 0
+  index: -1

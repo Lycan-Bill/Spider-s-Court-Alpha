@@ -1,0 +1,41 @@
+
+ganger_grenadier.sprite.attack_dirty_target.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fragment_2
+  rotate: false
+  xy: 1247, 409
+  size: 60, 90
+  orig: 60, 90
+  offset: 0, 0
+  index: -1
+fragment_3
+  rotate: false
+  xy: 1309, 431
+  size: 44, 68
+  orig: 44, 68
+  offset: 0, 0
+  index: -1
+fragnent_1
+  rotate: true
+  xy: 1247, 337
+  size: 70, 46
+  orig: 70, 46
+  offset: 0, 0
+  index: -1
+toxcloud(scalesupwards)
+  rotate: false
+  xy: 629, 29
+  size: 616, 470
+  orig: 616, 470
+  offset: 0, 0
+  index: -1
+toxiccloud
+  rotate: false
+  xy: 2, 2
+  size: 625, 497
+  orig: 625, 497
+  offset: 0, 0
+  index: -1

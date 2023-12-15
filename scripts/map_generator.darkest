@@ -3,57 +3,110 @@ map:
 .size short
 .quest_type explore
 .dungeon_type crypts
-.base_room_number 9
-.base_corridor_number 10
-.gridsize 4 3
-.spacing 4
-.goal_room_number 9
+.base_room_number 11
+.base_corridor_number 12
+.gridsize 4 4
+.spacing 3
+.goal_room_number 11
 .connectivity 0.9
 .min_final_distance 3
-.hallway_battle 2 4
-.hallway_trap 2 3
-.hallway_obstacle 0 2
-.hallway_curio 9 9
+.hallway_battle 2 3
+.hallway_trap 2 4
+.hallway_obstacle 1 3
+.hallway_curio 10 12
 .hallway_hunger 1 3
-.total_room_battles 1 3
+.total_room_battles 2 3
 .room_battle 0 0
-.room_guarded_curio 0 1
-.room_curio 0 0
-.room_guarded_treasure 1 1
-.room_treasure 0 0
+.room_guarded_curio 1 2
+.room_curio 0 2
+.room_guarded_treasure 0 0
+.room_treasure 1 1
 .secret_rooms 0 0
 .nudge_span 0 1
-.nudge_neighbour_bias 0.5
-.nudge_map_centre_bias 0.5
-.prisoner_room_chance 0
+.nudge_neighbour_bias 3
+.nudge_map_centre_bias 0
+
+
+map:
+.size short
+.quest_type explore_rainfall
+.dungeon_type crypts
+.base_room_number 11
+.base_corridor_number 12
+.gridsize 4 4
+.spacing 3
+.goal_room_number 11
+.connectivity 0.9
+.min_final_distance 3
+.hallway_battle 2 3
+.hallway_trap 2 4
+.hallway_obstacle 1 3
+.hallway_curio 10 12
+.hallway_hunger 1 3
+.total_room_battles 2 3
+.room_battle 0 0
+.room_guarded_curio 1 2
+.room_curio 0 2
+.room_guarded_treasure 0 0
+.room_treasure 1 1
+.secret_rooms 0 0
+.nudge_span 0 1
+.nudge_neighbour_bias 3
+.nudge_map_centre_bias 0
 
 map:
 .size medium
 .quest_type explore
 .dungeon_type crypts
-.base_room_number 14
-.base_corridor_number 15
-.gridsize 5 4
-.spacing 4
-.goal_room_number 14
-.connectivity 0.9
+.base_room_number 17
+.base_corridor_number 18
+.gridsize 5 5
+.spacing 3
+.goal_room_number 17
+.connectivity 1
 .min_final_distance 7
 .hallway_battle 3 4
-.hallway_trap 3 5
-.hallway_obstacle 0 3
-.hallway_curio 14 14
+.hallway_trap 3 6
+.hallway_obstacle 1 4
+.hallway_curio 16 18
 .hallway_hunger 2 5
 .total_room_battles 3 4
 .room_battle 0 0
-.room_guarded_curio 1 2
-.room_curio 0 0
-.room_guarded_treasure 1 2
-.room_treasure 0 0
+.room_guarded_curio 2 3
+.room_curio 1 3
+.room_guarded_treasure 0 0
+.room_treasure 1 2
 .secret_rooms 0 1
-.nudge_span 0 1
-.nudge_neighbour_bias 0.5
-.nudge_map_centre_bias 0.5
-.prisoner_room_chance 0
+.nudge_span 0 2
+.nudge_neighbour_bias 3
+.nudge_map_centre_bias 0
+
+map:
+.size medium
+.quest_type explore_rainfall
+.dungeon_type crypts
+.base_room_number 17
+.base_corridor_number 18
+.gridsize 5 5
+.spacing 3
+.goal_room_number 17
+.connectivity 1
+.min_final_distance 7
+.hallway_battle 3 4
+.hallway_trap 3 6
+.hallway_obstacle 1 4
+.hallway_curio 16 18
+.hallway_hunger 2 5
+.total_room_battles 3 4
+.room_battle 0 0
+.room_guarded_curio 2 3
+.room_curio 1 3
+.room_guarded_treasure 0 0
+.room_treasure 1 2
+.secret_rooms 0 1
+.nudge_span 0 2
+.nudge_neighbour_bias 3
+.nudge_map_centre_bias 0
 
 map:
 .size long
@@ -82,6 +135,60 @@ map:
 .nudge_neighbour_bias 0.5
 .nudge_map_centre_bias 0.5
 .prisoner_room_chance 0
+
+map:
+.size long
+.quest_type explore_crimson_moon
+.dungeon_type crypts
+.base_room_number 23
+.base_corridor_number 24
+.gridsize 6 5
+.spacing 7
+.goal_room_number 23
+.connectivity 0.9
+.min_final_distance 10
+.hallway_battle 6 7
+.hallway_trap 5 7
+.hallway_obstacle 2 5
+.hallway_curio 22 24
+.hallway_hunger 3 6
+.total_room_battles 6 6
+.room_battle 0 0
+.room_guarded_curio 4 6
+.room_curio 2 4
+.room_guarded_treasure 0 0
+.room_treasure 2 2
+.secret_rooms 1 1
+.nudge_span 0 1
+.nudge_neighbour_bias 3
+.nudge_map_centre_bias 0
+
+map:
+.size long
+.quest_type explore_rainfall
+.dungeon_type crypts
+.base_room_number 23
+.base_corridor_number 24
+.gridsize 6 5
+.spacing 4
+.goal_room_number 23
+.connectivity 1.1
+.min_final_distance 10
+.hallway_battle 6 7
+.hallway_trap 5 7
+.hallway_obstacle 2 5
+.hallway_curio 22 24
+.hallway_hunger 3 6
+.total_room_battles 6 6
+.room_battle 0 0
+.room_guarded_curio 4 6
+.room_curio 2 4
+.room_guarded_treasure 0 0
+.room_treasure 2 2
+.secret_rooms 1 1
+.nudge_span 0 1
+.nudge_neighbour_bias 3
+.nudge_map_centre_bias 0
 
 map:
 .size medium

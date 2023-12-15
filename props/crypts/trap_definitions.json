@@ -1,0 +1,33 @@
+{
+    "props": [
+        {
+            "name": "trip_wire",
+            "default_data": {
+                "inherits_from": {
+                    "prop_type_name": "trap"
+                },
+                "graphics_file": "props/shared/traps/mehkrub/trip_wire.skel",
+                "success_effects": [ "Heal Stress TrapD" ],
+                "fail_effects": [ ],
+                "health": -0.15,
+                "audio_path": "/props/traps/mehkrub"
+            },
+            "difficulty_variations": [
+                {
+                    "level": 3,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ ],
+					"health": -0.10,
+                    "graphics_file": "props/shared/traps/mehkrub/trip_wire.skel"
+                },
+                {
+                    "level": 5,
+                    "success_effects": [ "Heal Stress TrapD" ],
+                    "fail_effects": [ ],
+					"health": -0.10,
+                    "graphics_file": "props/shared/traps/trip_wire/trip_wire.skel"
+                }
+            ]
+        }
+    ]
+}

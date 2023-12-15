@@ -1,0 +1,13 @@
+
+ganger_grenadier.sprite.attack_blind_target.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SMOKE_2
+  rotate: false
+  xy: 2, 2
+  size: 240, 356
+  orig: 240, 356
+  offset: 0, 0
+  index: -1

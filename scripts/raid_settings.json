@@ -24,7 +24,7 @@
                 "wave_transition_dungeons": [
                     "crypts"
                 ],
-                "overlay_custom_animation": "rain",
+                "overlay_custom_animation": "rainfall",
                 "custom_colour_grade": "wave_transition_radiant",
                 "custom_quest_modifier_texture_id": "radiant",
                 "transition_id": "radiant",
@@ -57,12 +57,12 @@
                 "hero_buff_list" : [],
                 "monster_buff_list" : [],
                 "hero_effect_list" : ["crimson_moon_torch_snuff"],
-                "monster_effect_list" : [],
+                "monster_effect_list" : ["crimson_moon_torch_snuff"],
                 "overlays": [ "battle_round", "comet_glow_torch"],
                 "torch_setting_item_buffs": [],
                 "wave_transition_dungeons":["crypts"],
                 "overlay_custom_animation": "red_loop",
-                "custom_colour_grade": "wave_transition_red",
+                "custom_colour_grade": "wave_transition_crimson_moon",
                 "custom_quest_modifier_texture_id": "red",
                 "transition_id": "red",
                 "transition_sprite": "fx/time_space_wave_transition/time_space_wave_transition.sprite.skel",

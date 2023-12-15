@@ -1,0 +1,83 @@
+
+TheKid.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1 copy
+  rotate: false
+  xy: 873, 506
+  size: 613, 490
+  orig: 613, 490
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 2, 2
+  size: 96, 177
+  orig: 96, 177
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 1488, 821
+  size: 126, 175
+  orig: 126, 175
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 1616, 938
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 224, 194
+  size: 158, 106
+  orig: 158, 106
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 873, 302
+  size: 83, 48
+  orig: 83, 48
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1488, 746
+  size: 81, 73
+  orig: 81, 73
+  offset: 0, 0
+  index: -1
+Layer 7 copy
+  rotate: false
+  xy: 1026, 417
+  size: 81, 87
+  orig: 81, 87
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 873, 352
+  size: 151, 152
+  orig: 151, 152
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 2, 100
+  size: 220, 200
+  orig: 220, 200
+  offset: 0, 0
+  index: -1
+kid2
+  rotate: false
+  xy: 2, 302
+  size: 869, 694
+  orig: 869, 694
+  offset: 0, 0
+  index: -1

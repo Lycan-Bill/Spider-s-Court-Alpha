@@ -1,0 +1,13 @@
+
+ganger_escort.sprite.attack_kill_fx.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 429, 951
+  orig: 429, 951
+  offset: 0, 0
+  index: -1

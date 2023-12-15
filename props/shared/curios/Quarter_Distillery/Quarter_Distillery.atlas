@@ -1,0 +1,20 @@
+
+Quarter_Distillery.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+distillery1
+  rotate: false
+  xy: 2, 2
+  size: 1138, 1036
+  orig: 1138, 1036
+  offset: 0, 0
+  index: -1
+distillery2
+  rotate: false
+  xy: 1142, 2
+  size: 1116, 1036
+  orig: 1116, 1036
+  offset: 0, 0
+  index: -1

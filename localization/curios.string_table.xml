@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="str_curio_title_nothing"><![CDATA[Error - no curio found!]]></entry>
+    <entry id="str_curio_content_nothing"><![CDATA[Error - no curio found!]]></entry>
+    <entry id="str_curio_no_negative_quirks_to_remove"><![CDATA[No negative quirks to remove.]]></entry>
+    <entry id="str_curio_title_TheSpiv"><![CDATA[The Spiv]]></entry>
+    <entry id="str_curio_content_TheSpiv"><![CDATA[Wha'cha buying, Squire?]]></entry>
+	<entry id="str_curio_TheSpiv_nothing"><![CDATA[I ain’t running a charity, Squire!]]></entry>
+    <entry id="str_curio_TheSpiv_loot"><![CDATA[I ain’t running a charity, Squire!]]></entry>
+	<entry id="str_curio_TheSpiv_citrine_loot"><![CDATA[That all? Guess you could do worse, Squire.]]></entry>
+	<entry id="str_curio_TheSpiv_jade_loot"><![CDATA[S’pose I can find someone to buy this.]]></entry>
+	<entry id="str_curio_TheSpiv_emerald_loot"><![CDATA[Hoho, I got something you like.]]></entry>
+	<entry id="str_curio_TheSpiv_sapphire_loot"><![CDATA[Where did find this?! I’’ll buy it at high price!]]></entry>
+	<entry id="str_curio_TheSpiv_ruby_loot"><![CDATA[Ha! Working hard I see.]]></entry>
+  </language>
+</root>
+

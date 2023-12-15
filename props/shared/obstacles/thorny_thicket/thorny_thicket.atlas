@@ -1,0 +1,27 @@
+
+thorny_thicket.png
+size: 2550,691
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thorny_thicket01
+  rotate: false
+  xy: 2111, 243
+  size: 437, 446
+  orig: 437, 446
+  offset: 0, 0
+  index: -1
+thorny_thicket02
+  rotate: false
+  xy: 1119, 15
+  size: 990, 674
+  orig: 990, 674
+  offset: 0, 0
+  index: -1
+thorny_thicket03
+  rotate: true
+  xy: 2, 2
+  size: 687, 1115
+  orig: 687, 1115
+  offset: 0, 0
+  index: -1

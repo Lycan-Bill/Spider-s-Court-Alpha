@@ -20,7 +20,7 @@ cristal
   index: -1
 cristglow
   rotate: false
-  xy: 541, 442
+  xy: 541, 331
   size: 83, 60
   orig: 83, 60
   offset: 0, 0
@@ -37,5 +37,12 @@ lantern
   xy: 2, 2
   size: 146, 270
   orig: 146, 270
+  offset: 0, 0
+  index: -1
+strees_crown2
+  rotate: false
+  xy: 541, 393
+  size: 234, 109
+  orig: 234, 109
   offset: 0, 0
   index: -1

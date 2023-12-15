@@ -1,0 +1,20 @@
+
+ganger_escort.sprite.attack_favor_target.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+heartcloud
+  rotate: false
+  xy: 2, 2
+  size: 800, 806
+  orig: 800, 806
+  offset: 0, 0
+  index: -1
+heartspecks
+  rotate: false
+  xy: 804, 456
+  size: 460, 352
+  orig: 460, 352
+  offset: 0, 0
+  index: -1

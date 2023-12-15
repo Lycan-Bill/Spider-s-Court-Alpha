@@ -1,0 +1,44 @@
+{
+    "raid_starting_length_inventory_item_lists":
+    [
+        [ ],
+        [  
+            { "type": "supply", "id": "merchant_credit", "amount": 0 }
+
+        ],
+        [
+            { "type": "supply", "id": "merchant_credit", "amount": 0 }
+        ],
+        [
+            { "type": "supply", "id": "merchant_credit", "amount": 0 }
+        ],
+        [  
+            { "type": "supply", "id": "merchant_credit", "amount": 0 }
+        ],
+        [
+            { "type": "supply", "id": "merchant_credit", "amount": 0 }
+        ]
+    ],
+      
+
+    "default_store_inventory_item_lists":
+    [
+        [ ],
+        [
+			{ "type": "supply", "id": "merchant_credit", "amount": 1 }
+        ],
+        [
+            { "type": "supply", "id": "merchant_credit", "amount": 1 }
+
+        ],
+        [
+            { "type": "supply", "id": "merchant_credit", "amount": 1 }
+        ],
+        [
+            { "type": "supply", "id": "merchant_credit", "amount": 1 }
+        ],
+        [
+            { "type": "supply", "id": "merchant_credit", "amount": 1 }
+        ]
+    ]
+}

@@ -55,6 +55,34 @@
                     "dungeon": "crypts",
                     "generated_quest_table": [
                         [
+                             {
+                                "type": "explore_crimson_moon",
+                                "chance": 0.5,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 0.5,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 0.5,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 0.5,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
                             {
                                 "type": "explore_rainfall",
                                 "chance": 1,
@@ -105,6 +133,62 @@
                             }
                         ],
                         [
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 63,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 63,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 37,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 38,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 37,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 38,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 12,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 13,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
                             {
                                 "type": "explore_rainfall",
                                 "chance": 112,
@@ -196,6 +280,62 @@
                         ],
                         [
                             {
+                                "type": "explore_crimson_moon",
+                                "chance": 33,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 33,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 33,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 33,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 22,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 22,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 22,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 22,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
                                 "type": "explore_rainfall",
                                 "chance": 66,
                                 "length": 1,
@@ -282,210 +422,1204 @@
                                 "type": "explore",
                                 "chance": 33,
                                 "length": 2
+                           }
+                        ],
+                        [
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 30,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 30,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 30,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 30,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 30,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 30,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 17,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 17,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 17,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 17,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 17,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 17,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 9,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 9,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 9,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 9,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 9,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 9,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 50,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 50,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 50,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 50,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 50,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 50,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 33,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 33,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 33,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 33,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 33,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 33,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 17,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 17,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 17,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 17,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 17,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 17,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 50,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 50,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 50,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 50,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 50,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 50,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 33,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 33,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 33,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 33,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 33,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 33,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 17,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 17,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 17,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 17,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 17,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 17,
+                                "length": 3
+                             }
+                        ],
+                        [
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 11,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 11,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 11,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 11,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 11,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 11,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 40,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 40,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 40,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 40,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 40,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 40,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 40,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 40,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 40,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 40,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 40,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 40,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 20,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 20,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 20,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 20,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 20,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 20,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 40,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 40,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 40,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 40,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 40,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 40,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 40,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 40,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 40,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 40,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 40,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 40,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 20,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 20,
+                                "length": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 20,
+                                "length": 2
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 20,
+                                "length": 2
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 20,
+                                "length": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 20,
+                                "length": 3
                             }
                         ],
                         [
                             {
+                                "type": "explore_crimson_moon",
+                                "chance": 23,
+                                "length": 1,
+                                "difficulty_override": 5,
+								"torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 23,
+                                "length": 1,
+                                "difficulty_override": 5,
+								"torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 23,
+                                "length": 2,
+                                "difficulty_override": 5,
+								"torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 23,
+                                "length": 2,
+                                "difficulty_override": 5,
+								"torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 23,
+                                "length": 3,
+                                "difficulty_override": 5,
+								"torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 23,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 23,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 23,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 23,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 23,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 23,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 23,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 12,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 12,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 12,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 12,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 12,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 12,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
                                 "type": "explore_rainfall",
-                                "chance": 50,
+                                "chance": 35,
                                 "length": 1,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 50,
+                                "chance": 35,
                                 "length": 1,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 50,
+                                "chance": 35,
                                 "length": 2,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 50,
+                                "chance": 35,
                                 "length": 2,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 50,
+                                "chance": 35,
                                 "length": 3,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 50,
+                                "chance": 35,
                                 "length": 3,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 33,
+                                "chance": 35,
                                 "length": 1,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 33,
+                                "chance": 35,
                                 "length": 1,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 33,
+                                "chance": 35,
                                 "length": 2,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 33,
+                                "chance": 35,
                                 "length": 2,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 33,
+                                "chance": 35,
                                 "length": 3,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 33,
+                                "chance": 35,
                                 "length": 3,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 17,
+                                "chance": 30,
                                 "length": 1,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 17,
+                                "chance": 30,
                                 "length": 1,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 17,
+                                "chance": 30,
                                 "length": 2,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 17,
+                                "chance": 30,
                                 "length": 2,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "cleanse_rainfall",
-                                "chance": 17,
+                                "chance": 30,
                                 "length": 3,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore_rainfall",
-                                "chance": 17,
+                                "chance": 30,
                                 "length": 3,
                                 "torch_setting": "rainfall"
                             },
                             {
                                 "type": "explore",
-                                "chance": 50,
-                                "length": 1
+                                "chance": 35,
+                                "length": 1,
+                                "difficulty_override": 1
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 50,
-                                "length": 1
+                                "chance": 35,
+                                "length": 1,
+                                "difficulty_override": 1
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 50,
-                                "length": 2
+                                "chance": 35,
+                                "length": 2,
+                                "difficulty_override": 1
                             },
                             {
                                 "type": "explore",
-                                "chance": 50,
-                                "length": 2
+                                "chance": 35,
+                                "length": 2,
+                                "difficulty_override": 1
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 50,
-                                "length": 3
+                                "chance": 35,
+                                "length": 3,
+                                "difficulty_override": 1
                             },
                             {
                                 "type": "explore",
-                                "chance": 50,
-                                "length": 3
+                                "chance": 35,
+                                "length": 3,
+                                "difficulty_override": 1
                             },
                             {
                                 "type": "explore",
-                                "chance": 33,
-                                "length": 1
+                                "chance": 35,
+                                "length": 1,
+                                "difficulty_override": 3
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 33,
-                                "length": 1
+                                "chance": 35,
+                                "length": 1,
+                                "difficulty_override": 3
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 33,
-                                "length": 2
+                                "chance": 35,
+                                "length": 2,
+                                "difficulty_override": 3
                             },
                             {
                                 "type": "explore",
-                                "chance": 33,
-                                "length": 2
+                                "chance": 35,
+                                "length": 2,
+                                "difficulty_override": 3
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 33,
-                                "length": 3
+                                "chance": 35,
+                                "length": 3,
+                                "difficulty_override": 3
                             },
                             {
                                 "type": "explore",
-                                "chance": 33,
-                                "length": 3
+                                "chance": 35,
+                                "length": 3,
+                                "difficulty_override": 3
                             },
                             {
                                 "type": "explore",
-                                "chance": 17,
-                                "length": 1
+                                "chance": 30,
+                                "length": 1,
+                                "difficulty_override": 5
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 17,
-                                "length": 1
+                                "chance": 30,
+                                "length": 1,
+                                "difficulty_override": 5
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 17,
-                                "length": 2
+                                "chance": 30,
+                                "length": 2,
+                                "difficulty_override": 5
                             },
                             {
                                 "type": "explore",
-                                "chance": 17,
-                                "length": 2
+                                "chance": 30,
+                                "length": 2,
+                                "difficulty_override": 5
                             },
                             {
                                 "type": "cleanse",
-                                "chance": 17,
-                                "length": 3
+                                "chance": 30,
+                                "length": 3,
+                                "difficulty_override": 5
                             },
                             {
                                 "type": "explore",
-                                "chance": 17,
-                                "length": 3
-                            }
+                                "chance": 30,
+                                "length": 3,
+                                "difficulty_override": 5
+                          }
                         ],
                         [
                             {
+                                "type": "explore_crimson_moon",
+                                "chance": 13,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 13,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 13,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 13,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 13,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 13,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 17,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 17,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 17,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 17,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 17,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 17,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 1,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 2,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "cleanse_crimson_moon",
+                                "chance": 20,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_crimson_moon",
+                                "chance": 20,
+                                "length": 3,
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 25,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 25,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 25,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 25,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 25,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 25,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 35,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 35,
+                                "length": 1,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 35,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 35,
+                                "length": 2,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "cleanse_rainfall",
+                                "chance": 35,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
+                                "type": "explore_rainfall",
+                                "chance": 35,
+                                "length": 3,
+                                "torch_setting": "rainfall"
+                            },
+                            {
                                 "type": "explore_rainfall",
                                 "chance": 40,
                                 "length": 1,
@@ -522,600 +1656,241 @@
                                 "torch_setting": "rainfall"
                             },
                             {
-                                "type": "explore_rainfall",
+                                "type": "explore",
+                                "chance": 25,
+                                "length": 1,
+                                "difficulty_override": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 25,
+                                "length": 1,
+                                "difficulty_override": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 25,
+                                "length": 2,
+                                "difficulty_override": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 25,
+                                "length": 2,
+                                "difficulty_override": 1
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 25,
+                                "length": 3,
+                                "difficulty_override": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 25,
+                                "length": 3,
+                                "difficulty_override": 1
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 35,
+                                "length": 1,
+                                "difficulty_override": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 35,
+                                "length": 1,
+                                "difficulty_override": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 35,
+                                "length": 2,
+                                "difficulty_override": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 35,
+                                "length": 2,
+                                "difficulty_override": 3
+                            },
+                            {
+                                "type": "cleanse",
+                                "chance": 35,
+                                "length": 3,
+                                "difficulty_override": 3
+                            },
+                            {
+                                "type": "explore",
+                                "chance": 35,
+                                "length": 3,
+                                "difficulty_override": 3
+                            },
+                            {
+                                "type": "explore",
                                 "chance": 40,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5
                             },
                             {
-                                "type": "cleanse_rainfall",
+                                "type": "cleanse",
                                 "chance": 40,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5
                             },
                             {
-                                "type": "cleanse_rainfall",
+                                "type": "cleanse",
                                 "chance": 40,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5
                             },
                             {
-                                "type": "explore_rainfall",
+                                "type": "explore",
                                 "chance": 40,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5
                             },
                             {
-                                "type": "cleanse_rainfall",
+                                "type": "cleanse",
                                 "chance": 40,
                                 "length": 3,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5
                             },
                             {
-                                "type": "explore_rainfall",
+                                "type": "explore",
                                 "chance": 40,
                                 "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 20,
-                                "length": 1,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 20,
-                                "length": 1,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 20,
-                                "length": 2,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 20,
-                                "length": 2,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 20,
-                                "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 20,
-                                "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_sun",
-                                "chance": 40,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 2
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 2
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 2
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 2
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 20,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 20,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 20,
-                                "length": 2
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 20,
-                                "length": 2
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 20,
-                                "length": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 20,
-                                "length": 3
-                            }
+                                "difficulty_override": 5
+                           }
                         ],
                         [
                             {
-                                "type": "explore_rainfall",
-                                "chance": 35,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
-                                "length": 1
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
-                                "length": 2
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 35,
-                                "length": 2
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
-                                "length": 3
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 35,
-                                "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 35,
+                                "type": "explore_crimson_moon",
+                                "chance": 10,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
+                                "type": "cleanse_crimson_moon",
+                                "chance": 10,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
+                                "type": "cleanse_crimson_moon",
+                                "chance": 10,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore_rainfall",
-                                "chance": 35,
+                                "type": "explore_crimson_moon",
+                                "chance": 10,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
+                                "type": "cleanse_crimson_moon",
+                                "chance": 10,
                                 "length": 3,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore_rainfall",
-                                "chance": 35,
+                                "type": "explore_crimson_moon",
+                                "chance": 10,
                                 "length": 3,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore_rainfall",
-                                "chance": 30,
+                                "type": "explore_crimson_moon",
+                                "chance": 15,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
-                                "chance": 30,
+                                "type": "cleanse_crimson_moon",
+                                "chance": 15,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
-                                "chance": 30,
+                                "type": "cleanse_crimson_moon",
+                                "chance": 15,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore_rainfall",
-                                "chance": 30,
+                                "type": "explore_crimson_moon",
+                                "chance": 15,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
-                                "chance": 30,
+                                "type": "cleanse_crimson_moon",
+                                "chance": 15,
                                 "length": 3,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore_rainfall",
-                                "chance": 30,
+                                "type": "explore_crimson_moon",
+                                "chance": 15,
                                 "length": 3,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 1,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 1,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 2,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 2,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 3,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 3,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 1,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 1,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 2,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 2,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 3,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 3,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 30,
-                                "length": 1,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 30,
-                                "length": 1,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 30,
-                                "length": 2,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 30,
-                                "length": 2,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 30,
-                                "length": 3,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 30,
-                                "length": 3,
-                                "difficulty_override": 5
-                            }
-                        ],
-                        [
-                            {
-                                "type": "explore_rainfall",
+                                "type": "explore_crimson_moon",
                                 "chance": 25,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
+                                "type": "cleanse_crimson_moon",
                                 "chance": 25,
                                 "length": 1,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
+                                "type": "cleanse_crimson_moon",
                                 "chance": 25,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore_rainfall",
+                                "type": "explore_crimson_moon",
                                 "chance": 25,
                                 "length": 2,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "cleanse_rainfall",
+                                "type": "cleanse_crimson_moon",
                                 "chance": 25,
                                 "length": 3,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
                             {
-                                "type": "explore_rainfall",
+                                "type": "explore_crimson_moon",
                                 "chance": 25,
                                 "length": 3,
-                                "torch_setting": "rainfall"
+                                "difficulty_override": 5,
+                                "torch_setting": "crimson_moon"
                             },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 35,
-                                "length": 1,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
-                                "length": 1,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
-                                "length": 2,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 35,
-                                "length": 2,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 35,
-                                "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 35,
-                                "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 40,
-                                "length": 1,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 40,
-                                "length": 1,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 40,
-                                "length": 2,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 40,
-                                "length": 2,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "cleanse_rainfall",
-                                "chance": 40,
-                                "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore_rainfall",
-                                "chance": 40,
-                                "length": 3,
-                                "torch_setting": "rainfall"
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 25,
-                                "length": 1,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 25,
-                                "length": 1,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 25,
-                                "length": 2,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 25,
-                                "length": 2,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 25,
-                                "length": 3,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 25,
-                                "length": 3,
-                                "difficulty_override": 1
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 1,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 1,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 2,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 2,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 35,
-                                "length": 3,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 35,
-                                "length": 3,
-                                "difficulty_override": 3
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 1,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 1,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 2,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 2,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "cleanse",
-                                "chance": 40,
-                                "length": 3,
-                                "difficulty_override": 5
-                            },
-                            {
-                                "type": "explore",
-                                "chance": 40,
-                                "length": 3,
-                                "difficulty_override": 5
-                            }
-                        ],
-                        [
                             {
                                 "type": "explore_rainfall",
                                 "chance": 20,

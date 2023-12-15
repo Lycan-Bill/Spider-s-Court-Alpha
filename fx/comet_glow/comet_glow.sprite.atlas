@@ -12,52 +12,52 @@ candle2
   offset: 0, 0
   index: -1
 cristal
-  rotate: false
-  xy: 3378, 1886
+  rotate: true
+  xy: 570, 345
   size: 97, 111
   orig: 97, 111
   offset: 0, 0
   index: -1
 cristglow
   rotate: false
-  xy: 209, 20
+  xy: 806, 493
   size: 83, 60
   orig: 83, 60
   offset: 0, 0
   index: -1
 crown_glow_blue
   rotate: false
-  xy: 334, 407
-  size: 176, 146
-  orig: 176, 146
+  xy: 334, 444
+  size: 234, 109
+  orig: 234, 109
   offset: 0, 0
   index: -1
 crown_glow_farm
   rotate: true
-  xy: 2890, 1549
-  size: 176, 146
-  orig: 176, 146
+  xy: 2890, 1491
+  size: 234, 109
+  orig: 234, 109
   offset: 0, 0
   index: -1
 crown_glow_green
   rotate: false
-  xy: 3038, 1851
-  size: 176, 146
-  orig: 176, 146
+  xy: 3038, 1888
+  size: 234, 109
+  orig: 234, 109
   offset: 0, 0
   index: -1
 crown_glow_red
   rotate: false
-  xy: 334, 259
-  size: 176, 146
-  orig: 176, 146
+  xy: 334, 333
+  size: 234, 109
+  orig: 234, 109
   offset: 0, 0
   index: -1
 crown_glow_yellow
   rotate: false
-  xy: 512, 407
-  size: 176, 146
-  orig: 176, 146
+  xy: 570, 444
+  size: 234, 109
+  orig: 234, 109
   offset: 0, 0
   index: -1
 drops (1)
@@ -81,14 +81,14 @@ drops (6)
   orig: 720, 720
   offset: 0, 0
   index: -1
-drops (5)
+drops (3)
   rotate: false
   xy: 2, 1277
   size: 720, 720
   orig: 720, 720
   offset: 0, 0
   index: -1
-drops (3)
+drops (5)
   rotate: false
   xy: 2, 1277
   size: 720, 720
@@ -117,29 +117,29 @@ inner_glow_blue
   offset: 0, 0
   index: -1
 inner_glow_farm
-  rotate: false
-  xy: 512, 288
+  rotate: true
+  xy: 3274, 1881
   size: 116, 117
   orig: 116, 117
   offset: 0, 0
   index: -1
 inner_glow_green
-  rotate: false
-  xy: 690, 436
+  rotate: true
+  xy: 3393, 1881
   size: 116, 117
   orig: 116, 117
   offset: 0, 0
   index: -1
 inner_glow_red
-  rotate: false
-  xy: 3038, 1570
+  rotate: true
+  xy: 3512, 1881
   size: 116, 117
   orig: 116, 117
   offset: 0, 0
   index: -1
 inner_glow_yellow
-  rotate: false
-  xy: 2890, 774
+  rotate: true
+  xy: 3631, 1881
   size: 116, 117
   orig: 116, 117
   offset: 0, 0
@@ -153,35 +153,35 @@ lantern
   index: -1
 outer_glow_blue
   rotate: false
-  xy: 3038, 1689
+  xy: 3038, 1726
   size: 162, 160
   orig: 162, 160
   offset: 0, 0
   index: -1
 outer_glow_farm
-  rotate: true
-  xy: 2890, 1385
+  rotate: false
+  xy: 334, 171
   size: 162, 160
   orig: 162, 160
   offset: 0, 0
   index: -1
 outer_glow_green
-  rotate: true
-  xy: 2890, 1221
+  rotate: false
+  xy: 3001, 1564
   size: 162, 160
   orig: 162, 160
   offset: 0, 0
   index: -1
 outer_glow_red
-  rotate: true
-  xy: 2890, 1057
+  rotate: false
+  xy: 3001, 1402
   size: 162, 160
   orig: 162, 160
   offset: 0, 0
   index: -1
 outer_glow_yellow
-  rotate: true
-  xy: 2890, 893
+  rotate: false
+  xy: 3001, 1240
   size: 162, 160
   orig: 162, 160
   offset: 0, 0
@@ -229,9 +229,9 @@ rain (6)
   offset: 0, 0
   index: -1
 stress_crown
-  rotate: false
-  xy: 3216, 1865
-  size: 160, 132
-  orig: 160, 132
+  rotate: true
+  xy: 2890, 1255
+  size: 234, 109
+  orig: 234, 109
   offset: 0, 0
   index: -1

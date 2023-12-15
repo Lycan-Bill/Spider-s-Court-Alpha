@@ -1,0 +1,69 @@
+
+shipwreck.png
+size: 1305,612
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beam01
+  rotate: false
+  xy: 933, 65
+  size: 71, 183
+  orig: 71, 183
+  offset: 0, 0
+  index: -1
+beam02
+  rotate: true
+  xy: 275, 2
+  size: 112, 265
+  orig: 112, 265
+  offset: 0, 0
+  index: -1
+beam03
+  rotate: true
+  xy: 542, 22
+  size: 127, 255
+  orig: 127, 255
+  offset: 0, 0
+  index: -1
+forward_hull
+  rotate: false
+  xy: 398, 151
+  size: 154, 459
+  orig: 154, 459
+  offset: 0, 0
+  index: -1
+hull
+  rotate: false
+  xy: 2, 10
+  size: 271, 600
+  orig: 271, 600
+  offset: 0, 0
+  index: -1
+keel
+  rotate: true
+  xy: 554, 158
+  size: 452, 377
+  orig: 452, 377
+  offset: 0, 0
+  index: -1
+large_deck
+  rotate: true
+  xy: 933, 250
+  size: 360, 370
+  orig: 360, 370
+  offset: 0, 0
+  index: -1
+mud
+  rotate: true
+  xy: 275, 116
+  size: 494, 121
+  orig: 494, 121
+  offset: 0, 0
+  index: -1
+small_deck
+  rotate: false
+  xy: 1006, 75
+  size: 292, 173
+  orig: 292, 173
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="resistance_base"><![CDATA[Base]]></entry>
+    <entry id="resistance_name_bleed"><![CDATA[{colour_start|bleed}BLD{colour_end}]]></entry>
+    <entry id="resistance_name_death_blow"><![CDATA[{colour_start|deathblow}DTH{colour_end}]]></entry>
+    <entry id="resistance_name_debuff"><![CDATA[{colour_start|debuff}DBFF{colour_end}]]></entry>
+    <entry id="resistance_name_disease"><![CDATA[{colour_start|disease}DIS{colour_end}]]></entry>
+    <entry id="resistance_name_move"><![CDATA[{colour_start|move}MOV{colour_end}]]></entry>
+    <entry id="resistance_name_poison"><![CDATA[{colour_start|blight}BLGT{colour_end}]]></entry>
+    <entry id="resistance_name_stun"><![CDATA[{colour_start|stun}STN{colour_end}]]></entry>
+    <entry id="resistance_name_trap"><![CDATA[{colour_start|trap}TRP{colour_end}]]></entry>
+    <entry id="resistance_resolve_level"><![CDATA[Resolve Level]]></entry>
+  </language>
+</root>
+

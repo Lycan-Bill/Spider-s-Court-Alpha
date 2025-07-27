@@ -1,0 +1,27 @@
+
+cemetery_coffin.sprite.defend.png
+size: 939,939
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Coffin
+  rotate: false
+  xy: 2, 53
+  size: 753, 437
+  orig: 753, 437
+  offset: 0, 0
+  index: -1
+Coffin Crawler
+  rotate: false
+  xy: 2, 492
+  size: 780, 445
+  orig: 780, 445
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: true
+  xy: 784, 85
+  size: 852, 153
+  orig: 852, 153
+  offset: 0, 0
+  index: -1

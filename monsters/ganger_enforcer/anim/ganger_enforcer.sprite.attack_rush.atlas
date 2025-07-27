@@ -1,19 +1,19 @@
 
 ganger_enforcer.sprite.attack_rush.png
-size: 1024,512
+size: 599,599
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 enforcerBULLRUSH
-  rotate: true
+  rotate: false
   xy: 2, 2
   size: 466, 595
   orig: 466, 595
   offset: 0, 0
   index: -1
 ground_shadow
-  rotate: false
-  xy: 599, 405
+  rotate: true
+  xy: 470, 240
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

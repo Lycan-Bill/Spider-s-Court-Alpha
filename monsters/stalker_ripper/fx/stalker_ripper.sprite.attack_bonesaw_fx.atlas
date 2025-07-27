@@ -1,0 +1,19 @@
+stalker_ripper.sprite.attack_bonesaw_fx.png
+size: 2201,980
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 1442, 124
+  size: 854, 757
+  orig: 854, 757
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 1438, 976
+  orig: 1438, 976
+  offset: 0, 0
+  index: -1

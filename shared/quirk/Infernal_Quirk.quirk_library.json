@@ -1,0 +1,67 @@
+{
+   "quirks":
+   [
+     {
+		"id" : "1_infernal_marked",
+		"slot_size" : 2,
+		"show_explicit_buff_description" : false,
+		"show_flavor_description" : true,
+		"show_explicit_curio_tag_description" : false,
+		"random_chance" : 0,
+		"is_positive" : false,
+		"is_disease" : true,
+		"classification" : "physical",
+		"incompatible_quirks" : 
+		[
+			
+			
+		],
+		"curio_tag" : "",
+		"curio_tag_chance" : 0.0,
+		"keep_loot" : false,
+		"buffs" : 
+		["Infernal_Marked_Bleed_Resist", "Infernal_Marked_Blight_Resist", "Infernal_Marked_Stun_Resist", "Infernal_Marked_Debuff_Resist"],
+		"use_item_changes":
+		[],
+		 "use_item_dungeon_effects":
+		[],
+         "tags":
+         [],
+         "evolution_duration_min" : 1,
+         "evolution_duration_max" : 1,
+         "evolution_town_progression_duration_change" : 30,
+         "evolution_class_id" : "1_infernal_souless",
+         "can_modify_in_activity" : true,
+		"can_be_replaced_by_new_quirk" : false
+      },
+	  {
+		"id" : "1_infernal_souless",
+		"slot_size" : 2,
+		"show_explicit_buff_description" : true,
+		"show_flavor_description" : true,
+		"show_explicit_curio_tag_description" : false,
+		"random_chance" : 0,
+		"is_positive" : false,
+		"is_disease" : true,
+		"classification" : "physical",
+		"incompatible_quirks" : 
+		[
+			
+		],
+		"curio_tag" : "",
+		"curio_tag_chance" : 0.0,
+		"keep_loot" : false,
+		"buffs" : 
+		["Infernal_Souless_Bleed_Resist", "Infernal_Souless_Blight_Resist", "Infernal_Souless_Stun_Resist", "Infernal_Souless_Debuff_Resist", "SC_infernal_Debuff_Chance"],
+		"use_item_changes":
+		[],
+		 "use_item_dungeon_effects":
+		[],
+         "tags":
+         [],
+         "can_modify_in_activity" : false,
+		"can_be_replaced_by_new_quirk" : false
+      }
+	 
+   ]
+}

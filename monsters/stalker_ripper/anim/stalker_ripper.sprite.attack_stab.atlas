@@ -1,0 +1,27 @@
+
+stalker_ripper.sprite.attack_stab.png
+size: 1819,783
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tortued Incision
+  rotate: true
+  xy: 2, 2
+  size: 779, 907
+  orig: 779, 907
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 911, 73
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 911, 138
+  size: 643, 906
+  orig: 643, 906
+  offset: 0, 0
+  index: -1

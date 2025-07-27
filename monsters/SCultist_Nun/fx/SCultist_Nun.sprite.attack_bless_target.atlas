@@ -1,0 +1,20 @@
+
+SCultist_Nun.sprite.attack_bless_target.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crown
+  rotate: false
+  xy: 348, 83
+  size: 320, 231
+  orig: 320, 231
+  offset: 0, 0
+  index: -1
+crown_0
+  rotate: false
+  xy: 2, 2
+  size: 344, 312
+  orig: 344, 312
+  offset: 0, 0
+  index: -1

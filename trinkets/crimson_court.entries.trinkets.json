@@ -13,7 +13,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -28,7 +28,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -44,7 +44,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -59,7 +59,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -74,7 +74,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -102,7 +102,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -116,7 +116,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -131,7 +131,7 @@
          ],
          "rarity" : "very_rare",
          "price" : 25000,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -147,7 +147,7 @@
          ],
          "rarity" : "trophy",
          "price" : 0,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -163,7 +163,7 @@
          ],
          "rarity" : "trophy",
          "price" : 0,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -178,7 +178,7 @@
          ],
          "rarity" : "trophy",
          "price" : 0,
-         "limit" : 0,
+         "limit" : 1,
          "origin_dungeon" : ""
       },
       {
@@ -195,8 +195,8 @@
          "set_id" : "cc_abom",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_abom_wrought_osmond_chains",
@@ -213,8 +213,8 @@
          "set_id" : "cc_abom",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_anti_two_of_the_three",
@@ -231,8 +231,8 @@
          "set_id" : "cc_anti",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_anti_the_masters_essence",
@@ -249,8 +249,8 @@
          "set_id" : "cc_anti",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_arb_sharpshooters_string_wax",
@@ -268,8 +268,8 @@
          "set_id" : "cc_arb",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_arb_childhood_treasure",
@@ -286,8 +286,8 @@
          "set_id" : "cc_arb",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_bh_crime_lords_molars",
@@ -308,8 +308,8 @@
          "set_id" : "cc_bh",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_bh_vow_of_revenge",
@@ -326,8 +326,8 @@
          "set_id" : "cc_bh",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_cru_glittering_spaulders",
@@ -345,8 +345,8 @@
          "set_id" : "cc_cru",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_cru_signed_conscription",
@@ -362,8 +362,8 @@
          "set_id" : "cc_cru",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_gr_absinthe",
@@ -381,8 +381,8 @@
          "set_id" : "cc_gr",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_gr_sharpened_letter_opener",
@@ -400,8 +400,8 @@
          "set_id" : "cc_gr",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_hel_lioness_warpaint",
@@ -422,8 +422,8 @@
          "set_id" : "cc_hel",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_hel_mark_of_the_outcast",
@@ -441,8 +441,8 @@
          "set_id" : "cc_hel",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_high_shameful_locket",
@@ -459,8 +459,8 @@
          "set_id" : "cc_high",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_high_bloodied_neckerchief",
@@ -476,8 +476,8 @@
          "set_id" : "cc_high",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_hm_lawmans_badge",
@@ -496,8 +496,8 @@
          "set_id" : "cc_hm",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_hm_damning_evidence",
@@ -514,8 +514,8 @@
          "set_id" : "cc_hm",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_jest_tasting_cup",
@@ -531,8 +531,8 @@
          "set_id" : "cc_jest",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_jest_tyrants_fingerbone",
@@ -548,8 +548,8 @@
          "set_id" : "cc_jest",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_lep_tin_flute",
@@ -565,8 +565,8 @@
          "set_id" : "cc_lep",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_lep_last_will_and_testament",
@@ -583,8 +583,8 @@
          "set_id" : "cc_lep",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_maa_old_unit_banner",
@@ -602,8 +602,8 @@
          "set_id" : "cc_maa",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_maa_toy_soldier",
@@ -619,8 +619,8 @@
          "set_id" : "cc_maa",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_occ_vial_of_sand",
@@ -638,8 +638,8 @@
          "set_id" : "cc_occ",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_occ_blood_pact",
@@ -658,8 +658,8 @@
          "set_id" : "cc_occ",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_pd_codex_of_plagues",
@@ -675,8 +675,8 @@
          "set_id" : "cc_pd",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_pd_dissection_kit",
@@ -693,8 +693,8 @@
          "set_id" : "cc_pd",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_vest_atonement_beads",
@@ -712,8 +712,8 @@
          "set_id" : "cc_vest",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_vest_salacious_diary",
@@ -729,8 +729,8 @@
          "set_id" : "cc_vest",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_flag_chipped_tooth",
@@ -746,8 +746,8 @@
          "set_id" : "cc_flag",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_flag_shard_of_glass",
@@ -763,8 +763,8 @@
          "set_id" : "cc_flag",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_musk_silver_bullet",
@@ -782,8 +782,8 @@
          "set_id" : "cc_msk",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       },
       {
          "id" : "cc_set_musk_first_place_trophy",
@@ -800,8 +800,8 @@
          "set_id" : "cc_msk",
          "rarity" : "crimson_court",
          "price" : 50000,
-         "limit" : 0,
-         "origin_dungeon": ""
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
       }
    ]
 }

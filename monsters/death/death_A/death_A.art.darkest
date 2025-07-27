@@ -1,0 +1,8 @@
+commonfx: .deathfx death_death
+skill: .id "death_reap" .anim "attack_scythe" .area_pos_offset -150 -60
+skill: .id "death_harvest" .anim "harvest" .area_pos_offset -150 -60
+skill: .id "death_embrace" .anim "attack_ribs" .fx "attack_ribs" .area_pos_offset 0 -60
+skill: .id "the_bell_tolls" .anim "attack_point" .fx "attack_point" .targchestfx "bell_target" .area_pos_offset 0 -60
+skill: .id "danse_macabre" .anim "danse" .area_pos_offset 150 -95 .target_area_pos_offset 150 0
+
+defending_area_pos_offset: .offset 0 -90

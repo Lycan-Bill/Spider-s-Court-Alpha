@@ -1,19 +1,19 @@
 
 ganger_lookout.sprite.defend.png
-size: 1024,512
+size: 701,701
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 lookoutDEFEND
-  rotate: true
-  xy: 2, 67
+  rotate: false
+  xy: 2, 2
   size: 441, 697
   orig: 441, 697
   offset: 0, 0
   index: -1
 shadow
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 445, 342
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

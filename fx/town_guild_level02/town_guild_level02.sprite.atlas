@@ -1,0 +1,20 @@
+
+town_guild_level02.sprite.png
+size: 438,438
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Guid
+  rotate: false
+  xy: 2, 113
+  size: 217, 323
+  orig: 217, 323
+  offset: 0, 0
+  index: -1
+Guild
+  rotate: false
+  xy: 221, 115
+  size: 215, 321
+  orig: 215, 321
+  offset: 0, 0
+  index: -1

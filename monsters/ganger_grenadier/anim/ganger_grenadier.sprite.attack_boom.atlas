@@ -1,33 +1,33 @@
 
 ganger_grenadier.sprite.attack_boom.png
-size: 1024,1024
+size: 722,722
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 BOMB
-  rotate: false
-  xy: 681, 492
+  rotate: true
+  xy: 361, 2
   size: 160, 167
   orig: 160, 167
   offset: 0, 0
   index: -1
 bombspark(flickers)
   rotate: false
-  xy: 2, 2
+  xy: 681, 686
   size: 35, 34
   orig: 35, 34
   offset: 0, 0
   index: -1
 grenadierBOMB
   rotate: false
-  xy: 2, 103
+  xy: 2, 164
   size: 677, 556
   orig: 677, 556
   offset: 0, 0
   index: -1
 shadow
   rotate: false
-  xy: 2, 38
+  xy: 2, 99
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

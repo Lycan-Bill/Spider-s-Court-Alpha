@@ -1,0 +1,27 @@
+
+cemetery_wormeye.sprite.attack_hunger_fx.png
+size: 897,596
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood
+  rotate: false
+  xy: 659, 2
+  size: 224, 291
+  orig: 224, 291
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 659, 295
+  size: 299, 236
+  orig: 299, 236
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 7
+  size: 587, 655
+  orig: 587, 655
+  offset: 0, 0
+  index: -1

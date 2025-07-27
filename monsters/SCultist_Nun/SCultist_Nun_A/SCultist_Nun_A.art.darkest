@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "scnun_blessing" .anim "attack_bless" .fx "attack_bless_fx" .targheadfx "attack_bless_target"
+skill: .id "scnun_light" .anim "attack_light" .fx "attack_light_fx" .targfx "attack_light_target"

@@ -1,0 +1,20 @@
+
+ripper.sprite.attack_bonesaw.png
+size: 1398,956
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bonesaw Strike
+  rotate: false
+  xy: 2, 2
+  size: 1329, 952
+  orig: 1329, 952
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 1333, 597
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

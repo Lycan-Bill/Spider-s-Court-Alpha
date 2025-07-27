@@ -1,0 +1,111 @@
+
+cemetery_coffin.sprite.attack_transform.png
+size: 2381,397
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Chain 1
+  rotate: false
+  xy: 2243, 150
+  size: 116, 90
+  orig: 116, 90
+  offset: 0, 0
+  index: -1
+Chain 2
+  rotate: true
+  xy: 1527, 2
+  size: 72, 100
+  orig: 72, 100
+  offset: 0, 0
+  index: -1
+Coffin
+  rotate: false
+  xy: 2, 12
+  size: 768, 383
+  orig: 768, 383
+  offset: 0, 0
+  index: -1
+Coffin1
+  rotate: false
+  xy: 772, 18
+  size: 753, 377
+  orig: 753, 377
+  offset: 0, 0
+  index: -1
+Lock
+  rotate: false
+  xy: 1527, 76
+  size: 334, 164
+  orig: 334, 164
+  offset: 0, 0
+  index: -1
+Root Leg
+  rotate: true
+  xy: 1863, 117
+  size: 123, 204
+  orig: 123, 204
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 1527, 242
+  size: 852, 153
+  orig: 852, 153
+  offset: 0, 0
+  index: -1
+Splinter Front
+  rotate: true
+  xy: 2069, 80
+  size: 81, 110
+  orig: 81, 110
+  offset: 0, 0
+  index: -1
+Splinter Small Back 1
+  rotate: false
+  xy: 1902, 96
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+Splinter Small Back 2
+  rotate: false
+  xy: 2181, 134
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+Splinter Small Back 3
+  rotate: false
+  xy: 1863, 89
+  size: 37, 26
+  orig: 37, 26
+  offset: 0, 0
+  index: -1
+Splinter Small Front
+  rotate: false
+  xy: 1629, 49
+  size: 48, 25
+  orig: 48, 25
+  offset: 0, 0
+  index: -1
+Splinter Small Top 1
+  rotate: false
+  xy: 1679, 53
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+Splinter Small Top 2
+  rotate: false
+  xy: 1629, 23
+  size: 30, 24
+  orig: 30, 24
+  offset: 0, 0
+  index: -1
+Splinter Top
+  rotate: false
+  xy: 2069, 163
+  size: 172, 77
+  orig: 172, 77
+  offset: 0, 0
+  index: -1

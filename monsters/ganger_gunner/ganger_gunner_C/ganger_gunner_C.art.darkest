@@ -2,3 +2,4 @@ commonfx: .deathfx death_medium
 skill: .id "ganger_blast" .anim "attack_blast" .fx "attack_blast_fx" .targchestfx "blood_splatter"
 skill: .id "ganger_warning" .anim "attack_warning" .fx "attack_warning_fx" .targchestfx "blood_splatter"
 skill: .id "ganger_reload" .anim "attack_reload" .fx "attack_reload_fx"
+display_modifier: .disabled_popup_text_types no_damage

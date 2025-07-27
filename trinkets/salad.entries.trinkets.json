@@ -1,0 +1,177 @@
+{
+   "entries":
+   [
+	 {
+         "id" : "salad_scrap",
+         "buffs" : 
+         [
+			"salad_scrap_prot"
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "rarity" :"common",
+         "price" : 7500,
+		 "origin_dungeon" : "",
+         "limit" : 1
+     },
+	 {
+         "id" : "salad_needle",
+         "buffs" : 
+         [
+			"salad_needle_acc",
+			"salad_needle_bleed"
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "rarity" :"common",
+         "price" : 7500,
+		 "origin_dungeon" : "",
+         "limit" : 1
+     },	 
+	 {
+         "id" : "salad_fuel",
+         "buffs" : 
+         [
+			"salad_fuel_spd",
+			"salad_fuel_dodge",
+			"salad_fuel_hr"
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "rarity" :"uncommon",
+         "price" : 10000,
+		 "origin_dungeon" : "",
+         "limit" : 1
+     },
+	 {
+         "id" : "salad_hook",
+         "buffs" : 
+         [
+			"salad_hook_crit",
+			"salad_hook_bleed",
+			"salad_hook_acc",
+			"salad_hook_dmgl",
+			"salad_hook_dmgh"			
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ], 
+         "rarity" :"rare",
+         "price" : 15000,
+		 "origin_dungeon" : "",
+         "limit" : 1
+     },	 
+	 {
+         "id" : "salad_fvent",
+         "buffs" : 
+         [
+			"salad_fvent_dmgl_gout",
+			"salad_fvent_dmgh_gout",
+			"salad_fvent_dmgl_breath",
+			"salad_fvent_dmgh_breath",
+			"salad_fvent_dmgl_vent",
+			"salad_fvent_dmgh_vent",
+			"salad_fvent_dmg_tt",
+			"salad_fvent_crit"
+			],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "kill_performer_additional_effects":
+         [
+          "Salad Gout 1"
+         ],		 
+         "rarity" :"very_rare",
+         "price" : 25000,
+		 "origin_dungeon" : "",
+         "limit" : 1
+     },
+	 {
+         "id" : "salad_heart",
+         "buffs" : 
+         [
+			"salad_heart_spd",
+			"salad_heart_mark",
+			"salad_heart_critr"
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "rarity" :"crimson_court",
+         "price" : 50000,
+         "set_id" : "salad_cc",		 
+		 "origin_dungeon" : "courtyard",
+         "limit" : 1
+     },
+	 {
+         "id" : "salad_proto",
+         "buffs" : 
+         [
+			"salad_proto_prot",
+			"salad_proto_stun",
+			"salad_proto_hp"
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "rarity" :"crimson_court",
+         "price" : 50000,
+         "set_id" : "salad_cc",		 
+		 "origin_dungeon" : "courtyard",
+         "limit" : 1
+     },	
+	 {
+         "id" : "salad_cflame",
+         "buffs" : 
+         [
+			"salad_cflame_ref",
+			"salad_cflame_reftorch",
+			"salad_cflame_dodge",
+			"salad_cflame_hp"
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "rarity" :"comet",
+         "shard" : 65,
+		 "origin_dungeon" : "",
+         "limit" : 1
+     },	 	
+	 {
+         "id" : "salad_sekiro",
+         "buffs" : 
+         [
+			"salad_sekiro_move",
+			"salad_sekiro_crit",
+			"salad_sekiro_dodge2",
+			"salad_sekiro_dodge3",
+			"salad_sekiro_dodge_tt",
+			"salad_sekiro_dmgl",
+			"salad_sekiro_dmgh"
+         ],
+         "hero_class_requirements":
+         [
+             "salad"
+         ],
+         "attack_skill_additional_effects":
+         [
+          "Salad Sekiro Debuff"
+         ],		 		 
+         "rarity" :"sakura",
+         "price" : 30000,
+		 "origin_dungeon" : "ship",
+         "limit" : 1
+     }	 
+   ]
+}

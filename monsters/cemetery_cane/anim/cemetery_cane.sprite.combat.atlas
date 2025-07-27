@@ -1,0 +1,90 @@
+
+cemetery_cane.sprite.combat.png
+size: 744,744
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 528
+  size: 562, 214
+  orig: 562, 214
+  offset: 0, 0
+  index: -1
+Layer 11
+  rotate: false
+  xy: 586, 412
+  size: 111, 330
+  orig: 111, 330
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: false
+  xy: 362, 81
+  size: 112, 445
+  orig: 112, 445
+  offset: 0, 0
+  index: -1
+Layer 15
+  rotate: false
+  xy: 154, 118
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+Layer 16
+  rotate: false
+  xy: 2, 166
+  size: 218, 360
+  orig: 218, 360
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 476, 84
+  size: 73, 86
+  orig: 73, 86
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 2, 30
+  size: 150, 134
+  orig: 150, 134
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: true
+  xy: 586, 106
+  size: 304, 131
+  orig: 304, 131
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 222, 139
+  size: 387, 138
+  orig: 387, 138
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 513, 2
+  size: 69, 80
+  orig: 69, 80
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 476, 172
+  size: 108, 354
+  orig: 108, 354
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 154, 16
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

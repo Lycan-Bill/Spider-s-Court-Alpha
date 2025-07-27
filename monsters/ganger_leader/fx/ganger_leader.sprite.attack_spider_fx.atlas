@@ -1,0 +1,41 @@
+
+ganger_leader.sprite.attack_spider_fx.png
+size: 1187,1187
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyes
+  rotate: false
+  xy: 668, 909
+  size: 75, 18
+  orig: 75, 18
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 545
+  size: 664, 640
+  orig: 664, 640
+  offset: 0, 0
+  index: -1
+spidersglow
+  rotate: false
+  xy: 605, 21
+  size: 573, 522
+  orig: 573, 522
+  offset: 0, 0
+  index: -1
+spidersheap
+  rotate: false
+  xy: 2, 2
+  size: 601, 541
+  orig: 601, 541
+  offset: 0, 0
+  index: -1
+web
+  rotate: false
+  xy: 668, 929
+  size: 356, 256
+  orig: 356, 256
+  offset: 0, 0
+  index: -1

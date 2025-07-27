@@ -1,0 +1,62 @@
+
+killer_victim.sprite.combat.png
+size: 826,568
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 50
+  size: 348, 516
+  orig: 348, 516
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 563, 3
+  size: 261, 93
+  orig: 261, 93
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 666, 164
+  size: 150, 104
+  orig: 150, 104
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 352, 270
+  size: 336, 296
+  orig: 336, 296
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: true
+  xy: 690, 283
+  size: 283, 114
+  orig: 283, 114
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 352, 163
+  size: 105, 312
+  orig: 105, 312
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 352, 2
+  size: 94, 209
+  orig: 94, 209
+  offset: 0, 0
+  index: -1
+shadow_ground
+  rotate: false
+  xy: 352, 98
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

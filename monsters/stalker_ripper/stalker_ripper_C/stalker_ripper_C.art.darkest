@@ -1,0 +1,7 @@
+commonfx: .deathfx death_large_boss
+defending_area_pos_offset: .offset 0 -50
+skill: .id "killer_guard" .anim "animation" .fx ""
+skill: .id "killer_bonsaw" .anim "attack_bonesaw" .fx "attack_bonesaw_fx"
+skill: .id "killer_sanitaze" .anim "attack_clean" .fx "attack_clean_fx"
+skill: .id "killer_torture" .anim "attack_stab" .fx "attack_stab_fx"
+skill: .id "killer_mock" .anim "attack_laugh" .fx "attack_laugh_fx"

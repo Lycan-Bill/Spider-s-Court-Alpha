@@ -1,0 +1,293 @@
+
+Infernal_Merchant.png
+size: 4096,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+antarm1
+  rotate: false
+  xy: 1649, 120
+  size: 89, 81
+  orig: 89, 81
+  offset: 0, 0
+  index: -1
+antarm2
+  rotate: false
+  xy: 1374, 109
+  size: 135, 92
+  orig: 135, 92
+  offset: 0, 0
+  index: -1
+arm1
+  rotate: true
+  xy: 327, 54
+  size: 47, 71
+  orig: 47, 71
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: false
+  xy: 1851, 95
+  size: 83, 96
+  orig: 83, 96
+  offset: 0, 0
+  index: -1
+book
+  rotate: true
+  xy: 1511, 124
+  size: 77, 136
+  orig: 77, 136
+  offset: 0, 0
+  index: -1
+boots
+  rotate: true
+  xy: 3664, 377
+  size: 133, 166
+  orig: 133, 166
+  offset: 0, 0
+  index: -1
+ch1
+  rotate: true
+  xy: 2511, 245
+  size: 42, 196
+  orig: 42, 196
+  offset: 0, 0
+  index: -1
+ch2
+  rotate: true
+  xy: 2, 59
+  size: 42, 241
+  orig: 42, 241
+  offset: 0, 0
+  index: -1
+chain
+  rotate: true
+  xy: 2, 2
+  size: 55, 84
+  orig: 55, 84
+  offset: 0, 0
+  index: -1
+chest
+  rotate: true
+  xy: 3463, 382
+  size: 128, 199
+  orig: 128, 199
+  offset: 0, 0
+  index: -1
+coat1
+  rotate: true
+  xy: 2855, 347
+  size: 163, 322
+  orig: 163, 322
+  offset: 0, 0
+  index: -1
+coat2
+  rotate: true
+  xy: 3179, 366
+  size: 144, 282
+  orig: 144, 282
+  offset: 0, 0
+  index: -1
+coatback
+  rotate: true
+  xy: 2184, 192
+  size: 318, 325
+  orig: 318, 325
+  offset: 0, 0
+  index: -1
+dagger
+  rotate: true
+  xy: 2855, 300
+  size: 45, 190
+  orig: 45, 190
+  offset: 0, 0
+  index: -1
+fire1
+  rotate: false
+  xy: 2617, 169
+  size: 86, 74
+  orig: 86, 74
+  offset: 0, 0
+  index: -1
+fire2
+  rotate: true
+  xy: 2048, 129
+  size: 62, 108
+  orig: 62, 108
+  offset: 0, 0
+  index: -1
+flame
+  rotate: true
+  xy: 181, 14
+  size: 43, 54
+  orig: 43, 54
+  offset: 0, 0
+  index: -1
+flame0
+  rotate: true
+  xy: 519, 103
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+flame1
+  rotate: false
+  xy: 2158, 157
+  size: 20, 34
+  orig: 20, 34
+  offset: 0, 0
+  index: -1
+flame2
+  rotate: false
+  xy: 1936, 97
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+flame3
+  rotate: true
+  xy: 400, 55
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+focus
+  rotate: false
+  xy: 2511, 289
+  size: 342, 221
+  orig: 342, 221
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: true
+  xy: 1936, 128
+  size: 63, 110
+  orig: 63, 110
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: true
+  xy: 2709, 252
+  size: 35, 87
+  orig: 35, 87
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 3832, 383
+  size: 109, 127
+  orig: 109, 127
+  offset: 0, 0
+  index: -1
+head2
+  rotate: false
+  xy: 3943, 383
+  size: 109, 127
+  orig: 109, 127
+  offset: 0, 0
+  index: -1
+lantern
+  rotate: true
+  xy: 3047, 302
+  size: 43, 102
+  orig: 43, 102
+  offset: 0, 0
+  index: -1
+legs
+  rotate: false
+  xy: 1084, 130
+  size: 145, 246
+  orig: 145, 246
+  offset: 0, 0
+  index: -1
+potion1
+  rotate: true
+  xy: 88, 13
+  size: 44, 91
+  orig: 44, 91
+  offset: 0, 0
+  index: -1
+potion2
+  rotate: false
+  xy: 4054, 415
+  size: 22, 95
+  orig: 22, 95
+  offset: 0, 0
+  index: -1
+rings
+  rotate: true
+  xy: 2798, 252
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+shado1
+  rotate: false
+  xy: 519, 126
+  size: 563, 250
+  orig: 563, 250
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 519, 378
+  size: 743, 132
+  orig: 743, 132
+  offset: 0, 0
+  index: -1
+shhead
+  rotate: true
+  xy: 2511, 197
+  size: 46, 104
+  orig: 46, 104
+  offset: 0, 0
+  index: -1
+shoul1
+  rotate: false
+  xy: 1740, 90
+  size: 109, 101
+  orig: 109, 101
+  offset: 0, 0
+  index: -1
+shoul2
+  rotate: true
+  xy: 245, 57
+  size: 44, 80
+  orig: 44, 80
+  offset: 0, 0
+  index: -1
+skull
+  rotate: true
+  xy: 1231, 117
+  size: 84, 141
+  orig: 84, 141
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 1231, 203
+  size: 30, 173
+  orig: 30, 173
+  offset: 0, 0
+  index: -1
+tail1
+  rotate: true
+  xy: 1745, 193
+  size: 317, 437
+  orig: 317, 437
+  offset: 0, 0
+  index: -1
+tail3
+  rotate: true
+  xy: 2, 103
+  size: 407, 515
+  orig: 407, 515
+  offset: 0, 0
+  index: -1
+tal2
+  rotate: false
+  xy: 1264, 203
+  size: 479, 307
+  orig: 479, 307
+  offset: 0, 0
+  index: -1

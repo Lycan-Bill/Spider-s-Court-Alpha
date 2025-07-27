@@ -1,0 +1,129 @@
+effect: .name "dd2_hero_steal_self"   .target "performer" .chance 200% .steal_buff_source_type bsrc_curio .on_hit true .on_miss true .queue true  .swap_source_and_target true .has_description false
+effect: .name "dd2_hero_steal_target" .target "target"  .chance 200% .steal_buff_source_type bsrc_curio .on_hit true .on_miss true .queue true .has_description false
+
+effect: .name "dd2_monster_steal_self"   .target "performer" .chance 200% .steal_buff_source_type bsrc_combat_end .on_hit true .on_miss true .queue true  .swap_source_and_target true .has_description false
+effect: .name "dd2_monster_steal_target" .target "target"  .chance 200% .steal_buff_source_type bsrc_combat_end .on_hit true .on_miss true .queue true .has_description false
+
+///////////////////S0's/////////////////////
+
+//////////////////////////End of Round size 0 bot ///////////////////
+effect: .name "dd2_eor_bot_summon"    .target "performer_group_other" .chance 1000%  .summon_count 1  .summon_monsters "dd2_eor_s0hpr_A" .summon_chances 1.0 .summon_limits 1 .summon_ranks 0 .on_hit true .on_miss true  .has_description false .summon_can_spawn_loot false
+effect: .name "dd2_eor_lag_reduce_s0" .target "target" .chance 500% .summon_count 1 .summon_monsters "dd2_random_token_s0_R" .summon_chances 1.0 .summon_limits 99 .summon_ranks 0 .on_hit true .on_miss false .has_description false .summon_can_spawn_loot false 
+effect: .name "dd2_eor_lag_suicide"   .target "performer" .chance 1000% .kill_enemy_types dd2_eor_lag_reduce_s0	    .on_hit true .on_miss false .has_description false 
+effect: .name "dd2_eor_suicide"       .target "performer" .chance 1000% .kill_enemy_types dd2_eor_s0hpr	    .on_hit true .on_miss false .has_description false 
+effect: .name "dd2_eor_L_suicide"     .target "performer" .chance 1000% .kill_enemy_types dd2_eor_ruin_1	    .on_hit true .on_miss false .has_description false 
+effect: .name "dd2_s0hpr_set_default" .target "performer" .chance 100% .set_monster_class_id "dd2_eor_s0hpr_A" .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .apply_once true 
+//debuff ass to ensure token get applied with correct chances
+//Someone take a look at this debuff cause I think its for the Sneaker program
+effect: .name "dd2_eor_debuff_ass"		.target "target_enemy_group" .chance 300% 	.buff_ids "EOR_DEBUFF_ASS"  .on_hit true .on_miss false .has_description false .buff_source_type bsrc_quest_modifier 
+//Steal clears for next program
+effect: .name "dd2_bsrc_qm_steal"       .target "performer_group"    .chance 100%   .steal_buff_source_type bsrc_quest_modifier .on_hit true .on_miss true .apply_once false .can_apply_on_death true .has_description false
+effect: .name "dd2_bsrc_qm_stealH"      .target "target_enemy_group" .chance 100%   .steal_buff_source_type bsrc_quest_modifier .on_hit true .on_miss true .apply_once false .can_apply_on_death true .has_description false
+
+//End of round Size 0 Bot
+effect: .name "dd2_s0hpr_ASS"            .target "performer"             .chance 100%  .steal_buff_source_type bsrc_quest_modifier .on_hit true .on_miss false .apply_once false .can_apply_on_death true  
+effect: .name "dd2_firedot_test1"        .target "target_enemy_group"    .chance 2000% .dotHpHeal 1  .duration 4 .on_hit true .on_miss false
+effect: .name "dd2_firedot_test2"        .target "target_enemy_group"    .chance 2000% .dotHpHeal 2  .duration 4 .on_hit true .on_miss false
+effect: .name "dd2_firedot_test3"        .target "target_enemy_group"    .chance 2000% .dotHpHeal 3  .duration 4 .on_hit true .on_miss false
+effect: .name "dd2_firedot_test4"        .target "target_enemy_group"    .chance 2000% .dotHpHeal 4  .duration 4 .on_hit true .on_miss false
+effect: .name "dd2_firedot_test5"        .target "target_enemy_group"    .chance 2000% .dotHpHeal 5  .duration 4 .on_hit true .on_miss false
+
+//Magick effect to make programs work
+effect: .name "dd2_s0hpr_magick"         .target "target_enemy_group"    .chance -5000%  .on_hit true .on_miss false
+
+effect: .name "dd2_monster_steal_target"	.target "target"				.chance 200%	.steal_buff_source_type bsrc_combat_end .on_hit true .on_miss false .has_description false
+effect: .name "dd2_monster_steal_self"		.target "performer"				.chance 200%	.steal_buff_source_type bsrc_combat_end .on_hit true .on_miss true  .swap_source_and_target true .has_description false
+
+//General s0hpr stuff:
+effect: .name "dd2_s0hpr_ble"   .target "performer_group_other" .chance -5000% .dotBleed 4  .duration 3 .on_hit true .on_miss true .swap_source_and_target true   
+effect: .name "dd2_s0hpr_bleM"  .target "performer_group_other" .chance -3000% .dotBleed 1  .duration 3 .on_hit true .on_miss true .swap_source_and_target true   
+effect: .name "dd2_s0hpr_bleH"  .target "target_enemy_group"    .chance -3000% .dotBleed 1  .duration 3 .on_hit true .on_miss true .swap_source_and_target true  .apply_once false
+effect: .name "dd2_s0hpr_bliH"  .target "target_enemy_group"    .chance -3000% .dotPoison 1 .duration 3 .on_hit true .on_miss true .swap_source_and_target true  .apply_once false
+effect: .name "dd2_s0hpr_bli"   .target "target_enemy_group"    .chance -5000% .dotPoison 4 .duration 3 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .swap_source_and_target true .dotSource bsrc_quest_modifier
+effect: .name "dd2_s0hpr_bff"   .target "performer"             .chance 100%   .buff_ids "dd2_s0hpr_HP"  .duration 1 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_s0hpr_bff2"  .target "performer"             .chance 100%   .buff_ids "dd2_s0hpr_HP2" .duration 1 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_s0hpr_bleB"  .target "performer" 			.chance 100%   .buff_ids "dd2_s0hpr_bleed_bool"  .duration 1 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_s0hpr_bleBblock1st"  .target "performer" 	.chance 100%   .buff_ids "dd2_s0hpr_bleed_bool" "DD2_EOR_FIRST_ROUND_BLOCK" .duration 1 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_s0hpr_bliB"  .target "performer" 			.chance 100%   .buff_ids "dd2_s0hpr_blight_bool"  .duration 1 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_s0hpr_blebliB"  .target "performer" 			.chance 100%   .buff_ids "dd2_s0hpr_bleed_bool" "dd2_s0hpr_blight_bool"  .duration 1 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_s0hpr_blebliB90"  .target "performer" 		.chance 100%   .buff_ids "dd2_s0hpr_bleed_bool" "dd2_s0hpr_blight_bool90"  .duration 1 .on_hit true .on_miss false .apply_once false .can_apply_on_death true .has_description false .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_s0hpr_dmg8awr" .target "performer"          	.chance 100%   .health_damage 8	 .apply_with_result true .on_hit true .on_miss false .has_description false .can_apply_on_death true
+effect: .name "dd2_s0hpr_dmg"   .target "performer"             .chance 100%   .health_damage 40 .on_hit true .on_miss true .can_apply_on_death true  .apply_once true
+effect: .name "dd2_s0hpr_dmg20" .target "performer"             .chance 100%   .health_damage 20 .on_hit true .on_miss true .can_apply_on_death true  .apply_once true
+effect: .name "dd2_s0hpr_dmg80" .target "performer"             .chance 100%   .health_damage 80 .on_hit true .on_miss true .can_apply_on_death true  .apply_once true
+effect: .name "dd2_s0hpr_cur"   .target "performer"             .chance 100%   .steal_buff_source_type bsrc_quest_modifier .on_hit true .on_miss false .apply_once false .can_apply_on_death true .cure_bleed 1 .cure_poison 1
+effect: .name "dd2_s0hpr_hea"   .target "performer"             .chance 100%   .heal_percent 5.0 .can_crit_heal false .on_hit true .on_miss false .apply_once false .can_apply_on_death true 
+
+//////////////////////////////End of Turn size 0 bot /////////////////////////////
+effect: .name "dd2_eot_bot_summon"  .target "target"    .chance 1000% .summon_monsters "dd2_eot_s0hpr_A" .summon_count 1 .summon_chances 1.0 .summon_limits 1 .summon_ranks 01234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
+effect: .name "dd2_eot_set_default" .target "performer" .chance 100%  .set_monster_class_id "dd2_eot_s0hpr_A"    .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .apply_once true 
+effect: .name "dd2_eot_suicide"     .target "performer" .chance 1000% .kill_enemy_types dd2_eot_s0	    .on_hit true .on_miss false .has_description false 
+
+//////////////////////////////End of Turn size 0 Hero bot /////////////////////////////
+effect: .name "dd2_eot_bot_hero_summon"  .target "target"    .chance 1000% .summon_monsters "dd2_eot_s0hprH_A" .summon_count 1 .summon_chances 1.0 .summon_limits 1 .summon_ranks 01234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
+effect: .name "dd2_eot_hero_set_default" .target "performer" .chance 100%  .set_monster_class_id "dd2_eot_s0hprH_A"    .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .apply_once true 
+effect: .name "dd2_eot_hero_suicide"     .target "performer" .chance 1000% .kill_enemy_types dd2_eot_s0hprH	    .on_hit true .on_miss false .has_description false 
+
+///////Firedot Hero to monster
+//Firedot program starts:
+effect: .name "dd2_s0hpr_set_firedot"  .target "performer"             .chance 100% .set_monster_class_id "dd2_eot_s0hpr_F" .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .apply_once true 
+//dd2_firedot_s0 tries to bleed itself 
+effect: .name "dd2_firedot_bld_bool"   .target "performer_group_other" .chance -2000% .dotBleed 4  .duration 3 .on_hit true .on_miss false .swap_source_and_target true .dotSource bsrc_quest_modifier
+effect: .name "dd2_firedot_bld_boolH"  .target "target_enemy_group"    .chance -2000% .dotBleed 4  .duration 3 .on_hit true .on_miss false .swap_source_and_target true .dotSource bsrc_quest_modifier
+//Key 1/2 on enemies after they attack - says that this actors turn just ended - guard is the way we apply the dmg
+effect: .name "dd2_firedot_key_1"      .target "performer"    .chance 100%   .buff_ids "dd2_firedot_key_buff_1" "dd2_firedot_guard" .on_hit true .on_miss true .duration 1 .buff_source_type bsrc_quest_modifier .apply_once true
+//Burn Token - has key 2/2 on it
+effect: .name "dd2_burn_token_1"      .target "target"    .chance 100%	.buff_ids "dd2_firedot_dmg_1" "dd2_firedot_key_buff_2" "dd2_burn_token_tt"  "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_1"  .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_1" "dd2_firedot_key_buff_2" "dd2_burn_token_tt"  "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_2"      .target "target"    .chance 110%	.buff_ids "dd2_firedot_dmg_2" "dd2_firedot_key_buff_2" "dd2_burn_token_tt2" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_2"  .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_2" "dd2_firedot_key_buff_2" "dd2_burn_token_tt2" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_3"      .target "target"    .chance 120%	.buff_ids "dd2_firedot_dmg_3" "dd2_firedot_key_buff_2" "dd2_burn_token_tt3" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_3"  .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_3" "dd2_firedot_key_buff_2" "dd2_burn_token_tt3" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_4"      .target "target"    .chance 130%	.buff_ids "dd2_firedot_dmg_4" "dd2_firedot_key_buff_2" "dd2_burn_token_tt4" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_4"  .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_4" "dd2_firedot_key_buff_2" "dd2_burn_token_tt4" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_5"      .target "target"    .chance 140%	.buff_ids "dd2_firedot_dmg_5" "dd2_firedot_key_buff_2" "dd2_burn_token_tt5" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_5"  .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_5" "dd2_firedot_key_buff_2" "dd2_burn_token_tt5" "dd2_guardblock_test" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+//Then it fires the hpr if it see's both keys:
+//s0 gives all monsters a -100% dmgrec
+effect: .name "dd2_firedot_dmgrec_base" .target "performer_group_other" .chance 5000% .buff_ids "dd2_firedot_nodmg" .on_hit true .on_miss false .apply_once false .can_apply_on_death true .apply_with_result true .buff_source_type bsrc_quest_modifier
+effect: .name "dd2_firedot_fx_axa"      .target "performer_group_other" .chance 5000% .buff_ids "dd2_firedot_fx_axa2"  .duration 1 .buff_duration_type "after_turn" .on_hit true .on_miss false .apply_once true .can_apply_on_death true .buff_source_type bsrc_quest_modifier
+//fires 10 dmg at enemy team. if they have a firedot token on them, they'll take dmg.
+effect: .name "dd2_firedot_dmg_100"     .target "performer_group_other" .chance 100% .health_damage 10 .on_hit true .on_miss false .apply_once true .can_apply_on_death true  
+//steals everything off  
+effect: .name "dd2_firedot_steal"       .target "performer_group"    .chance 100%   .steal_buff_source_type bsrc_quest_modifier .on_hit true .on_miss true .apply_once false .can_apply_on_death true .has_description false
+effect: .name "dd2_firedot_stealH"      .target "target_enemy_group" .chance 100%   .steal_buff_source_type bsrc_quest_modifier .on_hit true .on_miss true .apply_once false .can_apply_on_death true .has_description false
+effect: .name "dd2_firedot_suicide"     .target "performer"          .chance 1000%  .kill_enemy_types dd2_firedot_s0	    .on_hit true .on_miss true .has_description false
+
+effect: .name "dd2_burnvsexposed"       .target "performer"    .chance 100%	.buff_ids "dd2_burnvsexposed"  .on_hit true .on_miss false .has_description false .apply_once false .skill_instant true .duration 1
+
+
+///Firedot Monster to hero
+effect: .name "dd2_firedot_dmgrec_pgoH"  .target "performer_group_other" .chance 5000% .buff_ids "dd2_firedot_nodmgH" .on_hit true .on_miss true .apply_once false .can_apply_on_death true  .buff_source_type bsrc_quest_modifier .duration 1 .has_description false
+
+effect: .name "dd2_s0hpr_set_firedotH"   .target "performer"          .chance 100% .set_monster_class_id "dd2_eot_s0hpr_H" .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .apply_once true 
+effect: .name "dd2_firedot_key_1H"       .target "performer"          .chance 100%  .buff_ids "dd2_firedot_key_buff_1H" .on_hit true .on_miss true .duration 1 .buff_source_type bsrc_quest_modifier .apply_once true
+effect: .name "dd2_firedot_dmgrec_baseH" .target "target_enemy_group" .chance 5000% .buff_ids "dd2_firedot_nodmgH" .on_hit true .on_miss false .apply_once false .can_apply_on_death true .apply_with_result true .buff_source_type bsrc_quest_modifier .duration 1
+effect: .name "dd2_firedot_dmg_100H"     .target "target_enemy_group" .chance 100% .health_damage 10 .on_hit true .on_miss false .apply_once true .can_apply_on_death true  
+
+effect: .name "dd2_burn_token_1H"        .target "target"    .chance 100%  .buff_ids "dd2_firedot_dmg_1H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt"  .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_1H"    .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_1H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt"  .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_2H"        .target "target"    .chance 110%  .buff_ids "dd2_firedot_dmg_2H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt2" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_2H"    .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_2H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt2" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_3H"        .target "target"    .chance 120%  .buff_ids "dd2_firedot_dmg_3H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt3" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_3H"    .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_3H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt3" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_4H"        .target "target"    .chance 130%  .buff_ids "dd2_firedot_dmg_4H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt4" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_4H"    .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_4H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt4" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_token_5H"        .target "target"    .chance 140%  .buff_ids "dd2_firedot_dmg_5H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt5" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+effect: .name "dd2_burn_tokenself_5H"    .target "performer" .chance 100%  .buff_ids "dd2_firedot_dmg_5H" "dd2_firedot_key_buff_2H" "dd2_burn_token_tt5" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+
+
+///Infernal Fire
+effect: .name "sc_infernal_burn_token_2" .target "target"    .chance -5000%	.buff_ids "dd2_firedot_dmg_2" "dd2_firedot_key_buff_2" "dd2_burn_token_tt2" "status_fx_burn2" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
+
+///Rain Lantern stuff
+effect: .name "sc_rain_bot_summon" .target "performer" .chance 45%  .summon_monsters "sc_rain_s0_A" .summon_count 1  .summon_count 1 .summon_chances 1.0 .summon_limits 1 .summon_ranks 01234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
+effect: .name "sc_rain_shuffle_heroes" .target "target_enemy_group" .shuffletarget  .chance -2750%  .on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "sc_rain_shuffle_enemies" .target "performer_group_other" .shuffletarget  .chance -2750%  .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "sc_rain_suicide"    .target "performer" .chance 1000% .kill_enemy_types sc_rain_s0	    .on_hit true .on_miss false .has_description false
+effect: .name "sc_rain_buffs_1" .target "performer" .chance 100%   .buff_ids "sc_rain_key_move" .on_hit true .on_miss false .apply_once false .can_apply_on_death true .apply_with_result true
+effect: .name "sc_rain_buffs_2" .target "performer" .chance 100%   .buff_ids "sc_rain_key_move_2" .on_hit true .on_miss false .apply_once false .can_apply_on_death true .apply_with_result true  

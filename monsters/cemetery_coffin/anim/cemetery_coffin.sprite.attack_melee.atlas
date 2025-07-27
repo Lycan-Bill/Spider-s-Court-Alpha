@@ -1,0 +1,20 @@
+
+cemetery_coffin.sprite.attack_melee.png
+size: 856,856
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Coffin Crawler
+  rotate: false
+  xy: 2, 40
+  size: 669, 814
+  orig: 669, 814
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: true
+  xy: 673, 2
+  size: 852, 153
+  orig: 852, 153
+  offset: 0, 0
+  index: -1

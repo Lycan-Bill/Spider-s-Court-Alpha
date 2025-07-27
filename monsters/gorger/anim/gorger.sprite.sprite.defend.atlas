@@ -1,0 +1,27 @@
+
+gorger.sprite.sprite.defend.png
+size: 1340,1340
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pasted Layer #4
+  rotate: false
+  xy: 2, 708
+  size: 944, 630
+  orig: 944, 630
+  offset: 0, 0
+  index: -1
+Pasted Layer #9
+  rotate: true
+  xy: 2, 2
+  size: 704, 775
+  orig: 704, 775
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 948, 905
+  size: 433, 71
+  orig: 433, 71
+  offset: 0, 0
+  index: -1

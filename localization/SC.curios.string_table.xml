@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="str_curio_title_nothing"><![CDATA[Error - no curio found!]]></entry>
+    <entry id="str_curio_content_nothing"><![CDATA[Error - no curio found!]]></entry>
+    <entry id="str_curio_no_negative_quirks_to_remove"><![CDATA[No negative quirks to remove.]]></entry>
+	
+	<entry id="str_curio_title_TheSpiv"><![CDATA[The Spiv]]></entry>
+	<entry id="str_curio_TheSpiv_merchant_credit_loot"><![CDATA[Workn' hard I see, squire!]]></entry>
+	<entry id="str_curio_content_TheSpiv"><![CDATA[What can I do for ya, squire.]]></entry>
+    <entry id="str_curio_tooltip_investigate_TheSpiv"><![CDATA[He expects payment...]]></entry>
+	<entry id="str_curio_TheSpiv_nothing"><![CDATA[I ain't runnin' a charity mate!]]></entry>
+	
+	<entry id="str_curio_title_TheKid"><![CDATA[A Spiteful Orphan]]></entry>
+	<entry id="str_curio_content_TheKid"><![CDATA[He seems to be waiting for something...]]></entry>
+    <entry id="str_curio_tooltip_investigate_TheKid"><![CDATA[He is tapping his knife impatiently...]]></entry>
+	<entry id="str_curio_TheKid_scout"><![CDATA[Careful, They be waiting for ya.]]></entry>
+	<entry id="str_curio_TheKid_effect_TheKid_healstress"><![CDATA[The Gift of Charity.]]></entry>
+	<entry id="str_curio_TheKid_effect"><![CDATA[OI! Their Over Here!]]></entry>
+	
+	<entry id="str_curio_title_snake_oil_salesman"><![CDATA[The Tonic Seller]]></entry>
+	<entry id="str_curio_content_snake_oil_salesman"><![CDATA[If I may have your attention please!]]></entry>
+    <entry id="str_curio_tooltip_investigate_snake_oil_salesman"><![CDATA[He expects payment...]]></entry>
+	<entry id="str_curio_snake_oil_salesman_merchant_credit_loot"><![CDATA[You all come back now, ya hear!]]></entry>
+	<entry id="str_curio_snake_oil_salesman_nothing"><![CDATA[Sorry, fine folks, but no free samples!]]></entry>
+	
+  </language>
+</root>
+

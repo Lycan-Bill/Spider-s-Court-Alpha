@@ -2,7 +2,7 @@ display: .size 1
 enemy_type: .id "vampire"
 stats: .hp 36 .def 13% .prot .20 .spd 6 .stun_resist 40% .poison_resist 40% .bleed_resist 20% .debuff_resist 10% .move_resist 35%
 skill: .id "CC_moth_song" .type "ranged" .valid_modes "human" .atk 102.5% .dmg 2 5 .crit 4%  .effect "Moth Stun 5" .launch 4321 .target 1234
-skill: .id "CC_moth_mimicry" .type "ranged" .valid_modes "human" .atk 102.5% .dmg 1 2 .crit 0%  .effect "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Concubine ProtectMe Guard" "Moth Guard Buff Target 5"  "Moth Guard Buff Self 5" .launch 4321 .target @1234
+skill: .id "CC_moth_mimicry" .type "ranged" .valid_modes "human" .atk 102.5% .dmg 1 2 .crit 0%  .effect "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Moth Guard Buff Target 5"  "Moth Guard Buff Self 5" .launch 4321 .target @1234
 skill: .id "CC_moth_touch" .type "ranged" .valid_modes "human" .atk 102.5% .dmg 2 4 .crit 6%  .effect "Moth Poison 5" .launch 4321 .target 1234
 skill: .id "the_hunger_human" .type "melee" .valid_modes "human" .atk 112.5% .dmg 4 7 .crit 9% .damage_heal_base_class_ids cc_moth .effect "switch_mode_beast_self" "Steward Stress Buff 3" "Feed Stress Human" "CC Steal Blight" .launch 4321 .target 1234 .move 0 4
 skill: .id "the_hunger_beast" .type "melee" .valid_modes "beast" .atk 102.5% .dmg 9 15 .crit 13% .damage_heal_base_class_ids cc_moth .effect "Feed Stress Beast" "CC Steal Blight" .launch 4321 .target 1234 .move 0 4

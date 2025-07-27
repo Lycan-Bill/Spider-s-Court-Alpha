@@ -1,33 +1,33 @@
 
 ganger_grenadier.sprite.attack_dirty.png
-size: 1024,1024
+size: 763,763
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 DIRTYBOMB
   rotate: false
-  xy: 2, 33
+  xy: 2, 81
   size: 444, 142
   orig: 444, 142
   offset: 0, 0
   index: -1
 grenadierDIRTYBOMB
   rotate: false
-  xy: 2, 177
+  xy: 2, 225
   size: 724, 536
   orig: 724, 536
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 728, 356
+  rotate: false
+  xy: 2, 16
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
   index: -1
 spark(flickers)
   rotate: false
-  xy: 2, 2
+  xy: 728, 732
   size: 33, 29
   orig: 33, 29
   offset: 0, 0

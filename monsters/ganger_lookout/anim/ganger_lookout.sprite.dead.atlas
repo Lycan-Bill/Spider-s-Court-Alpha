@@ -1,19 +1,19 @@
 
 ganger_lookout.sprite.dead.png
-size: 1024,256
+size: 509,509
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 lookoutCORPES
   rotate: false
-  xy: 2, 2
+  xy: 2, 255
   size: 505, 252
   orig: 505, 252
   offset: 0, 0
   index: -1
 shadow
   rotate: false
-  xy: 509, 191
+  xy: 2, 190
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

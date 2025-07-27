@@ -1,19 +1,19 @@
 
 ganger_gunner.sprite.attack_warning.png
-size: 1024,512
+size: 712,712
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ground_shadow
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 415, 353
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
   index: -1
 gunnerWARNING
-  rotate: true
-  xy: 2, 67
+  rotate: false
+  xy: 2, 2
   size: 411, 708
   orig: 411, 708
   offset: 0, 0

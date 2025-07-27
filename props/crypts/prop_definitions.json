@@ -41,6 +41,14 @@
 			}
         },
 		{ 
+            "name": "Infernal_Merchant",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+			}
+        },
+		{ 
             "name": "TheKid",
             "default_data": {
 			 "investigate_default": true,
@@ -66,6 +74,14 @@
         },
 		{ 
             "name": "Quarter_Carriage",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+           }
+        },
+		{ 
+            "name": "snake_oil_salesman",
             "default_data": {
 			 "investigate_default": true,
              "investigate_use_item": true,

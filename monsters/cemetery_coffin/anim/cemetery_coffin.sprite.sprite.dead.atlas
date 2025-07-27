@@ -1,0 +1,20 @@
+
+cemetery_coffin.sprite.sprite.dead.png
+size: 676,676
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pasted Layer
+  rotate: false
+  xy: 2, 311
+  size: 484, 363
+  orig: 484, 363
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 187
+  size: 672, 122
+  orig: 672, 122
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+death.sprite.attack_ribs_fx.png
+size: 2418,2418
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood1
+  rotate: false
+  xy: 1712, 125
+  size: 198, 127
+  orig: 198, 127
+  offset: 0, 0
+  index: -1
+blooddd
+  rotate: false
+  xy: 2089, 1789
+  size: 298, 227
+  orig: 298, 227
+  offset: 0, 0
+  index: -1
+blooddd3
+  rotate: true
+  xy: 2089, 2018
+  size: 398, 327
+  orig: 398, 327
+  offset: 0, 0
+  index: -1
+chest
+  rotate: true
+  xy: 1712, 254
+  size: 480, 448
+  orig: 480, 448
+  offset: 0, 0
+  index: -1
+ribs1
+  rotate: false
+  xy: 2, 46
+  size: 853, 708
+  orig: 853, 708
+  offset: 0, 0
+  index: -1
+ribs11
+  rotate: false
+  xy: 857, 26
+  size: 853, 708
+  orig: 853, 708
+  offset: 0, 0
+  index: -1
+ribs2
+  rotate: false
+  xy: 1067, 1577
+  size: 1020, 839
+  orig: 1020, 839
+  offset: 0, 0
+  index: -1
+ribs22
+  rotate: false
+  xy: 1067, 736
+  size: 1020, 839
+  orig: 1020, 839
+  offset: 0, 0
+  index: -1
+ribs3
+  rotate: false
+  xy: 2, 1587
+  size: 1063, 829
+  orig: 1063, 829
+  offset: 0, 0
+  index: -1
+ribs33
+  rotate: false
+  xy: 2, 756
+  size: 1063, 829
+  orig: 1063, 829
+  offset: 0, 0
+  index: -1

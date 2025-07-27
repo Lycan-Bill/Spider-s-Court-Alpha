@@ -1,0 +1,297 @@
+{
+    "version": 1,
+    "data":
+    {
+        "purchases":
+        {
+            "hellion.wicked_hack":
+            {
+                "instance_number": 1,
+                "tree_id": 1919154770,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.iron_swan":
+            {
+                "instance_number": 1,
+                "tree_id": -1667043927,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.barbaric_yawp":
+            {
+                "instance_number": 1,
+                "tree_id": -1034851529,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.if_it_bleeds":
+            {
+                "instance_number": 1,
+                "tree_id": -556440638,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.breakthru":
+            {
+                "instance_number": 1,
+                "tree_id": 69443669,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.reckless_rage":
+            {
+                "instance_number": 1,
+                "tree_id": -796769913,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.bleed_out":
+            {
+                "instance_number": 1,
+                "tree_id": 1458379392,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.encourage":
+            {
+                "instance_number": 1,
+                "tree_id": -288121118,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.first_aid":
+            {
+                "instance_number": 1,
+                "tree_id": 635959950,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.find_supplies":
+            {
+                "instance_number": 1,
+                "tree_id": -1708920870,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "hellion.addinfo_hel":
+            {
+                "instance_number": 1,
+                "tree_id": 981497914,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+			"man_at_arms.crush": {
+                "instance_number": 2,
+                "tree_id": -1975743183,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.rampart": {
+                "instance_number": 2,
+                "tree_id": -1889859541,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.bellow": {
+                "instance_number": 2,
+                "tree_id": 2137662889,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.defender": {
+                "instance_number": 2,
+                "tree_id": 2136308345,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.retribution": {
+                "instance_number": 2,
+                "tree_id": 1540912327,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.command": {
+                "instance_number": 2,
+                "tree_id": -2083471937,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.bolster": {
+                "instance_number": 2,
+                "tree_id": 1515026399,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.first_aid": {
+                "instance_number": 2,
+                "tree_id": -1609742403,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.pep_talk": {
+                "instance_number": 2,
+                "tree_id": -1867116432,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "man_at_arms.hobby": {
+                "instance_number": 2,
+                "tree_id": -1936791664,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+			"man_at_arms.addinfo_maa": {
+                "instance_number": 2,
+                "tree_id": 2110559983,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+			"occultist.bloodlet": {
+                "instance_number": 3,
+                "tree_id": -100875055,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.abyssal_artillery": {
+                "instance_number": 3,
+                "tree_id": -58367398,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.amber_curse": {
+                "instance_number": 3,
+                "tree_id": -2124720216,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.wyrd_reconstruction": {
+                "instance_number": 3,
+                "tree_id": 2054762355,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.disruptive_curse": {
+                "instance_number": 3,
+                "tree_id": -1517820728,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.hands_from_abyss": {
+                "instance_number": 3,
+                "tree_id": 1329024206,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.daemons_pull": {
+                "instance_number": 3,
+                "tree_id": 372855275,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.hobby": {
+                "instance_number": 3,
+                "tree_id": 909676180,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.first_aid": {
+                "instance_number": 3,
+                "tree_id": -68036735,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.scout": {
+                "instance_number": 3,
+                "tree_id": 994722466,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "occultist.addinfo_occ": {
+                "instance_number": 3,
+                "tree_id": -860214543,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+			"musketeer.aimed_shot": {
+                "instance_number": 4,
+                "tree_id": -1074960704,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.smokescreen": {
+                "instance_number": 4,
+                "tree_id": 1621094302,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.buckshot": {
+                "instance_number": 4,
+                "tree_id": -1619597326,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.bombard": {
+                "instance_number": 4,
+                "tree_id": -1408733982,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.ammo_swap": {
+                "instance_number": 4,
+                "tree_id": -262532477,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.patch_up": {
+                "instance_number": 4,
+                "tree_id": 750562539,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.stock_strike": {
+                "instance_number": 4,
+                "tree_id": -1103445156,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.hobby": {
+                "instance_number": 4,
+                "tree_id": 626302351,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.first_aid": {
+                "instance_number": 4,
+                "tree_id": -202328180,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.scout": {
+                "instance_number": 4,
+                "tree_id": 711348637,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.champ_ego": {
+                "instance_number": 4,
+                "tree_id": 996364566,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+            "musketeer.addinfo_musk": {
+                "instance_number": 4,
+                "tree_id": 1818328855,
+                "requirement_code": "0",
+                "is_purchased": true
+            },
+			"stage_coach.upgraded_recruits": {
+                "instance_number": 0,
+                "tree_id": -984193701,
+                "requirement_code": "a",
+                "is_purchased": true
+            }
+        },
+        "discounts": { }
+    }
+}

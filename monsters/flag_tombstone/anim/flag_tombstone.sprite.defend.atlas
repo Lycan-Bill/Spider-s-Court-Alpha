@@ -1,0 +1,13 @@
+
+flag_tombstone.sprite.defend.png
+size: 236,301
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flag_tombstone
+  rotate: false
+  xy: 2, 2
+  size: 232, 297
+  orig: 232, 297
+  offset: 0, 0
+  index: -1

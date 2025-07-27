@@ -1,0 +1,195 @@
+
+death.sprite.combat.png
+size: 2123,2123
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: false
+  xy: 531, 66
+  size: 258, 252
+  orig: 258, 252
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: true
+  xy: 1784, 1778
+  size: 343, 192
+  orig: 343, 192
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 611, 320
+  size: 379, 533
+  orig: 379, 533
+  offset: 0, 0
+  index: -1
+chestpatch
+  rotate: false
+  xy: 692, 869
+  size: 379, 533
+  orig: 379, 533
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 2, 28
+  size: 527, 333
+  orig: 527, 333
+  offset: 0, 0
+  index: -1
+f2
+  rotate: false
+  xy: 2, 363
+  size: 607, 490
+  orig: 607, 490
+  offset: 0, 0
+  index: -1
+f3
+  rotate: false
+  xy: 992, 368
+  size: 549, 469
+  orig: 549, 469
+  offset: 0, 0
+  index: -1
+f4
+  rotate: false
+  xy: 1161, 1682
+  size: 621, 439
+  orig: 621, 439
+  offset: 0, 0
+  index: -1
+f5
+  rotate: false
+  xy: 1073, 839
+  size: 560, 442
+  orig: 560, 442
+  offset: 0, 0
+  index: -1
+f6
+  rotate: false
+  xy: 992, 9
+  size: 435, 357
+  orig: 435, 357
+  offset: 0, 0
+  index: -1
+f7
+  rotate: false
+  xy: 2, 855
+  size: 688, 547
+  orig: 688, 547
+  offset: 0, 0
+  index: -1
+f8
+  rotate: false
+  xy: 1429, 23
+  size: 406, 343
+  orig: 406, 343
+  offset: 0, 0
+  index: -1
+f9
+  rotate: true
+  xy: 1635, 786
+  size: 495, 400
+  orig: 495, 400
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 1978, 1788
+  size: 119, 106
+  orig: 119, 106
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 791, 180
+  size: 189, 138
+  orig: 189, 138
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: false
+  xy: 791, 110
+  size: 119, 68
+  orig: 119, 68
+  offset: 0, 0
+  index: -1
+hair4
+  rotate: true
+  xy: 1970, 667
+  size: 117, 63
+  orig: 117, 63
+  offset: 0, 0
+  index: -1
+hair5
+  rotate: false
+  xy: 1784, 1711
+  size: 130, 65
+  orig: 130, 65
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1837, 226
+  size: 157, 152
+  orig: 157, 152
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 1161, 1283
+  size: 193, 843
+  orig: 193, 843
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 1161, 1478
+  size: 202, 825
+  orig: 202, 825
+  offset: 0, 0
+  index: -1
+lens1
+  rotate: true
+  xy: 1784, 1682
+  size: 27, 32
+  orig: 27, 32
+  offset: 0, 0
+  index: -1
+peta2
+  rotate: true
+  xy: 992, 839
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+shorud1
+  rotate: false
+  xy: 1543, 385
+  size: 425, 399
+  orig: 425, 399
+  offset: 0, 0
+  index: -1
+shroud2
+  rotate: false
+  xy: 711, 1419
+  size: 448, 702
+  orig: 448, 702
+  offset: 0, 0
+  index: -1
+shroud3
+  rotate: false
+  xy: 2, 1404
+  size: 707, 717
+  orig: 707, 717
+  offset: 0, 0
+  index: -1
+shroudblack
+  rotate: false
+  xy: 1978, 1896
+  size: 143, 225
+  orig: 143, 225
+  offset: 0, 0
+  index: -1

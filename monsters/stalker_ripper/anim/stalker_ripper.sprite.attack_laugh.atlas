@@ -1,0 +1,20 @@
+
+stalker_ripper.sprite.attack_laugh.png
+size: 987,735
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Revel in Depravity
+  rotate: true
+  xy: 2, 2
+  size: 731, 918
+  orig: 731, 918
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 922, 376
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

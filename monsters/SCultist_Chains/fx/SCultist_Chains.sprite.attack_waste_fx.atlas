@@ -1,0 +1,27 @@
+
+SCultist_Chains.sprite.attack_waste_fx.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 2, 56
+  size: 185, 431
+  orig: 185, 431
+  offset: 0, 0
+  index: -1
+spittle_1
+  rotate: false
+  xy: 2, 2
+  size: 85, 52
+  orig: 85, 52
+  offset: 0, 0
+  index: -1
+spittle_2
+  rotate: false
+  xy: 435, 168
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1

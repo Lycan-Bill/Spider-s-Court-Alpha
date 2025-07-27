@@ -1,0 +1,41 @@
+
+cemetery_coffin.sprite.attack_stress_fx.png
+size: 1059,1059
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow FX
+  rotate: false
+  xy: 2, 447
+  size: 867, 610
+  orig: 867, 610
+  offset: 0, 0
+  index: -1
+Outline Glow FX
+  rotate: false
+  xy: 2, 218
+  size: 563, 227
+  orig: 563, 227
+  offset: 0, 0
+  index: -1
+Tentacle FX 1
+  rotate: false
+  xy: 567, 2
+  size: 329, 443
+  orig: 329, 443
+  offset: 0, 0
+  index: -1
+Tentacle FX 2
+  rotate: true
+  xy: 2, 3
+  size: 213, 355
+  orig: 213, 355
+  offset: 0, 0
+  index: -1
+Tentacle FX 3
+  rotate: true
+  xy: 871, 845
+  size: 212, 165
+  orig: 212, 165
+  offset: 0, 0
+  index: -1

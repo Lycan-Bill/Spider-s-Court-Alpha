@@ -1,0 +1,27 @@
+
+SCultist_Mace.sprite.attack_mace_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 2, 2
+  size: 284, 459
+  orig: 284, 459
+  offset: 0, 0
+  index: -1
+shadow'
+  rotate: false
+  xy: 2, 288
+  size: 654, 607
+  orig: 654, 607
+  offset: 0, 0
+  index: -1
+swoosh
+  rotate: false
+  xy: 658, 350
+  size: 145, 545
+  orig: 145, 545
+  offset: 0, 0
+  index: -1

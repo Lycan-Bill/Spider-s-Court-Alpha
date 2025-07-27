@@ -1,19 +1,19 @@
 
 ganger_gunner.sprite.attack_reload.png
-size: 1024,512
+size: 688,688
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ground_shadow
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 393, 329
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
   index: -1
 gunnerRELOAD
-  rotate: true
-  xy: 2, 67
+  rotate: false
+  xy: 2, 2
   size: 389, 684
   orig: 389, 684
   offset: 0, 0

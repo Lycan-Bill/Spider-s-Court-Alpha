@@ -1,6 +1,6 @@
 
 ganger_grenadier.sprite.attack_blind.png
-size: 256,512
+size: 321,321
 format: RGBA8888
 filter: Linear,Linear
 repeat: none

@@ -1,0 +1,5 @@
+corridor_midground_render_parameters:
+    .y_offset 0
+    
+corridor_background_render_parameters:
+    .y_offset 210.0

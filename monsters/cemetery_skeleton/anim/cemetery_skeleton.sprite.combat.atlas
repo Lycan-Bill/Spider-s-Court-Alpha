@@ -1,0 +1,62 @@
+
+cemetery_skeleton.sprite.combat.png
+size: 578,578
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1 copy
+  rotate: false
+  xy: 2, 101
+  size: 301, 475
+  orig: 301, 475
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 361, 27
+  size: 130, 134
+  orig: 130, 134
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 503, 513
+  size: 68, 63
+  orig: 68, 63
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: true
+  xy: 489, 168
+  size: 47, 62
+  orig: 47, 62
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 489, 217
+  size: 87, 119
+  orig: 87, 119
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 305, 163
+  size: 182, 173
+  orig: 182, 173
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 305, 338
+  size: 196, 238
+  orig: 196, 238
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 2, 36
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

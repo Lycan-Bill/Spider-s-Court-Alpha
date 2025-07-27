@@ -1,0 +1,111 @@
+
+cemetery_torse.sprite.combat.png
+size: 484,545
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idleTorso Copy
+  rotate: false
+  xy: 281, 318
+  size: 189, 225
+  orig: 189, 225
+  offset: 0, 0
+  index: -1
+idleTorso Copy 10
+  rotate: false
+  xy: 111, 9
+  size: 45, 50
+  orig: 45, 50
+  offset: 0, 0
+  index: -1
+idleTorso Copy 11
+  rotate: false
+  xy: 300, 201
+  size: 162, 115
+  orig: 162, 115
+  offset: 0, 0
+  index: -1
+idleTorso Copy 12
+  rotate: false
+  xy: 310, 15
+  size: 63, 90
+  orig: 63, 90
+  offset: 0, 0
+  index: -1
+idleTorso Copy 14
+  rotate: false
+  xy: 2, 301
+  size: 277, 242
+  orig: 277, 242
+  offset: 0, 0
+  index: -1
+idleTorso Copy 15
+  rotate: true
+  xy: 204, 4
+  size: 101, 104
+  orig: 101, 104
+  offset: 0, 0
+  index: -1
+idleTorso Copy 16
+  rotate: false
+  xy: 2, 61
+  size: 200, 238
+  orig: 200, 238
+  offset: 0, 0
+  index: -1
+idleTorso Copy 2
+  rotate: false
+  xy: 204, 107
+  size: 94, 192
+  orig: 94, 192
+  offset: 0, 0
+  index: -1
+idleTorso Copy 3
+  rotate: false
+  xy: 375, 30
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+idleTorso Copy 4
+  rotate: false
+  xy: 158, 13
+  size: 28, 46
+  orig: 28, 46
+  offset: 0, 0
+  index: -1
+idleTorso Copy 5
+  rotate: false
+  xy: 452, 65
+  size: 30, 40
+  orig: 30, 40
+  offset: 0, 0
+  index: -1
+idleTorso Copy 6
+  rotate: true
+  xy: 375, 2
+  size: 26, 42
+  orig: 26, 42
+  offset: 0, 0
+  index: -1
+idleTorso Copy 7
+  rotate: true
+  xy: 300, 107
+  size: 92, 160
+  orig: 92, 160
+  offset: 0, 0
+  index: -1
+idleTorso Copy 8
+  rotate: false
+  xy: 2, 7
+  size: 54, 52
+  orig: 54, 52
+  offset: 0, 0
+  index: -1
+idleTorso Copy 9
+  rotate: false
+  xy: 58, 8
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1

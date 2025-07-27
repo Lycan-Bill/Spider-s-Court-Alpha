@@ -17,7 +17,7 @@
                     {
                         "item_type": "supply",
                         "item_name": "torch",
-                        "hero_buff_list": [],
+                        "hero_buff_list": ["Lantern_Move_Resist"],
                         "monster_buff_list": []
                     }
                 ],
@@ -61,7 +61,7 @@
                 "overlays": [ "battle_round", "comet_glow_torch"],
                 "torch_setting_item_buffs": [],
                 "wave_transition_dungeons":["crypts"],
-                "overlay_custom_animation": "red_loop",
+                "overlay_custom_animation": "blood_moon",
                 "custom_colour_grade": "wave_transition_crimson_moon",
                 "custom_quest_modifier_texture_id": "red",
                 "transition_id": "red",

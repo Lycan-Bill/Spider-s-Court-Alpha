@@ -1,0 +1,227 @@
+{
+  "quirks": [
+    {
+      "id": "1_Recluse_Bite_Symptoms",
+      "slot_size": 2,
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "1_Recluse_Bite_Gestation",
+        "1_Recluse_Bite_Main"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "use_item_changes": [
+        {
+          "item_type": "estate",
+          "item_id": "Soul_Contract",
+          "change_quirk_class_id": "infernal_marked"
+        }
+      ],
+      "use_item_dungeon_effects": [],
+      "tags": [],
+      "evolution_duration_min": 1,
+      "evolution_duration_max": 1,
+      "evolution_town_progression_duration_change": 30,
+      "evolution_class_id": "1_Recluse_Bite_Gestation",
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": false
+    },
+    {
+      "id": "1_Recluse_Bite_Gestation",
+      "slot_size": 2,
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "1_Recluse_Bite_Symptoms",
+        "1_Recluse_Bite_Main"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "use_item_changes": [
+        {
+          "item_type": "estate",
+          "item_id": "Soul_Contract",
+          "change_quirk_class_id": "infernal_marked"
+        }
+      ],
+      "use_item_dungeon_effects": [],
+      "tags": [],
+      "evolution_duration_min": 1,
+      "evolution_duration_max": 1,
+      "evolution_town_progression_duration_change": 30,
+      "evolution_class_id": "1_Recluse_Bite_Main",
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": false
+    },
+    {
+      "id": "1_Recluse_Bite_Main",
+      "slot_size": 2,
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "1_Recluse_Bite_Gestation",
+        "1_Recluse_Bite_Symptoms"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "use_item_changes": [
+        {
+          "item_type": "estate",
+          "item_id": "Soul_Contract",
+          "change_quirk_class_id": "infernal_marked"
+        }
+      ],
+      "use_item_dungeon_effects": [],
+      "tags": [],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "Broken_Ribs",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "ripper_stalked",
+      "slot_size": 0,
+      "contagious_class_id": "ripper_stalked",
+      "show_explicit_buff_description": false,
+      "show_flavor_description": false,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "tags": [
+        "ripper_stalked"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "1_grim_reaper_1",
+      "slot_size": 0,
+      "show_explicit_buff_description": false,
+      "show_flavor_description": false,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "1_grim_reaper_2",
+        "1_grim_reaper_3"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "use_item_changes": [],
+      "use_item_dungeon_effects": [],
+      "tags": [
+        "bell_tolls_1"
+      ],
+      "evolution_duration_min": 60,
+      "evolution_duration_max": 120,
+      "evolution_town_progression_duration_change": 30,
+      "evolution_class_id": "1_grim_reaper_2",
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": false
+    },
+    {
+      "id": "1_grim_reaper_2",
+      "slot_size": 0,
+      "show_explicit_buff_description": false,
+      "show_flavor_description": false,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "1_grim_reaper_1",
+        "1_grim_reaper_3"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "use_item_changes": [],
+      "use_item_dungeon_effects": [],
+      "tags": [
+        "bell_tolls_2"
+      ],
+      "evolution_duration_min": 60,
+      "evolution_duration_max": 120,
+      "evolution_town_progression_duration_change": 30,
+      "evolution_class_id": "1_grim_reaper_3",
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": false
+    },
+    {
+      "id": "1_grim_reaper_3",
+      "slot_size": 0,
+      "show_explicit_buff_description": false,
+      "show_flavor_description": false,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "1_grim_reaper_1",
+        "1_grim_reaper_2"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": false,
+      "buffs": [],
+      "use_item_changes": [],
+      "use_item_dungeon_effects": [],
+      "tags": [
+        "bell_tolls_3"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": false
+    }
+  ]
+}

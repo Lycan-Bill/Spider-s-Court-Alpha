@@ -1,0 +1,69 @@
+
+cemetery_torse.sprite.attack_hunger.png
+size: 1788,468
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 611, 3
+  size: 410, 463
+  orig: 410, 463
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 1435, 202
+  size: 300, 264
+  orig: 300, 264
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 1435, 57
+  size: 143, 342
+  orig: 143, 342
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 1023, 3
+  size: 410, 463
+  orig: 410, 463
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 1435, 2
+  size: 88, 53
+  orig: 88, 53
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1737, 377
+  size: 34, 31
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 1737, 410
+  size: 49, 56
+  orig: 49, 56
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 2, 6
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+dustedit
+  rotate: false
+  xy: 2, 30
+  size: 607, 436
+  orig: 607, 436
+  offset: 0, 0
+  index: -1

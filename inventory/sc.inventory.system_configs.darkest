@@ -1,0 +1,2 @@
+inventory_system_config:	.type "provision"					.max_slots 99				.use_stack_limits false
+inventory_system_config:	.type "raid"						.max_slots 18				.use_stack_limits true

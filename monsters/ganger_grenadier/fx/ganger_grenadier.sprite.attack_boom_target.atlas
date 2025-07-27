@@ -1,40 +1,40 @@
 
 ganger_grenadier.sprite.attack_boom_target.png
-size: 1024,512
+size: 786,786
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 BOOM
   rotate: false
-  xy: 2, 69
+  xy: 2, 356
   size: 539, 428
   orig: 539, 428
   offset: 0, 0
   index: -1
 frag1
   rotate: false
-  xy: 2, 2
+  xy: 543, 719
   size: 64, 65
   orig: 64, 65
   offset: 0, 0
   index: -1
 frag2
   rotate: false
-  xy: 890, 452
+  xy: 543, 672
   size: 45, 45
   orig: 45, 45
   offset: 0, 0
   index: -1
 frag3
   rotate: false
-  xy: 543, 103
+  xy: 349, 314
   size: 51, 40
   orig: 51, 40
   offset: 0, 0
   index: -1
 frag4
   rotate: false
-  xy: 543, 145
+  xy: 2, 2
   size: 345, 352
   orig: 345, 352
   offset: 0, 0

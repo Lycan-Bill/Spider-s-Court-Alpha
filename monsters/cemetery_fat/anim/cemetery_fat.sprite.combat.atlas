@@ -1,0 +1,118 @@
+
+cemetery_fat.sprite.combat.png
+size: 613,613
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ground_shadow
+  rotate: true
+  xy: 548, 9
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+idle
+  rotate: true
+  xy: 2, 15
+  size: 97, 308
+  orig: 97, 308
+  offset: 0, 0
+  index: -1
+idle Copy
+  rotate: true
+  xy: 339, 135
+  size: 168, 207
+  orig: 168, 207
+  offset: 0, 0
+  index: -1
+idle Copy 10
+  rotate: false
+  xy: 392, 308
+  size: 29, 32
+  orig: 29, 32
+  offset: 0, 0
+  index: -1
+idle Copy 11
+  rotate: true
+  xy: 319, 305
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+idle Copy 12
+  rotate: true
+  xy: 352, 20
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+idle Copy 13
+  rotate: false
+  xy: 454, 312
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+idle Copy 14
+  rotate: false
+  xy: 423, 311
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+idle Copy 2
+  rotate: true
+  xy: 2, 114
+  size: 179, 335
+  orig: 179, 335
+  offset: 0, 0
+  index: -1
+idle Copy 3
+  rotate: false
+  xy: 456, 368
+  size: 143, 243
+  orig: 143, 243
+  offset: 0, 0
+  index: -1
+idle Copy 4
+  rotate: false
+  xy: 2, 295
+  size: 277, 316
+  orig: 277, 316
+  offset: 0, 0
+  index: -1
+idle Copy 5
+  rotate: false
+  xy: 281, 342
+  size: 173, 269
+  orig: 173, 269
+  offset: 0, 0
+  index: -1
+idle Copy 6
+  rotate: false
+  xy: 312, 65
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+idle Copy 7
+  rotate: true
+  xy: 312, 12
+  size: 51, 38
+  orig: 51, 38
+  offset: 0, 0
+  index: -1
+idle Copy 8
+  rotate: false
+  xy: 354, 314
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+idle Copy 9
+  rotate: true
+  xy: 281, 302
+  size: 38, 36
+  orig: 38, 36
+  offset: 0, 0
+  index: -1

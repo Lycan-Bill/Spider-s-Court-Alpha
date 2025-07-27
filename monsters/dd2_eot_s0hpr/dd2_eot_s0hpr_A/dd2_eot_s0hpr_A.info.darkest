@@ -15,17 +15,24 @@ display_modifier: .disabled_popup_text_types poison_resist cured tagged stun_res
 display_modifier: .disabled_popup_text_types bleed_resist
 
 
-// 1). _F = is firedot active? 
-spawn: .effects  "dd2_s0hpr_cur" "dd2_s0hpr_bff" "dd2_s0hpr_set_firedot" "dd2_firedot_bld_bool" 
-spawn: .effects  "dd2_s0hpr_dmg"  "dd2_s0hpr_hea" "dd2_firedot_stealH" "dd2_firedot_steal"
+// 1). _F = is firedot active on MONSTERS? 
+spawn: .effects  "dd2_s0hpr_cur" "dd2_s0hpr_bff" "dd2_s0hpr_set_firedot" 
+spawn: .effects  "dd2_firedot_bld_bool"  "dd2_s0hpr_dmg" 
+spawn: .effects  "dd2_s0hpr_hea" "dd2_firedot_steal"
+
+// 2). _F = is firedot active on HEROES? 
+spawn: .effects  "dd2_s0hpr_cur" "dd2_s0hpr_bff" "dd2_s0hpr_set_firedotH" 
+spawn: .effects  "dd2_firedot_bld_boolH" "dd2_s0hpr_dmg" 
+spawn: .effects  "dd2_s0hpr_hea" "dd2_firedot_stealH"
 
 
-// 2). _X = is Exanimate's More! More! active?
+// 3). _X = is Exanimate's More! More! active?
 spawn: .effects "dd2_s0hpr_cur" "dd2_s0hpr_bff" "dd2_s0hpr_set_mmore" "dd2_ex_bld_bool" 
-spawn: .effects "dd2_s0hpr_dmg" "dd2_s0hpr_hea" "dd2_s0hpr_cur" 
+spawn: .effects "dd2_s0hpr_dmg" "dd2_s0hpr_hea" "dd2_s0hpr_cur" "dd2_s0hpr_magick"
 
 
-spawn: .effects "dd2_eot_s0_x_suicide" "dd2_eot_suicide" "dd2_firedot_suicide"
+
+spawn: .effects "dd2_eot_set_default" "dd2_eot_suicide"
 
 
 

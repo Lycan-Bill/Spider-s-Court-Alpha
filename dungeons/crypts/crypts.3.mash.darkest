@@ -1,30 +1,79 @@
+hall: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_gunner_B 
 hall: .chance 1 .types ganger_enforcer_B ganger_enforcer_B ganger_gunner_B 
-hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B  
+hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B
+hall: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_gunner_B ganger_lookout_B  
+hall: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_gunner_B ganger_lookout_B
 hall: .chance 1 .types ganger_enforcer_B ganger_enforcer_B ganger_gunner_B ganger_lookout_B
-hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_assassin_B
-hall: .chance 1 .types ganger_enforcer_B ganger_enforcer_B ganger_assassin_B ganger_assassin_B
+hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_Bssassin_B
+hall: .chance 1 .types ganger_enforcer_B ganger_enforcer_B ganger_Bssassin_B ganger_Bssassin_B
+hall: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_Bssassin_B ganger_Bssassin_B
 hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_grenadier_B ganger_assassin_B
 hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_grenadier_B ganger_lookout_B
+hall: .chance 1 .types ganger_newbie_B ganger_gunner_B ganger_grenadier_B ganger_lookout_B
 hall: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_gunner_B ganger_lookout_B
+hall: .chance 1 .types ganger_newbie_B ganger_gunner_B ganger_grenadier_B ganger_assassin_B
 hall: .chance 1 .types ganger_gunner_B ganger_gunner_B ganger_grenadier_B ganger_lookout_B
-hall: .chance 1 .types ganger_gunner_B ganger_gunner_B ganger_gunner_B ganger_assassin_B
+hall: .chance 1 .types ganger_newbie_B ganger_newbie_B ganger_grenadier_B ganger_lookout_B
+hall: .chance 1 .types ganger_newbie_B ganger_grenadier_B ganger_grenadier_B ganger_assassin_B
+hall: .chance 1 .types ganger_newbie_B ganger_grenadier_B ganger_lookout_B ganger_assassin_B
+hall: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_lookout_B ganger_assassin_B
 
 room: .chance 1 .types ganger_enforcer_B ganger_enforcer_B ganger_gunner_B 
-room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B  
+room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B
+room: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_gunner_B  
 room: .chance 1 .types ganger_enforcer_B ganger_enforcer_B ganger_gunner_B ganger_lookout_B
 room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_lookout_B ganger_assassin_B
+room: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_gunner_B ganger_lookout_B
 room: .chance 1 .types ganger_enforcer_B ganger_enforcer_B ganger_assassin_B ganger_assassin_B
+room: .chance 1 .types ganger_enforcer_B ganger_newbie_B ganger_assassin_B ganger_assassin_B
 room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_grenadier_B ganger_assassin_B
+room: .chance 1 .types ganger_newbie_B ganger_gunner_B ganger_grenadier_B ganger_assassin_B
 room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_grenadier_B ganger_lookout_B
 room: .chance 1 .types ganger_enforcer_B ganger_gunner_B ganger_gunner_B ganger_lookout_B
+room: .chance 1 .types ganger_newbie_B ganger_gunner_B ganger_gunner_B ganger_lookout_B
 room: .chance 1 .types ganger_gunner_B ganger_gunner_B ganger_grenadier_B ganger_lookout_B
-room: .chance 1 .types ganger_gunner_B ganger_gunner_B ganger_gunner_B ganger_assassin_B
+room: .chance 1 .types ganger_newbie_B ganger_gunner_B ganger_gunner_B ganger_assassin_B
 room: .chance 1 .types ganger_gunner_B ganger_breaker_B ganger_assassin_B
+room: .chance 1 .types ganger_newbie_B ganger_breaker_B ganger_assassin_B
 room: .chance 1 .types ganger_enforcer_B ganger_breaker_B ganger_assassin_B
 room: .chance 1 .types ganger_enforcer_B ganger_breaker_B ganger_lookout_B
 room: .chance 1 .types ganger_gunner_B ganger_breaker_B ganger_lookout_B
 room: .chance 1 .types ganger_gunner_B ganger_breaker_B ganger_grenadier_B
 room: .chance 1 .types ganger_enforcer_B ganger_breaker_B ganger_grenadier_B
+room: .chance 1 .types ganger_newbie_B ganger_breaker_B ganger_grenadier_B
+room: .chance 1 .types ganger_newbie_B ganger_breaker_B ganger_lookout_B
+
+hall: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B  SCultist_Chains_B 
+hall: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B  SCultist_Nun_B SCultist_Chains_B  
+hall: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B  SCultist_Chains_B SCultist_Nun_B   
+hall: .chance 0.33 .types SCultist_Mace_B SCultist_Mace_B SCultist_Nun_B SCultist_Nun_B
+hall: .chance 0.33 .types SCultist_Mace_B SCultist_Mace_B SCultist_Chains_B SCultist_Nun_B
+hall: .chance 0.33 .types SCultist_Witch_B SCultist_Mace_B SCultist_Chains_B SCultist_Nun_B 
+hall: .chance 0.33 .types SCultist_Witch_B SCultist_Mace_B SCultist_Chains_B SCultist_Chains_B
+
+hall: .chance 0.33 .types SC_Spider_B SCultist_Mace_B SCultist_Chains_B 
+hall: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B SCultist_Nun_B SCultist_Chains_B  
+hall: .chance 0.33 .types SCultist_Mace_B SC_Spider_B SCultist_Chains_B SCultist_Nun_B   
+hall: .chance 0.33 .types SC_Spider_B SCultist_Mace_B SCultist_Nun_B SCultist_Nun_B
+hall: .chance 0.33 .types SCultist_Mace_B SC_Spider_B SCultist_Chains_B SCultist_Nun_B
+hall: .chance 0.33 .types SCultist_Witch_B SCultist_Mace_B SCultist_Chains_B SCultist_Nun_B 
+hall: .chance 0.33 .types SC_Spider_B SCultist_Mace_B SCultist_Chains_B SCultist_Chains_B
+
+room: .chance 0.33 .types SC_Spider_B SCultist_Mace_B SCultist_Chains_B 
+room: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B SCultist_Nun_B SCultist_Chains_B  
+room: .chance 0.33 .types SCultist_Mace_B SC_Spider_B SCultist_Chains_B SCultist_Nun_B   
+room: .chance 0.33 .types SC_Spider_B SCultist_Mace_B SCultist_Nun_B SCultist_Nun_B
+room: .chance 0.33 .types SCultist_Mace_B SC_Spider_B SCultist_Chains_B SCultist_Nun_B
+room: .chance 0.33 .types SCultist_Witch_B SCultist_Mace_B SCultist_Chains_B SCultist_Nun_B 
+room: .chance 0.33 .types SC_Spider_B SCultist_Mace_B SCultist_Chains_B SCultist_Chains_B
+
+room: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B  SCultist_Chains_B 
+room: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B  SCultist_Nun_B SCultist_Chains_B  
+room: .chance 0.33 .types SCultist_Mace_B SCultist_Witch_B  SCultist_Chains_B SCultist_Nun_B   
+room: .chance 0.33 .types SCultist_Mace_B SCultist_Mace_B SCultist_Nun_B SCultist_Nun_B
+room: .chance 0.33 .types SCultist_Mace_B SCultist_Mace_B SCultist_Chains_B SCultist_Nun_B
+room: .chance 0.33 .types SCultist_Witch_B SCultist_Mace_B SCultist_Chains_B SCultist_Nun_B 
+room: .chance 0.33 .types SCultist_Witch_B SCultist_Mace_B SCultist_Chains_B SCultist_Chains_B
 
 boss: .chance 1 .types necromancer_B   
 boss: .chance 1 .types pew_small_B pew_medium_B pew_large_B prophet_B

@@ -1,0 +1,19 @@
+named: .name maze_1 .chance 1 .types sc_spider_C sc_spider_C courtesan_C esquire_C
+named: .name maze_2 .chance 1 .types sc_spider_C bon_vivant_C courtesan_C
+named: .name maze_3 .chance 1 .types esquire_C vidame_C courtesan_C SCultist_Witch_C
+named: .name maze_4 .chance 1 .types SCultist_Mace_C courtesan_C SCultist_Witch_C
+named: .name maze_5 .chance 1 .types coquette_C sc_spider_C SCultist_Chains_C SCultist_Nun_C
+
+named: .name maze_6 .chance 1 .types steward_C gourmand_D treancherwoman_C
+named: .name maze_7 .chance 1 .types courtesan_C treancherwoman_C steward_C
+named: .name maze_8 .chance 1 .types steward_C SCultist_Mace_C steward_C SCultist_Witch_C
+named: .name maze_9 .chance 1 .types esquire_C coquette_C bon_vivant_C
+named: .name maze_10 .chance 1 .types steward_C vidame_C gorger_C
+
+named: .name maze_11 .chance 1 .types SCultist_Mace_C blut_skele_spear_C blut_skele_spear_C SCultist_Witch_C
+named: .name maze_12 .chance 1 .types blut_skele_spear_C steward_C blutskele_C steward_C
+named: .name maze_13 .chance 1 .types steward_C SCultist_Mace_C steward_C SCultist_Witch_C
+named: .name maze_14 .chance 1 .types blutskele_C esquire_C blut_skele_spear_C courtesan_C
+named: .name maze_15 .chance 1 .types bon_vivant_C gourmand_D
+
+boss: .chance 1 .types statue_shield_C statue_head_C statue_hand_C

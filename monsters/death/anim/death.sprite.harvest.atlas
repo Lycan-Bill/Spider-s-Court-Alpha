@@ -1,0 +1,69 @@
+
+death.sprite.harvest.png
+size: 3489,4070
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: true
+  xy: 1409, 78
+  size: 1026, 1437
+  orig: 1026, 1437
+  offset: 0, 0
+  index: -1
+halo
+  rotate: false
+  xy: 2, 2663
+  size: 1787, 1405
+  orig: 1787, 1405
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: true
+  xy: 1409, 1111
+  size: 143, 162
+  orig: 143, 162
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 1573, 1143
+  size: 107, 111
+  orig: 107, 111
+  offset: 0, 0
+  index: -1
+scy1
+  rotate: true
+  xy: 1791, 2588
+  size: 1480, 1696
+  orig: 1480, 1696
+  offset: 0, 0
+  index: -1
+scy22
+  rotate: false
+  xy: 2, 1256
+  size: 1787, 1405
+  orig: 1787, 1405
+  offset: 0, 0
+  index: -1
+scy3
+  rotate: true
+  xy: 2, 67
+  size: 1187, 1405
+  orig: 1187, 1405
+  offset: 0, 0
+  index: -1
+scy4
+  rotate: true
+  xy: 1791, 1106
+  size: 1480, 1696
+  orig: 1480, 1696
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

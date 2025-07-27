@@ -1,0 +1,146 @@
+
+cemetery_coffin.sprite.combat.png
+size: 1218,1218
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Back Leg Left Lower
+  rotate: true
+  xy: 883, 2
+  size: 114, 177
+  orig: 114, 177
+  offset: 0, 0
+  index: -1
+Back Leg Left Upper
+  rotate: false
+  xy: 1024, 231
+  size: 112, 133
+  orig: 112, 133
+  offset: 0, 0
+  index: -1
+Back Leg Right
+  rotate: false
+  xy: 544, 403
+  size: 182, 359
+  orig: 182, 359
+  offset: 0, 0
+  index: -1
+Chain 1
+  rotate: false
+  xy: 544, 193
+  size: 182, 208
+  orig: 182, 208
+  offset: 0, 0
+  index: -1
+Chain 2
+  rotate: false
+  xy: 1129, 996
+  size: 83, 220
+  orig: 83, 220
+  offset: 0, 0
+  index: -1
+Chain 3
+  rotate: true
+  xy: 1138, 328
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+Chain 4
+  rotate: false
+  xy: 1024, 176
+  size: 86, 53
+  orig: 86, 53
+  offset: 0, 0
+  index: -1
+Chain Front
+  rotate: true
+  xy: 883, 614
+  size: 299, 222
+  orig: 299, 222
+  offset: 0, 0
+  index: -1
+Coffin
+  rotate: true
+  xy: 273, 22
+  size: 740, 269
+  orig: 740, 269
+  offset: 0, 0
+  index: -1
+Coffin Inner
+  rotate: false
+  xy: 705, 915
+  size: 422, 301
+  orig: 422, 301
+  offset: 0, 0
+  index: -1
+Coffin Outer
+  rotate: false
+  xy: 2, 764
+  size: 701, 452
+  orig: 701, 452
+  offset: 0, 0
+  index: -1
+Cover
+  rotate: true
+  xy: 2, 9
+  size: 753, 269
+  orig: 753, 269
+  offset: 0, 0
+  index: -1
+Front Leg Left
+  rotate: false
+  xy: 883, 366
+  size: 168, 246
+  orig: 168, 246
+  offset: 0, 0
+  index: -1
+Front Leg Right
+  rotate: false
+  xy: 883, 118
+  size: 139, 246
+  orig: 139, 246
+  offset: 0, 0
+  index: -1
+Lock
+  rotate: true
+  xy: 1053, 379
+  size: 233, 132
+  orig: 233, 132
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: true
+  xy: 728, 61
+  size: 852, 153
+  orig: 852, 153
+  offset: 0, 0
+  index: -1
+Skeleton Arm
+  rotate: false
+  xy: 1129, 944
+  size: 76, 50
+  orig: 76, 50
+  offset: 0, 0
+  index: -1
+Skeleton Ripcage
+  rotate: false
+  xy: 1024, 125
+  size: 77, 49
+  orig: 77, 49
+  offset: 0, 0
+  index: -1
+Skeleton Skull
+  rotate: false
+  xy: 544, 44
+  size: 148, 147
+  orig: 148, 147
+  offset: 0, 0
+  index: -1
+Skeleton Spine
+  rotate: true
+  xy: 694, 141
+  size: 50, 31
+  orig: 50, 31
+  offset: 0, 0
+  index: -1

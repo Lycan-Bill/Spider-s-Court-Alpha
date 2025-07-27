@@ -1,82 +1,82 @@
 
 ganger_gunner.sprite.combat.png
-size: 1024,512
+size: 678,678
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 1
-  rotate: false
-  xy: 674, 178
+  rotate: true
+  xy: 554, 103
   size: 100, 112
   orig: 100, 112
   offset: 0, 0
   index: -1
 10
-  rotate: false
-  xy: 776, 217
+  rotate: true
+  xy: 284, 416
   size: 54, 73
   orig: 54, 73
   offset: 0, 0
   index: -1
 2
-  rotate: false
-  xy: 576, 147
+  rotate: true
+  xy: 427, 90
   size: 96, 120
   orig: 96, 120
   offset: 0, 0
   index: -1
 3
   rotate: true
-  xy: 2, 23
+  xy: 284, 472
   size: 204, 321
   orig: 204, 321
   offset: 0, 0
   index: -1
 4
-  rotate: true
-  xy: 658, 292
+  rotate: false
+  xy: 161, 96
   size: 199, 316
   orig: 199, 316
   offset: 0, 0
   index: -1
 5
-  rotate: true
-  xy: 284, 334
+  rotate: false
+  xy: 2, 40
   size: 157, 372
   orig: 157, 372
   offset: 0, 0
   index: -1
 6
-  rotate: true
-  xy: 325, 17
+  rotate: false
+  xy: 427, 188
   size: 125, 157
   orig: 125, 157
   offset: 0, 0
   index: -1
 7
   rotate: true
-  xy: 325, 144
+  xy: 427, 347
   size: 123, 249
   orig: 123, 249
   offset: 0, 0
   index: -1
 8
   rotate: false
-  xy: 2, 229
+  xy: 2, 414
   size: 280, 262
   orig: 280, 262
   offset: 0, 0
   index: -1
 9
   rotate: false
-  xy: 484, 2
+  xy: 554, 205
   size: 113, 140
   orig: 113, 140
   offset: 0, 0
   index: -1
 shadow
-  rotate: false
-  xy: 284, 269
+  rotate: true
+  xy: 362, 113
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

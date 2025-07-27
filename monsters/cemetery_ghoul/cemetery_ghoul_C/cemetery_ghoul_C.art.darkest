@@ -1,0 +1,4 @@
+commonfx: .deathfx death_medium
+skill: .id "ghoul_hunger" .type .anim "attack_lunge" .targchestfx "blood_splatter"
+skill: .id "ghoul_lurch" .type .anim "attack_move"
+skill: .id "ghoul_morsel" .type .anim "attack_bonk"

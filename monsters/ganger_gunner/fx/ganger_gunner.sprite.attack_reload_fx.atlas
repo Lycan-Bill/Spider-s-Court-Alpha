@@ -1,19 +1,19 @@
 
 ganger_gunner.sprite.attack_reload_fx.png
-size: 256,64
+size: 109,109
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 gunpowder_1
-  rotate: true
+  rotate: false
   xy: 2, 2
   size: 50, 105
   orig: 50, 105
   offset: 0, 0
   index: -1
 gunpowder_2
-  rotate: true
-  xy: 109, 35
+  rotate: false
+  xy: 54, 9
   size: 17, 98
   orig: 17, 98
   offset: 0, 0

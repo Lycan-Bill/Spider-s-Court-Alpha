@@ -1,0 +1,48 @@
+
+death.sprite.danse.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 2, 1869
+  size: 1204, 1715
+  orig: 1204, 1715
+  offset: 0, 0
+  index: -1
+halo
+  rotate: false
+  xy: 1208, 2227
+  size: 1357, 1357
+  orig: 1357, 1357
+  offset: 0, 0
+  index: -1
+skeleton
+  rotate: false
+  xy: 2, 2
+  size: 679, 844
+  orig: 679, 844
+  offset: 0, 0
+  index: -1
+tela1
+  rotate: false
+  xy: 1208, 1960
+  size: 356, 265
+  orig: 356, 265
+  offset: 0, 0
+  index: -1
+tela2
+  rotate: false
+  xy: 2567, 2662
+  size: 794, 922
+  orig: 794, 922
+  offset: 0, 0
+  index: -1
+tela3
+  rotate: false
+  xy: 2, 848
+  size: 785, 1019
+  orig: 785, 1019
+  offset: 0, 0
+  index: -1

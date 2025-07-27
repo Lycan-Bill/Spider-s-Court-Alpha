@@ -1,0 +1,20 @@
+
+cemetery_wormeye.sprite.attack_throw.png
+size: 758,430
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ground_shadow
+  rotate: true
+  xy: 693, 71
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+throw
+  rotate: true
+  xy: 2, 2
+  size: 426, 689
+  orig: 426, 689
+  offset: 0, 0
+  index: -1

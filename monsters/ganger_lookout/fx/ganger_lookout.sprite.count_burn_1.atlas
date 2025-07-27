@@ -1,0 +1,82 @@
+ganger_lookout.sprite.sprite.count_burn_1.png
+size: 675,675
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fire Left 1
+  rotate: true
+  xy: 323, 269
+  size: 158, 196
+  orig: 158, 196
+  offset: 0, 0
+  index: -1
+Fire Left 2
+  rotate: false
+  xy: 499, 439
+  size: 174, 234
+  orig: 174, 234
+  offset: 0, 0
+  index: -1
+Fire Left 3
+  rotate: false
+  xy: 323, 429
+  size: 174, 244
+  orig: 174, 244
+  offset: 0, 0
+  index: -1
+Fire Left FX 1
+  rotate: false
+  xy: 521, 310
+  size: 140, 127
+  orig: 140, 127
+  offset: 0, 0
+  index: -1
+Fire Left FX 2
+  rotate: false
+  xy: 320, 125
+  size: 174, 142
+  orig: 174, 142
+  offset: 0, 0
+  index: -1
+Fire Left FX 3
+  rotate: false
+  xy: 598, 239
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+Fire Left FX 4
+  rotate: false
+  xy: 417, 32
+  size: 79, 91
+  orig: 79, 91
+  offset: 0, 0
+  index: -1
+Fire Left FX 5
+  rotate: false
+  xy: 320, 37
+  size: 95, 86
+  orig: 95, 86
+  offset: 0, 0
+  index: -1
+Fire Left FX 6
+  rotate: true
+  xy: 521, 239
+  size: 69, 75
+  orig: 69, 75
+  offset: 0, 0
+  index: -1
+Fire Left FX Main
+  rotate: false
+  xy: 2, 311
+  size: 319, 362
+  orig: 319, 362
+  offset: 0, 0
+  index: -1
+Fire Left FX Main2
+  rotate: true
+  xy: 2, 7
+  size: 302, 316
+  orig: 302, 316
+  offset: 0, 0
+  index: -1

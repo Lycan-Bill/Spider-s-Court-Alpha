@@ -1,0 +1,14 @@
+{
+   "sets":
+   [
+      
+	  
+	   {
+         "id" : "salad_cc",
+         "buffs" : 
+         [
+         "salad_cc_dodge"
+         ]
+      }
+   ]
+}

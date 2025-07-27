@@ -1,0 +1,13 @@
+
+cemetery_skeleton.sprite.attack_boo_fx.png
+size: 242,242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 2, 2
+  size: 104, 238
+  orig: 104, 238
+  offset: 0, 0
+  index: -1

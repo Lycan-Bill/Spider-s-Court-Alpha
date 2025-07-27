@@ -1,33 +1,33 @@
 
 ganger_breaker.sprite.attack_hammer_target.png
-size: 1024,512
+size: 697,697
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 debris
   rotate: false
-  xy: 2, 61
+  xy: 2, 247
   size: 506, 448
   orig: 506, 448
   offset: 0, 0
   index: -1
 rocks_1
-  rotate: false
-  xy: 510, 2
+  rotate: true
+  xy: 510, 374
   size: 321, 165
   orig: 321, 165
   offset: 0, 0
   index: -1
 rocks_2
-  rotate: false
-  xy: 712, 232
+  rotate: true
+  xy: 344, 2
   size: 243, 277
   orig: 243, 277
   offset: 0, 0
   index: -1
 rocks_3
-  rotate: false
-  xy: 510, 169
+  rotate: true
+  xy: 2, 45
   size: 200, 340
   orig: 200, 340
   offset: 0, 0

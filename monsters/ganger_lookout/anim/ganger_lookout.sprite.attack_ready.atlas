@@ -1,18 +1,18 @@
 
 ganger_lookout.sprite.attack_ready.png
-size: 1024,512
+size: 547,547
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ground_shadow
-  rotate: false
-  xy: 547, 404
+  rotate: true
+  xy: 469, 188
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
   index: -1
 lookoutGETREADY
-  rotate: true
+  rotate: false
   xy: 2, 2
   size: 465, 543
   orig: 465, 543

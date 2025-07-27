@@ -1,1 +1,0 @@
-inventory_item:	.type "supply"		.id "merchant_credit"		.base_stack_limit 1 	.purchase_gold_value 1		.sell_gold_value 100

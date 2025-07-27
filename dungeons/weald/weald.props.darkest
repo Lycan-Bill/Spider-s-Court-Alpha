@@ -1,0 +1,31 @@
+hall_curios: .chance 10 .types discarded_pack 
+hall_curios: .chance 8 .types sconce
+hall_curios: .chance 10 .types crate 
+hall_curios: .chance 10 .types sack 
+hall_curios: .chance 5 .types mummified_remains
+hall_curios: .chance 8 .types old_tree
+hall_curios: .chance 8 .types beast_carcass
+hall_curios: .chance 5 .types cosmic_spiderweb
+hall_curios: .chance 5 .types lost_luggage
+hall_curios: .chance 3 .types shallow_grave
+hall_curios: .chance 3 .types troubling_effigy
+hall_curios: .chance 3 .types shallow_grave
+hall_curios: .chance 1 .types shamblers_altar
+
+room_curios: .chance 2 .types pristine_fountain
+room_curios: .chance 4 .types ancient_coffin
+room_curios: .chance 3 .types travellers_tent
+room_curios: .chance 1 .types eldritch_altar
+room_curios: .chance 100000000 .types virile_brew
+
+traps: .chance 1 .types poison_cloud
+obstacles: .chance 1 .types thorny_thicket
+
+
+room_treasures: .chance 1 .types TheSpiv
+room_treasures: .chance 1 .types snake_oil_salesman
+
+secret_room_treasures: .chance 1 .types Infernal_Merchant
+
+prison_doors: .chance 1 .types weald_door_shovel
+prison_doors: .chance 1 .types weald_door_key

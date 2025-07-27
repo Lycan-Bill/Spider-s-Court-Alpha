@@ -26,6 +26,54 @@
          ]
       },
       {
+         "id" : "T_DEVIL_CONTRACT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "Soul_Contract", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "T_SPIV_WEAPONS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+             { "type": "item", "chances": 4, "data": { "type": "estate", "id": "Lantern_Oil_Bad", "amount": 1 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Lantern_Oil_standard", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Lantern_Oil_Good", "amount": 1 }},
+			{ "type": "item", "chances": 1, "data": { "type": "estate", "id": "Lantern_Oil_Best", "amount": 1 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "molotov_cocktail", "amount": 1 }},
+			{ "type": "item", "chances": 4, "data": { "type": "estate", "id": "sc_medkit", "amount": 1 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Hawthorn_Oil", "amount": 1 }}
+        ]
+      },
+      {
+         "id" : "T_TONIC_TEST",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+             { "type": "item", "chances": 4, "data": { "type": "estate", "id": "Bravery_Tonic", "amount": 1 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Health_Tonic", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Strength_Tonic", "amount": 1 }}
+         ]
+      },
+      {
+         "id" : "T_DEVIL_CONTRACT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "Soul_Contract", "amount" : 1 }}
+         ]
+      },
+      {
          "id" : "DISTILLERY_ALCHOHOL",
          "difficulty" : 0,
          "dungeon" : "",
@@ -38,53 +86,235 @@
 			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Disillery_Whiskey", "amount": 2 }},
 			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Disillery_Wine", "amount": 2 }},
 			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Disillery_Best", "amount": 2 }}
+			 ]
+      },
+      {
+         "id" : "Oil_Barrel",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type": "item", "chances": 5, "data": { "type": "estate", "id": "Lantern_Oil_Bad", "amount": 1 }},
+			{ "type": "item", "chances": 6, "data": { "type": "estate", "id": "Lantern_Oil_Bad", "amount": 2 }},
+			{ "type": "item", "chances": 4, "data": { "type": "estate", "id": "Lantern_Oil_standard", "amount": 1 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Lantern_Oil_standard", "amount": 2 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Lantern_Oil_Good", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Lantern_Oil_Good", "amount": 2 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Lantern_Oil_Best", "amount": 1 }},
+			{ "type": "item", "chances": 1, "data": { "type": "estate", "id": "Lantern_Oil_Best", "amount": 2 }}
 			]
       },
       {
-         "id" : "Old_Qaurter_T1",
+         "id" : "Old_Qaurter_T1_Loot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "Old_Qaurter_Gems" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "Old_Qaurter_Loot" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+         ]
+      },
+      {
+         "id" : "Old_Qaurter_T2_Loot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "Old_Qaurter_Gems" }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "Old_Qaurter_Loot" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "Spiv_Credit_Drop" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+         ]
+      },
+      {
+         "id" : "Old_Qaurter_T3_Loot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "Old_Qaurter_Gems" }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "Old_Qaurter_Loot" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+         ]
+      },
+      {
+         "id" : "Old_Qaurter_Gems",
          "difficulty" : 1,
          "dungeon" : "",
          "entries" :
          [
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
-            { "type" : "item", "chances" : 7, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
-            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
-            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "merchant_credit", "amount" : 1 }}
-         ]
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 0, "data" : { "type" : "gem", "id" : "ancient_idol", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
+            { "type" : "item", "chances" : 10, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
+            { "type" : "item", "chances" : 10, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }}
+          ]
       },
       {
-         "id" : "Old_Qaurter_T2",
+         "id" : "Old_Qaurter_Gems",
          "difficulty" : 3,
          "dungeon" : "",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-			{ "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
-			{ "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
-            { "type" : "item", "chances" : 7, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
-            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
-            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "merchant_credit", "amount" : 1 }}         
-			]
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "ancient_idol", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
+            { "type" : "item", "chances" : 10, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+            { "type" : "item", "chances" : 10, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }}
+          ]
       },
       {
-         "id" : "Old_Qaurter_T3",
+         "id" : "Old_Qaurter_Gems",
          "difficulty" : 5,
          "dungeon" : "",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-			{ "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
-            { "type" : "item", "chances" : 4, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }},
-			{ "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
-			{ "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
-            { "type" : "item", "chances" : 7, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
-            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
-            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
-			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "merchant_credit", "amount" : 1 }}   
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "ancient_idol", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gem", "id" : "ruby", "amount" : 1 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gem", "id" : "sapphire", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gem", "id" : "emerald", "amount" : 1 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gem", "id" : "onyx", "amount" : 1 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "jade", "amount" : 1 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "gem", "id" : "citrine", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "Old_Qaurter_Loot",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }}
+         ]
+      },
+      {
+         "id" : "Old_Qaurter_Loot",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }}
+			]
+      },
+      {
+         "id" : "Old_Qaurter_Loot",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }}
+        	]
+      },
+      {
+         "id" : "Old_Qaurter_Carriage_Loot",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "Old_Qaurter_Gems" }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "Old_Qaurter_Loot" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
+			{ "type" : "table", "chances" : 3, "data" : { "table" : "Oil_Barrel" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+        ]
+      },
+      {
+         "id" : "Spiv_Credit_Drop",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "merchant_credit", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "Spiv_Credit_Drop",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "estate", "id" : "merchant_credit", "amount" : 1 }}
+			]
+      },
+      {
+         "id" : "Spiv_Credit_Drop",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "estate", "id" : "merchant_credit", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "Burnt_Contract_Drop",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "estate", "id" : "Burnt_Contract", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "Burnt_Contract_Drop",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "Burnt_Contract", "amount" : 1 }}
+			]
+      },
+      {
+         "id" : "Burnt_Contract_Drop",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "estate", "id" : "Burnt_Contract", "amount" : 1 }}
          ]
 	  }
 	  

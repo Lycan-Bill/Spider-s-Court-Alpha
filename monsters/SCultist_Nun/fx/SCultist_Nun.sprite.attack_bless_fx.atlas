@@ -1,0 +1,41 @@
+
+SCultist_Nun.sprite.attack_bless_fx.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crown_1
+  rotate: false
+  xy: 954, 272
+  size: 320, 231
+  orig: 320, 231
+  offset: 0, 0
+  index: -1
+crown__2
+  rotate: false
+  xy: 608, 191
+  size: 344, 312
+  orig: 344, 312
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 328, 108
+  size: 278, 395
+  orig: 278, 395
+  offset: 0, 0
+  index: -1
+poison
+  rotate: true
+  xy: 1276, 432
+  size: 71, 476
+  orig: 71, 476
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 324, 501
+  orig: 324, 501
+  offset: 0, 0
+  index: -1

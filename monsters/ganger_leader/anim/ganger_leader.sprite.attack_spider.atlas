@@ -1,0 +1,20 @@
+
+ganger_leader.sprite.attack_spider.png
+size: 723,723
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+belch
+  rotate: false
+  xy: 2, 81
+  size: 719, 640
+  orig: 719, 640
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 2, 8
+  size: 433, 71
+  orig: 433, 71
+  offset: 0, 0
+  index: -1

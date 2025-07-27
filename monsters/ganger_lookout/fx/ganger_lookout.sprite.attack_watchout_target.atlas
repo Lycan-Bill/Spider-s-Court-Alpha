@@ -1,6 +1,6 @@
 
 ganger_lookout.sprite.attack_watchout_target.png
-size: 256,256
+size: 179,179
 format: RGBA8888
 filter: Linear,Linear
 repeat: none

@@ -1,0 +1,230 @@
+{
+	"buffs": 
+	[
+
+
+      {
+         "id" : "Expirementation_SPDBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_DestressBuff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_ProtBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_BlightBuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_BleedBuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_Unholy_DMGLowBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         }
+      },
+      {
+         "id" : "Expirementation_Unholy_DMGHighBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "unholy"
+         }
+      },
+      {
+         "id" : "Expirementation_Eldritch_DMGLowBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "eldritch"
+         }
+      },
+      {
+         "id" : "Expirementation_Eldritch_DMGHighBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "eldritch"
+         }
+      },
+      {
+         "id" : "Expirementation_DMGLowBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_DMGHighBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_DMGLowBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_DefBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_AccBuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_stressDeBuff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_DefDebuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Expirementation_AccDebuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	  
+	  
+	]
+}

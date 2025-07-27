@@ -1,19 +1,19 @@
 
 ganger_breaker.sprite.attack_swing_fx.png
-size: 2048,512
+size: 1248,1248
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 hammerhead
   rotate: false
-  xy: 1248, 238
+  xy: 2, 506
   size: 326, 251
   orig: 326, 251
   offset: 0, 0
   index: -1
 hammerstreak
   rotate: false
-  xy: 2, 2
+  xy: 2, 759
   size: 1244, 487
   orig: 1244, 487
   offset: 0, 0

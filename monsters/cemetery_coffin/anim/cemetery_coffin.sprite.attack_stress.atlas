@@ -1,0 +1,20 @@
+
+cemetery_coffin.sprite.attack_stress.png
+size: 856,856
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Coffin
+  rotate: false
+  xy: 2, 477
+  size: 753, 377
+  orig: 753, 377
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 2, 322
+  size: 852, 153
+  orig: 852, 153
+  offset: 0, 0
+  index: -1

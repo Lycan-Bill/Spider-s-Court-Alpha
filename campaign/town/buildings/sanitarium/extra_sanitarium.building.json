@@ -1,0 +1,219 @@
+{
+    "on_start_town_visit_priority": 1,
+
+    "requirements": {
+        "number_of_quests_finished": 0,
+        "highest_dungeon_level": 0
+    },
+
+    "data": 
+    {
+        "activities":
+        [
+            {
+                "id":"treatment",
+                "data": 
+                {
+                    "positive_quirk_cost_upgrades": [
+                        { "cost_currency": { "type": "shard", "amount": 3 } }
+                    ],
+
+                    "negative_quirk_cost_upgrades": [
+                        { "cost_currency": { "type": "shard", "amount": 2 } }
+                    ],
+
+                    "permanent_negative_quirk_cost_upgrades": [
+                        { "cost_currency":  { "type": "shard", "amount": 4 } }
+                    ],
+
+                    "slot_upgrades": [
+                        { "number_of_slots": 1 },
+                        { "number_of_slots": 2, "upgrade_tree_id": "sanitarium.slots", "upgrade_requirement_code": "d" },
+                        { "number_of_slots": 3, "upgrade_tree_id": "sanitarium.slots", "upgrade_requirement_code": "e" }
+                    ],
+
+
+
+                  "side_effects":
+                    {
+                        "chance"    :  1.00,
+					"results"   :
+					[		
+						{
+							"type"      :  "activity_lock",
+							"chance"    :  0.1,
+							"data"      :  
+							[  
+							]  
+						},
+						{
+							"type"      :  "go_missing",
+							"chance"    :  0.15,
+							"data"      :  
+							[
+								{ "chance" :  1, "duration" :  1 },
+								{ "chance" :  1, "duration" :  2 }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_SPDBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_DestressBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_ProtBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_BlightBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_BleedBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_Unholy_DMGLowBuff", "Expirementation_Unholy_DMGHighBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_Eldritch_DMGLowBuff", "Expirementation_Eldritch_DMGHighBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.01,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_DMGLowBuff", "Expirementation_DMGHighBuff"] }
+							]  
+						},
+                        {
+							
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_DMGLowBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_DefBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_AccBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_stressDeBuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_DefDebuff"] }
+							]  
+						},
+						{
+							"type"      :  "apply_buff",
+							"chance"    :  0.02,
+							"data"      :  
+							[
+								{ "chance" :  1.0, "buff_library_ids" :  ["Expirementation_AccDebuff"] }
+							]  
+						},
+						{
+							"type"      :  "add_currency",
+							"chance"    :  0.1,
+							"data"      :  
+							[
+								{ "chance" :  99, "type" : "gold", "amount" : 5000 },
+								{ "chance" :  1, "type" : "gold", "amount" : 25000 }
+							]  
+						},
+                        {
+							"type"      :  "add_trinket",
+							"chance"    :  0.05,
+							"data"      :  
+							[
+                                { "chance" : 0.5, "rarity": "fight_pit" },
+								{ "chance" : 1.0, "rarity": "very_rare" },
+                                { "chance" : 1.0, "rarity": "rare" },
+                                { "chance" : 1.0, "rarity": "uncommon" },
+                                { "chance" : 2.0, "rarity": "common" }
+								]  
+							}
+							
+                        ]
+                    },
+					
+
+                    "quirk_treatment_upgrades": [
+                        { "chance": 1.0 }
+                    ]
+
+                }
+           
+
+
+
+
+
+
+
+
+
+		   }
+        ]
+		
+		
+		
+		
+    }
+}

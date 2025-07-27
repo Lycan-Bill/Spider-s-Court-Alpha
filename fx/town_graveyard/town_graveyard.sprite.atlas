@@ -1,0 +1,20 @@
+
+town_graveyard.sprite.png
+size: 627,627
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Funeral home
+  rotate: false
+  xy: 2, 2
+  size: 195, 623
+  orig: 195, 623
+  offset: 0, 0
+  index: -1
+Funeral_home
+  rotate: false
+  xy: 199, 2
+  size: 195, 623
+  orig: 195, 623
+  offset: 0, 0
+  index: -1

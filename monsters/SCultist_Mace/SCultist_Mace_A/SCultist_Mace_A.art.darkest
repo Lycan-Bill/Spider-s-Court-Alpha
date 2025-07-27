@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "scultist_guard" .anim "attack_guard" .fx "attack_guard_fx" .targchest "guard_target"
+skill: .id "scultist_mace" .anim "attack_mace" .fx "attack_mace_fx"

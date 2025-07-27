@@ -3,3 +3,4 @@ skill: .id "enforcer_punch" .anim "attack_punch" .fx "attack_punch" .targchestfx
 skill: .id "enforcer_knockout" .anim "attack_uppercut" .fx "attack_uppercut" .targchestfx "blood_splatter"
 skill: .id "enforcer_rush" .anim "attack_rush" .fx "attack_rush_fx" .targchestfx "blood_splatter"
 skill: .id "enforcer_headbutt" .anim "attack_headbutt" .fx "attack_headbutt_fx" .targchestfx "blood_splatter"
+display_modifier: .disabled_popup_text_types no_damage

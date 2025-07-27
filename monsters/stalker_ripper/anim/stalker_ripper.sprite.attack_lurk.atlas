@@ -1,0 +1,33 @@
+stalker_ripper.sprite.attack_lurk.png
+size: 2761,721
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lurking Monster
+  rotate: true
+  xy: 2, 2
+  size: 717, 896
+  orig: 717, 896
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 2696, 362
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1798, 8
+  size: 711, 896
+  orig: 711, 896
+  offset: 0, 0
+  index: -1
+stealthshadow
+  rotate: true
+  xy: 900, 2
+  size: 717, 896
+  orig: 717, 896
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+town_stage_coach_level03.sprite.png
+size: 744,744
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coach-boat
+  rotate: false
+  xy: 2, 410
+  size: 740, 332
+  orig: 740, 332
+  offset: 0, 0
+  index: -1

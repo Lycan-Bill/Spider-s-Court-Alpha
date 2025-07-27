@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "ghoul_boo" .anim "attack_boo" .fx "attack_boo" .targchestfx "blood_splatter"
+skill: .id "ghoul_swarm" .anim "attack_boo" .fx "attack_boo" .targchestfx "blood_splatter"

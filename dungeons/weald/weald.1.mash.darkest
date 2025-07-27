@@ -1,0 +1,19 @@
+hall: .chance 1 .types cemetery_skeleton_A cemetery_skeleton_A cemetery_ghoul_A 
+hall: .chance 1 .types cemetery_ghoul_A cemetery_skeleton_A  
+hall: .chance 0.15 .types cemetery_skeleton_A cemetery_ghoul_A cemetery_Aoffin_A 
+hall: .chance 1 .types cemetery_skeleton_A cemetery_ghoul_A cemetery_coffin_A 
+hall: .chance 1 .types cemetery_skeleton_A cemetery_ghoul_A cemetery_cane_A
+hall: .chance 1 .types cemetery_ghoul_A cemetery_cane_A cemetery_skeleton_A
+hall: .chance 1 .types cemetery_cane_A cemetery_skeleton_A cemetery_ghoul_A
+hall: .chance 1 .types cemetery_ghoul_A cemetery_cane_A
+hall: .chance 1 .types cemetery_ghoul_A cemetery_cane_A cemetery_skeleton_A
+
+room: .chance 1 .types cemetery_skeleton_A cemetery_skeleton_A cemetery_ghoul_A 
+room: .chance 1 .types cemetery_ghoul_A cemetery_skeleton_A  
+room: .chance 0.15 .types cemetery_skeleton_A cemetery_ghoul_A cemetery_Aoffin_A 
+room: .chance 1 .types cemetery_skeleton_A cemetery_ghoul_A cemetery_coffin_A 
+room: .chance 1 .types cemetery_skeleton_A cemetery_ghoul_A cemetery_cane_A
+room: .chance 1 .types cemetery_ghoul_A cemetery_cane_A cemetery_skeleton_A
+room: .chance 1 .types cemetery_cane_A cemetery_skeleton_A cemetery_ghoul_A
+room: .chance 1 .types cemetery_ghoul_A cemetery_cane_A
+room: .chance 1 .types cemetery_ghoul_A cemetery_cane_A cemetery_skeleton_A

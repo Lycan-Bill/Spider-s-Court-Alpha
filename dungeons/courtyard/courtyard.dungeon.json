@@ -1,6 +1,6 @@
 {
     "id_index": 6,
     "is_released": true,
-    "requires_quest_to_display": false,
+    "requires_quest_to_display": true,
     "can_be_locked": false
 }

@@ -1,0 +1,20 @@
+
+cemetery_ghoul.sprite.sprite.dead.png
+size: 361,361
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 3
+  size: 243, 356
+  orig: 243, 356
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 247, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

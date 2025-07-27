@@ -1,0 +1,20 @@
+
+town_tavern_locked.sprite.png
+size: 690,690
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tabern
+  rotate: false
+  xy: 2, 265
+  size: 342, 423
+  orig: 342, 423
+  offset: 0, 0
+  index: -1
+tavern
+  rotate: false
+  xy: 346, 265
+  size: 342, 423
+  orig: 342, 423
+  offset: 0, 0
+  index: -1

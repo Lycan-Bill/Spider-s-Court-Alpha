@@ -1,0 +1,40 @@
+stalker_ripper.sprite.attack_laugh_fx.png
+size: 1302,1328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 730, 732
+  size: 570, 594
+  orig: 570, 594
+  offset: 0, 0
+  index: -1
+ha1
+  rotate: true
+  xy: 429, 2
+  size: 404, 418
+  orig: 404, 418
+  offset: 0, 0
+  index: -1
+ha2
+  rotate: false
+  xy: 2, 2
+  size: 425, 404
+  orig: 425, 404
+  offset: 0, 0
+  index: -1
+ha3
+  rotate: true
+  xy: 849, 276
+  size: 454, 427
+  orig: 454, 427
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 408
+  size: 726, 918
+  orig: 726, 918
+  offset: 0, 0
+  index: -1

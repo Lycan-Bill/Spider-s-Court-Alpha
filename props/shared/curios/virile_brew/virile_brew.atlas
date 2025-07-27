@@ -1,0 +1,55 @@
+
+virile_brew.png
+size: 1924,1924
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer12
+  rotate: false
+  xy: 2, 59
+  size: 909, 576
+  orig: 909, 576
+  offset: 0, 0
+  index: -1
+Layer14
+  rotate: false
+  xy: 953, 661
+  size: 909, 539
+  orig: 909, 539
+  offset: 0, 0
+  index: -1
+Layer8
+  rotate: false
+  xy: 2, 637
+  size: 949, 563
+  orig: 949, 563
+  offset: 0, 0
+  index: -1
+cover
+  rotate: false
+  xy: 1118, 228
+  size: 126, 79
+  orig: 126, 79
+  offset: 0, 0
+  index: -1
+pot_glow
+  rotate: true
+  xy: 913, 107
+  size: 528, 203
+  orig: 528, 203
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 1118, 309
+  size: 239, 350
+  orig: 239, 350
+  offset: 0, 0
+  index: -1
+weald.room_wall.corruptedcabin
+  rotate: false
+  xy: 2, 1202
+  size: 1920, 720
+  orig: 1920, 720
+  offset: 0, 0
+  index: -1

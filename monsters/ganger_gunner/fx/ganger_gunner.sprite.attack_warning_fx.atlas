@@ -1,26 +1,26 @@
 
 ganger_gunner.sprite.attack_warning_fx.png
-size: 2048,512
+size: 890,890
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 gunnerWARNLIGHT
-  rotate: true
-  xy: 712, 10
+  rotate: false
+  xy: 415, 189
   size: 403, 699
   orig: 403, 699
   offset: 0, 0
   index: -1
 gunnerWARNSHADE
-  rotate: true
-  xy: 2, 2
+  rotate: false
+  xy: 2, 180
   size: 411, 708
   orig: 411, 708
   offset: 0, 0
   index: -1
 muzzelflash
   rotate: false
-  xy: 1413, 237
+  xy: 2, 2
   size: 262, 176
   orig: 262, 176
   offset: 0, 0

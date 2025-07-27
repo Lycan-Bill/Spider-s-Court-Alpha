@@ -5,7 +5,8 @@
 	{"event_id": "event:/music/mus_battle_darkestdungeon_room",					"guid_override":"{2a305d22-072b-4d53-b265-d70adf8fc4fa}"},
 	{"event_id": "event:/music/mus_exploration", 								"guid_override":"{363e27c3-18d2-47c9-845d-130028910b57}"},
 	{"event_id": "event:/music/mus_town", 								"guid_override":"{d49b6721-3459-4640-8f14-82e36e9f7434}"},
-	{"event_id": "event:/general/status/guard_failed",    "guid_override":"{4eadea58-780b-474b-aa0f-2988fbd31c91}"}
+	{"event_id": "event:/general/status/guard_failed",    "guid_override":"{4eadea58-780b-474b-aa0f-2988fbd31c91}"},
+	{"event_id": "event:/general/status/buff_fx_status_fx_burn_onset",             "guid_override":"{4eadea58-780b-474b-aa0f-2988fbd31c91}"}
     ]
 		
 }

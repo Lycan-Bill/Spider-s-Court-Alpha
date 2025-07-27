@@ -1,53 +1,120 @@
-hall: .chance 0.5 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C 
-hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C  
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_gunner_C 
+hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C 
+hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_gunner_C ganger_lookout_C  
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_gunner_C ganger_lookout_C
 hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C ganger_lookout_C
 hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C ganger_assassin_C
 hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_assassin_C ganger_assassin_C
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_assassin_C ganger_assassin_C
 hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_assassin_C
 hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
+hall: .chance 1 .types ganger_newbie_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
 hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_gunner_C ganger_lookout_C
+hall: .chance 1 .types ganger_newbie_C ganger_gunner_C ganger_grenadier_C ganger_assassin_C
 hall: .chance 1 .types ganger_gunner_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
-hall: .chance 0.5 .types ganger_gunner_C ganger_gunner_C ganger_gunner_C ganger_assassin_C
-hall: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_assassin_C ganger_lookout_C
-hall: .chance 1 .types ganger_enforcer_C ganger_lookout_C ganger_grenadier_C ganger_assassin_C
+hall: .chance 1 .types ganger_newbie_C ganger_newbie_C ganger_grenadier_C ganger_lookout_C
+hall: .chance 1 .types ganger_newbie_C ganger_grenadier_C ganger_grenadier_C ganger_assassin_C
+hall: .chance 1 .types ganger_newbie_C ganger_grenadier_C ganger_lookout_C ganger_assassin_C
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_lookout_C ganger_assassin_C
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_lookout_C ganger_escort_C
 hall: .chance 1 .types ganger_enforcer_C ganger_lookout_C ganger_escort_C 
-hall: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_escort_C 
+hall: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_escort_C
+hall: .chance 1 .types ganger_newbie_C ganger_breaker_C ganger_escort_C 
 hall: .chance 1 .types ganger_enforcer_C ganger_grenadier_C ganger_assassin_C ganger_escort_C
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_assassin_C ganger_escort_C
 hall: .chance 2 .types ganger_enforcer_C ganger_gunner_C ganger_escort_C ganger_grenadier_C
+hall: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_assassin_C ganger_escort_C
 hall: .chance 1 .types ganger_enforcer_C ganger_grenadier_C ganger_lookout_C ganger_escort_C 
 hall: .chance 1 .types ganger_enforcer_C ganger_escort_C ganger_lookout_C_C ganger_assassin_C
+hall: .chance 1 .types ganger_newbie_C ganger_escort_C ganger_lookout_C_C ganger_assassin_C
 hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_escort_C
+hall: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_newbie_C ganger_escort_C
 
-room: .chance 0.5 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C 
-room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C  
+room: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C 
+room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C
+room: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_gunner_C  
 room: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_gunner_C ganger_lookout_C
 room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_lookout_C ganger_assassin_C
+room: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_gunner_C ganger_lookout_C
 room: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_assassin_C ganger_assassin_C
+room: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_assassin_C ganger_assassin_C
 room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_assassin_C
+room: .chance 1 .types ganger_newbie_C ganger_gunner_C ganger_grenadier_C ganger_assassin_C
 room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
 room: .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_gunner_C ganger_lookout_C
+room: .chance 1 .types ganger_newbie_C ganger_gunner_C ganger_gunner_C ganger_lookout_C
 room: .chance 1 .types ganger_gunner_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
-room: .chance 1 .types ganger_gunner_C ganger_gunner_C ganger_gunner_C ganger_assassin_C
+room: .chance 1 .types ganger_newbie_C ganger_gunner_C ganger_gunner_C ganger_assassin_C
 room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_assassin_C
+room: .chance 1 .types ganger_newbie_C ganger_breaker_C ganger_assassin_C
 room: .chance 1 .types ganger_enforcer_C ganger_breaker_C ganger_assassin_C
 room: .chance 1 .types ganger_enforcer_C ganger_breaker_C ganger_lookout_C
 room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_lookout_C
 room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_grenadier_C
 room: .chance 1 .types ganger_enforcer_C ganger_breaker_C ganger_grenadier_C
-room: .chance 1 .types ganger_enforcer_C ganger_lookout_C ganger_escort_C 
-room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_escort_C 
+room: .chance 1 .types ganger_newbie_C ganger_breaker_C ganger_grenadier_C
+room: .chance 1 .types ganger_newbie_C ganger_breaker_C ganger_lookout_C
+
+room: .chance 1 .types ganger_enforcer_C ganger_lookout_C ganger_escort_C
+room: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_lookout_C ganger_escort_C  
+room: .chance 1 .types ganger_gunner_C ganger_breaker_C ganger_escort_C
+room: .chance 1 .types ganger_newbie_C ganger_breaker_C ganger_escort_C 
 room: .chance 1 .types ganger_enforcer_C ganger_grenadier_C ganger_assassin_C ganger_escort_C
+room: .chance 1 .types ganger_enforcer_C ganger_newbie_C ganger_assassin_C ganger_escort_C
+room: .chance 1 .types ganger_newbie_C ganger_grenadier_C ganger_assassin_C ganger_escort_C
 room: .chance 2 .types ganger_enforcer_C ganger_gunner_C ganger_escort_C ganger_grenadier_C
+room: .chance 1 .types ganger_newbie_C ganger_newbie_C ganger_assassin_C ganger_escort_C
 room: .chance 1 .types ganger_enforcer_C ganger_grenadier_C ganger_lookout_C ganger_escort_C 
 room: .chance 1 .types ganger_enforcer_C ganger_escort_C ganger_lookout_C_C ganger_assassin_C
-room: .chance 1 .types ganger_enforcer_C ganger_enforcer_C ganger_escort_C
+room: .chance 1 .types ganger_newbie_C ganger_enforcer_C ganger_escort_C
 
-boss: .chance 1 .types necromancer_C   
+hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C 
+hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C  
+hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C   
+hall: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
+hall: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C
+hall: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
+hall: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
+
+hall: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C 
+hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C SCultist_Chains_C  
+hall: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C   
+hall: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
+hall: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C
+hall: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
+hall: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
+
+room: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C 
+room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C SCultist_Chains_C  
+room: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C   
+room: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
+room: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C
+room: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
+room: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
+
+room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C 
+room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C  
+room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C   
+room: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
+room: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C
+room: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
+room: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
+
+boss: .chance 1 .types killer_trap_stun_C ripper_C killer_victim_C killer_trap_bleed_C    
 boss: .chance 1 .types pew_small_C pew_medium_C pew_large_C prophet_C
 stall: .chance 3 .types cultist_brawler_C cultist_witch_C  
 stall: .chance 2 .types skeleton_militia_C skeleton_militia_C  
 stall: .chance 2 .types skeleton_militia_C skeleton_arbalist_C  
 stall: .chance 2 .types ghoul_C   
 stall: .chance 2 .types gargoyle_C gargoyle_C  
-stall: .chance 1 .types skeleton_bearer_C   
+stall: .chance 1 .types skeleton_bearer_C
+   
 named: .name summon_kid .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_grenadier_C ganger_lookout_C
+
+named: .name mork .chance 1 .types ganger_gunner_C ganger_grenadier_C ganger_newbie_C ganger_mork_D
+named: .name gork .chance 1 .types crate_fire_C crate_blight_C ganger_gork_D crate_bleed_C
+
+named: .name grim_reaper .chance 1 .types flag_tombstone_C death_C flag_tombstone_C flag_tombstone_C
+
+named: .name literally_for_show .chance 1 .types ganger_enforcer_C ganger_gunner_C ganger_assassin_C ganger_lookout_C

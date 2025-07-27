@@ -1,0 +1,97 @@
+
+ripper.sprite.combat.png
+size: 1027,1027
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 275
+  size: 513, 750
+  orig: 513, 750
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: false
+  xy: 2, 68
+  size: 262, 205
+  orig: 262, 205
+  offset: 0, 0
+  index: -1
+Layer 13
+  rotate: false
+  xy: 517, 243
+  size: 274, 142
+  orig: 274, 142
+  offset: 0, 0
+  index: -1
+Layer 14
+  rotate: true
+  xy: 509, 73
+  size: 168, 274
+  orig: 168, 274
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 517, 387
+  size: 231, 638
+  orig: 231, 638
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 509, 2
+  size: 167, 69
+  orig: 167, 69
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: true
+  xy: 941, 528
+  size: 138, 66
+  orig: 138, 66
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 785, 63
+  size: 127, 79
+  orig: 127, 79
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 266, 52
+  size: 241, 221
+  orig: 241, 221
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 793, 264
+  size: 185, 197
+  orig: 185, 197
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 793, 144
+  size: 147, 118
+  orig: 147, 118
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 750, 463
+  size: 189, 562
+  orig: 189, 562
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 941, 668
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

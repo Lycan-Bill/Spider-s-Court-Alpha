@@ -1,0 +1,55 @@
+
+ganger_leader.sprite.attack_slam_fx.png
+size: 1833,1833
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 6
+  rotate: false
+  xy: 2, 74
+  size: 589, 830
+  orig: 589, 830
+  offset: 0, 0
+  index: -1
+light(IF THIS LOOKS WRONG, DISCARD)
+  rotate: false
+  xy: 931, 934
+  size: 900, 897
+  orig: 900, 897
+  offset: 0, 0
+  index: -1
+rubb3
+  rotate: true
+  xy: 593, 299
+  size: 605, 326
+  orig: 605, 326
+  offset: 0, 0
+  index: -1
+rubb_1
+  rotate: false
+  xy: 1404, 622
+  size: 323, 310
+  orig: 323, 310
+  offset: 0, 0
+  index: -1
+rubb_2
+  rotate: true
+  xy: 593, 27
+  size: 270, 363
+  orig: 270, 363
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 906
+  size: 927, 925
+  orig: 927, 925
+  offset: 0, 0
+  index: -1
+shockwave
+  rotate: false
+  xy: 931, 537
+  size: 471, 395
+  orig: 471, 395
+  offset: 0, 0
+  index: -1

@@ -1,6 +1,6 @@
 
 ganger_lookout.sprite.attack_knife_fx.png
-size: 1024,1024
+size: 789,789
 format: RGBA8888
 filter: Linear,Linear
 repeat: none

@@ -1,0 +1,20 @@
+
+cemetery_skeleton.sprite.sprite.dead.png
+size: 361,361
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 169
+  size: 344, 190
+  orig: 344, 190
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 104
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+death.sprite.attack_scythe.png
+size: 3293,3293
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: true
+  xy: 1191, 229
+  size: 1364, 1174
+  orig: 1364, 1174
+  offset: 0, 0
+  index: -1
+magicswing
+  rotate: true
+  xy: 2673, 2267
+  size: 1024, 493
+  orig: 1024, 493
+  offset: 0, 0
+  index: -1
+scy1
+  rotate: false
+  xy: 2, 1595
+  size: 1480, 1696
+  orig: 1480, 1696
+  offset: 0, 0
+  index: -1
+scy2
+  rotate: false
+  xy: 2, 188
+  size: 1187, 1405
+  orig: 1187, 1405
+  offset: 0, 0
+  index: -1
+scy3
+  rotate: false
+  xy: 1484, 1886
+  size: 1187, 1405
+  orig: 1187, 1405
+  offset: 0, 0
+  index: -1
+scythflwrs
+  rotate: false
+  xy: 2367, 655
+  size: 924, 1229
+  orig: 924, 1229
+  offset: 0, 0
+  index: -1

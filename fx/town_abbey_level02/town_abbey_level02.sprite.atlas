@@ -1,0 +1,20 @@
+
+town_abbey_level02.sprite.png
+size: 592,592
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+church
+  rotate: false
+  xy: 2, 126
+  size: 293, 464
+  orig: 293, 464
+  offset: 0, 0
+  index: -1
+church_active
+  rotate: false
+  xy: 297, 126
+  size: 293, 464
+  orig: 293, 464
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,38 @@
+{
+    "event_guid_overrides":
+    [
+
+       {"event_id": "event:/char/enemy/bloody_butler_blood_butler_revive",                   "guid_override":"{039de08a-4fd5-4d92-b92b-1525cb263dbc}"},
+        {"event_id": "event:/char/enemy/bloody_butler_butler_shown",                   "guid_override":"{bb88f644-b3d7-4a53-8b45-62d6e636092f}"},
+		{"event_id": "event:/char/enemy/bloody_butler_butler_dinner",                   "guid_override":"{c0e7356c-a7cd-4b46-866c-8a021932b6dd}"},
+        {"event_id": "event:/char/enemy/bloody_butler_butler_protect",                   "guid_override":"{35305dac-889f-47ef-920c-022b65e0bf6a}"},
+		{"event_id": "event:/char/enemy/blood_collector_butler_greeting",                   "guid_override":"{a08456ec-003d-40a4-851c-7d7ba2aa6993}"},
+		{"event_id": "event:/char/enemy/bloody_butler_vo_aggro",                   "guid_override":"{6854e07c-c82e-4bbd-b42c-b10ae24e1e5a}"},
+        {"event_id": "event:/char/enemy/bloody_butler_vo_death",                   "guid_override":"{66626799-1903-429c-8ea4-0e4917b6093a}"},
+        {"event_id": "event:/char/enemy/bloody_butler_vo_hurt",                   "guid_override":"{e3146af7-7895-4cd1-970a-b0413419b769}"},
+		
+		{"event_id": "event:/char/enemy/cc_maid_vo_aggro",                   "guid_override":"{7dfbda83-6e47-4340-9c37-8cc5146b7c8d}"},
+        {"event_id": "event:/char/enemy/cc_maid_vo_death",                   "guid_override":"{fa3d2815-2707-4ec6-b317-5073aebeefb0}"},
+        {"event_id": "event:/char/enemy/cc_maid_vo_hurt",                   "guid_override":"{73cb2891-51e8-42b8-bd43-f5197c5aa668}"},
+		
+		{"event_id": "event:/char/enemy/scarab_chef_vo_aggro",                   "guid_override":"{0138e1d9-31ac-4a1c-b561-987ff9589076}"},
+        {"event_id": "event:/char/enemy/scarab_chef_vo_death",                   "guid_override":"{97551014-4095-4a8a-9bb8-452563fa0485}"},
+        {"event_id": "event:/char/enemy/scarab_chef_vo_hurt",                   "guid_override":"{a9110d9e-38fa-4013-b395-3d08131e5526}"},
+		
+		{"event_id": "event:/char/enemy/cc_maid_CC_maid_vintage",                   "guid_override":"{f1039bce-a049-4928-919d-8d9b24ba4f9b}"},
+		{"event_id": "event:/char/enemy/cc_maid_CC_maid_vintage_miss",                   "guid_override":"{6025e101-52ce-48f9-867d-14cbf9951328}"},
+		{"event_id": "event:/char/enemy/cc_maid_CC_maid_knives",                   "guid_override":"{da70c6fa-da2e-41b7-aebb-f9b7d805393a}"},
+		{"event_id": "event:/char/enemy/cc_maid_CC_maid_knives_miss",                   "guid_override":"{357db20c-9c03-47da-9b59-5581d8aaf063}"},
+		{"event_id": "event:/char/enemy/cc_maid_Delete_Boons_Wife",                   "guid_override":"{da70c6fa-da2e-41b7-aebb-f9b7d805393a}"},
+		{"event_id": "event:/char/enemy/cc_maid_Delete_Boons_Wife_miss",                   "guid_override":"{357db20c-9c03-47da-9b59-5581d8aaf063}"},
+		{"event_id": "event:/char/enemy/scarab_chef_sc_pin_smack",                   "guid_override":"{9e9c20bb-8b73-42d5-b290-be3e8e799221}"},
+		{"event_id": "event:/char/enemy/scarab_chef_sc_pin_smack_miss",                   "guid_override":"{7ef10706-34f5-45c4-89c7-be42dcd2392c}"},
+		{"event_id": "event:/char/enemy/scarab_chef_sc_first_course",                   "guid_override":"{5922f098-d6b7-4ed8-a1dd-07be1739ce09}"},
+		{"event_id": "event:/char/enemy/scarab_chef_sc_second_course",                   "guid_override":"{89ee6ae2-9d34-442d-a718-47f4cdf64417}"},
+		{"event_id": "event:/char/enemy/scarab_chef_sc_third_course",                   "guid_override":"{f0bc87c4-c237-4765-b912-fb4ef651124b}"}
+		
+		
+		
+
+    ]
+}

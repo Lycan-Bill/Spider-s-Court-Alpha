@@ -1,0 +1,20 @@
+
+ripper.sprite.defend.png
+size: 1142,676
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Defend
+  rotate: true
+  xy: 2, 2
+  size: 672, 1073
+  orig: 672, 1073
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 1077, 317
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,6 @@
+commonfx: .deathfx death_medium
+skill: .id "ganger_pipe" .anim "attack_pipe" .fx "attack_pipe"
+skill: .id "ganger_pipe_stun" .anim "attack_pipe" .fx "attack_pipe"
+skill: .id "ganger_shotgun" .anim "attack_shoot" .fx "attack_shoot"
+skill: .id "ganger_shotgun_mark" .anim "attack_shoot" .fx "attack_shoot"
+display_modifier: .disabled_popup_text_types no_damage

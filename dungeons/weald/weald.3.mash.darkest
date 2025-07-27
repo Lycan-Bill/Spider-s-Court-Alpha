@@ -1,0 +1,15 @@
+hall: .chance 1 .types cemetery_skeleton_B cemetery_skeleton_B cemetery_ghoul_B 
+hall: .chance 0.15 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_coffin_B 
+hall: .chance 1 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_coffin_B 
+hall: .chance 1 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_cane_B
+hall: .chance 1 .types cemetery_ghoul_B cemetery_cane_B cemetery_skeleton_B
+hall: .chance 1 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_cane_B
+hall: .chance 1 .types cemetery_ghoul_B cemetery_cane_B cemetery_skeleton_B
+
+room: .chance 1 .types cemetery_skeleton_B cemetery_skeleton_B cemetery_ghoul_B 
+room: .chance 0.15 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_coffin_B 
+room: .chance 1 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_coffin_B 
+room: .chance 1 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_cane_B
+room: .chance 1 .types cemetery_skeleton_B cemetery_ghoul_B cemetery_cane_B
+room: .chance 1 .types cemetery_cane_B cemetery_skeleton_B cemetery_ghoul_B
+room: .chance 1 .types cemetery_ghoul_B cemetery_skeleton_B cemetery_cane_B

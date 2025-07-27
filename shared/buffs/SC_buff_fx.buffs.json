@@ -1,0 +1,107 @@
+{
+	"buffs": [
+		{
+			
+			"id": "status_fx_burn",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "status_fx_burn",
+			"remove_on_battle_complete":true,
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"is_clear_debuff_valid": false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			},
+			"has_description": false,
+			"fx": "status_fx_burn"
+		},
+		{
+			"id": "status_fx_burn1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "status_fx_burn1",
+			"remove_on_battle_complete":true,
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"is_clear_debuff_valid": false,
+			"rule_data" : {
+				"float": 1,
+				"string": ""
+			},
+			"has_description": false,
+			"fx": "status_fx_burn"
+		},
+		{
+			"id": "status_fx_burn2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "status_fx_burn2",
+			"remove_on_battle_complete":true,
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"is_clear_debuff_valid": false,
+			"rule_data" : {
+				"float": 2,
+				"string": ""
+			},
+			"has_description": false,
+			"fx": "status_fx_burn"
+		},
+		{
+			"id": "status_fx_burn3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "status_fx_burn3",
+			"remove_on_battle_complete":true,
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"is_clear_debuff_valid": false,
+			"rule_data" : {
+				"float": 3,
+				"string": ""
+			},
+			"has_description": false,
+			"fx": "status_fx_burn"
+		},
+		{
+			"id": "status_fx_burn4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "status_fx_burn4",
+			"remove_on_battle_complete":true,
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"is_clear_debuff_valid": false,
+			"rule_data" : {
+				"float": 4,
+				"string": ""
+			},
+			"has_description": false,
+			"fx": "status_fx_burn"
+		},
+		{
+			"id": "status_fx_burn5",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "status_fx_burn5",
+			"remove_on_battle_complete":true,
+			"amount" : -1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"is_clear_debuff_valid": false,
+			"rule_data" : {
+				"float": 5,
+				"string": ""
+			},
+			"has_description": false,
+			"fx": "status_fx_burn"
+		}
+	]
+}

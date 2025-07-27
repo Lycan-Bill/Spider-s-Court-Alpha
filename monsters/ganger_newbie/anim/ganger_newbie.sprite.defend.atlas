@@ -1,0 +1,20 @@
+
+ganger_newbie.sprite.defend.png
+size: 685,685
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defend
+  rotate: false
+  xy: 2, 2
+  size: 558, 681
+  orig: 558, 681
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 562, 250
+  size: 433, 71
+  orig: 433, 71
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+ganger_grenadier.sprite.attack_death.png
+size: 1226,1226
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BOOM
+  rotate: false
+  xy: 2, 540
+  size: 860, 684
+  orig: 860, 684
+  offset: 0, 0
+  index: -1
+fuse_1
+  rotate: false
+  xy: 812, 508
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+fuse_2
+  rotate: false
+  xy: 950, 628
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+fuse_3
+  rotate: false
+  xy: 636, 135
+  size: 32, 44
+  orig: 32, 44
+  offset: 0, 0
+  index: -1
+fuse_4
+  rotate: false
+  xy: 1063, 1016
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+gible_3
+  rotate: false
+  xy: 701, 379
+  size: 35, 31
+  orig: 35, 31
+  offset: 0, 0
+  index: -1
+giblet
+  rotate: false
+  xy: 864, 566
+  size: 84, 88
+  orig: 84, 88
+  offset: 0, 0
+  index: -1
+giblet_2
+  rotate: false
+  xy: 701, 412
+  size: 109, 126
+  orig: 109, 126
+  offset: 0, 0
+  index: -1
+granadierKABOOM
+  rotate: true
+  xy: 2, 6
+  size: 532, 632
+  orig: 532, 632
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 1063, 1053
+  size: 161, 171
+  orig: 161, 171
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 864, 656
+  size: 187, 185
+  orig: 187, 185
+  offset: 0, 0
+  index: -1
+leftovers
+  rotate: true
+  xy: 864, 843
+  size: 381, 197
+  orig: 381, 197
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 636, 181
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

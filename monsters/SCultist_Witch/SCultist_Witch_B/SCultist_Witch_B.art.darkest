@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "switch_web" .anim "attack_web" .fx "attack_web_fx" .targheadfx "attack_web_target"
+skill: .id "switch_spider" .anim "attack_spoider" .fx "attack_spoider_fx"

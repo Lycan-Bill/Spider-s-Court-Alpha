@@ -1,0 +1,31 @@
+display: .size 1
+enemy_type: .id "man"
+stats: .hp 160 .def 20% .prot 0 .spd 4 .stun_resist 90% .poison_resist 75% .bleed_resist 75% .debuff_resist 70% .move_resist 60%
+skill: .id "gork_point_blank" .type "ranged" .atk 105.5% .dmg 9 12 .crit 5%  .effect "Gork Normal Rounds" .launch 21 .target ?1234 .extra_targets_count 2 .extra_targets_chance 1 .is_crit_valid true .valid_modes "human"
+skill: .id "gork_point_blight" .type "ranged" .atk 105.5% .dmg 9 12 .crit 5%  .effect "Ganger Normal Mode"  "Ganger Gork Blight" .launch 21 .target ?1234 .extra_targets_count 2 .extra_targets_chance 1 .is_crit_valid true .valid_modes "blight"
+skill: .id "gork_point_bleed" .type "ranged" .atk 105.5% .dmg 9 12 .crit 5%  .effect "Ganger Normal Mode" "Ganger Gork Bleed" .launch 21 .target ?1234 .extra_targets_count 2 .extra_targets_chance 1 .is_crit_valid true .valid_modes "bleed"
+skill: .id "gork_point_fire" .type "ranged" .atk 105.5% .dmg 9 12 .crit 5%  .effect "Ganger Normal Mode" "dd2_burn_token_4H" "Gork Hollow Rounds" .launch 21 .target ?1234 .extra_targets_count 2 .extra_targets_chance 1 .is_crit_valid true .ignore_guard true .ignore_protection true .valid_modes "fire"
+skill: .id "gork_drill" .type "ranged" .atk 120.5% .dmg 10 13 .crit 7%  .effect "Ganger Gork Push" .launch 43 .target ~12 .move 0 2 .valid_modes "human"  "blight" "bleed" "fire"
+skill: .id "ammo_swap_blight" .effect "Ganger Poison Mode" "Gork DMG Penality" .launch 4321 .target @1234 .valid_modes "human"
+skill: .id "ammo_swap_bleed" .effect "Ganger Bleed Mode" "Gork DMG Penality".launch 1234 .target @1234 .valid_modes "human"
+skill: .id "ammo_swap_fire" .effect "Ganger Fire Mode"  .launch 1234 .target @1234 .valid_modes "human"
+personality: .prefskill -1
+loot: .code "T" .count 2
+initiative: .number_of_turns_per_round 2
+monster_brain: .id ganger_gork
+mode: .id human .is_raid_default true
+mode: .id blight
+mode: .id bleed
+mode: .id fire
+
+tag: .id "boss"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .disabled_act_out_combat_start_turn_types retreat_from_combat
+
+skill: .id "gork_point_blank" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "gork_point_blight" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "gork_point_bleed" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "gork_point_fire" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "gork_drill" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "ammo_swap_blight" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "ammo_swap_bleed" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "ammo_swap_fire" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"

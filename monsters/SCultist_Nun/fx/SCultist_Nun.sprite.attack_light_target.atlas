@@ -1,0 +1,41 @@
+
+SCultist_Nun.sprite.attack_light_target.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: true
+  xy: 2, 2
+  size: 424, 912
+  orig: 424, 912
+  offset: 0, 0
+  index: -1
+sparks1
+  rotate: false
+  xy: 916, 16
+  size: 306, 190
+  orig: 306, 190
+  offset: 0, 0
+  index: -1
+sparks2
+  rotate: false
+  xy: 1554, 236
+  size: 306, 190
+  orig: 306, 190
+  offset: 0, 0
+  index: -1
+sparks3
+  rotate: false
+  xy: 916, 208
+  size: 317, 218
+  orig: 317, 218
+  offset: 0, 0
+  index: -1
+sparks4
+  rotate: false
+  xy: 1235, 208
+  size: 317, 218
+  orig: 317, 218
+  offset: 0, 0
+  index: -1

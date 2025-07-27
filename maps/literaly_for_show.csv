@@ -1,0 +1,13 @@
+global,,room;entrance,room;,room;mash,room;curio,r;final_room,,c;,c;mash,c;curio,c;trap,c;obstacle,,,,,,,,,,,,,,
+,,ROOM TILES,,,,,,CORRIDOR TILES,,,,,,COMMENT,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,c;,c;,c;,c;,room;mash=mork,c;,,
+,,,,,,,,,,,,,,,,,,c;,c;,,,,,c;,c;,
+,,,,,,,,,,,,,,,,,c;,c;,,,,,,,c;,c;
+,,,,,,,,,,,,,,,,,c;,,,,,,,,,c;
+,,,,,,room;entrance,c;,c;,c;,c;,c;,c;,c;,c;mash=grim_reaper,c;,c;,room;,,,,room;,c;,c;,c;,c;,room;
+,,,,,,,,,,,,,,,,,c;,,,,,,,,,c;
+,,,,,,,,,,,,,,,,,c;,c;,,,,,,,c;,c;
+,,,,,,,,,,,,,,,,,,c;,c;,,,,,c;,c;,
+,,,,,,,,,,,,,,,,,,,c;,c;,c;,c;,room;mash=gork,c;,,

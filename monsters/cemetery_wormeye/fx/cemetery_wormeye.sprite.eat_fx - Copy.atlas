@@ -1,0 +1,27 @@
+
+cemetery_wormeye.sprite.eat_fx.png
+size: 990,402
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 521, 22
+  size: 330, 378
+  orig: 330, 378
+  offset: 0, 0
+  index: -1
+orbs
+  rotate: false
+  xy: 853, 192
+  size: 135, 208
+  orig: 135, 208
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 2
+  size: 398, 517
+  orig: 398, 517
+  offset: 0, 0
+  index: -1

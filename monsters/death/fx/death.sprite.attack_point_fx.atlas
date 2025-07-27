@@ -1,0 +1,13 @@
+
+death.sprite.attack_point_fx.png
+size: 557,557
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sound
+  rotate: false
+  xy: 2, 28
+  size: 553, 527
+  orig: 553, 527
+  offset: 0, 0
+  index: -1

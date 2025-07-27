@@ -1,0 +1,20 @@
+
+death_death.sprite.png
+size: 1269,1028
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+library/shadow
+  rotate: true
+  xy: 1028, 656
+  size: 370, 239
+  orig: 370, 239
+  offset: 0, 0
+  index: -1
+library/skull
+  rotate: false
+  xy: 2, 2
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1

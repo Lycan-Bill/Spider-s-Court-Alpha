@@ -1,0 +1,62 @@
+
+ripper.sprite.attack_stab_fx.png
+size: 1373,650
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: true
+  xy: 1111, 2
+  size: 90, 238
+  orig: 90, 238
+  offset: 0, 0
+  index: -1
+blade
+  rotate: false
+  xy: 910, 430
+  size: 293, 218
+  orig: 293, 218
+  offset: 0, 0
+  index: -1
+cut1
+  rotate: false
+  xy: 1131, 94
+  size: 198, 192
+  orig: 198, 192
+  offset: 0, 0
+  index: -1
+cut2
+  rotate: false
+  xy: 910, 62
+  size: 199, 177
+  orig: 199, 177
+  offset: 0, 0
+  index: -1
+cut3
+  rotate: false
+  xy: 910, 241
+  size: 219, 187
+  orig: 219, 187
+  offset: 0, 0
+  index: -1
+cut4
+  rotate: true
+  xy: 1205, 449
+  size: 199, 151
+  orig: 199, 151
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 5
+  size: 643, 906
+  orig: 643, 906
+  offset: 0, 0
+  index: -1
+skull
+  rotate: false
+  xy: 1205, 288
+  size: 166, 159
+  orig: 166, 159
+  offset: 0, 0
+  index: -1

@@ -1,19 +1,19 @@
 
 ganger_gunner.sprite.attack_blast.png
-size: 1024,1024
+size: 681,681
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ground_shadow
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 616, 322
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
   index: -1
 gunnerBLASTEM
   rotate: false
-  xy: 2, 67
+  xy: 2, 24
   size: 612, 655
   orig: 612, 655
   offset: 0, 0

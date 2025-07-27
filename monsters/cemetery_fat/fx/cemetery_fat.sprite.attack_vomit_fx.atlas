@@ -1,0 +1,48 @@
+
+cemetery_fat.sprite.attack_vomit_fx.png
+size: 423,423
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: true
+  xy: 2, 26
+  size: 171, 317
+  orig: 171, 317
+  offset: 0, 0
+  index: -1
+abomination.sprite.vomit
+  rotate: false
+  xy: 2, 199
+  size: 419, 222
+  orig: 419, 222
+  offset: 0, 0
+  index: -1
+abomination.sprite.vomit Copy
+  rotate: false
+  xy: 321, 65
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+abomination.sprite.vomit Copy 2
+  rotate: true
+  xy: 321, 99
+  size: 51, 34
+  orig: 51, 34
+  offset: 0, 0
+  index: -1
+abomination.sprite.vomit Copy 3
+  rotate: false
+  xy: 367, 163
+  size: 51, 34
+  orig: 51, 34
+  offset: 0, 0
+  index: -1
+abomination.sprite.vomit Copy 4
+  rotate: false
+  xy: 321, 152
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1

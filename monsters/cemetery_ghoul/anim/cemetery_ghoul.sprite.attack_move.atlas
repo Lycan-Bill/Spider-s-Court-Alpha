@@ -1,0 +1,20 @@
+
+cemetery_ghoul.sprite.attack_move.png
+size: 577,577
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 341, 573
+  orig: 341, 573
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 345, 218
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

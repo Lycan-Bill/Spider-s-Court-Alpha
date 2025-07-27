@@ -1,0 +1,8 @@
+commonfx: .deathfx death_medium
+skill: .id "zombie_lurch" .anim "combat"
+skill: .id "zombie_moan" .anim "combat"
+skill: .id "zombie_puke" .anim "combat"
+skill: .id "zombie_eat" .anim "combat"
+skill: .id "zombie_bite" .anim "combat"
+skill: .id "zombie_fear" .anim "combat"
+audio_modifier: .intensity 3.0

@@ -1,0 +1,79 @@
+{
+  "buffs": [
+    {
+      "id": "dd2_burn_token_tt",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "dd2_burn_token_tt",
+      "remove_on_battle_complete": true,
+      "amount": -0.01,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "is_clear_debuff_valid": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "dd2_burn_token_tt2",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "dd2_burn_token_tt",
+      "remove_on_battle_complete": true,
+      "amount": -0.02,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "is_clear_debuff_valid": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "dd2_burn_token_tt3",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "dd2_burn_token_tt",
+      "remove_on_battle_complete": true,
+      "amount": -0.03,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "is_clear_debuff_valid": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "dd2_burn_token_tt4",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "dd2_burn_token_tt",
+      "remove_on_battle_complete": true,
+      "amount": -0.04,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "is_clear_debuff_valid": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "dd2_burn_token_tt5",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "dd2_burn_token_tt",
+      "remove_on_battle_complete": true,
+      "amount": -0.05,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "is_clear_debuff_valid": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    }
+  ]
+}

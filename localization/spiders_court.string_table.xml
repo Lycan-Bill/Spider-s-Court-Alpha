@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="english">
+  
+  <!--Savestuff-->
+  <entry id="estate_title_default_data"><![CDATA[The Quarter]]></entry>
+	<entry id="str_save_pre_click"><![CDATA[Click the letter to begin...]]></entry>
+	<entry id="str_save_post_click"><![CDATA[The Quarter]]></entry>
+  
+  <!--Status-->
 <entry id="str_fire"><![CDATA[{colour_start|attacktype}Fire{colour_end}]]></entry>
 <entry id="buff_bsrc_deathsdoor_recovery"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
 <entry id="str_ui_guard_break"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
@@ -14,7 +21,81 @@
   <entry id="str_monstername_bloody_butler_A"><![CDATA[Bloodstained Butler]]></entry>
   <entry id="str_monstername_bloody_butler_B"><![CDATA[Blood-spattered Butler]]></entry>
   <entry id="str_monstername_bloody_butler_C"><![CDATA[Blood-soaked Butler]]></entry>
+    <entry id="str_monstername_cardinal_C"><![CDATA[Cardinal]]></entry>
+  <entry id="str_monstername_SCultist_Mace_C"><![CDATA[Bloody Crusader]]></entry>
+	<entry id="str_monstername_SCultist_Nun_C"><![CDATA[Bloody Crusader]]></entry>
+	<entry id="str_monstername_SCultist_Witch_C"><![CDATA[Bloody Crusader]]></entry>
+	<entry id="str_monstername_SCultist_Chains_C"><![CDATA[Bloody Jester]]></entry>
+	
+	<entry id="str_monstername_ganger_newbie_A"><![CDATA[Recruit]]></entry>
+	<entry id="str_monstername_ganger_newbie_B"><![CDATA[Recruit]]></entry>
+	<entry id="str_monstername_ganger_newbie_C"><![CDATA[Recruit]]></entry>
+	
+	<entry id="str_monstername_ganger_gunner_A"><![CDATA[Gunner]]></entry>
+	<entry id="str_monstername_ganger_gunner_B"><![CDATA[Gunner]]></entry>
+	<entry id="str_monstername_ganger_gunner_C"><![CDATA[Gunner]]></entry>
+	
+	<entry id="str_monstername_ganger_enforcer_A"><![CDATA[Enforcer]]></entry>
+	<entry id="str_monstername_ganger_enforcer_B"><![CDATA[Enforcer]]></entry>
+	<entry id="str_monstername_ganger_enforcer_C"><![CDATA[Enforcer]]></entry>
+	
+	<entry id="str_monstername_ganger_assassin_A"><![CDATA[Assassin]]></entry>
+	<entry id="str_monstername_ganger_assassin_B"><![CDATA[Assassin]]></entry>
+	<entry id="str_monstername_ganger_assassin_C"><![CDATA[Assassin]]></entry>
+	
+	<entry id="str_monstername_ganger_breaker_A"><![CDATA[Steel Breaker]]></entry>
+	<entry id="str_monstername_ganger_breaker_B"><![CDATA[Steel Breaker]]></entry>
+	<entry id="str_monstername_ganger_breaker_C"><![CDATA[Steel Breaker]]></entry>
+	
+	<entry id="str_monstername_ganger_escort_A"><![CDATA[Escort]]></entry>
+	<entry id="str_monstername_ganger_escort_B"><![CDATA[Escort]]></entry>
+	<entry id="str_monstername_ganger_escort_C"><![CDATA[Escort]]></entry>
+	
+	<entry id="str_monstername_ganger_grenadier_A"><![CDATA[Grenadier]]></entry>
+	<entry id="str_monstername_ganger_grenadier_B"><![CDATA[Grenadier]]></entry>
+	<entry id="str_monstername_ganger_grenadier_C"><![CDATA[Grenadier]]></entry>
+	
+	<entry id="str_monstername_ganger_lookout_A"><![CDATA[Lookout]]></entry>
+	<entry id="str_monstername_ganger_lookout_B"><![CDATA[Lookout]]></entry>
+	<entry id="str_monstername_ganger_lookout_C"><![CDATA[Lookout]]></entry>
+	
+	<entry id="str_monstername_death_A"><![CDATA[Pallid Shade]]></entry>
+	<entry id="str_monstername_death_B"><![CDATA[Pallid Shade]]></entry>
+	<entry id="str_monstername_death_C"><![CDATA[Pallid Shade]]></entry>
+	
   <!-- Monster Attacks -->
+  <entry id="str_monster_skill_ganger_lurk"><![CDATA[{colour_start|white}ɡɡɡɡɥɪʦʚʩ{colour_end}Lurk]]></entry>
+  <entry id="str_monster_skill_ganger_toxin"><![CDATA[{colour_start|white}ɡɡɡɡɥɘɣɣɣɩɦɧʏ{colour_end}Dibulating Toxin]]></entry>
+  <entry id="str_monster_skill_ganger_execute"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɦɷʎ{colour_end}Execute]]></entry>
+  <entry id="str_monster_skill_ganger_execute_weak"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɦɧɧ{colour_end}Strike Quarry]]></entry>
+  <entry id="str_monster_skill_ganger_break_charge"><![CDATA[{colour_start|white}ɘɘɟɥʦɣɣɘɘɩɦɧɱ{colour_end}Break It Up!]]></entry>
+  <entry id="str_monster_skill_ganger_hammer"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɘɩɦɧʑ{colour_end}Hammer to Steel]]></entry>
+  <entry id="str_monster_skill_ganger_swing"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɩɦɦɧ{colour_end}Sledge Assualt]]></entry>
+  <entry id="str_monster_skill_enforcer_punch"><![CDATA[{colour_start|white}ɘɘɡɡɥʦɣɣɣɣɩɦɧˤ{colour_end}Punch]]></entry>
+  <entry id="str_monster_skill_enforcer_knockout"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɩɦɧʓ{colour_end}Knockout]]></entry>
+  <entry id="str_monster_skill_enforcer_rush"><![CDATA[{colour_start|white}ɘɘɡɡɥʦɣɣɣɘɩɦɧɱ{colour_end}Bull's Rush]]></entry>
+  <entry id="str_monster_skill_enforcer_headbutt"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɣɘɩɧʑɱ{colour_end}Headbutt]]></entry>
+  <entry id="str_monster_skill_ganger_favor"><![CDATA[{colour_start|white}ɚɚɜɜɥɣɣɣɣɩɧʗʕ{colour_end}Lady’s Favor]]></entry>
+  <entry id="str_monster_skill_ganger_allure"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩʓɮʑ{colour_end}Charming Allure]]></entry>
+  <entry id="str_monster_skill_ganger_point"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧʔʑ{colour_end}Kill Them For Me]]></entry>
+  <entry id="str_monster_skill_ganger_smoke"><![CDATA[{colour_start|white}ɠɞɞɟɥɣɣɣɣɩɧʔʑ{colour_end}Smoke Bomb]]></entry>
+  <entry id="str_monster_skill_ganger_molotov"><![CDATA[{colour_start|white}ɡɡɡɡɥɘɣɣɣɩɦɧɝ{colour_end}Molotov!]]></entry>
+  <entry id="str_monster_skill_ganger_dirty"><![CDATA[{colour_start|white}ɡɡɡɘɥɣɣɣɣɩɧʎʏ{colour_end}Dirty Bomb!!]]></entry>
+  <entry id="str_monster_skill_ganger_suicide"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɧ{colour_end}Taking You With ME!!]]></entry>
+  <entry id="str_monster_skill_ganger_blast"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɧ{colour_end}Blast Them!]]></entry>
+  <entry id="str_monster_skill_ganger_warning"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧʓɮ{colour_end}Warning Shot]]></entry>
+  <entry id="str_monster_skill_ganger_reload"><![CDATA[{colour_start|white}ɡɡɡɡɥɪɪɩʐ{colour_end}Reload]]></entry>
+  <entry id="str_monster_skill_lookout_switchblade"><![CDATA[{colour_start|white}ɘɡɡɡɥʧɣɣɘɘɩɧɦʎ{colour_end}Switchblade]]></entry>
+  <entry id="str_monster_skill_lookout_lookut"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɘɩɧʔʑʶ{colour_end}THEY’RE OVER THERE!]]></entry>
+  <entry id="str_monster_skill_lookout_ready"><![CDATA[{colour_start|white}ɡɡɡɘɥɚɛɛɜɧɧʐ{colour_end}Get Ready!]]></entry>
+  <entry id="str_monster_skill_lookout_help"><![CDATA[{colour_start|white}ɡɡɡɘɥəəəəɧɧʐ{colour_end}Lookout!]]></entry>
+  
+  <entry id="str_monster_skill_the_bell_tolls"><![CDATA[The Bell Tolls]]></entry>
+  <entry id="str_monster_skill_death_reap"><![CDATA[Reap]]></entry>
+  <entry id="str_monster_skill_death_embrace"><![CDATA[Death's Embrace]]></entry>
+  <entry id="str_monster_skill_danse_macabre"><![CDATA[Danse Macabre]]></entry>
+  <entry id="str_monster_skill_death_harvest"><![CDATA[Harvest]]></entry>
+  
   <entry id="str_monster_skill_sc_pin_smack"><![CDATA[Pin Swipe]]></entry>
   <entry id="str_monster_skill_sc_first_course"><![CDATA[First Course]]></entry>
   <entry id="str_monster_skill_sc_second_course"><![CDATA[Second Course]]></entry>
@@ -26,16 +107,88 @@
   <entry id="str_monster_skill_butler_dinner"><![CDATA[Dinner is served!]]></entry>
   <entry id="str_monster_skill_butler_shown"><![CDATA[Show Around]]></entry>
   <entry id="str_monster_skill_butler_revive"><![CDATA[My Life for the Masters!]]></entry>
+  <entry id="str_monster_skill_blood_wave_once"><![CDATA[Undae Sanguinare]]></entry>
+  <entry id="str_monster_skill_blood_wave"><![CDATA[Undae Sanguinare]]></entry>
+  <entry id="str_monster_skill_prayer_to_blood"><![CDATA[Prex Sanguinarum]]></entry>
+  <entry id="str_monster_skill_the_hunger_human"><![CDATA[The Thirst]]></entry>
+  <entry id="str_monster_skill_the_hunger_beast"><![CDATA[The Thirst]]></entry>
+  <entry id="str_monster_skill_cardinal_heresy"><![CDATA[Fideles Audi]]></entry>
+  <entry id="str_monster_skill_blood_salvation"><![CDATA[Salvatio]]></entry>
+  <entry id="str_monster_skill_heed_faithful"><![CDATA[Haeresis]]></entry>
+  <entry id="str_monster_skill_switch_web"><![CDATA[Web Of Secrets]]></entry>
+  <entry id="str_monster_skill_switch_spider"><![CDATA[Spider’S Call]]></entry>
+  <entry id="str_monster_skill_scnun_blessing"><![CDATA[Famished Blessing]]></entry>
+  <entry id="str_monster_skill_scnun_light"><![CDATA[Crimson Light]]></entry>
+  <entry id="str_monster_skill_blut_slash"><![CDATA[Bloody Strike]]></entry>
+  <entry id="str_monster_skill_scultist_guard"><![CDATA[Defend The Acolytes]]></entry>
+  <entry id="str_monster_skill_scultist_mace"><![CDATA[Poisoned Idol]]></entry>
+  <entry id="str_monster_skill_sc_wasting_thirst"><![CDATA[Wasting Thirst]]></entry>
+  <entry id="str_monster_skill_sc_get_over_here"><![CDATA[Bring Forth]]></entry>
   
-  <!-- New districts -->
-  <entry id="str_medical_hall_title">								<![CDATA[Medical Hall]]></entry>
-  <entry id="str_blood_distillary_title">							<![CDATA[Blood Distillary]]></entry>
-  <entry id="str_spider_prayer_hall_title">							<![CDATA[Spider Prayer Hall]]></entry>
-  <entry id="str_fanatic_cult_title">								<![CDATA[Fanatic's meeting space (WIP NAME)]]></entry>
-  <entry id="str_blood_distillary_buff_blood_provision">			<![CDATA[Allows Heros to safely drink the Blood without the crimson curse.]]></entry>
-  <entry id="str_spider_prayer_hall_buff_blood_provision">			<![CDATA[WIP, just gives extra blood for now]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_sc_district">		<![CDATA[+10%% Deathblow resist, +4 speed, and +10%% max hp if Crimson Curse - Wasting]]></entry>
- 
+  <entry id="str_monster_skill_the_hunger_human_esquire"><![CDATA[{colour_start|white}ɡɡɡɡʤɣɣɣɣɩɰɮɫɬʁʢ{colour_end}The Thirst]]></entry>
+  <entry id="str_monster_skill_the_hunger_beast_esquire"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɰɮɬɫ{colour_end}The Thirst]]></entry>
+  
+  <!--Fire-->
+  <entry id="buff_stat_tooltip_upgrade_discount_dd2_burn_token_tt"><![CDATA[%d DMG after turn]]></entry>
+  
+  <!-- Dungeon Stuff -->
+	<entry id="dungeon_name_cove"><![CDATA[Bayou]]></entry>
+	<entry id="dungeon_name_crypts"><![CDATA[Old Quarter]]></entry>
+	<entry id="dungeon_name_darkestdungeon"><![CDATA[Castle]]></entry>
+	<entry id="dungeon_name_town"><![CDATA[Town Square]]></entry>
+	<entry id="dungeon_name_tutorial"><![CDATA[]]></entry>
+	<entry id="dungeon_name_warrens"><![CDATA[Ayslum]]></entry>
+	<entry id="dungeon_name_weald"><![CDATA[Cemetery]]></entry>
+	
+	<entry id="raid_results_progression_return_to_town"><![CDATA[Return to Town Square]]></entry>
+  
+  <!-- Hamlet -->
+  <entry id="str_town_title"><![CDATA[Town Square]]></entry>
+  
+  <!-- Quirks -->
+	<entry id="str_quirk_name_1_infernal_marked"><![CDATA[{colour_start|white}⠍{colour_end}																				{colour_start|burn}Marked{colour_end}]]></entry>
+	<entry id="str_quirk_name_1_infernal_souless"><![CDATA[{colour_start|white}⠍{colour_end}																			{colour_start|burn}Souless{colour_end}]]></entry>
+																																   
+	<entry id="str_quirk_name_Broken_Ribs"><![CDATA[Broken Ribs]]></entry>
+
+	
+	<!---Quests-->
+	<entry id="town_quest_progress_plot_literaly_for_show_1"><![CDATA[Explore All Rooms]]></entry>
+  <entry id="town_quest_name_plot_literaly_for_show_1"><![CDATA[Explore The Quarter]]></entry>
+  <entry id="town_quest_description_plot_literaly_for_show_1"><![CDATA[Explore The Old Quarter]]></entry>
+  <entry id="str_plot_literaly_for_show_tip_1"><![CDATA[Beware this is their turf...]]></entry>
+  
+  <!--Buildings-->
+  <entry id="town_name_abbey"><![CDATA[Chapel]]></entry>
+	<entry id="town_name_activity_log"><![CDATA[Current Status]]></entry>
+	<entry id="town_name_blacksmith"><![CDATA[Iron Monger]]></entry>
+	<entry id="town_name_camping_trainer"><![CDATA[Huntsman]]></entry>
+	<entry id="town_name_feflow"><![CDATA[The Quarter]]></entry>
+	<entry id="town_name_glossary"><![CDATA[Grimore]]></entry>
+	<entry id="town_name_graveyard"><![CDATA[Charnel House]]></entry>
+	<entry id="town_name_guild"><![CDATA[Hunter's Club]]></entry>
+	<entry id="town_name_nomad_wagon"><![CDATA[Antique's Trader]]></entry>
+	<entry id="town_name_provision"><![CDATA[Provision]]></entry>
+	<entry id="town_name_quest_select"><![CDATA[Land Map]]></entry>
+	<entry id="town_name_realm_inventory"><![CDATA[Trinket Inventory]]></entry>
+	<entry id="town_name_sanitarium"><![CDATA[Hospital]]></entry>
+	<entry id="town_name_stage_coach"><![CDATA[River Boat]]></entry>
+	<entry id="town_name_statue"><![CDATA[Library]]></entry>
+	<entry id="town_name_tavern"><![CDATA[Inn]]></entry>
+	<entry id="town_name_town_Event"><![CDATA[ATTENTION!]]></entry>
+		
+	<entry id="str_tavern_summary"><![CDATA[Stress Relief]]></entry>
+	<entry id="str_abbey_summary"><![CDATA[Santification]]></entry>
+	<entry id="str_blacksmith_summary"><![CDATA[Upgrade Weapons and Armor]]></entry>
+	<entry id="str_camping_trainer_summary"><![CDATA[Upgrade Camping Skills]]></entry>
+	<entry id="str_graveyard_summary"><![CDATA[View fallen heroes]]></entry>
+	<entry id="str_guild_summary"><![CDATA[Upgrade Combat Skills]]></entry>
+	<entry id="str_nomad_wagon_summary"><![CDATA[Shop for Trinkets]]></entry>
+	<entry id="str_sanitarium_summary"><![CDATA[Remove Quirks, Diseases, and Expirement]]></entry>
+	<entry id="str_stage_coach_summary"><![CDATA[Recruit New Heroes]]></entry>
+	<entry id="str_statue_summary"><![CDATA[View the town's archives]]></entry>
+	
+	<entry id=""><![CDATA[{colour_start|white}Ϩ{colour_end}Quirk]]></entry>
+  
 </language>
 </root>
-

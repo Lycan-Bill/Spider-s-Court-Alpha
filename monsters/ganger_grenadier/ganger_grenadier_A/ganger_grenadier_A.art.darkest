@@ -4,3 +4,4 @@ skill: .id "ganger_molotov" .anim "attack_boom" .targfx "attack_boom_target"
 skill: .id "ganger_dirty" .anim "attack_dirty" .targfx "attack_dirty_target"
 skill: .id "ganger_suicide" .anim "attack_death"
 skill: .id "ganger_bomb" .anim "attack_boom" .targfx "attack_boom_target"
+display_modifier: .disabled_popup_text_types no_damage

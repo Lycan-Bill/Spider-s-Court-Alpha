@@ -1,0 +1,20 @@
+
+cemetery_cane.sprite.defend.png
+size: 612,612
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 445, 608
+  orig: 445, 608
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 449, 253
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

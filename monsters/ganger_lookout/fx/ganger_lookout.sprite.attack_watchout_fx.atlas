@@ -1,19 +1,19 @@
 
 ganger_lookout.sprite.attack_watchout_fx.png
-size: 1024,512
+size: 795,795
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 glow
   rotate: true
-  xy: 601, 32
+  xy: 457, 370
   size: 423, 336
   orig: 423, 336
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 2, 2
+  rotate: false
+  xy: 2, 196
   size: 453, 597
   orig: 453, 597
   offset: 0, 0

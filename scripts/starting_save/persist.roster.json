@@ -1,0 +1,289 @@
+{
+    "version": 513,
+    "data": {
+        "nextGuid": 5,
+        "heroes": {
+            "1": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "hero_name_boudica",
+                    "current_hp": 52,
+                    "stunned": 0,
+                    "ranks": 1,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "hellion",
+                "resolveXp": 0,
+                "stress": 0,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "1_pagan": 
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"giant_slayer":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"coward":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "wicked_hack": 0,
+                        "iron_swan": 0,
+                        "barbaric_yawp": 0,
+                        "if_it_bleeds": 0
+                    },
+                    "selected_camping_skills": {
+                        "encourage": 0,
+                        "first_aid": 0,
+                        "find_supplies": 0,
+                        "revel": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            },
+            "2": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "hero_name_barristan",
+                    "current_hp": 62,
+                    "stunned": 0,
+                    "ranks": 2,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "man_at_arms",
+                "resolveXp": 0,
+                "stress": 0,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "1_religious":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"hard_skinned":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"fair_player":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"thanatophobia":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "crush": 0,
+                        "rampart": 0,
+                        "bellow": 0,
+                        "defender": 0
+                    },
+                    "selected_camping_skills": {
+                        "first_aid": 0,
+                        "pep_talk": 0,
+                        "hobby": 0,
+                        "instruction": 0
+						
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            },
+            "3": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "hero_name_alhazred",
+                    "current_hp": 38,
+                    "stunned": 0,
+                    "ranks": 3,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "occultist",
+                "resolveXp": 0,
+                "stress": 0,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "1_pagan":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"superstitious":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"technical":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"diffident":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "bloodlet": 0,
+                        "abyssal_artillery": 0,
+                        "amber_curse": 0,
+                        "wyrd_reconstruction": 0
+                    },
+                    "selected_camping_skills": {
+                        "encourage": 0,
+                        "first_aid": 0,
+                        "pep_talk": 0,
+                        "unspeakable_commune": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            },
+            "4": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "hero_name_margaret",
+                    "current_hp": 38,
+                    "stunned": 0,
+                    "ranks": 4,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "musketeer",
+                "resolveXp": 0,
+                "stress": 0,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "1_faithless":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"hunter":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"deadly":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"perfectionist":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    },
+					"reckless":  
+                    {
+                        "is_new": false,
+                        "is_locked": false,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "aimed_shot": 0,
+                        "smokescreen": 0,
+                        "buckshot": 0,
+                        "bombard": 0
+                    },
+                    "selected_camping_skills": {
+                        "hobby": 0,
+                        "first_aid": 0,
+                        "scout": 0,
+                        "champ_ego": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            }
+		},
+        "last_party":
+        {
+            "last_party_guids": [4,3,2,1]
+        }
+    }
+}

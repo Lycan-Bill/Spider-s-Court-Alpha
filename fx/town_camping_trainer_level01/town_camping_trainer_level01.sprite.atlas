@@ -1,0 +1,20 @@
+
+town_camping_trainer_level01.sprite.png
+size: 552,552
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Survivalist
+  rotate: false
+  xy: 2, 277
+  size: 409, 273
+  orig: 409, 273
+  offset: 0, 0
+  index: -1
+Survivalist_active
+  rotate: false
+  xy: 2, 2
+  size: 409, 273
+  orig: 409, 273
+  offset: 0, 0
+  index: -1

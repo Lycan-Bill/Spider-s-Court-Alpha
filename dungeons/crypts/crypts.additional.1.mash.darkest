@@ -1,0 +1,25 @@
+hall: .chance .18 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level medium .quirk_tag ripper_stalked .min_quirk_tags 1 .max_quirk_tags 1 .limit 1 .loading_screen fanatic
+hall: .chance .25 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level medium .quirk_tag ripper_stalked .min_quirk_tags 2 .max_quirk_tags 2 .limit 1 .loading_screen fanatic
+hall: .chance .50 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level medium .quirk_tag ripper_stalked .min_quirk_tags 3 .max_quirk_tags 3 .limit 1 .loading_screen fanatic
+hall: .chance .75 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level medium .quirk_tag ripper_stalked .min_quirk_tags 4 .max_quirk_tags 4 .limit 1 .loading_screen fanatic
+
+hall: .chance .18 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level high .quirk_tag ripper_stalked .min_quirk_tags 1 .max_quirk_tags 1 .limit 1 .loading_screen fanatic
+hall: .chance .25 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level high .quirk_tag ripper_stalked .min_quirk_tags 2 .max_quirk_tags 2 .limit 1 .loading_screen fanatic
+hall: .chance .50 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level high .quirk_tag ripper_stalked .min_quirk_tags 3 .max_quirk_tags 3 .limit 1 .loading_screen fanatic
+hall: .chance .75 .types killer_trap_stun_C stalker_ripper_C killer_victim_C killer_trap_bleed_C .infestation_activity_level high .quirk_tag ripper_stalked .min_quirk_tags 4 .max_quirk_tags 4 .limit 1 .loading_screen fanatic
+
+hall: .chance .10 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_1 .min_quirk_tags 1 .max_quirk_tags 1 .limit 1 .loading_screen fanatic
+hall: .chance .20 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_1 .min_quirk_tags 2 .max_quirk_tags 2 .limit 1 .loading_screen fanatic
+hall: .chance .30 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_1 .min_quirk_tags 3 .max_quirk_tags 3 .limit 1 .loading_screen fanatic
+hall: .chance .40 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_1 .min_quirk_tags 4 .max_quirk_tags 4 .limit 1 .loading_screen fanatic
+
+hall: .chance .15 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_2 .min_quirk_tags 1 .max_quirk_tags 1 .limit 1 .loading_screen fanatic
+hall: .chance .30 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_2 .min_quirk_tags 2 .max_quirk_tags 2 .limit 1 .loading_screen fanatic
+hall: .chance .45 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_2 .min_quirk_tags 3 .max_quirk_tags 3 .limit 1 .loading_screen fanatic
+hall: .chance .60 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_2 .min_quirk_tags 4 .max_quirk_tags 4 .limit 1 .loading_screen fanatic
+
+hall: .chance 10000 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_3 .min_quirk_tags 1 .max_quirk_tags 1 .limit 1 .loading_screen fanatic
+hall: .chance 10000 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_3 .min_quirk_tags 2 .max_quirk_tags 2 .limit 1 .loading_screen fanatic
+hall: .chance 10000 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_3 .min_quirk_tags 3 .max_quirk_tags 3 .limit 1 .loading_screen fanatic
+hall: .chance 10000 .types flag_tombstone_A death_A flag_tombstone_A flag_tombstone_A .quirk_tag bell_tolls_3 .min_quirk_tags 4 .max_quirk_tags 4 .limit 1 .loading_screen fanatic
+

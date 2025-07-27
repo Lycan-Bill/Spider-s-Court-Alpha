@@ -1,0 +1,16 @@
+display: .size 1
+enemy_type: .id "unholy"
+stats: .hp 32 .def 0% .prot 0.20 .spd 3 .stun_resist 40% .poison_resist 100% .bleed_resist 50% .debuff_resist 15% .move_resist 60%
+skill: .id "zombie_lurch" .type "melee" .atk 120.5% .dmg 5 7 .crit 5%  .launch 321 .target 12
+skill: .id "zombie_bite"  .type "melee" .atk 120.5% .dmg 3 4 .crit 8%  .launch 321 .target 12 .effects "Zombi Bite Heal Cha"
+skill: .id "zombie_eat" .type "melee" .atk 120.5% .dmg 1 2 .crit 2%  .launch 4321 .target .effects "clear_corpses" "Zombi Consume Buffs 2" "Zombi Health buff 2" "Zombi Heal Eat Cha"
+personality: .prefskill -1
+loot: .code "C" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id cemetery_ghoul
+life_link: .base_class "ghost_priest"
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True
+mode: .id tall .is_raid_default true
+audio_modifier: .intensity 0.50

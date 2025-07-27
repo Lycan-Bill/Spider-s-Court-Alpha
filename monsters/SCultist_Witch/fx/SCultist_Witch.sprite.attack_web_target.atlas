@@ -1,0 +1,20 @@
+
+SCultist_Witch.sprite.attack_web_target.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crown1
+  rotate: false
+  xy: 2, 11
+  size: 335, 241
+  orig: 335, 241
+  offset: 0, 0
+  index: -1
+crown2
+  rotate: true
+  xy: 339, 2
+  size: 250, 255
+  orig: 250, 255
+  offset: 0, 0
+  index: -1

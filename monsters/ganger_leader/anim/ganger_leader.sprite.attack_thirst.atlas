@@ -1,0 +1,20 @@
+
+ganger_leader.sprite.attack_thirst.png
+size: 1090,1090
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Thirst
+  rotate: false
+  xy: 2, 88
+  size: 1086, 1000
+  orig: 1086, 1000
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 2, 15
+  size: 433, 71
+  orig: 433, 71
+  offset: 0, 0
+  index: -1

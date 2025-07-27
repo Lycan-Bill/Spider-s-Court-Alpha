@@ -1,0 +1,111 @@
+
+SCultist_Chains.sprite.combat.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 10
+  rotate: false
+  xy: 2, 18
+  size: 347, 236
+  orig: 347, 236
+  offset: 0, 0
+  index: -1
+Layer 11
+  rotate: false
+  xy: 1176, 128
+  size: 168, 126
+  orig: 168, 126
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: true
+  xy: 786, 55
+  size: 134, 174
+  orig: 134, 174
+  offset: 0, 0
+  index: -1
+Layer 13
+  rotate: true
+  xy: 592, 55
+  size: 134, 192
+  orig: 134, 192
+  offset: 0, 0
+  index: -1
+Layer 14
+  rotate: true
+  xy: 1176, 16
+  size: 110, 153
+  orig: 110, 153
+  offset: 0, 0
+  index: -1
+Layer 15
+  rotate: true
+  xy: 1517, 144
+  size: 110, 170
+  orig: 110, 170
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 1689, 150
+  size: 104, 175
+  orig: 104, 175
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 1346, 133
+  size: 169, 121
+  orig: 169, 121
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: true
+  xy: 1346, 2
+  size: 129, 152
+  orig: 129, 152
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 1615, 4
+  size: 103, 138
+  orig: 103, 138
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 351, 71
+  size: 183, 239
+  orig: 183, 239
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 962, 45
+  size: 209, 212
+  orig: 209, 212
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: true
+  xy: 1866, 164
+  size: 90, 175
+  orig: 90, 175
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 1500, 2
+  size: 113, 129
+  orig: 113, 129
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 592, 191
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

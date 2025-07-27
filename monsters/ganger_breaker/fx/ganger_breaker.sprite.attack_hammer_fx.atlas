@@ -1,26 +1,33 @@
 
 ganger_breaker.sprite.attack_hammer_fx.png
-size: 2048,1024
+size: 1038,1038
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+fx_light
+  rotate: true
+  xy: 535, 34
+  size: 216, 467
+  orig: 216, 467
+  offset: 0, 0
+  index: -1
 rock_1
   rotate: false
-  xy: 899, 669
+  xy: 2, 2
   size: 531, 248
   orig: 531, 248
   offset: 0, 0
   index: -1
 rock_2
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 899, 575
   size: 461, 129
   orig: 461, 129
   offset: 0, 0
   index: -1
 shadow
   rotate: false
-  xy: 2, 133
+  xy: 2, 252
   size: 895, 784
   orig: 895, 784
   offset: 0, 0

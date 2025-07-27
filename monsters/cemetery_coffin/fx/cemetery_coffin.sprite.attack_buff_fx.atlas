@@ -1,0 +1,20 @@
+
+cemetery_coffin.sprite.attack_buff_fx.png
+size: 1314,379
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Runes Glow FX
+  rotate: false
+  xy: 754, 178
+  size: 558, 199
+  orig: 558, 199
+  offset: 0, 0
+  index: -1
+Silhouette FX
+  rotate: false
+  xy: 2, 2
+  size: 750, 375
+  orig: 750, 375
+  offset: 0, 0
+  index: -1

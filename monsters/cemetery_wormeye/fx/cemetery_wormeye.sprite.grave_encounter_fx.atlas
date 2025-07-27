@@ -1,0 +1,13 @@
+
+cemetery_wormeye.sprite.grave_encounter_fx.png
+size: 556,505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+swing
+  rotate: false
+  xy: 2, 2
+  size: 552, 501
+  orig: 552, 501
+  offset: 0, 0
+  index: -1

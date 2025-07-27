@@ -228,31 +228,6 @@
 				"data": {
 					"base_chance": 1,
 					"combat_skill_id": "prayer_to_blood"
-
-				}
-			},
-			{
-				"type": "specific_skill",
-				"data": {
-					"base_chance": 9,
-					"combat_skill_id": "the_hunger_beast"
-
-				}
-			},
-			{
-				"type": "ally_dead_skill",
-				"data": {
-					"base_chance": 30.0,
-					"combat_skill_id": "the_hunger_human",
-					"ally_base_class_id": "spider_bishop"
-				}
-			},
-			{
-				"type": "ally_dead_skill",
-				"data": {
-					"base_chance": 30.0,
-					"combat_skill_id": "the_hunger_human",
-					"ally_base_class_id": "sacristan"
 				}
 			}
 		],

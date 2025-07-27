@@ -1,18 +1,22 @@
 display: .size 1
 enemy_type: .id "man"
-stats: .hp 21 .def 9% .prot 0.25 .spd 8 .stun_resist 55% .poison_resist 30% .bleed_resist 30% .debuff_resist 45% .move_resist 30%
-skill: .id "enforcer_punch" .type "melee" .atk 95.75% .dmg 4 7 .crit 8%  .effect .launch 4321 .target 12 .move 0 1
-skill: .id "enforcer_knockout" .type "melee" .atk 95.75% .dmg 8 11 .crit 13%  .effect "Ganger Stun 2" .launch 21 .target 12
-skill: .id "enforcer_rush" .type "melee" .atk 95.75% .dmg 7 9 .crit 6%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "Ganger Push 2"
-skill: .id "enforcer_headbutt" .type "melee" .atk 95.75% .dmg 6 8 .crit 8%  .launch 321 .target 12 .is_crit_valid False .effect "Enforcer Stun Debuff 2" "Ganger Push 2" "Enforcer Stun Self Debuff 2"
+stats: .hp 26 .def 15.25% .prot 0.24 .spd 8 .stun_resist 55% .poison_resist 40% .bleed_resist 40% .debuff_resist 45% .move_resist 50%
+skill: .id "enforcer_punch" .type "melee" .atk 88.75% .dmg 5 9 .crit 9%  .effect .launch 4321 .target 12 .move 0 1
+skill: .id "enforcer_knockout" .type "melee" .atk 88.75% .dmg 6 10 .crit 9%  .effect "Ganger Stun 2" .launch 21 .target 12
+skill: .id "enforcer_rush" .type "melee" .atk 88.75% .dmg 6 9 .crit 5%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "Ganger Push 2"
+skill: .id "enforcer_headbutt" .type "melee" .atk 88.75% .dmg 5 6 .crit 8%  .launch 321 .target 12 .is_crit_valid False .effect "Enforcer Stun Debuff 2" "Ganger Push 2" "Enforcer Stun Self Debuff 2"
 personality: .prefskill -1
-loot: .code "C" .count 1
+loot: .code "Old_Qaurter_T2_Loot" .count 1
 initiative: .number_of_turns_per_round 1
 monster_brain: .id ganger_enforcer
-death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+death_class: .monster_class_id sc_corpse_B .is_valid_on_crit False .type "corpse" 
 battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front True
 
-skill: .id "enforcer_knockout"     .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_vuln_tokenM" 
-skill: .id "enforcer_rush"  .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self"
-skill: .id "enforcer_headbutt" .effect "dd2_s0hpr_ASS" "dd2_firedot_key_1" "dd2_eot_bot_summon" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_vuln_tokenM" 
+skill: .id "enforcer_knockout" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "enforcer_rush" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "enforcer_headbutt" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "enforcer_punch" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+
+display_modifier: .disabled_popup_text_types no_damage
+spawn: .effects  "sc_rain_bot_summon"

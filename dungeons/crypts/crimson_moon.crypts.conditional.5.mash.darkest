@@ -1,164 +1,53 @@
-hall: .chance 1 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 0 1 .can_be_ambush false
-hall: .chance 1 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 0 1 .can_be_ambush false
-hall: .chance 1 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 0 1 .can_be_ambush false
-hall: .chance 1 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 0 1 .can_be_ambush false
-hall: .chance 1 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 0 1 .can_be_ambush false
-hall: .chance 1 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C  .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C  .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Mace_C  SCultist_Chains_C SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C SCultist_Witch_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
 
-room: .chance 1 .types steward_C cc_maid_C treancherwoman_C esquire_C .darkness_range 0 1 .can_be_ambush false
-room: .chance 1 .types treancherwoman_C lord_C scarab_chef_C .darkness_range 0 1 .can_be_ambush false
-room: .chance 1 .types lord_C treancherwoman_C sacristan_C spider_bishop_D trog_pterotillus_Z .darkness_range 0 1 .can_be_ambush false
-room: .chance 1 .types esquire_C treancherwoman_C  bon_vivant_C .darkness_range 0 1 .can_be_ambush false
-room: .chance 1 .types courtesan_C treancherwoman_C lord_C bloody_butler_C .darkness_range 0 1 .can_be_ambush false
-room: .chance 1 .types esquire_C lord_C fish_chef_C spider_bishop_D .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C  .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Mace_C  SCultist_Chains_C SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C SCultist_Witch_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
 
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C  .darkness_range 0 1 .can_be_ambush false 
+hall: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 0 1 .can_be_ambush false
+hall: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C .darkness_range 0 1 .can_be_ambush false
 
-hall: .chance 0.00128 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types gorger_C gourmet_D .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00128 .types esquire_C steward_C treancherwoman_C  .darkness_range 76 100 .can_be_ambush false 
+hall: .chance 1 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C .darkness_range 1 49 .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C SCultist_Chains_C  .darkness_range 1 49  .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+hall: .chance 1 .types sc_spider_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+hall: .chance 1 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+hall: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+hall: .chance 1 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C .darkness_range 1 49  .can_be_ambush false
 
-hall: .chance 0.00087 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types gorger_C gourmet_D .darkness_range 76 100 .can_be_ambush false  
-hall: .chance 0.00087 .types esquire_C steward_C treancherwoman_C  .darkness_range 76 100 .can_be_ambush false 
+room: .chance 1 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C SCultist_Chains_C .darkness_range 1 49  .can_be_ambush false 
+room: .chance 1 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false  
+room: .chance 1 .types sc_spider_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C .darkness_range 1 49  .can_be_ambush false
 
-room: .chance 0.00087 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types gorger_C gourmet_D .darkness_range 76 100 .can_be_ambush false  
-room: .chance 0.00087 .types esquire_C steward_C treancherwoman_C  .darkness_range 76 100 .can_be_ambush false 
-
-hall: .chance 0.00139 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types gorger_C gourmet_D .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.00139 .types esquire_C steward_C treancherwoman_C  .darkness_range 51 75 .can_be_ambush false 
-
-hall: .chance 0.000946 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types gorger_C gourmet_D .darkness_range 51 75 .can_be_ambush false  
-hall: .chance 0.000946 .types esquire_C steward_C treancherwoman_C  .darkness_range 51 75 .can_be_ambush false 
-
-room: .chance 0.00105 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types gorger_C gourmet_D .darkness_range 51 75 .can_be_ambush false  
-room: .chance 0.00105 .types esquire_C steward_C treancherwoman_C  .darkness_range 51 75 .can_be_ambush false 
-
-room: .chance 0.00128 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types gorger_C gourmet_D .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00128 .types esquire_C steward_C treancherwoman_C  .darkness_range 26 50 .can_be_ambush false 
-
-hall: .chance 0.00087 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types gorger_C gourmet_D .darkness_range 26 50 .can_be_ambush false  
-hall: .chance 0.00087 .types esquire_C steward_C treancherwoman_C  .darkness_range 26 50 .can_be_ambush false 
-
-room: .chance 0.00087 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types gorger_C gourmet_D .darkness_range 26 50 .can_be_ambush false  
-room: .chance 0.00087 .types esquire_C steward_C treancherwoman_C  .darkness_range 26 50 .can_be_ambush false 
-
-hall: .chance 0.000975 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types gorger_C gourmet_D .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000975 .types esquire_C steward_C treancherwoman_C  .darkness_range 1 25 .can_be_ambush false 
-
-hall: .chance 0.000665 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types gorger_C gourmet_D .darkness_range 1 25 .can_be_ambush false  
-hall: .chance 0.000665 .types esquire_C steward_C treancherwoman_C  .darkness_range 1 25 .can_be_ambush false 
-
-room: .chance 0.000739 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types gorger_C gourmet_D .darkness_range 1 25 .can_be_ambush false  
-room: .chance 0.000739 .types esquire_C steward_C treancherwoman_C  .darkness_range 1 25 .can_be_ambush false 
-
-hall: .chance 0.000525 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types gorger_C gourmet_D .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.000525 .types esquire_C steward_C treancherwoman_C  .darkness_range 0 0 .can_be_ambush false 
-
-hall: .chance 0.00036 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types gorger_C gourmet_D .darkness_range 0 0 .can_be_ambush false  
-hall: .chance 0.00036 .types esquire_C steward_C treancherwoman_C  .darkness_range 0 0 .can_be_ambush false 
-
-room: .chance 0.0004 .types steward_C cc_maid_C treancherwoman_C esquire_C  .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types treancherwoman_C lord_C scarab_chef_C  .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types lord_C treancherwoman_C sacristan_C spider_bishop_D  .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types esquire_C treancherwoman_C  bon_vivant_C  .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types courtesan_C treancherwoman_C lord_C bloody_butler_C  .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types esquire_C lord_C fish_chef_C spider_bishop_D  .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types steward_C esquire_C courtesan_C bloody_butler_C .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types gorger_C gourmet_D .darkness_range 0 0 .can_be_ambush false  
-room: .chance 0.0004 .types esquire_C steward_C treancherwoman_C  .darkness_range 0 0 .can_be_ambush false 
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C .darkness_range 1 49  .can_be_ambush false 
+room: .chance 1 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false  
+room: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C .darkness_range 1 49  .can_be_ambush false
+room: .chance 1 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C .darkness_range 1 49  .can_be_ambush false 

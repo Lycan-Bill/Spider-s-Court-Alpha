@@ -1,0 +1,62 @@
+
+ganger_newbie.sprite.combat.png
+size: 632,632
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 10
+  rotate: false
+  xy: 2, 67
+  size: 276, 277
+  orig: 276, 277
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 544, 144
+  size: 80, 486
+  orig: 80, 486
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: true
+  xy: 314, 304
+  size: 181, 187
+  orig: 181, 187
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 2, 346
+  size: 310, 284
+  orig: 310, 284
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 280, 196
+  size: 189, 106
+  orig: 189, 106
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 314, 487
+  size: 228, 143
+  orig: 228, 143
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 280, 87
+  size: 107, 176
+  orig: 107, 176
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

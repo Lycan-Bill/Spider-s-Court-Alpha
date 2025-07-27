@@ -1,0 +1,27 @@
+
+SCultist_Nun.sprite.attack_light_fx.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_1
+  rotate: true
+  xy: 281, 18
+  size: 150, 183
+  orig: 150, 183
+  offset: 0, 0
+  index: -1
+fire_2
+  rotate: false
+  xy: 281, 170
+  size: 172, 258
+  orig: 172, 258
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 2
+  size: 277, 426
+  orig: 277, 426
+  offset: 0, 0
+  index: -1

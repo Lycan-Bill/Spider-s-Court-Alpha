@@ -1,0 +1,20 @@
+
+ripper.sprite.attack_clean.png
+size: 996,633
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sanitize Instruments
+  rotate: true
+  xy: 2, 2
+  size: 629, 927
+  orig: 629, 927
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 931, 274
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

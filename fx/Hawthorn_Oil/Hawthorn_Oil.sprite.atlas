@@ -1,0 +1,20 @@
+
+Hawthorn_Oil.sprite.png
+size: 246,106
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 3
+  rotate: true
+  xy: 2, 2
+  size: 102, 191
+  orig: 102, 191
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 195, 59
+  size: 49, 45
+  orig: 49, 45
+  offset: 0, 0
+  index: -1

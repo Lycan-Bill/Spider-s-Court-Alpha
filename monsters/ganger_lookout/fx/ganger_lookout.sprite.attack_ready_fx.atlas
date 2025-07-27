@@ -1,61 +1,61 @@
 
 ganger_lookout.sprite.attack_ready_fx.png
-size: 2048,256
+size: 553,553
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 blade_1
-  rotate: false
-  xy: 1120, 53
+  rotate: true
+  xy: 359, 14
   size: 165, 186
   orig: 165, 186
   offset: 0, 0
   index: -1
 blade_2
   rotate: true
-  xy: 1479, 127
+  xy: 2, 19
   size: 112, 191
   orig: 112, 191
   offset: 0, 0
   index: -1
 blade_3
   rotate: true
-  xy: 2, 2
+  xy: 359, 181
   size: 84, 189
   orig: 84, 189
   offset: 0, 0
   index: -1
 blade_4
-  rotate: false
-  xy: 483, 104
+  rotate: true
+  xy: 2, 133
   size: 265, 135
   orig: 265, 135
   offset: 0, 0
   index: -1
 blur_1
-  rotate: false
-  xy: 750, 47
+  rotate: true
+  xy: 139, 194
   size: 204, 192
   orig: 204, 192
   offset: 0, 0
   index: -1
 blur_2
   rotate: false
-  xy: 956, 49
+  xy: 195, 2
   size: 162, 190
   orig: 162, 190
   offset: 0, 0
   index: -1
 blur_3
   rotate: true
-  xy: 1287, 108
+  xy: 359, 267
   size: 131, 190
   orig: 131, 190
   offset: 0, 0
   index: -1
 blur_4
   rotate: false
-  xy: 2, 88
+  xy: 2, 400
   size: 479, 151
   orig: 479, 151
   offset: 0, 0

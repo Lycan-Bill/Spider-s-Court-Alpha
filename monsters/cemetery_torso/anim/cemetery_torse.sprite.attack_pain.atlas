@@ -1,0 +1,13 @@
+
+cemetery_torse.sprite.attack_pain.png
+size: 645,396
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 641, 392
+  orig: 641, 392
+  offset: 0, 0
+  index: -1

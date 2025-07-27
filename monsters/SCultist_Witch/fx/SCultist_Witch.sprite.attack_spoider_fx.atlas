@@ -1,0 +1,27 @@
+
+SCultist_Witch.sprite.attack_spoider_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+joe
+  rotate: false
+  xy: 2, 2
+  size: 316, 282
+  orig: 316, 282
+  offset: 0, 0
+  index: -1
+sandy
+  rotate: false
+  xy: 542, 664
+  size: 316, 262
+  orig: 316, 262
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 286
+  size: 538, 640
+  orig: 538, 640
+  offset: 0, 0
+  index: -1

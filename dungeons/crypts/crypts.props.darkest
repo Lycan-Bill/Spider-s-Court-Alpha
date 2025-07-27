@@ -1,12 +1,18 @@
-hall_curios: .chance 4 .types TheSpiv
-room_curios: .chance 1 .types TheSpiv
-room_curios: .chance 1 .types TheKid
-hall_curios: .chance 3 .types TheKid
-hall_curios: .chance 2 .types Lantern_Barrel
-room_curios: .chance 1 .types Quarter_Distillery
-hall_curios: .chance 3 .types Quarter_Distillery
-room_curios: .chance 4 .types Quarter_Carriage
-hall_curios: .chance 4 .types Quarter_Carriage
+room_curios: .chance 60 .types Quarter_Distillery
+
+hall_curios: .chance 8 .types discarded_pack 
+hall_curios: .chance 8 .types Lantern_Barrel
+hall_curios: .chance 10 .types crate 
+hall_curios: .chance 10 .types sack 
+hall_curios: .chance 9 .types TheKid 
+hall_curios: .chance 8 .types Quarter_Carriage
+
+
 traps: .chance 1 .types trip_wire
 obstacles: .chance 1 .types rubble
-room_treasures: .chance 12 .types TheSpiv
+
+room_treasures: .chance 1 .types TheSpiv
+room_treasures: .chance 1 .types snake_oil_salesman
+
+secret_room_treasures: .chance 1 .types Infernal_Merchant
+

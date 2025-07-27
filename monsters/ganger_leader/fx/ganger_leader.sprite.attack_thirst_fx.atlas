@@ -1,0 +1,41 @@
+
+ganger_leader.sprite.attack_thirst_fx.png
+size: 1379,1379
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: true
+  xy: 2, 2
+  size: 373, 649
+  orig: 373, 649
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 377
+  size: 1080, 1000
+  orig: 1080, 1000
+  offset: 0, 0
+  index: -1
+spittle_1
+  rotate: false
+  xy: 653, 289
+  size: 90, 86
+  orig: 90, 86
+  offset: 0, 0
+  index: -1
+spittle_2
+  rotate: false
+  xy: 1084, 1218
+  size: 87, 83
+  orig: 87, 83
+  offset: 0, 0
+  index: -1
+spittle_3
+  rotate: false
+  xy: 1084, 1303
+  size: 104, 74
+  orig: 104, 74
+  offset: 0, 0
+  index: -1

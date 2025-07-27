@@ -1,40 +1,40 @@
 
 ganger_breaker.sprite.attack_charge_fx.png
-size: 2048,1024
+size: 1441,1441
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 afterimage_1
   rotate: false
-  xy: 2, 2
-  size: 809, 718
-  orig: 809, 718
-  offset: 0, 0
-  index: -1
-afterimage_2
-  rotate: false
-  xy: 2, 2
+  xy: 2, 721
   size: 809, 718
   orig: 809, 718
   offset: 0, 0
   index: -1
 afterimage_3
   rotate: false
-  xy: 2, 2
+  xy: 2, 721
+  size: 809, 718
+  orig: 809, 718
+  offset: 0, 0
+  index: -1
+afterimage_2
+  rotate: false
+  xy: 2, 721
   size: 809, 718
   orig: 809, 718
   offset: 0, 0
   index: -1
 glow_1
   rotate: false
-  xy: 1622, 187
+  xy: 813, 906
   size: 404, 533
   orig: 404, 533
   offset: 0, 0
   index: -1
 shadow
   rotate: false
-  xy: 813, 3
+  xy: 2, 2
   size: 807, 717
   orig: 807, 717
   offset: 0, 0

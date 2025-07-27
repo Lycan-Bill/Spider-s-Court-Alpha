@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "sc_wasting_thirst" .anim "attack_waste" .fx "attack_waste_fx"
+skill: .id "sc_get_over_here" .anim "attack_chain" .fx "attack_chain_fx"

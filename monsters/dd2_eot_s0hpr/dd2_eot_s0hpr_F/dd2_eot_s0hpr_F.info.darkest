@@ -15,5 +15,5 @@ display_modifier: .disabled_popup_text_types poison_resist cured tagged stun_res
 display_modifier: .disabled_popup_text_types bleed_resist
 
 hp_reaction: .hp_ratio 0.99 .is_under true .effects   "dd2_firedot_steal" 
-hp_reaction: .hp_ratio 0.49 .is_under true .effects   "dd2_firedot_dmgrec_base" "dd2_firedot_dmg_100" "dd2_firedot_steal"
+hp_reaction: .hp_ratio 0.49 .is_under true .effects   "dd2_firedot_dmgrec_base" "dd2_firedot_dmg_100"
 

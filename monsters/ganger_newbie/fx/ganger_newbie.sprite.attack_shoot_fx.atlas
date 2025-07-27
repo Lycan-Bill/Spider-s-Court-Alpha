@@ -1,0 +1,62 @@
+
+ganger_newbie.sprite.attack_shoot_fx.png
+size: 1231,1231
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bollets
+  rotate: false
+  xy: 744, 731
+  size: 485, 235
+  orig: 485, 235
+  offset: 0, 0
+  index: -1
+cloud_0
+  rotate: false
+  xy: 788, 427
+  size: 358, 302
+  orig: 358, 302
+  offset: 0, 0
+  index: -1
+cloud_1
+  rotate: true
+  xy: 2, 107
+  size: 531, 399
+  orig: 531, 399
+  offset: 0, 0
+  index: -1
+cloud_2
+  rotate: true
+  xy: 403, 117
+  size: 521, 383
+  orig: 521, 383
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 788, 100
+  size: 304, 325
+  orig: 304, 325
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 640
+  size: 452, 589
+  orig: 452, 589
+  offset: 0, 0
+  index: -1
+shrapnel2
+  rotate: false
+  xy: 744, 968
+  size: 481, 261
+  orig: 481, 261
+  offset: 0, 0
+  index: -1
+shrapnel_1
+  rotate: true
+  xy: 456, 752
+  size: 477, 286
+  orig: 477, 286
+  offset: 0, 0
+  index: -1

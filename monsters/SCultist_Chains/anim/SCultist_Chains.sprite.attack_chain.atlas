@@ -1,0 +1,27 @@
+
+SCultist_Chains.sprite.attack_chain.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bringforth
+  rotate: false
+  xy: 2, 67
+  size: 1222, 570
+  orig: 1222, 570
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1226, 68
+  size: 1222, 569
+  orig: 1222, 569
+  offset: 0, 0
+  index: -1

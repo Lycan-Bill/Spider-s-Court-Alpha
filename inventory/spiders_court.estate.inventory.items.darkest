@@ -1,3 +1,22 @@
 inventory_item: .type "estate"		.id "Disillery_Whiskey"			      .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 0 .estate_can_be_provision true
 inventory_item: .type "estate"		.id "Disillery_Wine"			      .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 0 .estate_can_be_provision true
 inventory_item: .type "estate"		.id "Disillery_Best"			      .base_stack_limit 5		.purchase_gold_value 0	.sell_gold_value 0 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Soul_Contract"	 	.base_stack_limit 4	.purchase_gold_value 0	.sell_gold_value 0 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Burnt_Contract"	 	.base_stack_limit 4	.purchase_gold_value 0	.sell_gold_value 0 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Lantern_Oil_Bad"			.base_stack_limit 99	    .purchase_gold_value 50		.sell_gold_value 0  .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Lantern_Oil_Bad2"			.base_stack_limit 99	    .purchase_gold_value 50		.sell_gold_value 0  .estate_can_be_provision true  
+inventory_item:	.type "estate"		.id "Lantern_Oil_standard"		.base_stack_limit 99	    .purchase_gold_value 150		.sell_gold_value 0  .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Lantern_Oil_standard2"		.base_stack_limit 99	    .purchase_gold_value 150		.sell_gold_value 0  .estate_can_be_provision true 
+inventory_item:	.type "estate"		.id "Lantern_Oil_Good"			.base_stack_limit 99	    .purchase_gold_value 200		.sell_gold_value 0  .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Lantern_Oil_Good2"			.base_stack_limit 99	    .purchase_gold_value 200		.sell_gold_value 0  .estate_can_be_provision true  
+inventory_item:	.type "estate"		.id "Lantern_Oil_Best"			.base_stack_limit 99	    .purchase_gold_value 250		.sell_gold_value 0  .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Lantern_Oil_Best2"			.base_stack_limit 99	    .purchase_gold_value 250		.sell_gold_value 0  .estate_can_be_provision true  
+inventory_item:	.type "estate"		.id "molotov_cocktail"			.base_stack_limit 4 	.purchase_gold_value 150	    .sell_gold_value 0 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "merchant_credit"			.base_stack_limit 4 	.purchase_gold_value 0		.sell_gold_value 0 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Hawthorn_Oil"				.base_stack_limit 8 	.purchase_gold_value 0		.sell_gold_value 0 .act_out_consume_priority 1 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "sc_medkit"				.base_stack_limit 8 	.purchase_gold_value 150		.sell_gold_value 0 .act_out_consume_priority 1 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Bravery_Tonic"				.base_stack_limit 8 	.purchase_gold_value 150		.sell_gold_value 0 .act_out_consume_priority 1 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Bravery_Tonic2"				.base_stack_limit 8 	.purchase_gold_value 150		.sell_gold_value 0 .act_out_consume_priority 1 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Health_Tonic"				.base_stack_limit 8 	.purchase_gold_value 150		.sell_gold_value 0 .act_out_consume_priority 1 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Health_Tonic2"				.base_stack_limit 8 	.purchase_gold_value 150		.sell_gold_value 0 .act_out_consume_priority 1 .estate_can_be_provision true
+inventory_item:	.type "estate"		.id "Strength_Tonic"				.base_stack_limit 8 	.purchase_gold_value 150		.sell_gold_value 0 .act_out_consume_priority 1 .estate_can_be_provision true

@@ -55,7 +55,7 @@ status_bar_round_indicator_pulse:
 				.pulse_in_duration			0.125
 				.pulse_scale				1.25 1.25
 
-torch_layout: .pos_y 28 .gauge_offset 26 89 .gauge_size 400 4 .fade_amount 0.00 .flamepos 960 100 
+torch_layout: .pos_y 28 .gauge_offset 26 89 .gauge_size 400 4 .fade_amount 0.01 .flamepos 960 100 
 			  
 round_display: .pos_y 120 .sprite_offset 0 0 .text_offset 0 -25
 

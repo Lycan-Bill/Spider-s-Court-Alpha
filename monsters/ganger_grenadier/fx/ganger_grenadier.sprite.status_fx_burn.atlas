@@ -1,0 +1,13 @@
+
+ganger_grenadier.sprite.status_fx_burn.png
+size: 370,117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+other/winded_token
+  rotate: false
+  xy: 2, 2
+  size: 366, 113
+  orig: 366, 113
+  offset: 0, 0
+  index: -1

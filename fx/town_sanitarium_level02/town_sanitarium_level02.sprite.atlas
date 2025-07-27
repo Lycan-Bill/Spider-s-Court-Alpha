@@ -1,0 +1,20 @@
+
+town_sanitarium_level02.sprite.png
+size: 750,750
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Asylum
+  rotate: false
+  xy: 2, 72
+  size: 372, 676
+  orig: 372, 676
+  offset: 0, 0
+  index: -1
+Asylum_active
+  rotate: false
+  xy: 376, 72
+  size: 372, 676
+  orig: 372, 676
+  offset: 0, 0
+  index: -1

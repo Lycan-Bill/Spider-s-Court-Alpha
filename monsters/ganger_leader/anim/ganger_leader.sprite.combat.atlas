@@ -1,0 +1,370 @@
+
+ganger_leader.sprite.combat.png
+size: 1692,1692
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+antlegs
+  rotate: true
+  xy: 829, 824
+  size: 278, 201
+  orig: 278, 201
+  offset: 0, 0
+  index: -1
+arm1
+  rotate: false
+  xy: 901, 130
+  size: 196, 194
+  orig: 196, 194
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: true
+  xy: 622, 217
+  size: 84, 277
+  orig: 84, 277
+  offset: 0, 0
+  index: -1
+beast_antarm1
+  rotate: false
+  xy: 1518, 382
+  size: 107, 138
+  orig: 107, 138
+  offset: 0, 0
+  index: -1
+beast_antarm2
+  rotate: false
+  xy: 1509, 522
+  size: 120, 127
+  orig: 120, 127
+  offset: 0, 0
+  index: -1
+beast_arm1
+  rotate: false
+  xy: 2, 590
+  size: 495, 484
+  orig: 495, 484
+  offset: 0, 0
+  index: -1
+beast_arm2
+  rotate: false
+  xy: 515, 790
+  size: 312, 312
+  orig: 312, 312
+  offset: 0, 0
+  index: -1
+beast_arm3
+  rotate: true
+  xy: 499, 605
+  size: 183, 300
+  orig: 183, 300
+  offset: 0, 0
+  index: -1
+beast_arm4
+  rotate: true
+  xy: 1032, 787
+  size: 232, 273
+  orig: 232, 273
+  offset: 0, 0
+  index: -1
+beast_cape
+  rotate: false
+  xy: 1100, 1342
+  size: 439, 348
+  orig: 439, 348
+  offset: 0, 0
+  index: -1
+beast_cape_back
+  rotate: false
+  xy: 2, 240
+  size: 439, 348
+  orig: 439, 348
+  offset: 0, 0
+  index: -1
+beast_chest
+  rotate: false
+  xy: 515, 1177
+  size: 583, 513
+  orig: 583, 513
+  offset: 0, 0
+  index: -1
+beast_face
+  rotate: false
+  xy: 1511, 879
+  size: 179, 140
+  orig: 179, 140
+  offset: 0, 0
+  index: -1
+beast_fang1
+  rotate: true
+  xy: 2, 2
+  size: 48, 116
+  orig: 48, 116
+  offset: 0, 0
+  index: -1
+beast_fang2
+  rotate: false
+  xy: 1607, 1241
+  size: 49, 101
+  orig: 49, 101
+  offset: 0, 0
+  index: -1
+beast_fedora
+  rotate: false
+  xy: 1245, 451
+  size: 262, 146
+  orig: 262, 146
+  offset: 0, 0
+  index: -1
+beast_feet
+  rotate: false
+  xy: 2, 52
+  size: 407, 186
+  orig: 407, 186
+  offset: 0, 0
+  index: -1
+beast_hair1
+  rotate: true
+  xy: 1282, 599
+  size: 171, 222
+  orig: 171, 222
+  offset: 0, 0
+  index: -1
+beast_hair2
+  rotate: false
+  xy: 1511, 780
+  size: 179, 97
+  orig: 179, 97
+  offset: 0, 0
+  index: -1
+beast_hair3
+  rotate: false
+  xy: 1099, 180
+  size: 103, 178
+  orig: 103, 178
+  offset: 0, 0
+  index: -1
+beast_hand1
+  rotate: false
+  xy: 1427, 157
+  size: 185, 191
+  orig: 185, 191
+  offset: 0, 0
+  index: -1
+beast_hand2
+  rotate: false
+  xy: 411, 47
+  size: 168, 191
+  orig: 168, 191
+  offset: 0, 0
+  index: -1
+beast_jaw
+  rotate: true
+  xy: 1204, 184
+  size: 164, 221
+  orig: 164, 221
+  offset: 0, 0
+  index: -1
+beast_legs
+  rotate: false
+  xy: 1100, 1021
+  size: 421, 319
+  orig: 421, 319
+  offset: 0, 0
+  index: -1
+beast_mous1
+  rotate: false
+  xy: 897, 33
+  size: 185, 95
+  orig: 185, 95
+  offset: 0, 0
+  index: -1
+beast_mous2
+  rotate: true
+  xy: 789, 41
+  size: 174, 106
+  orig: 174, 106
+  offset: 0, 0
+  index: -1
+beast_pin
+  rotate: true
+  xy: 1422, 67
+  size: 88, 89
+  orig: 88, 89
+  offset: 0, 0
+  index: -1
+beast_rags
+  rotate: true
+  xy: 443, 244
+  size: 344, 177
+  orig: 344, 177
+  offset: 0, 0
+  index: -1
+beast_rags2
+  rotate: false
+  xy: 1099, 79
+  size: 143, 99
+  orig: 143, 99
+  offset: 0, 0
+  index: -1
+cane
+  rotate: false
+  xy: 1523, 1051
+  size: 82, 289
+  orig: 82, 289
+  offset: 0, 0
+  index: -1
+chain
+  rotate: true
+  xy: 1511, 651
+  size: 127, 150
+  orig: 127, 150
+  offset: 0, 0
+  index: -1
+chal1
+  rotate: false
+  xy: 1062, 360
+  size: 181, 237
+  orig: 181, 237
+  offset: 0, 0
+  index: -1
+chal2
+  rotate: true
+  xy: 1245, 350
+  size: 99, 271
+  orig: 99, 271
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 622, 303
+  size: 255, 300
+  orig: 255, 300
+  offset: 0, 0
+  index: -1
+cloack
+  rotate: false
+  xy: 2, 1076
+  size: 511, 614
+  orig: 511, 614
+  offset: 0, 0
+  index: -1
+cloack1
+  rotate: false
+  xy: 1020, 599
+  size: 260, 186
+  orig: 260, 186
+  offset: 0, 0
+  index: -1
+cloack2
+  rotate: false
+  xy: 950, 1115
+  size: 99, 60
+  orig: 99, 60
+  offset: 0, 0
+  index: -1
+cloack3
+  rotate: true
+  xy: 581, 54
+  size: 161, 206
+  orig: 161, 206
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 879, 303
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+feather1
+  rotate: true
+  xy: 801, 605
+  size: 165, 88
+  orig: 165, 88
+  offset: 0, 0
+  index: -1
+feather2
+  rotate: true
+  xy: 1244, 87
+  size: 95, 111
+  orig: 95, 111
+  offset: 0, 0
+  index: -1
+feather3
+  rotate: false
+  xy: 1032, 1021
+  size: 31, 92
+  orig: 31, 92
+  offset: 0, 0
+  index: -1
+fedora
+  rotate: true
+  xy: 879, 326
+  size: 265, 181
+  orig: 265, 181
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 1541, 1344
+  size: 346, 130
+  orig: 346, 130
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 1607, 1159
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 891, 593
+  size: 127, 229
+  orig: 127, 229
+  offset: 0, 0
+  index: -1
+legns
+  rotate: true
+  xy: 1307, 772
+  size: 247, 202
+  orig: 247, 202
+  offset: 0, 0
+  index: -1
+mous1
+  rotate: false
+  xy: 581, 2
+  size: 108, 50
+  orig: 108, 50
+  offset: 0, 0
+  index: -1
+mous2
+  rotate: false
+  xy: 120, 2
+  size: 90, 48
+  orig: 90, 48
+  offset: 0, 0
+  index: -1
+pin
+  rotate: true
+  xy: 1513, 69
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+pul
+  rotate: false
+  xy: 1357, 126
+  size: 63, 56
+  orig: 63, 56
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 515, 1104
+  size: 433, 71
+  orig: 433, 71
+  offset: 0, 0
+  index: -1

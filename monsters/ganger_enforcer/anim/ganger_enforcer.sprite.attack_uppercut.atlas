@@ -1,19 +1,19 @@
 
 ganger_enforcer.sprite.attack_uppercut.png
-size: 1024,1024
+size: 715,715
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 enforcerUPPERCUT
   rotate: false
-  xy: 2, 67
+  xy: 2, 2
   size: 560, 711
   orig: 560, 711
   offset: 0, 0
   index: -1
 ground_shadow
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 564, 356
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

@@ -1,0 +1,55 @@
+
+cemetery_fat.sprite.attack_devour_fx.png
+size: 420,420
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 2, 142
+  size: 416, 276
+  orig: 416, 276
+  offset: 0, 0
+  index: -1
+dots Copy
+  rotate: false
+  xy: 2, 16
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+dots Copy 2
+  rotate: false
+  xy: 87, 109
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+dots Copy 3
+  rotate: false
+  xy: 2, 53
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+dots Copy 4
+  rotate: false
+  xy: 45, 99
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+dots Copy 5
+  rotate: false
+  xy: 119, 111
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+dots Copy 6
+  rotate: false
+  xy: 2, 97
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1

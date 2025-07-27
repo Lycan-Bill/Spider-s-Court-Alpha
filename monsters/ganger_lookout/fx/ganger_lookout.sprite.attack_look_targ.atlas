@@ -1,19 +1,19 @@
 
 ganger_lookout.sprite.attack_look_targ.png
-size: 512,256
+size: 422,422
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 target_1
   rotate: false
-  xy: 2, 2
+  xy: 2, 198
   size: 235, 222
   orig: 235, 222
   offset: 0, 0
   index: -1
 target_2
-  rotate: false
-  xy: 239, 39
+  rotate: true
+  xy: 2, 2
   size: 194, 185
   orig: 194, 185
   offset: 0, 0

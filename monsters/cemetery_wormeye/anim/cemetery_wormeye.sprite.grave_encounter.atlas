@@ -1,0 +1,20 @@
+
+cemetery_wormeye.sprite.grave_encounter.png
+size: 648,475
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GraveEncounter
+  rotate: true
+  xy: 2, 2
+  size: 471, 579
+  orig: 471, 579
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 583, 116
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

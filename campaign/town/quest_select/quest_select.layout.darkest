@@ -3,7 +3,7 @@ town_quest_select_layout:
 	.party_name_pos 756 834
 
 quest_select_dungeon_layout_cove:
-    .quest_map_pos 1260 400
+    .quest_map_pos 1260 613
     .quest_number_of_quests_in_row 4
     .all_quest_map_pos 850 380
     .all_quest_number_of_quests_in_row 11
@@ -11,7 +11,7 @@ quest_select_dungeon_layout_cove:
 	.has_visible_progression 1
 
 quest_select_dungeon_layout_crypts:
-    .quest_map_pos 968 513
+    .quest_map_pos 749 513
     .quest_number_of_quests_in_row 4
     .all_quest_map_pos 850 220
     .all_quest_number_of_quests_in_row 11
@@ -19,7 +19,7 @@ quest_select_dungeon_layout_crypts:
 	.has_visible_progression 1
     
 quest_select_dungeon_layout_darkestdungeon:
-    .quest_map_pos 1060 106
+    .quest_map_pos 1060 206
     .quest_number_of_quests_in_row 4
     .all_quest_map_pos 850 540
     .all_quest_number_of_quests_in_row 11
@@ -51,25 +51,25 @@ quest_select_dungeon_layout_weald:
 	.has_visible_progression 1
     	
 town_quest_select_dungeon_layout:
-	.background_offset -5 -10
-	.dungeon_name_offset 190 -8
+	.background_offset -35 -10
+	.dungeon_name_offset 120 -8
 	.dungeon_heirloom_start_offset 160 -14
 	.dungeon_heirloom_spacing 38 0
-	.dungeon_level_offset 219 20
+	.dungeon_level_offset 137 20
 	.dungeon_xp_bar_offset 14 32
-	.dungeon_xp_bar_size 194 8
+	.dungeon_xp_bar_size 109 8
 	.dungeon_xp_bar_fx_offset 0 4
-	.dungeon_xp_bar_tt_offset 0 -88
+	.dungeon_xp_bar_tt_offset -75 -88
 	.dungeon_xp_bar_tt_hot_area_offset 14 0
-	.dungeon_xp_bar_tt_hot_area_size 232 48
-	.quest_button_start_offset 160 92
-	.quest_button_spacing 76 80
-	.locked_icon_offset 184 -10
-	.town_event_icon_offset -32 -14
+	.dungeon_xp_bar_tt_hot_area_size 123 48
+	.quest_button_start_offset 84 80
+	.quest_button_spacing 56 60
+	.locked_icon_offset 100 0
+	.town_event_icon_offset 105 -25
 	.town_event_icon_tooltip_offset 0 0
-	.town_event_icon_tooltip_hot_area_offset -32 -14
+	.town_event_icon_tooltip_hot_area_offset 125 -25
 	.town_event_icon_tooltip_hot_area_size 32 32
-	.roaming_icon_offset 9 -8
+	.roaming_icon_offset 109 15
 	.roaming_icon_space_between -30 0
 	.roaming_tooltip_offset 0 70
 

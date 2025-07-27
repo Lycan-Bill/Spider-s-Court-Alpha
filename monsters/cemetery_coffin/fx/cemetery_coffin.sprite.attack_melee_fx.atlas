@@ -1,0 +1,13 @@
+
+cemetery_coffin.sprite.attack_melee_fx.png
+size: 717,717
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Slash FX
+  rotate: false
+  xy: 2, 2
+  size: 151, 713
+  orig: 151, 713
+  offset: 0, 0
+  index: -1

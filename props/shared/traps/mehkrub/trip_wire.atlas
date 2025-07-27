@@ -1,0 +1,13 @@
+
+trip_wire.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 4
+  rotate: false
+  xy: 2, 2
+  size: 856, 160
+  orig: 856, 160
+  offset: 0, 0
+  index: -1

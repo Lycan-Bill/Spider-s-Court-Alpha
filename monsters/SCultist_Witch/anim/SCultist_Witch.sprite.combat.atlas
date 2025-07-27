@@ -1,0 +1,97 @@
+
+SCultist_Witch.sprite.combat.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 385, 158
+  size: 244, 325
+  orig: 244, 325
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: false
+  xy: 990, 463
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+Layer 11
+  rotate: false
+  xy: 2, 8
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: false
+  xy: 629, 15
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 831, 243
+  size: 156, 175
+  orig: 156, 175
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 385, 10
+  size: 146, 166
+  orig: 146, 166
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 631, 210
+  size: 198, 208
+  orig: 198, 208
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 2, 33
+  size: 381, 450
+  orig: 381, 450
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 553, 2
+  size: 154, 74
+  orig: 154, 74
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 631, 139
+  size: 69, 122
+  orig: 69, 122
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: false
+  xy: 629, 34
+  size: 101, 103
+  orig: 101, 103
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 755, 106
+  size: 82, 102
+  orig: 82, 102
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 631, 420
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

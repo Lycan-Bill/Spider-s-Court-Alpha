@@ -1,19 +1,19 @@
 
 ganger_grenadier.sprite.attack_blind_fx.png
-size: 1024,512
+size: 686,686
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 FLASHSMOKE
   rotate: false
-  xy: 418, 36
+  xy: 2, 2
   size: 340, 323
   orig: 340, 323
   offset: 0, 0
   index: -1
 SMOKE
   rotate: false
-  xy: 2, 2
+  xy: 2, 327
   size: 414, 357
   orig: 414, 357
   offset: 0, 0

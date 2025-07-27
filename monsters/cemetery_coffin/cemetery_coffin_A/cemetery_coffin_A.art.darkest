@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large
+
+skill: .id "coffin_stress" .anim "attack_stress" .fx "attack_stress"
+skill: .id "coffin_buff" .anim "attack_buff" .fx "attack_buff"
+skill: .id "coffin_transform" .anim "attack_transform"
+
+skill: .id "coffin_knockback" .anim ""
+skill: .id "coffin_stun" .anim ""
+skill: .id "coffin_melee" .anim "attack_melee" .fx "attack_melee" .targchestfx "blood_splatter"

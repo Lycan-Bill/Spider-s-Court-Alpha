@@ -1,19 +1,19 @@
 
 ganger_gunner.sprite.dead.png
-size: 1024,256
+size: 513,513
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 gunnerCORPES
   rotate: false
-  xy: 2, 2
+  xy: 2, 286
   size: 509, 225
   orig: 509, 225
   offset: 0, 0
   index: -1
 shadow
   rotate: false
-  xy: 513, 164
+  xy: 2, 221
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

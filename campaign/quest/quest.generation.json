@@ -1,7 +1,7 @@
 {
     "generation": {
         "dungeon": {
-            "generated_quests_max_threshold": 4,
+            "generated_quests_max_threshold": 5,
             "generated_dungeons": [
                 {
                     "id": "crypts",
@@ -13,11 +13,11 @@
                 },
                 {
                     "id": "warrens",
-                    "required_number_of_quests_finished": 99999999
+                    "required_number_of_quests_finished": 999999999999
                 },
                 {
                     "id": "cove",
-                    "required_number_of_quests_finished": 99999999
+                    "required_number_of_quests_finished": 999999999999
                 }
             ]
         },

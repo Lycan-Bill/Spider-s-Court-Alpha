@@ -1,0 +1,158 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "sc_smoke_debuff_r1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "has_description":false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "sc_smoke_debuff_r2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "has_description":false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "sc_smoke_debuff_tt_r1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sc_smoke_debuff_tt",
+         "remove_on_battle_complete":true,
+         "amount" : -0.50,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+      {
+         "id" : "sc_smoke_debuff_tt_r2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sc_smoke_debuff_tt",
+         "remove_on_battle_complete":true,
+         "amount" : -0.50,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+       },
+      {
+         "id" : "sc_smoke_debuff_tt_r3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sc_smoke_debuff_tt",
+         "remove_on_battle_complete":true,
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""
+         }
+       },
+      {
+         "id" : "sc_smoke_debuff_tt_r4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "sc_smoke_debuff_tt",
+         "remove_on_battle_complete":true,
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         }
+       },
+      {
+         "id" : "sc_smoke_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "has_description":false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+	 }
+      },
+      {
+         "id" : "sc_firecracker_debuff_r2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "sc_firecracker_debuff_r3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "remove_on_battle_complete":true,
+         "amount" : -0.25,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""		
+			
+         }
+      },
+      {
+         "id" : "sc_firecracker_shuffle_r2",
+         "stat_type" : "shuffle_dot",
+         "stat_sub_type" : "sc_firecracker_debuff_tt",
+         "amount" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "sc_firecracker_shuffle_r3",
+         "stat_type" : "shuffle_dot",
+         "stat_sub_type" : "sc_firecracker_debuff_tt",
+         "amount" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 2,
+            "string" : ""		
+			
+         }
+      }
+   ]  
+}

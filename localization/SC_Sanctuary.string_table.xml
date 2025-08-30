@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+	 
+	 <!-- Hamlet -->
+  <entry id="str_town_title"><![CDATA[Santuary]]></entry>
+	
+	<!--Buildings-->
+	<entry id="town_name_abbey"><![CDATA[Research Center]]></entry>
+	<entry id="town_name_activity_log"><![CDATA[Current Status]]></entry>
+	<entry id="town_name_blacksmith"><![CDATA[Iron Monger]]></entry>
+	<entry id="town_name_camping_trainer"><![CDATA[Huntsman]]></entry>
+	<entry id="town_name_feflow"><![CDATA[The Santuary]]></entry>
+	<entry id="town_name_glossary"><![CDATA[Grimore]]></entry>
+	<entry id="town_name_graveyard"><![CDATA[Funeral Home]]></entry>
+	<entry id="town_name_guild"><![CDATA[Huntering Lodge]]></entry>
+	<entry id="town_name_nomad_wagon"><![CDATA[Antique's Trader]]></entry>
+	<entry id="town_name_provision"><![CDATA[Provision]]></entry>
+	<entry id="town_name_quest_select"><![CDATA[Land Map]]></entry>
+	<entry id="town_name_realm_inventory"><![CDATA[Trinket Inventory]]></entry>
+	<entry id="town_name_sanitarium"><![CDATA[Pharmacy]]></entry>
+	<entry id="town_name_stage_coach"><![CDATA[River Boat]]></entry>
+	<entry id="town_name_statue"><![CDATA[Town Hall]]></entry>
+	<entry id="town_name_tavern"><![CDATA[Inn]]></entry>
+	<entry id="town_name_town_Event"><![CDATA[ATTENTION!]]></entry>
+		
+	<entry id="str_tavern_summary"><![CDATA[Stress Relief]]></entry>
+	<entry id="str_abbey_summary"><![CDATA[Research, Study and Expiremnt]]></entry>
+	<entry id="str_blacksmith_summary"><![CDATA[Upgrade Weapons and Armor]]></entry>
+	<entry id="str_camping_trainer_summary"><![CDATA[Upgrade Camping Skills]]></entry>
+	<entry id="str_graveyard_summary"><![CDATA[View fallen heroes]]></entry>
+	<entry id="str_guild_summary"><![CDATA[Upgrade Combat Skills]]></entry>
+	<entry id="str_nomad_wagon_summary"><![CDATA[Shop for Trinkets]]></entry>
+	<entry id="str_sanitarium_summary"><![CDATA[Remove Quirks and Diseases]]></entry>
+	<entry id="str_stage_coach_summary"><![CDATA[Recruit New Heroes]]></entry>
+	<entry id="str_statue_summary"><![CDATA[View the town's archives]]></entry>
+
+<entry id="town_activity_description_bar"><![CDATA[Drink your cares away.
+{colour_start|stress}Stress{colour_end} Heals 40/50/60]]></entry>
+    <entry id="town_activity_description_brothel"><![CDATA[Peace and Relaxation.
+{colour_start|stress}Stress{colour_end} Heals 60/75/90]]></entry>
+    <entry id="town_activity_description_gambling"><![CDATA[Electrifying feel of luck.
+{colour_start|stress}Stress{colour_end} Heals 50/63/75]]></entry>
+    <entry id="town_activity_description_disease_treatment"><![CDATA[Treat Diseases, humours, and other physical maladies.]]></entry>
+    <entry id="town_activity_description_meditation"><![CDATA[Study and Learn.
+{colour_start|stress}Stress{colour_end} Heals 10/15/20]]></entry>
+    <entry id="town_activity_description_prayer"><![CDATA[Learn the surroundings in a controlled setting.
+{colour_start|stress}Stress{colour_end} Heals 10/15/20]]></entry>
+    <entry id="town_activity_description_treatment"><![CDATA[Various expirmental medications to combat ailment, and sodas.]]></entry>
+    <entry id="town_activity_description_flagellation"><![CDATA[Expirment with components (may cause side effects).
+{colour_start|stress}Stress{colour_end} Heals 100]]></entry>
+
+    <entry id="town_activity_name_bar"><![CDATA[Bar]]></entry>
+    <entry id="town_activity_name_gambling"><![CDATA[Casino]]></entry>
+    <entry id="town_activity_name_brothel"><![CDATA[Fishing]]></entry>
+    <entry id="town_activity_name_treatment"><![CDATA[Pharmacy]]></entry>
+    <entry id="town_activity_name_disease_treatment"><![CDATA[Operating Room]]></entry>
+    <entry id="town_activity_name_meditation"><![CDATA[Library]]></entry>
+    <entry id="town_activity_name_prayer"><![CDATA[Field Research]]></entry>
+    <entry id="town_activity_name_flagellation"><![CDATA[Laboratory]]></entry>
+	
+	<entry id="building_verbose_abbey"><![CDATA[Upgrading the Research Center increases types of research and stress healing while bolstering their effectiveness.]]></entry>
+	<entry id="building_verbose_tavern"><![CDATA[Upgrading the Inn increases the types of stress treatments and their effectiveness.]]></entry>
+		
+	<!--Building Events-->
+	<entry id="str_flagellation_currency_gained_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} {colour_start|town_activity_log_positive_result}they have earned {?amount}%d silver coins{colour_end} surveying the lands.]]></entry>
+	
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_man_ACC_B_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned secrets to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week studying.]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_man_CRIT_B_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned how to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week studying.]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_beast_ACC_B_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned secrets to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week studying.]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_beast_CRIT_B_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned secrets aganist {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week studying.]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_unholy_ACC_B_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned how to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week studying.]]></entry>
+	
+	<entry id="str_prayer_add_quirk_hatred_of_eldritch_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has gained insight on {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week in field research.]]></entry>
+	<entry id="str_prayer_add_quirk_hatred_of_unholy_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned how to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week researching.]]></entry>
+	<entry id="str_prayer_add_quirk_hatred_of_man_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned secrets to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week researching.]]></entry>
+	<entry id="str_prayer_add_quirk_hatred_of_beast_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned secrets aganist {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week researching.]]></entry>
+	<entry id="str_prayer_add_quirk_hatred_of_ganger_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned how to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week researching.]]></entry>
+	
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_man_ACC_B_story_desc"><![CDATA[increase their accuracy against humans]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_man_CRIT_B_story_desc"><![CDATA[critically damage humans]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_beast_ACC_B_story_desc"><![CDATA[increase their accuracy against beasts]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_beast_CRIT_B_story_desc"><![CDATA[critically damage beasts]]></entry>
+	<entry id="str_meditation_add_buff_QUIRK_monsterType_unholy_ACC_B_story_desc"><![CDATA[increase their accuracy against the unholy]]></entry>
+  
+	
+  </language>
+</root>
+

@@ -1,3 +1,10 @@
+//Bandage
+effect: .name "bandage" .target "performer" .item 1 .chance 100% .cure_bleed 1 .heal 5 .crit_doesnt_apply_to_roll true
+//Antivenom
+effect: .name "antivenom" .target "performer" .item 1 .chance 100% .cure_poison 1 .heal 5 .crit_doesnt_apply_to_roll true
+//Laudanum
+effect: .name "laudanum" .target "performer" .item 1 .chance 100% .healstress 10 .clearDotStress 1 .crit_doesnt_apply_to_roll true
+
 ///General Effects
 effect: .name "SC Push 1" .target "target"  .push 1 	.chance 100%   .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC Push 2" .target "target"  .push 1 	.chance 120%   .on_hit true .on_miss false .can_apply_on_death true
@@ -20,12 +27,19 @@ effect: .name "SC Pull 3" .target "target"  .pull 1 	.chance 120%	.on_hit true .
 effect: .name "SC Pull 5" .target "target"  .pull 1 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true 
 
 ///Items
+///Hawthorne Oil
 effect: .name "Hawthorn_Oil" .target "performer" .item 1 .curio_result_type "positive" .buff_ids "Hawthorn_Oil_Low" "Hawthorn_Oil_High" "Hawthorn_Oil_Crit" .buff_duration_type combat_end .duration 3 .on_hit true .on_miss false
+///Molotov
 effect: .name "molotov_cocktail" .target "target_enemy_group" .individual_target_actor_rolls true .item 1 .chance 120% .buff_ids "dd2_firedot_dmg_3" "dd2_firedot_key_buff_2" "dd2_burn_token_tt3" "dd2_guardblock_test" .duration 3 .buff_source_type bsrc_deathsdoor_recovery
-
-effect: .name "Lantern_Oil_Bad" .target "global" .item 1 .curio_result_type "positive"  .torch_increase 6 .use_item_type estate .use_item_id Lantern_Oil_Bad2
-effect: .name "Lantern_Oil_Bad2" .target "performer" .item 1 .curio_result_type "positive" 
-
+//Smoke Bomb
+effect: .name "sc_smoke_bomb" .target "target_enemy_group" .item 1 .chance 100% .buff_ids "sc_smoke_debuff" "sc_smoke_debuff_tt_r3" "sc_smoke_debuff_tt_r4" .duration 3 .use_item_type supply .use_item_id smoke_bomb_1 .buff_source_type bsrc_skill
+effect: .name "sc_smoke_bomb" .target "target_enemy_group" .item 1 .chance 100% .buff_ids "sc_smoke_debuff_r1" "sc_smoke_debuff_r2" "sc_smoke_debuff_tt_r1" "sc_smoke_debuff_tt_r2" .duration 3 .queue true .buff_source_type bsrc_skill
+//Firecracker
+effect: .name "sc_firecracker" .target "target_enemy_group" .item 1 .chance 100% .buff_ids "sc_firecracker_debuff_r2" "sc_firecracker_debuff_r3" .duration 3 .use_item_type supply .use_item_id smoke_bomb_1 .buff_source_type bsrc_skill
+effect: .name "sc_firecracker" .target "target_enemy_group" .item 1 .chance 100% .buff_ids "sc_firecracker_shuffle_r2" "sc_firecracker_shuffle_r3" .duration 3 .queue true .buff_source_type bsrc_skill
+//Ichor Bomb
+effect: .name "ichor_bomb" .target "target_enemy_group" .item 1 .chance 115% .dotPoison 5 .duration 3 .buff_source_type bsrc_skill
+//Lantern_Oil_standard
 effect: .name "Lantern_Oil_standard" .target "global" .item 1 .curio_result_type "positive"  .torch_increase 10 .use_item_type estate .use_item_id Lantern_Oil_standard2
 effect: .name "Lantern_Oil_standard2" .target "performer" .item 1 .curio_result_type "positive"
 
@@ -38,10 +52,18 @@ effect: .name "Lantern_Oil_Best2" .target "performer" .item 1 .curio_result_type
 effect: .name "Bravery_Tonic" .target "performer" .item 1 .curio_result_type "positive"  .healstress 15 .use_item_type estate .use_item_id Bravery_Tonic2
 effect: .name "Bravery_Tonic2" .target "performer" .item 1 .curio_result_type "positive" .buff_ids "Bravery_Tonic_Buff" .buff_duration_type combat_end .duration 3
 
+effect: .name "Strength_Tonic" .target "performer" .item 1 .curio_result_type "positive"  .combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .crit_chance_add 2% .speed_rating_add -4 .on_hit true .on_miss true .queue true .apply_once true .buff_duration_type combat_end .duration 3
+effect: .name "Strength_Tonic2" .target "performer" .item 1 .curio_result_type "positive" 
+
 effect: .name "Health_Tonic" .target "performer" .item 1 .curio_result_type "positive" .dotHpHeal 2 .duration 3 .on_hit true .on_miss false .queue true .use_item_type estate .use_item_id Health_Tonic2
 effect: .name "Health_Tonic2" .target "performer" .item 1 .curio_result_type "positive" .buff_ids "Health_Tonic_HP_Buff" .buff_duration_type combat_end .duration 3
 
-effect: .name "Strength_Tonic" .target "performer" .chance 1000% .item 1 .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.15 .damage_high_multiply 0.15 .crit_chance_add 2% .speed_rating_add -4 .buff_duration_type combat_end .duration 3 .on_hit true .on_miss false .queue true 
+effect: .name "Berserk_Tonic" .target "performer" .chance 1000% .item 1 .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss false .queue true .use_item_id Berserk_Toni2
+effect: .name "Berserk_Tonic2" .target "performer" .chance 1000% .item 1 .on_hit true .on_miss false .queue true 
+
+effect: .name "Lantern_Oil_standard_override" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.15 .damage_high_multiply 0.15 .crit_chance_add 4% .queue true .on_hit true .on_miss true
+effect: .name "Lantern_Oil_Good_override" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.15 .damage_high_multiply 0.15 .crit_chance_add 4% .queue true .on_hit true .on_miss true
+effect: .name "Lantern_Oil_Best_override" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.15 .damage_high_multiply 0.15 .crit_chance_add 4% .queue true .on_hit true .on_miss true
 
 ///Infernal Stuff
 effect: .name "Soul_Contract" .target "performer" .curio_result_type "negative" .stress 20 .disease 1_infernal_marked .chance 5000% .on_hit true .on_miss true .queue true
@@ -53,7 +75,7 @@ effect: .name "Soul_Contract_dummy_Two" .target "performer" .item 1 .chance 5000
 effect: .name "Soul_Contract_dummy_Three" .target "performer" .item 1 .chance 5000% .disease 1_infernal_marked .use_item_type supply .queue true
 
 ///Death's Door
-effect: .name "grim_death_quirk" .chance 5000%  .target "performer" .curio_result_type "negative" .disease 1_grim_reaper_1 .on_hit true .on_miss true .queue true
+effect: .name "grim_death_quirk" .chance 21%  .target "performer" .curio_result_type "negative" .disease 1_grim_reaper_1 .on_hit true .on_miss true .queue true
 
 //changes
 effect: .name "The Thirst Lifedrain Scaling 1" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "The_thirst_lifesteal_Scaling_1" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified
@@ -73,36 +95,6 @@ effect: .name "SC Daze Target Debuff Anti" .target "target" .chance -1000% .dura
 effect: .name "SC Daze Self Debuff Steal" .target "performer" .steal_buff_source_type bsrc_last_hero .on_hit true .on_miss false .has_description false
 effect: .name "SC Daze Daze" .target "target" .chance -1000% .daze 1 .on_hit true .on_miss false .has_description false
 
-// Baron Changes 
-effect: .name "Baron Smug Buff" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.15 .damage_high_multiply 0.15 .crit_chance_add 4% .queue true .on_hit true .on_miss true
-effect: .name "Baron Silence Stun" .target "target" .curio_result_type "negative" .chance 160% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Baron Audience Change" .target "performer_group_other" .set_mode beast .chance 100% .on_hit true .on_miss false .queue false
-
-
-//Audience
-effect: .name "Audience Cheer Buff" .target "target" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.25 .damage_high_multiply 0.25 .crit_chance_add 6% .queue true .on_hit true .on_miss true 
-effect: .name "Audience Boo Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 8 .on_hit true .on_miss true .queue true .apply_once false 
-effect: .name "Audience Jeer Debuff" .target "target" .curio_result_type "positive" .chance 6000% .duration 3 .combat_stat_buff 1 .damage_low_multiply -0.15 .damage_high_multiply -0.15 .crit_chance_add -3% .queue true .on_hit true .on_miss true 
-effect: .name "Audience Crowd Buff" .target "target" .curio_result_type "positive" .chance 6000% .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.25 .damage_high_multiply 0.25 .crit_chance_add 6% .queue true .on_hit true .on_miss true 
-effect: .name "Audience Fun Bleed" .target "target" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-
-//Viscount changes
-effect: .name "Viscount ProtectMe ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2
-effect: .name "Viscount ProtectMe ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 
-effect: .name "Viscount ProtectMe Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 7
-effect: .name "Summon Chef" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters scarab_chef_boss_C .summon_chances 3.0 2.0 2.0 .summon_limits 2 1 1 .on_hit true .on_miss true .apply_once true
-effect: .name "Viscount Bell Buff" .target "target_group" .chance 100% .duration 3 .combat_stat_buff 1 .crit_chance_add 5% .damage_low_multiply 40%	.damage_high_multiply 40% .speed_rating_add 2 .on_hit true .on_miss false .apply_once true 
-effect: .name "Viscount Riposte target"  .target "target" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply 0.3%  .damage_high_multiply 0.3%  .crit_chance_add 2%
-effect: .name "Viscount Plates Bleed" .target "target" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Spices Buff" .target "target" .chance 100% .curio_result_type "positive" .combat_stat_buff 1 .duration -1 .damage_low_multiply 10%	.damage_high_multiply 10% .speed_rating_add 1 .protection_rating_add 5% .on_hit true .on_miss true
-effect: .name "Viscount Bell Debuff" .target "target" .chance 130% .curio_result_type "positive" .combat_stat_buff 1 .duration 3 .speed_rating_add -3 .on_hit true .on_miss false
-effect: .name "Viscount Bell Stun" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Viscount Emaciated Body Summon" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters body_emaciated_C .summon_chances 3.0 .summon_limits 1 .summon_ranks 1 .on_hit true .on_miss true .apply_once true
-effect: .name "Viscount Average Body Summon" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters  body_average_C .summon_chances 3.0 .summon_limits 1 .summon_ranks 2 .on_hit true .on_miss true .apply_once true
-effect: .name "Viscount Bloated Body Summon" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters  body_bloated_C .summon_chances 3.0 .summon_limits 1 .summon_ranks 4 .on_hit true .on_miss true .apply_once true
-effect: .name "Viscount Eat Target" .target "target" .chance 100% .kill 1 .on_hit true .on_miss true .apply_with_result true
-effect: .name "Eat Damage" .target "target" target .chance 100% .health_damage 100 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Eat Heal" .target "performer" .curio_result_type "positive" .chance 100% .heal 5		.on_hit true .on_miss false .queue true
 
 /// Spider Bishop
 effect: .name "The Blessed Summon A" .target "performer" .curio_result_type "positive" .chance 100% .on_hit true .on_miss true .summon_count 1 .summon_monsters esquire_A courtesan_A bloody_butler_A steward_A .summon_chances 1.0 2.0 .summon_rank_is_previous_monster_class true
@@ -844,6 +836,14 @@ effect: .name "Ghoul Spd 5" .target "target" .curio_result_type "positive" .chan
 effect: .name "Ghoul Cane Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Ghoul Cane Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Ghoul Cane Stun 5" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+//Cemetery Casket
+//-------------------------------------------
+effect: .name "coffin_info_TT" .target "performer" .chance 100% .duration -1 .buff_ids coffin_info_TT .on_hit true .on_miss true .queue true .buff_source_type bsrc_town_event
+
+effect: .name "xform_to_fungal_coffin_A" .target "performer" .chance 100% .set_monster_class_id fungal_coffin_A .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "xform_to_fungal_coffin_B" .target "performer" .chance 100% .set_monster_class_id fungal_coffin_B .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "xform_to_fungal_coffin_C" .target "performer" .chance 100% .set_monster_class_id fungal_coffin_C .set_monster_class_reset_hp false .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true .apply_once true
 
 ///Deathblow Rework
 effect: .name "SC_Deaths_Debuff" .target "performer" .buff_ids "SC_DD_debuff" .on_hit true .on_miss false .buff_duration_type combat_end .duration 1

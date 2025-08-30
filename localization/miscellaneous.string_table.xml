@@ -11,6 +11,114 @@
     <entry id="resistance_name_stun"><![CDATA[{colour_start|stun}STN{colour_end}]]></entry>
     <entry id="resistance_name_trap"><![CDATA[{colour_start|trap}TRP{colour_end}]]></entry>
     <entry id="resistance_resolve_level"><![CDATA[Resolve Level]]></entry>
+	
+	<!--Quirks-->
+	<entry id="str_quirk_name_ruins_adventurer"><![CDATA[Old Quarter Adventurer]]></entry>
+    <entry id="str_quirk_name_ruins_explorer"><![CDATA[Old Quarter Explorer]]></entry>
+    <entry id="str_quirk_name_ruins_master"><![CDATA[Old Quarter Master]]></entry>
+    <entry id="str_quirk_name_ruins_phobe"><![CDATA[Old Quarter Phobe]]></entry>
+    <entry id="str_quirk_name_ruins_scrounger"><![CDATA[Old Quarter Scrounger]]></entry>
+    <entry id="str_quirk_name_ruins_survivor"><![CDATA[Old Quarter Survivor]]></entry>
+    <entry id="str_quirk_name_ruins_tactician"><![CDATA[Old Quarter Tactician]]></entry>
+	
+	<!--Monster Types-->
+  <entry id="enemy_type_name_ganger"><![CDATA[Ganger]]></entry>
+  <entry id="buff_rule_data_tooltip_ganger"><![CDATA[Ganger]]></entry>
+  
+  
+  <!--Items-->
+      <entry id="str_inventory_description_supplyantivenom"><![CDATA[{colour_start|skill_unselectable}Concoction{colour_end}
+Cure {colour_start|blight}Blight{colour_end}
+{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
+    <entry id="str_inventory_description_supplybandage"><![CDATA[{colour_start|skill_unselectable}Woven{colour_end}
+Cure {colour_start|bleed}Bleed{colour_end}
+{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
+
+<!--Smoke Bomb-->
+    <entry id="str_inventory_title_estatesc_smoke_bomb"><![CDATA[Smoke Bomb]]></entry>
+    <entry id="str_inventory_description_estatesc_smoke_bomb"><![CDATA[{colour_start|skill_unselectable}Throwable{colour_end}
+{colour_start|skill_pip_monsters}¤¦¤{colour_end} {colour_start|skill_pip_default}¤ ¤{colour_end}
+{colour_start|debuff}Debuff:{colour_end}
+-50% {colour_start|notable}ACC{colour_end} for 3 rds
+{colour_start|skill_pip_default}¤ ¤{colour_end} {colour_start|skill_pip_monsters}¤¦¤{colour_end}
+{colour_start|debuff}Debuff:{colour_end}
+-25% {colour_start|notable}ACC{colour_end} for 3 rds]]></entry>
+<!--Smoke Bomb Tooltip-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sc_smoke_debuff_tt"><![CDATA[-%d%% {colour_start|debuff}ACC{colour_end}]]></entry>
+
+<!--Molotov Cocktail-->
+    <entry id="str_inventory_title_estatemolotov_cocktail"><![CDATA[Molotov Cocktail]]></entry>
+    <entry id="str_inventory_description_estatemolotov_cocktail"><![CDATA[{colour_start|skill_unselectable}Throwable{colour_end}
+{colour_start|skill_pip_monsters}¤¦¤{colour_end} {colour_start|skill_pip_default}¤ ¤{colour_end}
+3 DMG after turn for 3 rds]]></entry>
+
+<!--Chemical Bomb-->
+    <entry id="str_inventory_title_estateichor_bomb"><![CDATA[Chemical Bomb]]></entry>
+    <entry id="str_inventory_description_estateichor_bomb"><![CDATA[{colour_start|skill_unselectable}Throwable{colour_end}
+{colour_start|skill_pip_monsters}¤¦¤¦¤¦¤{colour_end}
+{colour_start|blight}Blight{colour_end}
+5 pts/rd for 3 rds]]></entry>
+
+<!--Bravery Tonic-->
+    <entry id="str_inventory_title_estateBravery_Tonic"><![CDATA[Bravery Tonic]]></entry>
+    <entry id="str_inventory_description_estateBravery_Tonic"><![CDATA[{colour_start|skill_unselectable}Tonic{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+15 {colour_start|virtue}Stress{colour_end} Heal
+{colour_start|buff}Buff:{colour_end}
++15% {colour_start|virtue}Virtue{colour_end} Chance]]></entry>
+
+<!--Strength Tonic-->
+    <entry id="str_inventory_title_estateStrength_Tonic"><![CDATA[Strength Tonic]]></entry>
+    <entry id="str_inventory_description_estateStrength_Tonic"><![CDATA[{colour_start|skill_unselectable}Tonic{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+{colour_start|buff}Buff:{colour_end}
++15 DMG
++2% Crit
+{colour_start|debuff}Debuff:{colour_end}
+-2 SPD]]></entry>
+
+<!--Health Tonic-->
+    <entry id="str_inventory_title_estateHealth_Tonic"><![CDATA[Health Tonic]]></entry>
+    <entry id="str_inventory_description_estateHealth_Tonic"><![CDATA[{colour_start|skill_unselectable}Tonic{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+{colour_start|buff}Buff:{colour_end}
++15% MAX HP
+{colour_start|healhp}Regen{colour_end}
+2 pts/rd for 3 rds]]></entry>
+
+<!--MedKit-->
+    <entry id="str_inventory_title_estatesc_medkit"><![CDATA[Med Kit]]></entry>
+    <entry id="str_inventory_description_estatesc_medkit"><![CDATA[{colour_start|skill_unselectable}Restorative{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+{colour_start|healhp}Heal{colour_end} 15%%
+Cure
+{colour_start|blight} Blight{colour_end}
+{colour_start|bleed}Bleed{colour_end}]]></entry>
+
+<!--Merchant Credit-->
+    <entry id="str_inventory_title_estatemerchant_credit"><![CDATA[Merchant Credit]]></entry>
+    <entry id="str_inventory_description_estatemerchant_credit"><![CDATA[This exists to test merchant curios]]></entry>
+	
+<!--Merchant Credit-->
+    <entry id="str_inventory_title_estateHawthorn_Oil"><![CDATA[Hawthorn Oil]]></entry>
+    <entry id="str_inventory_description_estateHawthorn_Oil"><![CDATA[{colour_start|skill_unselectable}Supportive{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+{colour_start|buff}Buff:{colour_end}
++15% DMG Vs Bloodsuckers
++9% CRIT Vs Bloodsuckers]]></entry>
+	
+
+<!--Firecracker-->
+    <entry id="str_inventory_title_estatesc_firecracker"><![CDATA[Firecracker]]></entry>
+    <entry id="str_inventory_description_estatesc_firecracker"><![CDATA[{colour_start|skill_unselectable}Throwable{colour_end}
+{colour_start|skill_pip_default}¤{colour_end} {colour_start|skill_pip_monsters}¤¦¤{colour_end} {colour_start|skill_pip_default}¤{colour_end}
+{colour_start|debuff}Debuff:{colour_end}
+-25% {colour_start|stun}Stun{colour_end} Resist for 3 rds
+{colour_start|skill_pip_default}¤{colour_end} {colour_start|skill_pip_monsters}¤¦¤{colour_end} {colour_start|skill_pip_default}¤{colour_end}
+{colour_start|move}Shuffle{colour_end} Target for 3 rds]]></entry>
+<!--Smoke Bomb Tooltip-->
+	<entry id="buff_stat_tooltip_upgrade_discount_sc_firecracker_debuff_tt"><![CDATA[-%d%% {colour_start|stun}Stun{colour_end} Resist]]></entry>
+	
   </language>
 </root>
 

@@ -1,0 +1,13 @@
+
+SCultist_Witch.sprite.dead.png
+size: 603,603
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xface
+  rotate: false
+  xy: 2, 177
+  size: 599, 424
+  orig: 599, 424
+  offset: 0, 0
+  index: -1

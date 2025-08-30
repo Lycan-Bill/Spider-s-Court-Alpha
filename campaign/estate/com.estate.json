@@ -1,0 +1,29 @@
+{
+	"currencies":
+	[
+        {
+			"id": "shard",
+            "is_heirloom": false,
+            "is_visible_in_summary" :  false,
+			"is_visible_in_districts" : false
+		},
+		{
+			"id": "memory",
+            "is_heirloom": false,
+			"is_visible_in_summary" :  false,
+			"is_visible_in_districts" : false
+		}
+	],
+	
+	"quest_fail_keep_rates":
+	[
+		{ 
+			"type": "shard",
+			"rate": 1.0
+		},
+		{ 
+			"type": "memory",
+			"rate": 1.0
+		}
+	]
+}

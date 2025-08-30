@@ -1,0 +1,13 @@
+
+fungal_coffin_fake.sprite.defend.png
+size: 639,689
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defend
+  rotate: false
+  xy: 2, 2
+  size: 635, 685
+  orig: 635, 685
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,209 @@
+
+cemetery_casket.sprite.coffin_hands.png
+size: 2019,487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backbell
+  rotate: false
+  xy: 1424, 44
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+badajo
+  rotate: true
+  xy: 1930, 344
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+bell
+  rotate: true
+  xy: 1424, 2
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+bellsha
+  rotate: false
+  xy: 1974, 237
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+bigbell
+  rotate: true
+  xy: 1073, 23
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+bigbellsha
+  rotate: true
+  xy: 1177, 23
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+chain
+  rotate: false
+  xy: 1293, 173
+  size: 349, 169
+  orig: 349, 169
+  offset: 0, 0
+  index: -1
+chainsha
+  rotate: false
+  xy: 1644, 166
+  size: 328, 176
+  orig: 328, 176
+  offset: 0, 0
+  index: -1
+coffin
+  rotate: true
+  xy: 2, 9
+  size: 476, 651
+  orig: 476, 651
+  offset: 0, 0
+  index: -1
+ground
+  rotate: false
+  xy: 1293, 344
+  size: 635, 141
+  orig: 635, 141
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: true
+  xy: 1785, 66
+  size: 98, 166
+  orig: 98, 166
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: true
+  xy: 1843, 24
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: true
+  xy: 1930, 366
+  size: 119, 78
+  orig: 119, 78
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: false
+  xy: 655, 22
+  size: 212, 73
+  orig: 212, 73
+  offset: 0, 0
+  index: -1
+hand5
+  rotate: true
+  xy: 1503, 2
+  size: 169, 91
+  orig: 169, 91
+  offset: 0, 0
+  index: -1
+hand6
+  rotate: false
+  xy: 1953, 73
+  size: 64, 91
+  orig: 64, 91
+  offset: 0, 0
+  index: -1
+hand7
+  rotate: true
+  xy: 1785, 23
+  size: 41, 56
+  orig: 41, 56
+  offset: 0, 0
+  index: -1
+hand8
+  rotate: false
+  xy: 1596, 30
+  size: 187, 134
+  orig: 187, 134
+  offset: 0, 0
+  index: -1
+hand9
+  rotate: false
+  xy: 1332, 11
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+litbell
+  rotate: false
+  xy: 1974, 198
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+litbell2
+  rotate: false
+  xy: 1466, 51
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litbellsha
+  rotate: true
+  xy: 1895, 29
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litchain
+  rotate: false
+  xy: 1293, 103
+  size: 208, 68
+  orig: 208, 68
+  offset: 0, 0
+  index: -1
+litchainsha
+  rotate: false
+  xy: 869, 28
+  size: 202, 67
+  orig: 202, 67
+  offset: 0, 0
+  index: -1
+mus1
+  rotate: false
+  xy: 1974, 316
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+mus2
+  rotate: true
+  xy: 1596, 2
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+mus3
+  rotate: true
+  xy: 1974, 275
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+mus4
+  rotate: false
+  xy: 1281, 2
+  size: 49, 93
+  orig: 49, 93
+  offset: 0, 0
+  index: -1
+tapa
+  rotate: true
+  xy: 655, 97
+  size: 388, 636
+  orig: 388, 636
+  offset: 0, 0
+  index: -1

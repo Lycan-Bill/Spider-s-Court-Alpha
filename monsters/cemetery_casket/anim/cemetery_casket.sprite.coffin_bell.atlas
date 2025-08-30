@@ -1,0 +1,153 @@
+
+cemetery_casket.sprite.coffin_bell.png
+size: 1930,494
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backbell
+  rotate: false
+  xy: 1868, 26
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+badajo
+  rotate: true
+  xy: 1868, 4
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+bell
+  rotate: true
+  xy: 1067, 62
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+bellsha
+  rotate: false
+  xy: 1503, 75
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+bigbell
+  rotate: true
+  xy: 655, 30
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+bigbellsha
+  rotate: true
+  xy: 759, 30
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+chain
+  rotate: false
+  xy: 1538, 180
+  size: 349, 169
+  orig: 349, 169
+  offset: 0, 0
+  index: -1
+chainsha
+  rotate: false
+  xy: 1538, 2
+  size: 328, 176
+  orig: 328, 176
+  offset: 0, 0
+  index: -1
+coffin
+  rotate: true
+  xy: 2, 16
+  size: 476, 651
+  orig: 476, 651
+  offset: 0, 0
+  index: -1
+ground
+  rotate: false
+  xy: 1293, 351
+  size: 635, 141
+  orig: 635, 141
+  offset: 0, 0
+  index: -1
+litbell
+  rotate: false
+  xy: 1503, 36
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+litbell2
+  rotate: false
+  xy: 1889, 299
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litbellsha
+  rotate: false
+  xy: 1889, 247
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litchain
+  rotate: false
+  xy: 1293, 43
+  size: 208, 68
+  orig: 208, 68
+  offset: 0, 0
+  index: -1
+litchainsha
+  rotate: false
+  xy: 863, 35
+  size: 202, 67
+  orig: 202, 67
+  offset: 0, 0
+  index: -1
+mus1
+  rotate: false
+  xy: 1889, 197
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+mus2
+  rotate: true
+  xy: 1893, 5
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+mus3
+  rotate: false
+  xy: 1126, 68
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+mus4
+  rotate: false
+  xy: 1868, 85
+  size: 49, 93
+  orig: 49, 93
+  offset: 0, 0
+  index: -1
+tapa
+  rotate: true
+  xy: 655, 104
+  size: 388, 636
+  orig: 388, 636
+  offset: 0, 0
+  index: -1
+wave
+  rotate: false
+  xy: 1293, 113
+  size: 243, 236
+  orig: 243, 236
+  offset: 0, 0
+  index: -1

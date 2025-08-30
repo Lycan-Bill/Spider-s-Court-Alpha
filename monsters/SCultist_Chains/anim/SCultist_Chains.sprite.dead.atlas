@@ -1,0 +1,13 @@
+
+SCultist_Chains.sprite.dead.png
+size: 603,603
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chainguy
+  rotate: false
+  xy: 2, 229
+  size: 599, 372
+  orig: 599, 372
+  offset: 0, 0
+  index: -1

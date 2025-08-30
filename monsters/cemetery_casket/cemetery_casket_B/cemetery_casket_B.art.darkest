@@ -1,0 +1,8 @@
+commonfx: .deathfx death_medium
+skill: .id "fungal_coffin_bells" .anim "coffin_bell" .targchestfx "stress_cloud" .area_pos_offset -150 0 .target_area_pos_offset 225 0
+skill: .id "fungal_coffin_grab" .anim "coffin_hands" .targchestfx "blood_splatter"
+skill: .id "fungal_coffin_pull" .anim "coffin_full" .targchestfx "blood_splatter"
+skill: .id "fungal_coffin_ring" .anim "coffin_bell" .targchestfx "stress_cloud"
+
+
+riposte_skill: .id "fungal_coffin_riposte" .anim "coffin_full" .targchestfx "blood_splatter"

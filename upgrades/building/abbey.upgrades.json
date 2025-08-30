@@ -1,0 +1,242 @@
+{
+   "trees":
+   [
+      {
+         "id" : "abbey.meditation",
+         "is_instanced" : false,
+         "tags" : ["building","abbey"],
+         "requirements" : 
+         [
+            {
+               "code" : "a",
+               "currency_cost" :
+               [
+                  { "type" : "gold", "amount" : 0},
+                  { "type" : "deed", "amount" : 8}
+               ],
+               "prerequisite_requirements" :
+               [
+            ]
+         },
+         {
+            "code" : "b",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 15}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.meditation", "requirement_code" : "a" }
+            ]
+         },
+         {
+            "code" : "c",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "portrait", "amount" : 23}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.meditation", "requirement_code" : "b" }
+            ]
+         },
+         {
+            "code" : "d",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 32}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.meditation", "requirement_code" : "c" }
+            ]
+         },
+         {
+            "code" : "e",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 39}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.meditation", "requirement_code" : "d" }
+            ]
+         },
+         {
+            "code" : "f",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "portrait", "amount" : 47}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.meditation", "requirement_code" : "e" }
+            ]
+         }
+      ]
+   },
+      {
+         "id" : "abbey.prayer",
+         "is_instanced" : false,
+         "tags" : ["building","abbey"],
+         "requirements" : 
+         [
+            {
+               "code" : "a",
+               "currency_cost" :
+               [
+                  { "type" : "gold", "amount" : 0},
+                  { "type" : "deed", "amount" : 8}
+               ],
+               "prerequisite_requirements" :
+               [
+            ]
+         },
+         {
+            "code" : "b",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 15}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.prayer", "requirement_code" : "a" }
+            ]
+         },
+         {
+            "code" : "c",
+            "currency_cost" :
+            [
+              { "type" : "gold", "amount" : 0},
+               { "type" : "portrait", "amount" : 23}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.prayer", "requirement_code" : "b" }
+            ]
+         },
+         {
+            "code" : "d",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 32}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.prayer", "requirement_code" : "c" }
+            ]
+         },
+         {
+            "code" : "e",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 39}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.prayer", "requirement_code" : "d" }
+            ]
+         },
+         {
+            "code" : "f",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "portrait", "amount" : 47}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.prayer", "requirement_code" : "e" }
+            ]
+         }
+      ]
+   },
+      {
+         "id" : "abbey.flagellation",
+         "is_instanced" : false,
+         "tags" : ["building","abbey"],
+         "requirements" : 
+         [
+            {
+               "code" : "a",
+               "currency_cost" :
+               [
+                  { "type" : "gold", "amount" : 0},
+                  { "type" : "deed", "amount" : 8}
+               ],
+               "prerequisite_requirements" :
+               [
+            ]
+         },
+         {
+            "code" : "b",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 15}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.flagellation", "requirement_code" : "a" }
+            ]
+         },
+         {
+            "code" : "c",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "portrait", "amount" : 32}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.flagellation", "requirement_code" : "b" }
+            ]
+         },
+         {
+            "code" : "d",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 32}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.flagellation", "requirement_code" : "c" }
+            ]
+         },
+         {
+            "code" : "e",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "deed", "amount" : 39}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.flagellation", "requirement_code" : "d" }
+            ]
+         },
+         {
+            "code" : "f",
+            "currency_cost" :
+            [
+               { "type" : "gold", "amount" : 0},
+               { "type" : "portrait", "amount" : 47}
+            ],
+            "prerequisite_requirements" :
+            [
+               { "tree_id" : "abbey.flagellation", "requirement_code" : "e" }
+            ]
+         }
+      ]
+   }
+]
+}

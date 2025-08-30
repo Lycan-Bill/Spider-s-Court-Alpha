@@ -1,5 +1,6 @@
 display: .size 1
 enemy_type: .id "man"
+enemy_type: .id "ganger"
 stats: .hp 11 .def 5% .prot 0.10 .spd 4 .stun_resist 20% .poison_resist 15% .bleed_resist 25% .debuff_resist 30% .move_resist 20%
 skill: .id "ganger_pipe" .type "melee" .atk 62.5% .dmg 2 5 .crit 2%  .launch 321 .target 12
 skill: .id "ganger_pipe_weak" .type "melee" .atk 62.5% .dmg 2 5 .crit 2%  .launch 4 .target 12 .move 0 1 .is_crit_valid False

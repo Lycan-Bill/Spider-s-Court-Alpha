@@ -972,7 +972,98 @@
       "is_false_rule": false,
       "rule_data": {
         "float": 0,
-        "string": "tagged"	
+        "string": "tagged"
+	 }
+      },
+      {
+         "id" : "QUIRK_monsterType_ganger_DMGL_G",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "ganger"
+         }
+      },
+      {
+         "id" : "QUIRK_monsterType_ganger_DMGH_G",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "ganger"
+	}
+      },
+      {
+         "id" : "QUIRK_monsterType_ganger_STRESSDMG_G",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "ganger"
+	}
+      },
+      {
+         "id" : "QUIRK_monsterType_ganger_ACC_G",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "ganger"
+	 }
+      },
+      {
+         "id" : "QUIRK_monsterType_ganger_CRIT_G",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "ganger"
+	}
+      },
+      {
+         "id" : "QUIRK_monsterType_ganger_STRESSDMG_G1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "monster_type_count_min",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : "ganger"
+	}
+      },
+      {
+         "id" : "QUIRK_monsterType_ganger_ACC_G1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "ganger"	
       }
     }
   ]

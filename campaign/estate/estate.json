@@ -1,0 +1,103 @@
+{
+	"currencies":
+	[
+		{
+			"id": "gold",
+			"is_heirloom": false			
+		},
+		{
+			"id": "bust",
+			"is_heirloom": true			
+		},
+		{
+			"id": "portrait",
+			"is_heirloom": true			
+		},
+		{
+			"id": "deed",
+			"is_heirloom": true			
+		},
+        {
+            "id": "crest",
+            "is_heirloom": true
+		},
+		{
+			"id": "shard",
+            "is_heirloom": false,
+            "is_visible_in_summary" :  true
+		},
+		{
+			"id": "blueprint",
+            "is_heirloom": true,
+			"is_visible_in_summary" :  true,
+			"is_visible_in_districts" : true
+		}
+	],
+	
+	"quest_fail_keep_rates":
+	[
+		{ 
+			"type": "gold",
+			"rate": 1.0
+		},
+		{ 
+			"type": "trinket",
+			"rate": 1.0
+		},
+		{ 
+			"type": "heirloom",
+			"rate": 1.0
+		},
+		{ 
+			"type": "provision",
+			"rate": 0.25
+		},
+		{ 
+			"type": "jewellery",
+			"rate": 1.0
+		},
+		{ 
+			"type": "gem",
+			"rate": 1.0
+		},
+		{ 
+			"type": "supply",
+			"rate": 0.25
+		},
+		{ 
+			"type": "quest_item",
+			"rate": 0.0
+		},
+		{ 
+			"type": "journal_page",
+			"rate": 1.0
+		},
+		{ 
+			"type": "estate",
+			"rate": 1.0
+		},
+		{ 
+			"type": "estate_currency",
+			"rate": 1.0
+		},
+		{ 
+			"type": "blueprint",
+			"rate": 1.0
+		},
+		{ 
+			"type": "shard",
+			"rate": 1.0
+		}
+	],
+	
+	"hero_activity_cost_multiplier_table":
+	[
+		0.5,
+		0.5,
+		0.5,
+		0.75,
+		0.75,
+		1.00,
+		1.00
+	]
+}

@@ -116,7 +116,7 @@
   <entry id="str_monster_skill_blood_salvation"><![CDATA[Salvatio]]></entry>
   <entry id="str_monster_skill_heed_faithful"><![CDATA[Haeresis]]></entry>
   <entry id="str_monster_skill_switch_web"><![CDATA[Web Of Secrets]]></entry>
-  <entry id="str_monster_skill_switch_spider"><![CDATA[Spider’S Call]]></entry>
+  <entry id="str_monster_skill_switch_spider"><![CDATA[Spider’s Call]]></entry>
   <entry id="str_monster_skill_scnun_blessing"><![CDATA[Famished Blessing]]></entry>
   <entry id="str_monster_skill_scnun_light"><![CDATA[Crimson Light]]></entry>
   <entry id="str_monster_skill_blut_slash"><![CDATA[Bloody Strike]]></entry>
@@ -127,6 +127,35 @@
   
   <entry id="str_monster_skill_the_hunger_human_esquire"><![CDATA[{colour_start|white}ɡɡɡɡʤɣɣɣɣɩɰɮɫɬʁʢ{colour_end}The Thirst]]></entry>
   <entry id="str_monster_skill_the_hunger_beast_esquire"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɰɮɬɫ{colour_end}The Thirst]]></entry>
+  
+  
+  <!-- Heirlooms -->
+	<entry id="bonus_currency_name_shard"><![CDATA[Refined Amber Dust]]></entry>
+	
+	<entry id="raid_results_party_heirloom_inventory_title"><![CDATA[Collected Relics]]></entry>
+	<entry id="str_inventory_title_heirloombust"><![CDATA[Cold Iron]]></entry>
+	<entry id="str_inventory_title_heirloomcrest"><![CDATA[Blessing]]></entry>
+	<entry id="str_inventory_title_heirloomdeed"><![CDATA[Tomes Of Knowledge]]></entry>
+	<entry id="str_inventory_title_heirloomportrait"><![CDATA[Bloodsucker Treasure]]></entry>
+	<entry id="str_inventory_title_shard"><![CDATA[Silver Coins]]></entry>
+	<entry id="str_inventory_description_heirloombust"><![CDATA[Iron said to repel what lurks in the dark, cold to the touch...]]></entry>
+	<entry id="str_inventory_description_heirloomcrest"><![CDATA[It failed to protect its owner, but perhaps...]]></entry>
+	<entry id="str_inventory_description_heirloomdeed"><![CDATA[Ancient books with secret esoteric information, sought after by some.]]></entry>
+	<entry id="str_inventory_description_heirloomportrait"><![CDATA[Stolen directly from the court's treasurey...]]></entry>
+	<entry id="str_inventory_description_shard"><![CDATA[Tragic one needs money even in Hell these days.]]></entry>
+	
+	<entry id="str_inventory_title_heirloomblueprint"><![CDATA[Engine Parts]]></entry>
+	<entry id="str_inventory_description_heirloomblueprint"><![CDATA[Engine parts to repair our machines outlawed by the court...]]></entry>
+	<entry id="buff_rule_data_tooltip_blueprint"><![CDATA[Engine Parts]]></entry>
+	
+	<entry id="town_name_heirloom_exchange"><![CDATA[Trade Relics]]></entry>
+   
+	<entry id="town_estate_bar_tooltip_bust"><![CDATA[Cold Iron: %d (Used to upgrade quarter facilities.)]]></entry>
+	<entry id="town_estate_bar_tooltip_crest"><![CDATA[Blessing: %d (Used to upgrade quarter facilities.)]]></entry>
+	<entry id="town_estate_bar_tooltip_deed"><![CDATA[Tomes of Knowledge: %d (Used to upgrade quarter facilities.)]]></entry>
+	<entry id="town_estate_bar_tooltip_portrait"><![CDATA[BloodSucker Treasure: %d (Used to upgrade quarter facilities.)]]></entry>
+	<entry id="town_estate_bar_tooltip_shard"><![CDATA[Silver Coins: %d (Used for trading with the infernal and activaties.)]]></entry>
+	<entry id="town_estate_bar_tooltip_blueprint"><![CDATA[Engine parts: %d (Used to create town quarters.)]]></entry>
   
   <!--Fire-->
   <entry id="buff_stat_tooltip_upgrade_discount_dd2_burn_token_tt"><![CDATA[%d DMG after turn]]></entry>
@@ -157,37 +186,7 @@
   <entry id="town_quest_name_plot_literaly_for_show_1"><![CDATA[Explore The Quarter]]></entry>
   <entry id="town_quest_description_plot_literaly_for_show_1"><![CDATA[Explore The Old Quarter]]></entry>
   <entry id="str_plot_literaly_for_show_tip_1"><![CDATA[Beware this is their turf...]]></entry>
-  
-  <!--Buildings-->
-  <entry id="town_name_abbey"><![CDATA[Chapel]]></entry>
-	<entry id="town_name_activity_log"><![CDATA[Current Status]]></entry>
-	<entry id="town_name_blacksmith"><![CDATA[Iron Monger]]></entry>
-	<entry id="town_name_camping_trainer"><![CDATA[Huntsman]]></entry>
-	<entry id="town_name_feflow"><![CDATA[The Quarter]]></entry>
-	<entry id="town_name_glossary"><![CDATA[Grimore]]></entry>
-	<entry id="town_name_graveyard"><![CDATA[Charnel House]]></entry>
-	<entry id="town_name_guild"><![CDATA[Hunter's Club]]></entry>
-	<entry id="town_name_nomad_wagon"><![CDATA[Antique's Trader]]></entry>
-	<entry id="town_name_provision"><![CDATA[Provision]]></entry>
-	<entry id="town_name_quest_select"><![CDATA[Land Map]]></entry>
-	<entry id="town_name_realm_inventory"><![CDATA[Trinket Inventory]]></entry>
-	<entry id="town_name_sanitarium"><![CDATA[Hospital]]></entry>
-	<entry id="town_name_stage_coach"><![CDATA[River Boat]]></entry>
-	<entry id="town_name_statue"><![CDATA[Library]]></entry>
-	<entry id="town_name_tavern"><![CDATA[Inn]]></entry>
-	<entry id="town_name_town_Event"><![CDATA[ATTENTION!]]></entry>
-		
-	<entry id="str_tavern_summary"><![CDATA[Stress Relief]]></entry>
-	<entry id="str_abbey_summary"><![CDATA[Santification]]></entry>
-	<entry id="str_blacksmith_summary"><![CDATA[Upgrade Weapons and Armor]]></entry>
-	<entry id="str_camping_trainer_summary"><![CDATA[Upgrade Camping Skills]]></entry>
-	<entry id="str_graveyard_summary"><![CDATA[View fallen heroes]]></entry>
-	<entry id="str_guild_summary"><![CDATA[Upgrade Combat Skills]]></entry>
-	<entry id="str_nomad_wagon_summary"><![CDATA[Shop for Trinkets]]></entry>
-	<entry id="str_sanitarium_summary"><![CDATA[Remove Quirks, Diseases, and Expirement]]></entry>
-	<entry id="str_stage_coach_summary"><![CDATA[Recruit New Heroes]]></entry>
-	<entry id="str_statue_summary"><![CDATA[View the town's archives]]></entry>
-	
+
 	<entry id=""><![CDATA[{colour_start|white}Ϩ{colour_end}Quirk]]></entry>
   
 </language>

@@ -1,0 +1,4 @@
+commonfx: .deathfx death_medium
+skill: .id "fungal_coffin_bells" .anim "coffin_bell" .targchestfx "stress_cloud" .area_pos_offset -150 0 .target_area_pos_offset 225 0
+
+riposte_skill: .id "fungal_coffin_riposte" .anim "coffin_empty"

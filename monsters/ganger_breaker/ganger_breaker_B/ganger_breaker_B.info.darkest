@@ -1,5 +1,6 @@
 display: .size 2
 enemy_type: .id "man"
+enemy_type: .id "ganger"
 stats: .hp 56 .def 15.75% .prot 0.15 .spd 4 .stun_resist 70% .poison_resist 50% .bleed_resist 40% .debuff_resist 35% .move_resist 95%
 skill: .id "ganger_break_charge" .type "melee" .atk 88.75% .dmg 5109 .crit 7%  .effect "Ganger Push 2" .launch 12 .target ~12 .move 0 1
 skill: .id "ganger_hammer" .type "melee" .atk 88.75% .dmg 3 5 .crit 13%  .effect  .target ?1234 .extra_targets_count 1 .extra_targets_chance 0.55

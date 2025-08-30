@@ -9,8 +9,8 @@ provision_store_background_layout:
 	.pos 644 144
 	
 provision_store_grid_layout:
-	.number_of_columns 7	
-	.start_pos 120 20		.offset 80 170
+	.number_of_columns 10	
+	.start_pos -50 20		.offset 74 170
 	.is_centred 0
 	
 provision_party_background_layout:

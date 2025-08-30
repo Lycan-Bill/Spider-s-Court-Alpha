@@ -9,10 +9,9 @@ hall_curios: .chance 8 .types Quarter_Carriage
 
 
 traps: .chance 1 .types trip_wire
-obstacles: .chance 1 .types rubble
+obstacles: .chance 1 .types oq_barricade
 
 room_treasures: .chance 1 .types TheSpiv
 room_treasures: .chance 1 .types snake_oil_salesman
 
 secret_room_treasures: .chance 1 .types Infernal_Merchant
-

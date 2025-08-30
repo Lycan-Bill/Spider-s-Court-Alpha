@@ -1,0 +1,10 @@
+{
+  "shard": {
+    "icon_thresholds": [ 5, 10, 15 ],
+    "can_unpack":  true
+  },
+  "supplyspice": {
+    "icon_thresholds": [ 1, 2, 3 ],
+    "can_unpack":  true
+  }
+}

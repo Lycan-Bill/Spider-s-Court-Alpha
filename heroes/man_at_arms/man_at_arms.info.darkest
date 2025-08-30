@@ -46,7 +46,9 @@ combat_skill: .id "bolster" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .pe
 combat_skill: .id "bolster" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target ~@1234 .is_crit_valid True  .effect "Bolster 3" "Bolster Stress Buff 3" .is_stall_invalidating false
 combat_skill: .id "bolster" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target ~@1234 .is_crit_valid True  .effect "Bolster 4" "Bolster Stress Buff 4" .is_stall_invalidating false
 combat_skill: .id "bolster" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .per_battle_limit 1 .launch 1234 .target ~@1234 .is_crit_valid True  .effect "Bolster 5" "Bolster Stress Buff 5" .is_stall_invalidating false
-riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 90% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True 
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 90% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True
+ 
 tag: .id "heavy"
 tag: .id "non-religious"
 tag: .id "training_ring"

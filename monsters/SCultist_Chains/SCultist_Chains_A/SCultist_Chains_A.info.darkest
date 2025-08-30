@@ -1,5 +1,6 @@
 display: .size 1
 enemy_type: .id "man"
+enemy_type: .id "vampire"
 stats: .hp 15 .def 0% .prot 0 .spd 5 .stun_resist 25% .poison_resist 20% .bleed_resist 20% .debuff_resist 15% .move_resist 25%
 skill: .id "sc_wasting_thirst" .type "melee" .atk 75.5% .dmg 2 4 .crit 7%  .effect "SCultist Blight 1" .launch 21 .target 12
 skill: .id "sc_get_over_here" .type "melee" .atk 75.5% .dmg 1 2 .crit 1% .effect "SCultist Pull 1" "SCultist Stress 1" .launch 432 .target 1234 .is_crit_valid False

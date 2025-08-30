@@ -1,6 +1,5 @@
 display: .size 1
 enemy_type: .id "unholy"
-enemy_type: .id "carpentry"
 enemy_type: .id "zombie"
 
 stats: .hp 20 .def 21.25% .prot 0.25 .spd 4 .stun_resist 65% .poison_resist 50% .bleed_resist 240% .debuff_resist 55% .move_resist 60%

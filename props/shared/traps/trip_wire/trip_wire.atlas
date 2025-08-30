@@ -1,13 +1,62 @@
 
 trip_wire.png
-size: 1024,256
+size: 867,867
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Layer 4
+BOOM
   rotate: false
-  xy: 2, 2
+  xy: 2, 437
+  size: 539, 428
+  orig: 539, 428
+  offset: 0, 0
+  index: -1
+Layer 0
+  rotate: true
+  xy: 705, 421
+  size: 444, 150
+  orig: 444, 150
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: true
+  xy: 705, 2
+  size: 417, 152
+  orig: 417, 152
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: true
+  xy: 543, 9
   size: 856, 160
   orig: 856, 160
+  offset: 0, 0
+  index: -1
+frag1
+  rotate: false
+  xy: 2, 16
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+frag2
+  rotate: false
+  xy: 110, 36
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+frag3
+  rotate: true
+  xy: 68, 30
+  size: 51, 40
+  orig: 51, 40
+  offset: 0, 0
+  index: -1
+frag4
+  rotate: false
+  xy: 2, 83
+  size: 345, 352
+  orig: 345, 352
   offset: 0, 0
   index: -1

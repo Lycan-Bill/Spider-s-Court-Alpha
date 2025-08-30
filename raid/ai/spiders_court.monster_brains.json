@@ -6144,10 +6144,83 @@
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": false
-          }
+           }
         }
       ],
       "bonus_initiative_desires": []
+    },
+    {
+			"id": "kill_marked_target_fungal_coffin",
+			"skill_cooldowns": [],
+			"skill_selection_desires": [{
+					"type": "effect_key_status_skill",
+					"data": {
+						"base_chance": 100.0,
+						"effect_key_status": "tagged"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1.0,
+						"combat_skill_id": "fungal_coffin_grab"
+					}
+				},
+				{
+					"type": "specific_skill",
+					"data": {
+						"base_chance": 1.0,
+						"combat_skill_id": "fungal_coffin_ring"
+					}
+
+				}
+			],
+			"target_selection_desires": [{
+					"type": "marked_target",
+					"data": {
+						"base_chance": 100.0,
+						"specific_combat_skill_id": "fungal_coffin_pull",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": false
+					}
+				},
+				{
+					"type": "random_target",
+					"data": {
+						"base_chance": 1.0,
+						"specific_combat_skill_id": "",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": true
+					}
+				},
+				{
+					"type": "marked_target",
+					"data": {
+						"base_chance": 100.0,
+						"specific_combat_skill_id": "fungal_coffin_ring",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": false
+					}
+				},
+				{
+					"type": "stress_target",
+					"data": {
+						"base_chance": 3.0,
+						"specific_combat_skill_id": "fungal_coffin_ring",
+						"is_exclusive_desire": false,
+						"is_enemy_target_desire": true,
+						"is_friendly_target_desire": false,
+						"is_greater_comparison": true,
+						"can_target_not_overstressed": true,
+						"can_target_afflicted": true,
+						"can_target_virtued": true
+					}
+				}
+			],
+			"bonus_initiative_desires": []
     }
   ]
 }

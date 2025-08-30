@@ -1,5 +1,6 @@
 display: .size 1
 enemy_type: .id "man"
+enemy_type: .id "ganger"
 stats: .hp 26 .def 15.25% .prot 0.24 .spd 8 .stun_resist 55% .poison_resist 40% .bleed_resist 40% .debuff_resist 45% .move_resist 50%
 skill: .id "enforcer_punch" .type "melee" .atk 88.75% .dmg 5 9 .crit 9%  .effect .launch 4321 .target 12 .move 0 1
 skill: .id "enforcer_knockout" .type "melee" .atk 88.75% .dmg 6 10 .crit 9%  .effect "Ganger Stun 2" .launch 21 .target 12

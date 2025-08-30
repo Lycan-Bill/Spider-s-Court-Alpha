@@ -1,0 +1,146 @@
+
+fungal_coffin_fake.sprite.combat.png
+size: 811,1145
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backbell
+  rotate: true
+  xy: 710, 10
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+badajo
+  rotate: true
+  xy: 756, 310
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+bell
+  rotate: false
+  xy: 714, 310
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+bellsha
+  rotate: false
+  xy: 765, 426
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+bigbell
+  rotate: false
+  xy: 640, 360
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+bigbellsha
+  rotate: false
+  xy: 640, 256
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+chain
+  rotate: true
+  xy: 640, 464
+  size: 349, 169
+  orig: 349, 169
+  offset: 0, 0
+  index: -1
+chainsha
+  rotate: true
+  xy: 623, 815
+  size: 328, 176
+  orig: 328, 176
+  offset: 0, 0
+  index: -1
+coffin
+  rotate: false
+  xy: 2, 492
+  size: 476, 651
+  orig: 476, 651
+  offset: 0, 0
+  index: -1
+ground
+  rotate: true
+  xy: 480, 508
+  size: 635, 141
+  orig: 635, 141
+  offset: 0, 0
+  index: -1
+litbell
+  rotate: false
+  xy: 765, 387
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+litbell2
+  rotate: true
+  xy: 714, 273
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litbellsha
+  rotate: true
+  xy: 756, 332
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litchain
+  rotate: true
+  xy: 640, 46
+  size: 208, 68
+  orig: 208, 68
+  offset: 0, 0
+  index: -1
+litchainsha
+  rotate: true
+  xy: 710, 52
+  size: 202, 67
+  orig: 202, 67
+  offset: 0, 0
+  index: -1
+mus1
+  rotate: false
+  xy: 769, 2
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+mus2
+  rotate: true
+  xy: 781, 311
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+mus3
+  rotate: true
+  xy: 766, 269
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+mus4
+  rotate: false
+  xy: 714, 369
+  size: 49, 93
+  orig: 49, 93
+  offset: 0, 0
+  index: -1
+tapa
+  rotate: true
+  xy: 2, 102
+  size: 388, 636
+  orig: 388, 636
+  offset: 0, 0
+  index: -1

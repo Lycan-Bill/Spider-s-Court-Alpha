@@ -46,6 +46,9 @@ combat_skill: .id "protect_me" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% 
 combat_skill: .id "protect_me" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .per_battle_limit 3 .launch 4321 .target @1234 .is_crit_valid True  .effect "Antiq DefBuff 3" "Mark Target" "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Antiq ProtectMe Guard" .is_stall_invalidating false
 combat_skill: .id "protect_me" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .per_battle_limit 3 .launch 4321 .target @1234 .is_crit_valid True  .effect "Antiq DefBuff 4" "Mark Target" "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Antiq ProtectMe Guard" .is_stall_invalidating false
 combat_skill: .id "protect_me" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .self_target_valid false .per_battle_limit 3 .launch 4321 .target @1234 .is_crit_valid True  .effect "Antiq DefBuff 5" "Mark Target" "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Antiq ProtectMe Guard" .is_stall_invalidating false
+
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid True
+
 tag: .id "light"
 tag: .id "non-religious"
 tag: .id "library"

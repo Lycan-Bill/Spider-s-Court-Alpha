@@ -6,7 +6,7 @@
                 "inherits_from": {
                     "prop_type_name": "trap"
                 },
-                "graphics_file": "props/shared/traps/mehkrub/trip_wire.skel",
+                "graphics_file": "props/shared/traps/trip_wire/trip_wire.skel",
                 "success_effects": [ "Heal Stress TrapD" ],
                 "fail_effects": [ ],
                 "health": -0.15,
@@ -17,14 +17,14 @@
                     "level": 3,
                     "success_effects": [ "Heal Stress TrapD" ],
                     "fail_effects": [ ],
-					"health": -0.10,
-                    "graphics_file": "props/shared/traps/mehkrub/trip_wire.skel"
+					"health": -0.20,
+                    "graphics_file": "props/shared/traps/trip_wire/trip_wire.skel"
                 },
                 {
                     "level": 5,
                     "success_effects": [ "Heal Stress TrapD" ],
                     "fail_effects": [ ],
-					"health": -0.10,
+					"health": -0.30,
                     "graphics_file": "props/shared/traps/trip_wire/trip_wire.skel"
                 }
             ]

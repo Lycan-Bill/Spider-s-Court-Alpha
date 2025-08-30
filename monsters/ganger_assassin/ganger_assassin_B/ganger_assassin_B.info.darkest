@@ -1,5 +1,6 @@
 display: .size 1
 enemy_type: .id "man"
+enemy_type: .id "ganger"
 stats: .hp 21 .def 11.25% .prot 0.24 .spd 7 .stun_resist 45% .poison_resist 40% .bleed_resist 40% .debuff_resist 45% .move_resist 45%
 skill: .id "ganger_lurk" .type "melee" .effect "Ganger Stealth" .launch 123 .target .move 1 0
 skill: .id "ganger_toxin" .type "melee" .atk 87% .dmg 2 4 .crit 7%  .effect "Ganger Blight 2" .launch 234 .target 1234

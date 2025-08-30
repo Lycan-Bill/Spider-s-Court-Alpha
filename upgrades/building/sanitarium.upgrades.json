@@ -10,7 +10,7 @@
                 "code": "a",
                 "currency_cost": [
                     { "type": "gold", "amount": 0 },
-                    { "type": "bust", "amount": 5 },
+                    { "type": "bust", "amount": 3 },
                     { "type": "crest", "amount": 3 }
                 ],
                 "prerequisite_requirements": [
@@ -62,10 +62,6 @@
             }
         ]
     },
-
-
-
-
 
     {
          "id" : "sanitarium.disease_quirk_cost",
@@ -141,11 +137,6 @@
    },
 
 
-
-
-
-
-
       {
          "id" : "sanitarium.slots",
          "is_instanced" : false,
@@ -157,8 +148,8 @@
                "currency_cost" :
                [
                   { "type" : "gold", "amount" : 0},
-                  { "type" : "bust", "amount" : 30},
-                  { "type" : "crest", "amount" : 24}
+                  { "type" : "bust", "amount" : 10},
+                  { "type" : "crest", "amount" : 6}
                ],
                "prerequisite_requirements" :
                [
@@ -170,8 +161,8 @@
                "currency_cost" :
                [
                   { "type" : "gold", "amount" : 0},
-                  { "type" : "bust", "amount" : 30},
-                  { "type" : "crest", "amount" : 19}
+                  { "type" : "bust", "amount" : 20},
+                  { "type" : "crest", "amount" : 13}
                ],
                "prerequisite_requirements" :
                [
@@ -184,8 +175,8 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "bust", "amount" : 60},
-               { "type" : "crest", "amount" : 38}
+               { "type" : "bust", "amount" : 30},
+               { "type" : "crest", "amount" : 19}
             ],
             "prerequisite_requirements" :
             [
@@ -198,30 +189,14 @@
             "currency_cost" :
             [
                { "type" : "gold", "amount" : 0},
-               { "type" : "blueprint", "amount" : 1}
+               { "type" : "bust", "amount" : 60},
+               { "type" : "crest", "amount" : 38}
             ],
             "prerequisite_requirements" :
             [
-            ]
-         },
-
-         {
-            "code" : "e",
-            "currency_cost" :
-            [
-               { "type" : "gold", "amount" : 0},
-               { "type" : "blueprint", "amount" : 1},
-               { "type" : "bust", "amount" : 58}
-            ],
-            "prerequisite_requirements" :
-            [
-               { "tree_id" : "sanitarium.slots", "requirement_code" : "d" }
+               { "tree_id" : "sanitarium.slots", "requirement_code" : "c" }
             ]
          }
-		 
-		 
-		 
-		 
       ]
    }
 ]

@@ -1,0 +1,79 @@
+{
+   "quirks":
+   [
+      {
+          "id" : "hatred_of_ganger",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+            "fear_of_ganger"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "QUIRK_monsterType_ganger_DMGL_G",
+            "QUIRK_monsterType_ganger_DMGH_G",
+            "QUIRK_monsterType_ganger_STRESSDMG_G"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+      {
+         "id" : "slayer_of_ganger",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : true,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+            "fear_of_ganger"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "QUIRK_monsterType_ganger_ACC_G",
+            "QUIRK_monsterType_ganger_CRIT_G"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      },
+      {
+         "id" : "fear_of_ganger",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
+         "show_explicit_curio_tag_description" : false,
+         "random_chance" : 0,
+         "is_positive" : false,
+         "is_disease" : false,
+         "classification" : "mental",
+         "incompatible_quirks" : 
+         [
+            "hatred_of_ganger",
+            "slayer_of_ganger"
+         ],
+         "curio_tag" : "",
+         "curio_tag_chance" : 0.0,
+         "keep_loot" : false,
+         "buffs" : 
+         [
+            "QUIRK_monsterType_ganger_STRESSDMG_G1",
+            "QUIRK_monsterType_ganger_ACC_G1"
+         ],
+         "can_modify_in_activity" : true,
+         "can_be_replaced_by_new_quirk" : true
+      }
+   ]
+}

@@ -1,0 +1,230 @@
+
+fungal_coffin_fake.sprite.coffin_full.png
+size: 3563,487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backbell
+  rotate: true
+  xy: 3438, 166
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+badajo
+  rotate: false
+  xy: 981, 4
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+bell
+  rotate: true
+  xy: 3497, 166
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+bellsha
+  rotate: false
+  xy: 3314, 3
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+bigbell
+  rotate: true
+  xy: 2556, 23
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+bigbellsha
+  rotate: false
+  xy: 2660, 22
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+chain
+  rotate: true
+  xy: 2755, 136
+  size: 349, 169
+  orig: 349, 169
+  offset: 0, 0
+  index: -1
+chainsha
+  rotate: true
+  xy: 2926, 14
+  size: 328, 176
+  orig: 328, 176
+  offset: 0, 0
+  index: -1
+coffin
+  rotate: true
+  xy: 2, 9
+  size: 476, 651
+  orig: 476, 651
+  offset: 0, 0
+  index: -1
+ground
+  rotate: false
+  xy: 2926, 344
+  size: 635, 141
+  orig: 635, 141
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: false
+  xy: 1984, 4
+  size: 169, 91
+  orig: 169, 91
+  offset: 0, 0
+  index: -1
+hand11
+  rotate: true
+  xy: 2734, 26
+  size: 98, 166
+  orig: 98, 166
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 3369, 208
+  size: 187, 134
+  orig: 187, 134
+  offset: 0, 0
+  index: -1
+hand3
+  rotate: false
+  xy: 2221, 17
+  size: 119, 78
+  orig: 119, 78
+  offset: 0, 0
+  index: -1
+hand4
+  rotate: false
+  xy: 2342, 22
+  size: 212, 73
+  orig: 212, 73
+  offset: 0, 0
+  index: -1
+hand6
+  rotate: false
+  xy: 2155, 4
+  size: 64, 91
+  orig: 64, 91
+  offset: 0, 0
+  index: -1
+hand7
+  rotate: true
+  xy: 3438, 123
+  size: 41, 56
+  orig: 41, 56
+  offset: 0, 0
+  index: -1
+litbell
+  rotate: true
+  xy: 1192, 4
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+litbell2
+  rotate: true
+  xy: 3314, 41
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litbellsha
+  rotate: true
+  xy: 3496, 129
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litchain
+  rotate: false
+  xy: 3104, 8
+  size: 208, 68
+  orig: 208, 68
+  offset: 0, 0
+  index: -1
+litchainsha
+  rotate: true
+  xy: 3369, 4
+  size: 202, 67
+  orig: 202, 67
+  offset: 0, 0
+  index: -1
+mus1
+  rotate: true
+  xy: 3496, 92
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+mus2
+  rotate: false
+  xy: 960, 2
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+mus3
+  rotate: false
+  xy: 3438, 87
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+mus4
+  rotate: false
+  xy: 1933, 2
+  size: 49, 93
+  orig: 49, 93
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 1192, 33
+  size: 739, 452
+  orig: 739, 452
+  offset: 0, 0
+  index: -1
+tapa
+  rotate: true
+  xy: 1933, 97
+  size: 388, 636
+  orig: 388, 636
+  offset: 0, 0
+  index: -1
+zomb1
+  rotate: false
+  xy: 2571, 126
+  size: 182, 359
+  orig: 182, 359
+  offset: 0, 0
+  index: -1
+zomb2
+  rotate: true
+  xy: 3104, 78
+  size: 264, 263
+  orig: 264, 263
+  offset: 0, 0
+  index: -1
+zomb3
+  rotate: true
+  xy: 960, 29
+  size: 456, 230
+  orig: 456, 230
+  offset: 0, 0
+  index: -1
+zomb4
+  rotate: true
+  xy: 655, 19
+  size: 466, 303
+  orig: 466, 303
+  offset: 0, 0
+  index: -1

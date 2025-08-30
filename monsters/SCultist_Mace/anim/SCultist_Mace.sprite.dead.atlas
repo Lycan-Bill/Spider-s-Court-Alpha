@@ -1,0 +1,13 @@
+
+SCultist_Mace.sprite.dead.png
+size: 629,629
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bigguy
+  rotate: false
+  xy: 2, 278
+  size: 625, 349
+  orig: 625, 349
+  offset: 0, 0
+  index: -1

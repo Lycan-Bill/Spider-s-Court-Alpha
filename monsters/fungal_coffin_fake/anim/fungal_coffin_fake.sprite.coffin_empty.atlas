@@ -1,0 +1,153 @@
+
+fungal_coffin_fake.sprite.coffin_empty.png
+size: 1221,1030
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+backbell
+  rotate: false
+  xy: 639, 4
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+badajo
+  rotate: false
+  xy: 714, 512
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+bell
+  rotate: false
+  xy: 1065, 318
+  size: 40, 57
+  orig: 40, 57
+  offset: 0, 0
+  index: -1
+bellsha
+  rotate: true
+  xy: 1106, 210
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+bigbell
+  rotate: false
+  xy: 640, 472
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+bigbellsha
+  rotate: false
+  xy: 640, 368
+  size: 72, 102
+  orig: 72, 102
+  offset: 0, 0
+  index: -1
+chain
+  rotate: false
+  xy: 714, 206
+  size: 349, 169
+  orig: 349, 169
+  offset: 0, 0
+  index: -1
+chainsha
+  rotate: false
+  xy: 710, 28
+  size: 328, 176
+  orig: 328, 176
+  offset: 0, 0
+  index: -1
+coffin
+  rotate: false
+  xy: 743, 377
+  size: 476, 651
+  orig: 476, 651
+  offset: 0, 0
+  index: -1
+ground
+  rotate: false
+  xy: 2, 43
+  size: 635, 141
+  orig: 635, 141
+  offset: 0, 0
+  index: -1
+litbell
+  rotate: false
+  xy: 714, 537
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+litbell2
+  rotate: true
+  xy: 1065, 281
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litbellsha
+  rotate: true
+  xy: 1107, 340
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1
+litchain
+  rotate: true
+  xy: 640, 158
+  size: 208, 68
+  orig: 208, 68
+  offset: 0, 0
+  index: -1
+litchainsha
+  rotate: true
+  xy: 1040, 2
+  size: 202, 67
+  orig: 202, 67
+  offset: 0, 0
+  index: -1
+mus1
+  rotate: true
+  xy: 1065, 244
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+mus2
+  rotate: false
+  xy: 714, 485
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+mus3
+  rotate: false
+  xy: 1065, 208
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+mus4
+  rotate: false
+  xy: 639, 63
+  size: 49, 93
+  orig: 49, 93
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 2, 576
+  size: 739, 452
+  orig: 739, 452
+  offset: 0, 0
+  index: -1
+tapa
+  rotate: true
+  xy: 2, 186
+  size: 388, 636
+  orig: 388, 636
+  offset: 0, 0
+  index: -1

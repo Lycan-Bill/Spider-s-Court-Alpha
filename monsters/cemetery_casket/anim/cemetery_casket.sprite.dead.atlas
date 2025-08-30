@@ -1,0 +1,13 @@
+
+cemetery_casket.sprite.dead.png
+size: 639,321
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+corpse
+  rotate: false
+  xy: 2, 2
+  size: 635, 317
+  orig: 635, 317
+  offset: 0, 0
+  index: -1

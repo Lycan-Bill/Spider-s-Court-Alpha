@@ -107,7 +107,7 @@ colour: .id "character_panel_position_pips_title"					.shared_id "neutral"
 colour: .id "character_panel_target_pips_title"						.shared_id "neutral"
 colour: .id "character_panel_palette_number"                        .shared_id "neutral"
 colour: .id "character_panel_previous_next_tooltip"                 .shared_id "neutral"
-colour: .id "character_panel_edit_disabled"                         ".darkness	0.4				.saturation 0.0
+colour: .id "character_panel_edit_disabled"                         .darkness	0.4				.saturation 0.0
 
 colour: .id "town_quest_select_dungeon_name"						.shared_id "notable"
 colour: .id "town_quest_select_dungeon_level"						.shared_id "neutral"

@@ -1,7 +1,0 @@
-commonfx: .deathfx death_large
-skill: .id "treancher_vision" .anim "attack_famished_vision" .fx "attack_famished_vision_fx"
-skill: .id "treancher_taste" .anim "attack_taste" .fx "attack_taste_fx"
-skill: .id "treancher_claw" .anim "attack_claw_beast" .targchestfx "blood_splatter"
-skill: .id "treancher_leap" .anim "attack_leap" .fx "attack_leap_fx"
-skill: .id "the_hunger_human" .anim "attack_hunger_fx" .fx "attack_hunger" .targchestfx "blood_splatter" .area_pos_offset 0 -25
-skill: .id "the_hunger_beast" .anim "attack_hunger_fx" .fx "attack_hunger" .targchestfx "blood_splatter" .area_pos_offset 0 -50

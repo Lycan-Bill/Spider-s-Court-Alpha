@@ -1,0 +1,20 @@
+
+cemetery_ghost.sprite.defend.png
+size: 817,817
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pasted Layer #9
+  rotate: false
+  xy: 2, 2
+  size: 319, 813
+  orig: 319, 813
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 323, 752
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

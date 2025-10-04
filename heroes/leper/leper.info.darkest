@@ -1,4 +1,4 @@
-resistances: .stun 60% .poison 40% .bleed 10% .disease 20% .move 60% .debuff 40% .death_blow 87% .trap 10%
+resistances: .stun 60% .poison 40% .bleed 10% .disease 20% .move 60% .debuff 40% .death_blow 60% .trap 10%
 crit: .effects "on_crit_acc"
 weapon: .name "leper_weapon_0" .atk 0% .dmg 8 16 .crit 1% .spd 2
 weapon: .name "leper_weapon_1" .atk 0% .dmg 9 18 .crit 2% .spd 2 .upgradeRequirementCode 0
@@ -52,7 +52,7 @@ riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .
 tag: .id "heavy"
 tag: .id "religious"
 tag: .id "outsiders_bonfire"
-deaths_door: .enter_effects grim_death_quirk
+deaths_door: .enter_effects grim_death_quirk "SC_Deaths_Debuff"
 controlled: .target_rank 1
 id_index: .index 9
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4

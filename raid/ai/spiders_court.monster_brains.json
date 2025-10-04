@@ -3689,7 +3689,7 @@
         },
         {
           "combat_skill_id": "lookout_lookut",
-          "amount": 2
+          "amount": 1
         },
         {
           "combat_skill_id": "lookout_help",
@@ -3765,7 +3765,7 @@
         },
         {
           "combat_skill_id": "lookout_lookut",
-          "amount": 2
+          "amount": 1
         },
         {
           "combat_skill_id": "lookout_help",
@@ -3847,7 +3847,7 @@
       "skill_cooldowns": [
         {
           "combat_skill_id": "ganger_blast",
-          "amount": 2
+          "amount": 1
         },
         {
           "combat_skill_id": "ganger_warning",
@@ -3889,17 +3889,17 @@
             "specific_combat_skill_id": "",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
-            "is_friendly_target_desire": false
+            "is_friendly_target_desire": true
           }
         },
         {
           "type": "marked_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "",
+            "specific_combat_skill_id": "ganger_blast",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
-            "is_friendly_target_desire": true
+            "is_friendly_target_desire": false
           }
         }
       ],
@@ -3910,7 +3910,7 @@
       "skill_cooldowns": [
         {
           "combat_skill_id": "ganger_blast",
-          "amount": 2
+          "amount": 1
         },
         {
           "combat_skill_id": "ganger_warning",
@@ -3952,7 +3952,7 @@
             "specific_combat_skill_id": "",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
-            "is_friendly_target_desire": false
+            "is_friendly_target_desire": true
           }
         },
         {
@@ -3962,7 +3962,7 @@
             "specific_combat_skill_id": "",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
-            "is_friendly_target_desire": true
+            "is_friendly_target_desire": false
           }
         }
       ],
@@ -4060,13 +4060,13 @@
       "id": "ganger_enforcer_C",
       "skill_cooldowns": [
         {
-          "combat_skill_id": "enforcer_punch",
-          "amount": 1
-        },
-        {
           "combat_skill_id": "enforcer_knockout",
           "amount": 1
         },
+        {
+          "combat_skill_id": "enforcer_punch",
+          "amount": 1
+         },
         {
           "combat_skill_id": "enforcer_rush",
           "amount": 2
@@ -4080,7 +4080,7 @@
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 3,
+            "base_chance": 4,
             "combat_skill_id": "enforcer_punch"
           }
         },

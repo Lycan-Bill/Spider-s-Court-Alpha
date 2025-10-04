@@ -4,14 +4,15 @@
             "key": "rainfall",
             "data": {
                 "id": "rainfall",
-                "burn_down_enabled": false,
+                "burn_down_enabled": true,
                 "hero_buff_list": [],
                 "monster_buff_list": [],
                 "hero_effect_list": [],
                 "monster_effect_list": [],
                 "overlays": [
                     "battle_round",
-                    "comet_glow_torch"
+                    "comet_glow_torch",
+					"light_torch"
                 ],
                 "torch_setting_item_buffs": [
                     {

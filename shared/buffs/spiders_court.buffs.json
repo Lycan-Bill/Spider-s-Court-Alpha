@@ -678,6 +678,7 @@
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
+		 "is_clear_debuff_valid" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""

@@ -99,7 +99,7 @@
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
 ,,,,merchant_credit#estate,Loot,,T_TONIC_TEST,2,<- # Draws,T_TONIC_TEST,2,<- # Draws,,,,loot,Working hard I see.,
-,,,,deed#heirloom,Loot,,T_TONIC_HEIRLOOM,1,<- # Draws,T_TONIC_HEIRLOOM,2,<- # Draws,,,,,,
+,,,,deed#heirloom,Loot,,T_TONIC_HEIRLOOM,1,<- # Draws,T_TONIC_HEIRLOOM,2,<- # Draws,,,,loot,,
 ,,,,,,,,,,,,,,,,,,
 ,8,Virile Brew,,Mixed,,,,,,,,,,,,,,
 ,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES

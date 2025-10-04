@@ -1,0 +1,39 @@
+pop_text_layout_daze:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01
+
+pop_text_layout_stun:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01
+
+pop_text_layout_stun_clear:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01
+
+pop_text_layout_stun_resist:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01
+
+pop_text_layout_daze_resist:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01
+
+pop_text_layout_debuff_resist:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01
+
+pop_text_layout_debuff:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01
+
+pop_text_layout_buff:
+                .start_offset -1000 80
+                .pop_y_offset 100
+                .pop_time 0.01

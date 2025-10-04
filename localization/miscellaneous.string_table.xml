@@ -25,6 +25,12 @@
   <entry id="enemy_type_name_ganger"><![CDATA[Ganger]]></entry>
   <entry id="buff_rule_data_tooltip_ganger"><![CDATA[Ganger]]></entry>
   
+  <entry id="enemy_type_name_zombie"><![CDATA[Ghoul]]></entry>
+  <entry id="buff_rule_data_tooltip_zombie"><![CDATA[Ghoul]]></entry>
+  
+  <entry id="enemy_type_name_ghost"><![CDATA[Wraith]]></entry>
+  <entry id="buff_rule_data_tooltip_ghost"><![CDATA[Wraith]]></entry>
+  
   
   <!--Items-->
       <entry id="str_inventory_description_supplyantivenom"><![CDATA[{colour_start|skill_unselectable}Concoction{colour_end}
@@ -90,7 +96,7 @@ Cure {colour_start|bleed}Bleed{colour_end}
     <entry id="str_inventory_title_estatesc_medkit"><![CDATA[Med Kit]]></entry>
     <entry id="str_inventory_description_estatesc_medkit"><![CDATA[{colour_start|skill_unselectable}Restorative{colour_end}
 {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
-{colour_start|healhp}Heal{colour_end} 15%%
+{colour_start|healhp}Heal{colour_end} 15%
 Cure
 {colour_start|blight} Blight{colour_end}
 {colour_start|bleed}Bleed{colour_end}]]></entry>

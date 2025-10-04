@@ -69,37 +69,6 @@ room: .chance 1 .types ganger_enforcer_C ganger_grenadier_C ganger_lookout_C gan
 room: .chance 1 .types ganger_enforcer_C ganger_escort_C ganger_lookout_C_C ganger_assassin_C
 room: .chance 1 .types ganger_newbie_C ganger_enforcer_C ganger_escort_C
 
-hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C 
-hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C  
-hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C   
-hall: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
-hall: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C
-hall: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
-hall: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
-
-hall: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C 
-hall: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C SCultist_Chains_C  
-hall: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C   
-hall: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
-hall: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C
-hall: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
-hall: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
-
-room: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C 
-room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C SCultist_Nun_C SCultist_Chains_C  
-room: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C   
-room: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
-room: .chance 0.33 .types SCultist_Mace_C sc_spider_C SCultist_Chains_C SCultist_Nun_C
-room: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
-room: .chance 0.33 .types sc_spider_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
-
-room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C 
-room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Nun_C SCultist_Chains_C  
-room: .chance 0.33 .types SCultist_Mace_C SCultist_Witch_C  SCultist_Chains_C SCultist_Nun_C   
-room: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Nun_C SCultist_Nun_C
-room: .chance 0.33 .types SCultist_Mace_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C
-room: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Nun_C 
-room: .chance 0.33 .types SCultist_Witch_C SCultist_Mace_C SCultist_Chains_C SCultist_Chains_C
 
 boss: .chance 1 .types killer_trap_stun_C ripper_C killer_victim_C killer_trap_bleed_C    
 boss: .chance 1 .types pew_small_C pew_medium_C pew_large_C prophet_C

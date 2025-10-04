@@ -2,7 +2,7 @@ hall: .chance 1 .types cemetery_skeleton_C cemetery_skeleton_C cemetery_ghoul_C
 hall: .chance 1 .types cemetery_skeleton_C cemetery_casket_C cemetery_ghoul_C 
 hall: .chance 1 .types cemetery_ghoul_C cemetery_skeleton_C  
 hall: .chance 1 .types cemetery_ghoul_C cemetery_skeleton_C cemetery_casket_C
-hall: .chance 0.15 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_Coffin_C 
+hall: .chance 0.15 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_coffin_C 
 hall: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_coffin_C 
 hall: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_cane_C
 hall: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_cane_C cemetery_casket_C
@@ -12,11 +12,34 @@ hall: .chance 1 .types cemetery_ghoul_C cemetery_cane_C cemetery_casket_C cemete
 hall: .chance 1 .types cemetery_ghoul_C cemetery_cane_C
 hall: .chance 1 .types cemetery_ghoul_C cemetery_cane_C cemetery_skeleton_C
 
+hall: .chance 1 .types cemetery_spirit_C cemetery_ghost_C cemetery_specter_C
+hall: .chance 1 .types cemetery_ghoul_C cemetery_ghost_C cemetery_casket_C cemetery_specter_C
+hall: .chance 1 .types cemetery_cane_C cemetery_specter_C cemetery_ghoul_C cemetery_skeleton_C
+hall: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_ghost_C cemetery_casket_C
+hall: .chance 1 .types cemetery_ghoul_C cemetery_spirit_C cemetery_ghost_C cemetery_casket_C
+hall: .chance 1 .types cemetery_ghoul_C cemetery_casket_C cemetery_ghost_C cemetery_specter_C
+hall: .chance 1 .types cemetery_cane_C cemetery_ghost_C cemetery_specter_C cemetery_skeleton_C
+hall: .chance 1 .types cemetery_skeleton_C cemetery_spirit_C cemetery_skeleton_C cemetery_spirit_C
+hall: .chance 1 .types cemetery_cane_C cemetery_ghoul_C cemetery_specter_C cemetery_specter_C
+hall: .chance 0.15 .types cemetery_spirit_C cemetery_coffin_C cemetery_ghost_C
+hall: .chance 1 .types cemetery_ghoul_C cemetery_ghost_C cemetery_ghost_C cemetery_skeleton_C
+hall: .chance 1 .types cemetery_skeleton_C cemetery_specter_C cemetery_specter_C
+hall: .chance 1 .types cemetery_spirit_C cemetery_spirit_C cemetery_ghoul_C cemetery_casket_C
+hall: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_spirit_C cemetery_casket_C
+hall: .chance 1 .types cemetery_spirit_C cemetery_ghost_C cemetery_specter_C
+hall: .chance 1 .types cemetery_ghost_C cemetery_ghost_C cemetery_ghost_C cemetery_ghost_C
+hall: .chance 0.15 .types cemetery_ghost_C cemetery_coffin_C cemetery_spirit_C
+hall: .chance 1 .types cemetery_skeleton_C cemetery_cane_C cemetery_ghost_C cemetery_specter_C
+hall: .chance 1 .types cemetery_specter_C cemetery_ghoul_C cemetery_skeleton_C cemetery_ghost_C
+hall: .chance 1 .types cemetery_cane_C cemetery_casket_C cemetery_skeleton_C cemetery_skeleton_C
+hall: .chance 1 .types cemetery_ghoul_C cemetery_ghoul_C cemetery_spirit_C cemetery_spirit_C
+hall: .chance 1 .types cemetery_spirit_C cemetery_ghoul_C cemetery_cane_C cemetery_skeleton_C
+
 room: .chance 1 .types cemetery_skeleton_C cemetery_skeleton_C cemetery_ghoul_C
 room: .chance 1 .types cemetery_skeleton_C cemetery_casket_C cemetery_ghoul_C 
 room: .chance 1 .types cemetery_ghoul_C cemetery_skeleton_C  
 room: .chance 1 .types cemetery_ghoul_C cemetery_skeleton_C cemetery_casket_C
-room: .chance 0.15 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_Coffin_C 
+room: .chance 0.15 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_coffin_C 
 room: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_coffin_C 
 room: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_cane_C
 room: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_cane_C cemetery_casket_C
@@ -25,5 +48,27 @@ room: .chance 1 .types cemetery_cane_C cemetery_skeleton_C cemetery_ghoul_C
 room: .chance 1 .types cemetery_ghoul_C cemetery_cane_C cemetery_casket_C cemetery_skeleton_C
 room: .chance 1 .types cemetery_ghoul_C cemetery_cane_C
 room: .chance 1 .types cemetery_ghoul_C cemetery_cane_C cemetery_skeleton_C
+
+room: .chance 1 .types cemetery_spirit_C cemetery_ghost_C cemetery_specter_C
+room: .chance 1 .types cemetery_ghoul_C cemetery_ghost_C cemetery_casket_C cemetery_specter_C
+room: .chance 1 .types cemetery_cane_C cemetery_specter_C cemetery_ghoul_C cemetery_skeleton_C
+room: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_ghost_C cemetery_casket_C
+room: .chance 1 .types cemetery_ghoul_C cemetery_spirit_C cemetery_ghost_C cemetery_casket_C
+room: .chance 1 .types cemetery_ghoul_C cemetery_casket_C cemetery_ghost_C cemetery_specter_C
+room: .chance 1 .types cemetery_cane_C cemetery_ghost_C cemetery_specter_C cemetery_skeleton_C
+room: .chance 1 .types cemetery_skeleton_C cemetery_spirit_C cemetery_skeleton_C cemetery_spirit_C
+room: .chance 1 .types cemetery_cane_C cemetery_ghoul_C cemetery_specter_C cemetery_specter_C
+room: .chance 0.15 .types cemetery_spirit_C cemetery_coffin_C cemetery_ghost_C
+room: .chance 1 .types cemetery_ghoul_C cemetery_ghost_C cemetery_ghost_C cemetery_skeleton_C
+room: .chance 1 .types cemetery_skeleton_C cemetery_specter_C cemetery_specter_C
+room: .chance 1 .types cemetery_spirit_C cemetery_spirit_C cemetery_ghoul_C cemetery_casket_C
+room: .chance 1 .types cemetery_skeleton_C cemetery_ghoul_C cemetery_spirit_C cemetery_casket_C
+room: .chance 1 .types cemetery_spirit_C cemetery_ghost_C cemetery_specter_C
+room: .chance 1 .types cemetery_ghost_C cemetery_ghost_C cemetery_ghost_C cemetery_ghost_C
+room: .chance 0.15 .types cemetery_ghost_C cemetery_coffin_C cemetery_spirit_C
+room: .chance 1 .types cemetery_skeleton_C cemetery_cane_C cemetery_ghost_C cemetery_specter_C
+room: .chance 1 .types cemetery_specter_C cemetery_ghoul_C cemetery_skeleton_C cemetery_ghost_C
+room: .chance 1 .types cemetery_cane_C cemetery_casket_C cemetery_skeleton_C cemetery_skeleton_C
+room: .chance 1 .types cemetery_ghoul_C cemetery_ghoul_C cemetery_spirit_C cemetery_spirit_C
 
 

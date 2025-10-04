@@ -105,6 +105,22 @@
             }
         },
         {
+            "id": "gather_holy_relic_rainfall",
+            "type": "gather",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "reliquary",
+                "item": {
+                    "type": "quest_item",
+                    "id": "holy_relic",
+                    "amount": 3
+
+                }
+            }
+        },
+        {
             "id": "gather_medicines",
             "type": "gather",
             "starting_items": [],
@@ -173,6 +189,23 @@
         },
         {
             "id": "inventory_activate_corrupted_altar",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "holy_water",
+                    "amount": 3
+                }
+            ],
+            "data": {
+                "curio_name": "corrupted_altar",
+                "amount": 3
+            }
+        },
+        {
+            "id": "inventory_activate_corrupted_altar_rainfall",
             "type": "activate",
             "ignore_fog_of_war": false,
             "show_as_quest": false,
@@ -515,6 +548,32 @@
                     "goals": [
                         [
                             "inventory_activate_infected_corpse"
+]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "gather_rainfall",
+            "goal_lists": [
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+                            "gather_holy_relic_rainfall"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "inventory_activate_rainfall",
+            "goal_lists": [
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+                            "inventory_activate_corrupted_altar_rainfall"
                         ]
                     ]
                 }

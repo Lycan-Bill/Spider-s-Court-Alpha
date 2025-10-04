@@ -3,7 +3,7 @@ enemy_type: .id "man"
 enemy_type: .id "ganger"
 stats: .hp 20 .def 16.75% .prot 0 .spd 8 .stun_resist 55% .poison_resist 30% .bleed_resist 30% .debuff_resist 45% .move_resist 65%
 skill: .id "ganger_smoke" .type "ranged" .atk 90.7% .dmg 0 0 .crit 14%  .launch 32 .target ~1234 .effect "Ganger Acc Debuff 2" "Ganger Shuffle Target 2"
-skill: .id "ganger_molotov" .type "ranged" .atk 90.7% .dmg 2 3 .crit 5%  .launch 432 .target 1234
+skill: .id "ganger_molotov" .type "ranged" .atk 90.7% .dmg 2 3 .crit 5%  .launch 432 .target 1234 "dd2_burn_token_3H"
 skill: .id "ganger_dirty" .type "ranged" .atk 90.7% .dmg 2 2 .crit 8%  .launch 432 .target 1234 .effect "Ganger Blight 2" "Ganger Bleed 2"
 skill: .id "ganger_suicide" .type "ranged" .atk 90.7% .dmg 10 14 .crit 12%  .launch 4321 .target 1234 .effect "Ganger Suicide"
 personality: .prefskill -1

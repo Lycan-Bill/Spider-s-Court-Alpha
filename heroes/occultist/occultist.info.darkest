@@ -1,4 +1,4 @@
-resistances: .stun 20% .poison 30% .bleed 40% .disease 40% .move 20% .debuff 60% .death_blow 87% .trap 10%
+resistances: .stun 20% .poison 30% .bleed 40% .disease 40% .move 20% .debuff 60% .death_blow 60% .trap 10%
 crit: .effects "on_crit_healdone"
 weapon: .name "occultist_weapon_0" .atk 0% .dmg 4 7 .crit 6% .spd 6
 weapon: .name "occultist_weapon_1" .atk 0% .dmg 5 8 .crit 7% .spd 6 .upgradeRequirementCode 0
@@ -52,7 +52,7 @@ riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .
 tag: .id "light"
 tag: .id "non-religious"
 tag: .id "library"
-deaths_door: .enter_effects grim_death_quirk
+deaths_door: .enter_effects grim_death_quirk "SC_Deaths_Debuff"
 controlled: .target_rank 4
 id_index: .index 7
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4

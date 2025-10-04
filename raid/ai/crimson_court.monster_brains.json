@@ -1600,7 +1600,7 @@
 			"bonus_initiative_desires": []
 		},
 		{
-			"id": "baron_C",
+			"id": "baron",
 			"skill_cooldowns": [{
 					"combat_skill_id": "baron_hunger",
 					"amount": 3

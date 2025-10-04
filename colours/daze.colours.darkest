@@ -1,0 +1,4 @@
+colour: .id "pop_text_daze"									.rgba #f0cf5a
+colour: .id "pop_text_outline_daze"								.rgba #8e5b11
+colour: .id "pop_text_daze_resist"								.rgba #000000
+colour: .id "pop_text_outline_daze_resist"							.rgba #f0cf5a

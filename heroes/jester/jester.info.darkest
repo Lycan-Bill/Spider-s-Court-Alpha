@@ -1,4 +1,4 @@
-resistances: .stun 20% .poison 40% .bleed 30% .disease 20% .move 20% .debuff 40% .death_blow 87% .trap 30%
+resistances: .stun 20% .poison 40% .bleed 30% .disease 20% .move 20% .debuff 40% .death_blow 60% .trap 30%
 crit: .effects "on_crit_stresshealdone"
 weapon: .name "jester_weapon_0" .atk 0% .dmg 4 7 .crit 4% .spd 7
 weapon: .name "jester_weapon_1" .atk 0% .dmg 5 8 .crit 5% .spd 7 .upgradeRequirementCode 0
@@ -52,7 +52,7 @@ riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .
 tag: .id "light"
 tag: .id "non-religious"
 tag: .id "theater"
-deaths_door: .enter_effects grim_death_quirk
+deaths_door: .enter_effects grim_death_quirk "SC_Deaths_Debuff"
 controlled: .target_rank 3
 id_index: .index 8
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4

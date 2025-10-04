@@ -1,0 +1,90 @@
+
+cemetery_ghost.sprite.combat.png
+size: 598,598
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 161, 470
+  size: 126, 411
+  orig: 126, 411
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: true
+  xy: 161, 390
+  size: 78, 432
+  orig: 78, 432
+  offset: 0, 0
+  index: -1
+Layer 11
+  rotate: false
+  xy: 2, 212
+  size: 157, 384
+  orig: 157, 384
+  offset: 0, 0
+  index: -1
+Layer 12
+  rotate: true
+  xy: 145, 76
+  size: 71, 377
+  orig: 71, 377
+  offset: 0, 0
+  index: -1
+Layer 13
+  rotate: true
+  xy: 2, 37
+  size: 173, 141
+  orig: 173, 141
+  offset: 0, 0
+  index: -1
+Layer 16
+  rotate: true
+  xy: 574, 557
+  size: 39, 22
+  orig: 39, 22
+  offset: 0, 0
+  index: -1
+Layer 17
+  rotate: false
+  xy: 484, 298
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 484, 331
+  size: 98, 57
+  orig: 98, 57
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: true
+  xy: 161, 149
+  size: 89, 370
+  orig: 89, 370
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 161, 240
+  size: 148, 321
+  orig: 148, 321
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: true
+  xy: 2, 7
+  size: 28, 98
+  orig: 28, 98
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: false
+  xy: 145, 11
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

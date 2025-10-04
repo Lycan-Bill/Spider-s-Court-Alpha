@@ -1,8 +1,8 @@
 {
 	"plot_quests": [
 		{
-			"id": "plot_tutorial_crypts",
-			"has_achievement": true,
+			"id": "plot_old_quarter_tutorial",
+			"has_achievement": false,
 			"dungeon_level": 0,
 			"quest": {
 				"is_plot_quest": true,
@@ -10,7 +10,7 @@
 				"dungeon": "crypts",
 				"difficulty": 1,
 				"length": 1,
-				"map_name": "tutorial_crypts",
+				"map_name": "old_quarter_tutorial",
 				"goal_ids": [
 					"explore_all_rooms"
 				],
@@ -22,12 +22,12 @@
 							"0": {
 								"id": "",
 								"type": "gold",
-								"amount": 3000
+								"amount": 7500
 							},
 							"1": {
 								"id": "crest",
-								"type": "heirloom",
-								"amount": 4
+								"type": "deed",
+								"amount": 10
 							}
 						}
 					}

@@ -2,6 +2,29 @@
 <root>
   <language id="english">
   
+  <!--Lantern-->
+	<entry id="str_darkness_title_2"><![CDATA[SHADOWY
++Cultist Spawn Chance
+Current Torch Level:]]></entry>
+	<entry id="str_darkness_title_3"><![CDATA[DARK
+++Cultist Spawn Chance
+Current Torch Level:]]></entry>
+	<entry id="str_darkness_title_4"><![CDATA[BLACK AS PITCH
++++Cultist Spawn Chance
+Current Torch Level:]]></entry>
+  
+  
+  <!--Tutorials-->
+	    <entry id="tutorial_popup_contagion_title"><![CDATA[Combat Items]]></entry>
+		<entry id="tutorial_popup_contagion_description"><![CDATA[Congratulations, your heroes have found a {colour_start|notable}combat item{colour_end}! these special items may be activated directly from your inventory by {colour_start|notable}[RIGH-CLICKING]{colour_end} the item, make sure to pay attention to the item's targeting.]]></entry>
+		
+		<entry id="tutorial_popup_infernal_title"><![CDATA[Infernal Items]]></entry>
+		<entry id="tutorial_popup_infernal_description"><![CDATA[You have found a {colour_start|burn}Infernal{colour_end} item these items special items maybe traded within the {colour_start|burn}Infernal{colour_end} Merchant Network for special rewards, bewarned you always run the risk of losing something important to you...]]></entry>
+		
+		<entry id="tutorial_popup_lantern_oil_title"><![CDATA[Lantern Oil]]></entry>
+		<entry id="tutorial_popup_lantern_oil_description"><![CDATA[In the setting of Spider's Court torches have been replaced with {colour_start|notable}lantern oil{colour_end}, these items come in three different qualities {colour_start|notable}Standard{colour_end}, {colour_start|notable}Good{colour_end} and {colour_start|notable}Industrial{colour_end} with different amounts given to the {colour_start|notable}Lantern{colour_end} they can be used either in the quest you are in now or saved for a future quest, but be forwarned these items are hard to find so be cautious when you decide to use them.]]></entry>
+  
+  
   <!--Savestuff-->
   <entry id="estate_title_default_data"><![CDATA[The Quarter]]></entry>
 	<entry id="str_save_pre_click"><![CDATA[Click the letter to begin...]]></entry>

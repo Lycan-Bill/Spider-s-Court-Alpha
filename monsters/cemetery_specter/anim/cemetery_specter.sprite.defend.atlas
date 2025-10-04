@@ -1,0 +1,20 @@
+
+cemetery_specter.sprite.defend.png
+size: 709,709
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pasted Layer #9
+  rotate: false
+  xy: 2, 6
+  size: 346, 701
+  orig: 346, 701
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 350, 644
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+cemetery_ghost.sprite.dead.png
+size: 361,361
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pasted Layer
+  rotate: false
+  xy: 2, 125
+  size: 313, 234
+  orig: 313, 234
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 60
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

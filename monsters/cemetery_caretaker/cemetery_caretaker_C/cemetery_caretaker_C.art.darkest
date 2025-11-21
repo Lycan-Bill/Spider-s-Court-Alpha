@@ -1,0 +1,4 @@
+commonfx: .deathfx death_medium
+skill: .id "caretaker_daze" .anim "attack_knife" .targchestfx "blood_splatter"
+skill: .id "caretaker_knife" .anim "attack_knife" .targchestfx "blood_splatter"
+skill: .id "caretaker_fire" .anim "attack_knife" .targchestfx "blood_splatter"

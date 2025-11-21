@@ -1,7 +1,125 @@
 {
   "buffs": [
     {
-      "id": "spider_bishop_blight_amount_increase",
+     
+	 "id": "SC_Blight_Resist_Debuff_1",
+      "stat_type": "resistance",
+      "stat_sub_type": "poison",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+	 }
+    },
+    {	
+	"id": "SC_Blight_Resist_Debuff_3",
+      "stat_type": "resistance",
+      "stat_sub_type": "poison",
+      "amount": -0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "SC_Blight_Resist_Debuff_5",
+      "stat_type": "resistance",
+      "stat_sub_type": "poison",
+      "amount": -0.35,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "SC_Blight_Chance_Buff_1",
+      "stat_type": "poison_chance",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "SC_Blight_Chance_Buff_3",
+      "stat_type": "poison_chance",
+      "stat_sub_type": "",
+      "amount": 0.20,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "SC_Blight_Chance_Buff_5",
+      "stat_type": "poison_chance",
+      "stat_sub_type": "",
+      "amount": 0.30,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "SC_Bleed_Chance_Buff_1",
+      "stat_type": "bleed_chance",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "SC_Bleed_Chance_Buff_3",
+      "stat_type": "bleed_chance",
+      "stat_sub_type": "",
+      "amount": 0.20,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "SC_Bleed_Chance_Buff_5",
+      "stat_type": "bleed_chance",
+      "stat_sub_type": "",
+      "amount": 0.30,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+	  "id": "spider_bishop_blight_amount_increase",
       "stat_type": "hp_dot_poison_amount_percent",
       "stat_sub_type": "",
       "amount": 0.5,
@@ -12,8 +130,138 @@
         "float": 0,
         "string": ""
       }
+      },
+      {
+         "id" : "Phone_Booth_Resolve_Buff",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		  }
     },
     {
+      "id": "Lamp_Post_Stress_Debuff",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Lamp_Post_Stress_Buff_1",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Lamp_Post_Stress_Buff_2",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Lamp_Post_Stress_Buff_3",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.30,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+			"id" : "Ripp_Spawn_DMG_L_33_Rank1",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "Ripp_Spawn_DMG_H_33_Rank1",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.33,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "Ripp_Spawn_CRT_8_Rank2",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.08,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "Ripp_Spawn_ACC_15_Rank3",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "Ripp_Spawn_Dodge_10_Rank4",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},
+		{
       "id": "scarab_chef_max_hp",
       "stat_type": "combat_stat_multiply",
       "stat_sub_type": "max_hp",

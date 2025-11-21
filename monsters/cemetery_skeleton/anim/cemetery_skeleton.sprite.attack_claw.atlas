@@ -1,0 +1,20 @@
+
+cemetery_skeleton.sprite.attack_claw.png
+size: 595,595
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 7
+  size: 526, 586
+  orig: 526, 586
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 530, 236
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

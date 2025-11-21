@@ -1,0 +1,20 @@
+
+cemetery_caretaker.sprite.defend.png
+size: 676,676
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 47
+  size: 347, 627
+  orig: 347, 627
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 351, 2
+  size: 672, 122
+  orig: 672, 122
+  offset: 0, 0
+  index: -1

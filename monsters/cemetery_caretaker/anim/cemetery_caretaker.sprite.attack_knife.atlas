@@ -1,0 +1,20 @@
+
+cemetery_caretaker.sprite.attack_knife.png
+size: 791,791
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pasted Layer
+  rotate: false
+  xy: 2, 249
+  size: 787, 540
+  orig: 787, 540
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 125
+  size: 672, 122
+  orig: 672, 122
+  offset: 0, 0
+  index: -1

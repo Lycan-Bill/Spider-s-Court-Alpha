@@ -2,18 +2,31 @@
    "loot_tables" :
    [
    {
-      	 "id" : "SPIV_CC_LOOT",
+      	 
+		 "id" : "T_SPIV",
          "difficulty" : 0,
          "dungeon" : "",
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "pet_bone" }},
+            { "type" : "table", "chances" : 3, "data" : { "rarity" : "SC_Fortune_Teller" }},
+            { "type" : "table", "chances" : 3, "data" : { "rarity" : "T_SPIV_WEAPONS" }},
+            { "type" : "table", "chances" : 2, "data" : { "rarity" : "SPIV_TRINKET_LOOT" }}
+			]
+      },
+      {
+		 "id" : "SPIV_TRINKET_LOOT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "common" }},
 			{ "type" : "trinket", "chances" : 13, "data" : { "rarity" : "uncommon", "amount" : 2  }},
 			{ "type" : "trinket", "chances" : 10, "data" : { "rarity" : "rare" }},
             { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "very_rare" }},
             { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "crimson_court" }}
-]
+			]
       },
       {
          "id" : "T_SPIV_GEMS",
@@ -51,15 +64,12 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Lantern_Oil_standard", "amount": 1 }},
-			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Lantern_Oil_Good", "amount": 1 }},
-			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Lantern_Oil_Best", "amount": 1 }},
-			{ "type": "item", "chances": 4, "data": { "type": "estate", "id": "molotov_cocktail", "amount": 1 }},
-			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "sc_medkit", "amount": 1 }},
-			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Hawthorn_Oil", "amount": 1 }},
-			{ "type": "item", "chances": 4, "data": { "type": "estate", "id": "ichor_bomb", "amount": 1 }},
-			{ "type": "item", "chances": 6000, "data": { "type": "estate", "id": "sc_firecracker", "amount": 1 }},
-			{ "type": "item", "chances": 4, "data": { "type": "estate", "id": "sc_smoke_bomb", "amount": 1 }}
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "molotov_cocktail", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "sc_medkit", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Hawthorn_Oil", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "ichor_bomb", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "sc_firecracker", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "sc_smoke_bomb", "amount": 1 }}
         ]
       },
       {
@@ -72,6 +82,50 @@
              { "type": "item", "chances": 4, "data": { "type": "estate", "id": "Bravery_Tonic", "amount": 1 }},
 			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Health_Tonic", "amount": 1 }},
 			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Strength_Tonic", "amount": 1 }}
+          ]
+      },
+      {
+         "id" : "T_Fortune_Teller_Gold",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }}
+         ]
+      },
+      {
+         "id" : "T_Fortune_Teller_Coins",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			 { "type" : "nothing", "chances" : 4, "data" : { }},
+             { "type": "item", "chances": 2, "data": { "type": "shard", "id": "", "amount": 3 }},
+			 { "type": "item", "chances": 2, "data": { "type": "shard", "id": "", "amount": 3 }},
+			 { "type": "item", "chances": 3, "data": { "type": "shard", "id": "", "amount": 3 }},
+			 { "type": "item", "chances": 2, "data": { "type": "shard", "id": "", "amount": 3 }},
+			 { "type": "item", "chances": 5, "data": { "type": "shard", "id": "", "amount": 2 }}
+         ]
+      },
+      {
+         "id" : "T_Fortune_Teller_Gears",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			 { "type" : "nothing", "chances" : 0, "data" : { }},
+             { "type": "item", "chances": 1, "data": { "type": "heirloom", "id": "blueprint", "amount": 5 }},
+			 { "type": "item", "chances": 2, "data": { "type": "heirloom", "id": "blueprint", "amount": 4 }},
+			 { "type": "item", "chances": 3, "data": { "type": "heirloom", "id": "blueprint", "amount": 3 }},
+			 { "type": "item", "chances": 4, "data": { "type": "heirloom", "id": "blueprint", "amount": 2 }},
+			 { "type": "item", "chances": 5, "data": { "type": "heirloom", "id": "blueprint", "amount": 1 }}
          ]
       },
       {
@@ -92,7 +146,126 @@
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "Soul_Contract", "amount" : 1 }}
+          ]
+      },
+      {
+         "id" : "SC_Fortune_Teller",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "T_Fortune_Teller_Gears" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T_Fortune_Teller_Coins" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "T_Fortune_Teller_Gold" }}
          ]
+      },
+      {
+         "id" : "SC_Loot_General",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "C" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
+         ]
+      },
+      {
+         "id" : "SC_Loot_Crates",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }},
+			{ "type" : "table", "chances" : 3, "data" : { "table" : "P" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "S" }}
+         ]
+      },
+      {
+         "id" : "Food_Stand",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "C" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }},
+            { "type" : "table", "chances" : 6, "data" : { "table" : "P" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
+         ]
+      },
+      {
+         "id" : "Vending_Machine",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 0, "data" : { "table" : "C" }},
+            { "type" : "table", "chances" : 0, "data" : { "table" : "G" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "T" }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "P" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
+         ]
+      },
+      {
+         "id" : "Vending_Machine_Money",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "T" }},
+			{ "type" : "table", "chances" : 4, "data" : { "table" : "P" }},
+			{ "type" : "table", "chances" : 3, "data" : { "table" : "S" }},
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "T_SPIV_WEAPONS" }}
+         ]
+      },
+      {
+         "id" : "T_BUYBACK",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "Spiv_Funds" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "G" }}
+        ]
+      },
+      {
+         "id" : "Contraband_Seller",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "Contraband_Oil" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Fortune_Teller_Coins" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Fortune_Teller_Gears" }}
+        ]
+      },
+      {
+         "id" : "Contraband_Oil",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type": "item", "chances": 4, "data": { "type": "estate", "id": "Lantern_Oil_standard", "amount": 1 }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "Lantern_Oil_Good", "amount": 1 }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "Lantern_Oil_Best", "amount": 1 }}
+			]
       },
       {
          "id" : "T_Grenadier_loot",
@@ -130,7 +303,7 @@
 			{ "type": "item", "chances": 1, "data": { "type": "estate", "id": "molotov_cocktail", "amount": 1 }},
 			{ "type": "item", "chances": 1, "data": { "type": "estate", "id": "ichor_bomb", "amount": 1 }},
 			{ "type": "item", "chances": 1, "data": { "type": "estate", "id": "sc_smoke_bomb", "amount": 1 }},
-			{ "type": "item", "chances": 1000, "data": { "type": "estate", "id": "sc_firecracker", "amount": 1 }}
+			{ "type": "item", "chances": 1, "data": { "type": "estate", "id": "sc_firecracker", "amount": 1 }}
         ]
       },
       {
@@ -216,7 +389,7 @@
             { "type" : "table", "chances" : 3, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-			{ "type" : "table", "chances" : 105, "data" : { "table" : "T_Grenadier_loot" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Grenadier_loot" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
          ]
       },
@@ -231,7 +404,7 @@
             { "type" : "table", "chances" : 4, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 2, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-			{ "type" : "table", "chances" : 105, "data" : { "table" : "T_Grenadier_loot" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Grenadier_loot" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
          ]
       },
@@ -246,7 +419,7 @@
             { "type" : "table", "chances" : 5, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-			{ "type" : "table", "chances" : 106, "data" : { "table" : "T_Grenadier_loot" }},
+			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Grenadier_loot" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
          ]
       },
@@ -358,7 +531,19 @@
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 3, "data" : { "table" : "Oil_Barrel" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
-        ]
+        	]
+      },
+      {
+         "id" : "Spiv_Funds",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }}
+        	]
       },
       {
          "id" : "Spiv_Credit_Drop",

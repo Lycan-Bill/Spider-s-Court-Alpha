@@ -1,0 +1,20 @@
+
+cemetery_caretaker.sprite.dead.png
+size: 676,676
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 293
+  size: 434, 257
+  orig: 434, 257
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 552
+  size: 672, 122
+  orig: 672, 122
+  offset: 0, 0
+  index: -1

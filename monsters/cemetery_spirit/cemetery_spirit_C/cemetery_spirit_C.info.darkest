@@ -1,14 +1,14 @@
 display: .size 1
 enemy_type: .id "unholy"
 enemy_type: .id "ghost"
-stats: .hp 16 .def 21.25% .prot 0 .spd 3 .stun_resist 50% .poison_resist 50% .bleed_resist 240% .debuff_resist 55% .move_resist 50%
-skill: .id "cudgel" .type "melee" .atk 82.5% .dmg 3 8 .crit 9%  .effect "Rabble Bump Debuff 5" .launch 321 .target 12
-skill: .id "cudgel_weak" .type "melee" .atk 62.5% .dmg 3 8 .crit 0%  .launch 4 .target 12 .move 0 1 .is_crit_valid False
+stats: .hp	26 .def 33% .prot 0 .spd 12 .stun_resist 50% .poison_resist 100% .bleed_resist 60% .debuff_resist 50% .move_resist 65%
+skill: .id "ghost_run" .type "" .atk 0% .dmg 0 .crit 0% .move 3 0 .effect "SC Stealth 5" .launch 12 .target  .self_target_valid True .is_crit_valid False
+skill: .id "ghost_leap" .type "melee" .atk 102.5% .dmg 7 11 .crit 12%  .move 0 3 .effect "SC Push 5" "SC Bleed 5" "SC Blight 5" .launch 34 .target 123
+skill: .id "ghost_scream" .type "ranged" .atk 105.5% .dmg 3 4 .crit 5% .effect "SC Horror 5"  "SC Stress Dealt 5" .launch 123 .target ~23
 personality: .prefskill -1
 loot: .code "C" .count 1
 initiative: .number_of_turns_per_round 1
-monster_brain: .id skeleton_rabble_C
-death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
-life_link: .base_class "necromancer"
+monster_brain: .id cemetery_spirit_A
+death_class: .monster_class_id sc_corpse_C .is_valid_on_crit False .type "corpse" 
 battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front True

@@ -70,8 +70,7 @@ room: .chance 1 .types ganger_enforcer_C ganger_escort_C ganger_lookout_C_C gang
 room: .chance 1 .types ganger_newbie_C ganger_enforcer_C ganger_escort_C
 
 
-boss: .chance 1 .types killer_trap_stun_C ripper_C killer_victim_C killer_trap_bleed_C    
-boss: .chance 1 .types pew_small_C pew_medium_C pew_large_C prophet_C
+boss: .chance 1 .types killer_tools_C ripper_C killer_victim_C killer_trap_stun_C
 stall: .chance 3 .types cultist_brawler_C cultist_witch_C  
 stall: .chance 2 .types skeleton_militia_C skeleton_militia_C  
 stall: .chance 2 .types skeleton_militia_C skeleton_arbalist_C  

@@ -1,0 +1,174 @@
+
+contraband_merchant.png
+size: 868,868
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+belt
+  rotate: true
+  xy: 795, 679
+  size: 187, 57
+  orig: 187, 57
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 614, 627
+  size: 179, 239
+  orig: 179, 239
+  offset: 0, 0
+  index: -1
+coat_head
+  rotate: false
+  xy: 591, 383
+  size: 165, 162
+  orig: 165, 162
+  offset: 0, 0
+  index: -1
+coat_left
+  rotate: false
+  xy: 528, 100
+  size: 68, 143
+  orig: 68, 143
+  offset: 0, 0
+  index: -1
+coat_left_fore_arm
+  rotate: true
+  xy: 598, 164
+  size: 97, 171
+  orig: 97, 171
+  offset: 0, 0
+  index: -1
+coat_left_hand
+  rotate: false
+  xy: 484, 7
+  size: 100, 91
+  orig: 100, 91
+  offset: 0, 0
+  index: -1
+coat_right_arm
+  rotate: true
+  xy: 614, 547
+  size: 78, 173
+  orig: 78, 173
+  offset: 0, 0
+  index: -1
+contraband_closed
+  rotate: false
+  xy: 2, 604
+  size: 347, 262
+  orig: 347, 262
+  offset: 0, 0
+  index: -1
+contraband_opened
+  rotate: false
+  xy: 2, 343
+  size: 347, 259
+  orig: 347, 259
+  offset: 0, 0
+  index: -1
+crate
+  rotate: false
+  xy: 2, 154
+  size: 334, 187
+  orig: 334, 187
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 338, 105
+  size: 138, 188
+  orig: 138, 188
+  offset: 0, 0
+  index: -1
+hips
+  rotate: true
+  xy: 257, 27
+  size: 125, 59
+  orig: 125, 59
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: true
+  xy: 318, 12
+  size: 91, 164
+  orig: 91, 164
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: false
+  xy: 795, 611
+  size: 59, 66
+  orig: 59, 66
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: false
+  xy: 698, 2
+  size: 75, 160
+  orig: 75, 160
+  offset: 0, 0
+  index: -1
+left_shoe
+  rotate: true
+  xy: 2, 30
+  size: 122, 253
+  orig: 122, 253
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: true
+  xy: 598, 263
+  size: 118, 168
+  orig: 118, 168
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: true
+  xy: 789, 550
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+right_leg
+  rotate: false
+  xy: 598, 2
+  size: 98, 160
+  orig: 98, 160
+  offset: 0, 0
+  index: -1
+right_shoe
+  rotate: true
+  xy: 351, 245
+  size: 109, 245
+  orig: 109, 245
+  offset: 0, 0
+  index: -1
+stache_left
+  rotate: true
+  xy: 2, 2
+  size: 26, 13
+  orig: 26, 13
+  offset: 0, 0
+  index: -1
+stache_right
+  rotate: true
+  xy: 758, 501
+  size: 44, 22
+  orig: 44, 22
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 351, 356
+  size: 215, 238
+  orig: 215, 238
+  offset: 0, 0
+  index: -1
+trenchcoat_tail
+  rotate: false
+  xy: 351, 573
+  size: 261, 293
+  orig: 261, 293
+  offset: 0, 0
+  index: -1

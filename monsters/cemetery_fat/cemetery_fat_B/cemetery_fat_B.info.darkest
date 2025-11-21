@@ -14,7 +14,6 @@ skill: .id "ghoul_lurch" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" 
 personality: .prefskill -1
 loot: .code "A" .count 1
 initiative: .number_of_turns_per_round 1
-monster_brain: .id cemetery_ghoul
 death_class: .monster_class_id sc_corpse_B .is_valid_on_crit False .type "corpse" 
 life_link: .base_class "necromancer"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False

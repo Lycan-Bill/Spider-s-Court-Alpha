@@ -7,15 +7,15 @@
 	
 	<entry id="str_curio_title_TheSpiv"><![CDATA[The Spiv]]></entry>
 	<entry id="str_curio_TheSpiv_merchant_credit_loot"><![CDATA[Workn' hard I see, squire!]]></entry>
-	<entry id="str_curio_content_TheSpiv"><![CDATA[[MERCHANT:What can I do for ya, squire.]]></entry>
+	<entry id="str_curio_content_TheSpiv"><![CDATA[MERCHANT:What can I do for ya, squire.]]></entry>
     <entry id="str_curio_tooltip_investigate_TheSpiv"><![CDATA[He expects payment...]]></entry>
 	<entry id="str_curio_TheSpiv_nothing"><![CDATA[I ain't runnin' a charity mate!]]></entry>
 	
 	<entry id="str_curio_title_TheKid"><![CDATA[A Spiteful Orphan]]></entry>
 	<entry id="str_curio_content_TheKid"><![CDATA[He seems to be waiting for something...]]></entry>
     <entry id="str_curio_tooltip_investigate_TheKid"><![CDATA[He is tapping his knife impatiently...]]></entry>
-	<entry id="str_curio_TheKid_scout"><![CDATA[Careful, They be waiting for ya.]]></entry>
-	<entry id="str_curio_TheKid_effect_TheKid_healstress"><![CDATA[The Gift of Charity.]]></entry>
+	<entry id="str_curio_TheKid_citrine_effect"><![CDATA[Careful, They be waiting for ya.]]></entry>
+	<entry id="str_curio_TheKid_jade_effect"><![CDATA[The Gift of Charity.]]></entry>
 	<entry id="str_curio_TheKid_effect"><![CDATA[OI! Their Over Here!]]></entry>
 	
 	<entry id="str_curio_title_snake_oil_salesman"><![CDATA[The Tonic Seller]]></entry>
@@ -24,6 +24,74 @@
 	<entry id="str_curio_snake_oil_salesman_merchant_credit_loot"><![CDATA[You all come back now, ya hear!]]></entry>
 	<entry id="str_curio_snake_oil_salesman_deed_loot"><![CDATA[Interesting Recipe, let me see what I can do with it.]]></entry>
 	<entry id="str_curio_snake_oil_salesman_nothing"><![CDATA[Sorry, fine folks, but no free samples!]]></entry>
+	
+	<entry id="str_curio_title_trash_can"><![CDATA[Waste Bin]]></entry>
+	<entry id="str_curio_content_trash_can"><![CDATA[Well you know what they say...]]></entry>
+	<entry id="str_curio_tooltip_investigate_trash_can"><![CDATA[Are you really going to stick your hand in there?]]></entry>
+	<entry id="str_curio_trash_can_nothing"><![CDATA[Well you got your hands dirty at least..]]></entry>
+	<entry id="str_curio_trash_can_loot"><![CDATA[Who would throw away this?]]></entry>
+	
+	<entry id="str_curio_title_quarter_fountain"><![CDATA[Water Fountain]]></entry>
+	<entry id="str_curio_content_quarter_fountain"><![CDATA[A old fountain, maybe it is safe?]]></entry>
+	<entry id="str_curio_tooltip_investigate_quarter_fountain"><![CDATA[Surely the water can't be that bad?]]></entry>
+	<entry id="str_curio_quarter_fountain_nothing"><![CDATA[The pipes have rusted shut.]]></entry>
+	<entry id="str_curio_quarter_fountain_effect"><![CDATA[Something was in the water.]]></entry>
+	<entry id="str_curio_quarter_fountain_crest_effect"><![CDATA[The seal purifies the water!]]></entry>
+	
+	<entry id="str_curio_title_food_stand"><![CDATA[Abandoned Hot Dog Stand]]></entry>
+	<entry id="str_curio_content_food_stand"><![CDATA[Memories of a happier time.]]></entry>
+	<entry id="str_curio_tooltip_investigate_food_stand"><![CDATA[Doubtful we will find anything useful here.]]></entry>
+	<entry id="str_curio_food_stand_nothing"><![CDATA[Vermin have long since had their feast.]]></entry>
+	<entry id="str_curio_food_stand_loot"><![CDATA[You find some canned hot dogs.]]></entry>
+	<entry id="str_curio_food_stand_effect"><![CDATA[The wretched smell nauseate the senses!]]></entry>
+	<entry id="str_curio_food_stand_disease"><![CDATA[Illness fills your body!]]></entry>
+	<entry id="str_curio_food_stand_medicinal_herbs_loot"><![CDATA[The herbs eat away the mold!]]></entry>
+	
+	<entry id="str_curio_title_vending_machine"><![CDATA[Vending Machine]]></entry>
+	<entry id="str_curio_content_vending_machine"><![CDATA[Merchant: A machine that dispenses items, if paid.]]></entry>
+	<entry id="str_curio_tooltip_investigate_vending_machine"><![CDATA[Exact Change Only.]]></entry>
+	<entry id="str_curio_vending_machine_nothing"><![CDATA[No money no purchase.]]></entry>
+	<entry id="str_curio_vending_machine_loot"><![CDATA[You hear a item fallout after shacking the machine in anger.]]></entry>
+	<entry id="str_curio_vending_machine_merchant_credit_loot"><![CDATA[The machine dispenses it's valuables!]]></entry>
+	
+	<entry id="str_curio_title_phone_booth"><![CDATA[Phone Booth]]></entry>
+	<entry id="str_curio_content_phone_booth"><![CDATA[Not many where installed before the Retinue interfered.]]></entry>
+	<entry id="str_curio_tooltip_investigate_vending_machine"><![CDATA[Exact Change Only.]]></entry>
+	<entry id="str_curio_phone_booth_nothing"><![CDATA[The wires have been cut.]]></entry>
+	<entry id="str_curio_phone_booth_effect"><![CDATA[You only hear heavy breathing.]]></entry>
+	<entry id="str_curio_phone_booth_scout"><![CDATA["Just reminding where you need to go."]]></entry>
+	<entry id="str_curio_phone_booth_merchant_credit_effect"><![CDATA[You manage to place a call to a loved one.]]></entry>
+	
+	<entry id="str_curio_title_lamp_post"><![CDATA[Lamp Post]]></entry>
+	<entry id="str_curio_content_lamp_post"><![CDATA[They where once meant to signal a new age...]]></entry>
+	<entry id="str_curio_tooltip_investigate_lamp_post"><![CDATA[Maybe you can read the signs.]]></entry>
+	<entry id="str_curio_lamp_post_nothing"><![CDATA[The signs have long since faded]]></entry>
+	<entry id="str_curio_lamp_post_effect"><![CDATA[The signs keep changing the more you try to understand.]]></entry>
+	<entry id="str_curio_lamp_post_scout"><![CDATA[You manage to locate where you are on your map.]]></entry>
+	
+	<entry id="str_curio_title_fortune_teller"><![CDATA[Fortune Teller]]></entry>
+	<entry id="str_curio_content_fortune_teller"><![CDATA[A diversion once, now some take it's predictions seriously.]]></entry>
+	<entry id="str_curio_tooltip_investigate_fortune_teller"><![CDATA[The machine stares at you expecting payment.]]></entry>
+	<entry id="str_curio_fortune_teller_nothing"><![CDATA[Nothing happened.]]></entry>
+	<entry id="str_curio_fortune__teller_shovel_loot"><![CDATA[I suppose violence is one way of doing it.]]></entry>
+	<entry id="str_curio_fortune_teller_shard_quirk"><![CDATA[It's revelations have left a deep impact on you!]]></entry>
+	<entry id="str_curio_fortune_teller_merchant_credit_purge"><![CDATA[The machine takes your burdens away from you.]]></entry>
+	
+	<entry id="str_curio_title_newspaper_stand"><![CDATA[Abandoned Newspaper Stand]]></entry>
+	<entry id="str_curio_content_newspaper_stand"><![CDATA[You see old articles, magazines and comics.]]></entry>
+	<entry id="str_curio_tooltip_investigate_newspaper_stand"><![CDATA[Maybe something can be found.]]></entry>
+	<entry id="str_curio_newspaper_stand_nothing"><![CDATA[All of it's contents have been eaten by time.]]></entry>
+	<entry id="str_curio_newspaper_stand_quirk"><![CDATA[A article have left a impression on you.]]></entry>
+	<entry id="str_curio_newspaper_stand_effect"><![CDATA[You find a amusing comic.]]></entry>
+	<entry id="str_curio_newspaper_stand_scout"><![CDATA[You find a tourist map.]]></entry>
+	
+	<entry id="str_curio_title_Quarter_Carriage"><![CDATA[Broken Carriage]]></entry>
+	<entry id="str_curio_content_Quarter_Carriage"><![CDATA[Looks like it was attacked recently.]]></entry>
+	<entry id="str_curio_tooltip_investigate_Quarter_Carriage"><![CDATA[Maybe something can be found.]]></entry>
+	<entry id="str_curio_Quarter_Carriage_nothing"><![CDATA[You find nothing.]]></entry>
+	<entry id="str_curio_Quarter_Carriage_loot"><![CDATA[You find some useful items in the wreckage.]]></entry>
+	<entry id="str_curio_Quarter_Carriage_effect"><![CDATA[You scream at the horror you find.]]></entry>
+	
 	
   </language>
 </root>

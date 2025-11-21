@@ -1,0 +1,1 @@
+inventory_item:	.type "shard"		.id ""						    .base_stack_limit 99	.purchase_shard_value 1			.sell_gold_value 0

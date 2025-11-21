@@ -1,2 +1,3 @@
 commonfx: .deathfx death_medium
 defending_area_pos_offset: .offset 100 50
+skill: .id "ghost_leap" .anim "attack_leap"

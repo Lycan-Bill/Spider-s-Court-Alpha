@@ -1,0 +1,76 @@
+
+quarter_fountain.png
+size: 820,820
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fountain_idle
+  rotate: false
+  xy: 2, 411
+  size: 418, 407
+  orig: 418, 407
+  offset: 0, 0
+  index: -1
+fountain_used
+  rotate: false
+  xy: 2, 2
+  size: 418, 407
+  orig: 418, 407
+  offset: 0, 0
+  index: -1
+water_1
+  rotate: false
+  xy: 629, 745
+  size: 83, 73
+  orig: 83, 73
+  offset: 0, 0
+  index: -1
+water_2
+  rotate: false
+  xy: 422, 387
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+water_3
+  rotate: false
+  xy: 422, 456
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+water_4
+  rotate: false
+  xy: 714, 750
+  size: 75, 68
+  orig: 75, 68
+  offset: 0, 0
+  index: -1
+water_mist_1
+  rotate: false
+  xy: 422, 725
+  size: 102, 93
+  orig: 102, 93
+  offset: 0, 0
+  index: -1
+water_mist_2
+  rotate: true
+  xy: 422, 528
+  size: 85, 77
+  orig: 85, 77
+  offset: 0, 0
+  index: -1
+water_mist_3
+  rotate: true
+  xy: 422, 615
+  size: 108, 82
+  orig: 108, 82
+  offset: 0, 0
+  index: -1
+water_mist_4
+  rotate: false
+  xy: 526, 736
+  size: 101, 82
+  orig: 101, 82
+  offset: 0, 0
+  index: -1

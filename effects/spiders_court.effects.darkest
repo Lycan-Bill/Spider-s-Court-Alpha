@@ -21,13 +21,41 @@ effect: .name "SC Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 
 effect: .name "SC Bleed 3" .target "target" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC Bleed 5" .target "target" .chance 140%  .dotBleed 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
+effect: .name "SC Blight 1" .target "target" .chance 100%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Blight 3" .target "target" .chance 120%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Blight 5" .target "target" .chance 140%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
 effect: .name "SC Stress Dealt 1" .target "target" .curio_result_type "negative" .chance 100% .stress 4 .on_hit true .on_miss true .queue true .apply_once false 
 effect: .name "SC Stress Dealt 3" .target "target" .curio_result_type "negative" .chance 100% .stress 6 .on_hit true .on_miss true .queue true .apply_once false 
 effect: .name "SC Stress Dealt 5" .target "target" .curio_result_type "negative" .chance 100% .stress 8 .on_hit true .on_miss true .queue true .apply_once false
 
 effect: .name "SC Pull 1" .target "target"  .pull 1 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC Pull 3" .target "target"  .pull 1 	.chance 120%	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC Pull 5" .target "target"  .pull 1 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "SC Pull 5" .target "target"  .pull 1 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SC Pull 2 1" .target "target"  .pull 2 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Pull 2 3" .target "target"  .pull 2 	.chance 120%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Pull 2 5" .target "target"  .pull 2 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true  
+
+effect: .name "SC Horror 1" .target "target" .chance 100% .dotStress 2 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "SC Horror 3" .target "target" .chance 100% .dotStress 3 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+effect: .name "SC Horror 5" .target "target" .chance 100% .dotStress 4 .duration 3 .on_hit true .on_miss false .queue true .apply_once false
+
+effect: .name "SC Blight Resist Debuff 1" .target "target" .chance 100% .duration 3 .buff_ids "SC_Blight_Resist_Debuff_1" .on_hit true .on_miss false
+effect: .name "SC Blight Resist Debuff_3" .target "target" .chance 120% .duration 3 .buff_ids "SC_Blight_Resist_Debuff_3" .on_hit true .on_miss false
+effect: .name "SC Blight Resist Debuff 5" .target "target" .chance 140% .duration 3 .buff_ids "SC_Blight_Resist_Debuff_5" .on_hit true .on_miss false
+
+effect: .name "SC Blight Chance Buff 1" .target "performer" .chance 100% .duration 3 .buff_ids "SC_Blight_Chance_Buff_1" .on_hit true .on_miss false
+effect: .name "SC Blight Chance Buff 3" .target "performer" .chance 100% .duration 3 .buff_ids "SC_Blight_Chance_Buff_3" .on_hit true .on_miss false
+effect: .name "SC Blight Chance Buff 5" .target "performer" .chance 100% .duration 3 .buff_ids "SC_Blight_Chance_Buff_5" .on_hit true .on_miss false
+
+effect: .name "SC Bleed Chance Buff 1" .target "performer" .chance 100% .duration 3 .buff_ids "SC_Bleed_Chance_Buff_1" .on_hit true .on_miss false
+effect: .name "SC Bleed Chance Buff 3" .target "performer" .chance 100% .duration 3 .buff_ids "SC_Bleed_Chance_Buff_3" .on_hit true .on_miss false
+effect: .name "SC Bleed Chance Buff 5" .target "performer" .chance 100% .duration 3 .buff_ids "SC_Bleed_Chance_Buff_5" .on_hit true .on_miss false
+
+effect: .name "SC Stealth 1" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+effect: .name "SC Stealth 3" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+effect: .name "SC Stealth 5" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
 
 ///Items
 ///Hawthorne Oil
@@ -192,8 +220,6 @@ effect: .name "Chef Fish Dodge Debuff 5" .target "target" .curio_result_type "po
 effect: .name "Chef Knife Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Chef Knife Bleed 3" .target "target" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Chef Knife Bleed 5" .target "target" .chance 140%  .dotBleed 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-
-/// Concubine
 
 
 /// Admiral
@@ -638,6 +664,9 @@ effect: .name "SC Darkness 5" .target "global" .chance 100% .curio_result_type "
 
 
 ///The Killer
+effect: .name "ripper_spawn_shuffle" .target "performer" .chance 1000% .on_hit true .on_miss false .buff_ids "Ripp_Spawn_DMG_L_33_Rank1" "Ripp_Spawn_DMG_H_33_Rank1" "Ripp_Spawn_CRT_8_Rank2" "Ripp_Spawn_ACC_15_Rank3" "Ripp_Spawn_Dodge_10_Rank4" .duration 1 .buff_duration_type "combat_end" .apply_once true 
+effect: .name "ripper_skill_shuffle" .target "performer" .chance 1000% .on_hit true .on_miss false .shuffletarget .apply_once true 
+
 effect: .name "The Killer Bleed" .target "target" .chance 140%  .dotBleed 4 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "The Killer Blight" .target "target" .chance 140%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
@@ -645,7 +674,7 @@ effect: .name "Killer ProtectMe ClearGuardsPerformer" .target "performer" .chanc
 effect: .name "Killer ProtectMe ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 1
 effect: .name "Killer ProtectMe Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 1
 effect: .name "The Killer Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 12 .on_hit true .on_miss true .queue true .apply_once false
-effect: .name "Killer Torture" .target "target" target .chance 100% .health_damage 5 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Killer Torture" .target "target" target .chance 100% .health_damage 10 .on_hit true .on_miss false .queue true .has_description false
 
 effect: .name "Killer buffs" .target "performer" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.10 .damage_high_multiply 0.10 .crit_chance_add 2% .queue true .on_hit true .on_miss true
 effect: .name "Killer Cure Self" .target "performer" .curio_result_type "positive" .chance 100% .cure 1 .apply_once true  .on_hit true .on_miss false .queue true
@@ -662,6 +691,17 @@ effect: .name "Victim Riposte Stress" .target "target" .curio_result_type "negat
 effect: .name "Victim_Tooltip" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "Vicitm_TOOLTIP" .duration -1 .on_hit true .on_miss false .queue true
 effect: .name "Victim Death Bark" 	.target "target" .chance 50% .bark victim_death .on_hit true .on_miss true .queue true
 effect: .name "Victim Killed Horror" .target "target_group" .curio_result_type "negative" .chance 100% .dotStress 5 .duration 5	.on_hit true .on_miss false	.queue true
+
+effect: .name "Tools Knock Down" .target "performer_group_other" .set_mode tools_knocked_down .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "Ripper Anger" .target "performer_group_other" .set_mode anger .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "Tools Pick Up" .target "target" .set_mode tools_fixed .chance 100% .on_hit true .on_miss false .queue false
+effect: .name "Ripper Calm" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss false .queue false
+
+effect: .name "Victim Stress" .target "target" .curio_result_type "negative" .chance 100% .stress 12 .on_hit true .on_miss true .queue true .apply_once false
+effect: .name "Victim Horror" .target "target" .curio_result_type "negative" .chance 100% .dotStress 5 .duration 3	.on_hit true .on_miss false	.queue true
+
+effect: .name "Victim Stress Target" .target "target_enemy_group" .curio_result_type "negative" .chance 100% .stress 6 .on_hit true .on_miss true .queue true .apply_once false
+
 
 //Killer Traps
 effect: .name "Killer_Trap Bleed" .target "target" .chance 145%  .dotBleed 8 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
@@ -807,13 +847,28 @@ effect: .name "Grim Harvest Mode" .target "performer" .set_mode death_harvest .c
 effect: .name "Grim_Bleed_Vs_Mark"	.target "performer" .chance 100% .buff_ids "grim_reaper_bleed_vs_mark" .on_hit true .on_miss false .buff_duration_type combat_end .duration 1
 
 ///Zombies
-effect: .name "Zombie Regen 1" .target "performer" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 3 .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "Zombie Regen 3" .target "performer" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 4 .duration 3 .on_hit true .on_miss false .queue true
-effect: .name "Zombie Regen 5" .target "performer" .curio_result_type "positive"	 .chance 100%  .dotHpHeal 5 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Lurch Buffs 1" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .duration 3 .on_hit true .on_miss false
+effect: .name "Lurch Buffs 3" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 5 .duration 3 .on_hit true .on_miss false
+effect: .name "Lurch Buffs 5" .target "performer" .chance 100% .combat_stat_buff 1 .speed_rating_add 7 .duration 3 .on_hit true .on_miss false
+
+effect: .name "Zombie Regen 1" .target "performer" .curio_result_type "positive"	 .chance 100%  .heal_percent 0.10 .on_hit true .on_miss false .queue true
+effect: .name "Zombie Regen 3" .target "performer" .curio_result_type "positive"	 .chance 100%  .heal_percent 0.15 .on_hit true .on_miss false .queue true
+effect: .name "Zombie Regen 5" .target "performer" .curio_result_type "positive"	 .chance 100%  .heal_percent 0.20 .on_hit true .on_miss false .queue true
 
 effect: .name "Zombie Blight 1" .target "target" .chance 100%  .dotPoison 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Zombie Blight 3" .target "target" .chance 120%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Zombie Blight 5" .target "target" .chance 140%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Corpse Eater Heal 1" .target "target" .chance 100% .heal_percent 0.10  .on_hit true .on_miss true .queue true .apply_once false 
+effect: .name "Corpse Eater Heal 3" .target "target" .chance 100% .heal_percent 0.15  .on_hit true .on_miss true .queue true .apply_once false 
+effect: .name "Corpse Eater Heal 5" .target "target" .chance 100% .heal_percent 0.20  .on_hit true .on_miss true .queue true .apply_once false
+
+effect: .name "Corpse Eater Buffs 1" .target "target" .chance 100% .buff_duration_type combat_end .combat_stat_buff 1 .duration 1 .damage_low_multiply 10%	.damage_high_multiply 10% .crit_chance_add 2% .queue true .on_hit true .on_miss true 
+effect: .name "Corpse Eater Buffs 3" .target "target" .chance 100% .buff_duration_type combat_end .combat_stat_buff 1 .duration 1 .damage_low_multiply 15%	.damage_high_multiply 15% .crit_chance_add 6% .queue true .on_hit true .on_miss true 
+effect: .name "Corpse Eater Buffs 5" .target "target" .chance 100% .buff_duration_type combat_end .combat_stat_buff 1 .duration 1 .damage_low_multiply 20%	.damage_high_multiply 20% .crit_chance_add 8% .queue true .on_hit true .on_miss true
+
+effect: .name "zombie_hunger" .target "performer" .duration -1 .buff_ids vmt_black_hunger_tooltip .buff_source_type bsrc_never_again .on_hit true .on_miss true
+effect: .name "zombie_hunger_clear" .target "performer" .steal_buff_source_type bsrc_never_again .on_hit true .on_miss true
 
 ///Cemetery Coffin
 effect: .name "Coffin Buff 1" .target "target" .curio_result_type "positive" .duration 3 .combat_stat_buff 1 .damage_low_multiply 0.05 .damage_high_multiply 0.05 .crit_chance_add 2% .queue true .on_hit true .on_miss true
@@ -823,9 +878,6 @@ effect: .name "Coffin Buff 5" .target "target" .curio_result_type "positive" .du
 effect: .name "switch_mode_awaken_self" .target "performer" .set_mode awaken .chance 1000% .on_hit true .on_miss true .queue false
 
 ///Cemetery Ghoul
-effect: .name "Zombie Buff 1" .target "performer" .curio_result_type "positive" .buff_duration_type combat_end .duration 1 .combat_stat_buff 1 .damage_low_multiply 0.04 .damage_high_multiply 0.04 .crit_chance_add 2% .queue true .on_hit true .on_miss true
-effect: .name "Zombie Buff 3" .target "performer" .curio_result_type "positive" .buff_duration_type combat_end .duration 1 .combat_stat_buff 1 .damage_low_multiply 0.08 .damage_high_multiply 0.08 .crit_chance_add 3% .queue true .on_hit true .on_miss true
-effect: .name "Zombie Buff 5" .target "performer" .curio_result_type "positive" .buff_duration_type combat_end .duration 1 .combat_stat_buff 1 .damage_low_multiply 0.12 .damage_high_multiply 0.12 .crit_chance_add 4% .queue true .on_hit true .on_miss true
 
 effect: .name "Zombie Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Zombie Bleed 3" .target "target" .chance 120%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
@@ -872,11 +924,29 @@ effect: .name "Distilary_Stress_Heal" .target "performer" .curio_result_type "po
 /// Med Kit
 effect: .name "sc_medkit" .target "performer" .item 1 .chance 100% .heal_percent 0.15 .cure_bleed 1 .cure_poison 1
 
+
+///Curios
+///Lamp Post
+effect: .name "Lamp_Post_Stress_Debuff" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Grim_Danse_Virtue_Debuff_1" .stress 10 .on_hit true .on_miss false .buff_duration_type combat_end .combat_stat_buff 1 .duration 3
+effect: .name "Lamp_post_ACC_Buff" .target "performer" .curio_result_type "positive" .chance 100%  .combat_stat_buff 1 .attack_rating_add 10% .on_hit true .on_miss false .queue true .buff_duration_type combat_end .duration 3
+effect: .name "Lamp_Post_Oil_Standard" .target "performer_group" .chance 100% .curio_result_type "positive" .torch_increase 20 .combat_stat_buff 1 .buff_ids "Lamp_Post_Stress_Buff_1" .buff_duration_type combat_end .duration 3 .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Lamp_Post_Oil_Good" .target "performer_group" .chance 100% .curio_result_type "positive" .torch_increase 25 .combat_stat_buff 1 .buff_ids "Lamp_Post_Stress_Buff_2" .buff_duration_type combat_end .duration 3 .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Lamp_Post_Oil_Best" .target "performer_group" .chance 100% .curio_result_type "positive" .torch_increase 30 .combat_stat_buff 1 .buff_ids "Lamp_Post_Stress_Buff_3" .buff_duration_type combat_end .duration 3 .on_hit true .on_miss false .apply_once true .queue true
+
+///Phone Booth
+effect: .name "Phone_Booth_Horror" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Grim_Danse_Virtue_Debuff_1" .on_hit true .on_miss false .buff_duration_type combat_end .combat_stat_buff 1 .duration 3
+effect: .name "Phone_Booth_Resolve" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Phone_Booth_Resolve_Buff" .healstress 11 .on_hit true .on_miss false .buff_duration_type combat_end .combat_stat_buff 1 .duration 3
+
+
+///Fountain
+effect: .name "water_fountian_heal" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.25 .on_hit true .on_miss false
+effect: .name "water_fountian_party_heal" .target "performer_group" .curio_result_type "positive" .chance 100% .heal_percent 0.15 .healstress 15 .cure 1 .on_hit true .on_miss false
+
 // Distilary
 effect: .name "Distilary_ACC_Debuff" .target "performer" .curio_result_type "negative" .chance 100% .buff_duration_type combat_end .combat_stat_buff 1 .attack_rating_add -15% .on_hit true .on_miss false .apply_once true
 
 // Carriage
-effect: .name "Carriage_Horror" .target "performer" .curio_result_type "negative" .chance 100% .stress 10 .on_hit true .on_miss true .queue true .apply_once false 
+effect: .name "Carriage_Horror" .target "performer" .curio_result_type "negative" .chance 100% .stress 15 .on_hit true .on_miss true .queue true .apply_once false 
 
 //Virile Brew
 effect: .name "virile_brew_party_heal" .target "performer_group" .curio_result_type "positive" .chance 100% .heal_percent 0.25 .on_hit true .on_miss false

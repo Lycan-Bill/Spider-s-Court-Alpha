@@ -1,0 +1,20 @@
+
+sweeper_supplies.png
+size: 1143,1143
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 497
+  size: 594, 644
+  orig: 594, 644
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 598, 473
+  size: 668, 543
+  orig: 668, 543
+  offset: 0, 0
+  index: -1

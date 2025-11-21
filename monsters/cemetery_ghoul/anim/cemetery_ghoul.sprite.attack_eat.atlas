@@ -1,0 +1,20 @@
+
+cemetery_ghoul.sprite.attack_eat.png
+size: 435,435
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 207
+  size: 431, 226
+  orig: 431, 226
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 142
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

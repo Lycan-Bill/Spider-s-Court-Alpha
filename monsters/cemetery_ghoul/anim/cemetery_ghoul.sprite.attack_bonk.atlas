@@ -1,19 +1,19 @@
 
 cemetery_ghoul.sprite.attack_bonk.png
-size: 584,584
+size: 588,588
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Layer 1
   rotate: false
   xy: 2, 2
-  size: 486, 580
-  orig: 486, 580
+  size: 333, 584
+  orig: 333, 584
   offset: 0, 0
   index: -1
 shadow
   rotate: true
-  xy: 490, 225
+  xy: 337, 229
   size: 357, 63
   orig: 357, 63
   offset: 0, 0

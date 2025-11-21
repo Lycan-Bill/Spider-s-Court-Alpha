@@ -1,0 +1,20 @@
+
+trash_can.png
+size: 798,798
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 351
+  size: 396, 445
+  orig: 396, 445
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 400, 351
+  size: 396, 445
+  orig: 396, 445
+  offset: 0, 0
+  index: -1

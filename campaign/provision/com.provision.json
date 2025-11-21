@@ -1,0 +1,41 @@
+{
+    "raid_starting_length_inventory_item_lists":
+    [
+        [ ],
+        [
+            { "type": "supply", "id": "spice", "amount": 0 }
+        ],
+        [
+            { "type": "supply", "id": "spice", "amount": 0 }
+        ],
+        [
+            { "type": "supply", "id": "spice", "amount": 0 }
+        ],
+        [
+            { "type": "supply", "id": "spice", "amount": 0 }
+        ],
+        [
+            { "type": "supply", "id": "spice", "amount": 0 }
+        ]
+    ],
+    
+    "default_store_inventory_item_lists":
+    [
+        [ ],
+        [
+            { "type": "shard", "id": "", "amount": 6 }
+        ],
+        [
+            { "type": "shard", "id": "", "amount": 9 }
+        ],
+        [
+            { "type": "shard", "id": "", "amount": 12 }
+        ],
+        [
+            { "type": "shard", "id": "", "amount": 15 }
+        ],
+        [
+            { "type": "shard", "id": "", "amount": 12 }
+        ]
+    ]
+}

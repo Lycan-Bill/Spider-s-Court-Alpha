@@ -1,0 +1,27 @@
+
+lamp_post.png
+size: 1041,1041
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 2
+  size: 268, 1037
+  orig: 268, 1037
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 272, 30
+  size: 268, 1009
+  orig: 268, 1009
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 542, 733
+  size: 291, 306
+  orig: 291, 306
+  offset: 0, 0
+  index: -1

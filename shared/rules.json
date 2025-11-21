@@ -111,7 +111,7 @@
     "quirks_max_positive": 7,
     "quirks_max_negative": 5,
     "quirks_max_diseases": 3,
-    "quirks_max_locked_positive": 0,
+    "quirks_max_locked_positive": 5,
     "quirks_max_locked_negative": 5,
     "quirk_negative_locked_after_turn_count": 2,
     "quirk_chance_to_lock_negative": 0.25,

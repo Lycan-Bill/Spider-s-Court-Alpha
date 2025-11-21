@@ -1,0 +1,27 @@
+
+newspaper_merchant.png
+size: 1744,1744
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 873
+  size: 1009, 869
+  orig: 1009, 869
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 1013, 1279
+  size: 409, 463
+  orig: 409, 463
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 2, 2
+  size: 924, 869
+  orig: 924, 869
+  offset: 0, 0
+  index: -1

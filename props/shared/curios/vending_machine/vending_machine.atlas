@@ -1,0 +1,20 @@
+
+vending_machine.png
+size: 1372,1372
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 687, 342
+  size: 683, 1028
+  orig: 683, 1028
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 2, 312
+  size: 683, 1058
+  orig: 683, 1058
+  offset: 0, 0
+  index: -1

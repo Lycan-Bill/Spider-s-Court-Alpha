@@ -87,6 +87,62 @@
              "investigate_use_item": true,
              "interaction_presentation": true
             }
+        },
+		{ 
+            "name": "hot_dog_vendor",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+            }
+        },
+		{ 
+            "name": "trash_can",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+             }
+        },
+		{ 
+            "name": "quarter_fountain",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+             }
+        },
+		{ 
+            "name": "phone_booth",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+           }
+        },
+		{ 
+            "name": "lamp_post",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+            }
+        },
+		{ 
+            "name": "contraband_merchant",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+           }
+        },
+		{ 
+            "name": "newspaper_merchant",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+            }
         }
     ]
 }

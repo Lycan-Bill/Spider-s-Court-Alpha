@@ -1,11 +1,21 @@
 room_curios: .chance 60 .types Quarter_Distillery
 
-hall_curios: .chance 8 .types discarded_pack 
 hall_curios: .chance 8 .types Lantern_Barrel
-hall_curios: .chance 10 .types crate 
-hall_curios: .chance 10 .types sack 
-hall_curios: .chance 9 .types TheKid 
-hall_curios: .chance 8 .types Quarter_Carriage
+hall_curios: .chance 2 .types hot_dog_vendor
+hall_curios: .chance 7 .types trash_can
+hall_curios: .chance 3 .types TheKid
+hall_curios: .chance 5 .types food_stand
+hall_curios: .chance 5 .types Quarter_Carriage
+hall_curios: .chance 10 .types quarter_crates
+hall_curios: .chance 5 .types quarter_fountain
+hall_curios: .chance 6 .types phone_booth
+hall_curios: .chance 4 .types vending_machine
+hall_curios: .chance 6 .types sweeper_supplies
+hall_curios: .chance 4 .types lamp_post
+hall_curios: .chance 2 .types contraband_merchant
+hall_curios: .chance 3 .types fortune_teller
+hall_curios: .chance 8 .types newspaper_stand
+hall_curios: .chance 2 .types newspaper_merchant
 
 
 traps: .chance 1 .types trip_wire

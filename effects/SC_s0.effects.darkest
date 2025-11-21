@@ -121,9 +121,9 @@ effect: .name "dd2_burn_tokenself_5H"    .target "performer" .chance 100%  .buff
 effect: .name "sc_infernal_burn_token_2" .target "target"    .chance -5000%	.buff_ids "dd2_firedot_dmg_2" "dd2_firedot_key_buff_2" "dd2_burn_token_tt2" "status_fx_burn2" "dd2_firedot_fx_axa1" .on_hit true .on_miss false .buff_source_type bsrc_deathsdoor_recovery .has_description false .apply_once false .buff_is_clear_debuff_valid False
 
 ///Rain Lantern stuff
-effect: .name "sc_rain_bot_summon" .target "performer" .chance 45%  .summon_monsters "sc_rain_s0_A" .summon_count 1  .summon_count 1 .summon_chances 1.0 .summon_limits 1 .summon_ranks 01234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
-effect: .name "sc_rain_shuffle_heroes" .target "target_enemy_group" .shuffletarget  .chance -2750%  .on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "sc_rain_shuffle_enemies" .target "performer_group_other" .shuffletarget  .chance -2750%  .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "sc_rain_bot_summon" .target "performer" .chance 100%  .summon_monsters "sc_rain_s0_A" .summon_count 1  .summon_count 1 .summon_chances 1.0 .summon_limits 1 .summon_ranks 01234 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true .has_description false .queue true
+effect: .name "sc_rain_shuffle_heroes" .target "target_enemy_group" .dotShuffle 1   .chance -2050%  .on_hit true .on_miss false .apply_once true .can_apply_on_death true .duration 1
+effect: .name "sc_rain_shuffle_enemies" .target "performer_group_other" .dotShuffle 1   .chance -2050%  .on_hit true .on_miss false .can_apply_on_death true .duration 1
 effect: .name "sc_rain_suicide"    .target "performer" .chance 1000% .kill_enemy_types sc_rain_s0	    .on_hit true .on_miss false .has_description false
 effect: .name "sc_rain_buffs_1" .target "performer" .chance 100%   .buff_ids "sc_rain_key_move" .on_hit true .on_miss false .apply_once false .can_apply_on_death true .apply_with_result true
 effect: .name "sc_rain_buffs_2" .target "performer" .chance 100%   .buff_ids "sc_rain_key_move_2" .on_hit true .on_miss false .apply_once false .can_apply_on_death true .apply_with_result true  

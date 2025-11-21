@@ -1,0 +1,27 @@
+
+phone_booth.png
+size: 1278,1278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 2, 385
+  size: 519, 891
+  orig: 519, 891
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 523, 385
+  size: 519, 891
+  orig: 519, 891
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 2, 2
+  size: 389, 381
+  orig: 389, 381
+  offset: 0, 0
+  index: -1

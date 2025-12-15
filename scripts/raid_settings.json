@@ -43,7 +43,7 @@
                  "torch_ambience_parameters":
                 [
                     {
-                        "id": "old_quarter_rain",
+                        "id": "old_quarter_rainfall",
                         "value": 1.0
                     }
                 ]

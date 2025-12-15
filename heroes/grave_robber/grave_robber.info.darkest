@@ -1,15 +1,15 @@
 resistances: .stun 20% .poison 50% .bleed 30% .disease 30% .move 20% .debuff 30% .death_blow 60% .trap 50%
 crit: .effects "on_crit_def"
-weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 4 8 .crit 6% .spd 8
-weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 5 10 .crit 7% .spd 8 .upgradeRequirementCode 0
-weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 6 11 .crit 8% .spd 9 .upgradeRequirementCode 1
-weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 6 13 .crit 9% .spd 9 .upgradeRequirementCode 2
-weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 7 14 .crit 10% .spd 10 .upgradeRequirementCode 3
-armour: .name "grave_robber_armour_0" .def 10% .prot 0 .hp 20 .spd 0
-armour: .name "grave_robber_armour_1" .def 15% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
-armour: .name "grave_robber_armour_2" .def 20% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1
-armour: .name "grave_robber_armour_3" .def 25% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 2
-armour: .name "grave_robber_armour_4" .def 30% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 3
+weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 8 16 .crit 6% .spd 16
+weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 9 19 .crit 7% .spd 17 .upgradeRequirementCode 0
+weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 11 22 .crit 8% .spd 18 .upgradeRequirementCode 1
+weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 12 25 .crit 9% .spd 19 .upgradeRequirementCode 2
+weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 14 28 .crit 10% .spd 20 .upgradeRequirementCode 3
+armour: .name "grave_robber_armour_0" .def 10% .prot 0 .hp 40 .spd 0
+armour: .name "grave_robber_armour_1" .def 15% .prot 0 .hp 48 .spd 0 .upgradeRequirementCode 0
+armour: .name "grave_robber_armour_2" .def 20% .prot 0 .hp 56 .spd 0 .upgradeRequirementCode 1
+armour: .name "grave_robber_armour_3" .def 25% .prot 0 .hp 64 .spd 0 .upgradeRequirementCode 2
+armour: .name "grave_robber_armour_4" .def 30% .prot 0 .hp 72 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "pick" .level 0 .type "melee" .atk 90% .dmg -15% .crit 1% .launch 321 .target 12 .is_crit_valid True .ignore_protection true 
 combat_skill: .id "pick" .level 1 .type "melee" .atk 95% .dmg -15% .crit 2% .launch 321 .target 12 .is_crit_valid True .ignore_protection true 
 combat_skill: .id "pick" .level 2 .type "melee" .atk 100% .dmg -15% .crit 3% .launch 321 .target 12 .is_crit_valid True .ignore_protection true 

@@ -1,7 +1,266 @@
 {
   "buffs": [
     {
-     
+      "id": "SC_DMG_REC_1",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+	  }
+    },
+    {
+	  "id": "SC_DMG_REC_2",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.20,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_DMG_REC_3",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_DMG_REC_4",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.30,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_DMG_REC_5",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.35,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+      "id": "SC_CRIT_REC_1",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": 0.04,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+	  }
+    },
+    {
+	  "id": "SC_CRIT_REC_2",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": 0.06,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_CRIT_REC_3",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": 0.08,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_CRIT_REC_4",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": 0.10,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_CRIT_REC_5",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": 0.12,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+      "id": "SC_PROT_DEBUFF_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": -0.09,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+	  }
+    },
+    {
+	  "id": "SC_PROT_DEBUFF_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": -0.12,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_PROT_DEBUFF_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_PROT_DEBUFF_4",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": -0.17,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id": "SC_PROT_DEBUFF_5",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": -0.20,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id" : "SC_DODGE_DEBUFF_1",
+	  "stat_type" : "combat_stat_add",
+	  "stat_sub_type" : "defense_rating",
+	  "amount" : -0.06,
+	  "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id" : "SC_DODGE_DEBUFF_2",
+	  "stat_type" : "combat_stat_add",
+	  "stat_sub_type" : "defense_rating",
+	  "amount" : -0.08,
+	  "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id" : "SC_DODGE_DEBUFF_3",
+	  "stat_type" : "combat_stat_add",
+	  "stat_sub_type" : "defense_rating",
+	  "amount" : -0.1,
+	  "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id" : "SC_DODGE_DEBUFF_4",
+	  "stat_type" : "combat_stat_add",
+	  "stat_sub_type" : "defense_rating",
+	  "amount" : -0.12,
+	  "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
+	  "id" : "SC_DODGE_DEBUFF_5",
+	  "stat_type" : "combat_stat_add",
+	  "stat_sub_type" : "defense_rating",
+	  "amount" : -0.14,
+	  "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+ }
+    },
+    {
 	 "id": "SC_Blight_Resist_Debuff_1",
       "stat_type": "resistance",
       "stat_sub_type": "poison",

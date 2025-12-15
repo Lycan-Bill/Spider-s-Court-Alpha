@@ -1,15 +1,15 @@
 resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 10%
 crit: .effects "on_crit_dmgmarked"
-weapon: .name "arbalest_weapon_0" .atk 0% .dmg 4 8 .crit 6% .spd 3
-weapon: .name "arbalest_weapon_1" .atk 0% .dmg 5 10 .crit 7% .spd 3 .upgradeRequirementCode 0
-weapon: .name "arbalest_weapon_2" .atk 0% .dmg 6 11 .crit 8% .spd 4 .upgradeRequirementCode 1
-weapon: .name "arbalest_weapon_3" .atk 0% .dmg 6 13 .crit 9% .spd 4 .upgradeRequirementCode 2
-weapon: .name "arbalest_weapon_4" .atk 0% .dmg 7 14 .crit 10% .spd 5 .upgradeRequirementCode 3
-armour: .name "arbalest_armour_0" .def 0% .prot 0 .hp 27 .spd 0
-armour: .name "arbalest_armour_1" .def 5% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 0
-armour: .name "arbalest_armour_2" .def 10% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 1
-armour: .name "arbalest_armour_3" .def 15% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 2
-armour: .name "arbalest_armour_4" .def 20% .prot 0 .hp 47 .spd 0 .upgradeRequirementCode 3
+weapon: .name "arbalest_weapon_0" .atk 0% .dmg 8 16 .crit 6% .spd 6
+weapon: .name "arbalest_weapon_1" .atk 0% .dmg 9 19 .crit 7% .spd 7 .upgradeRequirementCode 0
+weapon: .name "arbalest_weapon_2" .atk 0% .dmg 11 22 .crit 8% .spd 8 .upgradeRequirementCode 1
+weapon: .name "arbalest_weapon_3" .atk 0% .dmg 12 25 .crit 9% .spd 9 .upgradeRequirementCode 2
+weapon: .name "arbalest_weapon_4" .atk 0% .dmg 14 28 .crit 10% .spd 10 .upgradeRequirementCode 3
+armour: .name "arbalest_armour_0" .def 0% .prot 0 .hp 54 .spd 0
+armour: .name "arbalest_armour_1" .def 5% .prot 0 .hp 64 .spd 0 .upgradeRequirementCode 0
+armour: .name "arbalest_armour_2" .def 10% .prot 0 .hp 74 .spd 0 .upgradeRequirementCode 1
+armour: .name "arbalest_armour_3" .def 15% .prot 0 .hp 84 .spd 0 .upgradeRequirementCode 2
+armour: .name "arbalest_armour_4" .def 20% .prot 0 .hp 94 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "sniper_shot" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper Damage 1" .generation_guaranteed true
 combat_skill: .id "sniper_shot" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 6% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper Damage 2"
 combat_skill: .id "sniper_shot" .level 2 .type "ranged" .atk 105% .dmg 0% .crit 7% .launch 43 .target 234 .is_crit_valid True  .effect "Sniper Damage 3"

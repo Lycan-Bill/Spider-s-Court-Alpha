@@ -1,15 +1,15 @@
 resistances: .stun 60% .poison 40% .bleed 10% .disease 20% .move 60% .debuff 40% .death_blow 60% .trap 10%
 crit: .effects "on_crit_acc"
-weapon: .name "leper_weapon_0" .atk 0% .dmg 8 16 .crit 1% .spd 2
-weapon: .name "leper_weapon_1" .atk 0% .dmg 9 18 .crit 2% .spd 2 .upgradeRequirementCode 0
-weapon: .name "leper_weapon_2" .atk 0% .dmg 10 21 .crit 3% .spd 3 .upgradeRequirementCode 1
-weapon: .name "leper_weapon_3" .atk 0% .dmg 12 23 .crit 4% .spd 3 .upgradeRequirementCode 2
-weapon: .name "leper_weapon_4" .atk 0% .dmg 13 26 .crit 5% .spd 4 .upgradeRequirementCode 3
-armour: .name "leper_armour_0" .def 0% .prot 0 .hp 35 .spd 0
-armour: .name "leper_armour_1" .def 5% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 0
-armour: .name "leper_armour_2" .def 10% .prot 0 .hp 49 .spd 0 .upgradeRequirementCode 1
-armour: .name "leper_armour_3" .def 15% .prot 0 .hp 56 .spd 0 .upgradeRequirementCode 2
-armour: .name "leper_armour_4" .def 20% .prot 0 .hp 63 .spd 0 .upgradeRequirementCode 3
+weapon: .name "leper_weapon_0" .atk 0% .dmg 14 28 .crit 1% .spd 4
+weapon: .name "leper_weapon_1" .atk 0% .dmg 16 33 .crit 2% .spd 5 .upgradeRequirementCode 0
+weapon: .name "leper_weapon_2" .atk 0% .dmg 18 38 .crit 3% .spd 6 .upgradeRequirementCode 1
+weapon: .name "leper_weapon_3" .atk 0% .dmg 20 43 .crit 4% .spd 7 .upgradeRequirementCode 2
+weapon: .name "leper_weapon_4" .atk 0% .dmg 22 48 .crit 5% .spd 8 .upgradeRequirementCode 3
+armour: .name "leper_armour_0" .def 0% .prot 0 .hp 70 .spd 0
+armour: .name "leper_armour_1" .def 5% .prot 0 .hp 84 .spd 0 .upgradeRequirementCode 0
+armour: .name "leper_armour_2" .def 10% .prot 0 .hp 98 .spd 0 .upgradeRequirementCode 1
+armour: .name "leper_armour_3" .def 15% .prot 0 .hp 112 .spd 0 .upgradeRequirementCode 2
+armour: .name "leper_armour_4" .def 20% .prot 0 .hp 126 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "chop" .level 0 .type "melee" .atk 75% .dmg 0% .crit 3% .launch 12 .target 12 .is_crit_valid True  .generation_guaranteed true
 combat_skill: .id "chop" .level 1 .type "melee" .atk 80% .dmg 0% .crit 4% .launch 12 .target 12 .is_crit_valid True 
 combat_skill: .id "chop" .level 2 .type "melee" .atk 85% .dmg 0% .crit 5% .launch 12 .target 12 .is_crit_valid True 

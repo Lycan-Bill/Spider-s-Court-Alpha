@@ -21,6 +21,43 @@
     <entry id="str_quirk_name_ruins_survivor"><![CDATA[Old Quarter Survivor]]></entry>
     <entry id="str_quirk_name_ruins_tactician"><![CDATA[Old Quarter Tactician]]></entry>
 	
+	<!--Quest Names-->
+	<entry id="town_quest_name_explore_rainfall+1+crypts+explore_rainfall"><![CDATA[Scout [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_explore_rainfall+2+crypts+explore_rainfall"><![CDATA[Scout [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_explore_rainfall+3+crypts+explore_rainfall"><![CDATA[Scout [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_explore_rainfall+4+crypts+explore_rainfall"><![CDATA[Scout [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_explore_rainfall+5+crypts+explore_rainfall"><![CDATA[Scout [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	
+	<entry id="town_quest_name_cleanse_rainfall+1+crypts+battle_all_rooms_rainfall"><![CDATA[Scrimmage [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_cleanse_rainfall+2+crypts+battle_all_rooms_rainfall"><![CDATA[Scrimmage [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_cleanse_rainfall+3+crypts+battle_all_rooms_rainfall"><![CDATA[Scrimmage [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_cleanse_rainfall+4+crypts+battle_all_rooms_rainfall"><![CDATA[Scrimmage [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_cleanse_rainfall+5+crypts+battle_all_rooms_rainfall"><![CDATA[Scrimmage [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	
+	<entry id="town_quest_name_gather_rainfall+1+crypts+gather_holy_relic_rainfall"><![CDATA[Collect [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_gather_rainfall+2+crypts+gather_holy_relic_rainfall"><![CDATA[Collect [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_gather_rainfall+3+crypts+gather_holy_relic_rainfall"><![CDATA[Collect [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_gather_rainfall+4+crypts+gather_holy_relic_rainfall"><![CDATA[Collect [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	<entry id="town_quest_name_gather_rainfall+5+crypts+gather_holy_relic_rainfall"><![CDATA[Collect [{colour_start|blue}Rainfall{colour_end}]]]></entry>
+	
+	<entry id="town_quest_description_explore_rainfall+1+crypts+explore_rainfall"><![CDATA[A storm has begun in the old quarter. We can take advantage and scout ahead as the gangers take shelter.]]></entry>
+	<entry id="town_quest_description_explore_rainfall+2+crypts+explore_rainfall"><![CDATA[A storm has begun in the old quarter. We can take advantage and scout ahead as the gangers take shelter.]]></entry>
+	<entry id="town_quest_description_explore_rainfall+3+crypts+explore_rainfall"><![CDATA[A storm has begun in the old quarter. We can take advantage and scout ahead as the gangers take shelter.]]></entry>
+	<entry id="town_quest_description_explore_rainfall+4+crypts+explore_rainfall"><![CDATA[A storm has begun in the old quarter. We can take advantage and scout ahead as the gangers take shelter.]]></entry>
+	<entry id="town_quest_description_explore_rainfall+5+crypts+explore_rainfall"><![CDATA[A storm has begun in the old quarter. We can take advantage and scout ahead as the gangers take shelter.]]></entry>
+	
+	<entry id="town_quest_description_cleanse_rainfall+1+crypts+battle_all_rooms_rainfall"><![CDATA[The storm gives us the perfect chance to strike against the Gangers. Strike them down and take back the Old Quarter.]]></entry>
+	<entry id="town_quest_description_cleanse_rainfall+2+crypts+battle_all_rooms_rainfall"><![CDATA[The storm gives us the perfect chance to strike against the Gangers. Strike them down and take back the Old Quarter.]]></entry>
+	<entry id="town_quest_description_cleanse_rainfall+3+crypts+battle_all_rooms_rainfall"><![CDATA[The storm gives us the perfect chance to strike against the Gangers. Strike them down and take back the Old Quarter.]]></entry>
+	<entry id="town_quest_description_cleanse_rainfall+4+crypts+battle_all_rooms_rainfall"><![CDATA[The storm gives us the perfect chance to strike against the Gangers. Strike them down and take back the Old Quarter.]]></entry>
+	<entry id="town_quest_description_cleanse_rainfall+5+crypts+battle_all_rooms_rainfall"><![CDATA[The storm gives us the perfect chance to strike against the Gangers. Strike them down and take back the Old Quarter.]]></entry>
+	
+	<entry id="town_quest_description_gather_rainfall+1+crypts+gather_holy_relic_rainfall"><![CDATA[The Spiv has talked to his connections and managed to get supplies sent, unfortunately the Gangers have taken the supplies, find them and take it back.]]></entry>
+	<entry id="town_quest_description_gather_rainfall+2+crypts+gather_holy_relic_rainfall"><![CDATA[The Spiv has talked to his connections and managed to get supplies sent, unfortunately the Gangers have taken the supplies, find them and take it back.]]></entry>
+	<entry id="town_quest_description_gather_rainfall+3+crypts+gather_holy_relic_rainfall"><![CDATA[The Spiv has talked to his connections and managed to get supplies sent, unfortunately the Gangers have taken the supplies, find them and take it back.]]></entry>
+	<entry id="town_quest_description_gather_rainfall+4+crypts+gather_holy_relic_rainfall"><![CDATA[The Spiv has talked to his connections and managed to get supplies sent, unfortunately the Gangers have taken the supplies, find them and take it back.]]></entry>
+	<entry id="town_quest_description_gather_rainfall+5+crypts+gather_holy_relic_rainfall"><![CDATA[The Spiv has talked to his connections and managed to get supplies sent, unfortunately the Gangers have taken the supplies, find them and take it back.]]></entry>
+	
 	<!--Monster Types-->
   <entry id="enemy_type_name_ganger"><![CDATA[Ganger]]></entry>
   <entry id="buff_rule_data_tooltip_ganger"><![CDATA[Ganger]]></entry>
@@ -38,6 +75,12 @@ Cure {colour_start|blight}Blight{colour_end}
 {colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
     <entry id="str_inventory_description_supplybandage"><![CDATA[{colour_start|skill_unselectable}Woven{colour_end}
 Cure {colour_start|bleed}Bleed{colour_end}
+{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
+
+<entry id="str_inventory_title_estateburn_salve"><![CDATA[Burn Salve]]></entry>
+
+<entry id="str_inventory_description_estateburn_salve"><![CDATA[{colour_start|skill_unselectable}Adhesive{colour_end}
+Cure {colour_start|burn}Burn{colour_end}
 {colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
 
 <!--Smoke Bomb-->
@@ -105,7 +148,7 @@ Cure
     <entry id="str_inventory_title_estatemerchant_credit"><![CDATA[Merchant Credit]]></entry>
     <entry id="str_inventory_description_estatemerchant_credit"><![CDATA[This exists to test merchant curios]]></entry>
 	
-<!--Merchant Credit-->
+<!--Hawthorn Oil-->
     <entry id="str_inventory_title_estateHawthorn_Oil"><![CDATA[Hawthorn Oil]]></entry>
     <entry id="str_inventory_description_estateHawthorn_Oil"><![CDATA[{colour_start|skill_unselectable}Supportive{colour_end}
 {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
@@ -113,6 +156,20 @@ Cure
 +15% DMG Vs Bloodsuckers
 +9% CRIT Vs Bloodsuckers]]></entry>
 	
+	<!--Merchant Credit-->
+    <entry id="str_inventory_title_estateLantern_Oil_Good"><![CDATA[Castor Oil]]></entry>
+    <entry id="str_inventory_description_estateLantern_Oil_Good"><![CDATA[A vegetable-based oil that is derived from the castor bean.
++14 Light]]></entry>
+
+<!--Merchant Credit-->
+    <entry id="str_inventory_title_estateLantern_Oil_standard"><![CDATA[Fish Oil]]></entry>
+    <entry id="str_inventory_description_estateLantern_Oil_standard"><![CDATA[An oil that is derived from the tissues of oily fish, but it does not burn very brightly.
++10 Light]]></entry>
+
+<!--Merchant Credit-->
+    <entry id="str_inventory_title_estateLantern_Oil_Best"><![CDATA[Kerosene]]></entry>
+    <entry id="str_inventory_description_estateLantern_Oil_Best"><![CDATA[Oil used to run many things, now rare in these parts.
++20 Light]]></entry>
 
 <!--Firecracker-->
     <entry id="str_inventory_title_estatesc_firecracker"><![CDATA[Firecracker]]></entry>

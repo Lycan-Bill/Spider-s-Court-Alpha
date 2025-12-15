@@ -1,6 +1,7 @@
 {
     "load_order":
     [
-        "secondary_banks/music_old_quarter.bank"
+        "secondary_banks/music_old_quarter.bank",
+		"secondary_banks/spiders_court_master.bank"
     ]
 }

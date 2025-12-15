@@ -1,15 +1,15 @@
 resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 40%
 crit: .effects "on_crit_bleedchance"
-weapon: .name "houndmaster_weapon_0" .atk 0% .dmg 4 7 .crit 4% .spd 5
-weapon: .name "houndmaster_weapon_1" .atk 0% .dmg 5 8 .crit 5% .spd 5 .upgradeRequirementCode 0
-weapon: .name "houndmaster_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 6 .upgradeRequirementCode 1
-weapon: .name "houndmaster_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 6 .upgradeRequirementCode 2
-weapon: .name "houndmaster_weapon_4" .atk 0% .dmg 7 13 .crit 8% .spd 7 .upgradeRequirementCode 3
-armour: .name "houndmaster_armour_0" .def 10% .prot 0 .hp 21 .spd 0
-armour: .name "houndmaster_armour_1" .def 15% .prot 0 .hp 25 .spd 0 .upgradeRequirementCode 0
-armour: .name "houndmaster_armour_2" .def 20% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 1
-armour: .name "houndmaster_armour_3" .def 25% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 2
-armour: .name "houndmaster_armour_4" .def 30% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 3
+weapon: .name "houndmaster_weapon_0" .atk 0% .dmg 8 14 .crit 4% .spd 10
+weapon: .name "houndmaster_weapon_1" .atk 0% .dmg 9 17 .crit 5% .spd 11 .upgradeRequirementCode 0
+weapon: .name "houndmaster_weapon_2" .atk 0% .dmg 11 20 .crit 6% .spd 12 .upgradeRequirementCode 1
+weapon: .name "houndmaster_weapon_3" .atk 0% .dmg 12 23 .crit 7% .spd 13 .upgradeRequirementCode 2
+weapon: .name "houndmaster_weapon_4" .atk 0% .dmg 14 26 .crit 8% .spd 14 .upgradeRequirementCode 3
+armour: .name "houndmaster_armour_0" .def 10% .prot 0 .hp 42 .spd 0
+armour: .name "houndmaster_armour_1" .def 15% .prot 0 .hp 50 .spd 0 .upgradeRequirementCode 0
+armour: .name "houndmaster_armour_2" .def 20% .prot 0 .hp 58 .spd 0 .upgradeRequirementCode 1
+armour: .name "houndmaster_armour_3" .def 25% .prot 0 .hp 66 .spd 0 .upgradeRequirementCode 2
+armour: .name "houndmaster_armour_4" .def 30% .prot 0 .hp 74 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "hounds_rush" .level 0 .type "ranged" .atk 85% .dmg 0% .crit 5% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 1" "HM Dmg Marked 1" "Hound Bleed 1" .generation_guaranteed true
 combat_skill: .id "hounds_rush" .level 1 .type "ranged" .atk 90% .dmg 0% .crit 6% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 2" "HM Dmg Marked 2" "Hound Bleed 2"
 combat_skill: .id "hounds_rush" .level 2 .type "ranged" .atk 95% .dmg 0% .crit 7% .launch 432 .target 1234 .is_crit_valid True  .effect "Beast Killer 3" "HM Dmg Marked 3" "Hound Bleed 3"

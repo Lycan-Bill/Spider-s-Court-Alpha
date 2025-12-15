@@ -4,6 +4,7 @@
 	"secondary_banks/spider_court_music.bank",
 	"secondary_banks/theme_test.bank",
 	"secondary_banks/sc_new_sounds.bank",
-	"secondary_banks/spiders_court_master.bank"
+	"secondary_banks/spiders_court_master.bank",
+	"secondary_banks/SC_raid.bank"
     ]
 }

@@ -1,15 +1,15 @@
 resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 20%
 crit: .effects "on_crit_dmgbleeding"
-weapon: .name "hellion_weapon_0" .atk 0% .dmg 6 12 .crit 5% .spd 4
-weapon: .name "hellion_weapon_1" .atk 0% .dmg 7 14 .crit 6% .spd 4 .upgradeRequirementCode 0
-weapon: .name "hellion_weapon_2" .atk 0% .dmg 8 16 .crit 7% .spd 5 .upgradeRequirementCode 1
-weapon: .name "hellion_weapon_3" .atk 0% .dmg 9 17 .crit 8% .spd 5 .upgradeRequirementCode 2
-weapon: .name "hellion_weapon_4" .atk 0% .dmg 10 19 .crit 9% .spd 6 .upgradeRequirementCode 3
-armour: .name "hellion_armour_0" .def 10% .prot 0 .hp 26 .spd 0
-armour: .name "hellion_armour_1" .def 15% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 0
-armour: .name "hellion_armour_2" .def 20% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 1
-armour: .name "hellion_armour_3" .def 25% .prot 0 .hp 41 .spd 0 .upgradeRequirementCode 2
-armour: .name "hellion_armour_4" .def 30% .prot 0 .hp 46 .spd 0 .upgradeRequirementCode 3
+weapon: .name "hellion_weapon_0" .atk 0% .dmg 12 24 .crit 5% .spd 8
+weapon: .name "hellion_weapon_1" .atk 0% .dmg 14 27 .crit 6% .spd 9 .upgradeRequirementCode 0
+weapon: .name "hellion_weapon_2" .atk 0% .dmg 16 31 .crit 7% .spd 10 .upgradeRequirementCode 1
+weapon: .name "hellion_weapon_3" .atk 0% .dmg 18 34 .crit 8% .spd 11 .upgradeRequirementCode 2
+weapon: .name "hellion_weapon_4" .atk 0% .dmg 20 38 .crit 9% .spd 12 .upgradeRequirementCode 3
+armour: .name "hellion_armour_0" .def 10% .prot 0 .hp 52 .spd 0
+armour: .name "hellion_armour_1" .def 15% .prot 0 .hp 62 .spd 0 .upgradeRequirementCode 0
+armour: .name "hellion_armour_2" .def 20% .prot 0 .hp 72 .spd 0 .upgradeRequirementCode 1
+armour: .name "hellion_armour_3" .def 25% .prot 0 .hp 82 .spd 0 .upgradeRequirementCode 2
+armour: .name "hellion_armour_4" .def 30% .prot 0 .hp 92 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "wicked_hack" .level 0 .type "melee" .atk 85% .dmg 0% .crit 4% .launch 21 .target 12 .is_crit_valid True  .generation_guaranteed true
 combat_skill: .id "wicked_hack" .level 1 .type "melee" .atk 90% .dmg 0% .crit 5% .launch 21 .target 12 .is_crit_valid True 
 combat_skill: .id "wicked_hack" .level 2 .type "melee" .atk 95% .dmg 0% .crit 6% .launch 21 .target 12 .is_crit_valid True 

@@ -56,7 +56,7 @@
 	
 	<entry id="str_curio_title_phone_booth"><![CDATA[Phone Booth]]></entry>
 	<entry id="str_curio_content_phone_booth"><![CDATA[Not many where installed before the Retinue interfered.]]></entry>
-	<entry id="str_curio_tooltip_investigate_vending_machine"><![CDATA[Exact Change Only.]]></entry>
+	<entry id="str_curio_tooltip_investigate_phone_booth"><![CDATA[Exact Change Only.]]></entry>
 	<entry id="str_curio_phone_booth_nothing"><![CDATA[The wires have been cut.]]></entry>
 	<entry id="str_curio_phone_booth_effect"><![CDATA[You only hear heavy breathing.]]></entry>
 	<entry id="str_curio_phone_booth_scout"><![CDATA["Just reminding where you need to go."]]></entry>

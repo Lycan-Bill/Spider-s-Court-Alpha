@@ -1,15 +1,15 @@
 resistances: .stun 40% .poison 60% .bleed 30% .disease 20% .move 40% .debuff 20% .death_blow 60% .trap 10%
 crit: .effects "on_crit_dmg"
-weapon: .name "abomination_weapon_0" .atk 0% .dmg 6 11 .crit 2% .spd 7
-weapon: .name "abomination_weapon_1" .atk 0% .dmg 7 13 .crit 3% .spd 7 .upgradeRequirementCode 0
-weapon: .name "abomination_weapon_2" .atk 0% .dmg 8 15 .crit 4% .spd 8 .upgradeRequirementCode 1
-weapon: .name "abomination_weapon_3" .atk 0% .dmg 10 18 .crit 5% .spd 8 .upgradeRequirementCode 2
-weapon: .name "abomination_weapon_4" .atk 0% .dmg 11 20 .crit 6% .spd 9 .upgradeRequirementCode 3
-armour: .name "abomination_armour_0" .def 7.5% .prot 0 .hp 26 .spd 0
-armour: .name "abomination_armour_1" .def 12.5% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 0
-armour: .name "abomination_armour_2" .def 17.5% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 1
-armour: .name "abomination_armour_3" .def 22.5% .prot 0 .hp 41 .spd 0 .upgradeRequirementCode 2
-armour: .name "abomination_armour_4" .def 27.5% .prot 0 .hp 46 .spd 0 .upgradeRequirementCode 3
+weapon: .name "abomination_weapon_0" .atk 0% .dmg 12 22 .crit 2% .spd 14
+weapon: .name "abomination_weapon_1" .atk 0% .dmg 14 26 .crit 3% .spd 15 .upgradeRequirementCode 0
+weapon: .name "abomination_weapon_2" .atk 0% .dmg 16 30 .crit 4% .spd 16 .upgradeRequirementCode 1
+weapon: .name "abomination_weapon_3" .atk 0% .dmg 20 36 .crit 5% .spd 17 .upgradeRequirementCode 2
+weapon: .name "abomination_weapon_4" .atk 0% .dmg 22 40 .crit 6% .spd 18 .upgradeRequirementCode 3
+armour: .name "abomination_armour_0" .def 8% .prot 0 .hp 52 .spd 0
+armour: .name "abomination_armour_1" .def 13% .prot 0 .hp 62 .spd 0 .upgradeRequirementCode 0
+armour: .name "abomination_armour_2" .def 18% .prot 0 .hp 72 .spd 0 .upgradeRequirementCode 1
+armour: .name "abomination_armour_3" .def 23% .prot 0 .hp 82 .spd 0 .upgradeRequirementCode 2
+armour: .name "abomination_armour_4" .def 28% .prot 0 .hp 92 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "transform" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self beast_stress_party beast_buff_1 beast_buff2_1 xform_damage_1 Transform_HealSelf_1 .beast_effects switch_mode_human_self human_stress_heal_party_1 beast_debuff_1 .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
 combat_skill: .id "transform" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self beast_stress_party beast_buff_2 beast_buff2_2 xform_damage_2 Transform_HealSelf_2 .beast_effects switch_mode_human_self human_stress_heal_party_2 beast_debuff_2 .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true
 combat_skill: .id "transform" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 4321 .target  .is_crit_valid True .valid_modes human beast .human_effects switch_mode_beast_self beast_stress_party beast_buff_3 beast_buff2_3 xform_damage_3 Transform_HealSelf_3 .beast_effects switch_mode_human_self human_stress_heal_party_3 beast_debuff_3 .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true

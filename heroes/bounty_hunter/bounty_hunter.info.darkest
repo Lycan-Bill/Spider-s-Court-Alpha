@@ -1,15 +1,15 @@
 resistances: .stun 40% .poison 30% .bleed 30% .disease 20% .move 40% .debuff 30% .death_blow 60% .trap 40%
 crit: .effects "on_crit_dmgmarked"
-weapon: .name "bounty_hunter_weapon_0" .atk 0% .dmg 5 10 .crit 4% .spd 5
-weapon: .name "bounty_hunter_weapon_1" .atk 0% .dmg 6 12 .crit 5% .spd 5 .upgradeRequirementCode 0
-weapon: .name "bounty_hunter_weapon_2" .atk 0% .dmg 7 13 .crit 6% .spd 6 .upgradeRequirementCode 1
-weapon: .name "bounty_hunter_weapon_3" .atk 0% .dmg 7 15 .crit 7% .spd 6 .upgradeRequirementCode 2
-weapon: .name "bounty_hunter_weapon_4" .atk 0% .dmg 8 16 .crit 8% .spd 7 .upgradeRequirementCode 3
-armour: .name "bounty_hunter_armour_0" .def 5% .prot 0 .hp 25 .spd 0
-armour: .name "bounty_hunter_armour_1" .def 10% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 0
-armour: .name "bounty_hunter_armour_2" .def 15% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 1
-armour: .name "bounty_hunter_armour_3" .def 20% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 2
-armour: .name "bounty_hunter_armour_4" .def 25% .prot 0 .hp 45 .spd 0 .upgradeRequirementCode 3
+weapon: .name "bounty_hunter_weapon_0" .atk 0% .dmg 10 20 .crit 4% .spd 10
+weapon: .name "bounty_hunter_weapon_1" .atk 0% .dmg 11 23 .crit 5% .spd 11 .upgradeRequirementCode 0
+weapon: .name "bounty_hunter_weapon_2" .atk 0% .dmg 13 26 .crit 6% .spd 12 .upgradeRequirementCode 1
+weapon: .name "bounty_hunter_weapon_3" .atk 0% .dmg 14 29 .crit 7% .spd 13 .upgradeRequirementCode 2
+weapon: .name "bounty_hunter_weapon_4" .atk 0% .dmg 16 32 .crit 8% .spd 14 .upgradeRequirementCode 3
+armour: .name "bounty_hunter_armour_0" .def 5% .prot 0 .hp 50 .spd 0
+armour: .name "bounty_hunter_armour_1" .def 10% .prot 0 .hp 60 .spd 0 .upgradeRequirementCode 0
+armour: .name "bounty_hunter_armour_2" .def 15% .prot 0 .hp 70 .spd 0 .upgradeRequirementCode 1
+armour: .name "bounty_hunter_armour_3" .def 20% .prot 0 .hp 80 .spd 0 .upgradeRequirementCode 2
+armour: .name "bounty_hunter_armour_4" .def 25% .prot 0 .hp 90 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "collect_bounty" .level 0 .type "melee" .atk 85% .dmg 0% .crit 7% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Man Killer 1" .generation_guaranteed true
 combat_skill: .id "collect_bounty" .level 1 .type "melee" .atk 90% .dmg 0% .crit 8% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Man Killer 2"
 combat_skill: .id "collect_bounty" .level 2 .type "melee" .atk 95% .dmg 0% .crit 9% .launch 321 .target 12 .is_crit_valid True  .effect "BH Dmg Marked" "Man Killer 3"

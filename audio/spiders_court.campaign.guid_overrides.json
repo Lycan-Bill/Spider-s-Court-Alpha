@@ -1,12 +1,20 @@
 {
     "event_guid_overrides":
     [
+	{"event_id": "event:/ambience/town/general",							"guid_override":"{c0fa9da2-8435-410f-b2ab-c11ff0206a13}"},
+	{"event_id": "event:/ambience/town/general_2",							"guid_override":"{c0fa9da2-8435-410f-b2ab-c11ff0206a13}"},
 	{"event_id": "event:/music/mus_battle_darkestdungeon_hallway",					"guid_override":"{91998c6a-c8ea-441a-81e3-11910dec905f}"},
 	{"event_id": "event:/music/mus_battle_darkestdungeon_room",					"guid_override":"{2a305d22-072b-4d53-b265-d70adf8fc4fa}"},
-	{"event_id": "event:/music/mus_exploration", 								"guid_override":"{363e27c3-18d2-47c9-845d-130028910b57}"},
-	{"event_id": "event:/music/mus_town", 								"guid_override":"{d49b6721-3459-4640-8f14-82e36e9f7434}"},
+	{"event_id": "event:/music/mus_exploration",									"guid_override":"{a076f327-85a6-4249-880b-fd3f5ad52095}"},
+	{"event_id": "event:/music/mus_town", 								"guid_override":"{6f9d3dfe-8389-40e0-a45a-31c3e4a1277d}"},
+	{"event_id": "event:/general/raid_screen/fail",                   		"guid_override":"{3a83ae1b-ee79-429a-9bad-9a2683271c66}"},
 	{"event_id": "event:/general/status/guard_failed",    "guid_override":"{4eadea58-780b-474b-aa0f-2988fbd31c91}"},
-	{"event_id": "event:/general/status/buff_fx_status_fx_burn_onset",             "guid_override":"{4eadea58-780b-474b-aa0f-2988fbd31c91}"}
+	{"event_id": "event:/general/status/buff_fx_status_fx_burn_onset",             "guid_override":"{4eadea58-780b-474b-aa0f-2988fbd31c91}"},
+	
+	{"event_id": "event:/general/items/Lantern_Oil_standard",                   		"guid_override":"{f94d87a2-ef37-48ac-beea-6a3b680a5ce2}"},
+	{"event_id": "event:/general/items/Lantern_Oil_Good",                   		"guid_override":"{f94d87a2-ef37-48ac-beea-6a3b680a5ce2}"},
+	{"event_id": "event:/general/items/Lantern_Oil_Best",                   		"guid_override":"{f94d87a2-ef37-48ac-beea-6a3b680a5ce2}"}
+	
     ]
 		
 }

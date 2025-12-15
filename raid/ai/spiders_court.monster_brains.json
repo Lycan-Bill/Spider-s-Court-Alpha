@@ -3259,6 +3259,10 @@
         {
           "combat_skill_id": "killer_threaten",
           "amount": 4
+       },
+        {
+          "combat_skill_id": "killer_threaten_anger",
+          "amount": 4
         },
         {
           "combat_skill_id": "ripper_bonesaw",
@@ -3273,11 +3277,15 @@
           "amount": 3
         },
         {
-          "combat_skill_id": "killer_torture_anger",
-          "amount": 3
+          "combat_skill_id": "killer_torture",
+          "amount": 2
         },
         {
           "combat_skill_id": "killer_torture_anger",
+          "amount": 2
+        },
+        {
+          "combat_skill_id": "ripper_fix",
           "amount": 3
         }
       ],
@@ -3296,7 +3304,7 @@
         {
           "type": "ally_alive_skill",
           "data": {
-            "base_chance": 145,
+            "base_chance": 5045,
             "combat_skill_id": "killer_torture",
             "ally_base_class_id": "killer_victim"
            }
@@ -3304,7 +3312,7 @@
         {
           "type": "ally_alive_skill",
           "data": {
-            "base_chance": 145,
+            "base_chance": 5045,
             "combat_skill_id": "killer_torture_anger",
             "ally_base_class_id": "killer_victim"
           }
@@ -3344,14 +3352,14 @@
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 150,
+            "base_chance": 170,
             "combat_skill_id": "ripper_bonesaw"
           }
         },
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 150,
+            "base_chance": 170,
             "combat_skill_id": "ripper_knife"
           }
         },
@@ -3375,7 +3383,7 @@
         {
           "type": "ally_class_target",
           "data": {
-            "base_chance": 5000,
+            "base_chance": 5700,
             "specific_combat_skill_id": "killer_torture",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_victim",
@@ -3388,7 +3396,7 @@
         {
           "type": "ally_class_target",
           "data": {
-            "base_chance": 5600,
+            "base_chance": 5700,
             "specific_combat_skill_id": "killer_torture_anger",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_victim",
@@ -3401,7 +3409,7 @@
         {
           "type": "ally_class_target",
           "data": {
-            "base_chance": 50000,
+            "base_chance": 5000,
             "specific_combat_skill_id": "killer_threaten",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_victim",
@@ -3414,7 +3422,7 @@
         {
           "type": "ally_class_target",
           "data": {
-            "base_chance": 5700,
+            "base_chance": 5000,
             "specific_combat_skill_id": "killer_threaten_anger",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_victim",
@@ -3467,7 +3475,7 @@
           "type": "ally_class_target",
           "data": {
             "base_chance": -6000,
-            "specific_combat_skill_id": "killer_threaten_",
+            "specific_combat_skill_id": "killer_threaten",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_tools",
             "is_enemy_target_desire": false,
@@ -3545,10 +3553,6 @@
         {
           "combat_skill_id": "kvictim_help",
           "amount": 5
-         },
-        {
-          "combat_skill_id": "kvictim_scream",
-          "amount": 1
         }
       ],
       "skill_selection_desires": [
@@ -3832,7 +3836,7 @@
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 3,
+            "base_chance": 40,
             "combat_skill_id": "lookout_lookut"
           }
         },
@@ -3908,7 +3912,7 @@
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 3,
+            "base_chance": 40,
             "combat_skill_id": "lookout_lookut"
           }
         },
@@ -3989,8 +3993,15 @@
           "combat_skill_id": "ganger_reload",
           "amount": 3
         }
-      ],
+       ],
       "skill_selection_desires": [
+        {
+          "type": "effect_key_status_skill",
+          "data": {
+            "base_chance": 100,
+            "effect_key_status": "tagged"
+          }
+        },
         {
           "type": "specific_skill",
           "data": {
@@ -4015,20 +4026,40 @@
       ],
       "target_selection_desires": [
         {
-          "type": "random_target",
+		"type": "random_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "",
+            "specific_combat_skill_id": "ganger_blast",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": true
-          }
+         }
+        },
+        {	
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "ganger_warning",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": true
+         }
+        },
+        {	
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "ganger_reload",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true
+         }
         },
         {
           "type": "marked_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "ganger_blast",
+            "specific_combat_skill_id": "ganger_headshot",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": false
@@ -4055,6 +4086,13 @@
       ],
       "skill_selection_desires": [
         {
+          "type": "effect_key_status_skill",
+          "data": {
+            "base_chance": 100,
+            "effect_key_status": "tagged"
+          }
+        },
+        {
           "type": "specific_skill",
           "data": {
             "base_chance": 3,
@@ -4078,20 +4116,40 @@
       ],
       "target_selection_desires": [
         {
-          "type": "random_target",
+		"type": "random_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "",
+            "specific_combat_skill_id": "ganger_blast",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": true
-          }
+         }
+        },
+        {	
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "ganger_warning",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": true
+         }
+        },
+        {	
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "ganger_reload",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true
+         }
         },
         {
           "type": "marked_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "",
+            "specific_combat_skill_id": "ganger_headshot",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": false
@@ -4122,10 +4180,6 @@
           "amount": 1
         },
         {
-          "combat_skill_id": "enforcer_knockout",
-          "amount": 1
-        },
-        {
           "combat_skill_id": "enforcer_rush",
           "amount": 2
         },
@@ -4136,17 +4190,17 @@
       ],
       "skill_selection_desires": [
         {
-          "type": "specific_skill",
+          "type": "effect_key_status_skill",
           "data": {
-            "base_chance": 3,
-            "combat_skill_id": "enforcer_punch"
+            "base_chance": 100,
+            "effect_key_status": "tagged"
           }
         },
         {
           "type": "specific_skill",
           "data": {
             "base_chance": 3,
-            "combat_skill_id": "enforcer_knockout"
+            "combat_skill_id": "enforcer_punch"
           }
         },
         {
@@ -4161,15 +4215,45 @@
           "data": {
             "base_chance": 1,
             "combat_skill_id": "enforcer_headbutt"
-          }
+           }
         }
       ],
       "target_selection_desires": [
         {
+          "type": "marked_target",
+          "data": {
+            "base_chance": 100,
+            "specific_combat_skill_id": "enforcer_knockout",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+          }
+        },
+        {
           "type": "random_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "",
+            "specific_combat_skill_id": "enforcer_punch",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+           }
+        },
+        {
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "enforcer_rush",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+          }
+        },
+        {
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "enforcer_headbutt",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": false
@@ -4207,13 +4291,13 @@
           "combat_skill_id": "enforcer_headbutt",
           "amount": 1
         }
-      ],
+       ],
       "skill_selection_desires": [
         {
-          "type": "specific_skill",
+          "type": "effect_key_status_skill",
           "data": {
-            "base_chance": 4,
-            "combat_skill_id": "enforcer_punch"
+            "base_chance": 100,
+            "effect_key_status": "tagged"
           }
         },
         {
@@ -4380,10 +4464,40 @@
       ],
       "target_selection_desires": [
         {
+          "type": "marked_target",
+          "data": {
+            "base_chance": 100,
+            "specific_combat_skill_id": "enforcer_knockout",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+          }
+        },
+        {
           "type": "random_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "",
+            "specific_combat_skill_id": "enforcer_punch",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+           }
+        },
+        {
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "enforcer_rush",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+          }
+        },
+        {
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "enforcer_headbutt",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": false

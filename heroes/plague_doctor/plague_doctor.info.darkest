@@ -1,15 +1,15 @@
 resistances: .stun 20% .poison 60% .bleed 20% .disease 50% .move 20% .debuff 50% .death_blow 60% .trap 20%
 crit: .effects "on_crit_blightchance"
-weapon: .name "plague_doctor_weapon_0" .atk 0% .dmg 4 7 .crit 2% .spd 7
-weapon: .name "plague_doctor_weapon_1" .atk 0% .dmg 5 8 .crit 3% .spd 7 .upgradeRequirementCode 0
-weapon: .name "plague_doctor_weapon_2" .atk 0% .dmg 6 10 .crit 4% .spd 8 .upgradeRequirementCode 1
-weapon: .name "plague_doctor_weapon_3" .atk 0% .dmg 6 11 .crit 5% .spd 8 .upgradeRequirementCode 2
-weapon: .name "plague_doctor_weapon_4" .atk 0% .dmg 7 13 .crit 6% .spd 9 .upgradeRequirementCode 3
-armour: .name "plague_doctor_armour_0" .def 0% .prot 0 .hp 22 .spd 0
-armour: .name "plague_doctor_armour_1" .def 5% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
-armour: .name "plague_doctor_armour_2" .def 10% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
-armour: .name "plague_doctor_armour_3" .def 15% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
-armour: .name "plague_doctor_armour_4" .def 20% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
+weapon: .name "plague_doctor_weapon_0" .atk 0% .dmg 8 14 .crit 2% .spd 14
+weapon: .name "plague_doctor_weapon_1" .atk 0% .dmg 9 17 .crit 3% .spd 15 .upgradeRequirementCode 0
+weapon: .name "plague_doctor_weapon_2" .atk 0% .dmg 12 20 .crit 4% .spd 16 .upgradeRequirementCode 1
+weapon: .name "plague_doctor_weapon_3" .atk 0% .dmg 12 23 .crit 5% .spd 17 .upgradeRequirementCode 2
+weapon: .name "plague_doctor_weapon_4" .atk 0% .dmg 14 26 .crit 6% .spd 18 .upgradeRequirementCode 3
+armour: .name "plague_doctor_armour_0" .def 0% .prot 0 .hp 44 .spd 0
+armour: .name "plague_doctor_armour_1" .def 5% .prot 0 .hp 52 .spd 0 .upgradeRequirementCode 0
+armour: .name "plague_doctor_armour_2" .def 10% .prot 0 .hp 60 .spd 0 .upgradeRequirementCode 1
+armour: .name "plague_doctor_armour_3" .def 15% .prot 0 .hp 68 .spd 0 .upgradeRequirementCode 2
+armour: .name "plague_doctor_armour_4" .def 20% .prot 0 .hp 76 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "noxious_blast" .level 0 .type "ranged" .atk 95% .dmg -80% .crit 5% .launch 432 .target 12 .is_crit_valid True  .effect "PD Single Blight 1" "Noxious Debuff 1"
 combat_skill: .id "noxious_blast" .level 1 .type "ranged" .atk 100% .dmg -80% .crit 6% .launch 432 .target 12 .is_crit_valid True  .effect "PD Single Blight 2" "Noxious Debuff 2"
 combat_skill: .id "noxious_blast" .level 2 .type "ranged" .atk 105% .dmg -80% .crit 7% .launch 432 .target 12 .is_crit_valid True  .effect "PD Single Blight 3" "Noxious Debuff 3"

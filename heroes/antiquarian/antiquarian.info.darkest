@@ -1,15 +1,15 @@
 resistances: .stun 20% .poison 20% .bleed 20% .disease 20% .move 20% .debuff 20% .death_blow 60% .trap 10%
 crit: .effects "on_crit_def"
-weapon: .name "antiquarian_weapon_0" .atk 0% .dmg 3 5 .crit 1% .spd 5
-weapon: .name "antiquarian_weapon_1" .atk 0% .dmg 4 6 .crit 2% .spd 5 .upgradeRequirementCode 0
-weapon: .name "antiquarian_weapon_2" .atk 0% .dmg 4 7 .crit 3% .spd 6 .upgradeRequirementCode 1
-weapon: .name "antiquarian_weapon_3" .atk 0% .dmg 5 8 .crit 4% .spd 6 .upgradeRequirementCode 2
-weapon: .name "antiquarian_weapon_4" .atk 0% .dmg 5 9 .crit 5% .spd 7 .upgradeRequirementCode 3
-armour: .name "antiquarian_armour_0" .def 10% .prot 0 .hp 17 .spd 0
-armour: .name "antiquarian_armour_1" .def 15% .prot 0 .hp 20 .spd 0 .upgradeRequirementCode 0
-armour: .name "antiquarian_armour_2" .def 20% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 1
-armour: .name "antiquarian_armour_3" .def 25% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 2
-armour: .name "antiquarian_armour_4" .def 30% .prot 0 .hp 29 .spd 0 .upgradeRequirementCode 3
+weapon: .name "antiquarian_weapon_0" .atk 0% .dmg 6 10 .crit 1% .spd 10
+weapon: .name "antiquarian_weapon_1" .atk 0% .dmg 7 12 .crit 2% .spd 11 .upgradeRequirementCode 0
+weapon: .name "antiquarian_weapon_2" .atk 0% .dmg 8 14 .crit 3% .spd 12 .upgradeRequirementCode 1
+weapon: .name "antiquarian_weapon_3" .atk 0% .dmg 9 16 .crit 4% .spd 13 .upgradeRequirementCode 2
+weapon: .name "antiquarian_weapon_4" .atk 0% .dmg 10 18 .crit 5% .spd 14 .upgradeRequirementCode 3
+armour: .name "antiquarian_armour_0" .def 10% .prot 0 .hp 34 .spd 0
+armour: .name "antiquarian_armour_1" .def 15% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 0
+armour: .name "antiquarian_armour_2" .def 20% .prot 0 .hp 46 .spd 0 .upgradeRequirementCode 1
+armour: .name "antiquarian_armour_3" .def 25% .prot 0 .hp 52 .spd 0 .upgradeRequirementCode 2
+armour: .name "antiquarian_armour_4" .def 30% .prot 0 .hp 58 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "kris_stab" .level 0 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 4321 .target 123 .effect "sc_infernal_burn_token_2" .is_crit_valid True 
 combat_skill: .id "kris_stab" .level 1 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 4321 .target 123 .effect "sc_infernal_burn_token_2" .is_crit_valid True 
 combat_skill: .id "kris_stab" .level 2 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 4321 .target 123 .effect "sc_infernal_burn_token_2" .is_crit_valid True 

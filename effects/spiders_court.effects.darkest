@@ -12,6 +12,13 @@ effect: .name "burn_salve"     .target "performer" .item 1 .chance 100% .heal_pe
 effect: .name "SC Push 1" .target "target"  .push 1 	.chance 100%   .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC Push 2" .target "target"  .push 1 	.chance 120%   .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC Push 3" .target "target"  .push 1 	.chance 130%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Push 3" .target "target"  .push 1 	.chance 140%   .on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SC Push 2 1" .target "target"  .push 2 	.chance 100%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Push 2 2" .target "target"  .push 2 	.chance 110%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Push 2 3" .target "target"  .push 2 	.chance 120%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Push 2 4" .target "target"  .push 2 	.chance 130%   .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC Push 2 5" .target "target"  .push 2 	.chance 140%   .on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "SC Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "SC Stun 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
@@ -56,6 +63,31 @@ effect: .name "SC Bleed Chance Buff 5" .target "performer" .chance 100% .duratio
 effect: .name "SC Stealth 1" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
 effect: .name "SC Stealth 3" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
 effect: .name "SC Stealth 5" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+
+effect: .name "SC_DMG_REC_1" .target "target" .chance 110% .duration 3 .buff_ids "SC_DMG_REC_1" .on_hit true .on_miss false
+effect: .name "SC_DMG_REC_2" .target "target" .chance 120% .duration 3 .buff_ids "SC_DMG_REC_2" .on_hit true .on_miss false
+effect: .name "SC_DMG_REC_3" .target "target" .chance 130% .duration 3 .buff_ids "SC_DMG_REC_3" .on_hit true .on_miss false
+effect: .name "SC_DMG_REC_4" .target "target" .chance 140% .duration 3 .buff_ids "SC_DMG_REC_4" .on_hit true .on_miss false
+effect: .name "SC_DMG_REC_5" .target "target" .chance 150% .duration 3 .buff_ids "SC_DMG_REC_5" .on_hit true .on_miss false
+
+effect: .name "SC_CRIT_REC_1" .target "target" .chance 110% .duration 3 .buff_ids "SC_CRIT_REC_1" .on_hit true .on_miss false
+effect: .name "SC_CRIT_REC_2" .target "target" .chance 120% .duration 3 .buff_ids "SC_CRIT_REC_2" .on_hit true .on_miss false
+effect: .name "SC_CRIT_REC_3" .target "target" .chance 130% .duration 3 .buff_ids "SC_CRIT_REC_3" .on_hit true .on_miss false
+effect: .name "SC_CRIT_REC_4" .target "target" .chance 140% .duration 3 .buff_ids "SC_CRIT_REC_4" .on_hit true .on_miss false
+effect: .name "SC_CRIT_REC_5" .target "target" .chance 150% .duration 3 .buff_ids "SC_CRIT_REC_5" .on_hit true .on_miss false
+
+effect: .name "SC_PROT_DEBUFF_1" .target "target" .chance 110% .duration 3 .buff_ids "SC_PROT_DEBUFF_1" .on_hit true .on_miss false
+effect: .name "SC_PROT_DEBUFF_2" .target "target" .chance 120% .duration 3 .buff_ids "SC_PROT_DEBUFF_1" .on_hit true .on_miss false
+effect: .name "SC_PROT_DEBUFF_3" .target "target" .chance 130% .duration 3 .buff_ids "SC_PROT_DEBUFF_1" .on_hit true .on_miss false
+effect: .name "SC_PROT_DEBUFF_4" .target "target" .chance 140% .duration 3 .buff_ids "SC_PROT_DEBUFF_1" .on_hit true .on_miss false
+effect: .name "SC_PROT_DEBUFF_5" .target "target" .chance 150% .duration 3 .buff_ids "SC_PROT_DEBUFF_1" .on_hit true .on_miss false
+
+effect: .name "SC_DODGE_DEBUFF_1" .target "target" .chance 110% .duration 3 .buff_ids "SC_DODGE_DEBUFF_1" .on_hit true .on_miss false
+effect: .name "SC_DODGE_DEBUFF_2" .target "target" .chance 120% .duration 3 .buff_ids "SC_DODGE_DEBUFF_2" .on_hit true .on_miss false
+effect: .name "SC_DODGE_DEBUFF_3" .target "target" .chance 130% .duration 3 .buff_ids "SC_DODGE_DEBUFF_3" .on_hit true .on_miss false
+effect: .name "SC_DODGE_DEBUFF_4" .target "target" .chance 140% .duration 3 .buff_ids "SC_DODGE_DEBUFF_4" .on_hit true .on_miss false
+effect: .name "SC_DODGE_DEBUFF_5" .target "target" .chance 150% .duration 3 .buff_ids "SC_DODGE_DEBUFF_5" .on_hit true .on_miss false
+
 
 ///Items
 ///Hawthorne Oil
@@ -510,6 +542,8 @@ effect: .name "Spider Curse Weak" .target "target" .curio_result_type "negative"
 effect: .name "Spider Curse Strong" .target "target" .curio_result_type "negative" .chance 145% .disease disease_Spider_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
 effect: .name "Spider Curse Boss" .target "target" .curio_result_type "negative" .chance 105% .disease disease_Spider_vampire_passive	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
 
+
+
 //Gangers
 effect: .name "Ganger Bleed 1" .target "target" .chance 100%  .dotBleed 2 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Ganger Bleed 2" .target "target" .chance 120%  .dotBleed 3 .duration 2	.on_hit true .on_miss false .can_apply_on_death true
@@ -561,9 +595,9 @@ effect: .name "Ganger Acc Debuff 1" .target "target" .curio_result_type "negativ
 effect: .name "Ganger Acc Debuff 2" .target "target" .curio_result_type "negative" .chance 120%  .combat_stat_buff 1 .attack_rating_add -16% .on_hit true .on_miss false .queue true .duration 3
 effect: .name "Ganger Acc Debuff 3" .target "target" .curio_result_type "negative" .chance 140%  .combat_stat_buff 1 .attack_rating_add -24% .on_hit true .on_miss false .queue true .duration 3
 
-effect: .name "Ganger Shuffle Target 1" 	.target "target" 	.shuffletarget .chance 100%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "Ganger Shuffle Target 2" 	.target "target" 	.shuffletarget .chance 120%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
-effect: .name "Ganger SHuffle Target 3" 	.target "target" 	.shuffletarget .chance 140%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "Ganger Shuffle Target 1" 	.target "target" 	.shuffletarget .chance 110%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "Ganger Shuffle Target 2" 	.target "target" 	.shuffletarget .chance 140%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
+effect: .name "Ganger SHuffle Target 3" 	.target "target" 	.shuffletarget .chance 150%		.on_hit true .on_miss false .apply_once true .can_apply_on_death true
 
 effect: .name "Ganger Blight 1" .target "target" .chance 100%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Ganger Blight 2" .target "target" .chance 120%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
@@ -594,6 +628,12 @@ effect: .name "Ganger ProtectMe ClearGuardsTarget" .target "target" .chance 100%
 effect: .name "Ganger ProtectMe Guard" .target "target_group_other" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 3
 
 effect: .name "Ganger Riposte target"  .target "performer_group_other" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -0.15%  .damage_high_multiply -0.15%  .crit_chance_add 2%
+
+//Enforcer|
+effect: .name "Enforcer Riposte 1"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -0.15%  .damage_high_multiply -0.15%  .crit_chance_add 2%
+effect: .name "Enforcer Riposte 2"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -0.15%  .damage_high_multiply -0.15%  .crit_chance_add 2%
+effect: .name "Enforcer Riposte 3"  .target "performer" .chance 100% .curio_result_type "positive" .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -0.15%  .damage_high_multiply -0.15%  .crit_chance_add 2%
+
 
 ///Ganger Gork
 effect: .name "Ganger Poison Mode" .target "performer" .set_mode blight .chance 100% .on_hit true .on_miss true .queue false

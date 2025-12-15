@@ -1,15 +1,17 @@
 resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 10%
 crit: .effects "on_crit_prot"
-weapon: .name "crusader_weapon_0" .atk 0% .dmg 6 12 .crit 3% .spd 1
-weapon: .name "crusader_weapon_1" .atk 0% .dmg 7 14 .crit 4% .spd 1 .upgradeRequirementCode 0
-weapon: .name "crusader_weapon_2" .atk 0% .dmg 8 16 .crit 5% .spd 2 .upgradeRequirementCode 1
-weapon: .name "crusader_weapon_3" .atk 0% .dmg 9 17 .crit 6% .spd 2 .upgradeRequirementCode 2
-weapon: .name "crusader_weapon_4" .atk 0% .dmg 10 19 .crit 7% .spd 3 .upgradeRequirementCode 3
-armour: .name "crusader_armour_0" .def 5% .prot 0 .hp 33 .spd 0
-armour: .name "crusader_armour_1" .def 10% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 0
-armour: .name "crusader_armour_2" .def 15% .prot 0 .hp 47 .spd 0 .upgradeRequirementCode 1
-armour: .name "crusader_armour_3" .def 20% .prot 0 .hp 54 .spd 0 .upgradeRequirementCode 2
-armour: .name "crusader_armour_4" .def 25% .prot 0 .hp 61 .spd 0 .upgradeRequirementCode 3
+
+weapon: .name "crusader_weapon_0" .atk 0% .dmg 12 24 .crit 4% .spd 2
+weapon: .name "crusader_weapon_1" .atk 0% .dmg 14 27 .crit 5% .spd 3 .upgradeRequirementCode 0
+weapon: .name "crusader_weapon_2" .atk 0% .dmg 16 31 .crit 6% .spd 4 .upgradeRequirementCode 1
+weapon: .name "crusader_weapon_3" .atk 0% .dmg 18 34 .crit 7% .spd 5 .upgradeRequirementCode 2
+weapon: .name "crusader_weapon_4" .atk 0% .dmg 20 38 .crit 8% .spd 6 .upgradeRequirementCode 3
+armour: .name "crusader_armour_0" .def 5% .prot 0 .hp 66 .spd 0
+armour: .name "crusader_armour_1" .def 10% .prot 0 .hp 80 .spd 0 .upgradeRequirementCode 0
+armour: .name "crusader_armour_2" .def 15% .prot 0 .hp 94 .spd 0 .upgradeRequirementCode 1
+armour: .name "crusader_armour_3" .def 20% .prot 0 .hp 108 .spd 0 .upgradeRequirementCode 2
+armour: .name "crusader_armour_4" .def 25% .prot 0 .hp 122 .spd 0 .upgradeRequirementCode 3
+
 combat_skill: .id "smite" .level 0 .type "melee" .atk 85% .dmg 0% .crit 0% .launch 21 .target 12 .is_crit_valid True  .effect "dd2_burn_token_1" "Unholy Killer 1" .generation_guaranteed true
 combat_skill: .id "smite" .level 1 .type "melee" .atk 90% .dmg 0% .crit 1% .launch 21 .target 12 .is_crit_valid True  .effect "dd2_burn_token_2" "Unholy Killer 2"
 combat_skill: .id "smite" .level 2 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 21 .target 12 .is_crit_valid True  .effect "dd2_burn_token_3" "Unholy Killer 3"

@@ -15,3 +15,4 @@ mode: .id death .is_raid_default true
 mode: .id death_harvest
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .living_hero_buff_instance_ids grim_reaper_quirk_thing_1 grim_reaper_quirk_thing_2 grim_reaper_quirk_thing_3
 spawn: .effects Grim_Bleed_Vs_Mark
+battle_backdrop: .background_name "death" .animation "grim_reaper_animation" .isFlat False

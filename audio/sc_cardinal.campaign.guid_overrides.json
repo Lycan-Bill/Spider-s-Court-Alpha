@@ -1,0 +1,53 @@
+{
+    "event_guid_overrides":
+    [
+
+        {"event_id": "event:/char/enemy/cardinal_blood_wave_once_human",                   "guid_override":"{6380b385-67e2-4292-b4d3-929a019076c1}"},
+		{"event_id": "event:/char/enemy/cardinal_blood_wave_beast",                   "guid_override":"{6380b385-67e2-4292-b4d3-929a019076c1}"},
+		{"event_id": "event:/char/enemy/cardinal_blood_wave_miss_beast",                   "guid_override":"{281f26ca-63d0-47b0-b4d4-442274e88feb}"},
+        {"event_id": "event:/char/enemy/cardinal_prayer_to_blood_human",                   "guid_override":"{91fa309c-de06-43cf-a7b9-19e5954d1d28}"},
+		{"event_id": "event:/char/enemy/cardinal_the_hunger_human_human",                   "guid_override":"{e90e0fb7-1024-4443-8e6a-708b307fa55c}"},
+		{"event_id": "event:/char/enemy/cardinal_the_hunger_human_miss_human",                   "guid_override":"{e90e0fb7-1024-4443-8e6a-708b307fa55c}"},
+		{"event_id": "event:/char/enemy/cardinal_the_hunger_beast_beast",                   "guid_override":"{e90e0fb7-1024-4443-8e6a-708b307fa55c}"},
+		{"event_id": "event:/char/enemy/cardinal_the_hunger_beast_miss_beast",                   "guid_override":"{e90e0fb7-1024-4443-8e6a-708b307fa55c}"},
+        {"event_id": "event:/char/enemy/cardinal_cardinal_heresy_human",                   "guid_override":"{81d3d17d-cebb-4a50-a05f-0f29570614d0}"},
+		{"event_id": "event:/char/enemy/cardinal_cardinal_heresy_miss_human",                   "guid_override":"{f06674b9-1204-4eb2-b17f-2547cd54c3e8}"},
+        {"event_id": "event:/char/enemy/cardinal_blood_salvation_beast",                   "guid_override":"{d34eaf02-ca6b-4a86-9cb4-e272715e9d7b}"},
+		{"event_id": "event:/char/enemy/cardinal_blood_salvation_miss_beast",                   "guid_override":"{f1422be2-a826-4ecb-802a-de72ba8895da}"},
+		{"event_id": "event:/char/enemy/cardinal_heed_faithful_human",                   "guid_override":"{61885897-bd48-4421-b789-8f9aa00a4c71}"},
+		{"event_id": "event:/char/enemy/cardinal_vo_aggro",                   "guid_override":"{00bc1590-840a-465e-8897-ede7e378c055}"},
+        {"event_id": "event:/char/enemy/cardinal_vo_crit",                   "guid_override":"{6c9cbc45-20d4-493a-a151-c57499843e90}"},
+        {"event_id": "event:/char/enemy/cardinal_vo_death",                   "guid_override":"{5b51b4b0-e5fd-43a7-8e13-1abcfd13d801}"},
+        {"event_id": "event:/char/enemy/cardinal_vo_hurt",                   "guid_override":"{7f2a16f5-01c1-4711-b187-2d5622fb2124}"},
+		
+		{"event_id": "event:/char/enemy/SCultist_Chains_vo_aggro",                   "guid_override":"{e37fbb36-4cd7-4c19-bb23-d4c504d41e13}"},
+		{"event_id": "event:/char/enemy/SCultist_Mace_vo_aggro",                   "guid_override":"{6a17edf6-9786-4caa-beba-b186a29070e7}"},
+		{"event_id": "event:/char/enemy/SCultist_Nun_vo_aggro",                   "guid_override":"{08e99437-7d74-4a8a-ac32-3b612aee0633}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_vo_aggro",                   "guid_override":"{6604450a-c50c-45b1-8931-a42d968236d3}"},
+        {"event_id": "event:/char/enemy/SCultist_Chains_vo_crit",                   "guid_override":"{3d21e43a-4676-4b0b-a12b-f5c3c9acd3c1}"},
+		{"event_id": "event:/char/enemy/SCultist_Mace_vo_crit",                   "guid_override":"{becec511-299c-4b50-8359-8c8075608ee2}"},
+		{"event_id": "event:/char/enemy/SCultist_Nun_vo_crit",                   "guid_override":"{27efc11f-70b3-44f3-90e0-79ac1339d7aa}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_vo_crit",                   "guid_override":"{e5ec306e-9822-446d-944a-aed4996b2d53}"},
+        {"event_id": "event:/char/enemy/SCultist_Chains_vo_death",                   "guid_override":"{109dd2e5-07a1-43bf-8cf8-59f0e4357f71}"},
+		{"event_id": "event:/char/enemy/SCultist_Mace_vo_death",                   "guid_override":"{9f9e0570-23b4-4d6b-8de9-99d9bbbb928b}"},
+		{"event_id": "event:/char/enemy/SCultist_Nun_vo_death",                   "guid_override":"{ca164ede-20ef-4219-bb70-d08615145272}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_vo_death",                   "guid_override":"{86f11e61-be72-496d-bc49-e0500526e450}"},
+        {"event_id": "event:/char/enemy/SCultist_Chains_vo_hurt",                   "guid_override":"{8332076d-51c5-4a57-bf04-840b7446eed1}"},
+		{"event_id": "event:/char/enemy/SCultist_Mace_vo_hurt",                   "guid_override":"{0e6dffe3-5147-48b2-968d-d86e537af844}"},
+		{"event_id": "event:/char/enemy/SCultist_Nun_vo_hurt",                   "guid_override":"{54c6360e-5422-4f25-bdd9-50e46c28573c}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_vo_hurt",                   "guid_override":"{20a9f03d-2611-42eb-abde-d5b67b5df7cf}"},
+		
+		{"event_id": "event:/char/enemy/SCultist_Mace_scultist_mace",                   "guid_override":"{60f194b9-6a4a-44e7-8ac1-8c9d75f4149b}"},
+		{"event_id": "event:/char/enemy/SCultist_Mace_scultist_mace_miss",                   "guid_override":"{e5eef32a-462e-4669-9992-d4902bfe3e1c}"},
+		{"event_id": "event:/char/enemy/SCultist_Mace_scultist_guard",                   "guid_override":"{2f1754f4-2c33-4b7e-b4d3-07757f14c02d}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_switch_web",                   "guid_override":"{7ac340fe-acdc-4e98-93ff-e2482d879998}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_switch_web_miss",                   "guid_override":"{e26f84f2-4afb-437b-ad90-b8bb4f25033e}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_switch_spider",                   "guid_override":"{67be2420-4b44-4cb0-b8f6-4f73e7adc7d5}"},
+		{"event_id": "event:/char/enemy/SCultist_Witch_switch_spider_miss",                   "guid_override":"{ad4b6536-f181-4b88-992b-8a5882febd06}"},
+		{"event_id": "event:/char/enemy/SCultist_Nun_scnun_blessing",                   "guid_override":"{5119d298-d933-4f42-a897-6e56749c0270}"},
+		{"event_id": "event:/char/enemy/SCultist_Nun_scnun_light",                   "guid_override":"{9a671e50-db0c-4037-ad74-3a41ccca2775}"},
+		{"event_id": "event:/char/enemy/SCultist_Nun_scnun_light_miss",                   "guid_override":"{71fdea69-3bbf-4d2f-a5bb-3bc28ddd15cd}"}
+		
+
+    ]
+}

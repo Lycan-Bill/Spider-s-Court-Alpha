@@ -1,15 +1,15 @@
 resistances: .stun 20% .poison 40% .bleed 30% .disease 20% .move 20% .debuff 40% .death_blow 60% .trap 30%
 crit: .effects "on_crit_stresshealdone"
-weapon: .name "jester_weapon_0" .atk 0% .dmg 4 7 .crit 4% .spd 7
-weapon: .name "jester_weapon_1" .atk 0% .dmg 5 8 .crit 5% .spd 7 .upgradeRequirementCode 0
-weapon: .name "jester_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 8 .upgradeRequirementCode 1
-weapon: .name "jester_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 8 .upgradeRequirementCode 2
-weapon: .name "jester_weapon_4" .atk 0% .dmg 7 13 .crit 8% .spd 9 .upgradeRequirementCode 3
-armour: .name "jester_armour_0" .def 15% .prot 0 .hp 19 .spd 0
-armour: .name "jester_armour_1" .def 20% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 0
-armour: .name "jester_armour_2" .def 25% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
-armour: .name "jester_armour_3" .def 30% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 2
-armour: .name "jester_armour_4" .def 35% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
+weapon: .name "jester_weapon_0" .atk 0% .dmg 8 14 .crit 4% .spd 14
+weapon: .name "jester_weapon_1" .atk 0% .dmg 9 17 .crit 5% .spd 15 .upgradeRequirementCode 0
+weapon: .name "jester_weapon_2" .atk 0% .dmg 11 20 .crit 6% .spd 16 .upgradeRequirementCode 1
+weapon: .name "jester_weapon_3" .atk 0% .dmg 12 23 .crit 7% .spd 17 .upgradeRequirementCode 2
+weapon: .name "jester_weapon_4" .atk 0% .dmg 14 26 .crit 8% .spd 18 .upgradeRequirementCode 3
+armour: .name "jester_armour_0" .def 15% .prot 0 .hp 38 .spd 0
+armour: .name "jester_armour_1" .def 20% .prot 0 .hp 46 .spd 0 .upgradeRequirementCode 0
+armour: .name "jester_armour_2" .def 25% .prot 0 .hp 54 .spd 0 .upgradeRequirementCode 1
+armour: .name "jester_armour_3" .def 30% .prot 0 .hp 62 .spd 0 .upgradeRequirementCode 2
+armour: .name "jester_armour_4" .def 35% .prot 0 .hp 70 .spd 0 .upgradeRequirementCode 3
 combat_skill: .id "dirk_stab" .level 0 .type "melee" .atk 85% .dmg 0% .crit 5% .move 0 1 .launch 4321 .target 123 .is_crit_valid True .ignore_guard true  .effect "Build to Finale"
 combat_skill: .id "dirk_stab" .level 1 .type "melee" .atk 90% .dmg 0% .crit 6% .move 0 1 .launch 4321 .target 123 .is_crit_valid True .ignore_guard true  .effect "Build to Finale"
 combat_skill: .id "dirk_stab" .level 2 .type "melee" .atk 95% .dmg 0% .crit 7% .move 0 1 .launch 4321 .target 123 .is_crit_valid True .ignore_guard true  .effect "Build to Finale"

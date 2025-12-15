@@ -13,7 +13,7 @@ hall_curios: .chance 4 .types vending_machine
 hall_curios: .chance 6 .types sweeper_supplies
 hall_curios: .chance 4 .types lamp_post
 hall_curios: .chance 2 .types contraband_merchant
-hall_curios: .chance 3 .types fortune_teller
+hall_curios: .chance 2 .types fortune_teller
 hall_curios: .chance 8 .types newspaper_stand
 hall_curios: .chance 2 .types newspaper_merchant
 

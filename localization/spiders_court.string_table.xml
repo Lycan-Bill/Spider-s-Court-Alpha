@@ -50,9 +50,9 @@ Current Torch Level:]]></entry>
 	<entry id="str_monstername_SCultist_Witch_C"><![CDATA[Bloody Crusader]]></entry>
 	<entry id="str_monstername_SCultist_Chains_C"><![CDATA[Bloody Jester]]></entry>
 	
-	<entry id="str_monstername_ganger_newbie_A"><![CDATA[Recruit]]></entry>
-	<entry id="str_monstername_ganger_newbie_B"><![CDATA[Recruit]]></entry>
-	<entry id="str_monstername_ganger_newbie_C"><![CDATA[Recruit]]></entry>
+	<entry id="str_monstername_ganger_newbie_A"><![CDATA[Buster]]></entry>
+	<entry id="str_monstername_ganger_newbie_B"><![CDATA[Buster]]></entry>
+	<entry id="str_monstername_ganger_newbie_C"><![CDATA[Buster]]></entry>
 	
 	<entry id="str_monstername_ganger_gunner_A"><![CDATA[Gunner]]></entry>
 	<entry id="str_monstername_ganger_gunner_B"><![CDATA[Gunner]]></entry>
@@ -88,30 +88,42 @@ Current Torch Level:]]></entry>
 	
   <!-- Monster Attacks -->
   <entry id="str_monster_skill_ganger_lurk"><![CDATA[{colour_start|white}ɡɡɡɡɥɪʦʚʩ{colour_end}Lurk]]></entry>
-  <entry id="str_monster_skill_ganger_toxin"><![CDATA[{colour_start|white}ɡɡɡɡɥɘɣɣɣɩɦɧʏ{colour_end}Dibulating Toxin]]></entry>
+  <entry id="str_monster_skill_ganger_toxin"><![CDATA[{colour_start|white}ɡɡɡɡɥɘɣɣɣɩɦʑʏ{colour_end}Dibulating Toxin]]></entry>
   <entry id="str_monster_skill_ganger_execute"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɦɷʎ{colour_end}Execute]]></entry>
-  <entry id="str_monster_skill_ganger_execute_weak"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɦɧɧ{colour_end}Strike Quarry]]></entry>
+  <entry id="str_monster_skill_ganger_execute_weak"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɦɦʎ{colour_end}Strike Quarry]]></entry>
+  
   <entry id="str_monster_skill_ganger_break_charge"><![CDATA[{colour_start|white}ɘɘɟɥʦɣɣɘɘɩɦɧɱ{colour_end}Break It Up!]]></entry>
   <entry id="str_monster_skill_ganger_hammer"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɘɩɦɧʑ{colour_end}Hammer to Steel]]></entry>
   <entry id="str_monster_skill_ganger_swing"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɩɦɦɧ{colour_end}Sledge Assualt]]></entry>
-  <entry id="str_monster_skill_enforcer_punch"><![CDATA[{colour_start|white}ɘɘɡɡɥʦɣɣɣɣɩɦɧˤ{colour_end}Punch]]></entry>
-  <entry id="str_monster_skill_enforcer_knockout"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɩɦɧʓ{colour_end}Knockout]]></entry>
-  <entry id="str_monster_skill_enforcer_rush"><![CDATA[{colour_start|white}ɘɘɡɡɥʦɣɣɣɘɩɦɧɱ{colour_end}Bull's Rush]]></entry>
-  <entry id="str_monster_skill_enforcer_headbutt"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɣɘɩɧʑɱ{colour_end}Headbutt]]></entry>
+  
+  <entry id="str_monster_skill_enforcer_punch"><![CDATA[{colour_start|white}ɘɘɡɡɥʦɣɣɣɣɩɦʑʕ{colour_end}Punch]]></entry>
+  <entry id="str_monster_skill_enforcer_knockout"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɩɦɷɱ{colour_end}Knockout]]></entry>
+  <entry id="str_monster_skill_enforcer_rush"><![CDATA[{colour_start|white}ɘɘɡɡɥʦɣɣɣɘɩɦɦɱ{colour_end}Bull's Rush]]></entry>
+  <entry id="str_monster_skill_enforcer_headbutt"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɣɘɩɧʓʐ{colour_end}Headbutt]]></entry>
+  
   <entry id="str_monster_skill_ganger_favor"><![CDATA[{colour_start|white}ɚɚɜɜɥɣɣɣɣɩɧʗʕ{colour_end}Lady’s Favor]]></entry>
   <entry id="str_monster_skill_ganger_allure"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩʓɮʑ{colour_end}Charming Allure]]></entry>
   <entry id="str_monster_skill_ganger_point"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧʔʑ{colour_end}Kill Them For Me]]></entry>
-  <entry id="str_monster_skill_ganger_smoke"><![CDATA[{colour_start|white}ɠɞɞɟɥɣɣɣɣɩɧʔʑ{colour_end}Smoke Bomb]]></entry>
+  
+  <entry id="str_monster_skill_ganger_smoke"><![CDATA[{colour_start|white}ɠɞɞɟɥɣɣɣɣɩɧɧʑ{colour_end}Smoke Bomb]]></entry>
   <entry id="str_monster_skill_ganger_molotov"><![CDATA[{colour_start|white}ɡɡɡɡɥɘɣɣɣɩɦɧɝ{colour_end}Molotov!]]></entry>
   <entry id="str_monster_skill_ganger_dirty"><![CDATA[{colour_start|white}ɡɡɡɘɥɣɣɣɣɩɧʎʏ{colour_end}Dirty Bomb!!]]></entry>
   <entry id="str_monster_skill_ganger_suicide"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɧ{colour_end}Taking You With ME!!]]></entry>
-  <entry id="str_monster_skill_ganger_blast"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɧ{colour_end}Blast Them!]]></entry>
-  <entry id="str_monster_skill_ganger_warning"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧʓɮ{colour_end}Warning Shot]]></entry>
-  <entry id="str_monster_skill_ganger_reload"><![CDATA[{colour_start|white}ɡɡɡɡɥɪɪɩʐ{colour_end}Reload]]></entry>
+  
+  <entry id="str_monster_skill_ganger_blast"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɦɧʑ{colour_end}Blast Them!]]></entry>
+  <entry id="str_monster_skill_ganger_warning"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧʑɮ{colour_end}Warning Shot]]></entry>
+  <entry id="str_monster_skill_ganger_headshot"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɧɷ{colour_end}Headshot]]></entry>
+  <entry id="str_monster_skill_ganger_reload"><![CDATA[{colour_start|white}ɡɡɡɡɥɪɩɦɦɦʐ{colour_end}Reload]]></entry>
+  
   <entry id="str_monster_skill_lookout_switchblade"><![CDATA[{colour_start|white}ɘɡɡɡɥʧɣɣɘɘɩɧɦʎ{colour_end}Switchblade]]></entry>
-  <entry id="str_monster_skill_lookout_lookut"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɘɩɧʔʑʶ{colour_end}THEY’RE OVER THERE!]]></entry>
+  <entry id="str_monster_skill_lookout_lookut"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɦʔʑʶ{colour_end}THEY’RE OVER THERE!]]></entry>
   <entry id="str_monster_skill_lookout_ready"><![CDATA[{colour_start|white}ɡɡɡɘɥɚɛɛɜɧɧʐ{colour_end}Get Ready!]]></entry>
   <entry id="str_monster_skill_lookout_help"><![CDATA[{colour_start|white}ɡɡɡɘɥəəəəɧɧʐ{colour_end}Lookout!]]></entry>
+  
+  <entry id="str_monster_skill_ganger_pipe"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɧɧʑ{colour_end}Whack]]></entry>
+  <entry id="str_monster_skill_ganger_pipe_stun"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɧɧʐ{colour_end}Dry-gulch]]></entry>
+  <entry id="str_monster_skill_ganger_shotgun"><![CDATA[{colour_start|white}ɡɡɡɡɥɘɘɣɣɧɧʑ{colour_end}Bump Off]]></entry>
+  <entry id="str_monster_skill_ganger_shotgun_mark"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɧɧɷ{colour_end}Big Sleep]]></entry>
   
   <entry id="str_monster_skill_the_bell_tolls"><![CDATA[The Bell Tolls]]></entry>
   <entry id="str_monster_skill_death_reap"><![CDATA[Reap]]></entry>
@@ -153,7 +165,6 @@ Current Torch Level:]]></entry>
   
   
   <!-- Heirlooms -->
-	<entry id="bonus_currency_name_shard"><![CDATA[Refined Amber Dust]]></entry>
 	
 	<entry id="raid_results_party_heirloom_inventory_title"><![CDATA[Collected Relics]]></entry>
 	<entry id="str_inventory_title_heirloombust"><![CDATA[Cold Iron]]></entry>
@@ -190,7 +201,7 @@ Current Torch Level:]]></entry>
 	<entry id="dungeon_name_town"><![CDATA[Town Square]]></entry>
 	<entry id="dungeon_name_tutorial"><![CDATA[]]></entry>
 	<entry id="dungeon_name_warrens"><![CDATA[Ayslum]]></entry>
-	<entry id="dungeon_name_weald"><![CDATA[Cemetery]]></entry>
+	<entry id="dungeon_name_weald"><![CDATA[Necropolis]]></entry>
 	
 	<entry id="raid_results_progression_return_to_town"><![CDATA[Return to Town Square]]></entry>
   
@@ -203,6 +214,14 @@ Current Torch Level:]]></entry>
 																																   
 	<entry id="str_quirk_name_Broken_Ribs"><![CDATA[Broken Ribs]]></entry>
 
+	<entry id="str_quirk_name_1_grim_reaper_1"><![CDATA[An Appointment Made...]]></entry>
+	<entry id="str_quirk_description_1_grim_reaper_1"><![CDATA[A dark shadow follows you.]]></entry>
+	
+	<entry id="str_quirk_name_1_grim_reaper_2"><![CDATA[An Appointment Set...]]></entry>
+	<entry id="str_quirk_description_1_grim_reaper_2"><![CDATA[Lost souls surround screaming for you to run!]]></entry>
+	
+	<entry id="str_quirk_name_1_grim_reaper_3"><![CDATA[An Appointment Kept...]]></entry>
+	<entry id="str_quirk_description_1_grim_reaper_3"><![CDATA[The harvest begins...]]></entry>
 	
 	<!---Quests-->
 	<entry id="town_quest_progress_plot_literaly_for_show_1"><![CDATA[Explore All Rooms]]></entry>

@@ -2,10 +2,10 @@ display: .size 1
 enemy_type: .id "man"
 enemy_type: .id "ganger"
 stats: .hp 48 .def 15.25% .prot 0.24 .spd 8 .stun_resist 55% .poison_resist 40% .bleed_resist 40% .debuff_resist 45% .move_resist 50%
-skill: .id "enforcer_punch" .type "melee" .atk 88.75% .dmg 11 19 .crit 9%  .effect "SC_DMG_REC_3" "SC_DODGE_DEBUFF_3" "Enforcer Riposte 1" .launch 4321 .target 12 .move 0 1
-skill: .id "enforcer_knockout" .type "melee" .atk 88.75% .dmg 13 27 .crit 9%  .effect "Ganger Damage Marked Target 3" "SC Push 1" .launch 21 .target 12
-skill: .id "enforcer_rush" .type "melee" .atk 88.75% .dmg 7 14 .crit 5%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "SC Push 2 3" "SC_DMG_REC_3"
-skill: .id "enforcer_headbutt" .type "melee" .atk 88.75% .dmg 9 13 .crit 8%  .launch 321 .target 12 .is_crit_valid False .effect "Ganger Stun 1" "Enforcer Stun Self Debuff 2"
+skill: .id "enforcer_punch" .type "melee" .atk 88.75% .dmg 11 19 .crit 9%  .effect "SC_DMG_REC_3" "SC_DODGE_DEBUFF_3" "Enforcer Riposte 1" "sc_darkness_3" .launch 4321 .target 12 .move 0 1
+skill: .id "enforcer_knockout" .type "melee" .atk 88.75% .dmg 13 27 .crit 9%  .effect "Ganger Damage Marked Target 5" "SC Push 3" "SC Clear Marked Target" "sc_darkness_3" .launch 21 .target 12
+skill: .id "enforcer_rush" .type "melee" .atk 88.75% .dmg 7 14 .crit 5%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "SC Push 2 3" "SC_DMG_REC_3" "sc_darkness_3"
+skill: .id "enforcer_headbutt" .type "melee" .atk 88.75% .dmg 9 13 .crit 8%  .launch 321 .target 12 .is_crit_valid False .effect "Ganger Stun 1" "Enforcer Stun Self Debuff 2" "sc_darkness_3"
 
 riposte_skill: .id "enforcer_riposte" .type "melee" .atk 85% .dmg 6 12 .crit 8% .effect .launch 4321 .target 1234
 

@@ -331,9 +331,6 @@
 				"string":"dd2_firedot_s0H"
 			}
 		},
-
-
-
 		{
 			"id":"dd2_firedot_dmg_1",
 			"stat_type":"damage_received_percent",

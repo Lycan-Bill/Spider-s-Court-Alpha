@@ -1397,7 +1397,7 @@
       "rule_data": {
         "float": 0,
         "string": ""
-      }
+     }
     },
     {
       "id": "Grim_Danse_bleedresist_debuff_3",
@@ -1410,7 +1410,7 @@
       "rule_data": {
         "float": 0,
         "string": ""
-      }
+    }
     },
     {
       "id": "Grim_Danse_bleedresist_debuff_5",
@@ -1425,7 +1425,6 @@
         "string": ""
 	}
        },
-
        {
          "id" : "grim_reaper_quirk_thing_1",
          "stat_type" : "tag",
@@ -1440,7 +1439,6 @@
             "string" : "1_grim_reaper_1"
 		}
        },
-
        {
          "id" : "grim_reaper_quirk_thing_2",
          "stat_type" : "tag",
@@ -1455,7 +1453,6 @@
             "string" : "1_grim_reaper_2"
 		}
        },
-
        {
          "id" : "grim_reaper_quirk_thing_3",
          "stat_type" : "tag",
@@ -1482,8 +1479,99 @@
         "float": 0,
         "string": "tagged"
 	 }
-      },
-      {
+    },
+    {
+      "id": "SC_HEX_DEBUFF_1",
+      "stat_type": "resistance",
+      "stat_sub_type": "stun",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "SC_HEX_DEBUFF_2",
+      "stat_type": "resistance",
+      "stat_sub_type": "move",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "SC_HEX_DEBUFF_3",
+      "stat_type": "resistance",
+      "stat_sub_type": "poison",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "SC_HEX_DEBUFF_4",
+      "stat_type": "resistance",
+      "stat_sub_type": "bleed",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "SC_HEX_DEBUFF_5",
+      "stat_type": "resistance",
+      "stat_sub_type": "debuff",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+     }
+    },
+    {
+      "id": "hex_heal_debuff",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "hex_enemy_heal",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
          "id" : "QUIRK_monsterType_ganger_DMGL_G",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",

@@ -9,9 +9,9 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 3, "data" : { "rarity" : "SC_Fortune_Teller" }},
-            { "type" : "table", "chances" : 3, "data" : { "rarity" : "T_SPIV_WEAPONS" }},
-            { "type" : "table", "chances" : 2, "data" : { "rarity" : "SPIV_TRINKET_LOOT" }}
+            { "type" : "table", "chances" : 3, "data" : { "table" : "SC_Fortune_Teller" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "T_SPIV_WEAPONS" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "SPIV_TRINKET_LOOT" }}
 			]
       },
       {
@@ -27,6 +27,36 @@
             { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "very_rare" }},
             { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "crimson_court" }}
 			]
+      },
+      {
+		 "id" : "SC_TRINKET_LOOT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "common" }},
+			{ "type" : "trinket", "chances" : 13, "data" : { "rarity" : "uncommon", "amount" : 2  }},
+			{ "type" : "trinket", "chances" : 10, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "crimson_court" }}
+			]
+      },
+      {
+         "id" : "SC_Gold",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }}
+         ]
       },
       {
          "id" : "T_SPIV_GEMS",
@@ -161,6 +191,45 @@
          ]
       },
       {
+         "id" : "SC_Heirlooms_1",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "bust", "amount" : 5 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "heirloom", "id" : "portrait", "amount" : 6 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "deed", "amount" : 5 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 7 }}
+         ]
+      },
+      {
+         "id" : "SC_Heirlooms_2",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "bust", "amount" : 7 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "heirloom", "id" : "portrait", "amount" : 6 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "deed", "amount" : 5 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 9 }}
+         ]
+      },
+      {
+         "id" : "SC_Heirlooms_3",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "bust", "amount" : 9 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "heirloom", "id" : "portrait", "amount" : 7 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "deed", "amount" : 8 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 10 }}
+         ]
+      },
+      {
          "id" : "SC_Loot_General",
          "difficulty" : 0,
          "dungeon" : "",
@@ -169,7 +238,7 @@
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "table", "chances" : 3, "data" : { "table" : "C" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "SC_Heirlooms_1" }},
             { "type" : "table", "chances" : 1, "data" : { "table" : "T" }},
             { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
          ]
@@ -181,9 +250,24 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
-            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "SC_Heirlooms_1" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "SC_TRINKET_LOOT" }},
+			{ "type" : "table", "chances" : 3, "data" : { "table" : "SC_Gold" }},
 			{ "type" : "table", "chances" : 3, "data" : { "table" : "P" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "S" }}
+         ]
+      },
+      {
+         "id" : "SC_Loot_Waste_Bin",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 6, "data" : { "table" : "SC_Heirlooms_1" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "SC_TRINKET_LOOT" }},
+			{ "type" : "table", "chances" : 3, "data" : { "table" : "SC_Gold" }},
+			{ "type" : "table", "chances" : 4, "data" : { "table" : "P" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "S" }}
          ]
       },
@@ -194,12 +278,12 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 3, "data" : { "table" : "C" }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "C" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
             { "type" : "table", "chances" : 1, "data" : { "table" : "T" }},
             { "type" : "table", "chances" : 6, "data" : { "table" : "P" }},
-            { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
+            { "type" : "table", "chances" : 2, "data" : { "table" : "S" }}
          ]
       },
       {
@@ -211,7 +295,7 @@
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "table", "chances" : 0, "data" : { "table" : "C" }},
             { "type" : "table", "chances" : 0, "data" : { "table" : "G" }},
-            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "SC_Heirlooms_1" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "T" }},
             { "type" : "table", "chances" : 4, "data" : { "table" : "P" }},
             { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
@@ -224,7 +308,7 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "SC_Heirlooms_1" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "T" }},
 			{ "type" : "table", "chances" : 4, "data" : { "table" : "P" }},
 			{ "type" : "table", "chances" : 3, "data" : { "table" : "S" }},
@@ -249,7 +333,7 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 5, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "SC_Heirlooms_1" }},
             { "type" : "table", "chances" : 3, "data" : { "table" : "Contraband_Oil" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Fortune_Teller_Coins" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Fortune_Teller_Gears" }}
@@ -347,7 +431,7 @@
             { "type" : "table", "chances" : 3, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+            { "type" : "table", "chances" : 5, "data" : { "table" : "SC_Heirlooms_1" }}
          ]
       },
       {
@@ -361,7 +445,7 @@
             { "type" : "table", "chances" : 4, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 2, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+            { "type" : "table", "chances" : 5, "data" : { "table" : "SC_Heirlooms_2" }}
          ]
       },
       {
@@ -371,11 +455,11 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 4, "data" : { "table" : "Old_Qaurter_Gems" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "Old_Qaurter_Gems" }},
             { "type" : "table", "chances" : 5, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+            { "type" : "table", "chances" : 5, "data" : { "table" : "SC_Heirlooms_3" }}
          ]
       },
       {
@@ -389,8 +473,8 @@
             { "type" : "table", "chances" : 3, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Grenadier_loot" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "T_Grenadier_loot" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "SC_Heirlooms_1" }}
          ]
       },
       {
@@ -404,8 +488,8 @@
             { "type" : "table", "chances" : 4, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 2, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Grenadier_loot" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+			{ "type" : "table", "chances" : 2, "data" : { "table" : "T_Grenadier_loot" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "SC_Heirlooms_3" }}
          ]
       },
       {
@@ -419,8 +503,8 @@
             { "type" : "table", "chances" : 5, "data" : { "table" : "Old_Qaurter_Loot" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Spiv_Credit_Drop" }},
 			{ "type" : "table", "chances" : 1, "data" : { "table" : "Burnt_Contract_Drop" }},
-			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Grenadier_loot" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }}
+			{ "type" : "table", "chances" : 2 , "data" : { "table" : "T_Grenadier_loot" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "SC_Heirlooms_5" }}
          ]
       },
       {

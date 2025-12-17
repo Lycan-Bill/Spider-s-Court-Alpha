@@ -150,18 +150,20 @@ Current Torch Level:]]></entry>
   <entry id="str_monster_skill_cardinal_heresy"><![CDATA[Fideles Audi]]></entry>
   <entry id="str_monster_skill_blood_salvation"><![CDATA[Salvatio]]></entry>
   <entry id="str_monster_skill_heed_faithful"><![CDATA[Haeresis]]></entry>
-  <entry id="str_monster_skill_switch_web"><![CDATA[Web Of Secrets]]></entry>
-  <entry id="str_monster_skill_switch_spider"><![CDATA[Spider’s Call]]></entry>
-  <entry id="str_monster_skill_scnun_blessing"><![CDATA[Famished Blessing]]></entry>
-  <entry id="str_monster_skill_scnun_light"><![CDATA[Crimson Light]]></entry>
-  <entry id="str_monster_skill_blut_slash"><![CDATA[Bloody Strike]]></entry>
-  <entry id="str_monster_skill_scultist_guard"><![CDATA[Defend The Acolytes]]></entry>
-  <entry id="str_monster_skill_scultist_mace"><![CDATA[Poisoned Idol]]></entry>
-  <entry id="str_monster_skill_sc_wasting_thirst"><![CDATA[Wasting Thirst]]></entry>
-  <entry id="str_monster_skill_sc_get_over_here"><![CDATA[Bring Forth]]></entry>
   
-  <entry id="str_monster_skill_the_hunger_human_esquire"><![CDATA[{colour_start|white}ɡɡɡɡʤɣɣɣɣɩɰɮɫɬʁʢ{colour_end}The Thirst]]></entry>
-  <entry id="str_monster_skill_the_hunger_beast_esquire"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɰɮɬɫ{colour_end}The Thirst]]></entry>
+  <entry id="str_monster_skill_switch_web"><![CDATA[{colour_start|white}ɚɛɛɜɥɣɣɣɣɩɦʣɮ{colour_end}Web Of Secrets]]></entry>
+  <entry id="str_monster_skill_switch_spider"><![CDATA[{colour_start|white}ɚɛɛɜɥɣɣɣɣɩɧɱ{colour_end}Spider’s Call]]></entry>
+  
+  <entry id="str_monster_skill_scnun_blessing"><![CDATA[{colour_start|white}ɚɛɛɜɥɣɣɣɣɩɧʐ{colour_end}Famished Blessing]]></entry>
+  <entry id="str_monster_skill_scnun_light"><![CDATA[{colour_start|white}ɡɡɡɡɥɣɣɣɣɩɧɶ{colour_end}Crimson Light]]></entry>
+  
+  <entry id="str_monster_skill_scultist_guard"><![CDATA[{colour_start|white}əəəəɥɣɣɣɣɩɦʗʐ{colour_end}Defend The Acolytes]]></entry>
+  <entry id="str_monster_skill_scultist_mace"><![CDATA[{colour_start|white}ɘɘɡɡʦɣɣɘɘɩɧɰ{colour_end}Poisoned Idol]]></entry>
+  
+  <entry id="str_monster_skill_sc_wasting_thirst"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɩɧɰ{colour_end}Wasting Thirst]]></entry>
+  <entry id="str_monster_skill_sc_get_over_here"><![CDATA[{colour_start|white}ɘɘɡɡɥɣɣɘɘɩɦɮɲ{colour_end}Bring Forth]]></entry>
+  
+  <entry id="str_monster_skill_vampire_bite"><![CDATA[{colour_start|white}ɡɡɡɡʤɣɣɣɣɩɮɬɰ{colour_end}The Embrace]]></entry>
   
   
   <!-- Heirlooms -->

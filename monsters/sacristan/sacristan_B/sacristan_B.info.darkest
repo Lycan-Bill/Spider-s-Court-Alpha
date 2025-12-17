@@ -1,10 +1,10 @@
 display: .size 1
 enemy_type: .id "vampire"
-stats: .hp 25 .def 23% .prot 0.0 .spd 6 .stun_resist 40% .poison_resist 70% .bleed_resist 45% .debuff_resist 40% .move_resist 60%
-skill: .id "purge_the_impure" .type "" .valid_modes "normal" .atk 0% .dmg 0 0 .crit 0%  .effect "switch_mode_poison_self" "Sacristan Mark DMG Buff 5" "Sacristan Mark crit DMG Buff 5" "Sacristan Mark ignore prot" .launch 4321 .target
-skill: .id "purify" .type "melee" .valid_modes "poison" .atk 105% .dmg 5 10 .crit 9%  .effect "Sacristan Blight 5" "Clear Marked Target" .launch 4321 .target ~12
-skill: .id "lustrate" .type "melee" .valid_modes "normal" .atk 105% .dmg 3 6 .crit 4%  .effect "Crimson Curse Weak" .launch 4321 .target 1234
-skill: .id "sanctify" .type "" .valid_modes "normal" "poison" .atk 0% .dmg 0 0 .crit 0%  .effect "Scarab Chef Heal Small" "Cure" .launch 1234 .target ~@1234
+stats: .hp 50 .def 23% .prot 0.0 .spd 6 .stun_resist 40% .poison_resist 70% .bleed_resist 45% .debuff_resist 40% .move_resist 60%
+skill: .id "purge_the_impure" .type "" .valid_modes "normal" .atk 0% .dmg 0 0 .crit 0%  .effect "switch_mode_poison_self" "Sacristan Mark DMG Buff 5" "Sacristan Mark crit DMG Buff 5" "Sacristan Mark ignore prot" "sc_darkness_3" .launch 4321 .target
+skill: .id "purify" .type "melee" .valid_modes "poison" .atk 105% .dmg 8 18 .crit 9%  .effect "Sacristan Blight 5" "Clear Marked Target" "sc_darkness_3" .launch 4321 .target ~12
+skill: .id "lustrate" .type "melee" .valid_modes "normal" .atk 105% .dmg 5 10 .crit 4%  .effect "Crimson Curse Weak" "sc_darkness_3" .launch 4321 .target 1234
+skill: .id "sanctify" .type "" .valid_modes "normal" "poison" .atk 0% .dmg 0 0 .crit 0%  .effect "Scarab Chef Heal Small" "Cure" "sc_darkness_3" .launch 1234 .target ~@1234
 personality: .prefskill -1
 loot: .code "A_COURTYARD" .count 1
 loot: .code "BLOOD_LOW" .count 1
@@ -14,3 +14,8 @@ death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
 mode: .id normal .is_raid_default true
 mode: .id poison
+
+skill: .id "purge_the_impure" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "purify" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "lustrate" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "sanctify" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"

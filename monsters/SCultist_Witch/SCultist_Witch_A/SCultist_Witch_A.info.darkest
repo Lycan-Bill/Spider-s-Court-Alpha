@@ -1,9 +1,10 @@
 display: .size 1
 enemy_type: .id "man"
 enemy_type: .id "vampire"
-stats: .hp 13 .def 12.5% .prot 0 .spd 7 .stun_resist 25% .poison_resist 20% .bleed_resist 20% .debuff_resist 40% .move_resist 10%
-skill: .id "switch_web" .type "ranged" .atk 80.5% .dmg 0 0 .crit 0%  .effect "SCultist Witch Stress 1" .launch 1234 .target 1234
-skill: .id "switch_spider" .type "ranged" .atk 82.5% .dmg 1 2 .crit 1%  .effect "SCultist Push 1" .launch 4321 .target 1234
+stats: .hp 32 .def 12.5% .prot 0 .spd 7 .stun_resist 25% .poison_resist 40% .bleed_resist 35% .debuff_resist 40% .move_resist 50%
+skill: .id "switch_web" .type "ranged" .atk 90.5% .dmg 0 0 .crit 0%  .effect "SCultist Witch Stress 1" "HEX AD" "HEX_apply_TT" "sc_darkness_3" .launch 1234 .target 1234
+skill: .id "switch_spider" .type "ranged" .atk 92.5% .dmg 5 11 .crit 1%  .effect "SCultist Push 1" "sc_darkness_3" .launch 4321 .target 1234
+skill: .id "vampire_bite" .type "melee" .atk 92.5% .dmg 6 12 .crit 2%  .effect "Vampire Stress" "Vampire Heal 1" "Vampire Blight 1" "sc_darkness_3" .launch 4321 .target 1234 .move 0 4
 personality: .prefskill -1
 loot: .code "A" .count 1
 initiative: .number_of_turns_per_round 1
@@ -16,3 +17,4 @@ spawn: .effects  "sc_rain_bot_summon"
 
 skill: .id "switch_web" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
 skill: .id "switch_spider" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
+skill: .id "vampire_bite" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"

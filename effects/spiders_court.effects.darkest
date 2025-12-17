@@ -88,6 +88,46 @@ effect: .name "SC_DODGE_DEBUFF_3" .target "target" .chance 130% .duration 3 .buf
 effect: .name "SC_DODGE_DEBUFF_4" .target "target" .chance 140% .duration 3 .buff_ids "SC_DODGE_DEBUFF_4" .on_hit true .on_miss false
 effect: .name "SC_DODGE_DEBUFF_5" .target "target" .chance 150% .duration 3 .buff_ids "SC_DODGE_DEBUFF_5" .on_hit true .on_miss false
 
+effect: .name "SC Mark"	.target "target" .chance 100% .tag 1  .buff_duration_type combat_end .duration 1 .on_hit true .on_miss false .apply_once false
+effect: .name "SC Clear Marked Target" .target "target" .chance 100% .untag 1	.on_hit true .on_miss true
+
+//Torch Light
+
+//Increase
+effect: .name "sc_light_2"  				.target "global"				.chance 100%	.torch_increase 2					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_3"  				.target "global"				.chance 100%	.torch_increase 3					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_4"  				.target "global"				.chance 100%	.torch_increase 4					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_5"  				.target "global"				.chance 100%	.torch_increase 5					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_6"  				.target "global"				.chance 100%	.torch_increase 6					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_7"  				.target "global"				.chance 100%	.torch_increase 7					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_8"  				.target "global"				.chance 100%	.torch_increase 8					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_9"  				.target "global"				.chance 100%	.torch_increase 9					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_10" 				.target "global"				.chance 100%	.torch_increase 10					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_12" 				.target "global"				.chance 100%	.torch_increase 12					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_14" 				.target "global"				.chance 100%	.torch_increase 14					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_15" 				.target "global"				.chance 100%	.torch_increase 15					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_16" 				.target "global"				.chance 100%	.torch_increase 16					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_24" 				.target "global"				.chance 100%	.torch_increase 24					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_34" 				.target "global"				.chance 100%	.torch_increase 34					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_light_100"				.target "global"				.chance 100%	.torch_increase 100					.on_hit true .on_miss true .apply_once true .has_description false
+
+//Decrease
+effect: .name "sc_darkness_1"				.target "global"				.chance 100%	.torch_decrease 1					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_2"				.target "global"				.chance 100%	.torch_decrease 2					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_3"				.target "global"				.chance 100%	.torch_decrease 3					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_4"				.target "global"				.chance 100%	.torch_decrease 4					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_5"				.target "global"				.chance 100%	.torch_decrease 5					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_6"				.target "global"				.chance 100%	.torch_decrease 6					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_7"				.target "global"				.chance 100%	.torch_decrease 7					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_8"				.target "global"				.chance 100%	.torch_decrease 8					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_9"				.target "global"				.chance 100%	.torch_decrease 9					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_20"				.target "global"				.chance 100%	.torch_decrease 10					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_22"				.target "global"				.chance 100%	.torch_decrease 12					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_24"				.target "global"				.chance 100%	.torch_decrease 14					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_26"				.target "global"				.chance 100%	.torch_decrease 16					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_24"				.target "global"				.chance 100%	.torch_decrease 24					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_34"				.target "global"				.chance 100%	.torch_decrease 34					.on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "sc_darkness_200"			    .target "global"				.chance 100%	.torch_decrease 100					.on_hit true .on_miss true .apply_once true .has_description false
 
 ///Items
 ///Hawthorne Oil
@@ -139,6 +179,18 @@ effect: .name "Soul_Contract_dummy_Three" .target "performer" .item 1 .chance 50
 
 ///Death's Door
 effect: .name "grim_death_quirk" .chance 21%  .target "performer" .curio_result_type "negative" .disease 1_grim_reaper_1 .on_hit true .on_miss true .queue true
+
+
+///Vampire Bite
+effect: .name "Vampire Stress" .target "target" .chance 85% .stress 12 .on_hit true .on_miss false	.queue true
+
+effect: .name "Vampire Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent	0.10 .on_hit true .on_miss false .queue true
+effect: .name "Vampire Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent	0.15 .on_hit true .on_miss false .queue true
+effect: .name "Vampire Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 0.20 .on_hit true .on_miss false .queue true
+
+effect: .name "Vampire Blight 1" .target "target" .chance 100%  .dotPoison 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Vampire Blight 3" .target "target" .chance 120%  .dotPoison 4 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Vampire Blight 5" .target "target" .chance 140%  .dotPoison 5 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
 
 //changes
 effect: .name "The Thirst Lifedrain Scaling 1" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "The_thirst_lifesteal_Scaling_1" .on_hit true .on_miss false .has_description false .buff_source_type bsrc_notspecified

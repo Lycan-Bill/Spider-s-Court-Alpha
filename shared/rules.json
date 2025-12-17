@@ -294,17 +294,17 @@
                     "upper": 3.402823e38
                 },
                 "value": {
-                    "stress_chance_increase": 0,
-                    "stress_damage_increase": 0,
+                    "stress_chance_increase": 0.0,
+                    "stress_damage_increase": 0.0,
                     "monster_attack_increase": 0,
                     "monster_damage_increase": 0,
                     "monster_crit_increase": 0,
-                    "loot_increase_gold": 0,
-                    "loot_increase_treasure_draws": 0,
-                    "player_crit_increase": 0,
+                    "loot_increase_gold": 0.0,
+                    "loot_increase_treasure_draws": 0.0,
+                    "player_crit_increase": 0.0,
                     "player_def_increase": 4.0,
-                    "player_scouting_increase": 15.0,
-                    "monsters_surprised_increase": 25.0,
+                    "player_scouting_increase": 40.0,
+                    "monsters_surprised_increase": 0.0,
                     "heroes_surprised_increase": 0.0
                 }
             },
@@ -314,34 +314,34 @@
                     "upper": 75
                 },
                 "value": {
-                    "stress_chance_increase": 5.0,
-                    "stress_damage_increase": 10.0,
+                    "stress_chance_increase": 0.0,
+                    "stress_damage_increase": 0.0,
                     "monster_attack_increase": 0.0,
                     "monster_damage_increase": 0.0,
-                    "monster_crit_increase": 1.0,
+                    "monster_crit_increase": 0.0,
                     "loot_increase_gold": 0.0,
                     "loot_increase_treasure_draws": 0.0,
                     "player_crit_increase": 0.0,
-                    "player_def_increase": 2.5,
-                    "player_scouting_increase": 7.5,
-                    "monsters_surprised_increase": 15.0,
+                    "player_def_increase": 2.0,
+                    "player_scouting_increase": 30.0,
+                    "monsters_surprised_increase": 0.0,
                     "heroes_surprised_increase": 0.0
                 }
             },
             {
                 "range": { "lower": 25, "upper": 50 },
                 "value": {
-                    "stress_chance_increase": 10.0,
+                    "stress_chance_increase": 0.0,
                     "stress_damage_increase": 20.0,
-                    "monster_attack_increase": 5.0,
-                    "monster_damage_increase": 10.0,
-                    "monster_crit_increase": 2.0,
-                    "loot_increase_gold": 10.0,
-                    "loot_increase_treasure_draws": 4.0,
+                    "monster_attack_increase": 0.0,
+                    "monster_damage_increase": 0.0,
+                    "monster_crit_increase": 0.0,
+                    "loot_increase_gold": 0.0,
+                    "loot_increase_treasure_draws": 0.0,
                     "player_crit_increase": 1.0,
                     "player_def_increase": 0.0,
-                    "player_scouting_increase": 0.0,
-                    "monsters_surprised_increase": 10.0,
+                    "player_scouting_increase": 20.0,
+                    "monsters_surprised_increase": 0.0,
                     "heroes_surprised_increase": 15.0
                 }
             },
@@ -350,17 +350,17 @@
 
                 "range": { "lower": 0, "upper": 25 },
                 "value": {
-                    "stress_chance_increase": 25.0,
-                    "stress_damage_increase": 30.0,
-                    "monster_attack_increase": 10.0,
-                    "monster_damage_increase": 15.0,
-                    "monster_crit_increase": 3.0,
-                    "loot_increase_gold": 15.0,
-                    "loot_increase_treasure_draws": 8.0,
+                    "stress_chance_increase": 0.0,
+                    "stress_damage_increase": 35.0,
+                    "monster_attack_increase": 0.0,
+                    "monster_damage_increase": 0.0,
+                    "monster_crit_increase": 0.0,
+                    "loot_increase_gold": 0.0,
+                    "loot_increase_treasure_draws": 0.0,
                     "player_crit_increase": 2.0,
                     "player_def_increase": 0.0,
                     "player_scouting_increase": 0.0,
-                    "monsters_surprised_increase": 5.0,
+                    "monsters_surprised_increase": 0.0,
                     "heroes_surprised_increase": 25.0
                 }
             },
@@ -370,18 +370,18 @@
                     "upper": 0
                 },
                 "value": {
-                    "stress_chance_increase": 35.0,
-                    "stress_damage_increase": 40.0,
-                    "monster_attack_increase": 12.5,
-                    "monster_damage_increase": 25.0,
-                    "monster_crit_increase": 5.0,
-                    "loot_increase_gold": 30.0,
-                    "loot_increase_treasure_draws": 12.0,
+                    "stress_chance_increase": 0.0,
+                    "stress_damage_increase": 45.0,
+                    "monster_attack_increase": 0.0,
+                    "monster_damage_increase": 0.0,
+                    "monster_crit_increase": 0.0,
+                    "loot_increase_gold": 0.0,
+                    "loot_increase_treasure_draws": 0.0,
                     "player_crit_increase": 3.0,
                     "player_def_increase": 0.0,
                     "player_scouting_increase": 0.0,
                     "monsters_surprised_increase": 0.0,
-                    "heroes_surprised_increase": 40.0
+                    "heroes_surprised_increase": 35.0
                 }
             }
         ]
@@ -506,5 +506,5 @@
     "stun_recovery_buffs" : [ "STUNRECOVERYBUFF" ],
     "stun_recovery_buff_consecutive_applies": true,
     "stun_ends_turn": true,
-    "initiative_base": 8
+    "initiative_base": 12
 }

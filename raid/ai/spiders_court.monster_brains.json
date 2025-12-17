@@ -22,7 +22,7 @@
           "data": {
             "base_chance": 1,
             "combat_skill_id": "sc_preach",
-            "ally_base_class_id": "the_blessed"
+            "ally_base_class_id": "SCultist_Chains"
           }
         },
         {
@@ -30,7 +30,7 @@
           "data": {
             "base_chance": 1,
             "combat_skill_id": "sc_preach",
-            "ally_base_class_id": "vidame"
+            "ally_base_class_id": "SCultist_Mace"
           }
         },
         {
@@ -38,7 +38,7 @@
           "data": {
             "base_chance": 1,
             "combat_skill_id": "sc_preach",
-            "ally_base_class_id": "coquette"
+            "ally_base_class_id": "SCultist_Nun"
           }
         },
         {
@@ -46,7 +46,7 @@
           "data": {
             "base_chance": 1,
             "combat_skill_id": "sc_preach",
-            "ally_base_class_id": "lord"
+            "ally_base_class_id": "SCultist_Witch"
           }
         },
         {
@@ -81,7 +81,7 @@
             "base_chance": 10000,
             "specific_combat_skill_id": "sc_preach",
             "is_exclusive_desire": true,
-            "ally_base_class_id": "the_blessed",
+            "ally_base_class_id": "SCultist_Witch",
             "is_enemy_target_desire": false,
             "is_friendly_target_desire": true
           }
@@ -92,7 +92,7 @@
             "base_chance": 10000,
             "specific_combat_skill_id": "sc_preach",
             "is_exclusive_desire": true,
-            "ally_base_class_id": "vidame",
+            "ally_base_class_id": "SCultist_Mace",
             "is_enemy_target_desire": false,
             "is_friendly_target_desire": true
           }
@@ -103,7 +103,7 @@
             "base_chance": 10000,
             "specific_combat_skill_id": "sc_preach",
             "is_exclusive_desire": true,
-            "ally_base_class_id": "coquette",
+            "ally_base_class_id": "SCultist_Nun",
             "is_enemy_target_desire": false,
             "is_friendly_target_desire": true
           }
@@ -114,139 +114,7 @@
             "base_chance": 10000,
             "specific_combat_skill_id": "sc_preach",
             "is_exclusive_desire": true,
-            "ally_base_class_id": "lord",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": 10000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": true,
-            "ally_base_class_id": "spider_nun",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "spider_bishop",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "sacristan",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "scarab_chef",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "steward",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "castellan",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "chevalier",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "esquire",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "courtesan",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "gourmand",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "tick_zombie",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true
-          }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -1000,
-            "specific_combat_skill_id": "sc_preach",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "bloody_butler",
+            "ally_base_class_id": "SCultist_Witch",
             "is_enemy_target_desire": false,
             "is_friendly_target_desire": true
           }
@@ -263,7 +131,7 @@
             "is_post_turn": true,
             "combat_skill_id_override": "sc_weep_for_the_dead",
             "ally_actor_class_count": 1,
-            "ally_base_class_id": "corpse",
+            "ally_base_class_id": "sc_corpse",
             "ally_count_min": 1,
             "ally_count_max": 3,
             "is_cooldown_enabled": false,
@@ -280,7 +148,7 @@
             "is_post_turn": true,
             "combat_skill_id_override": "sc_weep_for_the_dead",
             "ally_actor_class_count": 1,
-            "ally_base_class_id": "corpse_large",
+            "ally_base_class_id": "sc_corpse_large",
             "ally_count_min": 1,
             "ally_count_max": 3,
             "is_cooldown_enabled": false,
@@ -4303,13 +4171,6 @@
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 3,
-            "combat_skill_id": "enforcer_knockout"
-          }
-        },
-        {
-          "type": "specific_skill",
-          "data": {
             "base_chance": 5,
             "combat_skill_id": "enforcer_rush"
           }
@@ -4324,10 +4185,40 @@
       ],
       "target_selection_desires": [
         {
+          "type": "marked_target",
+          "data": {
+            "base_chance": 100,
+            "specific_combat_skill_id": "enforcer_knockout",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+          }
+        },
+        {
           "type": "random_target",
           "data": {
             "base_chance": 1,
-            "specific_combat_skill_id": "",
+            "specific_combat_skill_id": "enforcer_punch",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+           }
+        },
+        {
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "enforcer_rush",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
+          }
+        },
+        {
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "enforcer_headbutt",
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": false
@@ -4628,13 +4519,13 @@
           "amount": 4
         },
         {
-          "combat_skill_id": "ganger_molotov",
-          "amount": 2
-        },
-        {
           "combat_skill_id": "ganger_dirty",
           "amount": 1
         },
+        {
+          "combat_skill_id": "ganger_molotov",
+          "amount": 1
+         },
         {
           "combat_skill_id": "ganger_suicide",
           "amount": 1
@@ -4996,6 +4887,10 @@
         {
           "combat_skill_id": "scultist_guard",
           "amount": 3
+        },
+        {
+          "combat_skill_id": "vampire_bite",
+          "amount": 3
         }
       ],
       "skill_selection_desires": [
@@ -5011,6 +4906,15 @@
           "data": {
             "base_chance": 5,
             "combat_skill_id": "scultist_mace"
+          }
+        },
+        {
+          "type": "specific_skill",
+          "data": {
+            "base_chance": 10,
+            "combat_skill_id": "vampire_bite",
+            "performer_health_ratio_min": 0.01,
+            "performer_health_ratio_max": 0.5
           }
         }
       ],
@@ -5043,7 +4947,11 @@
       "skill_cooldowns": [
         {
           "combat_skill_id": "scnun_blessing",
-          "amount": 2
+          "amount": 1
+        },
+        {
+          "combat_skill_id": "vampire_bite",
+          "amount": 3
         }
       ],
       "skill_selection_desires": [
@@ -5059,6 +4967,15 @@
           "data": {
             "base_chance": 4,
             "combat_skill_id": "scnun_light"
+          }
+        },
+        {
+          "type": "specific_skill",
+          "data": {
+            "base_chance": 10,
+            "combat_skill_id": "vampire_bite",
+            "performer_health_ratio_min": 0.01,
+            "performer_health_ratio_max": 0.5
           }
         }
       ],
@@ -5088,7 +5005,16 @@
     },
     {
       "id": "SCultist_Witch",
-      "skill_cooldowns": [],
+      "skill_cooldowns": [
+        {
+          "combat_skill_id": "switch_web",
+          "amount": 3
+        },
+        {
+          "combat_skill_id": "vampire_bite",
+          "amount": 3
+        }
+      ],
       "skill_selection_desires": [
         {
           "type": "specific_skill",
@@ -5102,6 +5028,15 @@
           "data": {
             "base_chance": 4,
             "combat_skill_id": "switch_spider"
+           }
+        },
+        {
+          "type": "specific_skill",
+          "data": {
+            "base_chance": 100,
+            "combat_skill_id": "vampire_bite",
+            "performer_health_ratio_min": 0.01,
+            "performer_health_ratio_max": 0.5
           }
         }
       ],
@@ -5131,7 +5066,12 @@
     },
     {
       "id": "SCultist_Chains",
-      "skill_cooldowns": [],
+      "skill_cooldowns": [
+        {
+          "combat_skill_id": "vampire_bite",
+          "amount": 3
+        }
+      ],
       "skill_selection_desires": [
         {
           "type": "specific_skill",
@@ -5145,6 +5085,15 @@
           "data": {
             "base_chance": 4,
             "combat_skill_id": "sc_wasting_thirst"
+          }
+        },
+        {
+          "type": "specific_skill",
+          "data": {
+            "base_chance": 10,
+            "combat_skill_id": "vampire_bite",
+            "performer_health_ratio_min": 0.01,
+            "performer_health_ratio_max": 0.5
           }
         }
       ],

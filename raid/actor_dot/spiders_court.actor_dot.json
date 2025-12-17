@@ -1,0 +1,47 @@
+{
+    "entries":
+    [
+        {
+            "id": "sc_hex",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+
+                    ],
+                    "increment_effects":
+                    [
+						"HEX_DEBUFFS", 
+						"HEX_BUFFS"
+                    ]
+                },
+                {
+                    "completion_chance": 0.0,
+                    "completion_effects":
+                    [
+						"HEX_DEBUFFS", 
+						"HEX_BUFFS"
+                    ],
+                    "increment_effects":
+                    [
+
+                    ]
+                },
+                {
+                    "completion_chance": 1.00,
+                    "completion_effects":
+                    [
+						"HEX_DEBUFFS", 
+						"HEX_BUFFS"
+                    ],
+                    "increment_effects":
+                    [
+                    ]
+                }
+            ]
+        }
+    ]
+}

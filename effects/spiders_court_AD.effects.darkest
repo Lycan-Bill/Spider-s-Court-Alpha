@@ -1,0 +1,9 @@
+///HEX
+effect: .name "HEX AD" .target "target" .chance 100% .actor_dot sc_hex .on_hit true .on_miss false .queue true
+
+effect: .name "amberblight_skill_TT" .target "performer" .chance 100% .on_hit true .on_miss false .skill_instant true .buff_ids "APPLY_AMBERBLIGHTED"
+effect: .name "HEX_apply_TT" 	.target "target" .chance 500% .buff_ids "HEX_TT" "HEX_TT2_1" "HEX_TT2_3" .on_hit true .on_miss false .has_description false  .buff_is_clear_debuff_valid false .buff_source_type bsrc_never_again .buff_duration_type none .duration -1
+
+
+effect: .name "HEX_DEBUFFS" .target "target" .chance 520% .buff_ids "SC_HEX_DEBUFF_1" "SC_HEX_DEBUFF_2" "SC_HEX_DEBUFF_3" "SC_HEX_DEBUFF_4" "SC_HEX_DEBUFF_5" "hex_heal_debuff" .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "HEX_BUFFS" .target "target_enemy_group" .chance 540% .buff_ids "hex_enemy_heal" .duration 3 .on_hit true .on_miss false .queue true

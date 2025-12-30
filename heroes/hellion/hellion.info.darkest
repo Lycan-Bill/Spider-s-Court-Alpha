@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 20%
+resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 87% .trap 20%
 crit: .effects "on_crit_dmgbleeding"
 weapon: .name "hellion_weapon_0" .atk 0% .dmg 12 24 .crit 5% .spd 8
 weapon: .name "hellion_weapon_1" .atk 0% .dmg 14 27 .crit 6% .spd 9 .upgradeRequirementCode 0

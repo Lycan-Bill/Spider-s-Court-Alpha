@@ -88,9 +88,9 @@ town_quest_select_quest_layout:
 	.camping_tt_pos 10 375
 	.camping_tt_size 80 30 
 	.camping_tt_offset 90 9
-	.goals_text_offset 34 430
-	.goal_description_text_start_offset 50 460
-	.goal_description_text_spacing 44 40
+	.goals_text_offset 34 425
+	.goal_description_text_start_offset 50 445
+	.goal_description_text_spacing 0 20
 	.rewards_text_offset 200 530
 	.rewards_inventory_system_offset 22 562
 	.trinket_retention_description_text_offset 62 750

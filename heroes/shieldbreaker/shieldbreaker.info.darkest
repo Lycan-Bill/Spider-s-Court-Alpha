@@ -1,4 +1,4 @@
-resistances: .stun 50% .poison 20% .bleed 30% .disease 30% .move 50% .debuff 30% .death_blow 67% .trap 20%
+resistances: .stun 50% .poison 20% .bleed 30% .disease 30% .move 50% .debuff 30% .death_blow 87% .trap 20%
 crit: .effects "on_crit_prot"
 weapon: .name "shieldbreaker_weapon_0" .atk 0% .dmg 9 16 .crit 6% .spd 12
 weapon: .name "shieldbreaker_weapon_1" .atk 0% .dmg 10 20 .crit 7% .spd 13 .upgradeRequirementCode 0

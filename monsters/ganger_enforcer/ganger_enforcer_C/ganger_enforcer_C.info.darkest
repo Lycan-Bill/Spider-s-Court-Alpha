@@ -1,7 +1,7 @@
 display: .size 1
 enemy_type: .id "man"
 enemy_type: .id "ganger"
-stats: .hp 66 .def 29.0% .prot 0.24 .spd 9 .stun_resist 80% .poison_resist 65% .bleed_resist 65% .debuff_resist 70% .move_resist 75%
+stats: .hp 66 .def 29.0% .prot 0.24 .spd 12 .stun_resist 80% .poison_resist 65% .bleed_resist 65% .debuff_resist 70% .move_resist 75%
 skill: .id "enforcer_punch" .type "melee" .atk 102.5% .dmg 13 22 .crit 10%  .effect "SC_DMG_REC_5" "SC_DODGE_DEBUFF_5" "Enforcer Riposte 1" "sc_darkness_3" .launch 4321 .target 12 .move 0 1
 skill: .id "enforcer_knockout" .type "melee" .atk 102.5% .dmg 15 32 .crit 10%  .effect "Ganger Damage Marked Target 5" "SC Push 5" "SC Clear Marked Target" "sc_darkness_3" .launch 21 .target 12
 skill: .id "enforcer_rush" .type "melee" .atk 102.5% .dmg 9 17 .crit 6%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "SC Push 2 5" "SC_DMG_REC_3" "sc_darkness_3"
@@ -20,7 +20,6 @@ wave_spawning: .prefers_front True
 skill: .id "enforcer_knockout" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
 skill: .id "enforcer_rush" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
 skill: .id "enforcer_headbutt" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
-
 skill: .id "enforcer_punch" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
 
 display_modifier: .disabled_popup_text_types no_damage

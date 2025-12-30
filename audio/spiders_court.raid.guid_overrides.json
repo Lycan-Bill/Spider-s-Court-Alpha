@@ -34,7 +34,7 @@
 	{"event_id": "event:/char/enemy/ganger_newbie_vo_death",                  "guid_override":"{e1390534-f0dc-4dc8-b515-6a36cb5a0c57}"},
 	{"event_id": "event:/char/enemy/ganger_grenadier_vo_death",               "guid_override":"{8a7c37be-3f8f-4190-914f-6c1ca27f4b67}"},
 	
-	{"event_id": "event:/char/enemy/ganger_newbie_ganger_pipe",               "guid_override":"{3f1fb7dd-0a7b-4d95-9880-2befd57d43c5}"},
+	{"event_id": "event:/char/enemy/ganger_newbie_ganger_pipe",               "guid_override":"{46256ba8-02d1-4d6e-9d7c-7aacbc446663}"},
 	{"event_id": "event:/char/enemy/ganger_newbie_ganger_pipe_miss",          "guid_override":"{01fbb684-2557-4348-8c92-bc0e913a8354}"},
 	{"event_id": "event:/char/enemy/ganger_newbie_ganger_pipe_stun",          "guid_override":"{46256ba8-02d1-4d6e-9d7c-7aacbc446663}"},
 	{"event_id": "event:/char/enemy/ganger_newbie_ganger_pipe_stun_miss",     "guid_override":"{01fbb684-2557-4348-8c92-bc0e913a8354}"},
@@ -58,14 +58,6 @@
 	{"event_id": "event:/char/enemy/ripper_killer_sanitaze_human",               "guid_override":"{682f163e-8faf-4849-a335-dedcd6e2ba45}"},
 	{"event_id": "event:/char/enemy/ripper_killer_mock_human",               "guid_override":"{18240f7b-9a89-4379-a6ce-2b8bf6c9dfe1}"},
 	{"event_id": "event:/char/enemy/ripper_killer_mock_anger",               "guid_override":"{18240f7b-9a89-4379-a6ce-2b8bf6c9dfe1}"},
-	
-	
-	{"event_id": "event:/char/enemy/ganger_newbie_ganger_pipe_stun",          "guid_override":"{46256ba8-02d1-4d6e-9d7c-7aacbc446663}"},
-	{"event_id": "event:/char/enemy/ganger_newbie_ganger_pipe_stun_miss",     "guid_override":"{01fbb684-2557-4348-8c92-bc0e913a8354}"},
-	{"event_id": "event:/char/enemy/ganger_newbie_ganger_shotgun",            "guid_override":"{1062a4dc-3430-481f-9b48-7a5c77baf96c}"},
-	{"event_id": "event:/char/enemy/ganger_newbie_ganger_shotgun_miss",       "guid_override":"{f0c74277-9387-4f65-b553-fc2e1ca6fa7d}"},
-	{"event_id": "event:/char/enemy/ganger_newbie_ganger_shotgun_mark",       "guid_override":"{1062a4dc-3430-481f-9b48-7a5c77baf96c}"},
-	{"event_id": "event:/char/enemy/ganger_newbie_ganger_shotgun_mark_miss",  "guid_override":"{f0c74277-9387-4f65-b553-fc2e1ca6fa7d}"},
 	
 	{"event_id": "event:/char/enemy/ganger_enforcer_enforcer_punch",               "guid_override":"{ac00d364-5437-47f0-8486-1d59891f150d}"},
 	{"event_id": "event:/char/enemy/ganger_enforcer_enforcer_punch_miss",          "guid_override":"{192c28f7-379c-47f5-a568-1d69886c997b}"},

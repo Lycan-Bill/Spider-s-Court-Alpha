@@ -21,8 +21,8 @@
 	<entry id="town_name_sanitarium"><![CDATA[Pharmacy]]></entry>
 	<entry id="town_name_stage_coach"><![CDATA[River Boat]]></entry>
 	<entry id="town_name_statue"><![CDATA[Town Hall]]></entry>
-	<entry id="town_name_tavern"><![CDATA[Inn]]></entry>
-	<entry id="town_name_town_Event"><![CDATA[ATTENTION!]]></entry>
+	<entry id="town_name_tavern"><![CDATA[Speakeasy]]></entry>
+	<entry id="town_name_town_Event"><![CDATA[EXTRA EXTRA!!]]></entry>
 		
 	<entry id="str_tavern_summary"><![CDATA[Stress Relief]]></entry>
 	<entry id="str_abbey_summary"><![CDATA[Research, Study and Expiremnt]]></entry>
@@ -37,7 +37,7 @@
 
 <entry id="town_activity_description_bar"><![CDATA[Drink your cares away.
 {colour_start|stress}Stress{colour_end} Heals 40/50/60]]></entry>
-    <entry id="town_activity_description_brothel"><![CDATA[Peace and Relaxation.
+    <entry id="town_activity_description_brothel"><![CDATA[Trade gold for Materials.
 {colour_start|stress}Stress{colour_end} Heals 60/75/90]]></entry>
     <entry id="town_activity_description_gambling"><![CDATA[Electrifying feel of luck.
 {colour_start|stress}Stress{colour_end} Heals 50/63/75]]></entry>
@@ -52,7 +52,7 @@
 
     <entry id="town_activity_name_bar"><![CDATA[Bar]]></entry>
     <entry id="town_activity_name_gambling"><![CDATA[Casino]]></entry>
-    <entry id="town_activity_name_brothel"><![CDATA[Fishing]]></entry>
+    <entry id="town_activity_name_brothel"><![CDATA[Smuggling]]></entry>
     <entry id="town_activity_name_treatment"><![CDATA[Pharmacy]]></entry>
     <entry id="town_activity_name_disease_treatment"><![CDATA[Operating Room]]></entry>
     <entry id="town_activity_name_meditation"><![CDATA[Library]]></entry>
@@ -60,10 +60,23 @@
     <entry id="town_activity_name_flagellation"><![CDATA[Laboratory]]></entry>
 	
 	<entry id="building_verbose_abbey"><![CDATA[Upgrading the Research Center increases types of research and stress healing while bolstering their effectiveness.]]></entry>
-	<entry id="building_verbose_tavern"><![CDATA[Upgrading the Inn increases the types of stress treatments and their effectiveness.]]></entry>
+	<entry id="building_verbose_tavern"><![CDATA[Upgrading the Speakeasy increases the types of stress treatments and their effectiveness.]]></entry>
+		
+   <!--Districts-->
+   <entry id="str_vo_crimson_court_town_event_cc_districts_unlock_0"><![CDATA[WHY HELLO! YOU ARE NOT SUPPOSED TO SEE THIS!]]></entry>
+   <entry id="tutorial_popup_shard_nomad_wagon_title"><![CDATA[The Infernal Trader]]></entry>
+    <entry id="tutorial_popup_shard_nomad_wagon_description"><![CDATA[The currency of hell has it's value and is sought after by many for it's most curious effects, this poor devil will happily trade their merchandise in exchange for these coins.]]></entry>
+	
+    <entry id="tutorial_popup_districts_panel_description"><![CDATA[Quarters use different currencies to construct, but all require Engine Parts which can be obtained by trading with merchants found, you may even scavenge them if you are lucky.]]></entry>
+    <entry id="tutorial_popup_districts_panel_title"><![CDATA[Quarters Currencies.]]></entry>
+	<entry id="tutorial_popup_districts_description"><![CDATA[Sanctuary Square was once a beacon of hope, it has since fallen in ruin constructing these machines will allow us to shake off the shackles of Retinue.]]></entry>
+    <entry id="tutorial_popup_districts_title"><![CDATA[Quarter Upgrades]]></entry>
+    <entry id="tutorial_popup_blueprints_description"><![CDATA[Before the Retinue gained complete dominance of lands, this town was in the process of revolutionising it's industry. Now the parts needed have been confiscated and hidden find them and find a way to enter the new age.]]></entry>
+    <entry id="tutorial_popup_blueprints_title"><![CDATA[Engine Parts]]></entry>
 		
 	<!--Building Events-->
 	<entry id="str_flagellation_currency_gained_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} {colour_start|town_activity_log_positive_result}they have earned {?amount}%d silver coins{colour_end} surveying the lands.]]></entry>
+	<entry id="str_brothel_currency_gained_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} {colour_start|town_activity_log_positive_result}they have earned {?amount}%d materials{colour_end} trading with smugglers.]]></entry>
 	
 	<entry id="str_meditation_add_buff_QUIRK_monsterType_man_ACC_B_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned secrets to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week studying.]]></entry>
 	<entry id="str_meditation_add_buff_QUIRK_monsterType_man_CRIT_B_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} has learned how to {colour_start|town_activity_log_positive_result}{?description}%s{colour_end} after spending a week studying.]]></entry>
@@ -83,7 +96,12 @@
 	<entry id="str_meditation_add_buff_QUIRK_monsterType_beast_CRIT_B_story_desc"><![CDATA[critically damage beasts]]></entry>
 	<entry id="str_meditation_add_buff_QUIRK_monsterType_unholy_ACC_B_story_desc"><![CDATA[increase their accuracy against the unholy]]></entry>
   
+  <!--Town Events-->
+  <entry id="town_event_info_sc_intro"><![CDATA[[Enabling Tutorials is RECOMMENDED]
+[Press H to open the Help Menus]]]></entry>
+
+ <entry id="town_event_title_sc_intro"><![CDATA[Help Finally Arrives!]]></entry>
+<entry id="town_event_description_sc_intro"><![CDATA["Please help our newcomers by any means necessary and situated!"]]></entry>
 	
   </language>
 </root>
-

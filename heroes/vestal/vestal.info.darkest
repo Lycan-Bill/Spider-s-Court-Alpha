@@ -1,4 +1,4 @@
-resistances: .stun 30% .poison 30% .bleed 40% .disease 30% .move 30% .debuff 30% .death_blow 60% .trap 10%
+resistances: .stun 30% .poison 30% .bleed 40% .disease 30% .move 30% .debuff 30% .death_blow 87% .trap 10%
 crit: .effects "on_crit_healdone"
 weapon: .name "vestal_weapon_0" .atk 0% .dmg 8 16 .crit 2% .spd 8
 weapon: .name "vestal_weapon_1" .atk 0% .dmg 9 19 .crit 3% .spd 9 .upgradeRequirementCode 0

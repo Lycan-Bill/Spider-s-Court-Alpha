@@ -1,0 +1,21 @@
+display: .size 1
+enemy_type: .id "unholy"
+enemy_type: .id "krewe"
+
+stats: .hp 215 .def 32% .prot 0 .spd 18 .stun_resist 90% .poison_resist 70% .bleed_resist 100% .debuff_resist 70% .move_resist 70%
+ 
+skill: .id "firstmate_stealth" .effect "Pirate Stealth" "Pirate Crit 5" .launch 1234 .target .move 4 0
+skill: .id "firstmate_bleed" .type "melee" .atk 102.5% .dmg 12 19 .crit 5% .effect "Pirate Bleed 5" .launch 123 .target 123 .move 0 1
+skill: .id "firstmate_poison" .type "melee" .atk 102.5% .dmg 10 14 .crit 5% .effect "Pirate Blight 5" .launch 123 .target 123 .move 0 1
+skill: .id "firstmate_backstab" .type "melee" .atk 102.5% .dmg 18 26 .crit 5% .effect "SC Clear Marked Target" .launch 34 .target 1234 .move 0 3
+
+riposte_skill: .id "riposte1" .type "melee" .atk 90.5% .dmg 1 2 .crit 0% .launch 1234 .target 1234  .is_crit_valid true
+
+personality: .prefskill -1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id pirate_first_mate
+death_class: .monster_class_id sc_corpse_C .is_valid_on_crit False .type "corpse"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False .living_other_enemy_buffs "pirate_crew_buff"
+wave_spawning: .prefers_front False
+
+life_link: .base_class "pirate_captain"

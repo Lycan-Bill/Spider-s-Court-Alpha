@@ -10,8 +10,8 @@
                 "hero_effect_list": [],
                 "monster_effect_list": [],
                 "overlays": [
+					"comet_glow_torch",
                     "battle_round",
-                    "comet_glow_torch",
 					"light_torch"
                 ],
                 "torch_setting_item_buffs": [

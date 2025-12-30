@@ -1,7 +1,7 @@
 display: .size 1
 enemy_type: .id "man"
 enemy_type: .id "ganger"
-stats: .hp 33 .def 6.5% .prot 0.15 .spd 7 .stun_resist 35% .poison_resist 20% .bleed_resist 20% .debuff_resist 25% .move_resist 30%
+stats: .hp 33 .def 6.5% .prot 0.15 .spd 8 .stun_resist 35% .poison_resist 20% .bleed_resist 20% .debuff_resist 25% .move_resist 30%
 skill: .id "enforcer_punch" .type "melee" .atk 82.5% .dmg 9 16 .crit 8%  .effect "SC_DMG_REC_1" "SC_DODGE_DEBUFF_1" "Enforcer Riposte 1" "sc_darkness_3" .launch 4321 .target 12 .move 0 1
 skill: .id "enforcer_knockout" .type "melee" .atk 82.5% .dmg 11 23 .crit 8%  .effect "Ganger Damage Marked Target 5" "SC Push 1" "SC Clear Marked Target" "sc_darkness_3" .launch 21 .target 123
 skill: .id "enforcer_rush" .type "melee" .atk 82.5% .dmg 6 12 .crit 4%  .launch 321 .target 12 .move 0 4 .is_crit_valid False .effect "SC Push 2 1" "sc_darkness_3"

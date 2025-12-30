@@ -1,4 +1,4 @@
-resistances: .stun 20% .poison 60% .bleed 20% .disease 50% .move 20% .debuff 50% .death_blow 60% .trap 20%
+resistances: .stun 20% .poison 60% .bleed 20% .disease 50% .move 20% .debuff 50% .death_blow 87% .trap 20%
 crit: .effects "on_crit_blightchance"
 weapon: .name "plague_doctor_weapon_0" .atk 0% .dmg 8 14 .crit 2% .spd 14
 weapon: .name "plague_doctor_weapon_1" .atk 0% .dmg 9 17 .crit 3% .spd 15 .upgradeRequirementCode 0

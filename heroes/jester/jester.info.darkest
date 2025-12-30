@@ -1,4 +1,4 @@
-resistances: .stun 20% .poison 40% .bleed 30% .disease 20% .move 20% .debuff 40% .death_blow 60% .trap 30%
+resistances: .stun 20% .poison 40% .bleed 30% .disease 20% .move 20% .debuff 40% .death_blow 87% .trap 30%
 crit: .effects "on_crit_stresshealdone"
 weapon: .name "jester_weapon_0" .atk 0% .dmg 8 14 .crit 4% .spd 14
 weapon: .name "jester_weapon_1" .atk 0% .dmg 9 17 .crit 5% .spd 15 .upgradeRequirementCode 0

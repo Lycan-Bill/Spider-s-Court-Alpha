@@ -1,4 +1,4 @@
-resistances: .stun 20% .poison 50% .bleed 30% .disease 30% .move 20% .debuff 30% .death_blow 60% .trap 50%
+resistances: .stun 20% .poison 50% .bleed 30% .disease 30% .move 20% .debuff 30% .death_blow 87% .trap 50%
 crit: .effects "on_crit_def"
 weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 8 16 .crit 6% .spd 16
 weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 9 19 .crit 7% .spd 17 .upgradeRequirementCode 0

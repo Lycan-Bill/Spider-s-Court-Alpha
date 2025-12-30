@@ -1,0 +1,41 @@
+
+shieldbreaker.sprite.confusion_halo.png
+size: 650,181
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: false
+  xy: 424, 15
+  size: 224, 164
+  orig: 224, 164
+  offset: 0, 0
+  index: -1
+question_mark_big
+  rotate: true
+  xy: 2, 2
+  size: 58, 85
+  orig: 58, 85
+  offset: 0, 0
+  index: -1
+question_mark_small
+  rotate: true
+  xy: 89, 15
+  size: 45, 63
+  orig: 45, 63
+  offset: 0, 0
+  index: -1
+question_mark_small_1
+  rotate: true
+  xy: 154, 15
+  size: 45, 63
+  orig: 45, 63
+  offset: 0, 0
+  index: -1
+text
+  rotate: false
+  xy: 2, 62
+  size: 420, 117
+  orig: 420, 117
+  offset: 0, 0
+  index: -1

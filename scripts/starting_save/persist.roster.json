@@ -1,5 +1,5 @@
 {
-    "version": 40993,
+    "version": 513,
     "data": {
         "nextGuid": 5,
         "heroes": {
@@ -10,7 +10,7 @@
                 "roster.missing_from": 0,
                 "roster.building_name": "",
                 "actor": {
-                    "name_id": "hero_name_baldwin",
+                    "name_id": "hero_name_boudica",
                     "current_hp": 52,
                     "stunned": 0,
                     "ranks": 1,
@@ -20,7 +20,7 @@
                     "damage_type": 0,
                     "buff_group": {}
                 },
-                "heroClass": "leper",
+                "heroClass": "hellion",
                 "resolveXp": 0,
                 "stress": 0,
                 "weapon_rank": 0,
@@ -49,14 +49,16 @@
                 },
                 "skills": {
                     "selected_combat_skills": {
-                        "chop": 0,
-                        "hew": 0,
-                        "focus": 0,
-                        "revenge": 0
+                        "wicked_hack": 0,
+                        "iron_swan": 0,
+                        "barbaric_yawp": 0,
+                        "if_it_bleeds": 0
                     },
                     "selected_camping_skills": {
                         "encourage": 0,
                         "first_aid": 0,
+                        "find_supplies": 0,
+                        "revel": 0
                     }
                 },
                 "trinkets": {
@@ -71,7 +73,7 @@
                 "roster.missing_from": 0,
                 "roster.building_name": "",
                 "actor": {
-                    "name_id": "hero_name_bigby",
+                    "name_id": "hero_name_barristan",
                     "current_hp": 62,
                     "stunned": 0,
                     "ranks": 2,
@@ -81,7 +83,7 @@
                     "damage_type": 0,
                     "buff_group": {}
                 },
-                "heroClass": "abomination",
+                "heroClass": "man_at_arms",
                 "resolveXp": 0,
                 "stress": 0,
                 "weapon_rank": 0,
@@ -116,14 +118,16 @@
                 },
                 "skills": {
                     "selected_combat_skills": {
-                        "transform": 0,
-                        "manacles": 0,
-                        "vomit": 0,
-                        "absolution": 0
+                        "crush": 0,
+                        "rampart": 0,
+                        "bellow": 0,
+                        "defender": 0
                     },
                     "selected_camping_skills": {
                         "first_aid": 0,
                         "pep_talk": 0,
+                        "hobby": 0,
+                        "instruction": 0
 						
                     }
                 },
@@ -139,7 +143,7 @@
                 "roster.missing_from": 0,
                 "roster.building_name": "",
                 "actor": {
-                    "name_id": "hero_name_william",
+                    "name_id": "hero_name_alhazred",
                     "current_hp": 38,
                     "stunned": 0,
                     "ranks": 3,
@@ -149,7 +153,7 @@
                     "damage_type": 0,
                     "buff_group": {}
                 },
-                "heroClass": "houndmaster",
+                "heroClass": "occultist",
                 "resolveXp": 0,
                 "stress": 0,
                 "weapon_rank": 0,
@@ -184,10 +188,10 @@
                 },
                 "skills": {
                     "selected_combat_skills": {
-                        "hounds_rush": 0,
-                        "hounds_harry": 0,
-                        "whistle": 0,
-                        "howl": 0
+                        "bloodlet": 0,
+                        "abyssal_artillery": 0,
+                        "amber_curse": 0,
+                        "wyrd_reconstruction": 0
                     },
                     "selected_camping_skills": {
                         "encourage": 0,
@@ -208,7 +212,7 @@
                 "roster.missing_from": 0,
                 "roster.building_name": "",
                 "actor": {
-                    "name_id": "hero_name_paracelsus",
+                    "name_id": "hero_name_margaret",
                     "current_hp": 38,
                     "stunned": 0,
                     "ranks": 4,
@@ -218,7 +222,7 @@
                     "damage_type": 0,
                     "buff_group": {}
                 },
-                "heroClass": "plague_doctor",
+                "heroClass": "musketeer",
                 "resolveXp": 0,
                 "stress": 0,
                 "weapon_rank": 0,
@@ -259,14 +263,16 @@
                 },
                 "skills": {
                     "selected_combat_skills": {
-                        "noxious_blast": 0,
-                        "plague_grenade": 0,
-                        "incision": 0,
-                        "battlefield_medicine": 0
+                        "aimed_shot": 0,
+                        "smokescreen": 0,
+                        "buckshot": 0,
+                        "bombard": 0
                     },
                     "selected_camping_skills": {
                         "hobby": 0,
                         "first_aid": 0,
+                        "scout": 0,
+                        "champ_ego": 0
                     }
                 },
                 "trinkets": {

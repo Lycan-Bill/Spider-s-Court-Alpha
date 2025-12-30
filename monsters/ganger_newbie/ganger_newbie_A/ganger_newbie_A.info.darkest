@@ -1,11 +1,11 @@
 display: .size 1
 enemy_type: .id "man"
 enemy_type: .id "ganger"
-stats: .hp 42 .def 3% .prot 0.10 .spd 4 .stun_resist 35% .poison_resist 15% .bleed_resist 25% .debuff_resist 30% .move_resist 20%
-skill: .id "ganger_pipe" .type "melee" .atk 85.5% .dmg 9 17 .crit 8%  .launch 21 .target 12 .effect "sc_darkness_3"
+stats: .hp 42 .def 3% .prot 0.10 .spd 12 .stun_resist 35% .poison_resist 15% .bleed_resist 25% .debuff_resist 30% .move_resist 20%
+skill: .id "ganger_pipe" .type "melee" .atk 85.5% .dmg 11 19 .crit 8%  .launch 21 .target 12 .effect "sc_darkness_3"
 skill: .id "ganger_pipe_weak" .type "melee" .atk 62.5% .dmg 5 8 .crit 2%  .launch 43 .target 12 .move 0 1 .is_crit_valid False .effect "sc_darkness_3"
-skill: .id "ganger_pipe_stun" .type "melee" .atk 85.5% .dmg 7 15 .crit 2%  .launch 4321 .target 1234 .effect "Ganger Damage Stunned Target 1" "sc_darkness_3" .is_crit_valid False
-skill: .id "ganger_shotgun_mark" .type "ranged" .atk 115.5% .dmg 8 17 .crit 12%  .launch 4321 .target 1234 .effect "Ganger Damage Marked Target 5" "SC Clear Marked Target" "sc_darkness_3" .is_crit_valid False
+skill: .id "ganger_pipe_stun" .type "melee" .atk 85.5% .dmg 12 21 .crit 2%  .launch 4321 .target 1234 .effect "Ganger Damage Stunned Target 1" "sc_darkness_3" .is_crit_valid False
+skill: .id "ganger_shotgun_mark" .type "ranged" .atk 115.5% .dmg 12 23 .crit 12%  .launch 4321 .target 1234 .effect "Ganger Damage Marked Target 5" "SC Clear Marked Target" "sc_darkness_3" .is_crit_valid False
 personality: .prefskill -1
 loot: .code "C" .count 1
 initiative: .number_of_turns_per_round 1

@@ -14,7 +14,7 @@ battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .c
 wave_spawning: .prefers_front True
 
 display_modifier: .disabled_popup_text_types no_damage
-spawn: .effects  "sc_rain_bot_summon"
+spawn: .effects  "sc_dark_bot_summon"
 
 skill: .id "scultist_guard" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
 skill: .id "scultist_mace" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"

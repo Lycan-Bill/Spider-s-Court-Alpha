@@ -7,7 +7,7 @@
 	
 	<entry id="str_curio_title_TheSpiv"><![CDATA[The Spiv]]></entry>
 	<entry id="str_curio_TheSpiv_merchant_credit_loot"><![CDATA[Workn' hard I see, squire!]]></entry>
-	<entry id="str_curio_content_TheSpiv"><![CDATA[MERCHANT:What can I do for ya, squire.]]></entry>
+	<entry id="str_curio_content_TheSpiv"><![CDATA[MERCHANT: What can I do for ya, squire.]]></entry>
     <entry id="str_curio_tooltip_investigate_TheSpiv"><![CDATA[He expects payment...]]></entry>
 	<entry id="str_curio_TheSpiv_nothing"><![CDATA[I ain't runnin' a charity mate!]]></entry>
 	
@@ -19,7 +19,7 @@
 	<entry id="str_curio_TheKid_effect"><![CDATA[OI! Their Over Here!]]></entry>
 	
 	<entry id="str_curio_title_snake_oil_salesman"><![CDATA[The Tonic Seller]]></entry>
-	<entry id="str_curio_content_snake_oil_salesman"><![CDATA[MERCHANT:If I may have your attention please!]]></entry>
+	<entry id="str_curio_content_snake_oil_salesman"><![CDATA[MERCHANT: If I may have your attention please!]]></entry>
     <entry id="str_curio_tooltip_investigate_snake_oil_salesman"><![CDATA[He expects payment...]]></entry>
 	<entry id="str_curio_snake_oil_salesman_merchant_credit_loot"><![CDATA[You all come back now, ya hear!]]></entry>
 	<entry id="str_curio_snake_oil_salesman_deed_loot"><![CDATA[Interesting Recipe, let me see what I can do with it.]]></entry>
@@ -48,7 +48,7 @@
 	<entry id="str_curio_food_stand_medicinal_herbs_loot"><![CDATA[The herbs eat away the mold!]]></entry>
 	
 	<entry id="str_curio_title_vending_machine"><![CDATA[Vending Machine]]></entry>
-	<entry id="str_curio_content_vending_machine"><![CDATA[Merchant: A machine that dispenses items, if paid.]]></entry>
+	<entry id="str_curio_content_vending_machine"><![CDATA[MERCHANT: A machine that dispenses items, if paid.]]></entry>
 	<entry id="str_curio_tooltip_investigate_vending_machine"><![CDATA[Exact Change Only.]]></entry>
 	<entry id="str_curio_vending_machine_nothing"><![CDATA[No money no purchase.]]></entry>
 	<entry id="str_curio_vending_machine_loot"><![CDATA[You hear a item fallout after shacking the machine in anger.]]></entry>
@@ -70,7 +70,7 @@
 	<entry id="str_curio_lamp_post_scout"><![CDATA[You manage to locate where you are on your map.]]></entry>
 	
 	<entry id="str_curio_title_fortune_teller"><![CDATA[Fortune Teller]]></entry>
-	<entry id="str_curio_content_fortune_teller"><![CDATA[A diversion once, now some take it's predictions seriously.]]></entry>
+	<entry id="str_curio_content_fortune_teller"><![CDATA[MERCHANT: A diversion once, now some take it's predictions seriously.]]></entry>
 	<entry id="str_curio_tooltip_investigate_fortune_teller"><![CDATA[The machine stares at you expecting payment.]]></entry>
 	<entry id="str_curio_fortune_teller_nothing"><![CDATA[Nothing happened.]]></entry>
 	<entry id="str_curio_fortune__teller_shovel_loot"><![CDATA[I suppose violence is one way of doing it.]]></entry>
@@ -92,6 +92,29 @@
 	<entry id="str_curio_Quarter_Carriage_loot"><![CDATA[You find some useful items in the wreckage.]]></entry>
 	<entry id="str_curio_Quarter_Carriage_effect"><![CDATA[You scream at the horror you find.]]></entry>
 	
+	<entry id="str_curio_title_hot_dog_vendor"><![CDATA[Hot Dog Maker]]></entry>
+	<entry id="str_curio_content_hot_dog_vendor"><![CDATA[MERCHANT: A honest man trying to make a honest living.]]></entry>
+	<entry id="str_curio_tooltip_investigate_hot_dog_vendor"><![CDATA[He smiles at you waitingly.]]></entry>
+	<entry id="str_curio_hot_dog_vendor_nothing"><![CDATA["Sorry friends, but I have a family to support."]]></entry>
+	<entry id="str_curio_hot_dog_vendor_merchant_credit_effect"><![CDATA[The food comforts you to a extraordinary degree.]]></entry>
+	
+	<entry id="str_curio_title_sweeper_supplies"><![CDATA[Street Sweep Supplies]]></entry>
+	<entry id="str_curio_content_sweeper_supplies"><![CDATA[Used by the now defunct cleaing crew, perhaps something of use maybe yealded.]]></entry>
+	<entry id="str_curio_tooltip_investigate_sweeper_supplies"><![CDATA[Make sure to wash your hands afterwards.]]></entry>
+	<entry id="str_curio_sweeper_supplies_nothing"><![CDATA[You find nothing.]]></entry>
+	<entry id="str_curio_sweeper_supplies_loot"><![CDATA[There is still disinfectants left.]]></entry>
+	<entry id="str_curio_sweeper_supplies_diease"><![CDATA[Maybe rummaging in an cleaning supplies is a bad idea.]]></entry>
+	<entry id="str_curio_sweeper_supplies_quirk"><![CDATA[Everything you see is unclean.]]></entry>
+	
+	<entry id="str_curio_title_newspaper_merchant"><![CDATA[Newspaper Stand]]></entry>
+	<entry id="str_curio_newspaper_merchant_merchant_credit_loot"><![CDATA["Let's see, this is the latest issue I think."]]></entry>
+	<entry id="str_curio_content_newspaper_merchant"><![CDATA[MERCHANT: He admits that most of what he has maybe outdated but still useful.]]></entry>
+    <entry id="str_curio_tooltip_investigate_newspaper_merchant"><![CDATA[He expects payment...]]></entry>
+	<entry id="str_curio_newspaper_merchant_nothing"><![CDATA["Sorry, but I can't give things away for free."]]></entry>
+	
+	<entry id="str_curio_title_crime_scene"><![CDATA[Murder Scene]]></entry>
+	<entry id="str_curio_content_crime_scene"><![CDATA[The medical examiner is bored by the slaughter he sees, and The Officers simply show resignment too it all.]]></entry>
+	<entry id="str_curio_tooltip_investigate_crime_scene"><![CDATA[Well someone has to do it.]]></entry>
 	
   </language>
 </root>

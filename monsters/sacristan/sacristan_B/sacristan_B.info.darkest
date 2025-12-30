@@ -14,6 +14,7 @@ death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
 mode: .id normal .is_raid_default true
 mode: .id poison
+spawn: .effects  "sc_dark_bot_summon"
 
 skill: .id "purge_the_impure" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
 skill: .id "purify" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"

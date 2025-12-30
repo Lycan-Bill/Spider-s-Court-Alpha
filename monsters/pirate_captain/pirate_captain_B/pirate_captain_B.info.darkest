@@ -1,0 +1,25 @@
+display: .size 1
+enemy_type: .id "unholy"
+enemy_type: .id "krewe"
+
+stats: .hp 220 .def 19.5% .prot 0 .spd 16 .stun_resist 80% .poison_resist 60% .bleed_resist 80% .debuff_resist 55% .move_resist 50%
+ 
+skill: .id "captain_summon" .effect "Summon Krewe B1" "Summon Krewe B2" "Summon Krewe B3" .launch 1234 .target .valid_modes pirate_unlit pirate_lit
+skill: .id "captain_orders" .effect "Pirate Orders 3" "Pirate Pull" .launch 1234 .target @1234 .self_target_valid False .valid_modes pirate_unlit pirate_lit
+skill: .id "captain_cutlass" .type "melee" .atk 95.5% .dmg 11 21 .crit 5% .effect "Pirate Bleed 3" .launch 1234 .target 1234 .valid_modes pirate_unlit pirate_lit
+skill: .id "captain_dance" .launch 1234 .target ~@1234 .effect "Pirate Dance 3" "Captain Shuffle" .valid_modes pirate_unlit pirate_lit
+skill: .id "captain_gun" .type "ranged" .atk 95.5% .dmg 9 19 .crit 5% .effect "Pirate Debuff 3" .launch 1234 .target 1234 .valid_modes pirate_unlit pirate_lit
+skill: .id "captain_fuse" .launch 1234 .target @1234 .effect "Light_Fuse" .self_target_valid False .valid_modes pirate_unlit
+skill: .id "pirate_escape" .effect "kill_self_queued" .launch 4321 .target .can_be_riposted false .ignore_stealth true
+
+riposte_skill: .id "riposte1" .type "melee" .atk 90.5% .dmg 1 2 .crit 0% .launch 1234 .target 1234  .is_crit_valid true
+
+personality: .prefskill -1
+initiative: .number_of_turns_per_round 2
+monster_brain: .id pirate_captain
+death_class: .monster_class_id sc_corpse_B .is_valid_on_crit False .type "corpse"
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False .living_other_enemy_buffs "pirate_crew_debuff_buff"
+wave_spawning: .prefers_front False
+
+mode: .id pirate_unlit .is_raid_default true
+mode: .id pirate_lit

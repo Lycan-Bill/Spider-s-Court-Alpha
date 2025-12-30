@@ -65,6 +65,70 @@
 			}
 		},
 		{
+			"id" : "Conf_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Conf_TT",
+			"amount" : 1,
+			"duration" : 1,
+			"duration_type" : "none",
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "Conf_TT2_1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Conf_TT2_1",
+			"amount" : 1,
+			"duration" : 1,
+			"duration_type" : "none",
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "Conf_TT2_2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Conf_TT2_2",
+			"amount" : 1,
+			"duration" : 1,
+			"duration_type" : "none",
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "Conf_TT2_3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Conf_TT2_3",
+			"amount" : 1,
+			"duration" : 1,
+			"duration_type" : "none",
+			"remove_on_battle_complete" : true,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
       "id": "dd2_burn_token_tt",
       "stat_type": "upgrade_discount",
       "stat_sub_type": "dd2_burn_token_tt",

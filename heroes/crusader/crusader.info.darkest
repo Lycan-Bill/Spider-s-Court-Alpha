@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 10%
+resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 87% .trap 10%
 crit: .effects "on_crit_prot"
 
 weapon: .name "crusader_weapon_0" .atk 0% .dmg 12 24 .crit 4% .spd 2

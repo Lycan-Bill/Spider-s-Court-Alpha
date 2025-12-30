@@ -102,6 +102,22 @@
 			},
 			"has_description": false,
 			"fx": "status_fx_burn"
+		},
+		{
+			"id": "status_confusion",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "status_confusion",
+			"amount": -1,
+			"remove_if_not_active": false,
+			"remove_on_battle_complete": true,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			},
+			"has_description": false,
+			"fx": "confusion_halo"
 		}
 	]
 }

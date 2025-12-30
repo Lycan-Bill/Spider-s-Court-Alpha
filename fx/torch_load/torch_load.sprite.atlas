@@ -1,40 +1,40 @@
 
 torch_load.sprite.png
-size: 1024,512
+size: 640,356
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 candle2
   rotate: false
-  xy: 2, 150
+  xy: 2, 2
   size: 330, 352
   orig: 330, 352
   offset: 0, 0
   index: -1
 cristal
   rotate: false
-  xy: 334, 192
+  xy: 541, 243
   size: 97, 111
   orig: 97, 111
   offset: 0, 0
   index: -1
 cristglow
-  rotate: false
-  xy: 541, 442
+  rotate: true
+  xy: 541, 158
   size: 83, 60
   orig: 83, 60
   offset: 0, 0
   index: -1
 inner_glow
   rotate: false
-  xy: 334, 305
+  xy: 334, 157
   size: 205, 197
   orig: 205, 197
   offset: 0, 0
   index: -1
 lantern
   rotate: true
-  xy: 2, 2
+  xy: 334, 9
   size: 146, 270
   orig: 146, 270
   offset: 0, 0

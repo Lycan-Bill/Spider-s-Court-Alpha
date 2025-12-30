@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 60% .bleed 30% .disease 20% .move 40% .debuff 20% .death_blow 60% .trap 10%
+resistances: .stun 40% .poison 60% .bleed 30% .disease 20% .move 40% .debuff 20% .death_blow 87% .trap 10%
 crit: .effects "on_crit_dmg"
 weapon: .name "abomination_weapon_0" .atk 0% .dmg 12 22 .crit 2% .spd 14
 weapon: .name "abomination_weapon_1" .atk 0% .dmg 14 26 .crit 3% .spd 15 .upgradeRequirementCode 0

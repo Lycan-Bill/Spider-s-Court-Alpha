@@ -10,12 +10,14 @@
 		<entry id="tray_icon_tooltip_buff_duration_none_format"><![CDATA[%s]]></entry>
 		<entry id="str_ui_actor_dot_complete"><![CDATA[]]></entry>
 		
-		<entry id="buff_stat_tooltip_upgrade_discount_HEX_TT"><![CDATA[{colour_start|white}ɽ{colour_end}{colour_start|hexed}Hex:{colour_end}  
+		<entry id="buff_stat_tooltip_upgrade_discount_HEX_TT"><![CDATA[{colour_start|hexed}Hex:{colour_end}  
 		Triggers on Action
 		Completes On Being Triggered 3 Times]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_HEX_TT2_1"><![CDATA[On Non-Killing Attack: {colour_start|debuff}Debuffs Self:{colour_end} -15%% Resistances
 		{colour_start|debuff}Debuffs Self:{colour_end} -25%% max HP healed]]></entry>
 		<entry id="buff_stat_tooltip_upgrade_discount_HEX_TT2_3"><![CDATA[{colour_start|buff}Buff Enemy Group:{colour_end} +25%% max HP healed]]></entry>
+		
+		<entry id="buff_stat_tooltip_upgrade_discount_Conf_TT"><![CDATA[{colour_start|confused}Confuse:{colour_end}]]></entry>
 		
 	</language>
 </root>

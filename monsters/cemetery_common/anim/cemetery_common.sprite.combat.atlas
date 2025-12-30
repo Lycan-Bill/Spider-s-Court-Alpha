@@ -1,0 +1,48 @@
+
+cemetery_common.sprite.combat.png
+size: 922,262
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer
+  rotate: true
+  xy: 2, 9
+  size: 251, 499
+  orig: 251, 499
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: true
+  xy: 503, 2
+  size: 85, 276
+  orig: 85, 276
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 503, 89
+  size: 106, 271
+  orig: 106, 271
+  offset: 0, 0
+  index: -1
+Layer 3 copy
+  rotate: false
+  xy: 781, 22
+  size: 74, 44
+  orig: 74, 44
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: true
+  xy: 781, 68
+  size: 127, 139
+  orig: 127, 139
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 503, 197
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

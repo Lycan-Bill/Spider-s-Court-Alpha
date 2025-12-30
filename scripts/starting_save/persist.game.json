@@ -1,9 +1,9 @@
 {
-    "version": 40993,
+    "version": 2,
     "data": {
         "totalelapsed": 0,
         "inraid": true,
         "raiddungeon": "tutorial",
-        "estatename": "The Quarter"
+        "estatename": "Flameseeker"
     }
 }

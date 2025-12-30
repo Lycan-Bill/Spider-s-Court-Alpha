@@ -3,7 +3,7 @@
 
     "requirements":
     {
-        "number_of_quests_finished": 2,
+        "number_of_quests_finished": 0,
         "highest_dungeon_level": 0
     },
 
@@ -17,7 +17,7 @@
                 {
                     "side_effects":
                     {
-                        "chance": 0.25,
+                        "chance": 0.75,
                         "results":
                         [
                             {
@@ -122,7 +122,7 @@
 
                     "affliction_cure_upgrades":
                     [
-                        { "chance": 1.00 },
+                        { "chance": 0.00 },
                         { "chance": 0.10, "upgrade_requirement_code": "g" }
                     ]
                 }    
@@ -450,7 +450,7 @@
 
                     "affliction_cure_upgrades":
                     [
-                        { "chance": 1.00 },
+                        { "chance": 0.00 },
                         { "chance": 0.10, "upgrade_requirement_code": "g" }
                     ]
                 }
@@ -521,7 +521,7 @@
 
                     "affliction_cure_upgrades":
                     [
-                        { "chance": 1.00 },
+                        { "chance": 0.00 },
                         { "chance": 0.10, "upgrade_requirement_code": "g" }
                     ]
                 }

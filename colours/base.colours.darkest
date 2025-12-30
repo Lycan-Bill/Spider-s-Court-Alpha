@@ -647,6 +647,5 @@ colour: .id "wave_skill_reset_announcement"                         .rgba #a3ffe
 colour: .id "pop_text_guard_break"				.rgba #f0cf5a
 colour: .id "pop_text_outline_guard_break"			.rgba #8e5b11
 
-colour: .id "hexed" .rgba #88e18e
 
 

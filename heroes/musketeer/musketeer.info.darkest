@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 10%
+resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 40% .debuff 30% .death_blow 87% .trap 10%
 crit: .effects "on_crit_dmgmarked"
 weapon: .name "musketeer_weapon_0" .atk 0% .dmg 9 18 .crit 6%  .spd 6  
 weapon: .name "musketeer_weapon_1" .atk 0% .dmg 10 21 .crit 7%  .spd 7  .upgradeRequirementCode 0

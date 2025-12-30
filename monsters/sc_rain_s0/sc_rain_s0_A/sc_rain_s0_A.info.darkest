@@ -16,7 +16,7 @@ display_modifier: .disabled_popup_text_types bleed_resist
 
 
 // 1). Rain Shuffle?
-spawn: .effects "sc_rain_buffs_1" "sc_rain_buffs_2" "sc_rain_shuffle_enemies" "sc_rain_shuffle_heroes" 
+spawn: .effects "sc_rain_buffs_1" "sc_rain_buffs_2" "sc_rain_shuffle_enemies" "sc_rain_shuffle_heroes"
 spawn: .effects "sc_rain_suicide"
 
 

@@ -377,6 +377,90 @@
         "string": ""
       }
     },
+    {	
+	"id": "confu_target_enemy_1",
+      "stat_type": "random_target_attack_chance",
+      "stat_sub_type": "",
+      "amount": 0.50,
+	  "duration_type" : "after_turn",
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+     }
+    },
+    {	
+	"id": "confu_target_enemy_3",
+      "stat_type": "random_target_attack_chance",
+      "stat_sub_type": "",
+      "amount": 0.65,
+	  "duration_type" : "after_turn",
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "confu_target_enemy_5",
+      "stat_type": "random_target_attack_chance",
+      "stat_sub_type": "",
+      "amount": 0.75,
+	  "duration_type" : "after_turn",
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "confu_target_friendly_1",
+      "stat_type": "random_target_friendly_chance",
+      "stat_sub_type": "",
+      "amount": 0.50,
+	  "duration_type" : "after_turn",
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "confu_target_friendly_3",
+      "stat_type": "random_target_friendly_chance",
+      "stat_sub_type": "",
+      "amount": 0.65,
+	  "duration_type" : "after_turn",
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {	
+	"id": "confu_target_friendly_5",
+      "stat_type": "random_target_friendly_chance",
+      "stat_sub_type": "",
+      "amount": 0.75,
+	  "duration_type" : "after_turn",
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
     {
 	  "id": "spider_bishop_blight_amount_increase",
       "stat_type": "hp_dot_poison_amount_percent",
@@ -815,6 +899,58 @@
       "stat_type": "resistance",
       "stat_sub_type": "bleed",
       "amount": -0.5,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "pirate_crew_mark_buff",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.12,
+      "remove_if_not_active": false,
+      "rule_type": "actorStatus",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "tagged"
+      }
+    },
+    {
+      "id": "pirate_crew_debuff_buff",
+      "stat_type": "debuff_chance",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "pirate_crew_bleed_buff",
+      "stat_type": "bleed_chance",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "pirate_crew_acc_buff",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.10,
       "remove_if_not_active": false,
       "rule_type": "always",
       "is_false_rule": false,
@@ -1660,6 +1796,21 @@
          "rule_data" : {
             "float" : 0,
             "string" : "ganger"	
+      }
+      },
+      {
+         "id" : "lantern_zero_light_mark",
+         "stat_type" : "tag",
+         "stat_sub_type":"",
+         "amount": 1,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
       }
     }
   ]

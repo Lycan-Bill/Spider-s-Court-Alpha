@@ -10,6 +10,8 @@ initiative: .number_of_turns_per_round 1
 monster_brain: .id bishop_D
 death_class: .monster_class_id sc_corpse_C .is_valid_on_crit False .type "sc_corpse" 
 battle_modifier: .accelerate_stall_penalty true .disable_stall_penalty False .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False
+spawn: .effects  "sc_dark_bot_summon"
+
 
 skill: .id "sc_preach" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"
 skill: .id "sc_proclaim" .effect "dd2_firedot_key_1" "dd2_monster_steal_target" "dd2_monster_steal_self" "dd2_eot_bot_summon"

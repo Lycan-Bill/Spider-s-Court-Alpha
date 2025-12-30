@@ -2,14 +2,14 @@
 <root>
   <language id="english">
     <entry id="resistance_base"><![CDATA[Base]]></entry>
-    <entry id="resistance_name_bleed"><![CDATA[{colour_start|bleed}BLD{colour_end}]]></entry>
-    <entry id="resistance_name_death_blow"><![CDATA[{colour_start|deathblow}DTH{colour_end}]]></entry>
-    <entry id="resistance_name_debuff"><![CDATA[{colour_start|debuff}DBFF{colour_end}]]></entry>
-    <entry id="resistance_name_disease"><![CDATA[{colour_start|disease}DIS{colour_end}]]></entry>
-    <entry id="resistance_name_move"><![CDATA[{colour_start|move}MOV{colour_end}]]></entry>
-    <entry id="resistance_name_poison"><![CDATA[{colour_start|blight}BLGT{colour_end}]]></entry>
-    <entry id="resistance_name_stun"><![CDATA[{colour_start|stun}STN{colour_end}]]></entry>
-    <entry id="resistance_name_trap"><![CDATA[{colour_start|trap}TRP{colour_end}]]></entry>
+    <entry id="resistance_name_bleed"><![CDATA[{colour_start|bleed}Bleed{colour_end}]]></entry>
+    <entry id="resistance_name_death_blow"><![CDATA[{colour_start|deathblow}Deathblow{colour_end}]]></entry>
+    <entry id="resistance_name_debuff"><![CDATA[{colour_start|debuff}Debuff{colour_end}/{colour_start|burn}Burn{colour_end}]]></entry>
+    <entry id="resistance_name_disease"><![CDATA[{colour_start|disease}Diease{colour_end}]]></entry>
+    <entry id="resistance_name_move"><![CDATA[{colour_start|move}Move{colour_end}]]></entry>
+    <entry id="resistance_name_poison"><![CDATA[{colour_start|blight}Blight{colour_end}]]></entry>
+    <entry id="resistance_name_stun"><![CDATA[{colour_start|stun}Stun{colour_end}]]></entry>
+    <entry id="resistance_name_trap"><![CDATA[{colour_start|trap}Trap{colour_end}]]></entry>
     <entry id="resistance_resolve_level"><![CDATA[Resolve Level]]></entry>
 	
 	<!--Quirks-->
@@ -58,6 +58,25 @@
 	<entry id="town_quest_description_gather_rainfall+4+crypts+gather_holy_relic_rainfall"><![CDATA[The Spiv has talked to his connections and managed to get supplies sent, unfortunately the Gangers have taken the supplies, find them and take it back.]]></entry>
 	<entry id="town_quest_description_gather_rainfall+5+crypts+gather_holy_relic_rainfall"><![CDATA[The Spiv has talked to his connections and managed to get supplies sent, unfortunately the Gangers have taken the supplies, find them and take it back.]]></entry>
 	
+	<!--Town Things-->
+	<entry id="str_meditation_stress_relief_affliction_cured_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end} and is no longer {colour_start|town_activity_log_positive_result}{?affliction}%s{colour_end}.]]></entry>
+    <entry id="str_meditation_stress_relief_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} studied and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end}.]]></entry>
+	
+	 <entry id="str_prayer_stress_relief_affliction_cured_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} prayed and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end} and is no longer {colour_start|town_activity_log_positive_result}{?affliction}%s{colour_end}.]]></entry>
+    <entry id="str_prayer_stress_relief_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} conducted research and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end}.]]></entry>
+	
+	 <entry id="str_flagellation_stress_relief_affliction_cured_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} engaged in flagellation and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end} and is no longer {colour_start|town_activity_log_positive_result}{?affliction}%s{colour_end}.]]></entry>
+    <entry id="str_flagellation_stress_relief_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} experimented with unknown components and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end}.]]></entry>
+	
+	<entry id="str_bar_stress_relief_affliction_cured_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} had a night on the town and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end} and is no longer {colour_start|town_activity_log_positive_result}{?affliction}%s{colour_end}.]]></entry>
+    <entry id="str_bar_stress_relief_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} had a night on the town and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress.{colour_end}]]></entry>
+	
+	<entry id="str_gambling_stress_relief_affliction_cured_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} gambled and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end} and is no longer {colour_start|town_activity_log_positive_result}{?affliction}%s{colour_end}.]]></entry>
+    <entry id="str_gambling_stress_relief_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} gambled and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end}.]]></entry>
+	
+	 <entry id="str_brothel_stress_relief_affliction_cured_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} engaged in pleasures of the flesh and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end} and is no longer {colour_start|town_activity_log_positive_result}{?affliction}%s{colour_end}.]]></entry>
+    <entry id="str_brothel_stress_relief_story"><![CDATA[{colour_start|town_activity_log_building_name}{?building_name}%s:{colour_end} {colour_start|notable}{?hero_name}%s{colour_end} engaged in smuggling operations and recovered {colour_start|town_activity_log_positive_result}{?stress_amount}%d{colour_end} {colour_start|stressNOT1}stress{colour_end}.]]></entry>
+	
 	<!--Monster Types-->
   <entry id="enemy_type_name_ganger"><![CDATA[Ganger]]></entry>
   <entry id="buff_rule_data_tooltip_ganger"><![CDATA[Ganger]]></entry>
@@ -65,9 +84,20 @@
   <entry id="enemy_type_name_zombie"><![CDATA[Ghoul]]></entry>
   <entry id="buff_rule_data_tooltip_zombie"><![CDATA[Ghoul]]></entry>
   
-  <entry id="enemy_type_name_ghost"><![CDATA[Wraith]]></entry>
-  <entry id="buff_rule_data_tooltip_ghost"><![CDATA[Wraith]]></entry>
+  <entry id="enemy_type_name_ghost"><![CDATA[Wight]]></entry>
+  <entry id="buff_rule_data_tooltip_ghost"><![CDATA[Wight]]></entry>
   
+  <entry id="enemy_type_name_vampire"><![CDATA[Vampire]]></entry>
+  <entry id="buff_rule_data_tooltip_vampire"><![CDATA[Vampire]]></entry>
+  
+  <entry id="enemy_type_name_witch"><![CDATA[Maleficium]]></entry>
+  <entry id="buff_rule_data_tooltip_witch"><![CDATA[Maleficium]]></entry>
+  
+  <entry id="enemy_type_name_werewolf"><![CDATA[Rougarou]]></entry>
+  <entry id="buff_rule_data_tooltip_werewolf"><![CDATA[Rougarou]]></entry>
+  
+  <entry id="enemy_type_name_krewe"><![CDATA[Buccaneer]]></entry>
+  <entry id="buff_rule_data_tooltip_krewe"><![CDATA[Buccaneer]]></entry>
   
   <!--Items-->
       <entry id="str_inventory_description_supplyantivenom"><![CDATA[{colour_start|skill_unselectable}Concoction{colour_end}
@@ -77,9 +107,9 @@ Cure {colour_start|blight}Blight{colour_end}
 Cure {colour_start|bleed}Bleed{colour_end}
 {colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
 
-<entry id="str_inventory_title_estateburn_salve"><![CDATA[Burn Salve]]></entry>
+<entry id="str_inventory_title_supplyburn_salve"><![CDATA[Burn Salve]]></entry>
 
-<entry id="str_inventory_description_estateburn_salve"><![CDATA[{colour_start|skill_unselectable}Adhesive{colour_end}
+<entry id="str_inventory_description_supplyburn_salve"><![CDATA[{colour_start|skill_unselectable}Adhesive{colour_end}
 Cure {colour_start|burn}Burn{colour_end}
 {colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
 
@@ -153,23 +183,59 @@ Cure
     <entry id="str_inventory_description_estateHawthorn_Oil"><![CDATA[{colour_start|skill_unselectable}Supportive{colour_end}
 {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
 {colour_start|buff}Buff:{colour_end}
-+15% DMG Vs Bloodsuckers
-+9% CRIT Vs Bloodsuckers]]></entry>
++15% DMG Vs Vampires
++9% CRIT Vs Vampires]]></entry>
+
+<!--Burnt Contract-->
+    <entry id="str_inventory_title_estateBurnt_Contract"><![CDATA[Burnt Contract]]></entry>
+    <entry id="str_inventory_description_estateBurnt_Contract"><![CDATA[Some will do anything for power...
+{colour_start|skill_unselectable}Look for the accountant he may reward you for redeeming these.{colour_end}]]></entry>
+
+<!--Hawthorn Oil-->
+    <entry id="str_inventory_title_estateSoul_Contract"><![CDATA[Infernal Agreement]]></entry>
+    <entry id="str_inventory_description_estateSoul_Contract"><![CDATA[The devils are in the details...
+{colour_start|skill_unselectable}Sell your soul to become infernal.{colour_end}]]></entry>
+
+<!--Hawthorn Oil-->
+    <entry id="str_inventory_title_estateBerserk_Tonic"><![CDATA[Berserk Tonic]]></entry>
 	
-	<!--Merchant Credit-->
-    <entry id="str_inventory_title_estateLantern_Oil_Good"><![CDATA[Castor Oil]]></entry>
-    <entry id="str_inventory_description_estateLantern_Oil_Good"><![CDATA[A vegetable-based oil that is derived from the castor bean.
-+14 Light]]></entry>
+    <entry id="str_inventory_description_estateBerserk_Tonic"><![CDATA[{colour_start|skill_unselectable}Supportive{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+{colour_start|buff}Buff:{colour_end}
+{colour_start|riposte}Riposte{colour_end} for 3 rds]]></entry>
 
-<!--Merchant Credit-->
-    <entry id="str_inventory_title_estateLantern_Oil_standard"><![CDATA[Fish Oil]]></entry>
-    <entry id="str_inventory_description_estateLantern_Oil_standard"><![CDATA[An oil that is derived from the tissues of oily fish, but it does not burn very brightly.
-+10 Light]]></entry>
+<!--liquor-->
+<entry id="str_inventory_title_estateDisillery_Whiskey"><![CDATA[Rotgut Juice]]></entry>
+<entry id="str_inventory_description_estateDisillery_Whiskey"><![CDATA[{colour_start|skill_unselectable}Liquor{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+Heal 15 {colour_start|stress}stress{colour_end}
+{colour_start|debuff}Debuff:{colour_end}
+-25 DODGE
+-5 ACC]]></entry>
 
-<!--Merchant Credit-->
-    <entry id="str_inventory_title_estateLantern_Oil_Best"><![CDATA[Kerosene]]></entry>
-    <entry id="str_inventory_description_estateLantern_Oil_Best"><![CDATA[Oil used to run many things, now rare in these parts.
-+20 Light]]></entry>
+<entry id="str_inventory_title_estateDisillery_Wine"><![CDATA[Stump Water]]></entry>
+<entry id="str_inventory_description_estateDisillery_Wine"><![CDATA[{colour_start|skill_unselectable}Liquor{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+Heal 15 {colour_start|stress}stress{colour_end}
+{colour_start|buff}Buff:{colour_end}
+10%% CRIT
+{colour_start|debuff}Debuff:{colour_end}
+-15 DODGE
+-3 ACC]]></entry>
+
+<entry id="str_inventory_title_estateDisillery_Best"><![CDATA[White Lightning]]></entry>
+<entry id="str_inventory_description_estateDisillery_Best"><![CDATA[{colour_start|skill_unselectable}Liquor{colour_end}
+{colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end} {colour_start|skill_pip_party}¤{colour_end}
+Heal 25 {colour_start|stress}stress{colour_end}
+{colour_start|buff}Buff:{colour_end}
+12%% CRIT
+{colour_start|debuff}Debuff:{colour_end}
+-15 DODGE]]></entry>
+
+	<!--Lantern Oil-->
+    <entry id="str_inventory_title_supplytorch"><![CDATA[Lantern Oil]]></entry>
+    <entry id="str_inventory_description_supplytorch"><![CDATA[Low quality lantern oil. It won't last long, but it is certainly preferable to the alternative...
+{colour_start|skill_unselectable}Beware the dark{colour_end}]]></entry>
 
 <!--Firecracker-->
     <entry id="str_inventory_title_estatesc_firecracker"><![CDATA[Firecracker]]></entry>

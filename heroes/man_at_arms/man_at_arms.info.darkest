@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 30% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 10%
+resistances: .stun 40% .poison 30% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 87% .trap 10%
 crit: .effects "on_crit_stressresist"
 weapon: .name "man_at_arms_weapon_0" .atk 0% .dmg 10 18 .crit 2% .spd 6
 weapon: .name "man_at_arms_weapon_1" .atk 0% .dmg 12 21 .crit 3% .spd 7 .upgradeRequirementCode 0

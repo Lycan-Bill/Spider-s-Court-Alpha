@@ -7,3 +7,12 @@ effect: .name "HEX_apply_TT" 	.target "target" .chance 500% .buff_ids "HEX_TT" "
 
 effect: .name "HEX_DEBUFFS" .target "target" .chance 520% .buff_ids "SC_HEX_DEBUFF_1" "SC_HEX_DEBUFF_2" "SC_HEX_DEBUFF_3" "SC_HEX_DEBUFF_4" "SC_HEX_DEBUFF_5" "hex_heal_debuff" .duration 3 .on_hit true .on_miss false .queue true
 effect: .name "HEX_BUFFS" .target "target_enemy_group" .chance 540% .buff_ids "hex_enemy_heal" .duration 3 .on_hit true .on_miss false .queue true
+
+///Confusion
+effect: .name "Conf_apply_TT_1" 	.target "target" .chance 110% .buff_ids "Conf_TT" .on_hit true .on_miss false .has_description false  .buff_is_clear_debuff_valid false .buff_source_type bsrc_never_again .buff_duration_type none
+effect: .name "Conf_apply_TT_2" 	.target "target" .chance 140% .buff_ids "Conf_TT" .on_hit true .on_miss false .has_description false  .buff_is_clear_debuff_valid false .buff_source_type bsrc_never_again .buff_duration_type none
+effect: .name "Conf_apply_TT_3" 	.target "target" .chance 160% .buff_ids "Conf_TT" .on_hit true .on_miss false .has_description false  .buff_is_clear_debuff_valid false .buff_source_type bsrc_never_again .buff_duration_type none
+
+effect: .name "Confusion 1" .target "target" .chance 110% .buff_ids "Conf_TT" "confu_target_enemy_1" "confu_target_friendly_1" "status_confusion" .duration 1 .buff_duration_type none .on_hit true .on_miss false .queue true .buff_is_clear_debuff_valid false .buff_source_type bsrc_never_again
+effect: .name "Confusion 3" .target "target" .chance 140% .buff_ids "Conf_TT" "confu_target_enemy_3" "confu_target_friendly_3" "status_confusion" .duration 1 .buff_duration_type none .on_hit true .on_miss false .queue true .buff_is_clear_debuff_valid false .buff_source_type bsrc_never_again
+effect: .name "Confusion 5" .target "target" .chance 160% .buff_ids "Conf_TT" "confu_target_enemy_5" "confu_target_friendly_5" "status_confusion" .duration 1 .buff_duration_type none .on_hit true .on_miss false .queue true .buff_is_clear_debuff_valid false .buff_source_type bsrc_never_again

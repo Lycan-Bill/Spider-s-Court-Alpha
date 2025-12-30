@@ -1,5 +1,43 @@
 {
     "goals": [
+ 
+           {
+            "id": "investigate_activate_crime_scene",
+            "type": "activate",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "crime_scene",
+                "amount": 1
+            }
+        },
+        {
+            "id": "investigate_gather_witness_evidence",
+            "type": "gather",
+			"starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+			"data": {
+                "curio_name": "blood_trail_1",
+                "item": {
+                    "type": "quest_item",
+                    "id": "holy_relic",
+                    "amount": 1
+                }
+            }
+        },
+        {
+            "id": "investigate_explore_all_rooms",
+            "type": "explore_room",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "amount": 0,
+                "percentage": 1.0
+            }
+        },
         {
             "id": "tutorial_final_room",
             "type": "tutorial_room",
@@ -23,7 +61,33 @@
                 "amount": 1
             }
         },
-        {
+		{
+            "id": "kill_pirate_krewe_B",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "pirate_captain_B"
+                ],
+                "amount": 1
+            }
+        },
+		{
+            "id": "kill_pirate_krewe_C",
+            "type": "kill_monster",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": true,
+            "data": {
+                "monster_class_ids": [
+                    "pirate_captain_C"
+                ],
+                "amount": 1
+            }
+        },
+		{
             "id": "explore_all_rooms",
             "type": "explore_room",
             "starting_items": [],
@@ -574,6 +638,21 @@
                     "goals": [
                         [
                             "inventory_activate_corrupted_altar_rainfall"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "investigation",
+            "goal_lists": [
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+                            "investigate_activate_crime_scene",
+							"investigate_gather_witness_evidence",
+							"investigate_explore_all_rooms"
                         ]
                     ]
                 }

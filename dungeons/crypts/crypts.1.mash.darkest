@@ -51,6 +51,6 @@ named: .name summon_kid .chance 1 .types ganger_enforcer_A ganger_gunner_A gange
 
 named: .name tutorial_mash_01 .chance 1 .types ganger_newbie_A ganger_gunner_A ganger_grenadier_A ganger_lookout_A
 named: .name tutorial_mash_02 .chance 1 .types ganger_enforcer_A ganger_gunner_A ganger_lookout_A ganger_assassin_A
-named: .name tutorial_mash_03 .chance 1 .types SCultist_Mace_A SCultist_Witch_A  SCultist_Chains_A
+named: .name tutorial_mash_03 .chance 1 .types SCultist_Mace_A SCultist_Witch_T  SCultist_Chains_A SCultist_Nun_A
 named: .name tutorial_mash_04 .chance 1 .types ganger_enforcer_A ganger_newbie_A ganger_lookout_A ganger_assassin_A
 named: .name tutorial_mash_05 .chance 1 .types ganger_enforcer_A ganger_enforcer_A ganger_gunner_A

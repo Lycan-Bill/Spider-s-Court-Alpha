@@ -13,7 +13,10 @@
 	
 	{"event_id": "event:/general/items/Lantern_Oil_standard",                   		"guid_override":"{f94d87a2-ef37-48ac-beea-6a3b680a5ce2}"},
 	{"event_id": "event:/general/items/Lantern_Oil_Good",                   		"guid_override":"{f94d87a2-ef37-48ac-beea-6a3b680a5ce2}"},
-	{"event_id": "event:/general/items/Lantern_Oil_Best",                   		"guid_override":"{f94d87a2-ef37-48ac-beea-6a3b680a5ce2}"}
+	{"event_id": "event:/general/items/Lantern_Oil_Best",                   		"guid_override":"{f94d87a2-ef37-48ac-beea-6a3b680a5ce2}"},
+	
+	{"event_id": "event:/general/status/buff_fx_confusion_halo_onset",			"guid_override":"{1b4e8256-fa91-4703-ab77-885db8faa70c}"},
+	{"event_id": "event:/general/status/buff_fx_confusion_halo_release",			"guid_override":"{654d68b4-96d3-45b9-8ce4-baf86f11c0a3}"}
 	
     ]
 		

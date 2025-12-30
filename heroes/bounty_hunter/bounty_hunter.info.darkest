@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 30% .bleed 30% .disease 20% .move 40% .debuff 30% .death_blow 60% .trap 40%
+resistances: .stun 40% .poison 30% .bleed 30% .disease 20% .move 40% .debuff 30% .death_blow 87% .trap 40%
 crit: .effects "on_crit_dmgmarked"
 weapon: .name "bounty_hunter_weapon_0" .atk 0% .dmg 10 20 .crit 4% .spd 10
 weapon: .name "bounty_hunter_weapon_1" .atk 0% .dmg 11 23 .crit 5% .spd 11 .upgradeRequirementCode 0

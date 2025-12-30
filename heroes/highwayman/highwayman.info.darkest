@@ -1,4 +1,4 @@
-resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 60% .trap 40%
+resistances: .stun 30% .poison 30% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 87% .trap 40%
 crit: .effects "on_crit_speed"
 weapon: .name "highwayman_weapon_0" .atk 0% .dmg 12 23 .crit 5% .spd 10
 weapon: .name "highwayman_weapon_1" .atk 0% .dmg 14 26 .crit 6% .spd 11 .upgradeRequirementCode 0

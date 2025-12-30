@@ -1,0 +1,62 @@
+
+pirate_cannon.sprite.combat.png
+size: 399,564
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boneman_armL
+  rotate: true
+  xy: 2, 298
+  size: 101, 257
+  orig: 101, 257
+  offset: 0, 0
+  index: -1
+boneman_armR
+  rotate: false
+  xy: 275, 305
+  size: 122, 257
+  orig: 122, 257
+  offset: 0, 0
+  index: -1
+boneman_jaw
+  rotate: false
+  xy: 136, 133
+  size: 78, 64
+  orig: 78, 64
+  offset: 0, 0
+  index: -1
+boneman_legL
+  rotate: true
+  xy: 2, 199
+  size: 97, 248
+  orig: 97, 248
+  offset: 0, 0
+  index: -1
+boneman_legR
+  rotate: false
+  xy: 261, 67
+  size: 102, 236
+  orig: 102, 236
+  offset: 0, 0
+  index: -1
+boneman_skull
+  rotate: false
+  xy: 2, 68
+  size: 132, 129
+  orig: 132, 129
+  offset: 0, 0
+  index: -1
+boneman_torso
+  rotate: true
+  xy: 2, 401
+  size: 161, 271
+  orig: 161, 271
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 2
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

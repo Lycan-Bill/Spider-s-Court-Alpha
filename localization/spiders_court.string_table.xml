@@ -165,10 +165,76 @@ Current Torch Level:]]></entry>
   
   <entry id="str_monster_skill_vampire_bite"><![CDATA[{colour_start|white}ɡɡɡɡʤɣɣɣɣɩɮɬɰ{colour_end}The Embrace]]></entry>
   
+ <!--Menu Things-->
+ <entry id="menu_base_element_view_glossary"><![CDATA[Grimoire]]></entry>
+  
+  <!-- Glossary --> 
+	<entry id="str_glossary_ancestor_quote"><![CDATA[Take heed and read this tome first.]]></entry>
+	<entry id="str_glossary_term_1"><![CDATA[{colour_start|invisible}​​{colour_end}Effect Icon Key]]></entry>
+	<entry id="str_glossary_term_definition_1"><![CDATA[{colour_start|white}ɬ{colour_end} - {colour_start|healhp}Heal{colour_end} Target
+{colour_start|white}ɭ{colour_end} - {colour_start|healhp}Restoration{colour_end} Target
+{colour_start|white}ɮ{colour_end} - {colour_start|stress}Stress{colour_end} Target
+{colour_start|white}ɯ{colour_end} - {colour_start|stress}Horror{colour_end} Target
+{colour_start|white}ɰ{colour_end} - {colour_start|stress}Stress Heal{colour_end} Target
+{colour_start|white}ʎ{colour_end} - {colour_start|bleed}Bleed{colour_end} Target
+{colour_start|white}ʏ{colour_end} - {colour_start|blight}Blight{colour_end} Target
+{colour_start|white}ɝ{colour_end} - {colour_start|burn}Burn{colour_end} Target
+{colour_start|white}ʐ{colour_end} - {colour_start|buff}Buff{colour_end} Target
+{colour_start|white}ʑ{colour_end} - {colour_start|debuff}Debuff{colour_end} Target
+{colour_start|white}ʓ{colour_end} - {colour_start|stun}Stun{colour_end} Target
+{colour_start|white}ʷ{colour_end} - {colour_start|stun}Stun{colour_end} Target for 2 Turns
+{colour_start|white}ʔ{colour_end} - {colour_start|mark}Mark{colour_end} Target
+{colour_start|white}ʕ{colour_end} - Activate {colour_start|riposte}Riposte{colour_end}
+{colour_start|white}ʖ{colour_end} - {colour_start|disease}Disease{colour_end} Target
+{colour_start|white}ʗ{colour_end} - {colour_start|guard}Guard{colour_end} Target
+{colour_start|white}ʘ{colour_end} - Break Guard on Target
+{colour_start|white}ɱ{colour_end} - {colour_start|move}Push{colour_end} Target
+{colour_start|white}ɲ{colour_end} - {colour_start|move}Pull{colour_end} Target
+{colour_start|white}ɳ{colour_end} - {colour_start|move}Shuffle{colour_end} Target
+{colour_start|white}ɴ{colour_end} - {colour_start|move}Stumble{colour_end} Target
+{colour_start|white}ʙ{colour_end} - Apply Aegis
+{colour_start|white}ʚ{colour_end} - {colour_start|stealth}Stealth{colour_end} Target
+{colour_start|white}'{colour_end} - Attack Ignores PROT
+{colour_start|white}ʻ{colour_end} - Attack Ignores {colour_start|riposte}Riposte{colour_end}
+{colour_start|white}ɾ{colour_end} - {colour_start|hexed}Hex{colour_end} Target
+{colour_start|white}ɽ{colour_end} - {colour_start|confused}Confusion{colour_end} Target
+{colour_start|white}ʃ{colour_end} - Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}/{colour_start|stun}Stun{colour_end}/{colour_start|debuff}Debuff{colour_end}/ {colour_start|mark}Mark{colour_end}
+{colour_start|white}ʄ{colour_end} - Cure {colour_start|bleed}Bleed{colour_end}
+{colour_start|white}ʅ{colour_end} - Cure {colour_start|blight}Blight{colour_end}
+{colour_start|white}ʆ{colour_end} - Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}
+{colour_start|white}ʇ{colour_end} - Cure {colour_start|debuff}Debuff{colour_end}
+{colour_start|white}ʈ{colour_end} - Cure {colour_start|mark}Mark{colour_end}
+{colour_start|white}ʉ{colour_end} - Cure {colour_start|stun}Stun{colour_end}
+{colour_start|white}̥{colour_end} - Cure {colour_start|stun}Stun{colour_end}/{colour_start|debuff}Debuff{colour_end}
+{colour_start|white}ʊ{colour_end} - Clear {colour_start|stealth}Stealth{colour_end}
+{colour_start|white}ɷ{colour_end} - Bonus DMG vs {colour_start|mark}Marked{colour_end}
+{colour_start|white}ɸ{colour_end} - Bonus DMG vs {colour_start|bleed}Bleeding{colour_end}
+{colour_start|white}ɹ{colour_end} - Bonus DMG vs {colour_start|blight}Blighted{colour_end}
+{colour_start|white}̦{colour_end} - Bonus DMG vs {colour_start|stun}Stunned{colour_end}
+{colour_start|white}̤{colour_end} - Bonus {colour_start|stress}Stress{colour_end} vs {colour_start|amberblighted}Amberblighted{colour_end}
+{colour_start|white}̣{colour_end} - Rank Marked
+{colour_start|white}ʌ{colour_end} - Rank Marked by Enchantress
+{colour_start|white}"{colour_end} - Target is Captured and Removed from Party
+{colour_start|white}̡{colour_end} - Attack Ignores {colour_start|deathblow}Deathblow{colour_end} Resist
+{colour_start|white}ʡ{colour_end} - Targets two Heroes Randomly
+{colour_start|white}ʣ{colour_end} - Targets three Heroes Randomly
+{colour_start|white}ʂ{colour_end} - Activates {colour_start|notable}Swarming{colour_end}
+{colour_start|white}ʁ{colour_end} - Target Changes (Usually used for transformations)
+{colour_start|white}ʀ{colour_end} - Summons Ally Monster
+{colour_start|white}ɵ{colour_end} - Increase Torch
+{colour_start|white}ɶ{colour_end} - Decrease Torch
+{colour_start|white}ʋ{colour_end} - Used as a Free Action
+{colour_start|white}ʟ{colour_end} - Cause {colour_start|harmful}Harm{colour_end} to Self or Ally
+{colour_start|white}ʠ{colour_end} - Skill Interacts with Enemy Corpse]]></entry>
+  
+  
+  <!--Buff/General Tooltips-->
+  <entry id="buff_stat_tooltip_random_target_friendly_chance"><![CDATA[%+d%% Random Friendly Target Chance]]></entry>
+  <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[%+d%% Random Enemy Target Chance]]></entry>
   
   <!-- Heirlooms -->
 	
-	<entry id="raid_results_party_heirloom_inventory_title"><![CDATA[Collected Relics]]></entry>
+	<entry id="raid_results_party_heirloom_inventory_title"><![CDATA[Collected Materials]]></entry>
 	<entry id="str_inventory_title_heirloombust"><![CDATA[Cold Iron]]></entry>
 	<entry id="str_inventory_title_heirloomcrest"><![CDATA[Blessing]]></entry>
 	<entry id="str_inventory_title_heirloomdeed"><![CDATA[Tomes Of Knowledge]]></entry>
@@ -178,21 +244,65 @@ Current Torch Level:]]></entry>
 	<entry id="str_inventory_description_heirloomcrest"><![CDATA[It failed to protect its owner, but perhaps...]]></entry>
 	<entry id="str_inventory_description_heirloomdeed"><![CDATA[Ancient books with secret esoteric information, sought after by some.]]></entry>
 	<entry id="str_inventory_description_heirloomportrait"><![CDATA[Stolen directly from the court's treasurey...]]></entry>
-	<entry id="str_inventory_description_shard"><![CDATA[Tragic one needs money even in Hell these days.]]></entry>
+	<entry id="str_inventory_description_shard"><![CDATA[Tragic one needs money even in Hell these days.
+	{colour_start|skill_unselectable}Some merchants value these coins,{colour_end}]]></entry>
 	
 	<entry id="str_inventory_title_heirloomblueprint"><![CDATA[Engine Parts]]></entry>
 	<entry id="str_inventory_description_heirloomblueprint"><![CDATA[Engine parts to repair our machines outlawed by the court...]]></entry>
 	<entry id="buff_rule_data_tooltip_blueprint"><![CDATA[Engine Parts]]></entry>
 	
-	<entry id="town_name_heirloom_exchange"><![CDATA[Trade Relics]]></entry>
+	<entry id="town_name_heirloom_exchange"><![CDATA[Trade Materials]]></entry>
    
 	<entry id="town_estate_bar_tooltip_bust"><![CDATA[Cold Iron: %d (Used to upgrade quarter facilities.)]]></entry>
 	<entry id="town_estate_bar_tooltip_crest"><![CDATA[Blessing: %d (Used to upgrade quarter facilities.)]]></entry>
 	<entry id="town_estate_bar_tooltip_deed"><![CDATA[Tomes of Knowledge: %d (Used to upgrade quarter facilities.)]]></entry>
 	<entry id="town_estate_bar_tooltip_portrait"><![CDATA[BloodSucker Treasure: %d (Used to upgrade quarter facilities.)]]></entry>
 	<entry id="town_estate_bar_tooltip_shard"><![CDATA[Silver Coins: %d (Used for trading with the infernal and activaties.)]]></entry>
-	<entry id="town_estate_bar_tooltip_blueprint"><![CDATA[Engine parts: %d (Used to create town quarters.)]]></entry>
+	<entry id="town_estate_bar_tooltip_blueprint"><![CDATA[Engine Parts: %d (Used to create town quarters.)]]></entry>
   
+  <!-- Tutorial Popup -->
+  <entry id="tutorial_popup_afflicted_description"><![CDATA[When heroes {colour_start|notable}can't take the {colour_start|stressNOT1}stress{colour_end} any more{colour_end}, they can become {colour_start|harmful}AFFLICTED{colour_end}. This manifests in {colour_start|notable}different behaviors{colour_end} and {colour_start|notable}stat changes{colour_end}. {colour_start|harmful}Afflictions{colour_end} last until you {colour_start|notable}send them to treatment{colour_end} on the Flameseeker, unless you can reduce their {colour_start|stressNOT1}stress{colour_end} to zero during the quest.]]></entry>
+  <entry id="tutorial_popup_crimson_curse_death_description"><![CDATA[Your hero is {colour_start|hexed}Hexed{colour_end}!
+    
+ New statuses are applied in combat from both friends and foes, such as {colour_start|hexed}Hex{colour_end}, {colour_start|confused}Confusion{colour_end}, {colour_start|leeching}Leeching{colour_end}, {colour_start|frantic}Frantic{colour_end}, and {colour_start|enraged}Enraged{colour_end}. 
+ These new statuses are all identifiable by their effect on top of the character, with details shown by hovering over the special icon above the health bar.]]></entry>
+ <entry id="tutorial_popup_crimson_curse_death_title"><![CDATA[New Statuses]]></entry>
+
+
+<entry id="tutorial_popup_consider_retreat_title"><![CDATA[Discretion is the better part of valor...]]></entry>
+<entry id="tutorial_popup_curio_description"><![CDATA[Merchants can be found in hallway and rooms, they can offer services and valuables in exchange for currency or specials in exhange.]]></entry>
+<entry id="tutorial_popup_curio_title"><![CDATA[Merchants]]></entry>
+
+<entry id="tutorial_popup_stress_description"><![CDATA[Many actions and experiences cause {colour_start|harmful}{colour_start|stressNOT1}stress{colour_end}{colour_end}. {colour_start|harmful}{colour_start|stressNOT1}stress{colour_end}{colour_end} damage appears above heroes' heads, in black type. {colour_start|harmful}{colour_start|stressNOT1}stress{colour_end}{colour_end} can also be {colour_start|notable}healed{colour_end}, and that appears in white type.]]></entry>
+	<entry id="tutorial_popup_stress_relief_description"><![CDATA[There are several ways hereos may spend their time in Sanctuary Square as leave for a misson. 
+	
+ Heroes can relieve {colour_start|stressNOT1}stress{colour_end} by taking part in activities at the {colour_start|notable}Speakeasy{colour_end} or they can research and learn with {colour_start|notable}Tomes Of Knowledge{colour_end} in the {colour_start|notable}Research Center{colour_end}.
+ 
+ The {colour_start|notable}Library{colour_end}, {colour_start|notable}Field Research{colour_end} and {colour_start|notable}Laboratory{colour_end} in the {colour_start|notable}Research Center{colour_end} heal a very small amount of stress and {colour_start|notable}do not remove afflictions{colour_end} however they may gain tempory buffs and quirks that may be used for their next mission.
+ 
+ Committing a hero to an activity {colour_start|notable}locks them in that activity{colour_end} until the {colour_start|notable}next Week{colour_end}.]]></entry>
+
+<entry id="tutorial_popup_press_h_description"><![CDATA[If you find yourself uncertain on aspects of Spider's Court, try using the Help Menu (using {colour_start|notable}[H]{colour_end} as a hotkey). 
+
+ There are multiple Help Menus available in different places; The Sanctuary Square, each Quarter facility, the provision menu, dungeon rooms, dungeon hallways, and in the middle of combat.]]></entry>
+	<entry id="tutorial_popup_press_h_title"><![CDATA[Info Details]]></entry>
+
+<entry id="tutorial_popup_death_door_description"><![CDATA[When a hero is reduced to 0 HP, they are at {colour_start|harmful}Death's Door{colour_end}. Heroes start with 60%% of {colour_start|harmful}Deathblow{colour_end} Resist.
+ 
+ While on {colour_start|harmful}Death's Door{colour_end} a hero's maxmium resist is reduced by 10%% for each time they enter {colour_start|harmful}Death's Door{colour_end}, like wise passing a resist check will reduce a hero's {colour_start|harmful}Deathblow{colour_end} Resist by 3%%
+ 
+ Be wise when healing, as a turn wasted may lead too total destruction.
+ 
+ {colour_start|harmful}As a further word of caution death will have his quarry one way or another.{colour_end}]]></entry>
+<entry id="tutorial_popup_death_door_title"><![CDATA[Death's Door Changes]]></entry>
+
+	<entry id="tutorial_popup_torch_description"><![CDATA[The {colour_start|notable}Lantern{colour_end} is fading! 
+	
+ In Spider's Court The {colour_start|notable}Torch{colour_end} has been replaced with The {colour_start|notable}Lantern{colour_end}, light burns out a much slower rate of 2 per tile, However {colour_start|notable}Lantern Oil{colour_end} is much harder to aquire.
+ 
+ As the light fades unique enemies that only spawn in the dark will start to emerge. {colour_start|harmful}Do not{colour_end} let the light reach zero as those that lurk in the dark will have the advantage over your heroes.]]></entry>
+	<entry id="tutorial_popup_torch_title"><![CDATA[The Lantern]]></entry>
+
   <!--Fire-->
   <entry id="buff_stat_tooltip_upgrade_discount_dd2_burn_token_tt"><![CDATA[%d DMG after turn]]></entry>
   
@@ -227,9 +337,36 @@ Current Torch Level:]]></entry>
 	
 	<!---Quests-->
 	<entry id="town_quest_progress_plot_literaly_for_show_1"><![CDATA[Explore All Rooms]]></entry>
-  <entry id="town_quest_name_plot_literaly_for_show_1"><![CDATA[Explore The Quarter]]></entry>
-  <entry id="town_quest_description_plot_literaly_for_show_1"><![CDATA[Explore The Old Quarter]]></entry>
-  <entry id="str_plot_literaly_for_show_tip_1"><![CDATA[Beware this is their turf...]]></entry>
+    <entry id="town_quest_name_plot_literaly_for_show_1"><![CDATA[Explore The Quarter]]></entry>
+    <entry id="town_quest_description_plot_literaly_for_show_1"><![CDATA[Explore The Old Quarter]]></entry>
+    <entry id="str_plot_literaly_for_show_tip_1"><![CDATA[Beware this is their turf...]]></entry>
+    
+	<entry id="town_quest_name_plot_track_down_killer"><![CDATA[Edge of Sanity]]></entry>
+	<entry id="town_quest_description_plot_track_down_killer"><![CDATA[Serial killings have plagued the city. Another poor soul has been found, The Gang has allowed a tempory truce to let us investigate the crime scene.  (No Battles)]]></entry>
+	<entry id="str_returned_from_plot_track_down_killer_failure"><![CDATA[{?hero_names}%s were unsuccessful in their search for the Ripper.]]></entry>
+	<entry id="str_returned_from_plot_track_down_killer_success"><![CDATA[{?hero_names}%s Have investigated the area and found the Ripper's lair.]]></entry>
+	<entry id="str_embarked_on_plot_track_down_killer"><![CDATA[{?hero_names}%s turned into amuetur slueths and started thier investigation in the Ripper murders.]]></entry>
+	<entry id="str_plot_track_down_killer_tip"><![CDATA[Don't expect battles in this mission search the surroundings for clues.]]></entry>
+	<entry id="str_plot_track_down_killer_tip"><![CDATA[Each killing has become more brutal then the last, always a piece missing from the body.]]></entry>
+	<entry id="str_plot_track_down_killer_tip"><![CDATA[The Gang has granted safe passage for now, in exchange for capturing the Ripper.]]></entry>
+	
+	<entry id="town_quest_name_plot_pirate_retention_0"><![CDATA[Pirates Of The Fog [Fog]]]></entry>
+	<entry id="town_quest_description_plot_pirate_retention_0"><![CDATA[The Pirate Captain and his crew have have been found hiding in their hidden cove deep within the Bayou, strike now and take back was pilfered.]]></entry>
+	<entry id="str_returned_from_plot_pirate_retention_0_failure"><![CDATA[{?hero_names}%s were unsuccessful in their raid on the Pirate Captain's cove.]]></entry>
+	<entry id="str_returned_from_plot_pirate_retention_0_success"><![CDATA[{?hero_names}%s returned with our possessions after dueling the Pirate Captain.]]></entry>
+	<entry id="str_embarked_on_plot_pirate_retention_0"><![CDATA[{?hero_names}%s confronted the Pirate Captain.]]></entry>
+	<entry id="str_plot_pirate_retention_0_tip"><![CDATA[The Crew obeys their Captain and will not hesistate to defend him.]]></entry>
+	<entry id="str_plot_pirate_retention_0_tip"><![CDATA[The Cannon needs another crew member to light his cannon, take the advantage before it is too late.]]></entry>
+	<entry id="str_plot_pirate_retention_0_tip"><![CDATA[Do not take too long or else The Captain and his crew will vanish into the fog.]]></entry>
+	
+	<entry id="town_quest_name_plot_pirate_retention_1"><![CDATA[Pirates Of The Fog [Fog]]]></entry>
+	<entry id="town_quest_description_plot_pirate_retention_1"><![CDATA[The Pirate Captain and his crew have have been found hiding in their hidden cove deep within the Bayou, strike now and take back was pilfered.]]></entry>
+	<entry id="str_returned_from_plot_pirate_retention_1_failure"><![CDATA[{?hero_names}%s were unsuccessful in their raid on the Pirate Captain's cove.]]></entry>
+	<entry id="str_returned_from_plot_pirate_retention_1_success"><![CDATA[{?hero_names}%s returned with our possessions after dueling the Pirate Captain.]]></entry>
+	<entry id="str_embarked_on_plot_pirate_retention_1"><![CDATA[{?hero_names}%s confronted the Pirate Captain.]]></entry>
+	<entry id="str_plot_pirate_retention_1_tip"><![CDATA[The Crew obeys their Captain and will not hesistate to defend him.]]></entry>
+	<entry id="str_plot_pirate_retention_1_tip"><![CDATA[The Cannon needs another crew member to light his cannon, take the advantage before it is too late.]]></entry>
+	<entry id="str_plot_pirate_retention_1_tip"><![CDATA[Do not take too long or else The Captain and his crew will vanish into the fog.]]></entry>
 
 	<entry id=""><![CDATA[{colour_start|white}Ϩ{colour_end}Quirk]]></entry>
   

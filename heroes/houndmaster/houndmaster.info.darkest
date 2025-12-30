@@ -1,4 +1,4 @@
-resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 60% .trap 40%
+resistances: .stun 40% .poison 40% .bleed 40% .disease 30% .move 40% .debuff 30% .death_blow 87% .trap 40%
 crit: .effects "on_crit_bleedchance"
 weapon: .name "houndmaster_weapon_0" .atk 0% .dmg 8 14 .crit 4% .spd 10
 weapon: .name "houndmaster_weapon_1" .atk 0% .dmg 9 17 .crit 5% .spd 11 .upgradeRequirementCode 0

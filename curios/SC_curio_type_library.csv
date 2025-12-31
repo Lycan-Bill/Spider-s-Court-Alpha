@@ -110,8 +110,8 @@
 ,,Merchant,,Disease,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
-,,,,merchant_credit#estate,Loot,,T_TONIC_TEST,2,<- # Draws,T_TONIC_TEST,2,<- # Draws,,,,loot,Working hard I see.,
-,,,,deed#heirloom,Loot,,T_TONIC_HEIRLOOM,1,<- # Draws,T_TONIC_HEIRLOOM,2,<- # Draws,,,,loot,,
+,,,,merchant_credit#estate,Loot,,T_TONIC_TEST,1,<- # Draws,T_TONIC_TEST,,,,,,loot,Working hard I see.,
+,,,,deed#heirloom,Loot,,T_TONIC_HEIRLOOM,1,<- # Draws,T_TONIC_HEIRLOOM,,,,,,loot,,
 ,,,,,,,,,,,,,,,,,,
 ,8,Virile Brew,,Mixed,,,,,,,,,,,,,,
 ,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
@@ -193,7 +193,7 @@
 ,,,,Disease,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,,NOTES
-,,,,crest#heirloom,Effect,,water_fountian_party_heal,1,100.00%,,,,,,,,,
+,,,,crest#heirloom,Effect,,water_fountian_party_heal,1,100.00%,,,,,,,heal_gen,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
@@ -210,7 +210,7 @@
 ,,,,Disease,1,12.50%,the_runs,2,66.70%,random,1,33.33%,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,Food_Stand,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,,NOTES
-,,,,medicinal_herbs,loot,,Food_Stand,2,<- # Draws,,,<- # Draws,,,<- # Draws,,,
+,,,,medicinal_herbs,Loot,,Food_Stand,2,<- # Draws,,,,,,,loot,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
@@ -218,7 +218,7 @@
 ,14,Vending Machine,,Mixed,,,,,,,,,,,,,,
 ,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
 ,,vending_machine,,Nothing,1,75.00%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,
-,,REGION FOUND,,Loot,1,25.00%,Vending_Machine,1,<- # Draws,Vending_Machine,2,<- # Draws,,,,,,
+,,REGION FOUND,,Loot,1,25.00%,Vending_Machine,2,<- # Draws,,,,,,,,,
 ,,crypts,,Quirk,,,,,,,,,,,,,,
 ,,FULL CURIO?,,Effect,,,,,,,,,,,,,,
 ,,Yes,,Purge,,,,,,,,,,,,,,
@@ -227,7 +227,7 @@
 ,,,,Disease,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,,NOTES
-,,,,merchant_credit#estate,Loot,,Vending_Machine_Money,2,<- # Draws,Vending_Machine,3,<- # Draws,,,,,,
+,,,,merchant_credit#estate,Loot,,Vending_Machine_Money,2,<- # Draws,Vending_Machine,,,,,,loot,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
@@ -244,7 +244,7 @@
 ,,,,Disease,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,,NOTES
-,,,,merchant_credit#estate,Effect,,Phone_Booth_Resolve,1,100.00%,,,,,,,,,
+,,,,merchant_credit#estate,Effect,,Phone_Booth_Resolve,1,100.00%,,,,,,,heal_stress,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
@@ -252,7 +252,7 @@
 ,16,Sweeper Suppplies,,Mixed,,,,,,,,,,,,,,
 ,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
 ,,sweeper_supplies,,Nothing,1,25.00%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,,
-,,REGION FOUND,,Loot,1,25.00%,A,2,<- # Draws,,,<- # Draws,,,<- # Draws,,,
+,,REGION FOUND,,Loot,1,25.00%,T_SWEEPER,2,<- # Draws,,,<- # Draws,,,<- # Draws,loot,,
 ,,crypts,,Quirk,,25.00%,negative,1,100.00%,,,,,,,,,
 ,,FULL CURIO?,,Effect,,,,,,,,,,,,,,
 ,,Yes,,Purge,,,,,,,,,,,,,,
@@ -261,7 +261,7 @@
 ,,,,Disease,1,25.00%,random,1,100.00%,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,,NOTES
-,,,,,,,,,,,,,,,,,,
+,,,,bandage,Loot,,T_SWEEPER_Bandage,2,<- # Draws,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
@@ -278,14 +278,14 @@
 ,,,,Disease,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,,NOTES
-,,,,Lantern_Oil_standard#estate,Effect,,Lamp_Post_Oil_Standard,1,100.00%,,,,,,,torch_up,,
-,,,,Lantern_Oil_Good#estate,Effect,,Lamp_Post_Oil_Good,1,100.00%,,,,,,,torch_up,,
-,,,,Lantern_Oil_Best#estate,Effect,,Lamp_Post_Oil_Best,1,100.00%,,,,,,,torch_up,,
+,,,,torch,Effect,,Lamp_Post_Oil_Standard,1,100.00%,,,,,,,torch_up,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,18,Contraband Merchant,,Mixed,,,,,,,,,,,,,,
 ,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES
-,,contraband_merchant,,Nothing,,,,,,,,,,,,,,
+,,contraband_merchant,,Nothing,1,100.00%,N/A,,,,,,,,,,,
 ,,REGION FOUND,,Loot,,,,,,,,,,,,,,
 ,,crypts,,Quirk,,,,,,,,,,,,,,
 ,,FULL CURIO?,,Effect,,,,,,,,,,,,,,
@@ -295,10 +295,10 @@
 ,,,,Disease,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,
 ,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,,NOTES
-,,,,Disillery_Whiskey#estate,Loot,,Contraband_Seller,1,<- # Draws,,,,,,,loot,,
-,,,,Disillery_Wine#estate,Loot,,Contraband_Seller,1,<- # Draws,Contraband_Seller,1,<- # Draws,,,,loot,,
-,,,,Disillery_Best#estate,Loot,,Contraband_Seller,1,<- # Draws,Contraband_Seller,1,<- # Draws,Contraband_Seller,1,<- # Draws,loot,,
-,,,,merchant_credit#estate,Loot,,Contraband_Seller,2,<- # Draws,,,,,,,loot,,
+,,,,Disillery_Whiskey#estate,Loot,,T_CONTRABAND_SELLER,1,<- # Draws,,,,,,,loot,,
+,,,,Disillery_Wine#estate,Loot,,T_CONTRABAND_SELLER,1,<- # Draws,Contraband_Seller,1,<- # Draws,,,,loot,,
+,,,,Disillery_Best#estate,Loot,,T_CONTRABAND_SELLER,1,<- # Draws,Contraband_Seller,1,<- # Draws,Contraband_Seller,1,<- # Draws,loot,,
+,,,,merchant_credit#estate,Loot,,T_CONTRABAND_SELLER,2,<- # Draws,,,,,,,loot,,
 ,,,,,,,,,,,,,,,,,,
 ,19,Fortune Teller,,Mixed,,,,,,,,,,,,,,
 ,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,CURIO TRACKER ID,STRING,NOTES

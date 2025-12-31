@@ -15,6 +15,43 @@
 			]
       },
       {
+      	 
+		 "id" : "T_CONTRABAND_SELLER",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "T_Contraband_Gears" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "T_Contraband_Estate" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "T_Contraband_Heirlooms" }}
+			]
+      },
+      {
+      	 
+		 "id" : "T_SWEEPER",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "T_Sweeper_Estate" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "Sweeper_Supply" }}
+			]
+      },
+      {
+      	 
+		 "id" : "T_SWEEPER_Bandage",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "T_Sweeper_Estate" }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "Sweeper_Supply" }}
+			]
+      },
+      {
 		 "id" : "SPIV_TRINKET_LOOT",
          "difficulty" : 0,
          "dungeon" : "",
@@ -156,7 +193,52 @@
 			 { "type": "item", "chances": 3, "data": { "type": "heirloom", "id": "blueprint", "amount": 3 }},
 			 { "type": "item", "chances": 4, "data": { "type": "heirloom", "id": "blueprint", "amount": 2 }},
 			 { "type": "item", "chances": 5, "data": { "type": "heirloom", "id": "blueprint", "amount": 1 }}
+           ]
+      },
+      {
+         "id" : "T_Contraband_Estate",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type": "item", "chances": 2, "data": { "type": "estate", "id": "sc_medkit", "amount": 1 }}
+        ]
+      },
+      {
+         "id" : "T_Contraband_Gears",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+			 { "type" : "nothing", "chances" : 0, "data" : { }},
+             { "type": "item", "chances": 1, "data": { "type": "heirloom", "id": "blueprint", "amount": 25 }},
+			 { "type": "item", "chances": 2, "data": { "type": "heirloom", "id": "blueprint", "amount": 15 }},
+			 { "type": "item", "chances": 3, "data": { "type": "heirloom", "id": "blueprint", "amount": 10 }}
          ]
+      },
+      {
+         "id" : "T_Contraband_Heirlooms",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "bust", "amount" : 5 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "heirloom", "id" : "portrait", "amount" : 6 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "heirloom", "id" : "deed", "amount" : 5 }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "heirloom", "id" : "crest", "amount" : 7 }}
+         ]
+      },
+      {
+         "id" : "T_Sweeper_Estate",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+			{ "type": "item", "chances": 3, "data": { "type": "estate", "id": "sc_medkit", "amount": 1 }}
+        ]
       },
       {
          "id" : "T_TONIC_HEIRLOOM",
@@ -278,10 +360,6 @@
          "entries" :
          [
             { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 4, "data" : { "table" : "C" }},
-            { "type" : "table", "chances" : 2, "data" : { "table" : "G" }},
-            { "type" : "table", "chances" : 3, "data" : { "table" : "H" }},
-            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }},
             { "type" : "table", "chances" : 6, "data" : { "table" : "P" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "S" }}
          ]
@@ -324,20 +402,7 @@
             { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "table", "chances" : 5, "data" : { "table" : "Spiv_Funds" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "G" }}
-        ]
-      },
-      {
-         "id" : "Contraband_Seller",
-         "difficulty" : 0,
-         "dungeon" : "",
-         "entries" :
-         [
-            { "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "table", "chances" : 5, "data" : { "table" : "SC_Heirlooms_1" }},
-            { "type" : "table", "chances" : 3, "data" : { "table" : "Contraband_Oil" }},
-			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Fortune_Teller_Coins" }},
-			{ "type" : "table", "chances" : 1, "data" : { "table" : "T_Fortune_Teller_Gears" }}
-        ]
+       ]
       },
       {
          "id" : "Contraband_Oil",
@@ -626,6 +691,21 @@
             { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
             { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
             { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }}
+        	]
+      },
+      {
+         "id" : "Sweeper_Supply",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+                        { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "bandage", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "bandage", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "antivenom", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "antivenom", "amount" : 2 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "medicinal_herbs", "amount" : 2 }}
         	]
       },
       {

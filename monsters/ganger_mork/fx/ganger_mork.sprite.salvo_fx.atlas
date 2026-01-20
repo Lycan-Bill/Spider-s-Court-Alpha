@@ -1,0 +1,69 @@
+
+ganger_mork.sprite.salvo_fx.png
+size: 3160,451
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bullets1
+  rotate: false
+  xy: 2, 64
+  size: 1143, 105
+  orig: 1143, 105
+  offset: 0, 0
+  index: -1
+bullets3
+  rotate: false
+  xy: 1075, 356
+  size: 829, 93
+  orig: 829, 93
+  offset: 0, 0
+  index: -1
+bullets4
+  rotate: false
+  xy: 2, 171
+  size: 1071, 278
+  orig: 1071, 278
+  offset: 0, 0
+  index: -1
+bullets5
+  rotate: false
+  xy: 2, 2
+  size: 701, 60
+  orig: 701, 60
+  offset: 0, 0
+  index: -1
+bulltes2
+  rotate: true
+  xy: 3042, 58
+  size: 391, 116
+  orig: 391, 116
+  offset: 0, 0
+  index: -1
+flashes
+  rotate: true
+  xy: 1632, 176
+  size: 178, 196
+  orig: 178, 196
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 2516, 13
+  size: 436, 524
+  orig: 436, 524
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1906, 32
+  size: 417, 608
+  orig: 417, 608
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: false
+  xy: 1147, 30
+  size: 483, 324
+  orig: 483, 324
+  offset: 0, 0
+  index: -1

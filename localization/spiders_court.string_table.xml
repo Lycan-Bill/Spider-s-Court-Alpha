@@ -341,7 +341,7 @@ Current Torch Level:]]></entry>
     <entry id="town_quest_description_plot_literaly_for_show_1"><![CDATA[Explore The Old Quarter]]></entry>
     <entry id="str_plot_literaly_for_show_tip_1"><![CDATA[Beware this is their turf...]]></entry>
     
-	<entry id="town_quest_name_plot_track_down_killer"><![CDATA[Edge of Sanity]]></entry>
+	<entry id="town_quest_name_plot_track_down_killer"><![CDATA[Time After Time]]></entry>
 	<entry id="town_quest_description_plot_track_down_killer"><![CDATA[Serial killings have plagued the city. Another poor soul has been found, The Gang has allowed a tempory truce to let us investigate the crime scene.  (No Battles)]]></entry>
 	<entry id="str_returned_from_plot_track_down_killer_failure"><![CDATA[{?hero_names}%s were unsuccessful in their search for the Ripper.]]></entry>
 	<entry id="str_returned_from_plot_track_down_killer_success"><![CDATA[{?hero_names}%s Have investigated the area and found the Ripper's lair.]]></entry>
@@ -350,22 +350,25 @@ Current Torch Level:]]></entry>
 	<entry id="str_plot_track_down_killer_tip"><![CDATA[Each killing has become more brutal then the last, always a piece missing from the body.]]></entry>
 	<entry id="str_plot_track_down_killer_tip"><![CDATA[The Gang has granted safe passage for now, in exchange for capturing the Ripper.]]></entry>
 	
-	<entry id="town_quest_name_plot_pirate_retention_0"><![CDATA[Pirates Of The Fog [Fog]]]></entry>
+	<entry id="town_quest_name_plot_kill_ripper"><![CDATA[Edge of Sanity]]></entry>
+	<entry id="town_quest_description_plot_kill_ripper"><![CDATA[Having tracked them to their wretched lair, The Ripper has kidnapped our witness! Execute this inhumane monster once and for all and save the witness before it is too late! (One room battle)]]></entry>
+	
+	<entry id="town_quest_name_plot_pirate_retention_0"><![CDATA[Phantoms Of The Fog [Fog]]]></entry>
 	<entry id="town_quest_description_plot_pirate_retention_0"><![CDATA[The Pirate Captain and his crew have have been found hiding in their hidden cove deep within the Bayou, strike now and take back was pilfered.]]></entry>
 	<entry id="str_returned_from_plot_pirate_retention_0_failure"><![CDATA[{?hero_names}%s were unsuccessful in their raid on the Pirate Captain's cove.]]></entry>
 	<entry id="str_returned_from_plot_pirate_retention_0_success"><![CDATA[{?hero_names}%s returned with our possessions after dueling the Pirate Captain.]]></entry>
 	<entry id="str_embarked_on_plot_pirate_retention_0"><![CDATA[{?hero_names}%s confronted the Pirate Captain.]]></entry>
 	<entry id="str_plot_pirate_retention_0_tip"><![CDATA[The Crew obeys their Captain and will not hesistate to defend him.]]></entry>
-	<entry id="str_plot_pirate_retention_0_tip"><![CDATA[The Cannon needs another crew member to light his cannon, take the advantage before it is too late.]]></entry>
+	<entry id="str_plot_pirate_retention_0_tip"><![CDATA[The Cannoneer needs another crew member to light his cannon, take the advantage before it is too late.]]></entry>
 	<entry id="str_plot_pirate_retention_0_tip"><![CDATA[Do not take too long or else The Captain and his crew will vanish into the fog.]]></entry>
 	
-	<entry id="town_quest_name_plot_pirate_retention_1"><![CDATA[Pirates Of The Fog [Fog]]]></entry>
+	<entry id="town_quest_name_plot_pirate_retention_1"><![CDATA[Phantoms Of The Fog [Fog]]]></entry>
 	<entry id="town_quest_description_plot_pirate_retention_1"><![CDATA[The Pirate Captain and his crew have have been found hiding in their hidden cove deep within the Bayou, strike now and take back was pilfered.]]></entry>
 	<entry id="str_returned_from_plot_pirate_retention_1_failure"><![CDATA[{?hero_names}%s were unsuccessful in their raid on the Pirate Captain's cove.]]></entry>
 	<entry id="str_returned_from_plot_pirate_retention_1_success"><![CDATA[{?hero_names}%s returned with our possessions after dueling the Pirate Captain.]]></entry>
 	<entry id="str_embarked_on_plot_pirate_retention_1"><![CDATA[{?hero_names}%s confronted the Pirate Captain.]]></entry>
 	<entry id="str_plot_pirate_retention_1_tip"><![CDATA[The Crew obeys their Captain and will not hesistate to defend him.]]></entry>
-	<entry id="str_plot_pirate_retention_1_tip"><![CDATA[The Cannon needs another crew member to light his cannon, take the advantage before it is too late.]]></entry>
+	<entry id="str_plot_pirate_retention_1_tip"><![CDATA[The Cannoneer needs another crew member to light his cannon, take the advantage before it is too late.]]></entry>
 	<entry id="str_plot_pirate_retention_1_tip"><![CDATA[Do not take too long or else The Captain and his crew will vanish into the fog.]]></entry>
 
 	<entry id=""><![CDATA[{colour_start|white}Ϩ{colour_end}Quirk]]></entry>

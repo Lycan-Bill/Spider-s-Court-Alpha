@@ -1,19 +1,88 @@
-{
-   "buffs":
-   [
+{"buffs": [
+        {
+        "id": "ichor_item_cooldown",
+         "stat_type": "food_consumption_percent",
+         "stat_sub_type": "",
+         "amount": -100,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active": false,
+         "rule_type": "in_mode",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "ichor"
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
       {
-         "id" : "sc_smoke_debuff_r1",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.25,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "has_description":false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+        "id": "fire_item_cooldown",
+         "stat_type": "food_consumption_percent",
+         "stat_sub_type": "",
+         "amount": -100,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active": false,
+         "rule_type": "in_mode",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "fire"
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
+      {
+        "id": "smoke_item_cooldown",
+         "stat_type": "food_consumption_percent",
+         "stat_sub_type": "",
+         "amount": -100,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active": false,
+         "rule_type": "in_mode",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "smoke"
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
+      {
+        "id": "berserk_item_cooldown",
+         "stat_type": "food_consumption_percent",
+         "stat_sub_type": "",
+         "amount": -100,
+		 "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active": false,
+         "rule_type": "in_mode",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "berserk"
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": false
+      },
+      {
+        "id": "item_cooldown",
+         "stat_type": "quirk_tag_evolution_duration",
+         "stat_sub_type": "cooldown_quirk",
+         "amount": -999999,
+		 "duration_type" : "combat_end",
+         "duration" : 2,
+         "remove_if_not_active": false,
+         "rule_type": "in_mode",
+         "is_false_rule": false,
+         "rule_data": {
+            "float": 0,
+            "string": "normal"
+         },
+         "is_clear_debuff_valid": false,
+         "has_description": true
       },
       {
          "id" : "sc_smoke_debuff_r2",

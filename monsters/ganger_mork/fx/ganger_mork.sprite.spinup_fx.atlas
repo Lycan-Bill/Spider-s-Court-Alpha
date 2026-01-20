@@ -1,0 +1,41 @@
+
+ganger_mork.sprite.spinup_fx.png
+size: 854,584
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barrels1
+  rotate: false
+  xy: 628, 286
+  size: 215, 150
+  orig: 215, 150
+  offset: 0, 0
+  index: -1
+barrels2
+  rotate: false
+  xy: 628, 438
+  size: 224, 144
+  orig: 224, 144
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 10
+  size: 624, 572
+  orig: 624, 572
+  offset: 0, 0
+  index: -1
+spinwisps1
+  rotate: false
+  xy: 628, 131
+  size: 158, 153
+  orig: 158, 153
+  offset: 0, 0
+  index: -1
+spinwisps2
+  rotate: true
+  xy: 628, 2
+  size: 127, 140
+  orig: 127, 140
+  offset: 0, 0
+  index: -1

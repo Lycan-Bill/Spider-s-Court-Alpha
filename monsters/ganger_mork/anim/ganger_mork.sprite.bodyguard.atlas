@@ -1,0 +1,20 @@
+
+ganger_mork.sprite.bodyguard.png
+size: 1073,485
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bodyguard
+  rotate: true
+  xy: 2, 2
+  size: 481, 1004
+  orig: 481, 1004
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 1008, 126
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

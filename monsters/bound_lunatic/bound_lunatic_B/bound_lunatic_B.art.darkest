@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "bl_horror" .anim "attack_stress" .fx "stress_fx" .targchestfx "stress_cloud" .area_pos_offset -150 0 .target_area_pos_offset 225 0
+skill: .id "bl_push" .anim "attack_headbutt" .fx "headbutt_fx" .targchestfx "blood_splatter" 

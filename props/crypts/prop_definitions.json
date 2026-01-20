@@ -1,5 +1,233 @@
 {
-    "interaction_types": [ 
+    "interaction_types": [
+        {
+            "name": "quest_gather",
+            "default_result_type_table": [
+                {
+                    "result_type": "quest_item",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "quest_activate",
+            "default_result_type_table": [
+                {
+                    "result_type": "quest_item",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prisoner",
+            "default_result_type_table": [
+                {
+                    "result_type": "prisoner_talk",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "prisoner_secondary",
+            "default_result_type_table": [
+                {
+                    "result_type": "prisoner_display",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "quest_activate_with",
+            "item_interaction_table": [
+                {
+                    "item_type": "quest_item",
+                    "result_type_table": [
+                        {
+                            "result_type": "quest_item",
+                            "chance": 1.0,
+                            "result_data_table": [
+                                {
+                                    "chance": 1.0,
+                                    "data": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "door_default",
+            "default_result_type_table": [
+                {
+                    "result_type": "door_default",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "door_shovel",
+            "default_result_type_table": [
+                {
+                    "result_type": "door_default",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ],
+            "item_interaction_table": [
+                {
+                    "item_type": "supply",
+                    "item_name": "shovel",
+                    "result_type_table": [
+                        {
+                            "result_type": "unlock_door",
+                            "chance": 1.0,
+                            "result_data_table": [
+                                {
+                                    "chance": 1.0,
+                                    "data": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "door_key",
+            "default_result_type_table": [
+                {
+                    "result_type": "door_default",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ],
+            "item_interaction_table": [
+                {
+                    "item_type": "supply",
+                    "item_name": "door_key",
+                    "result_type_table": [
+                        {
+                            "result_type": "unlock_door",
+                            "chance": 1.0,
+                            "result_data_table": [
+                                {
+                                    "chance": 1.0,
+                                    "data": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "shovel_obstacle",
+            "default_result_type_table": [
+                {
+                    "result_type": "obstacle_default",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ],
+            "item_interaction_table": [
+                {
+                    "item_type": "supply",
+                    "item_name": "shovel",
+                    "result_type_table": [
+                        {
+                            "result_type": "clear_obstacle",
+                            "chance": 1.0,
+                            "result_data_table": [
+                                {
+                                    "chance": 1.0,
+                                    "data": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "torch_obstacle",
+            "default_result_type_table": [
+                {
+                    "result_type": "obstacle_default",
+                    "chance": 1.0,
+                    "result_data_table": [
+                        {
+                            "chance": 1.0,
+                            "data": ""
+                        }
+                    ]
+                }
+            ],
+            "item_interaction_table": [
+                {
+                    "item_type": "supply",
+                    "item_name": "torch",
+                    "result_type_table": [
+                        {
+                            "result_type": "clear_obstacle",
+                            "chance": 1.0,
+                            "result_data_table": [
+                                {
+                                    "chance": 1.0,
+                                    "data": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+
     ],
     "props": [
        {
@@ -141,6 +369,46 @@
             "default_data": {
 			 "investigate_default": true,
              "investigate_use_item": true,
+             "interaction_presentation": true
+            }
+        },
+		{ 
+            "name": "police_lieutenant",
+            "default_data": {
+			 "investigate_default": false,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+            }
+        },
+		{ 
+            "name": "homeless_drunk",
+            "default_data": {
+			 "investigate_default": false,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+            }
+        },
+		{ 
+            "name": "murder_site",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": false,
+             "interaction_presentation": true
+           }
+        },
+		{ 
+            "name": "murder_site_2",
+            "default_data": {
+			 "investigate_default": false,
+             "investigate_use_item": true,
+             "interaction_presentation": true
+            }
+        },
+		{ 
+            "name": "murder_site_3",
+            "default_data": {
+			 "investigate_default": true,
+             "investigate_use_item": false,
              "interaction_presentation": true
             }
         }

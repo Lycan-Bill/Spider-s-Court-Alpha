@@ -1,0 +1,62 @@
+
+madwoman.sprite.autophobia_vfx.png
+size: 463,777
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shield
+  rotate: false
+  xy: 1, 1
+  size: 353, 392
+  orig: 353, 392
+  offset: 0, 0
+  index: -1
+StrapU
+  rotate: false
+  xy: 1, 723
+  size: 299, 52
+  orig: 299, 52
+  offset: 0, 0
+  index: -1
+buckle2
+  rotate: false
+  xy: 356, 336
+  size: 105, 40
+  orig: 105, 40
+  offset: 0, 0
+  index: -1
+StrapR
+  rotate: false
+  xy: 356, 1
+  size: 95, 333
+  orig: 95, 333
+  offset: 0, 0
+  index: -1
+halo
+  rotate: false
+  xy: 1, 395
+  size: 434, 254
+  orig: 434, 254
+  offset: 0, 0
+  index: -1
+StrapD
+  rotate: false
+  xy: 1, 651
+  size: 328, 70
+  orig: 328, 70
+  offset: 0, 0
+  index: -1
+Doth
+  rotate: false
+  xy: 302, 723
+  size: 72, 36
+  orig: 72, 36
+  offset: 0, 0
+  index: -1
+buckle1
+  rotate: false
+  xy: 331, 651
+  size: 51, 41
+  orig: 51, 41
+  offset: 0, 0
+  index: -1

@@ -767,7 +767,51 @@
                         { "type" : "nothing", "chances" : 0, "data" : { }},
             { "type" : "item", "chances" : 4, "data" : { "type" : "estate", "id" : "Burnt_Contract", "amount" : 1 }}
          ]
-	  }
-	  
+      },
+      {
+         "id" : "KEY_1",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key1", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_2",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key2", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_3",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key3", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_4",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "key4", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "KEY_HOMLESS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "quest_item", "id" : "homeless_key", "amount" : 1 }}
+         ]
+      }
    ]
 }

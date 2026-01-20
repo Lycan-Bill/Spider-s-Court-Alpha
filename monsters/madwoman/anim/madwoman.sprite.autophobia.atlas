@@ -1,0 +1,20 @@
+
+madwoman.sprite.autophobia.png
+size: 360,480
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 415
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+wUmen
+  rotate: false
+  xy: 1, 1
+  size: 305, 412
+  orig: 305, 412
+  offset: 0, 0
+  index: -1

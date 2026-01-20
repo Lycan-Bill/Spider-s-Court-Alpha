@@ -1,0 +1,27 @@
+
+bound_lunatic.sprite.stress_fx.png
+size: 1334,548
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow
+  rotate: false
+  xy: 609, 104
+  size: 444, 442
+  orig: 444, 442
+  offset: 0, 0
+  index: -1
+Rimlight
+  rotate: false
+  xy: 1055, 244
+  size: 277, 302
+  orig: 277, 302
+  offset: 0, 0
+  index: -1
+Tentacles
+  rotate: false
+  xy: 2, 2
+  size: 605, 544
+  orig: 605, 544
+  offset: 0, 0
+  index: -1

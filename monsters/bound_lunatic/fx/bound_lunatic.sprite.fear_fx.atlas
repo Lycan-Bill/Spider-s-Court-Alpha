@@ -1,0 +1,27 @@
+
+bound_lunatic.sprite.fear_fx.png
+size: 694,1168
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Glow
+  rotate: true
+  xy: 2, 2
+  size: 539, 431
+  orig: 539, 431
+  offset: 0, 0
+  index: -1
+Rimlight
+  rotate: true
+  xy: 435, 247
+  size: 294, 257
+  orig: 294, 257
+  offset: 0, 0
+  index: -1
+Shadows
+  rotate: false
+  xy: 2, 543
+  size: 654, 623
+  orig: 654, 623
+  offset: 0, 0
+  index: -1

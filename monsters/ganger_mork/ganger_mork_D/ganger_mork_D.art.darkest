@@ -1,2 +1,10 @@
 commonfx: .deathfx death_large
+
+skill: .id "mork_summon" .anim "bodyguard" .fx "bodyguard"
+skill: .id "mork_fallback" .anim "fallback"
+skill: .id "mork_spin" .anim "spinup" .fx "spinup"
+skill: .id "mork_sweep" .anim "salvo" .fx "salvo"
+skill: .id "mork_bodyguard" .anim "bodyguard" .fx "bodyguard"
+
+
 rendering: .sort_position_z_rank_override -4

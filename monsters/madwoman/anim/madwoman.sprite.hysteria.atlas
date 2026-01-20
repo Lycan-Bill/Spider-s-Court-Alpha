@@ -1,0 +1,69 @@
+
+madwoman.sprite.hysteria.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MadWoman_hysteria
+  rotate: false
+  xy: 823, 393
+  size: 383, 570
+  orig: 383, 570
+  offset: 0, 0
+  index: -1
+big1
+  rotate: false
+  xy: 2, 230
+  size: 819, 733
+  orig: 819, 733
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 1208, 654
+  size: 389, 309
+  orig: 389, 309
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1599, 869
+  size: 375, 94
+  orig: 375, 94
+  offset: 0, 0
+  index: -1
+tent1
+  rotate: false
+  xy: 2, 2
+  size: 497, 226
+  orig: 497, 226
+  offset: 0, 0
+  index: -1
+tent2
+  rotate: false
+  xy: 1208, 430
+  size: 456, 222
+  orig: 456, 222
+  offset: 0, 0
+  index: -1
+tent3
+  rotate: true
+  xy: 501, 26
+  size: 202, 231
+  orig: 202, 231
+  offset: 0, 0
+  index: -1
+tent4
+  rotate: true
+  xy: 823, 231
+  size: 160, 371
+  orig: 160, 371
+  offset: 0, 0
+  index: -1
+tent5
+  rotate: false
+  xy: 1599, 794
+  size: 168, 73
+  orig: 168, 73
+  offset: 0, 0
+  index: -1

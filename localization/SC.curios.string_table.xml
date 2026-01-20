@@ -112,9 +112,27 @@
     <entry id="str_curio_tooltip_investigate_newspaper_merchant"><![CDATA[He expects payment...]]></entry>
 	<entry id="str_curio_newspaper_merchant_nothing"><![CDATA["Sorry, but I can't give things away for free."]]></entry>
 	
-	<entry id="str_curio_title_crime_scene"><![CDATA[Murder Scene]]></entry>
-	<entry id="str_curio_content_crime_scene"><![CDATA[The medical examiner is bored by the slaughter he sees, and The Officers simply show resignment too it all.]]></entry>
-	<entry id="str_curio_tooltip_investigate_crime_scene"><![CDATA[Well someone has to do it.]]></entry>
+	<entry id="str_inventory_title_quest_itemwitness_evidence"><![CDATA[Witness Statement]]></entry>
+	<entry id="str_inventory_description_quest_itemwitness_evidence"><![CDATA["I swear, I saw a nurse standing over the poor lass's body, grinning with a bloody saw in one hand and god I don't even want to think what was in the other hand."]]></entry>
+	
+	<entry id="str_inventory_title_quest_itemdetective_tools"><![CDATA[Forensics Tools]]></entry>
+	<entry id="str_inventory_description_quest_itemdetective_tools"><![CDATA[Standard used by the police force in investigating these murders.]]></entry>
+	
+	<entry id="str_curio_title_blood_trail_1"><![CDATA[Test 1]]></entry>
+	<entry id="str_curio_content_blood_trail_1"><![CDATA[The medical examiner is bored by the slaughter he sees, and The Officers simply show resignment too it all.]]></entry>
+	<entry id="str_curio_tooltip_investigate_blood_trail_1"><![CDATA[Well someone has to do it.]]></entry>
+	
+	<entry id="str_curio_title_blood_trail_2"><![CDATA[Test 2]]></entry>
+	<entry id="str_curio_content_blood_trail_2"><![CDATA[The medical examiner is bored by the slaughter he sees, and The Officers simply show resignment too it all.]]></entry>
+	<entry id="str_curio_tooltip_investigate_blood_trail_2"><![CDATA[Well someone has to do it.]]></entry>
+	
+	<entry id="str_curio_title_blood_trail_3"><![CDATA[Test 3]]></entry>
+	<entry id="str_curio_content_blood_trail_1"><![CDATA[The medical examiner is bored by the slaughter he sees, and The Officers simply show resignment too it all.]]></entry>
+	<entry id="str_curio_tooltip_investigate_blood_trail_1"><![CDATA[Well someone has to do it.]]></entry>
+	
+	<entry id="str_curio_title_crime_scene"><![CDATA[Test 4]]></entry>
+	<entry id="str_curio_content_blood_trail_1"><![CDATA[The medical examiner is bored by the slaughter he sees, and The Officers simply show resignment too it all.]]></entry>
+	<entry id="str_curio_tooltip_investigate_blood_trail_1"><![CDATA[Well someone has to do it.]]></entry>
 	
   </language>
 </root>

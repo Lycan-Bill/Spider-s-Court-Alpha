@@ -1,0 +1,12 @@
+display: .size 1
+enemy_type: .id "man"
+stats: .hp 15 .def 10% .prot 0 .spd 10 .stun_resist 30% .poison_resist 10% .bleed_resist 10% .debuff_resist 15% .move_resist 10%
+skill: .id "madwoman_guard" .effect "madwoman_guard_cooldown" "Antiq ProtectMe ClearGuardsPerformer" "Antiq ProtectMe ClearGuardsTarget" "Antiq ProtectMe Guard" "madwoman_guard_prot_buff_1" "madwoman_guard_stun_res_buff_1" .launch 4321 .target @1234 .ignore_stealth true .self_target_valid false
+skill: .id "madwoman_stun" .type "ranged" .atk 102.5% .dmg 0 0 .crit 0%  .effect "madwoman_condemn_horror" "Stun 1" .launch 4321 .target 1234 .is_crit_valid False
+skill: .id "madwoman_stress" .type "ranged" .atk 102.5% .dmg 1 2 .crit 0%  .effect "madwoman_hysteria_stress" "madwoman_hysteria_stress_heal_rec_debuff_1" .launch 4321 .target ~1234 .is_crit_valid False
+personality: .prefskill -1
+loot: .code "MADMAN" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id madwoman_A
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False

@@ -1,0 +1,34 @@
+
+ganger_lookout.sprite.attack_look_fx.png
+size: 349,157
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cigar_light
+  rotate: false
+  xy: 273, 29
+  size: 34, 38
+  orig: 34, 38
+  offset: 0, 0
+  index: -1
+cigar_smoke
+  rotate: false
+  xy: 2, 16
+  size: 269, 139
+  orig: 269, 139
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 2, 2
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 273, 69
+  size: 86, 74
+  orig: 86, 74
+  offset: 0, 0
+  index: -1

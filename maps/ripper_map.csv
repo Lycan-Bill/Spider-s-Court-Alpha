@@ -2,4 +2,4 @@ global,,room;entrance,room;,room;mash,room;curio,r;final_room,,c;,c;mash,c;curio
 ,,ROOM TILES,,,,,,CORRIDOR TILES,,,,,,COMMENT
 ,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,
-,,,,,,room;entrance;final_room,,,,,,,,
+,,,,,,room;curio=killer_victim;entrance;final_room,,,,,,,,

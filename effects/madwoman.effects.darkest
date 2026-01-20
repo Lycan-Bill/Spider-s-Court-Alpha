@@ -1,0 +1,21 @@
+effect: .name "madwoman_force_guard_3" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 3
+
+effect: .name "madwoman_guard_prot_buff_1" .target "target" .chance 100% .on_hit true .on_miss true .combat_stat_buff 1 .protection_rating_add 15% .duration 2
+effect: .name "madwoman_guard_prot_buff_2" .target "target" .chance 100% .on_hit true .on_miss true .combat_stat_buff 1 .protection_rating_add 20% .duration 2
+effect: .name "madwoman_guard_prot_buff_3" .target "target" .chance 100% .on_hit true .on_miss true .combat_stat_buff 1 .protection_rating_add 25% .duration 3
+
+effect: .name "madwoman_guard_stun_res_buff_1" .target "target" .chance 100% .on_hit true .on_miss true .buff_ids "MADWOMAN_GUARD_STUN_RES_40" .duration 2
+effect: .name "madwoman_guard_stun_res_buff_2" .target "target" .chance 100% .on_hit true .on_miss true .buff_ids "MADWOMAN_GUARD_STUN_RES_50" .duration 2
+effect: .name "madwoman_guard_stun_res_buff_3" .target "target" .chance 100% .on_hit true .on_miss true .buff_ids "MADWOMAN_GUARD_STUN_RES_60" .duration 3
+
+effect: .name "madwoman_guard_cooldown" .target "performer" .chance 100% .on_hit true .on_miss true .buff_ids "MADWOMAN_GUARD_COOLDOWN" .duration 1 .buff_duration_type "combat_end" .buff_source_type "bsrc_notspecified" .queue true 
+
+effect: .name "madwoman_condemn_horror" .target "target" .chance 100% .on_hit true .on_miss false .dotStress 3 .duration 8 
+
+effect: .name "madwoman_hysteria_stress" .target "target" .chance 100% .on_hit true .on_miss false .stress 13
+
+effect: .name "madwoman_hysteria_stress_heal_rec_debuff_1" .target "target" .chance 100% .on_hit true .on_miss false .buff_ids "MADWOMAN_STRESS_STRESS_HEAL_REC_NEG_25" .duration -1
+effect: .name "madwoman_hysteria_stress_heal_rec_debuff_2" .target "target" .chance 120% .on_hit true .on_miss false .buff_ids "MADWOMAN_STRESS_STRESS_HEAL_REC_NEG_25" .duration -1
+effect: .name "madwoman_hysteria_stress_heal_rec_debuff_3" .target "target" .chance 140% .on_hit true .on_miss false .buff_ids "MADWOMAN_STRESS_STRESS_HEAL_REC_NEG_25" .duration -1
+
+effect: .name "fake_bleed" .target "target" .chance -100% .on_hit false .on_miss false .dotBleed 1 .duration 1 .has_description false 

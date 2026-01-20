@@ -25,6 +25,32 @@ map:
 .nudge_neighbour_bias 0.5
 .nudge_map_centre_bias 0.5
 
+map:
+.size short
+.quest_type investigation
+.dungeon_type crypts
+.base_room_number 11
+.base_corridor_number 11
+.gridsize 4 3
+.spacing 5
+.goal_room_number 11
+.connectivity 1.0
+.min_final_distance 3
+.hallway_battle 0 0
+.hallway_trap 0 0
+.hallway_obstacle 0 0
+.hallway_curio 0 0
+.hallway_hunger 0 0
+.total_room_battles 0 0
+.room_battle 0 0
+.room_guarded_curio 0 0
+.room_curio 0 0
+.room_guarded_treasure 0 0
+.room_treasure 0 0
+.secret_rooms 0 0
+.nudge_span 0 1
+.nudge_neighbour_bias 0.5
+.nudge_map_centre_bias 0.5
 
 map:
 .size short

@@ -1,0 +1,97 @@
+
+madwoman.sprite.combat.png
+size: 1951,1245
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 1149
+  size: 375, 94
+  orig: 375, 94
+  offset: 0, 0
+  index: -1
+left leg
+  rotate: false
+  xy: 1626, 575
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+left thigh
+  rotate: false
+  xy: 651, 575
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+strap
+  rotate: false
+  xy: 1, 575
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 976, 1
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+strap 3
+  rotate: false
+  xy: 1, 1
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+strap 2
+  rotate: false
+  xy: 1626, 1
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+right leg
+  rotate: false
+  xy: 1301, 575
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+right foot
+  rotate: false
+  xy: 651, 1
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+ankle strap
+  rotate: false
+  xy: 1301, 1
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+right thigh
+  rotate: false
+  xy: 326, 575
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 976, 575
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 326, 1
+  size: 323, 572
+  orig: 323, 572
+  offset: 0, 0
+  index: -1

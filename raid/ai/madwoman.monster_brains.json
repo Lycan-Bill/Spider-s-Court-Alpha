@@ -1,0 +1,274 @@
+{
+    "monster_brains": [
+		{
+            "id": "madwoman_A",
+            "skill_cooldowns": [
+        {
+          "combat_skill_id": "madwoman_guard",
+          "amount": 3
+        }
+      ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10000.0,
+                        "combat_skill_id": "madwoman_guard",
+                        "guarded_monsters_min": 0,
+						"guarded_monsters_max": 2,
+						"monsters_min": 2,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "madwoman_stun",
+                        "non_stunned_heroes_min" : 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "madwoman_stress"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 5.0,
+                        "can_target_deaths_door": true,
+                        "can_target_last_hero": true,
+                        "specific_combat_skill_id": "madwoman_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "resistance_type_id": "stun",
+                        "is_greater_comparison": false
+                    }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "madwoman_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 9.0,
+                        "can_target_deaths_door": true,
+                        "can_target_last_hero": true,
+                        "specific_combat_skill_id": "madwoman_guard",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": true,
+                        "is_guarded": false,
+                        "is_guarding": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+            ]
+        },
+		{
+            "id": "madwoman_B",
+            "skill_cooldowns": [
+        {
+          "combat_skill_id": "madwoman_guard",
+          "amount": 3
+        }
+      ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10000.0,
+                        "combat_skill_id": "madwoman_guard",
+                        "guarded_monsters_min": 0,
+						"guarded_monsters_max": 2,
+						"monsters_min": 3,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "madwoman_stun",
+                        "non_stunned_heroes_min" : 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "madwoman_stress"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 5.0,
+                        "can_target_deaths_door": true,
+                        "can_target_last_hero": true,
+                        "specific_combat_skill_id": "madwoman_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "resistance_type_id": "stun",
+                        "is_greater_comparison": false
+                    }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "madwoman_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 9.0,
+                        "can_target_deaths_door": true,
+                        "can_target_last_hero": true,
+                        "specific_combat_skill_id": "madwoman_guard",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": true,
+                        "is_guarded": false,
+                        "is_guarding": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+            ]
+        },
+		{
+            "id": "madwoman_C",
+            "skill_cooldowns": [
+        {
+          "combat_skill_id": "madwoman_guard",
+          "amount": 3
+        }
+      ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10000.0,
+                        "combat_skill_id": "madwoman_guard",
+                        "guarded_monsters_min": 0,
+						"guarded_monsters_max": 2,
+						"monsters_min": 3,
+                        "monsters_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "madwoman_stun",
+                        "non_stunned_heroes_min" : 1
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "madwoman_stress"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 5.0,
+                        "can_target_deaths_door": true,
+                        "can_target_last_hero": true,
+                        "specific_combat_skill_id": "madwoman_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "resistance_type_id": "stun",
+                        "is_greater_comparison": false
+                    }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "madwoman_stun",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "health_target",
+                    "data": {
+                        "base_chance": 9.0,
+                        "can_target_deaths_door": true,
+                        "can_target_last_hero": true,
+                        "specific_combat_skill_id": "madwoman_guard",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+                        "is_greater_comparison": true,
+                        "is_guarded": false,
+                        "is_guarding": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+            ]
+        }
+	]
+}

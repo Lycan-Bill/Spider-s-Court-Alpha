@@ -1,0 +1,20 @@
+
+madwoman.sprite.needle_crown.png
+size: 428,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+iron_crown
+  rotate: true
+  xy: 282, 21
+  size: 165, 144
+  orig: 165, 144
+  offset: 0, 0
+  index: -1
+stress_aura_needles_just_needles
+  rotate: false
+  xy: 2, 2
+  size: 278, 184
+  orig: 278, 184
+  offset: 0, 0
+  index: -1

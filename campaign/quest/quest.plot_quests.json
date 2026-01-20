@@ -70,20 +70,17 @@
 		{
 			"id": "plot_track_down_killer",
 			"has_achievement": true,
-			"dungeon_level": 3,
+			"dungeon_level": 0,
 			"quest": {
 				"is_plot_quest": true,
-				"type": "investigation",
+				"type": "explore",
 				"dungeon": "crypts",
 				"difficulty": 5,
 				"length": 1,
 				"torch_setting" : "rainfall",
 				"map_name": "Crime_Scene",
-				"goal_ids": [
-					"investigate_activate_crime_scene",
-					"investigate_gather_witness_evidence",
-					"investigate_explore_all_rooms"
-				],
+				"goal_ids": ["investigate_gather_witness_evidence",
+				"investigate_explore_all_rooms"],
 				"completion_reward": {
 					"resolve_xp": 2,
 					"items_definition": {
@@ -109,84 +106,25 @@
 					"amount": 1
 				}
 			],
-			"additional_trinket_completion_rewards": [],
 			"is_progression": true,
-			"is_repeatable": true,
-			"has_statue_contents": false,
-			"completion_dungeon_xp": false,
-			"is_town_progression_goals_enabled": false,
+			"is_repeatable": false,
+			"has_statue_contents": true,
+			"completion_dungeon_xp": true,
+			"is_town_progression_goals_enabled": true,
 			"can_retreat": true,
-			"retreat_always_from_raid": true,
+			"retreat_always_from_raid": false,
 			"retreat_party_kill_count": 0,
-			"is_surprise_enabled": false,
-			"is_scouting_enabled": false,
-			"is_roster_stress_cleared_on_completion": false,
+			"is_surprise_enabled": true,
+			"is_scouting_enabled": true,
+            "is_roster_stress_cleared_on_completion": false,
             "is_persistent_through_campaign" :  false,
 			"roster_buff_on_failure_minimum_party_resolve_level": 0,
 			"upgrade_tags_to_remove_on_ignore": [],
-			"upgrade_tags_to_remove_on_failure":  [],
+			"upgrade_tags_to_remove_on_failure": [],
 			"roster_buffs_to_apply_on_failure": [],
-			"party_quirks_to_apply_on_completion": [
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0
-				},
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0
-				},
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0
-				},
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0
-				},
-				{
-					"quirk_ids": [],
-					"chance": 0.0
-				}
-			],
-			"party_quirks_to_apply_on_failure": [
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0
-				},
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0	
-				},
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0	
-				},
-				{
-					"quirk_ids": [
-						"ripper_stalked"
-					],
-					"chance": 10000.0
-				},
-				{
-					"quirk_ids": [],
-					"chance": 0.0
-				}
-			],
-						"trinket_retention_minimum_rarity": "",
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
 			"trinket_retention_count": 0,
 			"has_quest_select_warnings": true,
 			"has_provision_warnings": true,
@@ -200,7 +138,7 @@
 			"id": "plot_kill_ripper",
 			"plot_quest_dependency": "plot_track_down_killer",
 			"has_achievement": true,
-			"dungeon_level": 4,
+			"dungeon_level": 5,
 			"quest": {
 				"is_plot_quest": true,
 				"type": "kill_boss",
@@ -288,6 +226,78 @@
 				}
 			],
 			"town_event_result_id_on_complete": "ripper_victory",
+			"can_continue_exploring_after_completing_quest": false
+		},
+		{
+			"id": "plot_ganger_sabatoge",
+			"has_achievement": true,
+			"dungeon_level": 0,
+			"quest": {
+				"is_plot_quest": true,
+				"type": "activate",
+				"dungeon": "crypts",
+				"difficulty": 5,
+				"length": 1,
+				"map_name": "ganger_sabatoge",
+				"goal_ids": [
+					"ganger_sabatoge"
+				],
+				"completion_reward": {
+					"resolve_xp": 16,
+					"items_definition": {
+						"system_config_type": "quest_rewards",
+						"items": {
+							"0": {
+								"id": "",
+								"type": "gold",
+								"amount": 15000
+							},
+							"1": {
+								"id": "crest",
+								"type": "heirloom",
+								"amount": 30
+							},
+							"2": {
+								"id": "boss_prophet",
+								"type": "trinket",
+								"amount": 1
+							}
+						}
+					}
+				}
+			},
+			"additional_trinket_completion_rewards": [
+				{
+					"rarity": "very_rare",
+					"amount": 1
+				}
+			],
+			"is_progression": false,
+			"is_repeatable": true,
+			"has_statue_contents": false,
+			"completion_dungeon_xp": false,
+			"is_town_progression_goals_enabled": true,
+			"can_retreat": true,
+			"retreat_always_from_raid": false,
+			"retreat_party_kill_count": 0,
+			"is_surprise_enabled": false,
+			"is_scouting_enabled": false,
+			"is_roster_stress_cleared_on_completion": false,
+			"upgrade_tags_to_remove_on_ignore": [],
+			"upgrade_tags_to_remove_on_failure": [],
+			"roster_buffs_to_apply_on_failure": [],
+			"roster_buff_on_failure_minimum_party_resolve_level": 0,
+			"party_quirks_to_apply_on_completion": [],
+			"party_quirks_to_apply_on_failure": [],
+			"trinket_retention_minimum_rarity": "",
+			"trinket_retention_count": 0,
+			"has_quest_select_warnings": true,
+			"has_provision_warnings": false,
+			"suggested_trinkets": [],
+			"additional_provisions": {
+				"system_config_type": "quest_provision",
+				"items": {}
+			},
 			"can_continue_exploring_after_completing_quest": false
 		},
 		{

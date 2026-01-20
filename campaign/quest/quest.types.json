@@ -2,29 +2,30 @@
     "goals": [
  
            {
-            "id": "investigate_activate_crime_scene",
-            "type": "activate",
-            "starting_items": [],
-            "ignore_fog_of_war": false,
-            "show_as_quest": false,
-            "data": {
-                "curio_name": "crime_scene",
-                "amount": 1
-            }
-        },
-        {
             "id": "investigate_gather_witness_evidence",
             "type": "gather",
 			"starting_items": [],
             "ignore_fog_of_war": false,
             "show_as_quest": false,
 			"data": {
-                "curio_name": "blood_trail_1",
+                "curio_name": "crime_scene",
+				"amount": 1,
                 "item": {
                     "type": "quest_item",
-                    "id": "holy_relic",
+                    "id": "witness_evidence",
                     "amount": 1
                 }
+      }
+    },
+    {
+            "id": "save_killer_victim",
+            "type": "activate",
+            "starting_items": [],
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "data": {
+                "curio_name": "killer_victim",
+                "amount": 1
             }
         },
         {
@@ -249,6 +250,23 @@
             "data": {
                 "curio_name": "teleporter",
                 "amount": 1
+            }
+        },
+        {
+            "id": "ganger_sabatoge",
+            "type": "activate",
+            "ignore_fog_of_war": false,
+            "show_as_quest": false,
+            "starting_items": [
+                {
+                    "type": "quest_item",
+                    "id": "holy_water",
+                    "amount": 2
+                }
+            ],
+            "data": {
+                "curio_name": "corrupted_altar",
+                "amount": 2
             }
         },
         {
@@ -625,7 +643,22 @@
                     "goals": [
                         [
                             "gather_holy_relic_rainfall"
-                        ]
+                         ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "investigation",
+            "goal_lists": [
+                {
+                    "dungeon": "crypts",
+                    "goals": [
+                        [
+							"investigate_activate_crime_scene_1",
+                            "investigate_activate_crime_scene_2",
+							"investigate_activate_crime_scene_3"
+                         ]
                     ]
                 }
             ]
@@ -638,21 +671,6 @@
                     "goals": [
                         [
                             "inventory_activate_corrupted_altar_rainfall"
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "investigation",
-            "goal_lists": [
-                {
-                    "dungeon": "crypts",
-                    "goals": [
-                        [
-                            "investigate_activate_crime_scene",
-							"investigate_gather_witness_evidence",
-							"investigate_explore_all_rooms"
                         ]
                     ]
                 }

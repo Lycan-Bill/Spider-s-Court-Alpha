@@ -1,0 +1,20 @@
+
+ganger_lookout.sprite.attack_lookout.png
+size: 675,613
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ground_shadow
+  rotate: true
+  xy: 610, 254
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+lookout
+  rotate: false
+  xy: 2, 2
+  size: 606, 609
+  orig: 606, 609
+  offset: 0, 0
+  index: -1

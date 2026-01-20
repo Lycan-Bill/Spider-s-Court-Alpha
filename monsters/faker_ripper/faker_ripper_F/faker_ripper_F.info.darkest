@@ -1,0 +1,14 @@
+display: .size 1
+enemy_type: .id "eldritch"
+enemy_type: .id "vampire"
+stats: .hp 25 .def 23% .prot 0 .spd 12 .stun_resist 200% .poison_resist 200% .bleed_resist 55% .debuff_resist 200% .move_resist 55%
+skill: .id "fake_ripper_stress" .type "melee" .atk 105.9% .dmg 0 0 .crit 9% .effect "ripper_stress" "ripper_skill_shuffle" .launch 4321 .target 1234
+
+personality: .prefskill -1
+loot: .code "NONE" .count 0
+initiative: .number_of_turns_per_round 1
+monster_brain: .id fake_ripper
+tag: .id "boss"
+battle_modifier: .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False .can_be_missed False .living_hero_buff_instance_ids disable_heal
+death_class: .random_monster_class_ids madwoman_C bound_lunatic_C madman_C .random_monster_class_chances 1.0 1.0 1.0 .use_previous_monster_hp false .is_valid_on_bleed_dot true .is_valid_on_blight_dot true .is_valid_on_crit true .clear_monster_brain_cooldowns false .reset_scale_anim false .on_change_sfx true
+life_link: .base_class "ripper"

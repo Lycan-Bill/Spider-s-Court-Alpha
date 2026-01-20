@@ -1,6 +1,33 @@
 {
-  "buffs": [
-    {
+   "buffs":
+   [  
+      {
+         "id" : "tt_spacer1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tt_spacer1"
+         }
+      },
+      {
+         "id" : "tt_spacer2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "",
+         "amount" : 1.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tt_spacer2"
+         }
+      },
+      {
 			"id" : "HEX_TT",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "HEX_TT",
@@ -127,8 +154,114 @@
 				"float" : 0,
 				"string" : ""
 			}
-		},
-		{
+      },
+
+      {
+         "id" : "molotov_tt",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "molotov_tt",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      }
+      },
+
+      {
+         "id" : "molotov_tt2",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "molotov_tt2",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      }
+   },
+   {
+      "id" : "ichor_tt",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "ichor_tt",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+     }
+   },
+   {
+      "id" : "ichor_tt2",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "ichor_tt2",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+     }
+   },
+   {
+      "id" : "berserk_tt",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "berserk_tt",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      }
+   },
+   {
+      "id" : "berserk_tt2",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "berserk_tt2",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      }
+   },
+   {
+      "id" : "smoke_tt",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "smoke_tt",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      }
+   },
+   {
+      "id" : "smoke_tt2",
+      "stat_type" : "upgrade_discount",
+      "stat_sub_type" : "smoke_tt2",
+      "amount" : 0,
+      "remove_if_not_active" : false,
+      "rule_type" : "always",
+      "is_false_rule" : false,
+      "rule_data" : {
+         "float" : 0,
+         "string" : ""
+      }
+   },
+   {
       "id": "dd2_burn_token_tt",
       "stat_type": "upgrade_discount",
       "stat_sub_type": "dd2_burn_token_tt",

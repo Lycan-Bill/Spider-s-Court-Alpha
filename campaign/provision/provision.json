@@ -5,6 +5,7 @@
         [
             { "type": "supply", "id": "firewood", "amount": 0 },
             { "type": "provision", "id": "", "amount": 0 },
+			{ "type": "supply", "id": "torch", "amount": 0 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },
@@ -12,12 +13,12 @@
             { "type": "supply", "id": "medicinal_herbs", "amount": 0 },
             { "type": "supply", "id": "skeleton_key", "amount": 0 },
             { "type": "supply", "id": "holy_water", "amount": 0 },
-            { "type": "supply", "id": "laudanum", "amount": 0 },
-            { "type": "supply", "id": "torch", "amount": 0 }
+            { "type": "supply", "id": "laudanum", "amount": 0 }
         ],
         [
             { "type": "supply", "id": "firewood", "amount": 1 },
             { "type": "provision", "id": "", "amount": 0 },
+			{ "type": "supply", "id": "torch", "amount": 0 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },
@@ -25,12 +26,12 @@
             { "type": "supply", "id": "medicinal_herbs", "amount": 0 },
             { "type": "supply", "id": "skeleton_key", "amount": 0 },
             { "type": "supply", "id": "holy_water", "amount": 0 },
-            { "type": "supply", "id": "laudanum", "amount": 0 },
-            { "type": "supply", "id": "torch", "amount": 0 }
+            { "type": "supply", "id": "laudanum", "amount": 0 }
         ],
         [
             { "type": "supply", "id": "firewood", "amount": 2 },
             { "type": "provision", "id": "", "amount": 0 },
+			{ "type": "supply", "id": "torch", "amount": 0 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },
@@ -38,12 +39,12 @@
             { "type": "supply", "id": "medicinal_herbs", "amount": 0 },
             { "type": "supply", "id": "skeleton_key", "amount": 0 },
             { "type": "supply", "id": "holy_water", "amount": 0 },
-            { "type": "supply", "id": "laudanum", "amount": 0 },
-            { "type": "supply", "id": "torch", "amount": 0 }
+            { "type": "supply", "id": "laudanum", "amount": 0 }
         ],
         [
             { "type": "supply", "id": "firewood", "amount": 4 },
             { "type": "provision", "id": "", "amount": 0 },
+			{ "type": "supply", "id": "torch", "amount": 0 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },
@@ -51,12 +52,12 @@
             { "type": "supply", "id": "medicinal_herbs", "amount": 0 },
             { "type": "supply", "id": "skeleton_key", "amount": 0 },
             { "type": "supply", "id": "holy_water", "amount": 0 },
-            { "type": "supply", "id": "laudanum", "amount": 0 },
-            { "type": "supply", "id": "torch", "amount": 0 }
+            { "type": "supply", "id": "laudanum", "amount": 0 }
         ],
         [
             { "type": "supply", "id": "firewood", "amount": 0 },
             { "type": "provision", "id": "", "amount": 0 },
+			{ "type": "supply", "id": "torch", "amount": 0 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },
@@ -64,8 +65,7 @@
             { "type": "supply", "id": "medicinal_herbs", "amount": 0 },
             { "type": "supply", "id": "skeleton_key", "amount": 0 },
             { "type": "supply", "id": "holy_water", "amount": 0 },
-            { "type": "supply", "id": "laudanum", "amount": 0 },
-            { "type": "supply", "id": "torch", "amount": 0 }
+            { "type": "supply", "id": "laudanum", "amount": 0 }
         ]
     ],
     
@@ -134,6 +134,7 @@
         [ ],
         [
             { "type": "provision", "id": "", "amount": 18 },
+            { "type": "supply", "id": "torch", "amount": 3 },
             { "type": "supply", "id": "shovel", "amount": 4 },
             { "type": "supply", "id": "antivenom", "amount": 6 },
             { "type": "supply", "id": "bandage", "amount": 6 },
@@ -142,10 +143,15 @@
             { "type": "supply", "id": "skeleton_key", "amount": 6 },
             { "type": "supply", "id": "holy_water", "amount": 6 },
             { "type": "supply", "id": "laudanum", "amount": 6 },
-            { "type": "supply", "id": "torch", "amount": 1 }		
+			{ "type": "estate", "id": "Berserk_Tonic", "amount": 6 },
+			{ "type": "estate", "id": "molotov_cocktail", "amount": 6 },
+			{ "type": "estate", "id": "ichor_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_smoke_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_salts", "amount": 6 }
         ],
         [
             { "type": "provision", "id": "", "amount": 24 },
+            { "type": "supply", "id": "torch", "amount": 3 },
             { "type": "supply", "id": "shovel", "amount": 6 },
             { "type": "supply", "id": "antivenom", "amount": 9 },
             { "type": "supply", "id": "bandage", "amount": 9 },
@@ -154,10 +160,15 @@
             { "type": "supply", "id": "skeleton_key", "amount": 9 },
             { "type": "supply", "id": "holy_water", "amount": 9 },
             { "type": "supply", "id": "laudanum", "amount": 9 },
-            { "type": "supply", "id": "torch", "amount": 1 }
+			{ "type": "estate", "id": "Berserk_Tonic", "amount": 6 },
+			{ "type": "estate", "id": "molotov_cocktail", "amount": 6 },
+			{ "type": "estate", "id": "ichor_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_smoke_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_salts", "amount": 6 }
         ],
         [
             { "type": "provision", "id": "", "amount": 36 },
+            { "type": "supply", "id": "torch", "amount": 3 },
             { "type": "supply", "id": "shovel", "amount": 8 },
             { "type": "supply", "id": "antivenom", "amount": 12 },
             { "type": "supply", "id": "bandage", "amount": 12 },
@@ -166,10 +177,15 @@
             { "type": "supply", "id": "skeleton_key", "amount": 12 },
             { "type": "supply", "id": "holy_water", "amount": 12 },
             { "type": "supply", "id": "laudanum", "amount": 9 },
-            { "type": "supply", "id": "torch", "amount": 1 }
+			{ "type": "estate", "id": "Berserk_Tonic", "amount": 6 },
+			{ "type": "estate", "id": "molotov_cocktail", "amount": 6 },
+			{ "type": "estate", "id": "ichor_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_smoke_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_salts", "amount": 6 }
         ],
         [
             { "type": "provision", "id": "", "amount": 42 },
+            { "type": "supply", "id": "torch", "amount": 3 },
             { "type": "supply", "id": "shovel", "amount": 10 },
             { "type": "supply", "id": "antivenom", "amount": 15 },
             { "type": "supply", "id": "bandage", "amount": 15 },
@@ -178,10 +194,15 @@
             { "type": "supply", "id": "skeleton_key", "amount": 15 },
             { "type": "supply", "id": "holy_water", "amount": 15 },
             { "type": "supply", "id": "laudanum", "amount": 15 },
-            { "type": "supply", "id": "torch", "amount": 1 }
+			{ "type": "estate", "id": "Berserk_Tonic", "amount": 6 },
+			{ "type": "estate", "id": "molotov_cocktail", "amount": 6 },
+			{ "type": "estate", "id": "ichor_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_smoke_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_salts", "amount": 6 }
         ],
         [
             { "type": "provision", "id": "", "amount": 36 },
+            { "type": "supply", "id": "torch", "amount": 3 },
             { "type": "supply", "id": "shovel", "amount": 8 },
             { "type": "supply", "id": "antivenom", "amount": 12 },
             { "type": "supply", "id": "bandage", "amount": 12 },
@@ -190,7 +211,11 @@
             { "type": "supply", "id": "skeleton_key", "amount": 12 },
             { "type": "supply", "id": "holy_water", "amount": 12 },
             { "type": "supply", "id": "laudanum", "amount": 9 },
-            { "type": "supply", "id": "torch", "amount": 1 }
+			{ "type": "estate", "id": "Berserk_Tonic", "amount": 6 },
+			{ "type": "estate", "id": "molotov_cocktail", "amount": 6 },
+			{ "type": "estate", "id": "ichor_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_smoke_bomb", "amount": 6 },
+			{ "type": "estate", "id": "sc_salts", "amount": 6 }
         ]
     ],
     "confirm_datas" :

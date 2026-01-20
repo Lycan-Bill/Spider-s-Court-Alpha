@@ -1,0 +1,20 @@
+
+ganger_mork.sprite.salvo.png
+size: 673,614
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sweeping_Salvo
+  rotate: false
+  xy: 2, 2
+  size: 604, 610
+  orig: 604, 610
+  offset: 0, 0
+  index: -1
+ground_shadow
+  rotate: true
+  xy: 608, 255
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

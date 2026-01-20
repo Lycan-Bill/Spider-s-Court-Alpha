@@ -122,7 +122,7 @@
       {
          "id" : "man_at_arms.crush",
          "is_instanced" : true,
-         "tags" : ["combat_skill"],
+         "tags" : ["combat_skill", "vampire_skill"],
          "requirements" : 
          [
             {
@@ -614,7 +614,7 @@
                ],
                "prerequisite_resolve_level" : 5
             }
-         ]
-      }
-]
+      ]
+    }
+  ]
 }

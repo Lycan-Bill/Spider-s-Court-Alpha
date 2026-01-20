@@ -1,0 +1,4 @@
+commonfx: .deathfx death_medium
+skill: .id "madwoman_guard" .anim "autophobia" .fx "autophobia_vfx" .targheadfx "needle_crown"
+skill: .id "madwoman_stun" .anim "condemn" .targchestfx "angry_hive_target"
+skill: .id "madwoman_stress" .anim "hysteria" .targchestfx "angry_hive_target" .area_pos_offset -150 0 .target_area_pos_offset 225 0

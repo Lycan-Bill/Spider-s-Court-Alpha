@@ -459,9 +459,23 @@
       "rule_data": {
         "float": 0,
         "string": ""
-      }
+     }
     },
-    {
+    {	
+         "id" : "Berserk_Heal_Prevention",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "damage_heal",
+         "amount" : -3.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+	  {
 	  "id": "spider_bishop_blight_amount_increase",
       "stat_type": "hp_dot_poison_amount_percent",
       "stat_sub_type": "",
@@ -1107,6 +1121,32 @@
       "stat_type": "debuff_chance",
       "stat_sub_type": "",
       "amount": -20,
+      "remove_if_not_active": true,
+      "rule_type": "is_actor_status",
+      "is_false_rule": true,
+      "rule_data": {
+        "float": 0,
+        "string": "stunned"
+      }
+    },
+    {
+      "id": "SC_Stimulate_spd_Buff",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 999,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "SC_Daze_target_debuff_chance",
+      "stat_type": "debuff_chance",
+      "stat_sub_type": "",
+      "amount": 20,
       "remove_if_not_active": true,
       "rule_type": "is_actor_status",
       "is_false_rule": true,
@@ -2059,6 +2099,9 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         }
+      },
+      {      
          "id" : "blood_collector_heal_bleed_1_buff",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "dot",

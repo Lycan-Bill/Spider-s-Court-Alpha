@@ -731,10 +731,6 @@
         {
           "combat_skill_id": "killer_threaten",
           "amount": 4
-       },
-        {
-          "combat_skill_id": "killer_threaten_anger",
-          "amount": 4
         },
         {
           "combat_skill_id": "ripper_bonesaw",
@@ -743,24 +739,28 @@
         {
           "combat_skill_id": "ripper_knife",
           "amount": 1
-         },
-        {
-          "combat_skill_id": "ripper_buffs",
-          "amount": 3
         },
         {
           "combat_skill_id": "killer_torture",
-          "amount": 2
+          "amount": 5
         },
         {
-          "combat_skill_id": "killer_torture_anger",
-          "amount": 2
-        },
-        {
-          "combat_skill_id": "ripper_fix",
+          "combat_skill_id": "ripper_chemical",
           "amount": 3
+         },
+        {
+                    "combat_skill_id": "ripper_drug_1",
+                    "amount": 9999
+        },
+        {
+                    "combat_skill_id": "ripper_drug_2",
+                    "amount": 9999
+        },
+        {
+                    "combat_skill_id": "ripper_drug_3",
+                    "amount": 9999
         }
-      ],
+        ],
       "skill_selection_desires": [
         {
          "type": "performer_dot_skill",
@@ -782,28 +782,13 @@
            }
         },
         {
-          "type": "ally_alive_skill",
-          "data": {
-            "base_chance": 5045,
-            "combat_skill_id": "killer_torture_anger",
-            "ally_base_class_id": "killer_victim"
-          }
-        },
-        {
+          
           "type": "ally_alive_skill",
           "data": {
             "base_chance": 240,
             "combat_skill_id": "killer_threaten",
             "ally_base_class_id": "killer_victim"
           }
-        },
-        {
-          "type": "ally_alive_skill",
-          "data": {
-            "base_chance": 140,
-            "combat_skill_id": "killer_threaten_anger",
-            "ally_base_class_id": "killer_victim"
-         }
         },
         {
           "type": "ally_alive_skill",
@@ -831,15 +816,15 @@
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 170,
-            "combat_skill_id": "ripper_knife"
+            "base_chance": 195,
+            "combat_skill_id": "ripper_chemical"
           }
         },
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 125,
-            "combat_skill_id": "ripper_fix"
+            "base_chance": 170,
+            "combat_skill_id": "ripper_knife"
           }
         },
         {
@@ -868,10 +853,23 @@
         {
           "type": "ally_class_target",
           "data": {
-            "base_chance": 5700,
-            "specific_combat_skill_id": "killer_torture_anger",
+            "base_chance": -6000,
+            "specific_combat_skill_id": "killer_torture",
             "is_exclusive_desire": false,
-            "ally_base_class_id": "killer_victim",
+            "ally_base_class_id": "killer_tools",
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true,
+            "is_guarded": false,
+            "is_guarding": false
+           }
+        },
+        {
+          "type": "ally_class_target",
+          "data": {
+            "base_chance": -6000,
+            "specific_combat_skill_id": "killer_torture",
+            "is_exclusive_desire": false,
+            "ally_base_class_id": "killer_trap_stun",
             "is_enemy_target_desire": false,
             "is_friendly_target_desire": true,
             "is_guarded": false,
@@ -883,19 +881,6 @@
           "data": {
             "base_chance": 5000,
             "specific_combat_skill_id": "killer_threaten",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "killer_victim",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true,
-            "is_guarded": false,
-            "is_guarding": false
-         }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": 5000,
-            "specific_combat_skill_id": "killer_threaten_anger",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_victim",
             "is_enemy_target_desire": false,
@@ -921,32 +906,6 @@
           "type": "ally_class_target",
           "data": {
             "base_chance": -6000,
-            "specific_combat_skill_id": "killer_threaten_anger",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "killer_tools",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true,
-            "is_guarded": false,
-            "is_guarding": false
-           }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -6000,
-            "specific_combat_skill_id": "killer_threaten_anger",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "killer_trap_stun",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true,
-            "is_guarded": false,
-            "is_guarding": false
-           }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": -6000,
             "specific_combat_skill_id": "killer_threaten",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_tools",
@@ -963,19 +922,6 @@
             "specific_combat_skill_id": "killer_threaten",
             "is_exclusive_desire": false,
             "ally_base_class_id": "killer_trap_stun",
-            "is_enemy_target_desire": false,
-            "is_friendly_target_desire": true,
-            "is_guarded": false,
-            "is_guarding": false
-           }
-        },
-        {
-          "type": "ally_class_target",
-          "data": {
-            "base_chance": 5000,
-            "specific_combat_skill_id": "ripper_fix",
-            "is_exclusive_desire": false,
-            "ally_base_class_id": "killer_tools",
             "is_enemy_target_desire": false,
             "is_friendly_target_desire": true,
             "is_guarded": false,
@@ -990,16 +936,6 @@
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": true
-         }
-        },
-        {
-          "type": "random_target",
-          "data": {
-            "base_chance": 6000,
-            "specific_combat_skill_id": "ripper_bonesaw_anger",
-            "is_exclusive_desire": false,
-            "is_enemy_target_desire": true,
-            "is_friendly_target_desire": false
           }
         },
         {
@@ -1015,11 +951,54 @@
             "resistance_type_id": "poison",
             "is_greater_comparison": false
           }
-        }
-      ],
-      "bonus_initiative_desires": []
-    },
-    {
+                }
+            ],
+            "bonus_initiative_desires": [
+                {
+                    "type": "hp_ratio_threshold",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "ripper_drug_1",
+                        "health_ratio_threshold": 0.75,
+                        "is_under_threshold": true
+                    }
+                },
+                {
+                    "type": "hp_ratio_threshold",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "ripper_drug_2",
+                        "health_ratio_threshold": 0.50,
+                        "is_under_threshold": true
+                    }
+                },
+                {
+                    "type": "hp_ratio_threshold",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "ripper_drug_3",
+                        "health_ratio_threshold": 0.25,
+                        "is_under_threshold": true
+                    }
+                }
+            ]
+        },
+        {
       "id": "Killer_victim_D",
       "skill_cooldowns": [
         {
@@ -1053,6 +1032,33 @@
             "is_exclusive_desire": false,
             "is_enemy_target_desire": true,
             "is_friendly_target_desire": true
+          }
+        }
+      ],
+      "bonus_initiative_desires": []
+    },
+    {
+      "id": "fake_ripper",
+      "skill_cooldowns": [],
+      "skill_selection_desires": [
+        {
+          "type": "specific_skill",
+          "data": {
+            "base_chance": 6000,
+            "combat_skill_id": "fake_ripper_stress"
+			
+          }
+        }
+      ],
+      "target_selection_desires": [
+        {
+          "type": "random_target",
+          "data": {
+            "base_chance": 1,
+            "specific_combat_skill_id": "",
+            "is_exclusive_desire": false,
+            "is_enemy_target_desire": true,
+            "is_friendly_target_desire": false
           }
         }
       ],
@@ -1094,7 +1100,7 @@
         {
           "type": "specific_skill",
           "data": {
-            "base_chance": 200,
+            "base_chance": 20000,
             "combat_skill_id": "gork_point_blank"
           }
         },
@@ -1168,10 +1174,88 @@
         {
           "type": "ally_class_target",
           "data": {
+            "base_chance": -5000,
+            "specific_combat_skill_id": "ammo_swap_blight",
+            "is_exclusive_desire": false,
+            "ally_base_class_id": "crate_bleed",
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true,
+            "is_guarded": false,
+            "is_guarding": false
+          }
+        },
+        {
+          "type": "ally_class_target",
+          "data": {
+            "base_chance": -5000,
+            "specific_combat_skill_id": "ammo_swap_blight",
+            "is_exclusive_desire": false,
+            "ally_base_class_id": "crate_fire",
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true,
+            "is_guarded": false,
+            "is_guarding": false
+          }
+        },
+        {
+          "type": "ally_class_target",
+          "data": {
+            "base_chance": -5000,
+            "specific_combat_skill_id": "ammo_swap_bleed",
+            "is_exclusive_desire": false,
+            "ally_base_class_id": "crate_blight",
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true,
+            "is_guarded": false,
+            "is_guarding": false
+          }
+        },
+        {
+          "type": "ally_class_target",
+          "data": {
+            "base_chance": -5000,
+            "specific_combat_skill_id": "ammo_swap_bleed",
+            "is_exclusive_desire": false,
+            "ally_base_class_id": "crate_fire",
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true,
+            "is_guarded": false,
+            "is_guarding": false
+          }
+        },
+        {
+          "type": "ally_class_target",
+          "data": {
             "base_chance": 5000,
             "specific_combat_skill_id": "ammo_swap_bleed",
             "is_exclusive_desire": false,
             "ally_base_class_id": "crate_bleed",
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true,
+            "is_guarded": false,
+            "is_guarding": false
+         }
+        },
+        {
+          "type": "ally_class_target",
+          "data": {
+            "base_chance": -5000,
+            "specific_combat_skill_id": "ammo_swap_fire",
+            "is_exclusive_desire": false,
+            "ally_base_class_id": "crate_bleed",
+            "is_enemy_target_desire": false,
+            "is_friendly_target_desire": true,
+            "is_guarded": false,
+            "is_guarding": false
+          }
+        },
+        {
+          "type": "ally_class_target",
+          "data": {
+            "base_chance": -5000,
+            "specific_combat_skill_id": "ammo_swap_fire",
+            "is_exclusive_desire": false,
+            "ally_base_class_id": "crate_blight",
             "is_enemy_target_desire": false,
             "is_friendly_target_desire": true,
             "is_guarded": false,
@@ -1218,6 +1302,10 @@
         {
           "combat_skill_id": "mork_spin",
           "amount": 3
+        },
+        {
+          "combat_skill_id": "mork_bodyguard",
+          "amount": 4
         }
       ],
       "skill_selection_desires": [
@@ -1267,6 +1355,13 @@
             "monsters_min": 1,
             "monsters_max": 1,
             "combat_skill_id": "mork_summon"
+          }
+        },
+        {
+          "type": "specific_skill",
+          "data": {
+            "base_chance": 200,
+            "combat_skill_id": "mork_bodyguard"
           }
         }
       ],
